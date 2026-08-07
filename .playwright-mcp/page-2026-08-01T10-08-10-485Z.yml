@@ -1,0 +1,141 @@
+- generic [active] [ref=f43e1]:
+  - generic [ref=f43e2]:
+    - banner [ref=f43e3]:
+      - generic [ref=f43e4]:
+        - link "Eurowindow" [ref=f43e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f43e6]
+        - navigation "Điều hướng chính" [ref=f43e7]:
+          - link "Trang chủ" [ref=f43e8] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f43e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Dự án/Công trình" [ref=f43e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "Dịch vụ" [ref=f43e18] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f43e22] [cursor=pointer]:
+            - /url: /tin-tuc
+        - generic [ref=f43e23]:
+          - link "Liên hệ ngay" [ref=f43e24] [cursor=pointer]:
+            - /url: "#lien-he"
+          - img "Tiếng Việt" [ref=f43e25]
+    - main [ref=f43e26]:
+      - generic [ref=f43e28]:
+        - heading "DỰ ÁN CỦA EUROWINDOW" [level=1] [ref=f43e29]
+        - navigation "Breadcrumb" [ref=f43e30]:
+          - link "Trang chủ" [ref=f43e31] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f43e34]: Dự án
+      - generic [ref=f43e36]:
+        - generic [ref=f43e37]:
+          - search [ref=f43e38]:
+            - searchbox "Tìm kiếm dự án" [ref=f43e42]
+          - navigation "Danh mục dự án" [ref=f43e43]:
+            - button "Tất cả" [pressed] [ref=f43e44]
+            - button "Biệt thự" [ref=f43e45]
+            - button "Nhà phố" [ref=f43e46]
+            - button "Căn hộ" [ref=f43e47]
+            - button "Công trình quốc gia" [ref=f43e48]
+            - button "Văn phòng" [ref=f43e49]
+            - button "Nhà ở" [ref=f43e50]
+        - generic [ref=f43e51]:
+          - link [ref=f43e174] [cursor=pointer]:
+            - /url: /du-an/toa-nha-eurowindow
+            - img "Tòa nhà Eurowindow" [ref=f43e176]
+            - generic [ref=f43e177]:
+              - heading "Tòa nhà Eurowindow" [level=2] [ref=f43e178]
+              - paragraph [ref=f43e179]: Hà Nội
+          - link [ref=f43e183] [cursor=pointer]:
+            - /url: /du-an/san-bay-nha-ga
+            - img "Sân bay & nhà ga" [ref=f43e185]
+            - generic [ref=f43e186]:
+              - heading "Sân bay & nhà ga" [level=2] [ref=f43e187]
+              - paragraph [ref=f43e188]: Công trình quốc gia
+          - link [ref=f43e192] [cursor=pointer]:
+            - /url: /du-an/chung-cu-cao-cap
+            - img "Chung cư cao cấp" [ref=f43e194]
+            - generic [ref=f43e195]:
+              - heading "Chung cư cao cấp" [level=2] [ref=f43e196]
+              - paragraph [ref=f43e197]: TP. Hồ Chí Minh
+          - link [ref=f43e201] [cursor=pointer]:
+            - /url: /du-an/biet-thu-nha-vuon
+            - img "Biệt thự & nhà vườn" [ref=f43e203]
+            - generic [ref=f43e204]:
+              - heading "Biệt thự & nhà vườn" [level=2] [ref=f43e205]
+              - paragraph [ref=f43e206]: Đà Lạt
+          - link [ref=f43e210] [cursor=pointer]:
+            - /url: /du-an/trung-tam-thuong-mai
+            - img "Trung tâm thương mại" [ref=f43e212]
+            - generic [ref=f43e213]:
+              - heading "Trung tâm thương mại" [level=2] [ref=f43e214]
+              - paragraph [ref=f43e215]: Hà Nội
+          - link [ref=f43e219] [cursor=pointer]:
+            - /url: /du-an/nha-pho-do-thi
+            - img "Nhà phố đô thị" [ref=f43e221]
+            - generic [ref=f43e222]:
+              - heading "Nhà phố đô thị" [level=2] [ref=f43e223]
+              - paragraph [ref=f43e224]: Đà Nẵng
+          - link [ref=f43e228] [cursor=pointer]:
+            - /url: /du-an/khach-san-nghi-duong
+            - img "Khách sạn & nghỉ dưỡng" [ref=f43e230]
+            - generic [ref=f43e231]:
+              - heading "Khách sạn & nghỉ dưỡng" [level=2] [ref=f43e232]
+              - paragraph [ref=f43e233]: Phan Thiết
+          - link [ref=f43e237] [cursor=pointer]:
+            - /url: /du-an/benh-vien-y-te
+            - img "Bệnh viện & y tế" [ref=f43e239]
+            - generic [ref=f43e240]:
+              - heading "Bệnh viện & y tế" [level=2] [ref=f43e241]
+              - paragraph [ref=f43e242]: Cần Thơ
+          - link [ref=f43e246] [cursor=pointer]:
+            - /url: /du-an/van-phong-cho-thue
+            - img "Văn phòng cho thuê" [ref=f43e248]
+            - generic [ref=f43e249]:
+              - heading "Văn phòng cho thuê" [level=2] [ref=f43e250]
+              - paragraph [ref=f43e251]: TP. Hồ Chí Minh
+          - link [ref=f43e257] [cursor=pointer]:
+            - /url: /du-an/nha-ong-hien-dai
+            - img "Nhà ống hiện đại" [ref=f43e259]
+            - generic [ref=f43e260]:
+              - heading "Nhà ống hiện đại" [level=2] [ref=f43e261]
+              - paragraph [ref=f43e262]: Hải Phòng
+          - link [ref=f43e266] [cursor=pointer]:
+            - /url: /du-an/can-ho-penthouse
+            - img "Căn hộ Penthouse" [ref=f43e268]
+            - generic [ref=f43e269]:
+              - heading "Căn hộ Penthouse" [level=2] [ref=f43e270]
+              - paragraph [ref=f43e271]: Hà Nội
+          - link [ref=f43e275] [cursor=pointer]:
+            - /url: /du-an/nha-tho-tru-so
+            - img "Nhà thờ & trụ sở" [ref=f43e277]
+            - generic [ref=f43e278]:
+              - heading "Nhà thờ & trụ sở" [level=2] [ref=f43e279]
+              - paragraph [ref=f43e280]: Bắc Ninh
+    - contentinfo [ref=f43e135]:
+      - generic [ref=f43e136]:
+        - generic [ref=f43e137]:
+          - link "Eurowindow" [ref=f43e138] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f43e139]
+          - paragraph [ref=f43e140]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f43e141]:
+          - heading "Liên hệ" [level=2] [ref=f43e142]
+          - generic [ref=f43e143]:
+            - paragraph [ref=f43e144]: Eurowindow Office Building
+            - paragraph [ref=f43e145]: "Hotline: 0909 888 000"
+            - paragraph [ref=f43e146]: infoew@eurowindow.biz
+        - generic [ref=f43e147]:
+          - heading "Khám phá" [level=2] [ref=f43e148]
+          - generic [ref=f43e149]:
+            - link "Giới thiệu" [ref=f43e150] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f43e151] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f43e152] [cursor=pointer]:
+              - /url: /dich-vu
+            - link "Tin tức" [ref=f43e153] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f43e154]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f43e160] [cursor=pointer]
+  - alert [ref=f43e164]

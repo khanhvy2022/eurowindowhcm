@@ -1,0 +1,13 @@
+[     125ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[     141ms] [LOG] [HMR] connected @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  194258ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  194311ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  194376ms] [LOG] [Fast Refresh] done in 165ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  267178ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  267344ms] [LOG] [Fast Refresh] done in 257ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  275145ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  275235ms] [LOG] [Fast Refresh] done in 143ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  278686ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  278854ms] [LOG] [Fast Refresh] done in 228ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  279031ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489
+[  279045ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3100/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2489

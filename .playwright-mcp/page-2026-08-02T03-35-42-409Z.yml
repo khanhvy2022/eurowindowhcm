@@ -1,0 +1,103 @@
+- generic [active] [ref=f20e1]:
+  - button "Open Next.js Dev Tools" [ref=f20e192] [cursor=pointer]
+  - alert [ref=f20e196]: Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới” – Tin tức Eurowindow
+  - generic [ref=f20e197]:
+    - banner [ref=f20e198]:
+      - generic [ref=f20e199]:
+        - link "Eurowindow" [ref=f20e200] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f20e201]
+        - navigation "Điều hướng chính" [ref=f20e202]:
+          - link "Trang chủ" [ref=f20e203] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f20e205] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Dự án/Công trình" [ref=f20e209] [cursor=pointer]:
+            - /url: /du-an
+          - link "Dịch vụ" [ref=f20e213] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f20e217] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic "Language selector" [ref=f20e218]:
+            - link [ref=f20e219] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f20e220]
+            - link [ref=f20e221] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f20e222]
+        - link "Liên hệ ngay" [ref=f20e224] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f20e225]:
+      - generic [ref=f20e227]:
+        - navigation "Breadcrumb" [ref=f20e228]:
+          - link "Trang chủ" [ref=f20e229] [cursor=pointer]:
+            - /url: /
+          - link "Tin tức" [ref=f20e232] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic [ref=f20e235]: Hoạt động
+        - paragraph [ref=f20e236]: Hoạt động · 25/07/2026
+        - heading "Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”" [level=1] [ref=f20e237]
+        - paragraph [ref=f20e238]: Tọa đàm quy tụ các diễn giả, chuyên gia và lãnh đạo nhằm chia sẻ xu hướng nguồn nhân lực cùng chiến lược phát triển, quản trị nhân sự trong bối cảnh kinh tế mới.
+      - img "Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”" [ref=f20e242]
+      - generic [ref=f20e244]:
+        - group [ref=f20e245]:
+          - generic "Mục lục" [ref=f20e246] [cursor=pointer]
+        - generic [ref=f20e249]:
+          - generic [ref=f20e250]:
+            - heading "Tọa đàm chuyên sâu về chiến lược nhân sự" [level=2] [ref=f20e251]
+            - generic [ref=f20e252]:
+              - paragraph [ref=f20e253]: Eurowindow vừa tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”. Sự kiện quy tụ lãnh đạo, chuyên gia nhân sự và đội ngũ quản lý các cấp cùng trao đổi về những thách thức và cơ hội trong thu hút, giữ chân và phát triển nhân tài.
+              - paragraph [ref=f20e254]: Tại tọa đàm, các diễn giả đã chia sẻ bức tranh tổng quan về thị trường lao động, xu hướng chuyển dịch nhân sự cũng như vai trò của văn hóa doanh nghiệp trong việc kiến tạo môi trường làm việc bền vững.
+          - generic [ref=f20e255]:
+            - heading "Con người là nền tảng phát triển" [level=2] [ref=f20e256]
+            - generic [ref=f20e257]:
+              - paragraph [ref=f20e258]: Với hơn 20 năm phát triển, Eurowindow luôn xác định con người là tài sản quý giá nhất. Các chương trình đào tạo, lộ trình thăng tiến và chính sách phúc lợi được liên tục hoàn thiện nhằm đồng hành cùng sự phát triển của từng cá nhân.
+              - paragraph [ref=f20e259]: Thông qua tọa đàm, Eurowindow mong muốn xây dựng một đội ngũ vững mạnh, sẵn sàng kiến tạo những giá trị bền vững cho khách hàng và cộng đồng.
+        - link "Quay lại tin tức" [ref=f20e261] [cursor=pointer]:
+          - /url: /tin-tuc
+      - generic [ref=f20e265]:
+        - generic [ref=f20e266]:
+          - heading "Bài viết liên quan" [level=2] [ref=f20e267]
+          - link "Xem tất cả" [ref=f20e268] [cursor=pointer]:
+            - /url: /tin-tuc
+        - generic [ref=f20e271]:
+          - link "Dự án · 18/07/2026 Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa Đọc thêm" [ref=f20e272] [cursor=pointer]:
+            - /url: /tin-tuc/cua-vach-kinh-vinhomes-global-gate
+            - paragraph [ref=f20e274]: Dự án · 18/07/2026
+            - heading "Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa" [level=3] [ref=f20e275]
+            - generic [ref=f20e276]: Đọc thêm
+          - link "Chia sẻ kiến thức · 10/07/2026 Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026 Đọc thêm" [ref=f20e279] [cursor=pointer]:
+            - /url: /tin-tuc/giai-phap-cua-chong-nong-mua-he-2026
+            - paragraph [ref=f20e281]: Chia sẻ kiến thức · 10/07/2026
+            - heading "Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026" [level=3] [ref=f20e282]
+            - generic [ref=f20e283]: Đọc thêm
+          - link "Chia sẻ kiến thức · 05/07/2026 Nên chọn cửa gì cho mùa hè nắng nóng? Đọc thêm" [ref=f20e286] [cursor=pointer]:
+            - /url: /tin-tuc/nen-chon-cua-gi-cho-mua-he-nang-nong
+            - paragraph [ref=f20e288]: Chia sẻ kiến thức · 05/07/2026
+            - heading "Nên chọn cửa gì cho mùa hè nắng nóng?" [level=3] [ref=f20e289]
+            - generic [ref=f20e290]: Đọc thêm
+    - contentinfo [ref=f20e293]:
+      - generic [ref=f20e294]:
+        - generic [ref=f20e295]:
+          - link "Eurowindow" [ref=f20e296] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f20e297]
+          - paragraph [ref=f20e298]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f20e299]:
+          - heading "Liên hệ" [level=2] [ref=f20e300]
+          - generic [ref=f20e301]:
+            - paragraph [ref=f20e302]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f20e303]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f20e304]: infoew@eurowindow.biz
+        - generic [ref=f20e305]:
+          - heading "Khám phá" [level=2] [ref=f20e306]
+          - generic [ref=f20e307]:
+            - link "Giới thiệu" [ref=f20e308] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f20e309] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f20e310] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f20e311] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f20e312]: © 2026 Eurowindow. All rights reserved.

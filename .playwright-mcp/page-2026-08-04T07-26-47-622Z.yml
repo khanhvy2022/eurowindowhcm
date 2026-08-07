@@ -1,0 +1,376 @@
+- generic [ref=f21e2]:
+  - banner [ref=f21e3]:
+    - generic [ref=f21e5]:
+      - generic [ref=f21e6]:
+        - list [ref=f21e7]:
+          - listitem [ref=f21e8]: VN
+          - listitem [ref=f21e9]: ENG
+        - generic [ref=f21e11]:
+          - textbox "Tìm kiếm" [ref=f21e12]:
+            - /placeholder: Tìm kiếm...
+          - button "Tìm kiếm" [ref=f21e13] [cursor=pointer]
+      - link [ref=f21e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=f21e18]
+      - link "Nhận tư vấn" [ref=f21e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f21e24]:
+      - listitem [ref=f21e25]:
+        - link "GIỚI THIỆU" [ref=f21e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f21e27]:
+        - link "SẢN PHẨM" [ref=f21e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f21e31]:
+        - link "SHOWROOM" [ref=f21e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f21e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f21e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f21e37]:
+        - link "TÀI LIỆU" [ref=f21e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f21e39]:
+        - link "TIN TỨC" [ref=f21e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f21e43]:
+        - link "CHÍNH SÁCH" [ref=f21e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f21e47]:
+        - link "LIÊN HỆ" [ref=f21e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f21e49]:
+    - generic [ref=f21e52]:
+      - heading "CỬA uPVC" [level=1] [ref=f21e54]
+      - list [ref=f21e56]:
+        - listitem [ref=f21e57]:
+          - link "Trang chủ" [ref=f21e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=f21e59]:
+          - link "CỬA uPVC" [ref=f21e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-nhua-upvc
+    - generic [ref=f21e63]:
+      - generic [ref=f21e64]:
+        - list [ref=f21e66]:
+          - listitem [ref=f21e67]:
+            - combobox [ref=f21e68] [cursor=pointer]
+            - combobox [ref=f21e71] [cursor=pointer]:
+              - textbox "Danh mục" [ref=f21e72]
+          - listitem [ref=f21e73]:
+            - combobox [ref=f21e74] [cursor=pointer]
+            - combobox [ref=f21e77] [cursor=pointer]:
+              - textbox "Hệ/Loại sản phẩm" [ref=f21e78]
+          - listitem [ref=f21e79]:
+            - combobox [ref=f21e80] [cursor=pointer]
+            - combobox [ref=f21e83] [cursor=pointer]:
+              - textbox "Kiểu dáng" [ref=f21e84]
+          - listitem [ref=f21e85]:
+            - combobox [ref=f21e86] [cursor=pointer]
+            - combobox [ref=f21e89] [cursor=pointer]:
+              - textbox "Màu sắc" [ref=f21e90]
+          - listitem [ref=f21e91]:
+            - combobox [ref=f21e92] [cursor=pointer]
+            - combobox [ref=f21e95] [cursor=pointer]:
+              - textbox "Loại kính" [ref=f21e96]
+          - listitem [ref=f21e97]:
+            - combobox [ref=f21e98] [cursor=pointer]
+            - combobox [ref=f21e101] [cursor=pointer]:
+              - textbox "Phụ kiện" [ref=f21e102]
+          - listitem [ref=f21e103]:
+            - generic [ref=f21e104]:
+              - textbox "Tìm kiếm" [ref=f21e105]:
+                - /placeholder: Tìm kiếm...
+              - button "Tìm kiếm" [ref=f21e106] [cursor=pointer]
+        - generic [ref=f21e110]:
+          - generic [ref=f21e111]:
+            - generic [ref=f21e112]:
+              - link [ref=f21e114] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-di-upvc
+                - img "cuadinhua1" [ref=f21e116]
+              - link [ref=f21e118] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-di-upvc
+                - heading "CỬA ĐI uPVC" [level=2] [ref=f21e119]
+                - paragraph [ref=f21e120]: Tất cả sản phẩm
+            - generic [ref=f21e123]:
+              - link [ref=f21e125] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-di-upvc/cua-di-upvc-2-canh-mo-quay-ngoai.html
+                - img "cuanhua" [ref=f21e127]
+              - link [ref=f21e129] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-di-upvc/cua-di-upvc-2-canh-mo-quay-ngoai.html
+                - heading "CỬA ĐI uPVC 2 CÁNH MỞ QUAY NGOÀI" [level=3] [ref=f21e130]
+            - generic [ref=f21e131]:
+              - link [ref=f21e133] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-di-upvc/cua-di-upvc-4-canh-xep-truot.html
+                - img "4canhxeptruot" [ref=f21e135]
+              - link [ref=f21e137] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-di-upvc/cua-di-upvc-4-canh-xep-truot.html
+                - heading "CỬA ĐI uPVC 4 CÁNH XẾP TRƯỢT" [level=3] [ref=f21e138]
+            - generic [ref=f21e139]:
+              - link [ref=f21e141] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-di-upvc/cua-di-upvc-6-canh-xep-truot.html
+                - img "3-camera-009" [ref=f21e143]
+              - link [ref=f21e145] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-di-upvc/cua-di-upvc-6-canh-xep-truot.html
+                - heading "CỬA ĐI uPVC 6 CÁNH XẾP TRƯỢT" [level=3] [ref=f21e146]
+          - generic [ref=f21e147]:
+            - generic [ref=f21e148]:
+              - link [ref=f21e150] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc
+                - img "cuasonhua" [ref=f21e152]
+              - link [ref=f21e154] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc
+                - heading "CỬA SỔ uPVC" [level=2] [ref=f21e155]
+                - paragraph [ref=f21e156]: Tất cả sản phẩm
+            - generic [ref=f21e159]:
+              - link [ref=f21e161] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-mo-truot-upvc-4-canh.html
+                - img "corona-camera003-cshading-lightmix0000-2" [ref=f21e163]
+              - link [ref=f21e165] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-mo-truot-upvc-4-canh.html
+                - heading "CỬA SỔ MỞ TRƯỢT uPVC 4 CÁNH" [level=3] [ref=f21e166]
+            - generic [ref=f21e167]:
+              - link [ref=f21e169] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-mo-truot-upvc-2-canh.html
+                - img "cuaso2canhmotruot" [ref=f21e171]
+              - link [ref=f21e173] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-mo-truot-upvc-2-canh.html
+                - heading "CỬA SỔ MỞ TRƯỢT uPVC 2 CÁNH" [level=3] [ref=f21e174]
+            - generic [ref=f21e175]:
+              - link [ref=f21e177] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-upvc-1-canh-mo-quay-ngoai.html
+                - img "1-9-camera-007" [ref=f21e179]
+              - link [ref=f21e181] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-upvc-1-canh-mo-quay-ngoai.html
+                - heading "CỬA SỔ uPVC 1 CÁNH MỞ QUAY NGOÀI" [level=3] [ref=f21e182]
+            - generic [ref=f21e183]:
+              - link [ref=f21e185] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-upvc-2-canh-mo-quay-lat-trong.html
+                - img "3-2" [ref=f21e187]
+              - link [ref=f21e189] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-upvc-2-canh-mo-quay-lat-trong.html
+                - heading "CỬA SỔ uPVC 2 CÁNH MỞ QUAY LẬT TRONG" [level=3] [ref=f21e190]
+            - generic [ref=f21e191]:
+              - link [ref=f21e193] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-upvc-mo-hat.html
+                - img "15-11-camera-008" [ref=f21e195]
+              - link [ref=f21e197] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-nhua-upvc/cua-so-upvc/cua-so-upvc-mo-hat.html
+                - heading "CỬA SỔ uPVC MỞ HẤT" [level=3] [ref=f21e198]
+        - generic [ref=f21e199]:
+          - generic [ref=f21e200]:
+            - paragraph [ref=f21e201]: "Dòng sản phẩm cửa uPVC của Eurowindow chủ yếu là cửa sổ, cửa đi, vách ngăn phù hợp với công trình như: khách sạn, biệt thự, chung cư - căn hộ. Cửa uPVC của Eurowindow được cấu tạo bởi thanh profile uPVC có cấu trúc dạng hộp, lắp lõi thép gia cường, hệ phụ kiện đồng bộ với chốt đa điểm, bản lề 3D có tác dụng giúp đóng mở đa chiều, khóa chuyên dụng, kết hợp với hệ gioăng kép đảm bảo độ kín khít và hộp kính được bơm khí trơ có tác dụng làm giảm sự truyền âm, truyền nhiệt. Ngoài ra, vật liệu uPVC cao cấp Có đặc tính nổi trội là không bị ôxy hóa hay ố vàng trong điều kiện bức xạ mặt trời. Những điều kiện này giúp cửa Eurowindow bao gồm cửa sổ nhựa uPVC, cửa đi, vách ngăn của Eurowindow có đặc tính cách âm, cách nhiệt cao, giúp tiết kiệm điện năng, tiết kiệm chi phí bảo dưỡng, sửa chữa, đem lại hiệu quả kinh tế lâu dài cho người sử dụng. Sản phẩm cửa uPVC có độ bền áp lực gió, độ kín nước, độ bền góc hàn thanh profile, cách âm theo TCVN7451:2004 và 7452-2:2004."
+            - paragraph [ref=f21e202]
+            - heading [level=1] [ref=f21e203]:
+              - strong [ref=f21e204]: TÍNH ƯU VIỆT CỦA SẢN PHẨM CỬA TỪ uPVC CỦA EUROWINDOW
+            - heading [level=2] [ref=f21e205]:
+              - strong [ref=f21e206]: TÍNH CÁCH ÂM, CÁCH NHIỆT CỬA SỔ uPVC, CỬA ĐI, VÁCH NGĂN
+            - paragraph [ref=f21e207]:
+              - strong [ref=f21e208]:
+                - emphasis [ref=f21e209]: Cửa uPVC của Eurowindow mang lại cho bạn cảm giác thực sự dễ chịu trong một không gian yên tĩnh và ấm áp
+            - paragraph [ref=f21e210]: "Cửa Eurowindow là tập hợp đồng bộ của các linh kiện như khung cửa định hình, hộp kính, gioăng... được thiết kế nhằm mục đích đạt hiệu quả cách âm, cách nhiệt cao nhất. Ví dụ: Căn phòng nằm sát trục đường giao thông, nơi có cường độ tiếng ồn bên ngoài lên đến 85 dB, song nhà cửa sổ uPVC có độ cách âm tốt nên cường độ tiếng ồn trong phòng chỉ còn khoảng 40 - 45 dB."
+            - paragraph [ref=f21e211]: "Vài ví dụ về tiếng ồn:"
+            - list [ref=f21e212]:
+              - listitem [ref=f21e213]: "Tiếng lật sách: 20 dB."
+              - listitem [ref=f21e214]: "Cuộc nói chuyện bình thường: 50 dB."
+              - listitem [ref=f21e215]: "Âm thanh trên đường giao thông: 85 - 95 dB."
+            - paragraph [ref=f21e216]: Đi kèm với khả năng cách âm giúp nâng cao chất lượng cuộc sống, cửa nhựa Eurowindow bao gồm cửa sổ nhựa uPVC, cửa đi, vách ngăn còn có khả năng cách nhiệt gấp từ 2 - 4 lần so với các loại cửa thông thường, giúp tiết kiệm điện năng sưởi ấm và làm mát căn phòng, mang lại hiệu quả kinh tế cao cho người sử dụng.
+            - paragraph [ref=f21e217]
+            - heading [level=2] [ref=f21e218]:
+              - strong [ref=f21e219]: HIỆU QUẢ KINH TẾ CAO KHI SỬ DỤNG CỬA TỪ uPVC CỦA EUROWINDOW
+            - paragraph [ref=f21e220]:
+              - strong [ref=f21e221]:
+                - emphasis [ref=f21e222]: Tiết kiệm điện năng, bền, ít phải sơn sửa, bảo dưỡng định kỳ
+            - paragraph [ref=f21e223]: "Trong thiết kế xây dựng, ngân sách dành cho cửa gỗ chiếm phần không nhỏ trong tổng chi phí vật liệu. Với ngân sách này hoàn toàn có thể lựa chọn phương án cửa làm từ vật liệu uPVC cao cấp với những ưu điểm mà cửa gỗ cũng như cửa nhôm thông thường không thể sánh được: cách âm, cách nhiệt, không đòi hỏi tu bổ định kỳ, duy trì chất lượng sử dụng cao trong thời gian hàng chục năm... Hơn thế nữa, cửa nhựa windows từ uPVC bao gồm cửa sổ nhựa upvc, cửa đi, vách ngăn giúp hạn chế sự truyền nhiệt, điều đó đồng nghĩa với việc tiết kiệm điện năng để làm mát hoặc sưởi ấm căn phòng. Chỉ sau vài năm sử dụng, cửa uPVC sẽ khấu hao toàn bộ chi phí đầu tư ban đầu."
+            - paragraph [ref=f21e224]: So với một số loại cửa thông thường, chi phí đầu tư ban đầu cho cửa uPVC cao hơn, song theo thời gian, hiệu quả kinh tế nhờ tiết kiệm chi phí phát sinh trong quá trình sử dụng mà cửa uPVC đem lại sẽ ngày càng được thể hiện rõ rệt hơn.
+            - paragraph [ref=f21e225]: Những ưu điểm riêng khác như tính tiện dụng của bộ phụ kiện kim khí, cánh cửa đóng khít và ổn định, cửa không cong vênh hoặc CO giãn, bề mặt khung cửa giữ màu sắc tươi... cũng là những luận cứ khách quan khẳng định tính kinh tế trước mắt cũng như lâu dài của việc lựa chọn cửa sổ nhựa uPVC từ thanh profile định hình uPVC.
+            - paragraph [ref=f21e226]
+            - heading [level=2] [ref=f21e227]:
+              - strong [ref=f21e228]: CỬA NHỰA CÓ TÍNH ỔN ĐỊNH CAO, KHÔNG CONG VÊNH, CO NGÓT
+            - paragraph [ref=f21e229]:
+              - strong [ref=f21e230]:
+                - emphasis [ref=f21e231]: Ổn định vượt trội so với các loại cửa truyền thống
+            - paragraph [ref=f21e232]: Khác với sản phẩm cửa gỗ thông thường hay bị cong vênh, co ngót trong điều kiện khí hậu nhiệt đới của Việt Nam, sản phẩm cửa nhựa từ uPVC của Eurowindow luôn giữ được độ chuẩn xác của cấu trúc và vẻ đẹp ban đầu trong suốt thời gian sử dụng. Sự ăn khớp giữa khuôn và cánh cửa luôn đảm bảo độ kín, khít, giữ nhiệt cho căn phòng của bạn ấm về mùa đông và mát về mùa hè.
+            - paragraph [ref=f21e233]
+            - heading [level=2] [ref=f21e234]:
+              - strong [ref=f21e235]: CỬA NHỰA PHÙ HỢP VỚI CÁC ĐIỀU KIỆN KHÍ HẬU VIỆT NAM
+            - paragraph [ref=f21e236]:
+              - strong [ref=f21e237]:
+                - emphasis [ref=f21e238]: Luôn bền bỉ trước khí hậu nhiệt đới nóng, ẩm, mưa nhiều
+            - paragraph [ref=f21e239]: Đặc tính quý báu nổi bật của vật liệu uPVC là tuổi thọ rất cao do vật liệu này không bị ôxy hóa, không bị lão hóa hay ố vàng trong điều kiện bức xạ mặt trời và khí hậu nhiệt đới (nóng, ẩm, mưa nhiều).
+            - paragraph [ref=f21e240]: Việc sử dụng các chất phụ gia (Additives) và chất ổn định (Stabilizers) trong công thức phối liệu đã tạo ra sự thích ứng của vật liệu trong điều kiện nhiệt độ và độ ẩm cao.
+            - paragraph [ref=f21e241]: "Điều này đã được chứng minh bằng sự phát triển rất nhanh chóng của loại vật liệu uPVC tại các nước Châu Á như: Trung Quốc, Singapore, Malaysia, Thái Lan..."
+            - paragraph [ref=f21e242]
+            - heading [level=2] [ref=f21e243]:
+              - strong [ref=f21e244]: CỬA NHỰA CÓ TÍNH AN TOÀN CHÁY
+            - paragraph [ref=f21e245]:
+              - strong [ref=f21e246]:
+                - emphasis [ref=f21e247]: Giảm thiểu tối đa sự lan truyền ngọn lửa khi gặp biến cố hỏa hoạn, cháy nổ
+            - paragraph [ref=f21e248]: Kiến trúc và phân bố nhà không theo quy hoạch thống nhất là đặc thù của đô thị Việt Nam. Thực tế đó đã gây nên tình trạng bất lợi đối với công tác phòng cháy và chữa cháy. Do vậy, vấn đề lựa chọn vật liệu xây dựng chống cháy là yêu cầu và cũng là mục tiêu cần phải đạt được. Góp phần vào việc thực hiện mục tiêu đó, cửa nhựa từ uPVC của Eurowindow bao gồm cửa sổ nhựa upvc, cửa đi, vách ngăn được sản xuất bằng vật liệu polymer và phụ gia chống cháy, không bị phân huỷ thành các thành phần dễ cháy khác ngay cả trong điều kiện nhiệt độ cao.
+            - paragraph [ref=f21e249]: Với nhiệt độ gần 100°C của đèn khò, thanh uPVC chỉ biến dạng mà không bén cháy, loại bỏ hẳn quá trình ngọn lửa phát tán qua cửa.
+            - paragraph [ref=f21e250]
+            - heading [level=1] [ref=f21e251]:
+              - strong [ref=f21e252]: CHI TIẾT VÀ TÍNH NĂNG CÁC BỘ PHẬN CẤU THÀNH CỬA SỔ, CỬA ĐI, VÁCH NGĂN uPVC
+            - heading [level=2] [ref=f21e253]:
+              - strong [ref=f21e254]: THANH PROFILE
+            - paragraph [ref=f21e255]:
+              - strong [ref=f21e256]:
+                - emphasis [ref=f21e257]: Thanh profile có cấu trúc dạng hộp với lõi thép gia cường làm tăng khả năng chịu lực và tính cách âm, cách nhiệt.
+            - paragraph [ref=f21e258]: Thanh profile định hình từ uPVC có cấu trúc dạng hộp, được chia thành nhiều khoang trống có chức năng cách âm, cách nhiệt, được lắp lõi thép gia cường để tăng khả năng chịu lực cho bộ cửa.
+            - paragraph [ref=f21e259]: "uPVC khác với các loại nhựa thông thường, uPVC là Polyvinyl Chloride cứng được biến tính bởi các thành phần: Acrylic Polymers tạo cho nhựa bền chắc, chịu được va đập mạnh; các chất ổn định giúp nhựa chịu được tác động của nhiệt và tia cực tím; sáp dùng trong quá trình chế biến tạo cho thanh profile có bề mặt bóng, đẹp."
+            - paragraph [ref=f21e260]: Eurowindow sử dụng các thanh profile định hình từ uPVC của hãng Koemmerling thuộc tập đoàn Profine (CHLB Đức) với uy tín trên 100 năm hoạt động và là nhà sản xuất, cung cấp thanh profile hàng đầu thế giới. Hiện nay, Eurowindow là nhà cung cấp độc quyền profile Koemmerling tại Việt Nam.
+            - paragraph [ref=f21e261]
+            - heading [level=2] [ref=f21e262]:
+              - strong [ref=f21e263]: HỆ PHỤ KIỆN KIM KHÍ CỦA CỬA uPVC EUROWINDOW
+            - paragraph [ref=f21e264]:
+              - strong [ref=f21e265]:
+                - emphasis [ref=f21e266]: Hệ phụ kiện kim khí đồng bộ với chốt đa điểm, bản lề 3D giúp cửa luôn kín, khít, đóng, mở đa chiều
+            - paragraph [ref=f21e267]: "Eurowindow sử dụng phụ kiện kim khí của các hãng hàng đầu CHLB Đức và các loại phụ kiện kim khí do Eurowindow nghiên cứu, chế tạo. Hệ phụ kiện đồng bộ với chốt đa điểm, bản lề 3D, khóa chuyên dụng tạo cho các loại cửa nhựa từ uPVC của Eurowindow bao gồm cửa sổ nhựa upvc, cửa đi, vách ngăn không chỉ có tính thẩm mỹ mà còn đảm bảo độ an toàn và chính xác cao trong sử dụng, khắc phục được nhược điểm của các loại phụ kiện kim khí thông thường. Có nhiều bộ phụ kiện khác nhau sử dụng cho các kiểu mở như: Mở quay vào trong, mở quay ra ngoài, mở hất ra ngoài, mở quay - lật vào trong, mở trượt, mở song song."
+            - paragraph [ref=f21e268]: Bản lề 3D điều chỉnh được 3 chiều, cho phép cân chỉnh cửa trong quá trình sử dụng.
+            - paragraph [ref=f21e269]: Bản lề được bắt trực tiếp vào lõi thép gia cường trong thanh profile bằng vít chuyên dụng.
+          - link "Xem thêm" [ref=f21e270] [cursor=pointer]:
+            - /url: javascript:;
+        - generic [ref=f21e273]:
+          - img "callcenter-1" [ref=f21e275]
+          - generic [ref=f21e276]:
+            - paragraph [ref=f21e277]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+            - generic [ref=f21e278]:
+              - generic [ref=f21e279]:
+                - textbox "Họ và tên" [ref=f21e281]:
+                  - /placeholder: Họ và tên *
+                - textbox "Số điện thoại" [ref=f21e283]:
+                  - /placeholder: Số điện thoại *
+                - textbox "Email" [ref=f21e285]:
+                  - /placeholder: Email *
+              - textbox "Lời nhắn tới Eurowindow" [ref=f21e287]
+              - button "Gửi" [ref=f21e289] [cursor=pointer]
+      - generic [ref=f21e293]:
+        - generic [ref=f21e294]:
+          - img "logo-ngang-xanh-13" [ref=f21e296]
+          - paragraph [ref=f21e298]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+        - generic [ref=f21e300]:
+          - generic [ref=f21e301]:
+            - textbox "Họ và tên *" [ref=f21e303]
+            - textbox "Số điện thoại *" [ref=f21e305]
+            - textbox "Email *" [ref=f21e307]
+          - textbox "Lời nhắn tới Eurowindow" [ref=f21e309]
+          - button "Gửi" [ref=f21e311] [cursor=pointer]
+  - contentinfo [ref=f21e312]:
+    - generic [ref=f21e314]:
+      - generic [ref=f21e315]:
+        - link [ref=f21e317] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f21e318]
+        - generic [ref=f21e319]:
+          - link "Facebook" [ref=f21e320] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f21e321]
+          - link "Instagram" [ref=f21e322] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f21e323]
+          - link "Youtube" [ref=f21e324] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f21e325]
+          - link "Zalo" [ref=f21e326] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f21e327]
+          - link "Tiktok" [ref=f21e328] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f21e332] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f21e336] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f21e340]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f21e343] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f21e344]:
+          - link "Bộ Công Thương" [ref=f21e345] [cursor=pointer]:
+            - /url: javascript:;
+            - img "Bộ Công Thương" [ref=f21e346]
+          - link "DMCA Protection Status" [ref=f21e347] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f21e348]
+      - generic [ref=f21e349]:
+        - generic [ref=f21e350]: Giới thiệu
+        - list [ref=f21e351]:
+          - listitem [ref=f21e352]:
+            - link "Giới thiệu" [ref=f21e353] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f21e354]:
+            - link "Tầm nhìn sứ mệnh" [ref=f21e355] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f21e356]:
+            - link "Giải thưởng" [ref=f21e357] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f21e358]:
+            - link "Tài liệu" [ref=f21e359] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f21e360]:
+        - generic [ref=f21e361]: Sản phẩm
+        - list [ref=f21e362]:
+          - listitem [ref=f21e363]:
+            - link "Cửa - Vách nhôm" [ref=f21e364] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f21e365]:
+            - link "Cửa uPVC" [ref=f21e366] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f21e367]:
+            - link "Cửa gỗ" [ref=f21e368] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f21e369]:
+            - link "Cửa cuốn" [ref=f21e370] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f21e371]:
+            - link "Cửa thông minh" [ref=f21e372] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f21e373]:
+        - generic [ref=f21e374]: Tin tức
+        - list [ref=f21e375]:
+          - listitem [ref=f21e376]:
+            - link "Tin tức sự kiện" [ref=f21e377] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f21e378]:
+            - link "Tin dự án" [ref=f21e379] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f21e380]:
+            - link "Tin nội bộ" [ref=f21e381] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f21e382]:
+            - link "Tin khuyến mãi" [ref=f21e383] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f21e384]:
+            - link "Tư vấn" [ref=f21e385] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f21e386]:
+        - generic [ref=f21e387]: Chăm sóc khách hàng
+        - list [ref=f21e388]:
+          - listitem [ref=f21e389]:
+            - link "Chính sách bảo hành" [ref=f21e390] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f21e391]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f21e392] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f21e393]:
+            - link "(84 - 24) 37 47 47 00" [ref=f21e394] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f21e397]:
+            - link "cskhhn@eurowindow.biz" [ref=f21e398] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f21e401]: Dự án quốc tế và xuất khẩu
+          - list [ref=f21e402]:
+            - listitem [ref=f21e403]:
+              - link "+84 -903 41 55 52" [ref=f21e404] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f21e407]:
+              - link "export@eurowindow.biz" [ref=f21e408] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f21e413]:
+      - generic [ref=f21e414]:
+        - paragraph
+        - paragraph
+      - generic [ref=f21e415]:
+        - paragraph
+        - paragraph [ref=f21e416]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f21e422] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f21e423]

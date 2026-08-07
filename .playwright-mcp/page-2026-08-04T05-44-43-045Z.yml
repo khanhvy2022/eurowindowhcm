@@ -1,0 +1,234 @@
+- generic [active] [ref=f7e1]:
+  - link "Chuyển đến nội dung" [ref=f7e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f7e3]:
+    - banner [ref=f7e4]:
+      - navigation [ref=f7e7]:
+        - link [ref=f7e9] [cursor=pointer]:
+          - /url: https://catmoc.cmg.vn/
+          - img "CÁT MỘC GROUP" [ref=f7e10]
+        - text: 
+        - generic:
+          - list
+        - list [ref=f7e12]:
+          - listitem [ref=f7e13]:
+            - link "Trang chủ" [ref=f7e14] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/
+          - listitem [ref=f7e15]:
+            - link "Giới thiệu " [ref=f7e16] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/gioi-thieu/
+              - text: Giới thiệu
+              - generic [ref=f7e17]: 
+          - listitem [ref=f7e18]:
+            - link "Dự án/Công trình " [ref=f7e19] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/du-an/
+              - text: Dự án/Công trình
+              - generic [ref=f7e20]: 
+          - listitem [ref=f7e21]:
+            - link "Dịch vụ " [ref=f7e22] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+              - text: Dịch vụ
+              - generic [ref=f7e23]: 
+          - listitem [ref=f7e24]:
+            - link "Tin tức " [ref=f7e25] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/tin-tuc/
+              - text: Tin tức
+              - generic [ref=f7e26]: 
+          - listitem [ref=f7e27]:
+            - link "Tuyển dụng" [ref=f7e28] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/tuyen-dung/
+          - listitem [ref=f7e29]:
+            - link "Phong thủy " [ref=f7e30] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/phong-thuy/
+              - text: Phong thủy
+              - generic [ref=f7e31]: 
+          - listitem [ref=f7e32]:
+            - link "Liên hệ ngay" [ref=f7e33] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/lien-he/
+          - listitem [ref=f7e34]:
+            - link [ref=f7e35] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/du-an/
+          - listitem [ref=f7e36]:
+            - link [ref=f7e37] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/project/
+    - main [ref=f7e41]:
+      - main [ref=f7e42]:
+        - heading "DỰ ÁN CỦA CÁT MỘC" [level=1] [ref=f7e55]
+        - generic [ref=f7e58]:
+          - search [ref=f7e62]:
+            - generic [ref=f7e63]:
+              - textbox "Tìm kiếm" [ref=f7e65]
+              - button "Nộp" [ref=f7e67] [cursor=pointer]:
+                - generic [ref=f7e68]: 
+          - generic [ref=f7e71]:
+            - list [ref=f7e72]:
+              - listitem [ref=f7e73]:
+                - link "Biệt thự" [ref=f7e74] [cursor=pointer]:
+                  - /url: "#biet-thu"
+              - listitem [ref=f7e76]:
+                - link "Căn hộ" [ref=f7e77] [cursor=pointer]:
+                  - /url: "#can-ho"
+              - listitem [ref=f7e79]:
+                - link "Công trình thực tế" [ref=f7e80] [cursor=pointer]:
+                  - /url: "#cong-trinh-thuc-te"
+              - listitem [ref=f7e82]:
+                - link "Dự án tại Úc" [ref=f7e83] [cursor=pointer]:
+                  - /url: "#du-an-uc"
+              - listitem [ref=f7e85]:
+                - link "Khác" [ref=f7e86] [cursor=pointer]:
+                  - /url: "#f-b"
+              - listitem [ref=f7e88]:
+                - link "Nhà phố" [ref=f7e89] [cursor=pointer]:
+                  - /url: "#nha-pho"
+              - listitem [ref=f7e91]:
+                - link "Nội thất" [ref=f7e92] [cursor=pointer]:
+                  - /url: "#noi-that"
+              - listitem [ref=f7e94]:
+                - link "Y tế" [ref=f7e95] [cursor=pointer]:
+                  - /url: "#y-te"
+            - generic [ref=f7e98]:
+              - generic [ref=f7e99]:
+                - link [ref=f7e103] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/duong-quy-hien-2/
+                  - img "Dương Quý Hiển 11 29 55 13 Thg 7, 2026 (1)" [ref=f7e106]
+                  - heading "Dương Quý Hiển" [level=3] [ref=f7e110]
+                - link [ref=f7e114] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/nguyen-dai-dinh/
+                  - img "Nguyễn Đại Đinh 10 18 06 13 Thg 6, 2026" [ref=f7e117]
+                  - heading "Nguyễn Đại Đinh" [level=3] [ref=f7e121]
+                - link [ref=f7e125] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/le-thi-cung/
+                  - img "Z7757538103246 Ec8213951aa48131a99d819a01f784ab" [ref=f7e128]
+                  - heading "Lê Thị Cưng" [level=3] [ref=f7e132]
+                - link [ref=f7e136] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/nguyen-thi-my-linh/
+                  - img "Nguyễn Thị Mỹ Linh 1" [ref=f7e139]
+                  - heading "Nguyễn Thị Mỹ Linh" [level=3] [ref=f7e143]
+                - link [ref=f7e147] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/tran-hoai-hau/
+                  - img "Trần Hoài Hậu 3 100" [ref=f7e150]
+                  - heading "Trần Hoài Hậu" [level=3] [ref=f7e154]
+                - link [ref=f7e158] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/nguyen-thi-minh-hieu/
+                  - img "Nguyễn Thị Minh Hiếu 1 100" [ref=f7e161]
+                  - heading "Nguyễn Thị Minh Hiếu" [level=3] [ref=f7e165]
+                - link [ref=f7e169] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/hoang-huy-thuc/
+                  - img "Z7471015188568 B2dd55871c6538318b8c6a4b871d18ee" [ref=f7e172]
+                  - heading "Hoàng Huy Thức" [level=3] [ref=f7e176]
+                - link [ref=f7e180] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/tran-ngoc-duy/
+                  - img "1" [ref=f7e183]
+                  - heading "Trần Ngọc Duy" [level=3] [ref=f7e187]
+                - link [ref=f7e191] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/pham-hong-ngan/
+                  - img "Chatgpt Image 22 23 38 18 Thg 5, 2026" [ref=f7e194]
+                  - heading "Phạm Hồng Ngân" [level=3] [ref=f7e198]
+                - link [ref=f7e202] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/duong-man/
+                  - img "Chatgpt Image 22 20 27 18 Thg 5, 2026" [ref=f7e205]
+                  - heading "Dương Mãn" [level=3] [ref=f7e209]
+                - link [ref=f7e213] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/nguy-gia-phu/
+                  - img "Chatgpt Image 22 56 18 20 Thg 5, 2026" [ref=f7e216]
+                  - heading "Nguỵ Gia Phú" [level=3] [ref=f7e220]
+                - link [ref=f7e224] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/du-an/vo-hoang-thanh-nguyen/
+                  - img "Võ Hoàng Thanh Nguyên 1" [ref=f7e227]
+                  - heading "Võ Hoàng Thanh Nguyên" [level=3] [ref=f7e231]
+              - button "Tải thêm dự án" [ref=f7e233] [cursor=pointer]
+    - contentinfo [ref=f7e234]:
+      - generic [ref=f7e238]:
+        - generic [ref=f7e239]:
+          - generic [ref=f7e241]:
+            - img "Cmg Logo@2x" [ref=f7e244]
+            - generic [ref=f7e246]:
+              - heading "CÔNG TY TNHH KIẾN TRÚC – XÂY DỰNG – ĐÀO TẠO CÁT MỘC" [level=3] [ref=f7e247]
+              - list [ref=f7e248]:
+                - listitem [ref=f7e249]: 436B/6 Ba Tháng Hai, P.Hoà Hưng, TP.Hồ Chí Minh, Việt Nam.
+                - listitem [ref=f7e250]: 0942 62 64 69 - 0946 80 80 82
+                - listitem [ref=f7e251]:
+                  - link "info@cmg.vn" [ref=f7e252] [cursor=pointer]:
+                    - /url: mailto:info@cmg.vn
+            - link "Liên hệ ngay" [ref=f7e254] [cursor=pointer]:
+              - /url: /lien-he/
+          - generic [ref=f7e257]:
+            - heading "cat moc group | since 2004" [level=1] [ref=f7e259]
+            - iframe [ref=f7e261]:
+              - generic [ref=f8e2]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=f8e4]:
+                        - generic:
+                          - figure [ref=f8e5]
+                          - paragraph [ref=f8e8]: Cát Mộc group
+                        - generic [ref=f8e9]:
+                          - generic [ref=f8e10] [cursor=pointer]: 
+                          - generic [ref=f8e12] [cursor=pointer]: 
+                      - generic [ref=f8e15]:
+                        - paragraph [ref=f8e17]: Bắt đầu trò chuyện với Cát Mộc group
+                        - generic [ref=f8e18] [cursor=pointer]: Chat bằng Zalo
+                        - generic [ref=f8e19] [cursor=pointer]: Chat nhanh
+                      - generic [ref=f8e23]:
+                        - generic [ref=f8e24] [cursor=pointer]: Tiếng Việt
+                        - generic [ref=f8e25] [cursor=pointer]: English
+            - generic [ref=f7e263]:
+              - generic [ref=f7e266]:
+                - generic [ref=f7e267]: GIỚI THIỆU
+                - link "Về chúng tôi" [ref=f7e269] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/
+                - link "Người sáng lập" [ref=f7e272] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/nguoi-sang-lap/
+                - link "Giải thưởng" [ref=f7e275] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/giai-thuong/
+                - link "Hệ sinh thái CÁT MỘC" [ref=f7e278] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/he-sinh-thai-cat-moc/
+                - link "Portfolio Cát Mộc" [ref=f7e281] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn
+              - generic [ref=f7e285]:
+                - generic [ref=f7e286]: DỊCH VỤ
+                - link "Thiết kế kiến trúc" [ref=f7e288] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+                - link "Thi công thô" [ref=f7e291] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thi-cong-tho/
+                - link "Thiết kế - Sản xuất nội thất" [ref=f7e294] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-san-xuat-noi-that/
+              - generic [ref=f7e298]:
+                - generic [ref=f7e299]: TIN TỨC
+                - link "Ưu đãi" [ref=f7e301] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/uu-dai/
+                - link "Văn hóa" [ref=f7e304] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/van-hoa-cmg/
+                - link "Chia sẻ kiến thức" [ref=f7e307] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/chia-se-kien-thuc/
+                - link "Tuyển dụng" [ref=f7e310] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/tuyen-dung/
+        - generic [ref=f7e315]:
+          - generic [ref=f7e316]: Cat Moc Group | Since 2004
+          - generic [ref=f7e320]:
+            - generic [ref=f7e321]:
+              - link "Theo dõi trên Zalo" [ref=f7e322] [cursor=pointer]:
+                - /url: https://zalo.me/0912752275
+              - link "Theo dõi trên Messenger" [ref=f7e324] [cursor=pointer]:
+                - /url: https://m.me/CatMocDesignConstruction
+              - link "Theo dõi trên WhatsApp" [ref=f7e326] [cursor=pointer]:
+                - /url: https://wa.me/84942626469
+              - link "Theo dõi trên Facebook" [ref=f7e328] [cursor=pointer]:
+                - /url: https://www.facebook.com/CatMocDesignConstruction
+            - link [ref=f7e330] [cursor=pointer]:
+              - /url: tel:0942626469
+              - generic [ref=f7e331]: 
+      - link "Lên đầu trang":
+        - /url: "#top"
+        - generic: 
+  - text:     
+  - generic [ref=f7e333]:
+    - link [ref=f7e338] [cursor=pointer]:
+      - /url: https://zalo.me/0912752275
+    - link [ref=f7e344] [cursor=pointer]:
+      - /url: tel:0942626469
+  - iframe [ref=f7e348]:
+    - generic [ref=f9e6]:
+      - text: protected by
+      - strong [ref=f9e7]: reCAPTCHA

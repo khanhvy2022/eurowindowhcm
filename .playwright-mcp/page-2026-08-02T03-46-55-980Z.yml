@@ -1,0 +1,100 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - banner [ref=f9e3]:
+      - generic [ref=f9e4]:
+        - link "Eurowindow" [ref=f9e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f9e6]
+        - button "Mở menu" [ref=f9e7]
+    - main [ref=f9e9]:
+      - generic [ref=f9e11]:
+        - navigation "Breadcrumb" [ref=f9e12]:
+          - link "Trang chủ" [ref=f9e13] [cursor=pointer]:
+            - /url: /
+          - link "Dự án" [ref=f9e16] [cursor=pointer]:
+            - /url: /du-an
+          - generic [ref=f9e19]: Bệnh viện ung bướu Đà Nẵng
+        - heading "Bệnh viện ung bướu Đà Nẵng" [level=1] [ref=f9e20]
+        - paragraph [ref=f9e21]: Đà Nẵng
+      - generic [ref=f9e27]:
+        - img "Bệnh viện ung bướu Đà Nẵng – ảnh 1" [ref=f9e29]
+        - img "Bệnh viện ung bướu Đà Nẵng – ảnh 2" [ref=f9e31]
+        - img "Bệnh viện ung bướu Đà Nẵng – ảnh 3" [ref=f9e33]
+      - generic [ref=f9e35]:
+        - generic [ref=f9e36]:
+          - heading "Thông tin dự án" [level=2] [ref=f9e37]
+          - generic [ref=f9e38]:
+            - generic [ref=f9e39]:
+              - term [ref=f9e40]: CHỦ ĐẦU TƯ
+              - definition [ref=f9e41]: Eurowindow
+            - generic [ref=f9e42]:
+              - term [ref=f9e43]: PHÂN LOẠI
+              - definition [ref=f9e44]: Bệnh viện
+            - generic [ref=f9e45]:
+              - term [ref=f9e46]: HOÀN THÀNH
+              - definition [ref=f9e47]: "2023"
+            - generic [ref=f9e48]:
+              - term [ref=f9e49]: DIỆN TÍCH
+              - definition [ref=f9e50]: Bệnh viện chuyên khoa
+            - generic [ref=f9e51]:
+              - term [ref=f9e52]: VỊ TRÍ
+              - definition [ref=f9e53]: Đà Nẵng
+            - generic [ref=f9e54]:
+              - term [ref=f9e55]: HẠNG MỤC
+              - definition [ref=f9e56]: Cửa & vách nhôm kính
+        - generic [ref=f9e57]:
+          - heading "Giới thiệu dự án" [level=2] [ref=f9e58]
+          - paragraph [ref=f9e59]: Cung cấp hệ cửa uPVC và vách nhôm kính cho Bệnh viện ung bướu Đà Nẵng — một trong những công trình y tế trọng điểm khu vực miền Trung.
+          - paragraph [ref=f9e60]: Eurowindow đồng hành từ khâu khảo sát, tư vấn giải pháp đến sản xuất và thi công lắp đặt — đảm bảo mỗi hạng mục đạt chuẩn chất lượng và đúng tiến độ. Hệ sản phẩm được kiểm soát theo tiêu chuẩn châu Âu, đáp ứng tốt yêu cầu cách âm, cách nhiệt, an toàn và thẩm mỹ của từng công trình.
+          - link "Liên hệ tư vấn" [ref=f9e61] [cursor=pointer]:
+            - /url: "#lien-he"
+      - generic [ref=f9e65]:
+        - generic [ref=f9e66]:
+          - heading "Dự án liên quan" [level=2] [ref=f9e67]
+          - link "Xem tất cả" [ref=f9e68] [cursor=pointer]:
+            - /url: /du-an
+        - generic [ref=f9e71]:
+          - link [ref=f9e72] [cursor=pointer]:
+            - /url: /du-an/cang-hang-khong-phu-bai-hue
+            - img "Cảng hàng không Phú Bài Huế" [ref=f9e74]
+            - generic [ref=f9e75]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f9e76]
+              - paragraph [ref=f9e77]: Huế
+          - link [ref=f9e81] [cursor=pointer]:
+            - /url: /du-an/benh-vien-viet-phap
+            - img "Bệnh viện Việt Pháp" [ref=f9e83]
+            - generic [ref=f9e84]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f9e85]
+              - paragraph [ref=f9e86]: Hà Nội
+          - link [ref=f9e90] [cursor=pointer]:
+            - /url: /du-an/benh-vien-nhi-dong-tphcm
+            - img "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [ref=f9e92]
+            - generic [ref=f9e93]:
+              - heading "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [level=3] [ref=f9e94]
+              - paragraph [ref=f9e95]: TP. Hồ Chí Minh
+    - contentinfo [ref=f9e99]:
+      - generic [ref=f9e100]:
+        - generic [ref=f9e101]:
+          - link "Eurowindow" [ref=f9e102] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f9e103]
+          - paragraph [ref=f9e104]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f9e105]:
+          - heading "Liên hệ" [level=2] [ref=f9e106]
+          - generic [ref=f9e107]:
+            - paragraph [ref=f9e108]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f9e109]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f9e110]: infoew@eurowindow.biz
+        - generic [ref=f9e111]:
+          - heading "Khám phá" [level=2] [ref=f9e112]
+          - generic [ref=f9e113]:
+            - link "Giới thiệu" [ref=f9e114] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f9e115] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f9e116] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f9e117] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f9e118]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f9e124] [cursor=pointer]

@@ -1,0 +1,386 @@
+- generic [active] [ref=f1e1]:
+  - link "Chuyển đến nội dung" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - navigation [ref=f1e7]:
+        - link [ref=f1e9] [cursor=pointer]:
+          - /url: https://catmoc.cmg.vn/
+          - img "CÁT MỘC GROUP" [ref=f1e10]
+        - list [ref=f1e12]:
+          - listitem [ref=f1e13]:
+            - link "Menu" [ref=f1e14] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=f1e15]: 
+        - text:     
+        - list [ref=f1e17]:
+          - listitem [ref=f1e18]:
+            - link [ref=f1e19] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/
+          - listitem [ref=f1e20]:
+            - link [ref=f1e21] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/home/
+    - main [ref=f1e25]:
+      - main [ref=f1e26]:
+        - generic [ref=f1e39]:
+          - generic [ref=f1e41]:
+            - generic [ref=f1e42]:
+              - paragraph [ref=f1e43]: CÁT MỘC GROUP
+              - heading "KIẾN TẠO" [level=3] [ref=f1e44]
+              - heading "HỆ SINH THÁI" [level=2] [ref=f1e45]
+              - heading "BỀN VỮNG" [level=3] [ref=f1e46]
+            - link "Xem thêm" [ref=f1e47] [cursor=pointer]:
+              - /url: /gioi-thieu/
+              - generic [ref=f1e49]: 
+          - generic [ref=f1e51]:
+            - generic [ref=f1e52]:
+              - heading "11 năm" [level=3] [ref=f1e53]
+              - paragraph [ref=f1e54]: kinh nghiệm
+            - generic [ref=f1e55]:
+              - heading "451+" [level=3] [ref=f1e56]
+              - paragraph [ref=f1e57]: công trình HOÀN THIỆN
+            - generic [ref=f1e58]:
+              - heading "20,766+" [level=3] [ref=f1e59]
+              - paragraph [ref=f1e60]: khách hàng tin tưởng
+            - generic [ref=f1e61]:
+              - heading "51+" [level=3] [ref=f1e62]
+              - paragraph [ref=f1e63]: GIẢI THƯỞNG UY TÍN
+        - generic [ref=f1e66]:
+          - generic [ref=f1e67]:
+            - heading "HỆ SINH THÁI CỦA CHÚNG TÔI" [level=2] [ref=f1e71]
+            - text: 
+          - generic [ref=f1e72]:
+            - generic [ref=f1e75]:
+              - heading [level=4] [ref=f1e76]:
+                - strong [ref=f1e78]: CÁT MỘC Group là hệ sinh thái đa ngành được hình thành và phát triển từ nền tảng 21 năm uy tín trong lĩnh vực thiết kế – thi công.
+              - heading [level=4] [ref=f1e79]:
+                - strong [ref=f1e81]: Với hệ sinh thái 10 thương hiệu đa lĩnh vực, CÁT MỘC Group kết nối thiết kế, nội thất, công nghệ, dịch vụ và sáng tạo để hướng đến chất lượng thực – giá trị thật – sự đồng hành lâu dài cùng khách hàng và đối tác.
+              - heading [level=4] [ref=f1e82]:
+                - strong [ref=f1e84]: Với tầm nhìn trở thành một tập đoàn đa ngành hàng đầu Việt Nam và vươn tầm quốc tế trong lĩnh vực kiến trúc, xây dựng, sáng tạo, giáo dục, âm nhạc và du lịch, CÁT MỘC Group cam kết tiếp tục nỗ lực kiến tạo những giá trị bền vững cho cộng đồng, mang đến những không gian sống và làm việc chất lượng, tiện nghi, thẩm mỹ và thân thiện với môi trường.
+              - strong [ref=f1e104]: Để có được thành quả như ngày hôm nay, chúng tôi hiểu rằng sự tin yêu và ủng hộ của Quý khách hàng cùng các đối tác chính là động lực to lớn nhất. Cát Mộc Group trân trọng cảm ơn sự đồng hành quý báu đó và hứa sẽ tiếp tục phấn đấu, đổi mới tư duy để phục vụ tốt hơn nữa, xứng đáng với niềm tin mà mọi người đã dành tặng cho chúng tôi trong suốt thời gian qua.
+            - link [ref=f1e117] [cursor=pointer]:
+              - /url: /gioi-thieu/he-sinh-thai-cat-moc/
+              - img "Bảng 10 Thương Hiệu" [ref=f1e120]
+        - generic [ref=f1e123]:
+          - generic [ref=f1e124]:
+            - heading "DỰ ÁN TIÊU BIỂU" [level=2] [ref=f1e128]
+            - text: 
+          - generic [ref=f1e129]:
+            - generic [ref=f1e132]:
+              - link [ref=f1e134] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/ly-thi-thuy/
+                - img "06" [ref=f1e136]
+              - generic [ref=f1e139]:
+                - heading "Lý Thị Thuỷ" [level=3] [ref=f1e140]
+                - paragraph [ref=f1e141]: Bình Phước
+            - generic [ref=f1e144]:
+              - link [ref=f1e146] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/the-luxury-house/
+                - img "6" [ref=f1e148]
+              - generic [ref=f1e151]:
+                - heading "The Luxury House" [level=3] [ref=f1e152]
+                - paragraph [ref=f1e153]: Quảng Ngãi
+            - generic [ref=f1e156]:
+              - link [ref=f1e158] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/ho-minh-truong/
+                - img "Hồ Minh Trường 1" [ref=f1e160]
+              - generic [ref=f1e163]:
+                - heading "Hồ Minh Trường" [level=3] [ref=f1e164]
+                - paragraph [ref=f1e165]: Lâm Đồng
+            - generic [ref=f1e168]:
+              - link [ref=f1e170] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/mai-do-vy-phat/
+                - img "6" [ref=f1e172]
+              - generic [ref=f1e175]:
+                - heading "Mai Đỗ Vy Phát" [level=3] [ref=f1e176]
+                - paragraph [ref=f1e177]: An Giang
+            - generic [ref=f1e180]:
+              - link [ref=f1e182] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/truong-nguyen-thanh-dat/
+                - img "5" [ref=f1e184]
+              - generic [ref=f1e187]:
+                - heading "Trương Nguyễn Thành Đạt" [level=3] [ref=f1e188]
+                - paragraph [ref=f1e189]: Buôn Mê Thuột, Đắk Lắk
+            - generic [ref=f1e192]:
+              - link [ref=f1e194] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/huynh-thanh-vu/
+                - img "6" [ref=f1e196]
+              - generic [ref=f1e199]:
+                - heading "Huỳnh Thanh Vũ" [level=3] [ref=f1e200]
+                - paragraph [ref=f1e201]: Phan Thiết
+          - link "XEM TẤT CẢ" [ref=f1e205] [cursor=pointer]:
+            - /url: /du-an
+            - generic [ref=f1e207]: 
+        - generic [ref=f1e210]:
+          - heading "Dịch vụ của Cát Mộc Design & Construction" [level=2] [ref=f1e215]
+          - generic [ref=f1e216]:
+            - generic [ref=f1e219]:
+              - img "Frame 37653" [ref=f1e223]
+              - generic [ref=f1e224]:
+                - heading "THIẾT KẾ KIẾN TRÚC" [level=3] [ref=f1e225]
+                - paragraph [ref=f1e226]: Quy tụ đội ngũ kiến trúc sư chuyên nghiệp, giàu kinh nghiệm, được dẫn dắt bởi THS. KTS Phạm Thanh Truyền
+                - link "Xem thêm" [ref=f1e227] [cursor=pointer]:
+                  - /url: /thiet-ke-kien-truc/
+                  - generic [ref=f1e229]: 
+            - generic [ref=f1e232]:
+              - img "Frame 37654" [ref=f1e236]
+              - generic [ref=f1e237]:
+                - heading "THI CÔNG THÔ" [level=3] [ref=f1e238]
+                - paragraph [ref=f1e239]: Cát Mộc Thi Công đã kiến tạo hơn 1.500 công trình hữu dụng, thẩm mỹ, bền vững và kinh tế cho khách hàng.
+                - link "Xem thêm" [ref=f1e240] [cursor=pointer]:
+                  - /url: /thi-cong-tho/
+                  - generic [ref=f1e242]: 
+            - generic [ref=f1e245]:
+              - img "Vector (4)" [ref=f1e249]
+              - generic [ref=f1e250]:
+                - heading "THIẾT KẾ – SẢN XUẤT NỘI THẤT" [level=3] [ref=f1e251]
+                - paragraph [ref=f1e252]:
+                  - strong [ref=f1e253]: Giải nhất Thiết kế nội thất Châu Á 2023
+                  - text: là minh chứng cho sự sáng tạo và chuyên nghiệp của Cát Mộc Furniture.
+                - link "Xem thêm" [ref=f1e254] [cursor=pointer]:
+                  - /url: /thiet-ke-san-xuat-noi-that/
+                  - generic [ref=f1e256]: 
+        - generic [ref=f1e259]:
+          - generic [ref=f1e260]:
+            - heading "danh mục dự án" [level=2] [ref=f1e264]
+            - text: 
+          - generic [ref=f1e265]:
+            - generic [ref=f1e268]:
+              - link [ref=f1e270] [cursor=pointer]:
+                - /url: /du-an/
+                - img "Z6413706367843 8eead70610633acc915da174d3b277da" [ref=f1e272]
+              - heading "BIỆT THỰ" [level=3] [ref=f1e276]
+            - generic [ref=f1e279]:
+              - link [ref=f1e281] [cursor=pointer]:
+                - /url: /danh-muc-du-an/nha-pho/
+                - img "Artboard 15" [ref=f1e283]
+              - heading "NHÀ PHỐ" [level=3] [ref=f1e287]
+          - generic [ref=f1e288]:
+            - generic [ref=f1e291]:
+              - link [ref=f1e293] [cursor=pointer]:
+                - /url: /danh-muc-du-an/y-te/
+                - img "Artboard 14" [ref=f1e295]
+              - heading "PHÒNG KHÁM" [level=3] [ref=f1e299]
+            - generic [ref=f1e302]:
+              - link [ref=f1e304] [cursor=pointer]:
+                - /url: /danh-muc-du-an/y-te/
+                - img "Z6413928834718 Da5b1032bb420d7f8687278c7bd49597" [ref=f1e306]
+              - heading "BỆNH VIỆN" [level=3] [ref=f1e310]
+          - generic [ref=f1e311]:
+            - generic [ref=f1e314]:
+              - link [ref=f1e316] [cursor=pointer]:
+                - /url: /danh-muc-du-an/f-b/
+                - img "Z6414247193835 Ea47cbe87224330e7e9c908f18cb4509 Enhanced" [ref=f1e318]
+              - heading "Các dự án khác" [level=3] [ref=f1e322]
+            - generic [ref=f1e325]:
+              - link [ref=f1e327] [cursor=pointer]:
+                - /url: /danh-muc-du-an/can-ho/
+                - img "Artboard 13" [ref=f1e329]
+              - heading "Căn Hộ" [level=3] [ref=f1e333]
+          - link "XEM TẤT CẢ" [ref=f1e337] [cursor=pointer]:
+            - /url: /du-an
+            - generic [ref=f1e339]: 
+        - generic [ref=f1e342]:
+          - generic [ref=f1e343]:
+            - heading "TIN TỨC" [level=2] [ref=f1e347]
+            - text: 
+          - generic [ref=f1e351]:
+            - generic [ref=f1e354]:
+              - generic [ref=f1e356]:
+                - link "50+ mẫu nhà phố 2 tầng đẹp, xu hướng 2026":
+                  - /url: https://catmoc.cmg.vn/50-mau-nha-pho-2-tang/
+                  - img "50 Mau Nha Pho 2 Tang Dep Xu Huong 2026" [ref=f1e357] [cursor=pointer]
+              - heading [level=5] [ref=f1e360]:
+                - link "50+ mẫu nhà phố 2 tầng đẹp, xu hướng 2026" [ref=f1e361] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/50-mau-nha-pho-2-tang/
+            - generic [ref=f1e364]:
+              - generic [ref=f1e366]:
+                - link "Phong cách Japandi – Khi tối giản không đồng nghĩa với nhàm chán":
+                  - /url: https://catmoc.cmg.vn/phong-cach-japandi-khi-toi-gian-khong-dong-nghia-voi-nham-chan/
+                  - img "phong cach Japandi" [ref=f1e367] [cursor=pointer]
+              - heading [level=5] [ref=f1e370]:
+                - link "Phong cách Japandi – Khi tối giản không đồng nghĩa với nhàm chán" [ref=f1e371] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/phong-cach-japandi-khi-toi-gian-khong-dong-nghia-voi-nham-chan/
+            - generic [ref=f1e374]:
+              - generic [ref=f1e376]:
+                - link "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026":
+                  - /url: https://catmoc.cmg.vn/35-mau-thiet-ke-nha-1-tret-1-lau-dep-xu-huong-2026/
+                  - img "Nha 1 Tret 1 Lau" [ref=f1e377] [cursor=pointer]
+              - heading [level=5] [ref=f1e380]:
+                - link "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [ref=f1e381] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/35-mau-thiet-ke-nha-1-tret-1-lau-dep-xu-huong-2026/
+            - generic [ref=f1e384]:
+              - generic [ref=f1e386]:
+                - link "Kiến trúc xanh Yoga House được vinh danh tại AADA 2026":
+                  - /url: https://catmoc.cmg.vn/kien-truc-xanh-yoga-house-duoc-vinh-danh-tai-aada-2026/
+                  - img "1785386351593 259558873831650468 G9198550604931560857 Db5ef5299e42c88c2dde396fb212ce37" [ref=f1e387] [cursor=pointer]
+              - heading [level=5] [ref=f1e390]:
+                - link "Kiến trúc xanh Yoga House được vinh danh tại AADA 2026" [ref=f1e391] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/kien-truc-xanh-yoga-house-duoc-vinh-danh-tai-aada-2026/
+            - generic [ref=f1e394]:
+              - generic [ref=f1e396]:
+                - link "35+ Mẫu mặt tiền nhà ống đẹp, hiện đại và tinh tế năm 2026":
+                  - /url: https://catmoc.cmg.vn/35-mau-mat-tien-nha-ong-dep-hien-dai-va-tinh-te-nam-2026/
+                  - img "Mau Mat Tien Nha Ong 16" [ref=f1e397] [cursor=pointer]
+              - heading [level=5] [ref=f1e400]:
+                - link "35+ Mẫu mặt tiền nhà ống đẹp, hiện đại và tinh tế năm 2026" [ref=f1e401] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/35-mau-mat-tien-nha-ong-dep-hien-dai-va-tinh-te-nam-2026/
+            - generic [ref=f1e404]:
+              - generic [ref=f1e406]:
+                - 'link "Mua đất xây nhà: Đừng vội nếu chưa kiểm tra 7 điều này"':
+                  - /url: https://catmoc.cmg.vn/mua-dat-xay-nha-dung-voi-neu-chua-kiem-tra-7-dieu-nay/
+                  - img "Mua Dat Xay Nha Dung Voi Neu Chua Kiem Tra 7 Dieu Nay00004" [ref=f1e407] [cursor=pointer]
+              - heading [level=5] [ref=f1e410]:
+                - 'link "Mua đất xây nhà: Đừng vội nếu chưa kiểm tra 7 điều này" [ref=f1e411] [cursor=pointer]':
+                  - /url: https://catmoc.cmg.vn/mua-dat-xay-nha-dung-voi-neu-chua-kiem-tra-7-dieu-nay/
+            - generic [ref=f1e414]:
+              - generic [ref=f1e416]:
+                - link "Nguy cơ tiềm ẩn từ nội thất giá rẻ đối với sức khỏe":
+                  - /url: https://catmoc.cmg.vn/nguy-co-tiem-an-tu-noi-that-gia-re-doi-voi-suc-khoe/
+                  - img "Nguy Co Tiem An Tu Noi That Gia Re Doi Voi Suc Khoe" [ref=f1e417] [cursor=pointer]
+              - heading [level=5] [ref=f1e420]:
+                - link "Nguy cơ tiềm ẩn từ nội thất giá rẻ đối với sức khỏe" [ref=f1e421] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/nguy-co-tiem-an-tu-noi-that-gia-re-doi-voi-suc-khoe/
+            - generic [ref=f1e424]:
+              - generic [ref=f1e426]:
+                - link "Buộc phải tháo dỡ xây nhà sai phép khi nào?":
+                  - /url: https://catmoc.cmg.vn/buoc-phai-thao-do-xay-nha-sai-phep-khi-nao/
+                  - img "C672ec09 75cc 44eb 9779 4d64b534d8d7" [ref=f1e427] [cursor=pointer]
+              - heading [level=5] [ref=f1e430]:
+                - link "Buộc phải tháo dỡ xây nhà sai phép khi nào?" [ref=f1e431] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/buoc-phai-thao-do-xay-nha-sai-phep-khi-nao/
+            - generic [ref=f1e434]:
+              - generic [ref=f1e436]:
+                - link "Những lưu ý hạn chế xây nhà ảnh hưởng tới hàng xóm":
+                  - /url: https://catmoc.cmg.vn/xay-nha-anh-huong-toi-hang-xom/
+                  - img "Xay Nha Anh Huong Hang Xom" [ref=f1e437] [cursor=pointer]
+              - heading [level=5] [ref=f1e440]:
+                - link "Những lưu ý hạn chế xây nhà ảnh hưởng tới hàng xóm" [ref=f1e441] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/xay-nha-anh-huong-toi-hang-xom/
+            - generic [ref=f1e444]:
+              - generic [ref=f1e446]:
+                - link "Vì sao ngôi nhà cũng cần được “khám sức khỏe” định kỳ?":
+                  - /url: https://catmoc.cmg.vn/suc-khoe-cong-trinh/
+                  - img "Suc Khoe Cong Trinh" [ref=f1e447] [cursor=pointer]
+              - heading [level=5] [ref=f1e450]:
+                - link "Vì sao ngôi nhà cũng cần được “khám sức khỏe” định kỳ?" [ref=f1e451] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/suc-khoe-cong-trinh/
+            - generic [ref=f1e454]:
+              - generic [ref=f1e456]:
+                - 'link "Thi công móng nhà: Ép cọc hay khoan cọc nhồi chất lượng hơn?"':
+                  - /url: https://catmoc.cmg.vn/thi-cong-mong-nha-ep-coc-hay-khoan-coc-nhoi-chat-luong-hon/
+                  - img "F093212d 8687 40b8 B958 1bf285c98a6a" [ref=f1e457] [cursor=pointer]
+              - heading [level=5] [ref=f1e460]:
+                - 'link "Thi công móng nhà: Ép cọc hay khoan cọc nhồi chất lượng hơn?" [ref=f1e461] [cursor=pointer]':
+                  - /url: https://catmoc.cmg.vn/thi-cong-mong-nha-ep-coc-hay-khoan-coc-nhoi-chat-luong-hon/
+            - generic [ref=f1e464]:
+              - generic [ref=f1e466]:
+                - link "CMG Care – “Bác sĩ công trình”, bảo dưỡng công trình":
+                  - /url: https://catmoc.cmg.vn/cmg-care-bao-duong-cong-trinh/
+                  - img "Cmg Care Bac Si Cong Trinh" [ref=f1e467] [cursor=pointer]
+              - heading [level=5] [ref=f1e470]:
+                - link "CMG Care – “Bác sĩ công trình”, bảo dưỡng công trình" [ref=f1e471] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/cmg-care-bao-duong-cong-trinh/
+          - link "XEM TẤT CẢ" [ref=f1e475] [cursor=pointer]:
+            - /url: /du-an
+            - generic [ref=f1e477]: 
+        - generic [ref=f1e480]:
+          - heading "Đối tác chiến lược" [level=2] [ref=f1e485]
+          - generic [ref=f1e491]:
+            - img "Logo2" [ref=f1e519]
+            - img "Logo5" [ref=f1e526]
+    - contentinfo [ref=f1e604]:
+      - generic [ref=f1e608]:
+        - generic [ref=f1e609]:
+          - generic [ref=f1e611]:
+            - img "Cmg Logo@2x" [ref=f1e614]
+            - generic [ref=f1e616]:
+              - heading "CÔNG TY TNHH KIẾN TRÚC – XÂY DỰNG – ĐÀO TẠO CÁT MỘC" [level=3] [ref=f1e617]
+              - list [ref=f1e618]:
+                - listitem [ref=f1e619]: 436B/6 Ba Tháng Hai, P.Hoà Hưng, TP.Hồ Chí Minh, Việt Nam.
+                - listitem [ref=f1e620]: 0942 62 64 69 - 0946 80 80 82
+                - listitem [ref=f1e621]:
+                  - link "info@cmg.vn" [ref=f1e622] [cursor=pointer]:
+                    - /url: mailto:info@cmg.vn
+            - link "Liên hệ ngay" [ref=f1e624] [cursor=pointer]:
+              - /url: /lien-he/
+          - generic [ref=f1e627]:
+            - heading "cat moc group | since 2004" [level=1] [ref=f1e629]
+            - iframe [ref=f1e631]:
+              - generic [ref=f2e2]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=f2e4]:
+                        - generic:
+                          - figure [ref=f2e5]
+                          - paragraph [ref=f2e8]: Cát Mộc group
+                        - generic [ref=f2e9]:
+                          - generic [ref=f2e10] [cursor=pointer]: 
+                          - generic [ref=f2e12] [cursor=pointer]: 
+                      - generic [ref=f2e15]:
+                        - paragraph [ref=f2e17]: Bắt đầu trò chuyện với Cát Mộc group
+                        - generic [ref=f2e18] [cursor=pointer]: Chat bằng Zalo
+                        - generic [ref=f2e19] [cursor=pointer]: Chat nhanh
+                      - generic [ref=f2e23]:
+                        - generic [ref=f2e24] [cursor=pointer]: Tiếng Việt
+                        - generic [ref=f2e25] [cursor=pointer]: English
+            - generic [ref=f1e633]:
+              - generic [ref=f1e636]:
+                - generic [ref=f1e637]: GIỚI THIỆU
+                - link "Về chúng tôi" [ref=f1e639] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/
+                - link "Người sáng lập" [ref=f1e642] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/nguoi-sang-lap/
+                - link "Giải thưởng" [ref=f1e645] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/giai-thuong/
+                - link "Hệ sinh thái CÁT MỘC" [ref=f1e648] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/he-sinh-thai-cat-moc/
+                - link "Portfolio Cát Mộc" [ref=f1e651] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn
+              - generic [ref=f1e655]:
+                - generic [ref=f1e656]: DỊCH VỤ
+                - link "Thiết kế kiến trúc" [ref=f1e658] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+                - link "Thi công thô" [ref=f1e661] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thi-cong-tho/
+                - link "Thiết kế - Sản xuất nội thất" [ref=f1e664] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-san-xuat-noi-that/
+              - generic [ref=f1e668]:
+                - generic [ref=f1e669]: TIN TỨC
+                - link "Ưu đãi" [ref=f1e671] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/uu-dai/
+                - link "Văn hóa" [ref=f1e674] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/van-hoa-cmg/
+                - link "Chia sẻ kiến thức" [ref=f1e677] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/chia-se-kien-thuc/
+                - link "Tuyển dụng" [ref=f1e680] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/tuyen-dung/
+        - generic [ref=f1e685]:
+          - generic [ref=f1e686]: Cat Moc Group | Since 2004
+          - generic [ref=f1e690]:
+            - generic [ref=f1e691]:
+              - link "Theo dõi trên Zalo" [ref=f1e692] [cursor=pointer]:
+                - /url: https://zalo.me/0912752275
+              - link "Theo dõi trên Messenger" [ref=f1e694] [cursor=pointer]:
+                - /url: https://m.me/CatMocDesignConstruction
+              - link "Theo dõi trên WhatsApp" [ref=f1e696] [cursor=pointer]:
+                - /url: https://wa.me/84942626469
+              - link "Theo dõi trên Facebook" [ref=f1e698] [cursor=pointer]:
+                - /url: https://www.facebook.com/CatMocDesignConstruction
+            - link [ref=f1e700] [cursor=pointer]:
+              - /url: tel:0942626469
+              - generic [ref=f1e701]: 
+      - link "Lên đầu trang":
+        - /url: "#top"
+        - generic: 
+  - text:     
+  - generic [ref=f1e703]:
+    - link [ref=f1e708] [cursor=pointer]:
+      - /url: https://zalo.me/0912752275
+    - link [ref=f1e714] [cursor=pointer]:
+      - /url: tel:0942626469
+  - iframe [ref=f1e718]:
+    - generic [ref=f3e6]:
+      - text: protected by
+      - strong [ref=f3e7]: reCAPTCHA

@@ -1,0 +1,125 @@
+- generic [active] [ref=f25e1]:
+  - generic [ref=f25e2]:
+    - banner [ref=f25e3]:
+      - generic [ref=f25e4]:
+        - link "Eurowindow" [ref=f25e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f25e6]
+        - navigation "Main navigation" [ref=f25e7]:
+          - link "Home" [ref=f25e8] [cursor=pointer]:
+            - /url: /en
+          - link "About us" [ref=f25e10] [cursor=pointer]:
+            - /url: /en/about
+          - link "Projects" [ref=f25e14] [cursor=pointer]:
+            - /url: /en/projects
+          - link "Services" [ref=f25e18] [cursor=pointer]:
+            - /url: /en/services
+          - link "News" [ref=f25e22] [cursor=pointer]:
+            - /url: /en/news
+          - generic "Language selector" [ref=f25e23]:
+            - link [ref=f25e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f25e25]
+            - link [ref=f25e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f25e27]
+        - link "Contact now" [ref=f25e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f25e30]:
+      - generic [ref=f25e32]:
+        - heading "EUROWINDOW PROJECTS" [level=1] [ref=f25e33]
+        - navigation "Breadcrumb" [ref=f25e34]:
+          - link "Trang chủ" [ref=f25e35] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f25e38]: Projects
+      - generic [ref=f25e40]:
+        - generic [ref=f25e41]:
+          - search [ref=f25e42]:
+            - searchbox "Search projects" [ref=f25e46]
+          - navigation "Project categories" [ref=f25e47]:
+            - button "All" [pressed] [ref=f25e48]
+            - button "National landmark" [ref=f25e49]
+            - button "Hospital" [ref=f25e50]
+            - button "Government building" [ref=f25e51]
+            - button "Office" [ref=f25e52]
+        - generic [ref=f25e53]:
+          - link [ref=f25e54] [cursor=pointer]:
+            - /url: /en/projects/cang-hang-khong-phu-bai-hue
+            - img "Phu Bai International Airport" [ref=f25e56]
+            - generic [ref=f25e57]:
+              - heading "Phu Bai International Airport" [level=2] [ref=f25e58]
+              - paragraph [ref=f25e59]: Hue
+          - link [ref=f25e63] [cursor=pointer]:
+            - /url: /en/projects/benh-vien-viet-phap
+            - img "Hospital Francais de Hanoi" [ref=f25e65]
+            - generic [ref=f25e66]:
+              - heading "Hospital Francais de Hanoi" [level=2] [ref=f25e67]
+              - paragraph [ref=f25e68]: Hanoi
+          - link [ref=f25e72] [cursor=pointer]:
+            - /url: /en/projects/benh-vien-ung-buou-da-nang
+            - img "Da Nang Oncology Hospital" [ref=f25e74]
+            - generic [ref=f25e75]:
+              - heading "Da Nang Oncology Hospital" [level=2] [ref=f25e76]
+              - paragraph [ref=f25e77]: Da Nang
+          - link [ref=f25e81] [cursor=pointer]:
+            - /url: /en/projects/benh-vien-nhi-dong-tphcm
+            - img "Children's Hospital 2 Ho Chi Minh City" [ref=f25e83]
+            - generic [ref=f25e84]:
+              - heading "Children's Hospital 2 Ho Chi Minh City" [level=2] [ref=f25e85]
+              - paragraph [ref=f25e86]: Ho Chi Minh City
+          - link [ref=f25e90] [cursor=pointer]:
+            - /url: /en/projects/trung-tam-truyen-hinh-ttxvn
+            - img "Vietnam News Agency TV Centre" [ref=f25e92]
+            - generic [ref=f25e93]:
+              - heading "Vietnam News Agency TV Centre" [level=2] [ref=f25e94]
+              - paragraph [ref=f25e95]: Hanoi
+          - link [ref=f25e99] [cursor=pointer]:
+            - /url: /en/projects/vien-kiem-sat-nhan-dan-toi-cao
+            - img "Supreme People's Procuracy" [ref=f25e101]
+            - generic [ref=f25e102]:
+              - heading "Supreme People's Procuracy" [level=2] [ref=f25e103]
+              - paragraph [ref=f25e104]: Hanoi
+          - link [ref=f25e108] [cursor=pointer]:
+            - /url: /en/projects/toa-nha-quoc-hoi
+            - img "National Assembly Building" [ref=f25e110]
+            - generic [ref=f25e111]:
+              - heading "National Assembly Building" [level=2] [ref=f25e112]
+              - paragraph [ref=f25e113]: Hanoi
+          - link [ref=f25e117] [cursor=pointer]:
+            - /url: /en/projects/trung-tam-thuong-mai
+            - img "Commercial & Office Centre" [ref=f25e119]
+            - generic [ref=f25e120]:
+              - heading "Commercial & Office Centre" [level=2] [ref=f25e121]
+              - paragraph [ref=f25e122]: Hanoi
+          - link [ref=f25e126] [cursor=pointer]:
+            - /url: /en/projects/chung-cu-vinhomes-global-gate
+            - img "Vinhomes Global Gate Co Loa" [ref=f25e128]
+            - generic [ref=f25e129]:
+              - heading "Vinhomes Global Gate Co Loa" [level=2] [ref=f25e130]
+              - paragraph [ref=f25e131]: Hanoi
+    - contentinfo [ref=f25e135]:
+      - generic [ref=f25e136]:
+        - generic [ref=f25e137]:
+          - link "Eurowindow" [ref=f25e138] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f25e139]
+          - paragraph [ref=f25e140]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f25e141]:
+          - heading "Contact" [level=2] [ref=f25e142]
+          - generic [ref=f25e143]:
+            - paragraph [ref=f25e144]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f25e145]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f25e146]: infoew@eurowindow.biz
+        - generic [ref=f25e147]:
+          - heading "Explore" [level=2] [ref=f25e148]
+          - generic [ref=f25e149]:
+            - link "About us" [ref=f25e150] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f25e151] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f25e152] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f25e153] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f25e154]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f25e160] [cursor=pointer]

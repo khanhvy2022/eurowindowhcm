@@ -1,0 +1,136 @@
+- generic [active] [ref=f23e1]:
+  - generic [ref=f23e2]:
+    - banner [ref=f23e3]:
+      - generic [ref=f23e4]:
+        - link "Eurowindow" [ref=f23e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f23e6]
+        - navigation "Main navigation" [ref=f23e7]:
+          - link "Home" [ref=f23e8] [cursor=pointer]:
+            - /url: /en
+          - link "About us" [ref=f23e10] [cursor=pointer]:
+            - /url: /en/about
+          - link "Projects" [ref=f23e14] [cursor=pointer]:
+            - /url: /en/projects
+          - link "Services" [ref=f23e18] [cursor=pointer]:
+            - /url: /en/services
+          - link "News" [ref=f23e22] [cursor=pointer]:
+            - /url: /en/news
+          - generic "Language selector" [ref=f23e23]:
+            - link [ref=f23e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f23e25]
+            - link [ref=f23e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f23e27]
+        - link "Contact now" [ref=f23e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f23e30]:
+      - generic [ref=f23e32]:
+        - heading "EUROWINDOW SERVICES" [level=1] [ref=f23e33]
+        - navigation "Breadcrumb" [ref=f23e34]:
+          - link "Trang chủ" [ref=f23e35] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f23e38]: Services
+      - generic [ref=f23e40]:
+        - tablist "Choose a service" [ref=f23e41]:
+          - tab "DOORS & PARTITIONS" [selected] [ref=f23e42]
+          - tab "SOLUTION CONSULTING" [ref=f23e43]
+          - tab "WARRANTY & CARE" [ref=f23e44]
+        - generic [ref=f23e45]:
+          - img "ALUMINIUM-GLASS DOORS & PARTITIONS" [ref=f23e47]
+          - generic [ref=f23e48]:
+            - heading "ALUMINIUM-GLASS DOORS & PARTITIONS" [level=2] [ref=f23e49]
+            - paragraph [ref=f23e50]: uPVC, aluminium-glass, wooden doors and acoustic glass partitions — an integrated solution for projects from residential to large scale.
+            - generic [ref=f23e51]:
+              - generic [ref=f23e52]:
+                - paragraph [ref=f23e53]: 99%
+                - paragraph [ref=f23e54]: satisfied customers
+              - generic [ref=f23e55]:
+                - paragraph [ref=f23e56]: 12+
+                - paragraph [ref=f23e57]: official product systems
+              - generic [ref=f23e58]:
+                - paragraph [ref=f23e59]: 5 years
+                - paragraph [ref=f23e60]: standard warranty
+            - link "GET A PRICE QUOTE NOW" [ref=f23e61] [cursor=pointer]:
+              - /url: "#lien-he"
+      - generic [ref=f23e65]:
+        - heading "Our process" [level=2] [ref=f23e66]
+        - list [ref=f23e67]:
+          - listitem [ref=f23e68]:
+            - paragraph [ref=f23e69]: STAGE 1
+            - heading "Consultation & intake" [level=3] [ref=f23e70]
+            - paragraph [ref=f23e71]: Listen to your needs, survey the site and advise on door and partition systems that fit function and budget.
+          - listitem [ref=f23e72]:
+            - paragraph [ref=f23e73]: STAGE 2
+            - heading "Design & production" [level=3] [ref=f23e74]
+            - paragraph [ref=f23e75]: Prepare technical documents, manufacture to European standards and quality-check every batch of products.
+          - listitem [ref=f23e76]:
+            - paragraph [ref=f23e77]: STAGE 3
+            - heading "Installation & handover" [level=3] [ref=f23e78]
+            - paragraph [ref=f23e79]: Installed by an experienced team, each item is inspected and handed over with official warranty coverage.
+      - generic [ref=f23e81]:
+        - heading "Awards" [level=2] [ref=f23e82]
+        - generic [ref=f23e83]:
+          - generic [ref=f23e84]:
+            - paragraph [ref=f23e88]: "2024"
+            - heading "Vietnam Product Quality Award" [level=3] [ref=f23e89]
+            - paragraph [ref=f23e90]: Vietnam Quality Award
+          - generic [ref=f23e91]:
+            - paragraph [ref=f23e95]: "2023"
+            - heading "Vietnam National Brand" [level=3] [ref=f23e96]
+            - paragraph [ref=f23e97]: National Brand Award
+          - generic [ref=f23e98]:
+            - paragraph [ref=f23e102]: "2022"
+            - heading "Top 10 reputable construction companies" [level=3] [ref=f23e103]
+            - paragraph [ref=f23e104]: Vietnam Report
+      - generic [ref=f23e106]:
+        - generic [ref=f23e107]:
+          - heading "Featured projects" [level=2] [ref=f23e108]
+          - link "View all" [ref=f23e109] [cursor=pointer]:
+            - /url: /en/projects
+        - generic [ref=f23e112]:
+          - link [ref=f23e113] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Eurowindow Tower" [ref=f23e115]
+            - generic [ref=f23e116]:
+              - heading "Eurowindow Tower" [level=3] [ref=f23e117]
+              - paragraph [ref=f23e118]: Hanoi
+          - link [ref=f23e119] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Airport & Terminal" [ref=f23e121]
+            - generic [ref=f23e122]:
+              - heading "Airport & Terminal" [level=3] [ref=f23e123]
+              - paragraph [ref=f23e124]: National landmark
+          - link [ref=f23e125] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Premium Residence" [ref=f23e127]
+            - generic [ref=f23e128]:
+              - heading "Premium Residence" [level=3] [ref=f23e129]
+              - paragraph [ref=f23e130]: Ho Chi Minh City
+    - contentinfo [ref=f23e131]:
+      - generic [ref=f23e132]:
+        - generic [ref=f23e133]:
+          - link "Eurowindow" [ref=f23e134] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f23e135]
+          - paragraph [ref=f23e136]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f23e137]:
+          - heading "Contact" [level=2] [ref=f23e138]
+          - generic [ref=f23e139]:
+            - paragraph [ref=f23e140]: Eurowindow Office Building
+            - paragraph [ref=f23e141]: "Hotline: 0909 888 000"
+            - paragraph [ref=f23e142]: infoew@eurowindow.biz
+        - generic [ref=f23e143]:
+          - heading "Explore" [level=2] [ref=f23e144]
+          - generic [ref=f23e145]:
+            - link "About us" [ref=f23e146] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f23e147] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f23e148] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f23e149] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f23e150]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f23e156] [cursor=pointer]

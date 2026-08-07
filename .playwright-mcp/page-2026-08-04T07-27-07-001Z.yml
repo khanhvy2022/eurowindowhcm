@@ -1,0 +1,456 @@
+- generic [ref=f25e2]:
+  - banner [ref=f25e3]:
+    - generic [ref=f25e5]:
+      - generic [ref=f25e6]:
+        - list [ref=f25e7]:
+          - listitem [ref=f25e8]: VN
+          - listitem [ref=f25e9]: ENG
+        - generic [ref=f25e11]:
+          - textbox "Tìm kiếm" [ref=f25e12]:
+            - /placeholder: Tìm kiếm...
+          - button "Tìm kiếm" [ref=f25e13] [cursor=pointer]
+      - link [ref=f25e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=f25e18]
+      - link "Nhận tư vấn" [ref=f25e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f25e24]:
+      - listitem [ref=f25e25]:
+        - link "GIỚI THIỆU" [ref=f25e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f25e27]:
+        - link "SẢN PHẨM" [ref=f25e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f25e31]:
+        - link "SHOWROOM" [ref=f25e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f25e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f25e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f25e37]:
+        - link "TÀI LIỆU" [ref=f25e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f25e39]:
+        - link "TIN TỨC" [ref=f25e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f25e43]:
+        - link "CHÍNH SÁCH" [ref=f25e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f25e47]:
+        - link "LIÊN HỆ" [ref=f25e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f25e49]:
+    - generic [ref=f25e52]:
+      - heading "SẢN PHẨM KÍNH" [level=1] [ref=f25e54]
+      - list [ref=f25e56]:
+        - listitem [ref=f25e57]:
+          - link "Trang chủ" [ref=f25e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=f25e59]:
+          - link "SẢN PHẨM KÍNH" [ref=f25e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/san-pham-kinh
+    - generic [ref=f25e63]:
+      - generic [ref=f25e64]:
+        - list [ref=f25e66]:
+          - listitem [ref=f25e67]:
+            - combobox [ref=f25e68] [cursor=pointer]
+            - combobox [ref=f25e71] [cursor=pointer]:
+              - textbox "Hệ/Loại sản phẩm" [ref=f25e72]
+          - listitem [ref=f25e73]:
+            - generic [ref=f25e74]:
+              - textbox "Tìm kiếm" [ref=f25e75]:
+                - /placeholder: Tìm kiếm...
+              - button "Tìm kiếm" [ref=f25e76] [cursor=pointer]
+        - generic [ref=f25e81]:
+          - paragraph [ref=f25e82]: Nhằm đáp ứng nhu cầu về kính của Eurowindow và cung cấp cho thị trường các loại kính cao cấp. Eurowindow đã đầu tư Trung tâm gia công kính tại lô 15 Khu công nghiệp Quang Minh, Mê Linh, Hà Nội với dây chuyền sản xuất hiện đại và đồng bộ hàng đầu tại Việt Nam.
+          - paragraph [ref=f25e83]: "Một số sản phẩm kính tiêu biểu như: kính cường lực, kính bán cường lực, hộp kính khổ lớn, kính hoa văn, kính dán an toàn. Các sản phẩm được sử dụng làm vách kính lớn, vách ngăn, cửa thủy lực, lan can cầu thang, cửa sổ, cửa đi, cửa xe ô tô, bàn kính, buồng tắm kính,…"
+          - paragraph [ref=f25e84]: Với tính an toàn, chịu lực cơ học cao, tính thẩm mỹ, có khả năng loại trừ tia cực tím, tính cách âm, cách nhiệt, sản phẩm kính của Eurowindow là sự lựa chọn hoàn hảo cho các dự án, công trình xây dựng dân dụng và công nghiệp.
+        - generic [ref=f25e87]:
+          - generic [ref=f25e88]:
+            - link [ref=f25e90] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/kinh-cuong-luc-va-ban-cuong-luc.html
+              - img "kinhcuongluc-bancuongluc" [ref=f25e92]
+            - link [ref=f25e94] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/kinh-cuong-luc-va-ban-cuong-luc.html
+              - heading "KÍNH CƯỜNG LỰC VÀ BÁN CƯỜNG LỰC" [level=2] [ref=f25e95]
+          - generic [ref=f25e96]:
+            - link [ref=f25e98] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/hop-kinh-va-hop-kinh-kho-lon.html
+              - img "kinhcachnhietantoan" [ref=f25e100]
+            - link [ref=f25e102] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/hop-kinh-va-hop-kinh-kho-lon.html
+              - heading "HỘP KÍNH VÀ HỘP KÍNH KHỔ LỚN" [level=2] [ref=f25e103]
+          - generic [ref=f25e104]:
+            - link [ref=f25e106] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/kinh-an-toan.html
+              - img "kinhantoan-1" [ref=f25e108]
+            - link [ref=f25e110] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/kinh-an-toan.html
+              - heading "KÍNH AN TOÀN" [level=2] [ref=f25e111]
+          - generic [ref=f25e112]:
+            - link [ref=f25e114] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/kinh-cach-nhiet-an-toan-act.html
+              - img "kinhlowe" [ref=f25e116]
+            - link [ref=f25e118] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/kinh-cach-nhiet-an-toan-act.html
+              - heading "KÍNH CÁCH NHIỆT AN TOÀN ACT" [level=2] [ref=f25e119]
+          - generic [ref=f25e120]:
+            - link [ref=f25e122] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/kinh-hoa-van.html
+              - img "kinhhoavan" [ref=f25e124]
+            - link [ref=f25e126] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh/kinh-hoa-van.html
+              - heading "KÍNH HOA VĂN" [level=2] [ref=f25e127]
+        - generic [ref=f25e128]:
+          - generic [ref=f25e129]:
+            - heading [level=2] [ref=f25e130]:
+              - strong [ref=f25e131]: 1. Ưu điểm nổi bật của sản phẩm kính Eurowindow
+            - heading [level=3] [ref=f25e132]:
+              - strong [ref=f25e133]: 1.1. Độ an toàn cao, phù hợp nhiều hạng mục công trình
+            - paragraph [ref=f25e134]: Kính Eurowindow được sản xuất trên dây chuyền hiện đại, có thể ứng dụng cho nhiều hạng mục như vách kính lớn, vách ngăn, cửa thủy lực, lan can cầu thang, cửa sổ, cửa đi, buồng tắm kính, bàn kính hoặc cửa xe ô tô.
+            - paragraph [ref=f25e135]: Các dòng kính như kính cường lực, kính bán cường lực và kính dán an toàn có khả năng chịu lực cơ học tốt, giúp tăng độ an toàn khi sử dụng trong nhà ở, công trình dân dụng và công trình công nghiệp.
+            - generic [ref=f25e136]:
+              - img "Sản phẩm kính của Eurowindow đảm bảo độ an toàn, phù hợp với nhiều hạng mục công trình" [ref=f25e137]
+              - paragraph [ref=f25e138]: Sản phẩm kính của Eurowindow đảm bảo độ an toàn, phù hợp với nhiều hạng mục công trình
+            - heading [level=3] [ref=f25e139]:
+              - strong [ref=f25e140]: 1.2. Đáp ứng nhiều tiêu chuẩn chất lượng quốc tế
+            - paragraph [ref=f25e141]: Sản phẩm kính Eurowindow được Viện Tiêu chuẩn Anh BSI cấp chứng chỉ Kitemark và đáp ứng nhiều tiêu chuẩn quốc tế như BS EN 12150-1:2000, BS EN 14449:2005, BS EN 1279-2:2002, EN 1863, ANSI Z97.1-2004, ECE R43. Đây là cơ sở quan trọng cho thấy sản phẩm được kiểm soát theo các yêu cầu nghiêm ngặt về chất lượng, độ bền và độ an toàn trong quá trình sử dụng.
+            - heading [level=3] [ref=f25e142]:
+              - strong [ref=f25e143]: 1.3. Sản xuất trên dây chuyền hiện đại, kiểm soát chất lượng chặt chẽ
+            - paragraph [ref=f25e144]: Eurowindow đầu tư Trung tâm gia công kính tại Khu công nghiệp Quang Minh, Mê Linh, Hà Nội với hệ thống thiết bị nhập khẩu từ các quốc gia châu Âu như Italia, Phần Lan, Thụy Sĩ và Đức. Trung tâm được trang bị máy cắt kính khổ lớn, máy mài song cạnh, máy khoan, máy gia công CNC, lò tôi kính phẳng, dây chuyền sản xuất kính dán an toàn, dây chuyền sản xuất hộp kính và thiết bị kiểm tra Heat-Soak-Test để loại bỏ kính lỗi sau khi tôi.
+            - paragraph [ref=f25e145]: Nhờ đó, sản phẩm kính được gia công đồng bộ, đảm bảo độ chính xác và tính ổn định trước khi đưa vào công trình.
+            - generic [ref=f25e146]:
+              - img "Các sản phẩm kính của Eurowindow được gia công đồng bộ, đảm bảo độ chính xác trước khi đưa vào công trình" [ref=f25e147]
+              - paragraph [ref=f25e148]: Các sản phẩm kính của Eurowindow được gia công đồng bộ, đảm bảo độ chính xác trước khi đưa vào công trình
+            - heading [level=3] [ref=f25e149]:
+              - strong [ref=f25e150]: 1.4. Gia công được kính khổ lớn, đáp ứng thiết kế hiện đại
+            - paragraph [ref=f25e151]: Trung tâm kính Eurowindow có khả năng tôi kính cường lực và bán cường lực với độ dày từ 4mm đến 19mm, kích thước tối đa lên đến 2.800 × 6.000mm. Khả năng gia công kính khổ lớn giúp sản phẩm phù hợp với các công trình cần mở rộng tầm nhìn, tăng diện tích lấy sáng và tạo hiệu ứng không gian thông thoáng như mặt dựng kính, vách kính lớn, showroom, sảnh tòa nhà hoặc các công trình kiến trúc hiện đại.
+            - heading [level=3] [ref=f25e152]:
+              - strong [ref=f25e153]: 1.5. Cách âm, cách nhiệt và hỗ trợ tiết kiệm năng lượng
+            - paragraph [ref=f25e154]: Kính Eurowindow có khả năng cách âm, cách nhiệt, hỗ trợ kiểm soát nhiệt độ và tiếng ồn trong không gian sử dụng. Đặc biệt, Eurowindow ứng dụng công nghệ tôi kính Super Soft Coating Low-e 0,01, giúp hạn chế bức xạ mặt trời, giảm hấp thụ và truyền nhiệt qua kính. Nhờ đó, công trình vẫn đảm bảo ánh sáng tự nhiên nhưng giảm áp lực cho hệ thống điều hòa, góp phần tiết kiệm điện năng và phù hợp với xu hướng kiến trúc xanh.
+            - generic [ref=f25e155]:
+              - img "Kính cản nhiệt (Low e) phủ lớp kim loại siêu mỏng có khả năng hạn chế khoảng 40% sự truyền nhiệt vào mùa hè, chống nóng hiệu quả, ổn định nhiệt độ trong nhà" [ref=f25e156]
+              - paragraph [ref=f25e157]: Kính cản nhiệt (Low e) phủ lớp kim loại siêu mỏng có khả năng hạn chế khoảng 40% sự truyền nhiệt vào mùa hè, chống nóng hiệu quả, ổn định nhiệt độ trong nhà
+            - heading [level=3] [ref=f25e158]:
+              - strong [ref=f25e159]: 1.6. Tăng tính thẩm mỹ và linh hoạt trong thiết kế
+            - paragraph [ref=f25e160]: Bên cạnh kính cường lực, kính bán cường lực và hộp kính, Eurowindow còn cung cấp nhiều dòng kính như kính hoa văn, kính an toàn, kính phản quang, kính phủ cứng, phủ mềm. Sự đa dạng này giúp kiến trúc sư và chủ đầu tư dễ dàng lựa chọn loại kính phù hợp với từng không gian, từ khu vực cần sự trong suốt, mở rộng tầm nhìn đến khu vực cần tính riêng tư hoặc điểm nhấn trang trí.
+            - heading [level=2] [ref=f25e161]:
+              - strong [ref=f25e162]: 2. Điểm đặc biệt trong công nghệ gia công kính của Eurowindow
+            - heading [level=3] [ref=f25e163]:
+              - strong [ref=f25e164]: 2.1. Quy trình gia công kính được tổ chức đồng bộ trong một trung tâm chuyên biệt
+            - paragraph [ref=f25e165]: Thay vì phụ thuộc vào nhiều đơn vị gia công, các công đoạn như cắt kính, mài cạnh, khoan lỗ, gia công CNC, tôi kính, sản xuất kính dán an toàn và hộp kính đều được thực hiện trong cùng một hệ thống. Cách tổ chức này giúp Eurowindow kiểm soát tốt hơn độ chính xác của từng chi tiết, hạn chế sai lệch trong quá trình gia công và đảm bảo sự đồng bộ giữa các sản phẩm kính khi lắp đặt vào công trình.
+            - generic [ref=f25e166]:
+              - img "Trung tâm sản xuất kính chuyên biệt của Eurowindow tại Mê Linh, Hà Nội" [ref=f25e167]
+              - paragraph [ref=f25e168]: Trung tâm sản xuất kính chuyên biệt của Eurowindow tại Mê Linh, Hà Nội
+            - heading [level=3] [ref=f25e169]:
+              - strong [ref=f25e170]: 2.2. Hệ thống máy móc nhập khẩu giúp xử lý nhiều yêu cầu kính phức tạp
+            - paragraph [ref=f25e171]: "Eurowindow sử dụng dây chuyền và thiết bị máy móc nhập khẩu từ các quốc gia có thế mạnh về công nghệ kính như Italia, Phần Lan, Thụy Sĩ và Đức. Hệ thống gồm: máy cắt kính khổ lớn, máy mài song cạnh, máy khoan, máy gia công CNC và lò tôi kính phẳng, cho phép xử lý nhiều dạng kính khác nhau với yêu cầu kỹ thuật cao."
+            - paragraph [ref=f25e172]: Nhờ đó, các chi tiết kính có thể được gia công chính xác theo bản vẽ thiết kế, phù hợp với những công trình cần kích thước lớn, hình dạng đặc biệt hoặc yêu cầu lắp ghép phức tạp.
+            - heading [level=3] [ref=f25e173]:
+              - strong [ref=f25e174]: 2.3. Môi trường sản xuất được kiểm soát nhiệt độ và độ ẩm nghiêm ngặt
+            - paragraph [ref=f25e175]: Các sản phẩm như hộp kính và kính an toàn được gia công trong phòng kín với yêu cầu cụ thể về độ ẩm và nhiệt độ. Việc duy trì môi trường ổn định giúp hạn chế hơi ẩm, bụi bẩn hoặc tạp chất ảnh hưởng đến chất lượng kính, đặc biệt với các sản phẩm có cấu tạo nhiều lớp hoặc cần độ kín khít cao như hộp kính và kính dán an toàn.
+            - generic [ref=f25e176]:
+              - img "Môi trường sản xuất kính của Eurowindow luôn được kiểm soát chặt chẽ nhiệt độ và độ ẩm" [ref=f25e177]
+              - paragraph [ref=f25e178]: Môi trường sản xuất kính của Eurowindow luôn được kiểm soát chặt chẽ nhiệt độ và độ ẩm
+            - heading [level=3] [ref=f25e179]:
+              - strong [ref=f25e180]: 2.4. Ứng dụng kiểm tra Heat-Soak-Test để sàng lọc kính sau tôi
+            - paragraph [ref=f25e181]: Sau quá trình tôi kính, Eurowindow sử dụng thiết bị Heat-Soak-Test để kiểm tra và loại bỏ các tấm kính có nguy cơ lỗi tiềm ẩn. Đây là bước kiểm soát quan trọng trong gia công kính cường lực, giúp phát hiện những sản phẩm không đạt yêu cầu trước khi đưa vào sử dụng thực tế.
+            - paragraph [ref=f25e182]: Việc bổ sung công đoạn này cho thấy quy trình sản xuất không chỉ dừng ở gia công tạo hình, mà còn chú trọng kiểm tra chất lượng sau xử lý nhiệt.
+            - heading [level=3] [ref=f25e183]:
+              - strong [ref=f25e184]: 2.5. Khả năng tôi kính phủ mềm Low-E đòi hỏi kỹ thuật cao
+            - paragraph [ref=f25e185]: Eurowindow ứng dụng công nghệ tôi kính Super Soft Coating Low-E 0,01, một dòng kính phủ mềm có yêu cầu gia công phức tạp hơn kính thông thường. Với loại kính này, lớp phủ cần được bảo vệ trong suốt quá trình cắt, tôi và xử lý bề mặt để không làm ảnh hưởng đến hiệu suất kỹ thuật của kính.
+            - paragraph [ref=f25e186]: Khả năng gia công được kính phủ mềm Low-E cho thấy năng lực kiểm soát nhiệt, thiết bị và quy trình sản xuất ở mức cao, phù hợp với các công trình cần giải pháp kính tiết kiệm năng lượng.
+            - heading [level=3] [ref=f25e187]:
+              - strong [ref=f25e188]: 2.6. Chủ động sản xuất nhiều dòng kính trong cùng một hệ thống
+            - paragraph [ref=f25e189]: Trung tâm kính Eurowindow có khả năng sản xuất đa dạng dòng kính như kính cường lực, kính bán cường lực, kính dán an toàn, hộp kính khổ lớn, kính hoa văn và các loại kính phủ. Việc chủ động nhiều dây chuyền trong cùng một trung tâm giúp Eurowindow đáp ứng linh hoạt các yêu cầu từ cửa, vách ngăn, mặt dựng đến hạng mục trang trí, đồng thời đảm bảo sự đồng bộ về chất lượng và tiến độ cho từng công trình.
+            - generic [ref=f25e190]:
+              - img "Kính Eurowindow đáp ứng linh hoạt các yêu cầu của mọi hạng mục công trình" [ref=f25e191]
+              - paragraph [ref=f25e192]: Kính Eurowindow đáp ứng linh hoạt các yêu cầu của mọi hạng mục công trình
+            - heading [level=2] [ref=f25e193]:
+              - strong [ref=f25e194]: 3. Các dòng sản phẩm kính cao cấp của Eurowindow
+            - paragraph [ref=f25e195]: Eurowindow cung cấp 5 dòng kính chính, mỗi dòng được tối ưu cho một nhóm công năng và vị trí lắp đặt khác nhau.
+            - heading [level=3] [ref=f25e196]:
+              - strong [ref=f25e197]: 3.1. Kính cường lực và bán cường lực
+            - paragraph [ref=f25e198]: Đây là các dòng kính được xử lý nhiệt để tăng khả năng chịu lực, chống va đập, chống rung và chịu sốc nhiệt tốt hơn kính thường.
+            - list [ref=f25e199]:
+              - listitem [level=1] [ref=f25e200]:
+                - strong [ref=f25e201]: Kính cường lực
+                - text: có độ bền gấp 4 - 5 lần kính thường, khi vỡ tạo thành mảnh nhỏ ít sắc cạnh
+              - listitem [level=1] [ref=f25e202]:
+                - strong [ref=f25e203]: Kính bán cường lực
+                - text: có độ cứng gấp 2 - 3 lần, khi vỡ nứt theo đường lượn sóng và vẫn giữ độ dẻo nhất định.
+            - paragraph [ref=f25e204]: Nhờ độ an toàn và khả năng chịu lực cao, hai dòng kính này phù hợp cho vách kính lớn, mặt dựng, vách ngăn, cửa thủy lực, lan can, cửa sổ, cửa đi, bàn kính, buồng tắm kính và nhiều hạng mục nội thất.
+            - generic [ref=f25e205]:
+              - img "Kính cường lực và bán cường lực Eurowindow" [ref=f25e206]
+              - paragraph [ref=f25e207]: Kính cường lực và bán cường lực Eurowindow
+            - paragraph [ref=f25e208]:
+              - link "XEM SẢN PHẨM" [ref=f25e210] [cursor=pointer]:
+                - /url: https://eurowindow.biz/san-pham-kinh/kinh-cuong-luc-va-ban-cuong-luc.html
+            - heading [level=3] [ref=f25e211]:
+              - strong [ref=f25e212]: 3.2. Kính an toàn
+            - paragraph [ref=f25e213]: Kính an toàn Eurowindow là dòng kính dán nhiều lớp, liên kết bằng màng phim PVB giúp tăng độ bền, độ trong suốt và giữ mảnh kính khi xảy ra va đập. Sản phẩm có khả năng chịu lực tốt, hạn chế xâm nhập từ bên ngoài, giảm nguy cơ gây nguy hiểm, đồng thời hỗ trợ cách âm, cách nhiệt và loại trừ phần lớn tia cực tím.
+            - paragraph [ref=f25e214]: Kính phù hợp cho cửa sổ, cửa đi tại tòa nhà cao tầng, công trình gần đường lớn, nhà máy, sân bay, phòng thu âm hoặc các khu vực cần tăng độ an toàn và sự yên tĩnh.
+            - generic [ref=f25e215]:
+              - img "Kính an toàn của Eurowindow" [ref=f25e216]
+              - paragraph [ref=f25e217]: Kính an toàn của Eurowindow
+            - paragraph [ref=f25e218]:
+              - link "XEM SẢN PHẨM" [ref=f25e220] [cursor=pointer]:
+                - /url: https://eurowindow.biz/san-pham-kinh/kinh-an-toan.html
+            - heading [level=3] [ref=f25e221]:
+              - strong [ref=f25e222]: 3.3. Hộp kính và hộp kính khổ lớn
+            - paragraph [ref=f25e223]: Hộp kính Eurowindow là giải pháp kính hiện đại cho cửa sổ, cửa đi, mặt dựng và công trình cao tầng cần diện tích kính lớn. Sản phẩm có kết cấu nhiều lớp với khoảng trống bơm khí Argon và hạt hút ẩm bên trong, giúp tăng khả năng cách âm, cách nhiệt, hạn chế ngưng tụ hơi nước.
+            - paragraph [ref=f25e224]: Khi kết hợp với kính dán an toàn hoặc kính cường lực, hộp kính có khả năng chịu va đập tốt, đảm bảo độ chắc chắn, an toàn và mang lại vẻ đẹp hiện đại cho công trình.
+            - generic [ref=f25e225]:
+              - img "Hộp kính và hộp kính khổ lớn Eurowindow" [ref=f25e226]
+              - paragraph [ref=f25e227]: Hộp kính và hộp kính khổ lớn Eurowindow
+            - paragraph [ref=f25e228]:
+              - link "XEM SẢN PHẨM" [ref=f25e230] [cursor=pointer]:
+                - /url: https://eurowindow.biz/san-pham-kinh/hop-kinh-va-hop-kinh-kho-lon.html
+            - heading [level=3] [ref=f25e231]:
+              - strong [ref=f25e232]: 3.4. Kính cách nhiệt an toàn ACT
+            - paragraph [ref=f25e233]: Kính cách nhiệt an toàn ACT Eurowindow là dòng kính đơn dán phim cách nhiệt, giúp tăng độ an toàn, giảm nhiệt truyền qua kính và hỗ trợ tiết kiệm điện năng. Sản phẩm có thể giảm tới 57% tổng năng lượng mặt trời, ngăn 75% ánh sáng gây chói và loại bỏ 99% tia cực tím, giúp không gian mát hơn, bảo vệ sức khỏe người dùng và hạn chế phai màu nội thất.
+            - paragraph [ref=f25e234]: Khi kính bị va đập, lớp phim giúp giữ lại mảnh vỡ, giảm nguy cơ gây nguy hiểm, phù hợp cho nhà ở, văn phòng và các công trình cần kết hợp cách nhiệt với an toàn lâu dài.
+            - generic [ref=f25e235]:
+              - img "Kính cách nhiệt an toàn ACT Eurowindow" [ref=f25e236]
+              - paragraph [ref=f25e237]: Kính cách nhiệt an toàn ACT Eurowindow
+            - paragraph [ref=f25e238]:
+              - link "XEM SẢN PHẨM" [ref=f25e240] [cursor=pointer]:
+                - /url: https://eurowindow.biz/san-pham-kinh/kinh-cach-nhiet-an-toan-act.html
+            - heading [level=3] [ref=f25e241]:
+              - strong [ref=f25e242]: 3.5. Kính hoa văn
+            - paragraph [ref=f25e243]: Kính hoa văn Eurowindow là dòng kính trang trí dành cho cửa sổ, cửa đi, mặt bàn kính và các hạng mục nội thất cần điểm nhấn thẩm mỹ. Sản phẩm được gia công bằng công nghệ khắc chìm CNC tự động trên dây chuyền máy móc nhập khẩu từ Italy, giúp tạo họa tiết chính xác và linh hoạt theo yêu cầu thiết kế.
+            - paragraph [ref=f25e244]: Nhờ đó, kính hoa văn không chỉ làm đẹp không gian mà còn góp phần tăng giá trị nghệ thuật cho công trình.
+            - generic [ref=f25e245]:
+              - img "Kính hoa văn của Eurowindow" [ref=f25e246]
+              - paragraph [ref=f25e247]: Kính hoa văn của Eurowindow
+            - paragraph [ref=f25e248]:
+              - link "XEM SẢN PHẨM" [ref=f25e250] [cursor=pointer]:
+                - /url: https://eurowindow.biz/san-pham-kinh/kinh-hoa-van.html
+            - heading [level=2] [ref=f25e251]:
+              - strong [ref=f25e252]: 4. Địa chỉ showroom/Văn phòng Eurowindow
+            - paragraph [ref=f25e253]:
+              - text: Khám phá trực tiếp các sản phẩm kính tại hệ thống
+              - strong [ref=f25e254]: hơn 40 showrooms
+              - text: Eurowindow trên toàn quốc. Đội ngũ tư vấn kỹ thuật sẽ hỗ trợ đo đạc thực địa, lên phương án và báo giá miễn phí.
+            - paragraph [ref=f25e255]:
+              - strong [ref=f25e256]: "Showroom tại Hà Nội:"
+            - table [ref=f25e257]:
+              - rowgroup [ref=f25e258]:
+                - row [ref=f25e259]:
+                  - cell [ref=f25e260]:
+                    - paragraph [ref=f25e261]:
+                      - strong [ref=f25e262]: Showroom
+                  - cell [ref=f25e263]:
+                    - paragraph [ref=f25e264]:
+                      - strong [ref=f25e265]: Địa chỉ
+                  - cell [ref=f25e266]:
+                    - paragraph [ref=f25e267]:
+                      - strong [ref=f25e268]: Điện thoại
+                - row [ref=f25e269]:
+                  - cell [ref=f25e270]:
+                    - paragraph [ref=f25e271]: Tôn Thất Tùng (Trụ sở chính)
+                  - cell [ref=f25e272]:
+                    - paragraph [ref=f25e273]: 02 Tôn Thất Tùng, Đống Đa
+                  - cell [ref=f25e274]:
+                    - paragraph [ref=f25e275]: (84-24) 3 747 4777
+                    - paragraph [ref=f25e276]: 0909 888 000
+                - row [ref=f25e277]:
+                  - cell [ref=f25e278]:
+                    - paragraph [ref=f25e279]: Eurowindow Multi Complex
+                  - cell [ref=f25e280]:
+                    - paragraph [ref=f25e281]: Tầng 1&4, 27 Trần Duy Hưng, Cầu Giấy
+                  - cell [ref=f25e282]:
+                    - paragraph [ref=f25e283]: (84-24) 3577 4777
+                    - paragraph [ref=f25e284]: 0909 888 000
+            - paragraph [ref=f25e285]:
+              - strong [ref=f25e286]: "Showroom tại TP. Hồ Chí Minh:"
+            - table [ref=f25e287]:
+              - rowgroup [ref=f25e288]:
+                - row [ref=f25e289]:
+                  - cell [ref=f25e290]:
+                    - paragraph [ref=f25e291]:
+                      - strong [ref=f25e292]: Showroom
+                  - cell [ref=f25e293]:
+                    - paragraph [ref=f25e294]:
+                      - strong [ref=f25e295]: Địa chỉ
+                  - cell [ref=f25e296]:
+                    - paragraph [ref=f25e297]:
+                      - strong [ref=f25e298]: Điện thoại
+                - row [ref=f25e299]:
+                  - cell [ref=f25e300]:
+                    - paragraph [ref=f25e301]: Mạc Đĩnh Chi
+                  - cell [ref=f25e302]:
+                    - paragraph [ref=f25e303]: 39 Bis Mạc Đĩnh Chi, Đakao, Q.1
+                  - cell [ref=f25e304]:
+                    - paragraph [ref=f25e305]: (84-28) 6278 8124
+            - paragraph [ref=f25e306]:
+              - link "HỆ THỐNG SHOWROOM TOÀN QUỐC" [ref=f25e308] [cursor=pointer]:
+                - /url: https://eurowindow.biz/he-thong-cua-hang.html
+            - paragraph [ref=f25e309]:
+              - emphasis [ref=f25e310]: Sản phẩm kính Eurowindow là lựa chọn phù hợp cho các công trình cần kết hợp giữa độ an toàn, khả năng chịu lực, cách âm, cách nhiệt và tính thẩm mỹ. Với danh mục đa dạng gồm kính cường lực, kính bán cường lực, kính an toàn, hộp kính, kính cách nhiệt an toàn ACT và kính hoa văn, Eurowindow đáp ứng nhiều nhu cầu từ cửa đi, cửa sổ, vách kính, mặt dựng đến các hạng mục nội thất.
+            - paragraph [ref=f25e311]:
+              - emphasis [ref=f25e312]: Nhờ dây chuyền gia công hiện đại, quy trình kiểm soát chất lượng chặt chẽ và khả năng tùy biến theo từng thiết kế, sản phẩm kính Eurowindow góp phần hoàn thiện không gian sống, làm việc và các công trình kiến trúc hiện đại theo hướng bền vững, an toàn và giàu tính thẩm mỹ.
+            - paragraph [ref=f25e313]:
+              - strong [ref=f25e314]:
+                - emphasis [ref=f25e315]: "Liên hệ Eurowindow để nhận tư vấn và báo giá miễn phí:"
+            - list [ref=f25e316]:
+              - listitem [ref=f25e317]:
+                - emphasis [ref=f25e318]:
+                  - text: "Miền Bắc:"
+                  - strong [ref=f25e319]: 0909 888 000
+              - listitem [level=1] [ref=f25e320]:
+                - text: "Miền Trung:"
+                - strong [ref=f25e321]: 0906 000 111
+              - listitem [level=1] [ref=f25e322]:
+                - text: "Miền Nam:"
+                - strong [ref=f25e323]: 0903 11 8888
+              - listitem [ref=f25e324]:
+                - text: "Website:"
+                - strong [ref=f25e325]: www.eurowindow.biz
+          - link "Xem thêm" [ref=f25e326] [cursor=pointer]:
+            - /url: javascript:;
+        - generic [ref=f25e329]:
+          - img "callcenter-1" [ref=f25e331]
+          - generic [ref=f25e332]:
+            - paragraph [ref=f25e333]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+            - generic [ref=f25e334]:
+              - generic [ref=f25e335]:
+                - textbox "Họ và tên" [ref=f25e337]:
+                  - /placeholder: Họ và tên *
+                - textbox "Số điện thoại" [ref=f25e339]:
+                  - /placeholder: Số điện thoại *
+                - textbox "Email" [ref=f25e341]:
+                  - /placeholder: Email *
+              - textbox "Lời nhắn tới Eurowindow" [ref=f25e343]
+              - button "Gửi" [ref=f25e345] [cursor=pointer]
+      - generic [ref=f25e349]:
+        - generic [ref=f25e350]:
+          - img "logo-ngang-xanh-13" [ref=f25e352]
+          - paragraph [ref=f25e354]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+        - generic [ref=f25e356]:
+          - generic [ref=f25e357]:
+            - textbox "Họ và tên *" [ref=f25e359]
+            - textbox "Số điện thoại *" [ref=f25e361]
+            - textbox "Email *" [ref=f25e363]
+          - textbox "Lời nhắn tới Eurowindow" [ref=f25e365]
+          - button "Gửi" [ref=f25e367] [cursor=pointer]
+  - contentinfo [ref=f25e368]:
+    - generic [ref=f25e370]:
+      - generic [ref=f25e371]:
+        - link [ref=f25e373] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f25e374]
+        - generic [ref=f25e375]:
+          - link "Facebook" [ref=f25e376] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f25e377]
+          - link "Instagram" [ref=f25e378] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f25e379]
+          - link "Youtube" [ref=f25e380] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f25e381]
+          - link "Zalo" [ref=f25e382] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f25e383]
+          - link "Tiktok" [ref=f25e384] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f25e388] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f25e392] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f25e396]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f25e399] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f25e400]:
+          - link "Bộ Công Thương" [ref=f25e401] [cursor=pointer]:
+            - /url: javascript:;
+            - img "Bộ Công Thương" [ref=f25e402]
+          - link "DMCA Protection Status" [ref=f25e403] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f25e404]
+      - generic [ref=f25e405]:
+        - generic [ref=f25e406]: Giới thiệu
+        - list [ref=f25e407]:
+          - listitem [ref=f25e408]:
+            - link "Giới thiệu" [ref=f25e409] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f25e410]:
+            - link "Tầm nhìn sứ mệnh" [ref=f25e411] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f25e412]:
+            - link "Giải thưởng" [ref=f25e413] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f25e414]:
+            - link "Tài liệu" [ref=f25e415] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f25e416]:
+        - generic [ref=f25e417]: Sản phẩm
+        - list [ref=f25e418]:
+          - listitem [ref=f25e419]:
+            - link "Cửa - Vách nhôm" [ref=f25e420] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f25e421]:
+            - link "Cửa uPVC" [ref=f25e422] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f25e423]:
+            - link "Cửa gỗ" [ref=f25e424] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f25e425]:
+            - link "Cửa cuốn" [ref=f25e426] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f25e427]:
+            - link "Cửa thông minh" [ref=f25e428] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f25e429]:
+        - generic [ref=f25e430]: Tin tức
+        - list [ref=f25e431]:
+          - listitem [ref=f25e432]:
+            - link "Tin tức sự kiện" [ref=f25e433] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f25e434]:
+            - link "Tin dự án" [ref=f25e435] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f25e436]:
+            - link "Tin nội bộ" [ref=f25e437] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f25e438]:
+            - link "Tin khuyến mãi" [ref=f25e439] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f25e440]:
+            - link "Tư vấn" [ref=f25e441] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f25e442]:
+        - generic [ref=f25e443]: Chăm sóc khách hàng
+        - list [ref=f25e444]:
+          - listitem [ref=f25e445]:
+            - link "Chính sách bảo hành" [ref=f25e446] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f25e447]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f25e448] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f25e449]:
+            - link "(84 - 24) 37 47 47 00" [ref=f25e450] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f25e453]:
+            - link "cskhhn@eurowindow.biz" [ref=f25e454] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f25e457]: Dự án quốc tế và xuất khẩu
+          - list [ref=f25e458]:
+            - listitem [ref=f25e459]:
+              - link "+84 -903 41 55 52" [ref=f25e460] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f25e463]:
+              - link "export@eurowindow.biz" [ref=f25e464] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f25e469]:
+      - generic [ref=f25e470]:
+        - paragraph
+        - paragraph
+      - generic [ref=f25e471]:
+        - paragraph
+        - paragraph [ref=f25e472]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f25e478] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f25e479]

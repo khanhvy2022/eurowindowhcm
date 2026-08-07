@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - link "Chuyển đến nội dung" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation [ref=e7]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: https://catmoc.cmg.vn/
+          - img "CÁT MỘC GROUP" [ref=e10]
+        - text: 
+        - generic:
+          - list
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Trang chủ" [ref=e14] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/
+          - listitem [ref=e15]:
+            - link "Giới thiệu " [ref=e16] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/gioi-thieu/
+              - text: Giới thiệu
+              - generic [ref=e17]: 
+          - listitem [ref=e18]:
+            - link "Dự án/Công trình " [ref=e19] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/du-an/
+              - text: Dự án/Công trình
+              - generic [ref=e20]: 
+          - listitem [ref=e21]:
+            - link "Dịch vụ " [ref=e22] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+              - text: Dịch vụ
+              - generic [ref=e23]: 
+          - listitem [ref=e24]:
+            - link "Tin tức " [ref=e25] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/tin-tuc/
+              - text: Tin tức
+              - generic [ref=e26]: 
+          - listitem [ref=e27]:
+            - link "Tuyển dụng" [ref=e28] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/tuyen-dung/
+          - listitem [ref=e29]:
+            - link "Phong thủy " [ref=e30] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/phong-thuy/
+              - text: Phong thủy
+              - generic [ref=e31]: 
+          - listitem [ref=e32]:
+            - link "Liên hệ ngay" [ref=e33] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/lien-he/
+          - listitem [ref=e34]:
+            - link [ref=e35] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/nguy-co-tiem-an-tu-noi-that-gia-re-doi-voi-suc-khoe/
+          - listitem [ref=e36]:
+            - link [ref=e37] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/home/
+    - generic [ref=e43]:
+      - link "Trang chủ" [ref=e45] [cursor=pointer]:
+        - /url: https://catmoc.cmg.vn/
+      - text: / Nguy cơ tiềm ẩn từ nội thất giá rẻ đối với sức khỏe
+    - main [ref=e46]:
+      - article [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e53]:
+            - heading "Nguy cơ tiềm ẩn từ nội thất giá rẻ đối với sức khỏe" [level=1] [ref=e54]
+            - generic [ref=e55]: 25 THÁNG 07 NĂM 2026
+          - generic [ref=e56]:
+            - paragraph [ref=e57]:
+              - generic [ref=e58]:
+                - link "Nội thất giá rẻ" [ref=e59] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/?p=16443&preview=true
+                - text: là lựa chọn của nhiều gia đình khi muốn tối ưu chi phí và điều đó hoàn toàn không có gì sai. Tuy nhiên, điều đáng quan tâm không nằm ở mức giá mà ở chất lượng vật liệu và quy trình sản xuất. Một số sản phẩm nội thất giá rẻ sử dụng vật liệu không đạt chuẩn có thể phát thải formaldehyde và các hợp chất hữu cơ dễ bay hơi (VOC), ảnh hưởng đến chất lượng không khí trong nhà. Thấu hiểu những băn khoăn này, Cát Mộc Furniture sẽ giúp bạn hiểu rõ formaldehyde là gì, những ảnh hưởng đến sức khỏe nếu không được kiểm soát, và vì sao một giải pháp nội thất minh bạch, được kiểm soát tận gốc mới là cách bảo vệ gia đình hiệu quả nhất thay vì chỉ nhìn vào con số trên bảng giá.
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - paragraph [ref=e62]: Mục lục
+                - link "Toggle Table of Content" [ref=e63] [cursor=pointer]:
+                  - /url: "#"
+              - navigation [ref=e71]:
+                - list [ref=e72]:
+                  - listitem [ref=e73]:
+                    - link "Formaldehyde là gì và vì sao có trong nội thất?" [ref=e74] [cursor=pointer]:
+                      - /url: "#Formaldehyde_la_gi_va_vi_sao_co_trong_noi_that"
+                  - listitem [ref=e75]:
+                    - link "Tác hại của nội thất giá rẻ đến sức khỏe" [ref=e76] [cursor=pointer]:
+                      - /url: "#Tac_hai_cua_noi_that_gia_re_den_suc_khoe"
+                  - listitem [ref=e77]:
+                    - link "Dấu hiệu nhận biết nội thất có nguy cơ phát thải formaldehyde" [ref=e78] [cursor=pointer]:
+                      - /url: "#Dau_hieu_nhan_biet_noi_that_co_nguy_co_phat_thai_formaldehyde"
+                    - list [ref=e79]:
+                      - listitem [ref=e80]:
+                        - link "Tiêu chuẩn phát thải formaldehyde E0, E1 và E2" [ref=e81] [cursor=pointer]:
+                          - /url: "#Tieu_chuan_phat_thai_formaldehyde_E0_E1_va_E2"
+                      - listitem [ref=e82]:
+                        - link "Những dấu hiệu cần lưu ý" [ref=e83] [cursor=pointer]:
+                          - /url: "#Nhung_dau_hieu_can_luu_y"
+                  - listitem [ref=e84]:
+                    - link "Tiêu chí lựa chọn nội thất an toàn cho không gian sống" [ref=e85] [cursor=pointer]:
+                      - /url: "#Tieu_chi_lua_chon_noi_that_an_toan_cho_khong_gian_song"
+                  - listitem [ref=e86]:
+                    - link "Giải pháp nội thất an toàn từ Cát Mộc Furniture" [ref=e87] [cursor=pointer]:
+                      - /url: "#Giai_phap_noi_that_an_toan_tu_Cat_Moc_Furniture"
+                  - listitem [ref=e88]:
+                    - link "Kết luận" [ref=e89] [cursor=pointer]:
+                      - /url: "#Ket_luan"
+            - heading "Formaldehyde là gì và vì sao có trong nội thất?" [level=2] [ref=e90]
+            - paragraph [ref=e91]: Formaldehyde là hợp chất hóa học không màu, có mùi hăng và dễ bay hơi. Trong ngành nội thất, chất này thường có trong keo kết dính dùng để sản xuất các loại gỗ công nghiệp như MDF, HDF, ván dăm hay ván ép.
+            - paragraph [ref=e92]: Đây cũng là một trong những yếu tố gia chủ nên quan tâm khi lựa chọn nội thất giá rẻ, bởi chất lượng vật liệu sẽ ảnh hưởng trực tiếp đến mức phát thải formaldehyde trong không gian sống.
+            - paragraph [ref=e93]: "Ngoài keo kết dính, formaldehyde còn có thể xuất hiện trong:"
+            - list [ref=e94]:
+              - listitem [level=1] [ref=e95]: Sơn và lớp phủ bề mặt.
+              - listitem [level=1] [ref=e96]: Vecni và dung môi hoàn thiện.
+              - listitem [level=1] [ref=e97]: Keo dán cạnh, keo lắp ráp.
+              - listitem [level=1] [ref=e98]: Những vị trí cắt hoặc khoan chưa được xử lý kín.
+            - paragraph [ref=e99]: Tuy nhiên, điều này không đồng nghĩa mọi sản phẩm gỗ công nghiệp đều không an toàn. Mức phát thải phụ thuộc vào chất lượng vật liệu, loại keo sử dụng và quy trình sản xuất. Những sản phẩm đạt tiêu chuẩn phát thải thấp vẫn có thể đáp ứng yêu cầu an toàn cho không gian sống.
+            - paragraph [ref=e100]: Bên cạnh formaldehyde, một số loại sơn và keo còn phát thải VOC (Volatile Organic Compounds), một nhóm hợp chất hữu cơ dễ bay hơi có thể ảnh hưởng đến chất lượng không khí trong nhà. Điều này cho thấy mức độ an toàn của nội thất không phụ thuộc vào giá thành mà phụ thuộc vào chất lượng vật liệu, loại keo kết dính, tiêu chuẩn phát thải và quy trình sản xuất. Vì vậy, khi lựa chọn nội thất giá rẻ, gia chủ nên tìm hiểu kỹ nguồn gốc vật liệu thay vì chỉ so sánh về giá bán.
+            - paragraph [ref=e101]:
+              - img "Nguy Co Tiem An Tu Noi That Gia Re Doi Voi Suc Khoe" [ref=e102]
+            - heading "Tác hại của nội thất giá rẻ đến sức khỏe" [level=2] [ref=e103]
+            - paragraph [ref=e104]: Không phải mọi sản phẩm nội thất giá rẻ đều ảnh hưởng đến sức khỏe. Tuy nhiên, nếu sử dụng vật liệu không đạt tiêu chuẩn phát thải, một số sản phẩm có thể giải phóng formaldehyde và VOC trong quá trình sử dụng.
+            - paragraph [ref=e105]: Khi đó, con người chủ yếu tiếp xúc với các chất này qua đường hô hấp khi hít phải không khí có chứa formaldehyde, đặc biệt trong không gian kín hoặc ít thông gió.
+            - paragraph [ref=e106]: Mức độ phơi nhiễm không chỉ phụ thuộc vào một món nội thất mà còn bị ảnh hưởng bởi tổng lượng vật liệu trong không gian, khả năng thông gió và thời gian sinh hoạt trong phòng.
+            - paragraph [ref=e107]: "Ở nồng độ cao, formaldehyde có thể gây ra một số triệu chứng như:"
+            - list [ref=e108]:
+              - listitem [level=1] [ref=e109]: Cay mắt, chảy nước mắt.
+              - listitem [level=1] [ref=e110]: Khô rát mũi và cổ họng.
+              - listitem [level=1] [ref=e111]: Ho, khó thở.
+              - listitem [level=1] [ref=e112]: Đau đầu, buồn nôn.
+              - listitem [level=1] [ref=e113]: Kích ứng da ở người nhạy cảm.
+            - paragraph [ref=e114]:
+              - text: Theo
+              - link "Cơ quan Nghiên cứu Ung thư Quốc tế" [ref=e115] [cursor=pointer]:
+                - /url: https://monographs.iarc.who.int/agents-classified-by-the-iarc/
+              - text: (IARC), formaldehyde được xếp vào Nhóm 1, tức nhóm chất gây ung thư cho người. Tuy nhiên, điều này không đồng nghĩa mọi sản phẩm nội thất đều gây ung thư. Nguy cơ còn phụ thuộc vào mức phát thải của vật liệu, thời gian tiếp xúc và điều kiện thông gió của không gian sống.
+            - paragraph [ref=e116]: Đặc biệt, trẻ nhỏ, người cao tuổi, người mắc bệnh hô hấp và phụ nữ mang thai là những nhóm nhạy cảm hơn với các chất ô nhiễm trong không khí. Vì vậy, việc lựa chọn vật liệu đạt tiêu chuẩn phát thải thấp là một trong những giải pháp giúp giảm nguy cơ tiếp xúc với formaldehyde trong sinh hoạt hằng ngày.
+            - paragraph [ref=e117]:
+              - img "Nguy Co Tiem An Tu Noi That Gia Re Doi Voi Suc Khoe" [ref=e118]
+            - heading "Dấu hiệu nhận biết nội thất có nguy cơ phát thải formaldehyde" [level=2] [ref=e119]
+            - paragraph [ref=e120]: Khi lựa chọn nội thất giá rẻ, gia chủ không nên chỉ so sánh giá bán mà cần quan tâm đến tiêu chuẩn phát thải formaldehyde, nguồn gốc vật liệu và quy trình sản xuất. Đây cũng là những yếu tố then chốt để đánh giá mức độ an toàn của sản phẩm.
+            - heading "Tiêu chuẩn phát thải formaldehyde E0, E1 và E2" [level=3] [ref=e121]
+            - table [ref=e122]:
+              - rowgroup [ref=e123]:
+                - row [ref=e124]:
+                  - cell "Tiêu chuẩn" [ref=e125]
+                  - cell "Đặc điểm" [ref=e126]
+                - row [ref=e127]:
+                  - cell "E0" [ref=e128]
+                  - cell "Mức phát thải rất thấp, phù hợp với phòng ngủ, phòng trẻ em và các không gian yêu cầu cao về chất lượng không khí." [ref=e129]
+                - row [ref=e130]:
+                  - cell "E1" [ref=e131]
+                  - cell "Mức phát thải thấp, được sử dụng phổ biến trong ngành nội thất và đáp ứng nhiều tiêu chuẩn quốc tế." [ref=e132]
+                - row [ref=e133]:
+                  - cell "E2" [ref=e134]
+                  - cell "Mức phát thải cao hơn, hiện không còn được khuyến khích sử dụng trong nhiều không gian sống." [ref=e135]
+            - paragraph [ref=e136]: Một sản phẩm nội thất giá rẻ vẫn có thể an toàn nếu sử dụng vật liệu đạt tiêu chuẩn E0 hoặc E1 và được sản xuất theo quy trình kiểm soát chất lượng.
+            - paragraph [ref=e137]: Ngoài tiêu chuẩn phát thải, gia chủ cũng nên ưu tiên những đơn vị minh bạch về nguồn gốc vật liệu, loại keo, sơn và lớp hoàn thiện để đánh giá chất lượng sản phẩm một cách toàn diện.
+            - paragraph [ref=e138]:
+              - img "Nguy Co Tiem An Tu Noi That Gia Re Doi Voi Suc Khoe" [ref=e139]
+            - heading "Những dấu hiệu cần lưu ý" [level=3] [ref=e140]
+            - paragraph [ref=e141]: "Mùi hăng sau khi lắp đặt nội thất mới là dấu hiệu dễ nhận biết, nhưng không phải tiêu chí duy nhất. Bạn nên kiểm tra lại không gian nếu xuất hiện các biểu hiện sau:"
+            - list [ref=e142]:
+              - listitem [level=1] [ref=e143]: Mùi hóa chất kéo dài nhiều ngày.
+              - listitem [level=1] [ref=e144]: Nhiều thành viên trong gia đình cùng bị cay mắt, ho hoặc đau đầu khi ở trong phòng.
+              - listitem [level=1] [ref=e145]: Triệu chứng giảm khi ra ngoài và xuất hiện trở lại khi quay vào.
+              - listitem [level=1] [ref=e146]: Trẻ nhỏ hoặc người mắc bệnh hô hấp có phản ứng rõ rệt hơn.
+            - paragraph [ref=e147]: Nếu tình trạng kéo dài, hãy tăng cường thông gió, kiểm tra lại nguồn vật liệu và cân nhắc đo chất lượng không khí trong nhà để có cơ sở đánh giá chính xác.
+            - paragraph [ref=e148]:
+              - img "Nguy Co Tiem An Tu Noi That Gia Re Doi Voi Suc Khoe" [ref=e149]
+            - heading "Tiêu chí lựa chọn nội thất an toàn cho không gian sống" [level=2] [ref=e150]
+            - paragraph [ref=e151]: "Khi lựa chọn nội thất, điều quan trọng không phải là tìm mức giá thấp nhất, mà là đảm bảo được sự an toàn và độ bền lâu dài cho không gian sống. Một sản phẩm an toàn không chỉ phụ thuộc vào kiểu dáng hay chất liệu bề mặt, mà còn ở nguồn gốc vật liệu, mức phát thải formaldehyde và quy trình sản xuất phía sau. Để đưa ra quyết định phù hợp, gia chủ nên lưu ý những tiêu chí sau:"
+            - list [ref=e152]:
+              - listitem [level=1] [ref=e153]: Ưu tiên vật liệu đạt tiêu chuẩn phát thải E0 hoặc E1, đặc biệt đối với phòng ngủ và phòng trẻ em
+              - listitem [level=1] [ref=e154]: Lựa chọn đơn vị minh bạch về nguồn gốc vật liệu, có đầy đủ thông tin về thương hiệu ván, loại keo và sơn sử dụng, thay vì chỉ tin vào lời quảng cáo
+              - listitem [level=1] [ref=e155]: Kiểm tra chất lượng hoàn thiện, đảm bảo các cạnh ván, vị trí cắt và lỗ khoan được xử lý kín nhằm hạn chế phát thải từ phần lõi vật liệu
+              - listitem [level=1] [ref=e156]: Hạn chế sử dụng quá nhiều nội thất trong không gian kín, đồng thời duy trì thông gió tốt sau khi lắp đặt
+              - listitem [level=1] [ref=e157]: Ưu tiên đơn vị có quy trình thiết kế và thi công đồng bộ tại xưởng sản xuất riêng, giúp kiểm soát chất lượng từ khâu chọn vật liệu đến khi hoàn thiện, thay vì phụ thuộc vào nguồn hàng trôi nổi
+            - paragraph [ref=e158]: Sự an toàn của một sản phẩm nội thất không nằm ở con số trên bảng giá, mà ở việc từng khâu sản xuất có thực sự được kiểm soát minh bạch hay không. Đây cũng là tiêu chí nền tảng để xây dựng một không gian sống vừa thẩm mỹ, vừa an tâm cho cả gia đình.
+            - paragraph [ref=e159]:
+              - img "Nguy Co Tiem An Tu Noi That Gia Re Doi Voi Suc Khoe" [ref=e160]
+            - heading "Giải pháp nội thất an toàn từ Cát Mộc Furniture" [level=2] [ref=e161]
+            - paragraph [ref=e162]: Mỗi gia đình đều có nhu cầu, phong cách sống và không gian khác nhau. Vì vậy, tại Cát Mộc Furniture, chúng tôi không chỉ tập trung vào thiết kế mà còn chú trọng lựa chọn vật liệu phù hợp và kiểm soát chất lượng trong từng công đoạn, từ sản xuất đến thi công hoàn thiện.
+            - paragraph [ref=e163]: Năng lực thiết kế của Cát Mộc Furniture đã được ghi nhận tại BCI Interior Design Awards 2024, khẳng định sự đầu tư nghiêm túc về chuyên môn và tư duy thiết kế. Bên cạnh yếu tố thẩm mỹ, đội ngũ luôn ưu tiên tư vấn minh bạch về vật liệu, tiêu chuẩn phát thải và giải pháp phù hợp với từng không gian, giúp gia chủ có thêm cơ sở để đưa ra lựa chọn.
+            - paragraph [ref=e164]: Chúng tôi tin rằng giá trị của một công trình không chỉ nằm ở vẻ đẹp khi hoàn thiện mà còn ở sự bền vững và cảm giác an tâm trong suốt quá trình sử dụng. Đó cũng là định hướng mà Cát Mộc Furniture theo đuổi trong mỗi dự án.
+            - paragraph [ref=e165]:
+              - img "Nguy Co Tiem An Tu Noi That Gia Re Doi Voi Suc Khoe" [ref=e166]
+            - heading "Kết luận" [level=2] [ref=e167]
+            - paragraph [ref=e168]: Formaldehyde không phải là câu chuyện của riêng nội thất giá rẻ, nhưng rủi ro sẽ tăng cao hơn khi vật liệu không rõ nguồn gốc và quy trình sản xuất không được kiểm soát chặt chẽ. Vấn đề mà nhiều gia đình gặp phải không phải là “chọn giá rẻ hay giá cao”, mà là làm sao xác minh được điều mình đang mua thực sự an toàn điều mà không phải đơn vị nào trên thị trường cũng minh bạch cung cấp.
+            - paragraph [ref=e169]: Đây cũng là lý do Cát Mộc Furniture lựa chọn vận hành theo mô hình xưởng sản xuất riêng, kiểm soát vật liệu từ khâu đầu vào đến hoàn thiện, thay vì phụ thuộc vào nguồn hàng trôi nổi khó truy xuất. Với giải pháp nội thất “may đo” theo đúng nhu cầu từng gia đình, gia chủ không chỉ có được một không gian sống đẹp và tối ưu công năng, mà còn an tâm về nguồn gốc vật liệu trong suốt quá trình sử dụng.
+            - paragraph [ref=e170]: Nếu bạn đang phân vân không biết nội thất nhà mình có thực sự an toàn hay không, hãy để Cát Mộc Furniture khảo sát và tư vấn giải pháp phù hợp nhất cho tổ ấm của bạn.
+    - contentinfo [ref=e171]:
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e178]:
+            - img "Cmg Logo@2x" [ref=e181]
+            - generic [ref=e183]:
+              - heading "CÔNG TY TNHH KIẾN TRÚC – XÂY DỰNG – ĐÀO TẠO CÁT MỘC" [level=3] [ref=e184]
+              - list [ref=e185]:
+                - listitem [ref=e186]: 436B/6 Ba Tháng Hai, P.Hoà Hưng, TP.Hồ Chí Minh, Việt Nam.
+                - listitem [ref=e187]: 0942 62 64 69 - 0946 80 80 82
+                - listitem [ref=e188]:
+                  - link "info@cmg.vn" [ref=e189] [cursor=pointer]:
+                    - /url: mailto:info@cmg.vn
+            - link "Liên hệ ngay" [ref=e191] [cursor=pointer]:
+              - /url: /lien-he/
+          - generic [ref=e194]:
+            - heading "cat moc group | since 2004" [level=1] [ref=e196]
+            - iframe [ref=e198]:
+              - generic [ref=f1e2]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=f1e4]:
+                        - generic:
+                          - figure [ref=f1e5]
+                          - generic:
+                            - paragraph: Cát Mộc group
+                        - generic [ref=f1e6]:
+                          - generic [ref=f1e7] [cursor=pointer]: 
+                          - generic [ref=f1e8] [cursor=pointer]: 
+                      - generic [ref=f1e10]:
+                        - paragraph [ref=f1e12]: Bắt đầu trò chuyện với Cát Mộc group
+                        - generic [ref=f1e13] [cursor=pointer]: Chat bằng Zalo
+                        - generic [ref=f1e14] [cursor=pointer]: Chat nhanh
+                      - generic [ref=f1e18]:
+                        - generic [ref=f1e19] [cursor=pointer]: Tiếng Việt
+                        - generic [ref=f1e20] [cursor=pointer]: English
+            - generic [ref=e200]:
+              - generic [ref=e203]:
+                - generic [ref=e204]: GIỚI THIỆU
+                - link "Về chúng tôi" [ref=e206] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/
+                - link "Người sáng lập" [ref=e209] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/nguoi-sang-lap/
+                - link "Giải thưởng" [ref=e212] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/giai-thuong/
+                - link "Hệ sinh thái CÁT MỘC" [ref=e215] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/he-sinh-thai-cat-moc/
+                - link "Portfolio Cát Mộc" [ref=e218] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn
+              - generic [ref=e222]:
+                - generic [ref=e223]: DỊCH VỤ
+                - link "Thiết kế kiến trúc" [ref=e225] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+                - link "Thi công thô" [ref=e228] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thi-cong-tho/
+                - link "Thiết kế - Sản xuất nội thất" [ref=e231] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-san-xuat-noi-that/
+              - generic [ref=e235]:
+                - generic [ref=e236]: TIN TỨC
+                - link "Ưu đãi" [ref=e238] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/uu-dai/
+                - link "Văn hóa" [ref=e241] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/van-hoa-cmg/
+                - link "Chia sẻ kiến thức" [ref=e244] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/chia-se-kien-thuc/
+                - link "Tuyển dụng" [ref=e247] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/tuyen-dung/
+        - generic [ref=e252]:
+          - generic [ref=e253]: Cat Moc Group | Since 2004
+          - generic [ref=e257]:
+            - generic [ref=e258]:
+              - link "Theo dõi trên Zalo" [ref=e259] [cursor=pointer]:
+                - /url: https://zalo.me/0912752275
+              - link "Theo dõi trên Messenger" [ref=e261] [cursor=pointer]:
+                - /url: https://m.me/CatMocDesignConstruction
+              - link "Theo dõi trên WhatsApp" [ref=e263] [cursor=pointer]:
+                - /url: https://wa.me/84942626469
+              - link "Theo dõi trên Facebook" [ref=e265] [cursor=pointer]:
+                - /url: https://www.facebook.com/CatMocDesignConstruction
+            - link [ref=e267] [cursor=pointer]:
+              - /url: tel:0942626469
+              - generic [ref=e268]: 
+      - link "Lên đầu trang":
+        - /url: "#top"
+        - generic: 
+  - text:     
+  - generic [ref=e270]:
+    - link [ref=e275] [cursor=pointer]:
+      - /url: https://zalo.me/0912752275
+    - link [ref=e281] [cursor=pointer]:
+      - /url: tel:0942626469
+  - iframe [ref=e285]:
+    - generic [ref=f2e6]:
+      - text: protected by
+      - strong [ref=f2e7]: reCAPTCHA

@@ -1,0 +1,171 @@
+- generic [ref=f71e1]:
+  - generic [ref=f71e2]:
+    - banner [ref=f71e3]:
+      - generic [ref=f71e4]:
+        - link "Eurowindow" [ref=f71e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f71e6]
+        - button "Mở menu" [ref=f71e7]
+    - main [ref=f71e9]:
+      - generic [ref=f71e11]:
+        - heading "SẢN PHẨM CỦA EUROWINDOW" [level=1] [ref=f71e12]
+        - navigation "Breadcrumb" [ref=f71e13]:
+          - link "Trang chủ" [ref=f71e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f71e17]: Sản phẩm
+      - generic [ref=f71e19]:
+        - tablist "Chọn sản phẩm" [ref=f71e20]:
+          - tab "CỬA NHÔM & VÁCH KÍNH" [ref=f71e21]
+          - tab "CỬA uPVC" [ref=f71e22]
+          - tab "CỬA GỖ & GỖ CHỐNG CHÁY" [ref=f71e23]
+          - tab "SẢN PHẨM KÍNH" [active] [selected] [ref=f71e24]
+          - tab "CỬA TỰ ĐỘNG" [ref=f71e25]
+          - tab "CỬA CUỐN" [ref=f71e26]
+        - generic [ref=f71e27]:
+          - img "SẢN PHẨM KÍNH CAO CẤP" [ref=f71e226]
+          - generic [ref=f71e30]:
+            - heading "SẢN PHẨM KÍNH CAO CẤP" [level=2] [ref=f71e227]
+            - paragraph [ref=f71e32]: Trung tâm gia công kính tại KCN Quang Minh, Mê Linh, Hà Nội với dây chuyền sản xuất hiện đại trong phòng kín đạt chuẩn độ ẩm ≤46%, nhiệt độ 20–28°C. Kính cường lực, bán cường lực, hộp kính khổ lớn, kính hoa văn, kính dán an toàn, kính Low-E.
+            - list [ref=f71e33]:
+              - listitem [ref=f71e228]: Kính cường lực, bán cường lực, kính dán an toàn
+              - listitem [ref=f71e231]: Hộp kính khổ lớn, kính hoa văn, kính Low-E, kính điện đổi màu
+              - listitem [ref=f71e234]: Sản xuất trong phòng kín đạt chuẩn nhiệt độ 20–28°C, độ ẩm ≤46%
+            - generic [ref=f71e43]:
+              - generic [ref=f71e44]:
+                - paragraph [ref=f71e45]: 99%
+                - paragraph [ref=f71e46]: khách hàng hài lòng
+              - generic [ref=f71e47]:
+                - paragraph [ref=f71e48]: 12+
+                - paragraph [ref=f71e49]: hệ sản phẩm chính hãng
+              - generic [ref=f71e50]:
+                - paragraph [ref=f71e51]: 5 năm
+                - paragraph [ref=f71e52]: bảo hành tiêu chuẩn
+            - link "XEM NGAY BẢNG GIÁ" [ref=f71e53] [cursor=pointer]:
+              - /url: "#lien-he"
+        - generic [ref=f71e237]:
+          - generic [ref=f71e238]:
+            - generic [ref=f71e239]:
+              - paragraph [ref=f71e240]: Giới thiệu sản phẩm
+              - generic [ref=f71e241]:
+                - paragraph [ref=f71e242]: Đáp ứng nhu cầu kính của Eurowindow và cung cấp cho thị trường các loại kính cao cấp, Eurowindow đầu tư Trung tâm gia công kính tại lô 15 KCN Quang Minh, Mê Linh, Hà Nội với dây chuyền sản xuất hiện đại và đồng bộ hàng đầu tại Việt Nam.
+                - paragraph [ref=f71e243]: "Các sản phẩm kính tiêu biểu: kính cường lực, kính bán cường lực, hộp kính khổ lớn, kính hoa văn, kính dán an toàn — dùng làm vách kính lớn, vách ngăn, cửa thủy lực, lan can cầu thang, cửa sổ, cửa đi, bàn kính, buồng tắm kính… Với tính an toàn, chịu lực cơ học cao, thẩm mỹ, loại trừ tia cực tím, cách âm, cách nhiệt, sản phẩm kính Eurowindow là lựa chọn hoàn hảo cho công trình dân dụng và công nghiệp."
+            - generic [ref=f71e244]:
+              - paragraph [ref=f71e245]: Chi tiết cấu tạo & công nghệ
+              - generic [ref=f71e246]:
+                - generic [ref=f71e247]:
+                  - heading "Phòng kín kiểm soát nhiệt độ, độ ẩm" [level=3] [ref=f71e248]
+                  - paragraph [ref=f71e249]: Hộp kính và kính an toàn được gia công trong phòng kín, độ ẩm ≤46%, nhiệt độ 20 – 28°C, hạn chế hơi ẩm, bụi bẩn ảnh hưởng tới chất lượng kính nhiều lớp.
+                - generic [ref=f71e250]:
+                  - heading "Dây chuyền thiết bị châu Âu" [level=3] [ref=f71e251]
+                  - paragraph [ref=f71e252]: Máy cắt kính khổ lớn, máy mài song cạnh, máy khoan, máy gia công CNC, lò tôi kính phẳng, dây chuyền kính dán an toàn và hộp kính nhập khẩu từ Italia, Phần Lan, Thụy Sĩ, Đức.
+                - generic [ref=f71e253]:
+                  - heading "Kiểm tra Heat-Soak-Test" [level=3] [ref=f71e254]
+                  - paragraph [ref=f71e255]: Sau khi tôi, kính cường lực được kiểm tra bằng thiết bị Heat-Soak-Test để loại bỏ tấm kính có nguy cơ lỗi tiềm ẩn trước khi đưa vào công trình.
+                - generic [ref=f71e256]:
+                  - heading "Kính khổ lớn" [level=3] [ref=f71e257]
+                  - paragraph [ref=f71e258]: Khả năng tôi kính cường lực và bán cường lực dày từ 4mm đến 19mm, kích thước tối đa lên tới 2.800 × 6.000mm, phù hợp mặt dựng kính và vách kính lớn.
+          - generic [ref=f71e259]:
+            - paragraph [ref=f71e260]: Tính năng & ưu việt
+            - generic [ref=f71e261]:
+              - generic [ref=f71e262]:
+                - heading "Độ an toàn cao" [level=3] [ref=f71e263]
+                - paragraph [ref=f71e266]: Kính cường lực bền gấp 4 – 5 lần kính thường, khi vỡ tạo mảnh nhỏ ít sắc cạnh; kính bán cường lực cứng gấp 2 – 3 lần; kính dán an toàn liên kết màng PVB giữ mảnh kính khi va đập.
+              - generic [ref=f71e267]:
+                - heading "Tiêu chuẩn quốc tế" [level=3] [ref=f71e268]
+                - paragraph [ref=f71e271]: Được Viện Tiêu chuẩn Anh BSI cấp chứng chỉ Kitemark, đáp ứng BS EN 12150-1:2000, BS EN 14449:2005, BS EN 1279-2:2002, EN 1863, ANSI Z97.1-2004, ECE R43.
+              - generic [ref=f71e272]:
+                - heading "Cách âm, cách nhiệt, tiết kiệm năng lượng" [level=3] [ref=f71e273]
+                - paragraph [ref=f71e276]: Ứng dụng công nghệ tôi kính Super Soft Coating Low-E 0,01 hạn chế bức xạ mặt trời, kính cản nhiệt Low-E giảm khoảng 40% truyền nhiệt mùa hè, giảm áp lực điều hòa, phù hợp kiến trúc xanh.
+              - generic [ref=f71e277]:
+                - heading "Thẩm mỹ & linh hoạt" [level=3] [ref=f71e278]
+                - paragraph [ref=f71e281]: "Đa dạng dòng kính: cường lực, bán cường lực, hộp kính, kính hoa văn, kính an toàn, kính phản quang, kính phủ cứng/phủ mềm — dễ lựa chọn theo từng không gian."
+              - generic [ref=f71e282]:
+                - heading "Chủ động sản xuất đồng bộ" [level=3] [ref=f71e283]
+                - paragraph [ref=f71e286]: Nhiều dây chuyền trong cùng một trung tâm giúp kiểm soát độ chính xác từng chi tiết, đảm bảo đồng bộ chất lượng và tiến độ cho từng công trình.
+          - generic [ref=f71e287]:
+            - paragraph [ref=f71e288]: Các hệ sản phẩm
+            - list [ref=f71e289]:
+              - listitem [ref=f71e290]: Kính cường lực & bán cường lực
+              - listitem [ref=f71e293]: Kính an toàn (dán nhiều lớp PVB)
+              - listitem [ref=f71e296]: Hộp kính & hộp kính khổ lớn (bơm khí Argon)
+              - listitem [ref=f71e299]: Kính cách nhiệt an toàn ACT (giảm tới 57% năng lượng mặt trời, 75% ánh sáng gây chói, 99% tia UV)
+              - listitem [ref=f71e302]: Kính hoa văn (khắc chìm CNC từ Italy)
+              - listitem [ref=f71e305]: "Độ dày: 5 – 12mm, kính Temper, kính dán 6.38 – 12.38mm, hộp kính 6mm-9-6mm"
+      - generic [ref=f71e133]:
+        - heading "Quy trình" [level=2] [ref=f71e134]
+        - list [ref=f71e135]:
+          - listitem [ref=f71e136]:
+            - paragraph [ref=f71e137]: GIAI ĐOẠN 1
+            - heading "Tư vấn & khảo sát" [level=3] [ref=f71e138]
+            - paragraph [ref=f71e139]: Lắng nghe nhu cầu, khảo sát hiện trường và tư vấn hệ giải pháp cửa, vách phù hợp công năng và ngân sách.
+          - listitem [ref=f71e140]:
+            - paragraph [ref=f71e141]: GIAI ĐOẠN 2
+            - heading "Sản xuất & kiểm tra" [level=3] [ref=f71e142]
+            - paragraph [ref=f71e143]: Lập hồ sơ kỹ thuật, triển khai sản xuất tại nhà máy theo hệ chuẩn Châu Âu và kiểm tra chất lượng từng lô sản phẩm.
+          - listitem [ref=f71e144]:
+            - paragraph [ref=f71e145]: GIAI ĐOẠN 3
+            - heading "Lắp đặt & bàn giao" [level=3] [ref=f71e146]
+            - paragraph [ref=f71e147]: Lắp đặt bởi đội ngũ kinh nghiệm, nghiệm thu từng hạng mục và bàn giao kèm chế độ bảo hành chính hãng.
+      - generic [ref=f71e149]:
+        - heading "Giải thưởng" [level=2] [ref=f71e150]
+        - generic [ref=f71e151]:
+          - generic [ref=f71e152]:
+            - paragraph [ref=f71e156]: 14 năm
+            - heading "liên tiếp Thương hiệu Quốc gia" [level=3] [ref=f71e157]
+            - paragraph [ref=f71e158]: Bộ Công Thương
+          - generic [ref=f71e159]:
+            - paragraph [ref=f71e163]: "2026"
+            - heading "Top 10 doanh nghiệp xanh Việt Nam" [level=3] [ref=f71e164]
+            - paragraph [ref=f71e165]: Vietnam Report
+          - generic [ref=f71e166]:
+            - paragraph [ref=f71e170]: "2024"
+            - heading "Giải thưởng chất lượng sản phẩm Việt Nam" [level=3] [ref=f71e171]
+            - paragraph [ref=f71e172]: Vietnam Quality Award
+      - generic [ref=f71e174]:
+        - heading "Dự án tiêu biểu" [level=2] [ref=f71e176]
+        - generic [ref=f71e177]:
+          - link [ref=f71e178] [cursor=pointer]:
+            - /url: /du-an
+            - img "Cảng hàng không Phú Bài Huế" [ref=f71e180]
+            - generic [ref=f71e181]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f71e182]
+              - paragraph [ref=f71e183]: Công trình quốc gia
+          - link [ref=f71e184] [cursor=pointer]:
+            - /url: /du-an
+            - img "Bệnh viện Việt Pháp" [ref=f71e186]
+            - generic [ref=f71e187]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f71e188]
+              - paragraph [ref=f71e189]: Bệnh viện
+          - link [ref=f71e190] [cursor=pointer]:
+            - /url: /du-an
+            - img "Tòa nhà Quốc hội" [ref=f71e192]
+            - generic [ref=f71e193]:
+              - heading "Tòa nhà Quốc hội" [level=3] [ref=f71e194]
+              - paragraph [ref=f71e195]: Công trình quốc gia
+    - contentinfo [ref=f71e196]:
+      - generic [ref=f71e197]:
+        - generic [ref=f71e198]:
+          - link "Eurowindow" [ref=f71e199] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f71e200]
+          - paragraph [ref=f71e201]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f71e202]:
+          - heading "Liên hệ" [level=2] [ref=f71e203]
+          - generic [ref=f71e204]:
+            - paragraph [ref=f71e205]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f71e206]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f71e207]: infoew@eurowindow.biz
+        - generic [ref=f71e208]:
+          - heading "Khám phá" [level=2] [ref=f71e209]
+          - generic [ref=f71e210]:
+            - link "Giới thiệu" [ref=f71e211] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f71e212] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f71e213] [cursor=pointer]:
+              - /url: /san-pham
+            - link "Tin tức" [ref=f71e214] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f71e215]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f71e221] [cursor=pointer]
+  - alert [ref=f71e225]

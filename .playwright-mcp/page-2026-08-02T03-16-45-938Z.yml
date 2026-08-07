@@ -1,0 +1,196 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - banner [ref=f6e3]:
+      - generic [ref=f6e4]:
+        - link "Eurowindow" [ref=f6e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f6e6]
+        - navigation "Điều hướng chính" [ref=f6e7]:
+          - link "Trang chủ" [ref=f6e8] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f6e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Dự án/Công trình" [ref=f6e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "Dịch vụ" [ref=f6e18] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f6e22] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic "Language selector" [ref=f6e23]:
+            - link [ref=f6e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f6e25]
+            - link [ref=f6e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f6e27]
+        - link "Liên hệ ngay" [ref=f6e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f6e30]:
+      - generic [ref=f6e31]:
+        - generic [ref=f6e34]:
+          - generic [ref=f6e35]:
+            - paragraph [ref=f6e36]: CÁT MỘC GROUP
+            - heading "KIẾN TẠO HỆ SINH THÁI BỀN VỮNG" [level=1] [ref=f6e37]: KIẾN TẠOHỆ SINH THÁIBỀN VỮNG
+            - link [ref=f6e38] [cursor=pointer]:
+              - /url: "#gioi-thieu"
+          - generic [ref=f6e42]:
+            - generic [ref=f6e43]:
+              - paragraph [ref=f6e44]: 21 NĂM
+              - paragraph [ref=f6e45]: KINH NGHIỆM
+            - generic [ref=f6e46]:
+              - paragraph [ref=f6e47]: 2,500+
+              - paragraph [ref=f6e48]: CÔNG TRÌNH HOÀN THIỆN
+            - generic [ref=f6e49]:
+              - paragraph [ref=f6e50]: 100,000+
+              - paragraph [ref=f6e51]: KHÁCH HÀNG TIN TƯỞNG
+            - generic [ref=f6e52]:
+              - paragraph [ref=f6e53]: 100+
+              - paragraph [ref=f6e54]: GIẢI THƯỞNG UY TÍN
+        - generic [ref=f6e56]:
+          - generic [ref=f6e57]:
+            - generic [ref=f6e58]: CÁT MỘC GROUP | HỆ SINH THÁI 21 NĂM
+            - generic [ref=f6e59]: CÁT MỘC GROUP | HỆ SINH THÁI 21 NĂM
+          - generic [ref=f6e60]:
+            - generic [ref=f6e61]: CÁT MỘC GROUP | HỆ SINH THÁI 21 NĂM
+            - generic [ref=f6e62]: CÁT MỘC GROUP | HỆ SINH THÁI 21 NĂM
+      - generic [ref=f6e64]:
+        - generic [ref=f6e65]:
+          - heading "HỆ SINH THÁI CỦA CHÚNG TÔI" [level=2] [ref=f6e66]:
+            - generic [ref=f6e67]: HỆ
+            - text: SINH THÁI CỦA CHÚNG TÔI
+          - link "Xem thêm" [ref=f6e68] [cursor=pointer]:
+            - /url: "#du-an"
+        - generic [ref=f6e71]:
+          - generic [ref=f6e72]:
+            - paragraph [ref=f6e73]: CÁT MỘC Group là hệ sinh thái đa ngành được hình thành và phát triển từ nền tảng 21 năm uy tín trong lĩnh vực thiết kế – thi công.
+            - paragraph [ref=f6e74]: Với hệ sinh thái 10 thương hiệu đa lĩnh vực, CÁT MỘC Group kết nối thiết kế, nội thất, công nghệ, dịch vụ và sáng tạo để hướng đến chất lượng thực – giá trị thật – sự đồng hành lâu dài cùng khách hàng và đối tác.
+            - paragraph [ref=f6e75]: Với tầm nhìn trở thành một tập đoàn đa ngành hàng đầu Việt Nam và vươn tầm quốc tế trong lĩnh vực kiến trúc, xây dựng, sáng tạo, giáo dục, âm nhạc và du lịch, CÁT MỘC Group cam kết tiếp tục nỗ lực kiến tạo những giá trị bền vững cho cộng đồng, mang đến những không gian sống và làm việc chất lượng, tiện nghi, thẩm mỹ và thân thiện với môi trường.
+            - paragraph [ref=f6e76]: Để có được thành quả như ngày hôm nay, chúng tôi hiểu rằng sự tin yêu và ủng hộ của Quý khách hàng cùng các đối tác chính là động lực to lớn nhất. Cát Mộc Group trân trọng cảm ơn sự đồng hành quý báu đó và hứa sẽ tiếp tục phấn đấu, đổi mới tư duy để phục vụ tốt hơn nữa, xứng đáng với niềm tin mà mọi người đã dành tặng cho chúng tôi trong suốt thời gian qua.
+          - img "Hệ sinh thái 10 thương hiệu CÁT MỘC Group" [ref=f6e78]
+      - generic [ref=f6e80]:
+        - generic [ref=f6e81]:
+          - heading "DỰ ÁN TIÊU BIỂU" [level=2] [ref=f6e82]
+          - link "Xem tất cả" [ref=f6e83] [cursor=pointer]:
+            - /url: "#lien-he"
+        - generic [ref=f6e86]:
+          - article [ref=f6e87]:
+            - img "Lý Thị Thủy" [ref=f6e89]
+            - generic [ref=f6e91]:
+              - heading "Lý Thị Thủy" [level=3] [ref=f6e92]
+              - paragraph [ref=f6e93]: Bình Phước
+          - article [ref=f6e99]:
+            - img "The Luxury House" [ref=f6e101]
+            - generic [ref=f6e103]:
+              - heading "The Luxury House" [level=3] [ref=f6e104]
+              - paragraph [ref=f6e105]: Quảng Ngãi
+          - article [ref=f6e111]:
+            - img "Hồ Minh Trường" [ref=f6e113]
+            - generic [ref=f6e115]:
+              - heading "Hồ Minh Trường" [level=3] [ref=f6e116]
+              - paragraph [ref=f6e117]: Lâm Đồng
+          - article [ref=f6e123]:
+            - img "Mai Đỗ Vy Phát" [ref=f6e125]
+            - generic [ref=f6e127]:
+              - heading "Mai Đỗ Vy Phát" [level=3] [ref=f6e128]
+              - paragraph [ref=f6e129]: An Giang
+          - article [ref=f6e135]:
+            - img "Trương Nguyễn Thành Đạt" [ref=f6e137]
+            - generic [ref=f6e139]:
+              - heading "Trương Nguyễn Thành Đạt" [level=3] [ref=f6e140]
+              - paragraph [ref=f6e141]: Buôn Ma Thuột, Đắk Lắk
+          - article [ref=f6e147]:
+            - img "Huỳnh Thanh Vũ" [ref=f6e149]
+            - generic [ref=f6e151]:
+              - heading "Huỳnh Thanh Vũ" [level=3] [ref=f6e152]
+              - paragraph [ref=f6e153]: Phan Thiết
+      - generic [ref=f6e160]:
+        - heading "DỊCH VỤ CỦA CÁT MỘC" [level=2] [ref=f6e161]
+        - generic [ref=f6e162]:
+          - article [ref=f6e163]:
+            - generic [ref=f6e165]:
+              - heading "THIẾT KẾ KIẾN TRÚC" [level=3] [ref=f6e166]
+              - paragraph [ref=f6e167]: Quy tụ đội ngũ kiến trúc sư chuyên nghiệp, giàu kinh nghiệm, được dẫn dắt bởi ThS. KTS Phạm Thanh Truyền.
+              - link "Xem thêm" [ref=f6e168] [cursor=pointer]:
+                - /url: "#lien-he"
+          - article [ref=f6e171]:
+            - generic [ref=f6e173]:
+              - heading "THI CÔNG THÔ" [level=3] [ref=f6e174]
+              - paragraph [ref=f6e175]: Cát Mộc Thi Công đã kiến tạo hơn 1.500 công trình hữu dụng, thẩm mỹ, bền vững và kinh tế cho khách hàng.
+              - link "Xem thêm" [ref=f6e176] [cursor=pointer]:
+                - /url: "#lien-he"
+          - article [ref=f6e179]:
+            - generic [ref=f6e181]:
+              - heading "THIẾT KẾ – SẢN XUẤT NỘI THẤT" [level=3] [ref=f6e182]
+              - paragraph [ref=f6e183]: Giải nhất Thiết kế nội thất Châu Á 2023 là minh chứng cho sự sáng tạo và chuyên nghiệp của Cát Mộc Furniture.
+              - link "Xem thêm" [ref=f6e184] [cursor=pointer]:
+                - /url: "#lien-he"
+      - generic [ref=f6e188]:
+        - generic [ref=f6e189]:
+          - heading "DANH MỤC DỰ ÁN" [level=2] [ref=f6e190]
+          - link "Xem tất cả" [ref=f6e191] [cursor=pointer]:
+            - /url: "#du-an"
+        - generic [ref=f6e194]:
+          - link "BIỆT THỰ" [ref=f6e195] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "NHÀ PHỐ" [ref=f6e197] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "PHÒNG KHÁM" [ref=f6e199] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "BỆNH VIỆN" [ref=f6e201] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "CÁC DỰ ÁN KHÁC" [ref=f6e203] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "CĂN HỘ" [ref=f6e205] [cursor=pointer]:
+            - /url: "#du-an"
+      - generic [ref=f6e208]:
+        - heading "TIN TỨC" [level=2] [ref=f6e210]
+        - generic [ref=f6e211]:
+          - generic [ref=f6e213]:
+            - article [ref=f6e215]:
+              - heading "Phong cách Japandi – Khi tối giản không đồng nghĩa với nhàm chán" [level=3] [ref=f6e217]
+              - link "Đọc thêm" [ref=f6e218] [cursor=pointer]:
+                - /url: "#lien-he"
+            - article [ref=f6e222]:
+              - heading "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [level=3] [ref=f6e224]
+              - link "Đọc thêm" [ref=f6e225] [cursor=pointer]:
+                - /url: "#lien-he"
+            - article [ref=f6e229]:
+              - heading "Kiến trúc xanh Yoga House được vinh danh tại AADA 2026" [level=3] [ref=f6e231]
+              - link "Đọc thêm" [ref=f6e232] [cursor=pointer]:
+                - /url: "#lien-he"
+            - article [ref=f6e236]:
+              - heading "35+ mẫu mặt tiền nhà ống đẹp, hiện đại và tinh tế" [level=3] [ref=f6e238]
+              - link "Đọc thêm" [ref=f6e239] [cursor=pointer]:
+                - /url: "#lien-he"
+          - button "Tin trước" [disabled]
+          - button "Tin tiếp theo" [ref=f6e242] [cursor=pointer]
+      - heading "ĐỐI TÁC CHIẾN LƯỢC" [level=2] [ref=f6e250]:
+        - generic [ref=f6e251]: ĐỐI
+        - text: TÁC CHIẾN LƯỢC
+    - contentinfo [ref=f6e268]:
+      - generic [ref=f6e269]:
+        - generic [ref=f6e270]:
+          - link "Eurowindow" [ref=f6e271] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f6e272]
+          - paragraph [ref=f6e273]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f6e274]:
+          - heading "Liên hệ" [level=2] [ref=f6e275]
+          - generic [ref=f6e276]:
+            - paragraph [ref=f6e277]: Eurowindow Office Building
+            - paragraph [ref=f6e278]: "Hotline: 0909 888 000"
+            - paragraph [ref=f6e279]: infoew@eurowindow.biz
+        - generic [ref=f6e280]:
+          - heading "Khám phá" [level=2] [ref=f6e281]
+          - generic [ref=f6e282]:
+            - link "Giới thiệu" [ref=f6e283] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f6e284] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f6e285] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f6e286] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f6e287]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f6e293] [cursor=pointer]
+  - alert [ref=f6e297]

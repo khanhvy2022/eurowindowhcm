@@ -1,0 +1,15 @@
+[2026-08-04T04:45:07.636Z] [enterprise] Starting Enterprise AI Code Review & Auto Fix System
+[2026-08-04T04:45:07.637Z] [enterprise] Project: F:\Nextjs\eurowindowhcm
+[2026-08-04T04:45:07.638Z] [enterprise] Configuration: OCR=true, Git=false, AutoFix threshold=2
+[2026-08-04T04:45:07.741Z] [enterprise] === RESULTS ===
+[2026-08-04T04:45:07.741Z]   Overall: 96/100
+[2026-08-04T04:45:07.741Z]   Security: 100/100
+[2026-08-04T04:45:07.741Z]   Performance: 98/100
+[2026-08-04T04:45:07.741Z]   SEO: 100/100
+[2026-08-04T04:45:07.741Z]   Maintainability: 96/100
+[2026-08-04T04:45:07.742Z]   Code Quality: 98/100
+[2026-08-04T04:45:07.742Z]   Architecture: 100/100
+[2026-08-04T04:45:07.742Z]   Technical Debt: 16h (medium)
+[2026-08-04T04:45:07.811Z]   Priority Items: 30
+[2026-08-04T04:45:07.812Z]   Fix Plans: 54 applied
+[2026-08-04T04:45:07.813Z]   Log saved to: F:\Nextjs\eurowindowhcm\.enterprise\reports\session-1785818707636.log

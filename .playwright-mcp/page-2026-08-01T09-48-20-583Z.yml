@@ -1,0 +1,63 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - banner [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - link "Eurowindow" [ref=f3e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f3e6]
+        - button "Mở menu" [ref=f3e7]
+    - main [ref=f3e9]:
+      - generic [ref=f3e10]:
+        - paragraph [ref=f3e11]: Dự án · Tuyển chọn công trình
+        - heading "Mỗi công trình là một tuyên ngôn về chất lượng." [level=1] [ref=f3e12]
+        - paragraph [ref=f3e13]: Từ công trình quốc gia đến ngôi nhà ở riêng lẻ — Eurowindow đồng hành bằng giải pháp cửa, vách nhôm kính và vật liệu hoàn thiện.
+      - generic [ref=f3e14]:
+        - group "Lọc dự án theo lĩnh vực" [ref=f3e15]:
+          - button "Tất cả" [ref=f3e16] [cursor=pointer]
+          - button "Công trình quốc gia" [active] [pressed] [ref=f3e17] [cursor=pointer]
+          - button "Văn phòng & căn hộ" [ref=f3e18] [cursor=pointer]
+          - button "Nhà ở" [ref=f3e19] [cursor=pointer]
+        - generic [ref=f3e20]:
+          - article [ref=f3e21]:
+            - img "Công trình quốc gia" [ref=f3e23]
+            - generic [ref=f3e24]:
+              - paragraph [ref=f3e25]: Công trình quốc gia
+              - heading "Công trình quốc gia" [level=2] [ref=f3e26]
+              - paragraph [ref=f3e27]: Giải pháp đồng bộ cho các công trình quy mô lớn và yêu cầu kỹ thuật cao.
+              - link "Tìm hiểu giải pháp →" [ref=f3e28] [cursor=pointer]:
+                - /url: "#lien-he"
+          - article [ref=f3e29]:
+            - img "Sân bay & nhà ga" [ref=f3e31]
+            - generic [ref=f3e32]:
+              - paragraph [ref=f3e33]: Công trình quốc gia
+              - heading "Sân bay & nhà ga" [level=2] [ref=f3e34]
+              - paragraph [ref=f3e35]: Hệ cửa và vách kính đáp ứng tiêu chuẩn an toàn, cách âm ở quy mô sân bay.
+              - link "Tìm hiểu giải pháp →" [ref=f3e36] [cursor=pointer]:
+                - /url: "#lien-he"
+    - contentinfo [ref=f3e69]:
+      - generic [ref=f3e70]:
+        - generic [ref=f3e71]:
+          - link "Eurowindow" [ref=f3e72] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f3e73]
+          - paragraph [ref=f3e74]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f3e75]:
+          - heading "Liên hệ" [level=2] [ref=f3e76]
+          - generic [ref=f3e77]:
+            - paragraph [ref=f3e78]: Eurowindow Office Building
+            - paragraph [ref=f3e79]: "Hotline: 0909 888 000"
+            - paragraph [ref=f3e80]: infoew@eurowindow.biz
+        - generic [ref=f3e81]:
+          - heading "Khám phá" [level=2] [ref=f3e82]
+          - generic [ref=f3e83]:
+            - link "Giới thiệu" [ref=f3e84] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f3e85] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f3e86] [cursor=pointer]:
+              - /url: /dich-vu
+            - link "Tin tức" [ref=f3e87] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f3e88]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f3e94] [cursor=pointer]
+  - alert [ref=f3e98]

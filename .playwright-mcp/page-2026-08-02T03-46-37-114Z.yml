@@ -1,0 +1,117 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - banner [ref=f7e3]:
+      - generic [ref=f7e4]:
+        - link "Eurowindow" [ref=f7e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f7e6]
+        - button "Mở menu" [ref=f7e7]
+    - main [ref=f7e9]:
+      - generic [ref=f7e11]:
+        - heading "DỊCH VỤ CỦA EUROWINDOW" [level=1] [ref=f7e12]
+        - navigation "Breadcrumb" [ref=f7e13]:
+          - link "Trang chủ" [ref=f7e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f7e17]: Dịch vụ
+      - generic [ref=f7e19]:
+        - tablist "Chọn dịch vụ" [ref=f7e20]:
+          - tab "CỬA NHÔM & VÁCH KÍNH" [selected] [ref=f7e21]
+          - tab "CỬA uPVC" [ref=f7e22]
+          - tab "CỬA GỖ & GỖ CHỐNG CHÁY" [ref=f7e23]
+        - generic [ref=f7e24]:
+          - img "CỬA NHÔM & VÁCH KÍNH LỚN" [ref=f7e26]
+          - generic [ref=f7e27]:
+            - heading "CỬA NHÔM & VÁCH KÍNH LỚN" [level=2] [ref=f7e28]
+            - paragraph [ref=f7e29]: Hệ cửa nhôm và vách nhôm kính lớn từ vật liệu nhôm EA55–EA95i, phụ kiện chính hãng Cmech, Roto, Hafele — khắc phục triệt để nhược điểm nhôm thông thường, chịu tải trọng gió lớn cho công trình quy mô.
+            - generic [ref=f7e30]:
+              - generic [ref=f7e31]:
+                - paragraph [ref=f7e32]: 99%
+                - paragraph [ref=f7e33]: khách hàng hài lòng
+              - generic [ref=f7e34]:
+                - paragraph [ref=f7e35]: 12+
+                - paragraph [ref=f7e36]: hệ sản phẩm chính hãng
+              - generic [ref=f7e37]:
+                - paragraph [ref=f7e38]: 5 năm
+                - paragraph [ref=f7e39]: bảo hành tiêu chuẩn
+            - link "XEM NGAY BẢNG GIÁ" [ref=f7e40] [cursor=pointer]:
+              - /url: "#lien-he"
+      - generic [ref=f7e44]:
+        - heading "Quy trình" [level=2] [ref=f7e45]
+        - list [ref=f7e46]:
+          - listitem [ref=f7e47]:
+            - paragraph [ref=f7e48]: GIAI ĐOẠN 1
+            - heading "Tư vấn & khảo sát" [level=3] [ref=f7e49]
+            - paragraph [ref=f7e50]: Lắng nghe nhu cầu, khảo sát hiện trường và tư vấn hệ giải pháp cửa, vách phù hợp công năng và ngân sách.
+          - listitem [ref=f7e51]:
+            - paragraph [ref=f7e52]: GIAI ĐOẠN 2
+            - heading "Sản xuất & kiểm tra" [level=3] [ref=f7e53]
+            - paragraph [ref=f7e54]: Lập hồ sơ kỹ thuật, triển khai sản xuất tại nhà máy theo hệ chuẩn Châu Âu và kiểm tra chất lượng từng lô sản phẩm.
+          - listitem [ref=f7e55]:
+            - paragraph [ref=f7e56]: GIAI ĐOẠN 3
+            - heading "Lắp đặt & bàn giao" [level=3] [ref=f7e57]
+            - paragraph [ref=f7e58]: Lắp đặt bởi đội ngũ kinh nghiệm, nghiệm thu từng hạng mục và bàn giao kèm chế độ bảo hành chính hãng.
+      - generic [ref=f7e60]:
+        - heading "Giải thưởng" [level=2] [ref=f7e61]
+        - generic [ref=f7e62]:
+          - generic [ref=f7e63]:
+            - paragraph [ref=f7e67]: 14 năm
+            - heading "liên tiếp Thương hiệu Quốc gia" [level=3] [ref=f7e68]
+            - paragraph [ref=f7e69]: Bộ Công Thương
+          - generic [ref=f7e70]:
+            - paragraph [ref=f7e74]: "2026"
+            - heading "Top 10 doanh nghiệp xanh Việt Nam" [level=3] [ref=f7e75]
+            - paragraph [ref=f7e76]: Vietnam Report
+          - generic [ref=f7e77]:
+            - paragraph [ref=f7e81]: "2024"
+            - heading "Giải thưởng chất lượng sản phẩm Việt Nam" [level=3] [ref=f7e82]
+            - paragraph [ref=f7e83]: Vietnam Quality Award
+      - generic [ref=f7e85]:
+        - generic [ref=f7e86]:
+          - heading "Dự án tiêu biểu" [level=2] [ref=f7e87]
+          - link "Xem tất cả" [ref=f7e88] [cursor=pointer]:
+            - /url: /du-an
+        - generic [ref=f7e91]:
+          - link [ref=f7e92] [cursor=pointer]:
+            - /url: /du-an
+            - img "Cảng hàng không Phú Bài Huế" [ref=f7e94]
+            - generic [ref=f7e95]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f7e96]
+              - paragraph [ref=f7e97]: Công trình quốc gia
+          - link [ref=f7e98] [cursor=pointer]:
+            - /url: /du-an
+            - img "Bệnh viện Việt Pháp" [ref=f7e100]
+            - generic [ref=f7e101]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f7e102]
+              - paragraph [ref=f7e103]: Bệnh viện
+          - link [ref=f7e104] [cursor=pointer]:
+            - /url: /du-an
+            - img "Tòa nhà Quốc hội" [ref=f7e106]
+            - generic [ref=f7e107]:
+              - heading "Tòa nhà Quốc hội" [level=3] [ref=f7e108]
+              - paragraph [ref=f7e109]: Công trình quốc gia
+    - contentinfo [ref=f7e110]:
+      - generic [ref=f7e111]:
+        - generic [ref=f7e112]:
+          - link "Eurowindow" [ref=f7e113] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f7e114]
+          - paragraph [ref=f7e115]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f7e116]:
+          - heading "Liên hệ" [level=2] [ref=f7e117]
+          - generic [ref=f7e118]:
+            - paragraph [ref=f7e119]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f7e120]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f7e121]: infoew@eurowindow.biz
+        - generic [ref=f7e122]:
+          - heading "Khám phá" [level=2] [ref=f7e123]
+          - generic [ref=f7e124]:
+            - link "Giới thiệu" [ref=f7e125] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f7e126] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f7e127] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f7e128] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f7e129]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f7e135] [cursor=pointer]

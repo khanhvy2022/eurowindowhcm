@@ -1,0 +1,121 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e2]:
+    - banner [ref=f18e3]:
+      - generic [ref=f18e4]:
+        - link "Eurowindow" [ref=f18e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f18e6]
+        - navigation "Main navigation" [ref=f18e7]:
+          - link "Home" [ref=f18e8] [cursor=pointer]:
+            - /url: /en
+          - link "About us" [ref=f18e10] [cursor=pointer]:
+            - /url: /en/about
+          - link "Projects" [ref=f18e14] [cursor=pointer]:
+            - /url: /en/projects
+          - link "Services" [ref=f18e18] [cursor=pointer]:
+            - /url: /en/services
+          - link "News" [ref=f18e22] [cursor=pointer]:
+            - /url: /en/news
+          - generic "Language selector" [ref=f18e23]:
+            - link [ref=f18e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f18e25]
+            - link [ref=f18e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f18e27]
+        - link "Contact now" [ref=f18e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f18e30]:
+      - generic [ref=f18e32]:
+        - navigation "Breadcrumb" [ref=f18e33]:
+          - link "Home" [ref=f18e34] [cursor=pointer]:
+            - /url: /en
+          - link "Projects" [ref=f18e37] [cursor=pointer]:
+            - /url: /en/projects
+          - generic [ref=f18e40]: Eurowindow Tower
+        - heading "Eurowindow Tower" [level=1] [ref=f18e41]
+        - paragraph [ref=f18e42]: Hanoi
+      - generic [ref=f18e48]:
+        - img "Eurowindow Tower – photo 1" [ref=f18e50]
+        - img "Eurowindow Tower – photo 2" [ref=f18e52]
+        - img "Eurowindow Tower – photo 3" [ref=f18e54]
+        - img "Eurowindow Tower – photo 4" [ref=f18e56]
+        - img "Eurowindow Tower – photo 5" [ref=f18e58]
+      - generic [ref=f18e60]:
+        - generic [ref=f18e61]:
+          - heading "Project information" [level=2] [ref=f18e62]
+          - generic [ref=f18e63]:
+            - generic [ref=f18e64]:
+              - term [ref=f18e65]: INVESTOR
+              - definition [ref=f18e66]: Eurowindow
+            - generic [ref=f18e67]:
+              - term [ref=f18e68]: CATEGORY
+              - definition [ref=f18e69]: National landmark
+            - generic [ref=f18e70]:
+              - term [ref=f18e71]: COMPLETED
+              - definition [ref=f18e72]: "2022"
+            - generic [ref=f18e73]:
+              - term [ref=f18e74]: AREA
+              - definition [ref=f18e75]: 12,000 m²
+            - generic [ref=f18e76]:
+              - term [ref=f18e77]: LOCATION
+              - definition [ref=f18e78]: Hanoi
+            - generic [ref=f18e79]:
+              - term [ref=f18e80]: SCOPE
+              - definition [ref=f18e81]: Design - Construction - Interiors
+        - generic [ref=f18e82]:
+          - heading "About the project" [level=2] [ref=f18e83]
+          - paragraph [ref=f18e84]: The Eurowindow office tower exemplifies our acoustic double-glazed facade systems, premium aluminium door solutions and natural daylight optimisation for modern workplaces.
+          - paragraph [ref=f18e85]: Eurowindow accompanies each project from site survey and solution consulting through production and installation — ensuring every item meets quality standards on schedule. Products are controlled to European standards, answering the acoustic, thermal, safety and aesthetic requirements of every building.
+          - link "Contact us for advice" [ref=f18e86] [cursor=pointer]:
+            - /url: "#lien-he"
+      - generic [ref=f18e90]:
+        - generic [ref=f18e91]:
+          - heading "Related projects" [level=2] [ref=f18e92]
+          - link "View all" [ref=f18e93] [cursor=pointer]:
+            - /url: /en/projects
+        - generic [ref=f18e96]:
+          - link [ref=f18e97] [cursor=pointer]:
+            - /url: /en/projects/chung-cu-cao-cap
+            - img "Premium Residence" [ref=f18e99]
+            - generic [ref=f18e100]:
+              - heading "Premium Residence" [level=3] [ref=f18e101]
+              - paragraph [ref=f18e102]: Ho Chi Minh City
+          - link [ref=f18e106] [cursor=pointer]:
+            - /url: /en/projects/biet-thu-nha-vuon
+            - img "Villa & Garden House" [ref=f18e108]
+            - generic [ref=f18e109]:
+              - heading "Villa & Garden House" [level=3] [ref=f18e110]
+              - paragraph [ref=f18e111]: Da Lat
+          - link [ref=f18e115] [cursor=pointer]:
+            - /url: /en/projects/san-bay-nha-ga
+            - img "Airport & Terminal" [ref=f18e117]
+            - generic [ref=f18e118]:
+              - heading "Airport & Terminal" [level=3] [ref=f18e119]
+              - paragraph [ref=f18e120]: National landmark
+    - contentinfo [ref=f18e124]:
+      - generic [ref=f18e125]:
+        - generic [ref=f18e126]:
+          - link "Eurowindow" [ref=f18e127] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f18e128]
+          - paragraph [ref=f18e129]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f18e130]:
+          - heading "Contact" [level=2] [ref=f18e131]
+          - generic [ref=f18e132]:
+            - paragraph [ref=f18e133]: Eurowindow Office Building
+            - paragraph [ref=f18e134]: "Hotline: 0909 888 000"
+            - paragraph [ref=f18e135]: infoew@eurowindow.biz
+        - generic [ref=f18e136]:
+          - heading "Explore" [level=2] [ref=f18e137]
+          - generic [ref=f18e138]:
+            - link "About us" [ref=f18e139] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f18e140] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f18e141] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f18e142] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f18e143]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f18e149] [cursor=pointer]

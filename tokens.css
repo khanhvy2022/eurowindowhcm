@@ -1,0 +1,64 @@
+﻿/* Hallmark Â· genre: atmospheric Â· macrostructure: Marquee Hero Â· theme: Midnight
+ * enrichment: photographic fold Â· nav: N11 mega-menu Â· footer: Ft1 mast-headed
+ * contrast: pass (40â€“41) Â· honest: pass (46) Â· chrome: pass (47)
+ * tokens: pass (48) Â· responsive: pass (34, 49â€“52)
+ * Hallmark Â· pre-emit critique: P4 H5 E4 S4 R4 V4
+ */
+:root {
+  /* Eurowindow brand layer â€” sourced from the official mark's blue/red direction. */
+  --ew-navy: #062c5c;
+  --ew-blue: #0067b1;
+  --ew-blue-deep: #004f8e;
+  --ew-red: #e31b23;
+  --ew-ink: #11233a;
+  --ew-sand: #f4f6f8;
+  --ew-line: #d9e1e9;
+  --ew-mist: #eaf3f9;
+  --color-canvas: #0a1628;
+  --color-canvas-raised: #0e1e38;
+  --color-canvas-soft: #14253f;
+  --color-paper: #ffffff;
+  --color-paper-muted: #d4d4d8;
+  --color-ink: #121212;
+  --color-ink-muted: #52525b;
+  --color-accent: #e30613;
+  --color-accent-strong: #bd0010;
+  --color-accent-ink: #ffffff;
+  --color-rule: rgba(255, 255, 255, 0.18);
+  --color-focus: #ff5963;
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 5rem;
+  --banner-height: 6.875rem;
+  --z-sticky: 200;
+  --z-sticky-nav: 300;
+}
+
+/* Hallmark Â· genre: editorial Â· theme: Eurowindow Light (custom-tuned)
+ * macrostructure per page: Long Document Â· Portfolio Grid Â· Narrative Workflow Â· Ecosystem Index
+ * nav: N11 mega-menu (site chrome, unchanged) Â· footer: site footer (unchanged)
+ * paper band: light (>85%) Â· display: Fraunces high-contrast serif (roman) Â· accent: cool blue
+ * contrast: pass (40â€“41) Â· honest: pass (46) Â· tokens: pass (48) Â· responsive: pass (34, 49â€“53)
+ */
+:root {
+  /* Eurowindow Light â€” editorial luxury layer for subpages. */
+  --font-display-serif: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --ew-paper: #fafbfc;
+  --ew-paper-deep: #f2f4f7;
+  --ew-ink-soft: #64748b;
+  --ew-rule-light: #e4e9ef;
+  --ew-blue-soft: #e6f1fa;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+}

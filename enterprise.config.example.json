@@ -1,0 +1,18 @@
+{
+  "autoFixThreshold": 0.95,
+  "maxConcurrency": 4,
+  "enableGitIntegration": true,
+  "enableOCR": true,
+  "enableHermes": true,
+  "enableSEOAudit": true,
+  "enableReports": true,
+  "generateHtmlReports": true,
+  "rollbackOnFailure": true,
+  "runE2E": false,
+  "excludePaths": ["node_modules", ".next", ".git", "public", "clone-wedsite", ".codegraph", ".codex"],
+  "commitAuthor": {
+    "name": "Enterprise AI Review Bot",
+    "email": "ai-review@bot.local"
+  },
+  "customRules": []
+}

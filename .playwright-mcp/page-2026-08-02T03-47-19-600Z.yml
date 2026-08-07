@@ -1,0 +1,97 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - banner [ref=f12e3]:
+      - generic [ref=f12e4]:
+        - link "Eurowindow" [ref=f12e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f12e6]
+        - button "Open menu" [ref=f12e7]
+    - main [ref=f12e9]:
+      - generic [ref=f12e11]:
+        - navigation "Breadcrumb" [ref=f12e12]:
+          - link "Home" [ref=f12e13] [cursor=pointer]:
+            - /url: /en
+          - link "Projects" [ref=f12e16] [cursor=pointer]:
+            - /url: /en/projects
+          - generic [ref=f12e19]: Da Nang Oncology Hospital
+        - heading "Da Nang Oncology Hospital" [level=1] [ref=f12e20]
+        - paragraph [ref=f12e21]: Da Nang
+      - generic [ref=f12e27]:
+        - img "Da Nang Oncology Hospital – photo 1" [ref=f12e29]
+        - img "Da Nang Oncology Hospital – photo 2" [ref=f12e31]
+        - img "Da Nang Oncology Hospital – photo 3" [ref=f12e33]
+      - generic [ref=f12e35]:
+        - generic [ref=f12e36]:
+          - heading "Project information" [level=2] [ref=f12e37]
+          - generic [ref=f12e38]:
+            - generic [ref=f12e39]:
+              - term [ref=f12e40]: INVESTOR
+              - definition [ref=f12e41]: Eurowindow
+            - generic [ref=f12e42]:
+              - term [ref=f12e43]: CATEGORY
+              - definition [ref=f12e44]: Hospital
+            - generic [ref=f12e45]:
+              - term [ref=f12e46]: COMPLETED
+              - definition [ref=f12e47]: "2023"
+            - generic [ref=f12e48]:
+              - term [ref=f12e49]: AREA
+              - definition [ref=f12e50]: Specialist hospital
+            - generic [ref=f12e51]:
+              - term [ref=f12e52]: LOCATION
+              - definition [ref=f12e53]: Da Nang
+            - generic [ref=f12e54]:
+              - term [ref=f12e55]: SCOPE
+              - definition [ref=f12e56]: Doors & glass partitions
+        - generic [ref=f12e57]:
+          - heading "About the project" [level=2] [ref=f12e58]
+          - paragraph [ref=f12e59]: uPVC door and aluminium glass partition systems for Da Nang Oncology Hospital — a key healthcare project in central Vietnam.
+          - paragraph [ref=f12e60]: Eurowindow accompanies each project from site survey and solution consulting through production and installation — ensuring every item meets quality standards on schedule. Products are controlled to European standards, answering the acoustic, thermal, safety and aesthetic requirements of every building.
+          - link "Contact us for advice" [ref=f12e61] [cursor=pointer]:
+            - /url: "#lien-he"
+      - generic [ref=f12e65]:
+        - heading "Related projects" [level=2] [ref=f12e67]
+        - generic [ref=f12e68]:
+          - link [ref=f12e69] [cursor=pointer]:
+            - /url: /en/projects/cang-hang-khong-phu-bai-hue
+            - img "Phu Bai International Airport" [ref=f12e71]
+            - generic [ref=f12e72]:
+              - heading "Phu Bai International Airport" [level=3] [ref=f12e73]
+              - paragraph [ref=f12e74]: Hue
+          - link [ref=f12e78] [cursor=pointer]:
+            - /url: /en/projects/benh-vien-viet-phap
+            - img "Hospital Francais de Hanoi" [ref=f12e80]
+            - generic [ref=f12e81]:
+              - heading "Hospital Francais de Hanoi" [level=3] [ref=f12e82]
+              - paragraph [ref=f12e83]: Hanoi
+          - link [ref=f12e87] [cursor=pointer]:
+            - /url: /en/projects/benh-vien-nhi-dong-tphcm
+            - img "Children's Hospital 2 Ho Chi Minh City" [ref=f12e89]
+            - generic [ref=f12e90]:
+              - heading "Children's Hospital 2 Ho Chi Minh City" [level=3] [ref=f12e91]
+              - paragraph [ref=f12e92]: Ho Chi Minh City
+    - contentinfo [ref=f12e96]:
+      - generic [ref=f12e97]:
+        - generic [ref=f12e98]:
+          - link "Eurowindow" [ref=f12e99] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f12e100]
+          - paragraph [ref=f12e101]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f12e102]:
+          - heading "Contact" [level=2] [ref=f12e103]
+          - generic [ref=f12e104]:
+            - paragraph [ref=f12e105]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f12e106]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f12e107]: infoew@eurowindow.biz
+        - generic [ref=f12e108]:
+          - heading "Explore" [level=2] [ref=f12e109]
+          - generic [ref=f12e110]:
+            - link "About us" [ref=f12e111] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f12e112] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f12e113] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f12e114] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f12e115]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f12e121] [cursor=pointer]

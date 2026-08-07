@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enterprise AI Code Review — eurowindowhcm</title>
+<style>
+  :root { --bg: #0b1628; --card: #1c2b3a; --text: #e8eef3; --accent: #0066aa; --border: #2a3f5f; --critical: #e74c3c; --high: #e67e22; --medium: #f39c12; --low: #27ae60; --dim: #8a9bae; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Fira Code', 'Consolas', monospace; background: var(--bg); color: var(--text); line-height: 1.6; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+  h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: .5rem; margin-bottom: 2rem; }
+  h2 { color: var(--text); margin: 2rem 0 1rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
+  h3 { color: var(--accent); margin: 1rem 0 .5rem; }
+  .scores { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .score-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; }
+  .score-value { font-size: 2rem; font-weight: bold; }
+  .score-label { color: var(--dim); font-size: .85rem; text-transform: uppercase; }
+  .critical { color: var(--critical); } .high { color: var(--high); } .medium { color: var(--medium); } .low { color: var(--low); }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: .5rem .75rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--accent); font-weight: 600; }
+  tr:hover { background: var(--card); }
+  .badge { display: inline-block; padding: .15rem .5rem; border-radius: 4px; font-size: .8rem; font-weight: 600; }
+  .badge-critical { background: rgba(231,76,60,.2); color: var(--critical); }
+  .badge-high { background: rgba(230,126,34,.2); color: var(--high); }
+  .badge-medium { background: rgba(243,152,18,.2); color: var(--medium); }
+  .badge-low { background: rgba(39,174,96,.2); color: var(--low); }
+  .badge-pass { background: rgba(39,174,96,.2); color: var(--low); }
+  .badge-fail { background: rgba(231,76,60,.2); color: var(--critical); }
+  .code-block { background: #010a1a; border-radius: 6px; padding: 1rem; overflow-x: auto; margin: .5rem 0; font-size: .85rem; }
+  .diff-add { color: #27ae60; } .diff-del { color: #e74c3c; }
+  .pr-summary { background: var(--card); border-radius: 8px; padding: 1.5rem; border: 1px solid var(--border); }
+  .grid { display: grid; gap: 1rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Enterprise AI Code Review Report</h1>
+  <p><strong>Project:</strong> eurowindowhcm v0.1.0 &middot; <strong>Framework:</strong> nextjs</p>
+  <p><strong>Generated:</strong> 2026-08-04T04:45:41.595Z &middot; <strong>Duration:</strong> 101ms</p>
+
+  <h2>Scores</h2>
+  <div class="scores">
+    <div class="score-card"><div class="score-value" style="color:#27ae60">96</div><div class="score-label">Health</div></div>
+    <div class="score-card"><div class="score-value" style="color:#27ae60">100</div><div class="score-label">Security</div></div>
+    <div class="score-card"><div class="score-value" style="color:#27ae60">98</div><div class="score-label">Performance</div></div>
+    <div class="score-card"><div class="score-value" style="color:#27ae60">100</div><div class="score-label">SEO</div></div>
+    <div class="score-card"><div class="score-value" style="color:#27ae60">96</div><div class="score-label">Maintainability</div></div>
+    <div class="score-card"><div class="score-value" style="color:#27ae60">98</div><div class="score-label">Code Quality</div></div>
+    <div class="score-card"><div class="score-value" style="color:#27ae60">100</div><div class="score-label">Architecture</div></div>
+    <div class="score-card"><div class="score-value" style="color:#27ae60">96</div><div class="score-label">Overall</div></div>
+  </div>
+
+  <h2>Technical Debt</h2>
+  <div class="grid">
+    <div>Estimated Fix Time: <strong>16h</strong></div>
+    <div>Complexity: <strong>medium</strong></div>
+    <div>Hotspots: scripts\generate-articles.ts, scripts\generate-more-products.ts, scripts\optimize-articles.ts, scripts\extract-images.ts, scripts\retry-articles.ts</div>
+  </div>
+
+  <h2>Findings (54)</h2>
+  <table>
+    <thead><tr><th>Severity</th><th>Confidence</th><th>Category</th><th>File:Line</th><th>Message</th><th>Est. Time</th></tr></thead>
+    <tbody>
+      
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td>85%</td>
+          <td>performance</td>
+          <td>src\app\en\page.tsx:1</td>
+          <td>Client component imports heavy library '[object Object]' — consider dynamic import</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td>85%</td>
+          <td>performance</td>
+          <td>src\components\NewsSection.tsx:1</td>
+          <td>Client component imports heavy library '[object Object]' — consider dynamic import</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td>85%</td>
+          <td>performance</td>
+          <td>src\components\StrategicPartners.tsx:1</td>
+          <td>Client component imports heavy library '[object Object]' — consider dynamic import</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td>80%</td>
+          <td>promise-bug</td>
+          <td>src\app\admin\page.tsx:339</td>
+          <td>Promise .then() without .catch()</td>
+          <td>15m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td>80%</td>
+          <td>promise-bug</td>
+          <td>src\app\admin\seo\SeoTab.tsx:112</td>
+          <td>Promise .then() without .catch()</td>
+          <td>15m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td>80%</td>
+          <td>promise-bug</td>
+          <td>src\app\admin\seo\SeoTab.tsx:116</td>
+          <td>Promise .then() without .catch()</td>
+          <td>15m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td>80%</td>
+          <td>promise-bug</td>
+          <td>src\app\admin\seo\SeoTab.tsx:206</td>
+          <td>Promise .then() without .catch()</td>
+          <td>15m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td>80%</td>
+          <td>promise-bug</td>
+          <td>src\cli\enterprise-cli.ts:63</td>
+          <td>Promise .then() without .catch()</td>
+          <td>15m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-medium">MEDIUM</span></td>
+          <td>98%</td>
+          <td>unused-import</td>
+          <td>src\components\BranchesMap.tsx:2</td>
+          <td>Unused import: 'React'</td>
+          <td>2m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-medium">MEDIUM</span></td>
+          <td>98%</td>
+          <td>unused-import</td>
+          <td>src\components\CostEstimator.tsx:2</td>
+          <td>Unused import: 'React'</td>
+          <td>2m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-medium">MEDIUM</span></td>
+          <td>98%</td>
+          <td>unused-import</td>
+          <td>src\components\FengShuiTool.tsx:2</td>
+          <td>Unused import: 'React'</td>
+          <td>2m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-medium">MEDIUM</span></td>
+          <td>98%</td>
+          <td>unused-import</td>
+          <td>src\components\ProfileCatalog.tsx:2</td>
+          <td>Unused import: 'React'</td>
+          <td>2m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-medium">MEDIUM</span></td>
+          <td>70%</td>
+          <td>performance</td>
+          <td>src\app\en\projects\page.tsx:1</td>
+          <td>Potentially expensive operation 'new Set' in render — consider useMemo/useCallback</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>90%</td>
+          <td>typescript</td>
+          <td>scripts\extract-images.ts:118</td>
+          <td>Use of 'any' type reduces type safety</td>
+          <td>5m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\extract-images.ts:78</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\extract-images.ts:117</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\extract-images.ts:119</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\extract-images.ts:126</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\fix-descriptions.ts:43</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:55</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:61</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:76</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:78</td>
+          <td>console.error() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:84</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:99</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:101</td>
+          <td>console.error() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:107</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:122</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:124</td>
+          <td>console.error() found</td>
+          <td>20m</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-low">LOW</span></td>
+          <td>80%</td>
+          <td>performance</td>
+          <td>scripts\generate-articles.ts:128</td>
+          <td>console.log() found</td>
+          <td>20m</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <h2>PR Summary</h2>
+  <div class="pr-summary"></div>
+
+  <h2>Commit Message</h2>
+  <div class="code-block"></div>
+
+  <footer style="margin-top: 3rem; color: var(--dim); text-align: center;">
+    Generated by Enterprise AI Code Review System
+  </footer>
+</div>
+</body></html>

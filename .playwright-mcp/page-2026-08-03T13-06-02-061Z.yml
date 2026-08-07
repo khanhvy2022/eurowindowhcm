@@ -1,0 +1,761 @@
+- generic [ref=f9e2]:
+  - banner [ref=f9e3]:
+    - generic [ref=f9e5]:
+      - generic [ref=f9e6]:
+        - list [ref=f9e7]:
+          - listitem [ref=f9e8]: VN
+          - listitem [ref=f9e9]: ENG
+        - generic [ref=f9e11]:
+          - textbox "Tìm kiếm..." [ref=f9e12]
+          - button "Tìm kiếm" [ref=f9e13] [cursor=pointer]
+      - heading [level=1] [ref=f9e16]:
+        - link [ref=f9e17] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "Eurowindow - Tiên phong. Kiến tạo. Đồng hành" [ref=f9e18]
+      - link "Nhận tư vấn" [ref=f9e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f9e24]:
+      - listitem [ref=f9e25]:
+        - link "GIỚI THIỆU" [ref=f9e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f9e27]:
+        - link "SẢN PHẨM" [ref=f9e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f9e31]:
+        - link "SHOWROOM" [ref=f9e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f9e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f9e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f9e37]:
+        - link "TÀI LIỆU" [ref=f9e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f9e39]:
+        - link "TIN TỨC" [ref=f9e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f9e43]:
+        - link "CHÍNH SÁCH" [ref=f9e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f9e47]:
+        - link "LIÊN HỆ" [ref=f9e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f9e49]:
+    - generic [ref=f9e51]:
+      - generic [ref=f9e53]:
+        - link [ref=f9e56] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-go
+          - img "cuago" [ref=f9e57]
+        - link [ref=f9e60] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-nhua-upvc
+          - img "upvc4" [ref=f9e61]
+        - link [ref=f9e64] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-vach-nhom
+          - img "untitled-1-01" [ref=f9e65]
+        - link [ref=f9e68] [cursor=pointer]:
+          - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/chuong-trinh-khuyen-mai-dac-biet-danh-cho-khach-hang-mua-kinh-dien-eurowindow.html
+          - img "4e9a018f-f3d2-43c5-b37a-839485a42e7e-1" [ref=f9e69]
+        - link [ref=f9e72] [cursor=pointer]:
+          - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien/eurowindow-14-nam-lien-tiep-duoc-vinh-danh-thuong-hieu-quoc-gia.html
+          - img "banner-02-1" [ref=f9e73]
+        - link [ref=f9e76] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-the-he-moi
+          - img "z5494721716161-88873179923d512dbb75c126238f88f4" [ref=f9e77]
+        - link [ref=f9e80] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-go
+          - img "cuago" [ref=f9e81]
+        - link [ref=f9e84] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-nhua-upvc
+          - img "upvc4" [ref=f9e85]
+        - link [ref=f9e88] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-vach-nhom
+          - img "untitled-1-01" [ref=f9e89]
+        - link [ref=f9e92] [cursor=pointer]:
+          - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/chuong-trinh-khuyen-mai-dac-biet-danh-cho-khach-hang-mua-kinh-dien-eurowindow.html
+          - img "4e9a018f-f3d2-43c5-b37a-839485a42e7e-1" [ref=f9e93]
+        - link [ref=f9e96] [cursor=pointer]:
+          - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien/eurowindow-14-nam-lien-tiep-duoc-vinh-danh-thuong-hieu-quoc-gia.html
+          - img "banner-02-1" [ref=f9e97]
+        - link [ref=f9e100] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-the-he-moi
+          - img "z5494721716161-88873179923d512dbb75c126238f88f4" [ref=f9e101]
+      - generic [ref=f9e102]:
+        - button [ref=f9e103] [cursor=pointer]
+        - button [ref=f9e105] [cursor=pointer]
+        - button [ref=f9e107] [cursor=pointer]
+        - button [ref=f9e109] [cursor=pointer]
+        - button [ref=f9e111] [cursor=pointer]
+        - button [ref=f9e113] [cursor=pointer]
+    - generic [ref=f9e117]:
+      - heading "Giới thiệu" [level=2] [ref=f9e119]
+      - generic [ref=f9e120]:
+        - generic [ref=f9e122]:
+          - paragraph [ref=f9e123]: Năm 2002, Eurowindow tiên phong đưa cửa hiện đại uPVC tiêu chuẩn Châu Âu vào thị trường trong nước, làm nên cuộc cách mạng về cửa và mở ra “kỷ nguyên mới” cho những ngôi nhà Việt.
+          - paragraph [ref=f9e124]:
+            - generic [ref=f9e125]:
+              - text: Qua hơn hai thập kỷ, Eurowindow không ngừng
+              - strong [ref=f9e126]: TIÊN PHONG
+              - text: "ứng dụng công nghệ mới, phát triển đa dạng các dòng sản phẩm gồm: cửa uPVC, cửa nhôm, vách nhôm kính lớn, cửa gỗ, cửa gỗ chống cháy, cửa tự động, cửa cuốn, cửa thủy lực, các sản phẩm kính, nội thất… Mới đây nhất, bộ giải pháp cửa thông minh thế hệ mới Eurowindow tích hợp công nghệ 4.0, thiết kế đa công năng, đem đến sự tiện nghi tối ưu cho người dùng. Luôn dẫn dắt nhu cầu và tạo ra xu hướng tiêu dùng mới, Eurowindow đã và đang góp phần"
+              - strong [ref=f9e127]: KIẾN TẠO
+              - text: "diện mạo kiến trúc các đô thị. Sản phẩm Eurowindow hiện diện ở hàng trăm nghìn công trình tại Việt Nam và nước ngoài, từ các tòa nhà chung cư, biệt thự, văn phòng, trụ sở làm việc các cơ quan nhà nước, tòa nhà ngân hàng, khách sạn, trường học, bệnh viện... cho đến các công trình trọng điểm như: Tòa nhà Quốc hội, Tòa nhà chính phủ, cảng hàng không quốc tế..."
+            - link "Xem thêm" [ref=f9e129] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+        - img "layer-211" [ref=f9e131]
+    - generic [ref=f9e135]:
+      - generic [ref=f9e136]:
+        - link [ref=f9e138] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-vach-nhom
+          - img "cuanhom" [ref=f9e139]
+        - generic [ref=f9e140]:
+          - link [ref=f9e142] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-vach-nhom
+            - heading "CỬA NHÔM" [level=3] [ref=f9e143]
+          - link "Tất cả sản phẩm" [ref=f9e145] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-vach-nhom
+      - generic [ref=f9e148]:
+        - link [ref=f9e150] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-nhua-upvc
+          - img "cuanhua1" [ref=f9e151]
+        - generic [ref=f9e152]:
+          - link [ref=f9e154] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-nhua-upvc
+            - heading "CỬA uPVC" [level=3] [ref=f9e155]
+          - link "Tất cả sản phẩm" [ref=f9e157] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-nhua-upvc
+      - generic [ref=f9e160]:
+        - link [ref=f9e162] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cua-go
+          - img "cuagotrangchu" [ref=f9e163]
+        - generic [ref=f9e164]:
+          - link [ref=f9e166] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-go
+            - heading "CỬA GỖ" [level=3] [ref=f9e167]
+          - link "Tất cả sản phẩm" [ref=f9e169] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-go
+      - generic [ref=f9e172]:
+        - heading "Sản phẩm" [level=2] [ref=f9e173]
+        - generic [ref=f9e174]:
+          - generic [ref=f9e175]:
+            - link [ref=f9e177] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh
+              - img "sanphamkinh" [ref=f9e178]
+            - link [ref=f9e180] [cursor=pointer]:
+              - /url: https://eurowindow.biz/san-pham-kinh
+              - heading "SẢN PHẨM KÍNH" [level=3] [ref=f9e181]
+          - generic [ref=f9e182]:
+            - link [ref=f9e184] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-tu-dong
+              - img "cuatudong" [ref=f9e185]
+            - link [ref=f9e187] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-tu-dong
+              - heading "CỬA TỰ ĐỘNG" [level=3] [ref=f9e188]
+          - generic [ref=f9e189]:
+            - link [ref=f9e191] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+              - img "cuacuon" [ref=f9e192]
+            - link [ref=f9e194] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+              - heading "CỬA CUỐN" [level=3] [ref=f9e195]
+        - link "XEM TẤT CẢ SẢN PHẨM" [ref=f9e197] [cursor=pointer]:
+          - /url: /
+    - link [ref=f9e200] [cursor=pointer]:
+      - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/chuong-trinh-khuyen-mai-dac-biet-danh-cho-khach-hang-mua-kinh-dien-eurowindow.html
+      - img "banner-than-website" [ref=f9e201]
+    - generic [ref=f9e203]:
+      - heading "Tin tức" [level=2] [ref=f9e205]
+      - generic [ref=f9e206]:
+        - generic [ref=f9e207]:
+          - generic [ref=f9e208]:
+            - link [ref=f9e210] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+              - img "toa-dam-1" [ref=f9e211]
+            - link [ref=f9e213] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+              - heading "Eurowindow tổ chức thành công tọa đàm “ Xu hướng nguồn nhân lực - Chiến lược phát triển và quản trị trong bối cảnh mới”" [level=3] [ref=f9e214]
+          - generic [ref=f9e215]:
+            - link [ref=f9e217] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+              - img "img-0344" [ref=f9e218]
+            - link [ref=f9e220] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+              - heading "Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa" [level=3] [ref=f9e221]
+          - generic [ref=f9e222]:
+            - link [ref=f9e224] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tu-van/giai-phap-cach-nhiet-eurowindow-he-2026.html
+              - img "cua-nhom-kinh-cach-am-1" [ref=f9e225]
+            - link [ref=f9e227] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tu-van/giai-phap-cach-nhiet-eurowindow-he-2026.html
+              - heading "Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026" [level=3] [ref=f9e228]
+          - generic [ref=f9e229]:
+            - link [ref=f9e231] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tu-van/nen-chon-cua-gi-cho-mua-he-nang-nong.html
+              - img "z7978260236950-59ec572c33f7b933b6e48fae6107511b" [ref=f9e232]
+            - link [ref=f9e234] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tu-van/nen-chon-cua-gi-cho-mua-he-nang-nong.html
+              - heading "Nên chọn cửa gì cho mùa hè nắng nóng?" [level=3] [ref=f9e235]
+        - generic [ref=f9e236]:
+          - generic [ref=f9e237]: Tin tức nổi bật
+          - generic [ref=f9e239]:
+            - generic [ref=f9e241]:
+              - generic [ref=f9e243]:
+                - link [ref=f9e245] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-he-cua-va-vach-nhom-kinh-du-an-fpt-telecom-tower.html
+                  - img "z7653606237319-b225700b968578333eda5fd2d45b447f" [ref=f9e246]
+                - link [ref=f9e248] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-he-cua-va-vach-nhom-kinh-du-an-fpt-telecom-tower.html
+                  - heading "Eurowindow trúng thầu thi công hệ cửa và vách nhôm kính dự án FPT Telecom Tower" [level=3] [ref=f9e249]
+                - paragraph [ref=f9e251]:
+                  - text: Eurowindow vừa trúng thầu thi công hệ cửa và vách nhôm kính cho dự án FPT Telecom Tower – trụ sở văn phòng của Công ty Cổ phần Viễn thông FPT (FPT Telecom) tại Khu chế xuất Tân Thuận, Quận 7, TP.HCM. ...
+                  - link "Xem thêm" [ref=f9e252] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-he-cua-va-vach-nhom-kinh-du-an-fpt-telecom-tower.html
+              - generic [ref=f9e254]:
+                - link [ref=f9e256] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-but-pha-tren-hanh-trinh-tai-thiet-kien-tao-moi-truong-lam-viec-chuyen-nghiep.html
+                  - img "1784285994788-1996044870628632390-g1440525697409294600-e782cffd90876170d748cc027acf915b" [ref=f9e257]
+                - link [ref=f9e259] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-but-pha-tren-hanh-trinh-tai-thiet-kien-tao-moi-truong-lam-viec-chuyen-nghiep.html
+                  - 'heading "EUROWINDOW BỨT PHÁ TRÊN HÀNH TRÌNH TÁI THIẾT: KIẾN TẠO MÔI TRƯỜNG LÀM VIỆC CHUYÊN NGHIỆP" [level=3] [ref=f9e260]'
+                - paragraph [ref=f9e262]:
+                  - text: Chiến dịch "90 ngày Tái thiết nơi làm việc tốt nhất" tại Eurowindow đang được triển khai mạnh mẽ trên toàn hệ thống. Tiếp nối hành trình, Eurowindow tiếp tục đẩy mạnh các hạng mục hiện đại hóa công ...
+                  - link "Xem thêm" [ref=f9e263] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-but-pha-tren-hanh-trinh-tai-thiet-kien-tao-moi-truong-lam-viec-chuyen-nghiep.html
+              - generic [ref=f9e265]:
+                - link [ref=f9e267] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-gop-phan-kien-tao-khong-gian-song-thuong-luu-du-an-sunshine-noble-palace-long-bien.html
+                  - img "z7566831336677-bcca668552e197796dcd2bd428af8f1a" [ref=f9e268]
+                - link [ref=f9e270] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-gop-phan-kien-tao-khong-gian-song-thuong-luu-du-an-sunshine-noble-palace-long-bien.html
+                  - heading "Eurowindow góp phần kiến tạo không gian sống thượng lưu dự án Sunshine Noble Palace Long Biên" [level=3] [ref=f9e271]
+                - paragraph [ref=f9e273]:
+                  - text: Tiếp tục được lựa chọn cung cấp và thi công hệ cửa, vách nhôm kính cho các căn biệt thự phân khu Artemis dự án Sunshine Noble Palace Long Biên, Eurowindow khẳng định uy tín thương hiệu trong triển ...
+                  - link "Xem thêm" [ref=f9e274] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-gop-phan-kien-tao-khong-gian-song-thuong-luu-du-an-sunshine-noble-palace-long-bien.html
+              - generic [ref=f9e276]:
+                - link [ref=f9e278] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-tang-toc-tren-hanh-trinh-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+                  - img "tai-thiet-lan-2" [ref=f9e279]
+                - link [ref=f9e281] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-tang-toc-tren-hanh-trinh-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+                  - heading "EUROWINDOW TĂNG TỐC TRÊN HÀNH TRÌNH “90 NGÀY TÁI THIẾT NƠI LÀM VIỆC TỐT NHẤT”" [level=3] [ref=f9e282]
+                - paragraph [ref=f9e284]:
+                  - text: Chiến dịch “90 ngày tái thiết nơi làm việc tốt nhất” tại Eurowindow đang tạo ra những chuyển dịch mạnh mẽ trên toàn hệ thống từ Bắc chí Nam. Không chỉ dừng lại ở việc nâng cấp công cụ làm việc và cải ...
+                  - link "Xem thêm" [ref=f9e285] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-tang-toc-tren-hanh-trinh-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+              - generic [ref=f9e287]:
+                - link [ref=f9e289] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-cua-va-vach-nhom-kinh-du-an-the-9-stellars.html
+                  - img "z7407016766473-8a61e442dd6f696fc17cd2dbcfa746f8" [ref=f9e290]
+                - link [ref=f9e292] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-cua-va-vach-nhom-kinh-du-an-the-9-stellars.html
+                  - heading "Eurowindow trúng thầu thi công cửa và vách nhôm kính dự án The 9 Stellars" [level=3] [ref=f9e293]
+                - paragraph [ref=f9e295]:
+                  - text: Eurowindow vừa trúng thầu gói cung cấp, thi công hệ cửa và vách nhôm kính tại dự án The 9 Stellars – một trong những dự án căn hộ cao cấp nổi bật tại khu Đông TP.HCM. The 9 Stellars tọa lạc trên ...
+                  - link "Xem thêm" [ref=f9e296] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-cua-va-vach-nhom-kinh-du-an-the-9-stellars.html
+              - generic [ref=f9e298]:
+                - link [ref=f9e300] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-khoi-dong-chien-dich-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+                  - img "ewh07548" [ref=f9e301]
+                - link [ref=f9e303] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-khoi-dong-chien-dich-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+                  - heading "Eurowindow khởi động chiến dịch “90 ngày tái thiết nơi làm việc tốt nhất”" [level=3] [ref=f9e304]
+                - paragraph [ref=f9e306]:
+                  - text: Với định hướng lấy con người làm trung tâm trong chiến lược phát triển bền vững, Eurowindow vừa khởi động chiến dịch “90 ngày tái thiết nơi làm việc tốt nhất”, thể hiện cam kết mạnh mẽ của Ban Lãnh ...
+                  - link "Xem thêm" [ref=f9e307] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-khoi-dong-chien-dich-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+              - generic [ref=f9e309]:
+                - link [ref=f9e311] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Csieu-pham-sang-%E2%80%93-uu-dai-vang%E2%80%9D.html
+                  - img "ctkm-ea65ea68i-169-at-3x" [ref=f9e312]
+                - link [ref=f9e314] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Csieu-pham-sang-%E2%80%93-uu-dai-vang%E2%80%9D.html
+                  - heading "Thể lệ chương trình khuyến mãi “Siêu phẩm sang – Ưu đãi vàng”" [level=3] [ref=f9e315]
+                - paragraph [ref=f9e317]:
+                  - text: Nhằm tri ân khách hàng, từ ngày 15/07/2026 đến 15/09/2026 , Eurowindow triển khai chương trình khuyến mãi “Siêu phẩm sang – Ưu đãi vàng” dành cho khách hàng nhà riêng trên phạm vi toàn quốc. Theo đó, ...
+                  - link "Xem thêm" [ref=f9e318] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Csieu-pham-sang-%E2%80%93-uu-dai-vang%E2%80%9D.html
+              - generic [ref=f9e320]:
+                - link [ref=f9e322] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                  - img "z8077465486665-2958faf553265ae78b46de4213b00079-1-1" [ref=f9e323]
+                - link [ref=f9e325] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                  - heading "Tọa đàm \"Xu hướng nguồn nhân lực - Chiến lược phát triển và quản trị trong bối cảnh mới\"" [level=3] [ref=f9e326]
+                - paragraph [ref=f9e328]:
+                  - text: Trong bối cảnh thị trường lao động đang thay đổi mạnh mẽ dưới tác động của chuyển dịch kinh tế, chuyển đổi số và trí tuệ nhân tạo (AI), việc nhận diện đúng xu hướng và xây dựng chiến lược nguồn nhân ...
+                  - link "Xem thêm" [ref=f9e329] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+              - generic [ref=f9e331]:
+                - link [ref=f9e333] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                  - img "toa-dam-1" [ref=f9e334]
+                - link [ref=f9e336] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                  - heading "Eurowindow tổ chức thành công tọa đàm “ Xu hướng nguồn nhân lực - Chiến lược phát triển và quản trị trong bối cảnh mới”" [level=3] [ref=f9e337]
+                - paragraph [ref=f9e339]:
+                  - text: Chiều ngày 30/07/2026, tại Hà Nội, Công ty Cổ phần Eurowindow đã tổ chức thành công buổi tọa đàm chuyên đề "Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới". Sự kiện ...
+                  - link "Xem thêm" [ref=f9e340] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+              - generic [ref=f9e342]:
+                - link [ref=f9e344] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+                  - img "img-0344" [ref=f9e345]
+                - link [ref=f9e347] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+                  - heading "Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa" [level=3] [ref=f9e348]
+                - paragraph [ref=f9e350]:
+                  - text: Eurowindow vừa trúng thầu gói cung cấp, lắp đặt hệ cửa sổ, cửa đi, vách kính, louver và lan can kính tại tòa Y5 Pacific Tower Imperia Signature – The Continental – phân khu căn hộ cao cấp đầu tiên ...
+                  - link "Xem thêm" [ref=f9e351] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+              - generic [ref=f9e353]:
+                - link [ref=f9e355] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-he-cua-va-vach-nhom-kinh-du-an-fpt-telecom-tower.html
+                  - img "z7653606237319-b225700b968578333eda5fd2d45b447f" [ref=f9e356]
+                - link [ref=f9e358] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-he-cua-va-vach-nhom-kinh-du-an-fpt-telecom-tower.html
+                  - heading "Eurowindow trúng thầu thi công hệ cửa và vách nhôm kính dự án FPT Telecom Tower" [level=3] [ref=f9e359]
+                - paragraph [ref=f9e361]:
+                  - text: Eurowindow vừa trúng thầu thi công hệ cửa và vách nhôm kính cho dự án FPT Telecom Tower – trụ sở văn phòng của Công ty Cổ phần Viễn thông FPT (FPT Telecom) tại Khu chế xuất Tân Thuận, Quận 7, TP.HCM. ...
+                  - link "Xem thêm" [ref=f9e362] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-he-cua-va-vach-nhom-kinh-du-an-fpt-telecom-tower.html
+              - generic [ref=f9e364]:
+                - link [ref=f9e366] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-but-pha-tren-hanh-trinh-tai-thiet-kien-tao-moi-truong-lam-viec-chuyen-nghiep.html
+                  - img "1784285994788-1996044870628632390-g1440525697409294600-e782cffd90876170d748cc027acf915b" [ref=f9e367]
+                - link [ref=f9e369] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-but-pha-tren-hanh-trinh-tai-thiet-kien-tao-moi-truong-lam-viec-chuyen-nghiep.html
+                  - 'heading "EUROWINDOW BỨT PHÁ TRÊN HÀNH TRÌNH TÁI THIẾT: KIẾN TẠO MÔI TRƯỜNG LÀM VIỆC CHUYÊN NGHIỆP" [level=3] [ref=f9e370]'
+                - paragraph [ref=f9e372]:
+                  - text: Chiến dịch "90 ngày Tái thiết nơi làm việc tốt nhất" tại Eurowindow đang được triển khai mạnh mẽ trên toàn hệ thống. Tiếp nối hành trình, Eurowindow tiếp tục đẩy mạnh các hạng mục hiện đại hóa công ...
+                  - link "Xem thêm" [ref=f9e373] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-but-pha-tren-hanh-trinh-tai-thiet-kien-tao-moi-truong-lam-viec-chuyen-nghiep.html
+              - generic [ref=f9e375]:
+                - link [ref=f9e377] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-gop-phan-kien-tao-khong-gian-song-thuong-luu-du-an-sunshine-noble-palace-long-bien.html
+                  - img "z7566831336677-bcca668552e197796dcd2bd428af8f1a" [ref=f9e378]
+                - link [ref=f9e380] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-gop-phan-kien-tao-khong-gian-song-thuong-luu-du-an-sunshine-noble-palace-long-bien.html
+                  - heading "Eurowindow góp phần kiến tạo không gian sống thượng lưu dự án Sunshine Noble Palace Long Biên" [level=3] [ref=f9e381]
+                - paragraph [ref=f9e383]:
+                  - text: Tiếp tục được lựa chọn cung cấp và thi công hệ cửa, vách nhôm kính cho các căn biệt thự phân khu Artemis dự án Sunshine Noble Palace Long Biên, Eurowindow khẳng định uy tín thương hiệu trong triển ...
+                  - link "Xem thêm" [ref=f9e384] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-gop-phan-kien-tao-khong-gian-song-thuong-luu-du-an-sunshine-noble-palace-long-bien.html
+              - generic [ref=f9e386]:
+                - link [ref=f9e388] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-tang-toc-tren-hanh-trinh-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+                  - img "tai-thiet-lan-2" [ref=f9e389]
+                - link [ref=f9e391] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-tang-toc-tren-hanh-trinh-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+                  - heading "EUROWINDOW TĂNG TỐC TRÊN HÀNH TRÌNH “90 NGÀY TÁI THIẾT NƠI LÀM VIỆC TỐT NHẤT”" [level=3] [ref=f9e392]
+                - paragraph [ref=f9e394]:
+                  - text: Chiến dịch “90 ngày tái thiết nơi làm việc tốt nhất” tại Eurowindow đang tạo ra những chuyển dịch mạnh mẽ trên toàn hệ thống từ Bắc chí Nam. Không chỉ dừng lại ở việc nâng cấp công cụ làm việc và cải ...
+                  - link "Xem thêm" [ref=f9e395] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-tang-toc-tren-hanh-trinh-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+              - generic [ref=f9e397]:
+                - link [ref=f9e399] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-cua-va-vach-nhom-kinh-du-an-the-9-stellars.html
+                  - img "z7407016766473-8a61e442dd6f696fc17cd2dbcfa746f8" [ref=f9e400]
+                - link [ref=f9e402] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-cua-va-vach-nhom-kinh-du-an-the-9-stellars.html
+                  - heading "Eurowindow trúng thầu thi công cửa và vách nhôm kính dự án The 9 Stellars" [level=3] [ref=f9e403]
+                - paragraph [ref=f9e405]:
+                  - text: Eurowindow vừa trúng thầu gói cung cấp, thi công hệ cửa và vách nhôm kính tại dự án The 9 Stellars – một trong những dự án căn hộ cao cấp nổi bật tại khu Đông TP.HCM. The 9 Stellars tọa lạc trên ...
+                  - link "Xem thêm" [ref=f9e406] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-trung-thau-thi-cong-cua-va-vach-nhom-kinh-du-an-the-9-stellars.html
+              - generic [ref=f9e408]:
+                - link [ref=f9e410] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-khoi-dong-chien-dich-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+                  - img "ewh07548" [ref=f9e411]
+                - link [ref=f9e413] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-khoi-dong-chien-dich-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+                  - heading "Eurowindow khởi động chiến dịch “90 ngày tái thiết nơi làm việc tốt nhất”" [level=3] [ref=f9e414]
+                - paragraph [ref=f9e416]:
+                  - text: Với định hướng lấy con người làm trung tâm trong chiến lược phát triển bền vững, Eurowindow vừa khởi động chiến dịch “90 ngày tái thiết nơi làm việc tốt nhất”, thể hiện cam kết mạnh mẽ của Ban Lãnh ...
+                  - link "Xem thêm" [ref=f9e417] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-khoi-dong-chien-dich-90-ngay-tai-thiet-noi-lam-viec-tot-nhat.html
+              - generic [ref=f9e419]:
+                - link [ref=f9e421] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Csieu-pham-sang-%E2%80%93-uu-dai-vang%E2%80%9D.html
+                  - img "ctkm-ea65ea68i-169-at-3x" [ref=f9e422]
+                - link [ref=f9e424] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Csieu-pham-sang-%E2%80%93-uu-dai-vang%E2%80%9D.html
+                  - heading "Thể lệ chương trình khuyến mãi “Siêu phẩm sang – Ưu đãi vàng”" [level=3] [ref=f9e425]
+                - paragraph [ref=f9e427]:
+                  - text: Nhằm tri ân khách hàng, từ ngày 15/07/2026 đến 15/09/2026 , Eurowindow triển khai chương trình khuyến mãi “Siêu phẩm sang – Ưu đãi vàng” dành cho khách hàng nhà riêng trên phạm vi toàn quốc. Theo đó, ...
+                  - link "Xem thêm" [ref=f9e428] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Csieu-pham-sang-%E2%80%93-uu-dai-vang%E2%80%9D.html
+              - generic [ref=f9e430]:
+                - link [ref=f9e432] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                  - img "z8077465486665-2958faf553265ae78b46de4213b00079-1-1" [ref=f9e433]
+                - link [ref=f9e435] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                  - heading "Tọa đàm \"Xu hướng nguồn nhân lực - Chiến lược phát triển và quản trị trong bối cảnh mới\"" [level=3] [ref=f9e436]
+                - paragraph [ref=f9e438]:
+                  - text: Trong bối cảnh thị trường lao động đang thay đổi mạnh mẽ dưới tác động của chuyển dịch kinh tế, chuyển đổi số và trí tuệ nhân tạo (AI), việc nhận diện đúng xu hướng và xây dựng chiến lược nguồn nhân ...
+                  - link "Xem thêm" [ref=f9e439] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+              - generic [ref=f9e441]:
+                - link [ref=f9e443] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                  - img "toa-dam-1" [ref=f9e444]
+                - link [ref=f9e446] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                  - heading "Eurowindow tổ chức thành công tọa đàm “ Xu hướng nguồn nhân lực - Chiến lược phát triển và quản trị trong bối cảnh mới”" [level=3] [ref=f9e447]
+                - paragraph [ref=f9e449]:
+                  - text: Chiều ngày 30/07/2026, tại Hà Nội, Công ty Cổ phần Eurowindow đã tổ chức thành công buổi tọa đàm chuyên đề "Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới". Sự kiện ...
+                  - link "Xem thêm" [ref=f9e450] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+              - generic [ref=f9e452]:
+                - link [ref=f9e454] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+                  - img "img-0344" [ref=f9e455]
+                - link [ref=f9e457] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+                  - heading "Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa" [level=3] [ref=f9e458]
+                - paragraph [ref=f9e460]:
+                  - text: Eurowindow vừa trúng thầu gói cung cấp, lắp đặt hệ cửa sổ, cửa đi, vách kính, louver và lan can kính tại tòa Y5 Pacific Tower Imperia Signature – The Continental – phân khu căn hộ cao cấp đầu tiên ...
+                  - link "Xem thêm" [ref=f9e461] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+            - generic [ref=f9e462]:
+              - button [ref=f9e463] [cursor=pointer]
+              - button [ref=f9e465] [cursor=pointer]
+              - button [ref=f9e467] [cursor=pointer]
+              - button [ref=f9e469] [cursor=pointer]
+              - button [ref=f9e471] [cursor=pointer]
+              - button [ref=f9e473] [cursor=pointer]
+              - button [ref=f9e475] [cursor=pointer]
+              - button [ref=f9e477] [cursor=pointer]
+              - button [ref=f9e479] [cursor=pointer]
+              - button [ref=f9e481] [cursor=pointer]
+    - generic [ref=f9e483]:
+      - heading "Video nổi bật" [level=2] [ref=f9e485]
+      - generic [ref=f9e489]:
+        - generic [ref=f9e491]:
+          - generic [ref=f9e492]:
+            - generic:
+              - link "cover-video-web-ew-17":
+                - /url: https://youtu.be/iwpTPrCayUo
+                - img "cover-video-web-ew-17"
+          - generic [ref=f9e493]:
+            - generic:
+              - link "cover-video-web-ew-16":
+                - /url: https://youtu.be/P0lKV7LMW9M
+                - img "cover-video-web-ew-16"
+          - generic [ref=f9e494]:
+            - generic:
+              - link "cover-video-web-ew-15":
+                - /url: https://youtu.be/ZrT74Zj-U80
+                - img "cover-video-web-ew-15"
+          - generic [ref=f9e495]:
+            - generic:
+              - link "cover-video-web-ew-18-18":
+                - /url: https://youtu.be/TR67mxig7XQ?si=Ccp5pkEDP2Rqscoh
+                - img "cover-video-web-ew-18-18"
+          - generic [ref=f9e496]:
+            - generic:
+              - link "untitled":
+                - /url: https://youtu.be/9z-v20zLaw4
+                - img "untitled"
+          - generic [ref=f9e497]:
+            - generic:
+              - link "cover-video-web-ew-01":
+                - /url: https://youtu.be/WtzD3aX2mNU
+                - img "cover-video-web-ew-01"
+          - link [ref=f9e500] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=q8uRfhneDhI
+            - img "z7066183703283-45ad935ecdb67f25c190efa261d7f10c" [ref=f9e501]
+          - link [ref=f9e504] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=8fmrAceXHq0
+            - img "untitled-3" [ref=f9e505]
+          - link [ref=f9e508] [cursor=pointer]:
+            - /url: https://youtu.be/37zYyt3Aums
+            - img "untitled-5" [ref=f9e509]
+          - link [ref=f9e512] [cursor=pointer]:
+            - /url: https://youtu.be/6QQiQ_QF5tE
+            - img "cover-video-web-ew-6-1-06" [ref=f9e513]
+          - generic [ref=f9e514]:
+            - generic:
+              - link "cover-video-web-ew-13":
+                - /url: https://youtu.be/HapB4msG6NA
+                - img "cover-video-web-ew-13"
+          - generic [ref=f9e515]:
+            - generic:
+              - link "cover-video-web-ew-14":
+                - /url: https://youtu.be/5taI1-fi2Xg
+                - img "cover-video-web-ew-14"
+          - generic [ref=f9e516]:
+            - generic:
+              - link "cover-video-web-ew-17":
+                - /url: https://youtu.be/iwpTPrCayUo
+                - img "cover-video-web-ew-17"
+          - generic [ref=f9e517]:
+            - generic:
+              - link "cover-video-web-ew-16":
+                - /url: https://youtu.be/P0lKV7LMW9M
+                - img "cover-video-web-ew-16"
+          - generic [ref=f9e518]:
+            - generic:
+              - link "cover-video-web-ew-15":
+                - /url: https://youtu.be/ZrT74Zj-U80
+                - img "cover-video-web-ew-15"
+          - generic [ref=f9e519]:
+            - generic:
+              - link "cover-video-web-ew-18-18":
+                - /url: https://youtu.be/TR67mxig7XQ?si=Ccp5pkEDP2Rqscoh
+                - img "cover-video-web-ew-18-18"
+          - generic [ref=f9e520]:
+            - generic:
+              - link "untitled":
+                - /url: https://youtu.be/9z-v20zLaw4
+                - img "untitled"
+          - generic [ref=f9e521]:
+            - generic:
+              - link "cover-video-web-ew-01":
+                - /url: https://youtu.be/WtzD3aX2mNU
+                - img "cover-video-web-ew-01"
+          - link [ref=f9e524] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=q8uRfhneDhI
+            - img "z7066183703283-45ad935ecdb67f25c190efa261d7f10c" [ref=f9e525]
+          - link [ref=f9e528] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=8fmrAceXHq0
+            - img "untitled-3" [ref=f9e529]
+          - link [ref=f9e532] [cursor=pointer]:
+            - /url: https://youtu.be/37zYyt3Aums
+            - img "untitled-5" [ref=f9e533]
+          - link [ref=f9e536] [cursor=pointer]:
+            - /url: https://youtu.be/6QQiQ_QF5tE
+            - img "cover-video-web-ew-6-1-06" [ref=f9e537]
+          - generic [ref=f9e538]:
+            - generic:
+              - link "cover-video-web-ew-13":
+                - /url: https://youtu.be/HapB4msG6NA
+                - img "cover-video-web-ew-13"
+          - generic [ref=f9e539]:
+            - generic:
+              - link "cover-video-web-ew-14":
+                - /url: https://youtu.be/5taI1-fi2Xg
+                - img "cover-video-web-ew-14"
+        - generic [ref=f9e540]:
+          - button [ref=f9e541] [cursor=pointer]
+          - button [ref=f9e544] [cursor=pointer]
+    - link [ref=f9e549] [cursor=pointer]:
+      - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/chuong-trinh-khuyen-mai-dac-biet-danh-cho-khach-hang-mua-kinh-dien-eurowindow.html
+      - img "banner-than-website" [ref=f9e550]
+    - generic [ref=f9e552]:
+      - generic [ref=f9e553]:
+        - generic [ref=f9e554]:
+          - generic [ref=f9e555]:
+            - heading "Công trình tiêu biểu" [level=2] [ref=f9e557]
+            - paragraph [ref=f9e559]: "Không ngừng nỗ lực mang đến những sản phẩm hiện đại từ cửa uPVC , cửa nhôm, cửa gỗ..., với trải nghiệm khác biệt, nâng tầm chất lượng không gian sống và làm việc cho người sử dụng, Eurowindow đã có nhiều năm kinh nghiệm thi công, hoàn thiện hàng trăm nghìn công trình biệt thự, nhà phố, chung cư, khách sạn, tòa nhà văn phòng, trung tâm thương mại… các công trình trọng điểm cấp quốc gia như: Nhà Quốc hội, trụ sở làm việc các cơ quan nhà nước, cảng hàng không, bệnh viện, trường học…"
+            - link "XEM TẤT CẢ DỰ ÁN" [ref=f9e561] [cursor=pointer]:
+              - /url: /cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+          - generic [ref=f9e562]:
+            - heading "congtrinhtieubieu1 CÔNG TRÌNH CẤP QUỐC GIA" [level=3] [ref=f9e563] [cursor=pointer]:
+              - link [ref=f9e565]:
+                - /url: javascript:;
+                - img "congtrinhtieubieu1" [ref=f9e566]
+              - generic [ref=f9e567]: CÔNG TRÌNH CẤP QUỐC GIA
+            - heading "congtrinhtieubieu2xanh TÒA NHÀ VP - CHUNG CƯ" [level=3] [ref=f9e568] [cursor=pointer]:
+              - link [ref=f9e570]:
+                - /url: javascript:;
+                - img "congtrinhtieubieu2xanh" [ref=f9e571]
+              - generic [ref=f9e572]: TÒA NHÀ VP - CHUNG CƯ
+            - heading "congtrinhtieubieu3xanh CÔNG TRÌNH DÂN DỤNG" [level=3] [ref=f9e573] [cursor=pointer]:
+              - link [ref=f9e575]:
+                - /url: javascript:;
+                - img "congtrinhtieubieu3xanh" [ref=f9e576]
+              - generic [ref=f9e577]: CÔNG TRÌNH DÂN DỤNG
+        - generic [ref=f9e581]:
+          - generic [ref=f9e583]:
+            - generic [ref=f9e585]:
+              - link [ref=f9e587] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-phu-bai-hue.html
+                - img "viber-image-2025-02-05-13-33-24-065" [ref=f9e588]
+              - link [ref=f9e590] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-phu-bai-hue.html
+                - paragraph [ref=f9e591]: CẢNG HÀNG KHÔNG PHÚ BÀI HUẾ
+            - generic [ref=f9e593]:
+              - link [ref=f9e595] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-viet-phap.html
+                - img "img-7105" [ref=f9e596]
+              - generic [ref=f9e597]:
+                - link [ref=f9e598] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-viet-phap.html
+                  - paragraph [ref=f9e599]: Bệnh viện Việt Pháp
+                - paragraph [ref=f9e600]: Hà Nội
+            - generic [ref=f9e604]:
+              - link [ref=f9e606] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-ung-buou-da-nang.html
+                - img "benh-vien-ung-buou-da-nang-17" [ref=f9e607]
+              - generic [ref=f9e608]:
+                - link [ref=f9e609] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-ung-buou-da-nang.html
+                  - paragraph [ref=f9e610]: Bệnh viện ung bướu Đà Nẵng
+                - paragraph [ref=f9e611]: Đà Nẵng
+          - generic [ref=f9e614]:
+            - button [ref=f9e615] [cursor=pointer]
+            - button [ref=f9e617] [cursor=pointer]
+            - button [ref=f9e619] [cursor=pointer]
+      - generic [ref=f9e621]:
+        - generic [ref=f9e622]:
+          - link [ref=f9e624] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/nha-quoc-hoi.html
+            - img "mg-1220" [ref=f9e625]
+          - generic [ref=f9e626]:
+            - link [ref=f9e627] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/nha-quoc-hoi.html
+              - paragraph [ref=f9e628]: Nhà Quốc hội
+            - paragraph [ref=f9e629]: Hà Nội
+        - generic [ref=f9e632]:
+          - link [ref=f9e634] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-bo-ngoai-giao.html
+            - img "20191030-tru-so-bo-ngoai-giao-0719" [ref=f9e635]
+          - generic [ref=f9e636]:
+            - link [ref=f9e637] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-bo-ngoai-giao.html
+              - paragraph [ref=f9e638]: Trụ sở Bộ Ngoại giao
+            - paragraph [ref=f9e639]: Hà Nội
+    - generic [ref=f9e644]:
+      - generic [ref=f9e649]:
+        - img "anab" [ref=f9e652]
+        - img "goldstar" [ref=f9e655]
+        - img "viber-image-2024-05-30-16-26-04-872" [ref=f9e658]
+        - img "viber-image-2024-05-30-16-25-22-525-copy-2" [ref=f9e661]
+        - img "viber-image-2024-05-30-16-25-26-303" [ref=f9e664]
+        - img "huanchuonglaodong" [ref=f9e667]
+        - img "hvnclc" [ref=f9e670]
+        - img "vnvalue" [ref=f9e673]
+        - img "ukas" [ref=f9e676]
+        - img "iaf" [ref=f9e679]
+        - img "anab" [ref=f9e682]
+        - img "goldstar" [ref=f9e685]
+        - img "viber-image-2024-05-30-16-26-04-872" [ref=f9e688]
+        - img "viber-image-2024-05-30-16-25-22-525-copy-2" [ref=f9e691]
+        - img "viber-image-2024-05-30-16-25-26-303" [ref=f9e694]
+        - img "huanchuonglaodong" [ref=f9e697]
+        - img "hvnclc" [ref=f9e700]
+        - img "vnvalue" [ref=f9e703]
+        - img "ukas" [ref=f9e706]
+        - img "iaf" [ref=f9e709]
+      - generic [ref=f9e710]:
+        - heading "Thành tích nổi bật" [level=2] [ref=f9e712]
+        - paragraph [ref=f9e714]: Eurowindow cung cấp cửa uPVC, cửa nhôm, cửa gỗ... tự hào nhiều năm liền được vinh danh các thành tích và giải thưởng cao quý, do tổ chức uy tín trong và ngoài nước trao tặng. Đó là sự ghi nhận của hàng triệu người tiêu dùng và của cả xã hội về những đóng góp tích cực cho cộng đồng, vì một Việt Nam ngày càng phát triển.
+  - contentinfo [ref=f9e715]:
+    - generic [ref=f9e717]:
+      - generic [ref=f9e718]:
+        - link [ref=f9e720] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f9e721]
+        - generic [ref=f9e722]:
+          - link "Facebook" [ref=f9e723] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f9e724]
+          - link "Instagram" [ref=f9e725] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f9e726]
+          - link "Youtube" [ref=f9e727] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f9e728]
+          - link "Zalo" [ref=f9e729] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f9e730]
+          - link "Tiktok" [ref=f9e731] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f9e735] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f9e739] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f9e743]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f9e746] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f9e747]:
+          - link [ref=f9e748] [cursor=pointer]:
+            - /url: javascript:;
+            - img "BCT" [ref=f9e749]
+          - link [ref=f9e750] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f9e751]
+      - generic [ref=f9e752]:
+        - generic [ref=f9e753]: Giới thiệu
+        - list [ref=f9e754]:
+          - listitem [ref=f9e755]:
+            - link "Giới thiệu" [ref=f9e756] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f9e757]:
+            - link "Tầm nhìn sứ mệnh" [ref=f9e758] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f9e759]:
+            - link "Giải thưởng" [ref=f9e760] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f9e761]:
+            - link "Tài liệu" [ref=f9e762] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f9e763]:
+        - generic [ref=f9e764]: Sản phẩm
+        - list [ref=f9e765]:
+          - listitem [ref=f9e766]:
+            - link "Cửa - Vách nhôm" [ref=f9e767] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f9e768]:
+            - link "Cửa uPVC" [ref=f9e769] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f9e770]:
+            - link "Cửa gỗ" [ref=f9e771] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f9e772]:
+            - link "Cửa cuốn" [ref=f9e773] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f9e774]:
+            - link "Cửa thông minh" [ref=f9e775] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f9e776]:
+        - generic [ref=f9e777]: Tin tức
+        - list [ref=f9e778]:
+          - listitem [ref=f9e779]:
+            - link "Tin tức sự kiện" [ref=f9e780] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f9e781]:
+            - link "Tin dự án" [ref=f9e782] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f9e783]:
+            - link "Tin nội bộ" [ref=f9e784] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f9e785]:
+            - link "Tin khuyến mãi" [ref=f9e786] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f9e787]:
+            - link "Tư vấn" [ref=f9e788] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f9e789]:
+        - generic [ref=f9e790]: Chăm sóc khách hàng
+        - list [ref=f9e791]:
+          - listitem [ref=f9e792]:
+            - link "Chính sách bảo hành" [ref=f9e793] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f9e794]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f9e795] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f9e796]:
+            - link "(84 - 24) 37 47 47 00" [ref=f9e797] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f9e800]:
+            - link "cskhhn@eurowindow.biz" [ref=f9e801] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f9e804]: Dự án quốc tế và xuất khẩu
+          - list [ref=f9e805]:
+            - listitem [ref=f9e806]:
+              - link "+84 -903 41 55 52" [ref=f9e807] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f9e810]:
+              - link "export@eurowindow.biz" [ref=f9e811] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f9e816]:
+      - generic [ref=f9e817]:
+        - paragraph
+        - paragraph
+      - generic [ref=f9e818]:
+        - paragraph
+        - paragraph [ref=f9e819]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f9e825] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f9e826]

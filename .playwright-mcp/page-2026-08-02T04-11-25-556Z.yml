@@ -1,0 +1,183 @@
+- generic [active] [ref=f54e1]:
+  - generic [ref=f54e2]:
+    - banner [ref=f54e3]:
+      - generic [ref=f54e4]:
+        - link "Eurowindow" [ref=f54e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f54e6]
+        - button "Open menu" [ref=f54e7]
+    - main [ref=f54e9]:
+      - generic [ref=f54e11]:
+        - heading "ABOUT US" [level=1] [ref=f54e12]
+        - navigation "Breadcrumb" [ref=f54e13]:
+          - link "Trang chủ" [ref=f54e14] [cursor=pointer]:
+            - /url: /en
+          - generic [ref=f54e17]: About us
+      - generic [ref=f54e19]:
+        - heading "ABOUT EUROWINDOW" [level=2] [ref=f54e20]
+        - generic [ref=f54e21]:
+          - generic [ref=f54e22]:
+            - paragraph [ref=f54e23]: In 2002, Eurowindow pioneered the introduction of modern European-standard uPVC doors into the domestic market — a revolution in doors that opened a "new era" for Vietnamese homes.
+            - paragraph [ref=f54e24]: "For over two decades, Eurowindow has kept pioneering new technology and expanded across uPVC, aluminium, wood, glass, automatic doors, roller doors and finishing materials. Every product system answers the same question: how does it help people live better?"
+            - link "SEE OUR SOLUTIONS" [ref=f54e25] [cursor=pointer]:
+              - /url: /en/services
+          - img "Eurowindow – leading green building material solutions provider" [ref=f54e29]
+      - generic [ref=f54e31]:
+        - paragraph [ref=f54e32]: For more than 20 years, Eurowindow has served with dedication, striving to create happy living spaces for customers…
+        - generic [ref=f54e33]:
+          - generic [ref=f54e34]:
+            - definition [ref=f54e35]: "2002"
+            - term [ref=f54e36]: year of founding
+          - generic [ref=f54e37]:
+            - definition [ref=f54e38]: 20+
+            - term [ref=f54e39]: years of experience
+          - generic [ref=f54e40]:
+            - definition [ref=f54e41]: 100,000+
+            - term [ref=f54e42]: projects delivered
+          - generic [ref=f54e43]:
+            - definition [ref=f54e44]: "14"
+            - term [ref=f54e45]: consecutive National Brand years
+          - generic [ref=f54e46]:
+            - definition [ref=f54e47]: 6+
+            - term [ref=f54e48]: core product systems
+          - generic [ref=f54e49]:
+            - definition [ref=f54e50]: "2"
+            - term [ref=f54e51]: modern factories
+      - generic [ref=f54e53]:
+        - generic [ref=f54e54]:
+          - generic [ref=f54e55]:
+            - text: Pioneer. Create. Accompany.
+            - generic [ref=f54e56]: •
+          - generic [ref=f54e57]:
+            - text: Green building material solutions
+            - generic [ref=f54e58]: •
+          - generic [ref=f54e59]:
+            - text: Present in hundreds of thousands of projects
+            - generic [ref=f54e60]: •
+        - generic [ref=f54e61]:
+          - generic [ref=f54e62]:
+            - text: Pioneer. Create. Accompany.
+            - generic [ref=f54e63]: •
+          - generic [ref=f54e64]:
+            - text: Green building material solutions
+            - generic [ref=f54e65]: •
+          - generic [ref=f54e66]:
+            - text: Present in hundreds of thousands of projects
+            - generic [ref=f54e67]: •
+      - generic [ref=f54e69]:
+        - generic [ref=f54e70]:
+          - heading "Brand journey" [level=2] [ref=f54e71]
+          - list [ref=f54e72]:
+            - listitem [ref=f54e73]:
+              - paragraph [ref=f54e75]: 2002 — founded, pioneering European-standard uPVC doors in Vietnam.
+            - listitem [ref=f54e76]:
+              - paragraph [ref=f54e78]: 2012 — first achieved the Vietnam National Brand, starting 14 consecutive years of recognition.
+            - listitem [ref=f54e79]:
+              - paragraph [ref=f54e81]: 2020 — expanded across aluminium, wood, automatic and roller door systems, glass products and interiors.
+            - listitem [ref=f54e82]:
+              - paragraph [ref=f54e84]: Today — products appear in hundreds of thousands of projects in Vietnam and abroad, from apartments and villas to key national landmarks.
+        - img "Eurowindow office building" [ref=f54e86]
+      - generic [ref=f54e88]:
+        - heading "Core values" [level=2] [ref=f54e89]
+        - generic [ref=f54e90]:
+          - generic [ref=f54e91]:
+            - button "Vision" [expanded] [ref=f54e92]
+            - generic [ref=f54e95]: To become the leading Vietnamese brand in door, aluminium-glass partition and finishing material solutions — creating civilised living spaces that harmonise function and aesthetics.
+          - button "Mission" [ref=f54e97]
+          - button "Our design philosophy" [ref=f54e101]
+          - button "Operating motto" [ref=f54e105]
+      - generic [ref=f54e109]:
+        - heading "Eurowindow services" [level=2] [ref=f54e110]
+        - generic [ref=f54e111]:
+          - article [ref=f54e112]:
+            - generic [ref=f54e114]:
+              - heading "EUROPEAN-STANDARD uPVC DOORS" [level=3] [ref=f54e115]
+              - paragraph [ref=f54e116]: Acoustic and thermal uPVC door systems — the product that made Eurowindow famous since 2002.
+              - link "View more" [ref=f54e117] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f54e120]:
+            - generic [ref=f54e122]:
+              - heading "ALUMINIUM DOORS & LARGE PARTITIONS" [level=3] [ref=f54e123]
+              - paragraph [ref=f54e124]: Premium aluminium door and partition systems in EA55–EA95i profiles with genuine Cmech, Roto and Hafele hardware.
+              - link "View more" [ref=f54e125] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f54e128]:
+            - generic [ref=f54e130]:
+              - heading "WOODEN & FIRE-RESISTANT DOORS" [level=3] [ref=f54e131]
+              - paragraph [ref=f54e132]: Natural, engineered and fire-resistant wooden doors — luxurious, durable and safe for every project.
+              - link "View more" [ref=f54e133] [cursor=pointer]:
+                - /url: /en/services
+      - generic [ref=f54e137]:
+        - heading "Awards" [level=2] [ref=f54e138]
+        - generic [ref=f54e139]:
+          - generic [ref=f54e140]:
+            - paragraph [ref=f54e144]: 14 years
+            - heading "consecutive Vietnam National Brand" [level=3] [ref=f54e145]
+            - paragraph [ref=f54e146]: Ministry of Industry and Trade
+          - generic [ref=f54e147]:
+            - paragraph [ref=f54e151]: "2026"
+            - heading "Top 10 green enterprises in Vietnam" [level=3] [ref=f54e152]
+            - paragraph [ref=f54e153]: Vietnam Report
+          - generic [ref=f54e154]:
+            - paragraph [ref=f54e158]: "2024"
+            - heading "Vietnam Product Quality Award" [level=3] [ref=f54e159]
+            - paragraph [ref=f54e160]: Vietnam Quality Award
+      - generic [ref=f54e162]:
+        - heading "Featured projects" [level=2] [ref=f54e164]
+        - generic [ref=f54e165]:
+          - article [ref=f54e166]:
+            - img "Phu Bai International Airport" [ref=f54e168]
+            - generic [ref=f54e170]:
+              - heading "Phu Bai International Airport" [level=3] [ref=f54e171]
+              - paragraph [ref=f54e172]: National landmark
+          - article [ref=f54e175]:
+            - img "Hospital Francais de Hanoi" [ref=f54e177]
+            - generic [ref=f54e179]:
+              - heading "Hospital Francais de Hanoi" [level=3] [ref=f54e180]
+              - paragraph [ref=f54e181]: Hospital
+          - article [ref=f54e184]:
+            - img "Da Nang Oncology Hospital" [ref=f54e186]
+            - generic [ref=f54e188]:
+              - heading "Da Nang Oncology Hospital" [level=3] [ref=f54e189]
+              - paragraph [ref=f54e190]: Hospital
+          - article [ref=f54e193]:
+            - img "Children's Hospital 2 Ho Chi Minh City" [ref=f54e195]
+            - generic [ref=f54e197]:
+              - heading "Children's Hospital 2 Ho Chi Minh City" [level=3] [ref=f54e198]
+              - paragraph [ref=f54e199]: Hospital
+          - article [ref=f54e202]:
+            - img "Vietnam News Agency TV Centre" [ref=f54e204]
+            - generic [ref=f54e206]:
+              - heading "Vietnam News Agency TV Centre" [level=3] [ref=f54e207]
+              - paragraph [ref=f54e208]: Government building
+          - article [ref=f54e211]:
+            - img "Supreme People's Procuracy" [ref=f54e213]
+            - generic [ref=f54e215]:
+              - heading "Supreme People's Procuracy" [level=3] [ref=f54e216]
+              - paragraph [ref=f54e217]: Government building
+    - contentinfo [ref=f54e220]:
+      - generic [ref=f54e221]:
+        - generic [ref=f54e222]:
+          - link "Eurowindow" [ref=f54e223] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f54e224]
+          - paragraph [ref=f54e225]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f54e226]:
+          - heading "Contact" [level=2] [ref=f54e227]
+          - generic [ref=f54e228]:
+            - paragraph [ref=f54e229]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f54e230]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f54e231]: infoew@eurowindow.biz
+        - generic [ref=f54e232]:
+          - heading "Explore" [level=2] [ref=f54e233]
+          - generic [ref=f54e234]:
+            - link "About us" [ref=f54e235] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f54e236] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f54e237] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f54e238] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f54e239]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f54e245] [cursor=pointer]

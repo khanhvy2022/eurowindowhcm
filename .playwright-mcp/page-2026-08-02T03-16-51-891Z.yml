@@ -1,0 +1,198 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - banner [ref=f7e3]:
+      - generic [ref=f7e4]:
+        - link "Eurowindow" [ref=f7e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f7e6]
+        - navigation "Main navigation" [ref=f7e7]:
+          - link "Home" [ref=f7e8] [cursor=pointer]:
+            - /url: /en
+          - link "About us" [ref=f7e10] [cursor=pointer]:
+            - /url: /en/about
+          - link "Projects" [ref=f7e14] [cursor=pointer]:
+            - /url: /en/projects
+          - link "Services" [ref=f7e18] [cursor=pointer]:
+            - /url: /en/services
+          - link "News" [ref=f7e22] [cursor=pointer]:
+            - /url: /en/news
+          - generic "Language selector" [ref=f7e23]:
+            - link [ref=f7e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f7e25]
+            - link [ref=f7e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f7e27]
+        - link "Contact now" [ref=f7e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f7e30]:
+      - generic [ref=f7e31]:
+        - generic [ref=f7e34]:
+          - generic [ref=f7e35]:
+            - paragraph [ref=f7e36]: EUROWINDOW
+            - heading "BUILDING SUSTAINABLE LIVING SPACES" [level=1] [ref=f7e37]: BUILDINGSUSTAINABLELIVING SPACES
+            - link [ref=f7e38] [cursor=pointer]:
+              - /url: /en/about
+          - generic [ref=f7e42]:
+            - generic [ref=f7e43]:
+              - paragraph [ref=f7e44]: 22 YEARS
+              - paragraph [ref=f7e45]: OF EXPERIENCE
+            - generic [ref=f7e46]:
+              - paragraph [ref=f7e47]: 2,500+
+              - paragraph [ref=f7e48]: COMPLETED PROJECTS
+            - generic [ref=f7e49]:
+              - paragraph [ref=f7e50]: 100,000+
+              - paragraph [ref=f7e51]: TRUSTED CUSTOMERS
+            - generic [ref=f7e52]:
+              - paragraph [ref=f7e53]: 100+
+              - paragraph [ref=f7e54]: PRESTIGIOUS AWARDS
+        - generic [ref=f7e56]:
+          - generic [ref=f7e57]:
+            - generic [ref=f7e58]: EUROWINDOW | DOOR & GLASS PARTITION SOLUTIONS
+            - generic [ref=f7e59]: EUROWINDOW | DOOR & GLASS PARTITION SOLUTIONS
+          - generic [ref=f7e60]:
+            - generic [ref=f7e61]: EUROWINDOW | DOOR & GLASS PARTITION SOLUTIONS
+            - generic [ref=f7e62]: EUROWINDOW | DOOR & GLASS PARTITION SOLUTIONS
+      - generic [ref=f7e64]:
+        - generic [ref=f7e65]:
+          - heading "OUR ECOSYSTEM" [level=2] [ref=f7e66]:
+            - generic [ref=f7e67]: OUR
+            - text: ECOSYSTEM
+          - link "Learn more" [ref=f7e68] [cursor=pointer]:
+            - /url: /en/about
+        - generic [ref=f7e71]:
+          - generic [ref=f7e72]:
+            - paragraph [ref=f7e73]: Eurowindow was founded in 2002 as the pioneer bringing European-standard uPVC doors to the Vietnamese market.
+            - paragraph [ref=f7e74]: Today our ecosystem covers uPVC, aluminium-glass, wooden and automatic door systems, glass partitions and finishing materials — connecting design, production, construction and care for long-term value.
+            - paragraph [ref=f7e75]: With the vision of becoming Vietnam's leading brand in door and glass-partition solutions and expanding internationally, Eurowindow keeps creating sustainable value for the community through quality, habitative, aesthetic and eco-friendly living and working spaces.
+            - paragraph [ref=f7e76]: We understand that the trust and support of customers and partners is our greatest motivation. We thank every companion along the way and keep renewing our thinking to serve better and deserve the trust placed in us.
+          - img "Eurowindow modern working space" [ref=f7e78]
+      - generic [ref=f7e80]:
+        - generic [ref=f7e81]:
+          - heading "FEATURED PROJECTS" [level=2] [ref=f7e82]
+          - link "View all" [ref=f7e83] [cursor=pointer]:
+            - /url: /en/projects
+        - generic [ref=f7e86]:
+          - link [ref=f7e87] [cursor=pointer]:
+            - /url: /en/projects/toa-nha-eurowindow
+            - img "Eurowindow Tower" [ref=f7e89]
+            - generic [ref=f7e91]:
+              - heading "Eurowindow Tower" [level=3] [ref=f7e92]
+              - paragraph [ref=f7e93]: Hanoi
+          - link [ref=f7e99] [cursor=pointer]:
+            - /url: /en/projects/san-bay-nha-ga
+            - img "Airport & Terminal" [ref=f7e101]
+            - generic [ref=f7e103]:
+              - heading "Airport & Terminal" [level=3] [ref=f7e104]
+              - paragraph [ref=f7e105]: National landmark
+          - link [ref=f7e111] [cursor=pointer]:
+            - /url: /en/projects/chung-cu-cao-cap
+            - img "Premium Residence" [ref=f7e113]
+            - generic [ref=f7e115]:
+              - heading "Premium Residence" [level=3] [ref=f7e116]
+              - paragraph [ref=f7e117]: Ho Chi Minh City
+          - link [ref=f7e123] [cursor=pointer]:
+            - /url: /en/projects/biet-thu-nha-vuon
+            - img "Villa & Garden House" [ref=f7e125]
+            - generic [ref=f7e127]:
+              - heading "Villa & Garden House" [level=3] [ref=f7e128]
+              - paragraph [ref=f7e129]: Da Lat
+          - link [ref=f7e135] [cursor=pointer]:
+            - /url: /en/projects/trung-tam-thuong-mai
+            - img "Commercial Centre" [ref=f7e137]
+            - generic [ref=f7e139]:
+              - heading "Commercial Centre" [level=3] [ref=f7e140]
+              - paragraph [ref=f7e141]: Hanoi
+          - link [ref=f7e147] [cursor=pointer]:
+            - /url: /en/projects/nha-pho-do-thi
+            - img "Urban Townhouse" [ref=f7e149]
+            - generic [ref=f7e151]:
+              - heading "Urban Townhouse" [level=3] [ref=f7e152]
+              - paragraph [ref=f7e153]: Da Nang
+      - generic [ref=f7e160]:
+        - heading "EUROWINDOW SERVICES" [level=2] [ref=f7e161]
+        - generic [ref=f7e162]:
+          - article [ref=f7e163]:
+            - generic [ref=f7e165]:
+              - heading "DOOR SYSTEMS" [level=3] [ref=f7e166]
+              - paragraph [ref=f7e167]: uPVC, aluminium-glass, wooden and automatic door systems built to European standards for every project scale.
+              - link "Learn more" [ref=f7e168] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f7e171]:
+            - generic [ref=f7e173]:
+              - heading "GLASS PARTITIONS" [level=3] [ref=f7e174]
+              - paragraph [ref=f7e175]: Acoustic and thermal glass partition solutions that open the space, maximise light and keep the room quiet.
+              - link "Learn more" [ref=f7e176] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f7e179]:
+            - generic [ref=f7e181]:
+              - heading "SOLUTION CONSULTING" [level=3] [ref=f7e182]
+              - paragraph [ref=f7e183]: Site survey, technical design and construction supervision from a dedicated team with 20+ years of experience.
+              - link "Learn more" [ref=f7e184] [cursor=pointer]:
+                - /url: /en/services
+      - generic [ref=f7e188]:
+        - generic [ref=f7e189]:
+          - heading "PROJECT CATEGORIES" [level=2] [ref=f7e190]
+          - link "View all" [ref=f7e191] [cursor=pointer]:
+            - /url: /en/projects
+        - generic [ref=f7e194]:
+          - link "VILLA" [ref=f7e195] [cursor=pointer]:
+            - /url: /en/projects
+          - link "TOWNHOUSE" [ref=f7e197] [cursor=pointer]:
+            - /url: /en/projects
+          - link "MEDICAL" [ref=f7e199] [cursor=pointer]:
+            - /url: /en/projects
+          - link "HOSPITAL" [ref=f7e201] [cursor=pointer]:
+            - /url: /en/projects
+          - link "NATIONAL PROJECTS" [ref=f7e203] [cursor=pointer]:
+            - /url: /en/projects
+          - link "APARTMENT" [ref=f7e205] [cursor=pointer]:
+            - /url: /en/projects
+      - generic [ref=f7e208]:
+        - heading "NEWS" [level=2] [ref=f7e210]
+        - generic [ref=f7e211]:
+          - generic [ref=f7e213]:
+            - link "The Japandi Style – When Minimalism Is Never Boring Read more" [ref=f7e215] [cursor=pointer]:
+              - /url: /en/news/phong-cach-japandi
+              - heading "The Japandi Style – When Minimalism Is Never Boring" [level=3] [ref=f7e217]
+              - generic [ref=f7e218]: Read more
+            - link "35+ Beautiful 2-Storey House Designs, 2026 Trends Read more" [ref=f7e222] [cursor=pointer]:
+              - /url: /en/news/35-mau-thiet-ke-nha-1-tret-1-lau
+              - heading "35+ Beautiful 2-Storey House Designs, 2026 Trends" [level=3] [ref=f7e224]
+              - generic [ref=f7e225]: Read more
+            - link "Acoustic and Thermal Solutions for Glass Facades Read more" [ref=f7e229] [cursor=pointer]:
+              - /url: /en/news/cach-am-va-cach-nhiet
+              - heading "Acoustic and Thermal Solutions for Glass Facades" [level=3] [ref=f7e231]
+              - generic [ref=f7e232]: Read more
+          - button "Previous article" [disabled]
+          - button "Next article" [disabled]
+      - heading "STRATEGIC PARTNERS" [level=2] [ref=f7e237]:
+        - generic [ref=f7e238]: STRATEGIC
+        - text: PARTNERS
+    - contentinfo [ref=f7e255]:
+      - generic [ref=f7e256]:
+        - generic [ref=f7e257]:
+          - link "Eurowindow" [ref=f7e258] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f7e259]
+          - paragraph [ref=f7e260]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f7e261]:
+          - heading "Contact" [level=2] [ref=f7e262]
+          - generic [ref=f7e263]:
+            - paragraph [ref=f7e264]: Eurowindow Office Building
+            - paragraph [ref=f7e265]: "Hotline: 0909 888 000"
+            - paragraph [ref=f7e266]: infoew@eurowindow.biz
+        - generic [ref=f7e267]:
+          - heading "Explore" [level=2] [ref=f7e268]
+          - generic [ref=f7e269]:
+            - link "About us" [ref=f7e270] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f7e271] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f7e272] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f7e273] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f7e274]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f7e280] [cursor=pointer]
+  - alert [ref=f7e284]

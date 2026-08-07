@@ -1,0 +1,397 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation [ref=e7]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: https://catmoc.cmg.vn/en/home/
+          - img "CÁT MỘC GROUP" [ref=e10]
+        - text: 
+        - generic:
+          - list
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Home" [ref=e14] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/home/
+          - listitem [ref=e15]:
+            - link "About us " [ref=e16] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/about-us/
+              - text: About us
+              - generic [ref=e17]: 
+          - listitem [ref=e18]:
+            - link "Project " [ref=e19] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/project/
+              - text: Project
+              - generic [ref=e20]: 
+          - listitem [ref=e21]:
+            - link "Services " [ref=e22] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/architectural-design/
+              - text: Services
+              - generic [ref=e23]: 
+          - listitem [ref=e24]:
+            - link "News " [ref=e25] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/news/
+              - text: News
+              - generic [ref=e26]: 
+          - listitem [ref=e27]:
+            - link "Recruitment" [ref=e28] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/recruitment/
+          - listitem [ref=e29]:
+            - link "Contact" [ref=e30] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/contact/
+          - listitem [ref=e31]:
+            - link [ref=e32] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/
+          - listitem [ref=e33]:
+            - link [ref=e34] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/home/
+    - main [ref=e38]:
+      - main [ref=e39]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54]:
+              - generic [ref=e55]:
+                - paragraph [ref=e56]: CAT MOC DESIGN & CONSTRUCTION
+                - heading "TRUST & REPUTATION" [level=3] [ref=e57]
+                - heading "OVER 20 YEARS" [level=2] [ref=e58]
+                - heading "DESIGN & CONSTRUCTION" [level=3] [ref=e59]
+              - link "SEE MORE" [ref=e60] [cursor=pointer]:
+                - /url: /ve-chung-toi/
+                - generic [ref=e62]: 
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - heading "13 years" [level=3] [ref=e66]
+                - paragraph [ref=e67]: experience
+              - generic [ref=e68]:
+                - heading "632+" [level=3] [ref=e69]
+                - paragraph [ref=e70]: completed projects
+              - generic [ref=e71]:
+                - heading "29,065+" [level=3] [ref=e72]
+                - paragraph [ref=e73]: customers
+              - generic [ref=e74]:
+                - heading "64+" [level=3] [ref=e75]
+                - paragraph [ref=e76]: PRESTIGIOUS AWARDS
+          - generic [ref=e79]:
+            - heading [level=2] [ref=e85]: THIẾT KẾ THI CÔNG TRỌN GÓI
+            - heading [level=2] [ref=e91]: CAt MOc Design & Construction
+            - heading [level=2] [ref=e97]: THIẾT KẾ THI CÔNG TRỌN GÓI
+            - heading "CAt MOc Design & Construction" [level=2] [ref=e103]
+            - heading "THIẾT KẾ THI CÔNG TRỌN GÓI" [level=2] [ref=e109]
+            - heading [level=2] [ref=e115]: CAt MOc Design & Construction
+            - heading [level=2] [ref=e121]: THIẾT KẾ THI CÔNG TRỌN GÓI
+            - heading [level=2] [ref=e127]: CAt MOc Design & Construction
+            - heading [level=2] [ref=e133]: THIẾT KẾ THI CÔNG TRỌN GÓI
+            - heading [level=2] [ref=e139]: CAt MOc Design & Construction
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - heading "TYPICAL PROJECTS" [level=2] [ref=e147]
+            - link "SEE MORE" [ref=e150] [cursor=pointer]:
+              - /url: /du-an
+              - generic [ref=e152]: 
+          - generic [ref=e153]:
+            - generic [ref=e156]:
+              - link [ref=e158] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/en/du-an/ly-thi-thuy/
+                - img "5" [ref=e160]
+              - generic [ref=e163]:
+                - heading "Ly Thi Thuy" [level=3] [ref=e164]
+                - paragraph [ref=e165]: Binh Phuoc
+            - generic [ref=e168]:
+              - link [ref=e170] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/en/du-an/the-luxury-house/
+                - img "6" [ref=e172]
+              - generic [ref=e175]:
+                - heading "The Luxury House" [level=3] [ref=e176]
+                - paragraph [ref=e177]: Quang Ngai
+            - generic [ref=e180]:
+              - link [ref=e182] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/en/du-an/ho-minh-truong/
+                - img "5" [ref=e184]
+              - generic [ref=e187]:
+                - heading "Ho Minh Truong" [level=3] [ref=e188]
+                - paragraph [ref=e189]: Lam Dong
+            - generic [ref=e192]:
+              - link [ref=e194] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/en/du-an/mai-do-vy-phat/
+                - img "6" [ref=e196]
+              - generic [ref=e199]:
+                - heading "Mai Do Vy Phat" [level=3] [ref=e200]
+                - paragraph [ref=e201]: An Giang
+            - generic [ref=e204]:
+              - link [ref=e206] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/en/du-an/truong-nguyen-thanh-dat/
+                - img "5" [ref=e208]
+              - generic [ref=e211]:
+                - heading "Truong Nguyen Thanh Dat" [level=3] [ref=e212]
+                - paragraph [ref=e213]: Buon Me Thuot, Dak Lak
+            - generic [ref=e216]:
+              - link [ref=e218] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/en/du-an/huynh-thanh-vu/
+                - img "6" [ref=e220]
+              - generic [ref=e223]:
+                - heading "Huynh Thanh Vu" [level=3] [ref=e224]
+                - paragraph [ref=e225]: Phan Thiet
+          - text: 
+        - generic [ref=e228]:
+          - heading "services of cat moc Design & Construction" [level=2] [ref=e233]
+          - generic [ref=e234]:
+            - generic [ref=e237]:
+              - img "Frame 37653" [ref=e241]
+              - generic [ref=e242]:
+                - heading "ARCHITECTURAL DESIGN" [level=3] [ref=e243]: ARCHITECTURALDESIGN
+                - paragraph [ref=e244]:
+                  - text: Gathering a team of professional and experienced architects, led by
+                  - strong [ref=e245]: M.Arch Pham Thanh Truyen.
+                - link "SEE MORE" [ref=e246] [cursor=pointer]:
+                  - /url: /thiet-ke-kien-truc/
+                  - generic [ref=e248]: 
+            - generic [ref=e251]:
+              - img "Frame 37654" [ref=e255]
+              - generic [ref=e256]:
+                - heading "ROUGH CONSTRUCTION" [level=3] [ref=e257]
+                - paragraph [ref=e258]:
+                  - text: Cát Mộc Construction has built over
+                  - strong [ref=e259]: 1,500
+                  - text: functional, aesthetic, durable, and cost-effective projects for its clients.
+                - link "SEE MORE" [ref=e260] [cursor=pointer]:
+                  - /url: /thi-cong-tho/
+                  - generic [ref=e262]: 
+            - generic [ref=e265]:
+              - img "Vector (4)" [ref=e269]
+              - generic [ref=e270]:
+                - heading "DESIGN – FURNITURE MANUFACTURING" [level=3] [ref=e271]
+                - paragraph [ref=e272]:
+                  - text: Winning the
+                  - strong [ref=e273]: 2023 Asia Interior Design Award
+                  - text: is a testament to the creativity and professionalism of Cat Moc Furniture.
+                - link "SEE MORE" [ref=e274] [cursor=pointer]:
+                  - /url: /thiet-ke-san-xuat-noi-that/
+                  - generic [ref=e276]: 
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - heading "PROJECT PORTFOLIO" [level=2] [ref=e284]
+            - link "SEE MORE" [ref=e287] [cursor=pointer]:
+              - /url: /du-an
+              - generic [ref=e289]: 
+          - generic [ref=e290]:
+            - generic [ref=e293]:
+              - link [ref=e295] [cursor=pointer]:
+                - /url: /du-an/
+                - img "Ngang 3 Vuông (3)" [ref=e297]
+              - heading "VILLA" [level=3] [ref=e301]
+            - generic [ref=e304]:
+              - link [ref=e306] [cursor=pointer]:
+                - /url: /du-an/
+                - img "Thiết Kế Chưa Có Tên (2)" [ref=e308]
+              - heading "HOMETOWN" [level=3] [ref=e312]
+          - generic [ref=e313]:
+            - generic [ref=e316]:
+              - link [ref=e318] [cursor=pointer]:
+                - /url: /du-an/
+                - img "Dọc 3 Vuông" [ref=e320]
+              - heading "CLINIC" [level=3] [ref=e324]
+            - generic [ref=e327]:
+              - link [ref=e329] [cursor=pointer]:
+                - /url: /du-an/
+                - img "Ngang 3 Vuông (4)" [ref=e331]
+              - heading "HOSPITAL" [level=3] [ref=e335]
+          - generic [ref=e336]:
+            - generic [ref=e339]:
+              - link [ref=e341] [cursor=pointer]:
+                - /url: /du-an/
+                - img "Ngang 3 Vuông (5)" [ref=e343]
+              - heading "OTHER PROJECTS" [level=3] [ref=e347]
+            - generic [ref=e350]:
+              - link [ref=e352] [cursor=pointer]:
+                - /url: /du-an/
+                - img "Dọc 3 Vuông (1)" [ref=e354]
+              - heading "APARTMENT" [level=3] [ref=e358]
+          - text: 
+        - generic [ref=e361]:
+          - generic [ref=e362]:
+            - heading "NEWS" [level=2] [ref=e366]
+            - link "SEE MORE" [ref=e369] [cursor=pointer]:
+              - /url: /tin-tuc
+              - generic [ref=e371]: 
+          - generic [ref=e375]:
+            - generic [ref=e378]:
+              - generic [ref=e380]:
+                - link "Cát Mộc Group Celebrates Christmas 2020":
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-celebrates-christmas-2020/
+                  - img "Dscf3489 1024x673" [ref=e381] [cursor=pointer]
+              - heading [level=5] [ref=e384]:
+                - link "Cát Mộc Group Celebrates Christmas 2020" [ref=e385] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-celebrates-christmas-2020/
+            - generic [ref=e388]:
+              - generic [ref=e390]:
+                - link "Cát Mộc Group Celebrates Vietnamese Teachers’ Day 20/11/2020 with Doric Instructors":
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-celebrates-vietnamese-teachers-day-20-11-2020-with-doric-instructors/
+                  - img "Dscf1527 1 1536x901" [ref=e391] [cursor=pointer]
+              - heading [level=5] [ref=e394]:
+                - link "Cát Mộc Group Celebrates Vietnamese Teachers’ Day 20/11/2020 with Doric Instructors" [ref=e395] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-celebrates-vietnamese-teachers-day-20-11-2020-with-doric-instructors/
+            - generic [ref=e398]:
+              - generic [ref=e400]:
+                - link "Cát Mộc Group Organizes “HealthCare & Detox Beverages” Workshop for Employees":
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-organizes-healthcare-detox-beverages-workshop-for-employees/
+                  - img "Dscf1274 1536x1024" [ref=e401] [cursor=pointer]
+              - heading [level=5] [ref=e404]:
+                - link "Cát Mộc Group Organizes “HealthCare & Detox Beverages” Workshop for Employees" [ref=e405] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-organizes-healthcare-detox-beverages-workshop-for-employees/
+            - generic [ref=e408]:
+              - generic [ref=e410]:
+                - 'link "Seminar: Introduction to the LED 4.0 Ecosystem & Rạng Đông Lighting Solutions"':
+                  - /url: https://catmoc.cmg.vn/en/seminar-introduction-to-the-led-4-0-ecosystem-rang-dong-lighting-solutions/
+                  - img "Dscf9324 1024x683" [ref=e411] [cursor=pointer]
+              - heading [level=5] [ref=e414]:
+                - 'link "Seminar: Introduction to the LED 4.0 Ecosystem & Rạng Đông Lighting Solutions" [ref=e415] [cursor=pointer]':
+                  - /url: https://catmoc.cmg.vn/en/seminar-introduction-to-the-led-4-0-ecosystem-rang-dong-lighting-solutions/
+            - generic [ref=e418]:
+              - generic [ref=e420]:
+                - 'link "Seminar: Vietnamese Technology Waterproofing Solutions – Intoc Waterproofing"':
+                  - /url: https://catmoc.cmg.vn/en/seminar-vietnamese-technology-waterproofing-solutions-intoc-waterproofing/
+                  - img "Dscf8310 1536x1024" [ref=e421] [cursor=pointer]
+              - heading [level=5] [ref=e424]:
+                - 'link "Seminar: Vietnamese Technology Waterproofing Solutions – Intoc Waterproofing" [ref=e425] [cursor=pointer]':
+                  - /url: https://catmoc.cmg.vn/en/seminar-vietnamese-technology-waterproofing-solutions-intoc-waterproofing/
+            - generic [ref=e428]:
+              - generic [ref=e430]:
+                - 'link "CHARITY PROGRAM: “GIVING IS FOREVER”"':
+                  - /url: https://catmoc.cmg.vn/en/charity-program-giving-is-forever/
+                  - img "Suawr 2 1536x1022" [ref=e431] [cursor=pointer]
+              - heading [level=5] [ref=e434]:
+                - 'link "CHARITY PROGRAM: “GIVING IS FOREVER”" [ref=e435] [cursor=pointer]':
+                  - /url: https://catmoc.cmg.vn/en/charity-program-giving-is-forever/
+            - generic [ref=e438]:
+              - generic [ref=e440]:
+                - link "CÁT MỘC GROUP WELCOMES STUDENTS FROM HCMC UNIVERSITY OF TECHNOLOGY AND EDUCATION":
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-welcomes-students-from-hcmc-university-of-technology-and-education/
+                  - img "1 1536x1022" [ref=e441] [cursor=pointer]
+              - heading [level=5] [ref=e444]:
+                - link "CÁT MỘC GROUP WELCOMES STUDENTS FROM HCMC UNIVERSITY OF TECHNOLOGY AND EDUCATION" [ref=e445] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-welcomes-students-from-hcmc-university-of-technology-and-education/
+            - generic [ref=e448]:
+              - generic [ref=e450]:
+                - link "CÁT MỘC GROUP’S 16TH ANNIVERSARY – A NEW JOURNEY OF CREATION":
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-groups-16th-anniversary-a-new-journey-of-creation/
+                  - img "L1050498 1536x1024" [ref=e451] [cursor=pointer]
+              - heading [level=5] [ref=e454]:
+                - link "CÁT MỘC GROUP’S 16TH ANNIVERSARY – A NEW JOURNEY OF CREATION" [ref=e455] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-groups-16th-anniversary-a-new-journey-of-creation/
+            - generic [ref=e458]:
+              - generic [ref=e460]:
+                - link "CMG Activities – “Home Chef Duo” Cooking Competition":
+                  - /url: https://catmoc.cmg.vn/en/cmg-activities-home-chef-duo-cooking-competition/
+                  - img "105521218 3047727641929369 4276743334654875712 O 2 1536x1153" [ref=e461] [cursor=pointer]
+              - heading [level=5] [ref=e464]:
+                - link "CMG Activities – “Home Chef Duo” Cooking Competition" [ref=e465] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/en/cmg-activities-home-chef-duo-cooking-competition/
+            - generic [ref=e468]:
+              - generic [ref=e470]:
+                - link "Cát Mộc Group – Trường Thịnh Ceramics Friendly Football Match Posted on August 20, 2020":
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-truong-thinh-ceramics-friendly-football-match-posted-on-august-20-2020/
+                  - img "Dscf6553 1536x850" [ref=e471] [cursor=pointer]
+              - heading [level=5] [ref=e474]:
+                - link "Cát Mộc Group – Trường Thịnh Ceramics Friendly Football Match Posted on August 20, 2020" [ref=e475] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-truong-thinh-ceramics-friendly-football-match-posted-on-august-20-2020/
+            - generic [ref=e478]:
+              - generic [ref=e480]:
+                - link "CÁT MỘC GROUP HOSTS JULY STAFF BIRTHDAY PARTY – LONG AN":
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-hosts-july-staff-birthday-party-long-an/
+                  - img "10 1536x1024" [ref=e481] [cursor=pointer]
+              - heading [level=5] [ref=e484]:
+                - link "CÁT MỘC GROUP HOSTS JULY STAFF BIRTHDAY PARTY – LONG AN" [ref=e485] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/en/cat-moc-group-hosts-july-staff-birthday-party-long-an/
+            - generic [ref=e488]:
+              - generic [ref=e490]:
+                - 'link "Seminar: Wood Care & Maintenance Oil by HaloGreen JSC – CMG Architecture Cafe"':
+                  - /url: https://catmoc.cmg.vn/en/seminar-wood-care-maintenance-oil-by-halogreen-jsc-cmg-architecture-cafe/
+                  - img "10 2 900x600" [ref=e491] [cursor=pointer]
+              - heading [level=5] [ref=e494]:
+                - 'link "Seminar: Wood Care & Maintenance Oil by HaloGreen JSC – CMG Architecture Cafe" [ref=e495] [cursor=pointer]':
+                  - /url: https://catmoc.cmg.vn/en/seminar-wood-care-maintenance-oil-by-halogreen-jsc-cmg-architecture-cafe/
+          - text: 
+        - generic [ref=e498]:
+          - heading "PARTNERS" [level=2] [ref=e503]
+          - generic [ref=e509]:
+            - img "Logo3" [ref=e565]
+            - img "Log1" [ref=e572]
+            - img "Logo2" [ref=e579]
+            - img "Logo4" [ref=e586]
+            - img "Logo5" [ref=e593]
+            - img "Logo6" [ref=e600]
+    - contentinfo [ref=e650]:
+      - generic [ref=e654]:
+        - generic [ref=e655]:
+          - generic [ref=e657]:
+            - img "Logo Catmoc" [ref=e660]
+            - generic [ref=e662]:
+              - heading "CAT MOC ARCHITECTURE – CONSTRUCTION – TRAINING CO., LTD." [level=3] [ref=e663]
+              - list [ref=e664]:
+                - listitem [ref=e665]: 1900 75 75 76
+                - listitem [ref=e666]: 436B/6 Ba Thang Hai, Ward 12, District 10, Ho Chi Minh City, Vietnam
+                - listitem [ref=e667]:
+                  - link "info@cmg.vn" [ref=e668] [cursor=pointer]:
+                    - /url: mailto:info@cmg.vn
+            - link "Contact us!" [ref=e670] [cursor=pointer]:
+              - /url: /lien-he/
+          - generic [ref=e673]:
+            - heading "CAt MOc Design & Construction" [level=2] [ref=e675]
+            - generic [ref=e677]:
+              - generic [ref=e680]:
+                - generic [ref=e681]: INTRODUCTION
+                - link "About us" [ref=e683] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/
+                - link "Founder" [ref=e686] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/nguoi-sang-lap/
+                - link "Awards" [ref=e689] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/giai-thuong/
+                - link "Cat Moc Portfolio" [ref=e692] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn
+              - generic [ref=e696]:
+                - generic [ref=e697]: SERVICES
+                - link "Design" [ref=e699] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+                - link "Rough construction" [ref=e702] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thi-cong-tho/
+                - link "Design - Furniture Manifacturing" [ref=e705] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-san-xuat-noi-that/
+              - generic [ref=e709]:
+                - generic [ref=e710]: NEWS
+                - link "Promotion" [ref=e712] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/uu-dai/
+                - link "Culture" [ref=e715] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/van-hoa-cmg/
+                - link "Sharing" [ref=e718] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/chia-se-kien-thuc/
+                - link "Recruitment" [ref=e721] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/tuyen-dung/
+        - generic [ref=e726]:
+          - generic [ref=e727]: Cat Moc Design & Constrcution
+          - generic [ref=e731]:
+            - generic [ref=e732]:
+              - link "Follow on Zalo" [ref=e733] [cursor=pointer]:
+                - /url: https://zalo.me/0912752275
+              - link "Follow on Messenger" [ref=e735] [cursor=pointer]:
+                - /url: https://m.me/CatMocDesignConstruction
+              - link "Follow on WhatsApp" [ref=e737] [cursor=pointer]:
+                - /url: "0942626469"
+              - link "Follow on Facebook" [ref=e739] [cursor=pointer]:
+                - /url: https://www.facebook.com/CatMocDesignConstruction
+            - link [ref=e741] [cursor=pointer]:
+              - /url: http://0942626469
+              - generic [ref=e742]: 
+      - link "Go to top":
+        - /url: "#top"
+        - generic: 
+  - text:    
+  - generic [ref=e744]:
+    - link [ref=e749] [cursor=pointer]:
+      - /url: https://zalo.me/0912752275
+    - link [ref=e755] [cursor=pointer]:
+      - /url: tel:0942626469
+  - iframe [ref=e759]:
+    - generic [ref=f1e6]:
+      - text: protected by
+      - strong [ref=f1e7]: reCAPTCHA

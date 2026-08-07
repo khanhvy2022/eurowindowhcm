@@ -1,0 +1,116 @@
+- generic [active] [ref=f44e1]:
+  - generic [ref=f44e2]:
+    - banner [ref=f44e3]:
+      - generic [ref=f44e4]:
+        - link "Eurowindow" [ref=f44e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f44e6]
+        - navigation "Điều hướng chính" [ref=f44e7]:
+          - link "Trang chủ" [ref=f44e8] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f44e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Dự án/Công trình" [ref=f44e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "Dịch vụ" [ref=f44e18] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f44e22] [cursor=pointer]:
+            - /url: /tin-tuc
+        - generic [ref=f44e23]:
+          - link "Liên hệ ngay" [ref=f44e24] [cursor=pointer]:
+            - /url: "#lien-he"
+          - img "Tiếng Việt" [ref=f44e25]
+    - main [ref=f44e26]:
+      - generic [ref=f44e28]:
+        - navigation "Breadcrumb" [ref=f44e29]:
+          - link "Trang chủ" [ref=f44e30] [cursor=pointer]:
+            - /url: /
+          - link "Dự án" [ref=f44e33] [cursor=pointer]:
+            - /url: /du-an
+          - generic [ref=f44e36]: Tòa nhà Eurowindow
+        - heading "Tòa nhà Eurowindow" [level=1] [ref=f44e37]
+        - paragraph [ref=f44e38]: Hà Nội
+      - generic [ref=f44e44]:
+        - img "Tòa nhà Eurowindow – ảnh 1" [ref=f44e46]
+        - img "Tòa nhà Eurowindow – ảnh 2" [ref=f44e48]
+        - img "Tòa nhà Eurowindow – ảnh 3" [ref=f44e50]
+        - img "Tòa nhà Eurowindow – ảnh 4" [ref=f44e52]
+        - img "Tòa nhà Eurowindow – ảnh 5" [ref=f44e54]
+      - generic [ref=f44e56]:
+        - generic [ref=f44e57]:
+          - heading "Thông tin dự án" [level=2] [ref=f44e58]
+          - generic [ref=f44e59]:
+            - generic [ref=f44e60]:
+              - term [ref=f44e61]: CHỦ ĐẦU TƯ
+              - definition [ref=f44e62]: Eurowindow
+            - generic [ref=f44e63]:
+              - term [ref=f44e64]: PHÂN LOẠI
+              - definition [ref=f44e65]: Công trình quốc gia
+            - generic [ref=f44e66]:
+              - term [ref=f44e67]: HOÀN THÀNH
+              - definition [ref=f44e68]: "2022"
+            - generic [ref=f44e69]:
+              - term [ref=f44e70]: DIỆN TÍCH
+              - definition [ref=f44e71]: 12.000 m²
+            - generic [ref=f44e72]:
+              - term [ref=f44e73]: VỊ TRÍ
+              - definition [ref=f44e74]: Hà Nội
+            - generic [ref=f44e75]:
+              - term [ref=f44e76]: HẠNG MỤC
+              - definition [ref=f44e77]: Thiết kế - Thi công - Nội thất
+        - generic [ref=f44e78]:
+          - heading "Giới thiệu dự án" [level=2] [ref=f44e79]
+          - paragraph [ref=f44e80]: Tòa nhà văn phòng Eurowindow tiêu biểu cho giải pháp vách kính hộp cách âm, hệ cửa nhôm cao cấp và tối ưu ánh sáng tự nhiên cho không gian làm việc hiện đại.
+          - paragraph [ref=f44e81]: Eurowindow đồng hành từ khâu khảo sát, tư vấn giải pháp đến sản xuất và thi công lắp đặt — đảm bảo mỗi hạng mục đạt chuẩn chất lượng và đúng tiến độ. Hệ sản phẩm được kiểm soát theo tiêu chuẩn châu Âu, đáp ứng tốt yêu cầu cách âm, cách nhiệt, an toàn và thẩm mỹ của từng công trình.
+          - link "Liên hệ tư vấn" [ref=f44e82] [cursor=pointer]:
+            - /url: "#lien-he"
+      - generic [ref=f44e86]:
+        - generic [ref=f44e87]:
+          - heading "Dự án liên quan" [level=2] [ref=f44e88]
+          - link "Xem tất cả" [ref=f44e89] [cursor=pointer]:
+            - /url: /du-an
+        - generic [ref=f44e92]:
+          - link [ref=f44e93] [cursor=pointer]:
+            - /url: /du-an/chung-cu-cao-cap
+            - img "Chung cư cao cấp" [ref=f44e95]
+            - generic [ref=f44e96]:
+              - heading "Chung cư cao cấp" [level=3] [ref=f44e97]
+              - paragraph [ref=f44e98]: TP. Hồ Chí Minh
+          - link [ref=f44e102] [cursor=pointer]:
+            - /url: /du-an/biet-thu-nha-vuon
+            - img "Biệt thự & nhà vườn" [ref=f44e104]
+            - generic [ref=f44e105]:
+              - heading "Biệt thự & nhà vườn" [level=3] [ref=f44e106]
+              - paragraph [ref=f44e107]: Đà Lạt
+          - link [ref=f44e111] [cursor=pointer]:
+            - /url: /du-an/san-bay-nha-ga
+            - img "Sân bay & nhà ga" [ref=f44e113]
+            - generic [ref=f44e114]:
+              - heading "Sân bay & nhà ga" [level=3] [ref=f44e115]
+              - paragraph [ref=f44e116]: Công trình quốc gia
+    - contentinfo [ref=f44e120]:
+      - generic [ref=f44e121]:
+        - generic [ref=f44e122]:
+          - link "Eurowindow" [ref=f44e123] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f44e124]
+          - paragraph [ref=f44e125]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f44e126]:
+          - heading "Liên hệ" [level=2] [ref=f44e127]
+          - generic [ref=f44e128]:
+            - paragraph [ref=f44e129]: Eurowindow Office Building
+            - paragraph [ref=f44e130]: "Hotline: 0909 888 000"
+            - paragraph [ref=f44e131]: infoew@eurowindow.biz
+        - generic [ref=f44e132]:
+          - heading "Khám phá" [level=2] [ref=f44e133]
+          - generic [ref=f44e134]:
+            - link "Giới thiệu" [ref=f44e135] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f44e136] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f44e137] [cursor=pointer]:
+              - /url: /dich-vu
+            - link "Tin tức" [ref=f44e138] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f44e139]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f44e145] [cursor=pointer]

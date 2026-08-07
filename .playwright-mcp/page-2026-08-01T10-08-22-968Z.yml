@@ -1,0 +1,155 @@
+- generic [active] [ref=f45e1]:
+  - generic [ref=f45e2]:
+    - banner [ref=f45e3]:
+      - generic [ref=f45e4]:
+        - link "Eurowindow" [ref=f45e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f45e6]
+        - navigation "Điều hướng chính" [ref=f45e7]:
+          - link "Trang chủ" [ref=f45e8] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f45e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Dự án/Công trình" [ref=f45e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "Dịch vụ" [ref=f45e18] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f45e22] [cursor=pointer]:
+            - /url: /tin-tuc
+        - generic [ref=f45e23]:
+          - link "Liên hệ ngay" [ref=f45e24] [cursor=pointer]:
+            - /url: "#lien-he"
+          - img "Tiếng Việt" [ref=f45e25]
+    - main [ref=f45e26]:
+      - generic [ref=f45e28]:
+        - heading "TIN TỨC" [level=1] [ref=f45e29]
+        - navigation "Breadcrumb" [ref=f45e30]:
+          - link "Trang chủ" [ref=f45e31] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f45e34]: Tin tức
+      - generic [ref=f45e36]:
+        - generic [ref=f45e37]:
+          - heading "Tin mới nhất" [level=2] [ref=f45e38]
+          - link "Xem tất cả" [ref=f45e39] [cursor=pointer]:
+            - /url: /danh-muc-tin-tuc
+        - generic [ref=f45e42]:
+          - link "Chia sẻ kiến thức · 28/07/2026 35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026 Đọc thêm" [ref=f45e43] [cursor=pointer]:
+            - /url: /tin-tuc/35-mau-thiet-ke-nha-1-tret-1-lau
+            - paragraph [ref=f45e45]: Chia sẻ kiến thức · 28/07/2026
+            - heading "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [level=3] [ref=f45e46]
+            - generic [ref=f45e47]: Đọc thêm
+          - link "Chia sẻ kiến thức · 25/07/2026 Phong cách Japandi – Khi tối giản không đồng nghĩa với nhàm chán Đọc thêm" [ref=f45e50] [cursor=pointer]:
+            - /url: /tin-tuc/phong-cach-japandi
+            - paragraph [ref=f45e52]: Chia sẻ kiến thức · 25/07/2026
+            - heading "Phong cách Japandi – Khi tối giản không đồng nghĩa với nhàm chán" [level=3] [ref=f45e53]
+            - generic [ref=f45e54]: Đọc thêm
+          - link "Chia sẻ kiến thức · 20/07/2026 Những lưu ý khi chọn cửa nhôm kính cho nhà phố Đọc thêm" [ref=f45e57] [cursor=pointer]:
+            - /url: /tin-tuc/nhung-luu-y-cua-so-nhom-kinh
+            - paragraph [ref=f45e59]: Chia sẻ kiến thức · 20/07/2026
+            - heading "Những lưu ý khi chọn cửa nhôm kính cho nhà phố" [level=3] [ref=f45e60]
+            - generic [ref=f45e61]: Đọc thêm
+          - link "Chia sẻ kiến thức · 15/07/2026 Giải pháp cách âm, cách nhiệt cho mặt tiền kính Đọc thêm" [ref=f45e64] [cursor=pointer]:
+            - /url: /tin-tuc/cach-am-va-cach-nhiet
+            - paragraph [ref=f45e66]: Chia sẻ kiến thức · 15/07/2026
+            - heading "Giải pháp cách âm, cách nhiệt cho mặt tiền kính" [level=3] [ref=f45e67]
+            - generic [ref=f45e68]: Đọc thêm
+      - generic [ref=f45e72]:
+        - generic [ref=f45e73]:
+          - heading "Ưu đãi" [level=2] [ref=f45e74]
+          - link "Xem tất cả" [ref=f45e75] [cursor=pointer]:
+            - /url: /uu-dai
+        - generic [ref=f45e78]:
+          - link [ref=f45e79] [cursor=pointer]:
+            - /url: /tin-tuc/uu-dai-thang-8
+            - paragraph [ref=f45e80]: Ưu đãi · 01/08/2026
+            - heading "ƯU ĐÃI THÁNG 8 – GIẢM NGAY 10% KHI KÝ HỢP ĐỒNG" [level=3] [ref=f45e81]
+            - generic [ref=f45e82]: Đọc thêm
+          - link [ref=f45e85] [cursor=pointer]:
+            - /url: /tin-tuc/khai-xuan-li-xi
+            - paragraph [ref=f45e86]: Ưu đãi · 02/2026
+            - heading "KHAI XUÂN NHƯ Ý – NHẬN LÌ XÌ LỚN" [level=3] [ref=f45e87]
+            - generic [ref=f45e88]: Đọc thêm
+          - link [ref=f45e91] [cursor=pointer]:
+            - /url: /tin-tuc/uu-dai-noi-that
+            - paragraph [ref=f45e92]: Ưu đãi · 01/2026
+            - heading "VUI ĐÓN TẾT SANG – ƯU ĐÃI NỘI THẤT LÊN ĐẾN 10%" [level=3] [ref=f45e93]
+            - generic [ref=f45e94]: Đọc thêm
+      - generic [ref=f45e98]:
+        - generic [ref=f45e99]:
+          - heading "Báo chí nói gì về Eurowindow" [level=2] [ref=f45e100]
+          - link "Xem tất cả" [ref=f45e101] [cursor=pointer]:
+            - /url: /bao-chi-noi-gi-ve-eurowindow
+        - generic [ref=f45e104]:
+          - link [ref=f45e105] [cursor=pointer]:
+            - /url: /tin-tuc/eurowindow-thuong-hieu-quoc-gia
+            - paragraph [ref=f45e106]: Báo chí nói về Eurowindow · 2023
+            - heading "Eurowindow đạt Thương hiệu quốc gia Việt Nam 2023" [level=3] [ref=f45e107]
+            - generic [ref=f45e108]: Đọc thêm
+          - link [ref=f45e111] [cursor=pointer]:
+            - /url: /tin-tuc/top-doanh-nghiep-uy-tin
+            - paragraph [ref=f45e112]: Báo chí nói về Eurowindow · 2022
+            - heading "Top 10 doanh nghiệp uy tín ngành xây dựng" [level=3] [ref=f45e113]
+            - generic [ref=f45e114]: Đọc thêm
+          - link [ref=f45e117] [cursor=pointer]:
+            - /url: /tin-tuc/hang-viet-nam-chat-luong-cao
+            - paragraph [ref=f45e118]: Báo chí nói về Eurowindow · 2021
+            - heading "Hàng Việt Nam chất lượng cao – Eurowindow ghi dấu ấn" [level=3] [ref=f45e119]
+            - generic [ref=f45e120]: Đọc thêm
+      - generic [ref=f45e124]:
+        - generic [ref=f45e125]:
+          - heading "Văn hóa Eurowindow" [level=2] [ref=f45e126]
+          - link "Xem tất cả" [ref=f45e127] [cursor=pointer]:
+            - /url: /van-hoa-eurowindow
+        - generic [ref=f45e130]:
+          - link [ref=f45e131] [cursor=pointer]:
+            - /url: /tin-tuc/sinh-nhat-eurowindow-24
+            - paragraph [ref=f45e132]: Văn hóa · 2026
+            - heading "CHÀO MỪNG SINH NHẬT EUROWINDOW LẦN THỨ 24" [level=3] [ref=f45e133]
+            - generic [ref=f45e134]: Đọc thêm
+          - link [ref=f45e137] [cursor=pointer]:
+            - /url: /tin-tuc/giai-bong-da-noi-bo
+            - paragraph [ref=f45e138]: Văn hóa · 2025
+            - heading "GIẢI BÓNG ĐÁ NỘI BỘ – GẮN KẾT ĐỘI NGŨ" [level=3] [ref=f45e139]
+            - generic [ref=f45e140]: Đọc thêm
+      - generic [ref=f45e144]:
+        - generic [ref=f45e145]:
+          - heading "Chia sẻ kiến thức" [level=2] [ref=f45e146]
+          - link "Xem tất cả" [ref=f45e147] [cursor=pointer]:
+            - /url: /chia-se-kien-thuc
+        - generic [ref=f45e150]:
+          - link [ref=f45e151] [cursor=pointer]:
+            - /url: /tin-tuc/biet-thu-ngap-anh-sang
+            - paragraph [ref=f45e152]: Chia sẻ kiến thức · 2026
+            - 'heading "Biệt thự ngập tràn ánh sáng: kết nối thiên nhiên theo ngôn ngữ kiến trúc" [level=3] [ref=f45e153]'
+            - generic [ref=f45e154]: Đọc thêm
+          - link [ref=f45e157] [cursor=pointer]:
+            - /url: /tin-tuc/kinh-tiet-kiem-nang-luong
+            - paragraph [ref=f45e158]: Chia sẻ kiến thức · 2026
+            - heading "Kính tiết kiệm năng lượng – xu hướng công trình xanh 2026" [level=3] [ref=f45e159]
+            - generic [ref=f45e160]: Đọc thêm
+    - contentinfo [ref=f45e163]:
+      - generic [ref=f45e164]:
+        - generic [ref=f45e165]:
+          - link "Eurowindow" [ref=f45e166] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f45e167]
+          - paragraph [ref=f45e168]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f45e169]:
+          - heading "Liên hệ" [level=2] [ref=f45e170]
+          - generic [ref=f45e171]:
+            - paragraph [ref=f45e172]: Eurowindow Office Building
+            - paragraph [ref=f45e173]: "Hotline: 0909 888 000"
+            - paragraph [ref=f45e174]: infoew@eurowindow.biz
+        - generic [ref=f45e175]:
+          - heading "Khám phá" [level=2] [ref=f45e176]
+          - generic [ref=f45e177]:
+            - link "Giới thiệu" [ref=f45e178] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f45e179] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f45e180] [cursor=pointer]:
+              - /url: /dich-vu
+            - link "Tin tức" [ref=f45e181] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f45e182]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f45e188] [cursor=pointer]

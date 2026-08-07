@@ -1,0 +1,97 @@
+- generic [active] [ref=f56e1]:
+  - generic [ref=f56e2]:
+    - banner [ref=f56e3]:
+      - generic [ref=f56e4]:
+        - link "Eurowindow" [ref=f56e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f56e6]
+        - button "Mở menu" [ref=f56e7]
+    - main [ref=f56e9]:
+      - generic [ref=f56e11]:
+        - navigation "Breadcrumb" [ref=f56e12]:
+          - link "Trang chủ" [ref=f56e13] [cursor=pointer]:
+            - /url: /
+          - link "Dự án" [ref=f56e16] [cursor=pointer]:
+            - /url: /du-an
+          - generic [ref=f56e19]: Tòa nhà Quốc hội
+        - heading "Tòa nhà Quốc hội" [level=1] [ref=f56e20]
+        - paragraph [ref=f56e21]: Hà Nội
+      - generic [ref=f56e27]:
+        - img "Tòa nhà Quốc hội – ảnh 1" [ref=f56e29]
+        - img "Tòa nhà Quốc hội – ảnh 2" [ref=f56e31]
+        - img "Tòa nhà Quốc hội – ảnh 3" [ref=f56e33]
+      - generic [ref=f56e35]:
+        - generic [ref=f56e36]:
+          - heading "Thông tin dự án" [level=2] [ref=f56e37]
+          - generic [ref=f56e38]:
+            - generic [ref=f56e39]:
+              - term [ref=f56e40]: CHỦ ĐẦU TƯ
+              - definition [ref=f56e41]: Eurowindow
+            - generic [ref=f56e42]:
+              - term [ref=f56e43]: PHÂN LOẠI
+              - definition [ref=f56e44]: Công trình quốc gia
+            - generic [ref=f56e45]:
+              - term [ref=f56e46]: HOÀN THÀNH
+              - definition [ref=f56e47]: "2019"
+            - generic [ref=f56e48]:
+              - term [ref=f56e49]: DIỆN TÍCH
+              - definition [ref=f56e50]: Nhà Quốc hội
+            - generic [ref=f56e51]:
+              - term [ref=f56e52]: VỊ TRÍ
+              - definition [ref=f56e53]: Hà Nội
+            - generic [ref=f56e54]:
+              - term [ref=f56e55]: HẠNG MỤC
+              - definition [ref=f56e56]: Cửa & vách nhôm kính
+        - generic [ref=f56e57]:
+          - heading "Giới thiệu dự án" [level=2] [ref=f56e58]
+          - paragraph [ref=f56e59]: Sản phẩm Eurowindow hiện diện tại Nhà Quốc hội — biểu tượng của sự tự hào dân tộc, minh chứng cho chất lượng đạt chuẩn công trình quốc gia.
+          - paragraph [ref=f56e60]: Eurowindow đồng hành từ khâu khảo sát, tư vấn giải pháp đến sản xuất và thi công lắp đặt — đảm bảo mỗi hạng mục đạt chuẩn chất lượng và đúng tiến độ. Hệ sản phẩm được kiểm soát theo tiêu chuẩn châu Âu, đáp ứng tốt yêu cầu cách âm, cách nhiệt, an toàn và thẩm mỹ của từng công trình.
+          - link "Liên hệ tư vấn" [ref=f56e61] [cursor=pointer]:
+            - /url: "#lien-he"
+      - generic [ref=f56e65]:
+        - heading "Dự án liên quan" [level=2] [ref=f56e67]
+        - generic [ref=f56e68]:
+          - link [ref=f56e69] [cursor=pointer]:
+            - /url: /du-an/cang-hang-khong-phu-bai-hue
+            - img "Cảng hàng không Phú Bài Huế" [ref=f56e71]
+            - generic [ref=f56e72]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f56e73]
+              - paragraph [ref=f56e74]: Huế
+          - link [ref=f56e78] [cursor=pointer]:
+            - /url: /du-an/benh-vien-viet-phap
+            - img "Bệnh viện Việt Pháp" [ref=f56e80]
+            - generic [ref=f56e81]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f56e82]
+              - paragraph [ref=f56e83]: Hà Nội
+          - link [ref=f56e87] [cursor=pointer]:
+            - /url: /du-an/benh-vien-ung-buou-da-nang
+            - img "Bệnh viện ung bướu Đà Nẵng" [ref=f56e89]
+            - generic [ref=f56e90]:
+              - heading "Bệnh viện ung bướu Đà Nẵng" [level=3] [ref=f56e91]
+              - paragraph [ref=f56e92]: Đà Nẵng
+    - contentinfo [ref=f56e96]:
+      - generic [ref=f56e97]:
+        - generic [ref=f56e98]:
+          - link "Eurowindow" [ref=f56e99] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f56e100]
+          - paragraph [ref=f56e101]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f56e102]:
+          - heading "Liên hệ" [level=2] [ref=f56e103]
+          - generic [ref=f56e104]:
+            - paragraph [ref=f56e105]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f56e106]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f56e107]: infoew@eurowindow.biz
+        - generic [ref=f56e108]:
+          - heading "Khám phá" [level=2] [ref=f56e109]
+          - generic [ref=f56e110]:
+            - link "Giới thiệu" [ref=f56e111] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f56e112] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f56e113] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f56e114] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f56e115]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f56e121] [cursor=pointer]

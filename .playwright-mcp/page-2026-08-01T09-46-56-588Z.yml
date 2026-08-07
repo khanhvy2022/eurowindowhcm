@@ -1,0 +1,235 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]: "T2 – T7: 8:00 – 17:30"
+      - generic [ref=f1e10]: 39 Bis Mạc Đĩnh Chi, Q.1, TP.HCM
+    - generic [ref=f1e14]:
+      - link "0966 994 338" [ref=f1e15] [cursor=pointer]:
+        - /url: tel:0966994338
+      - link "thangtq2@eurowindow.biz" [ref=f1e19] [cursor=pointer]:
+        - /url: mailto:thangtq2@eurowindow.biz
+      - generic [ref=f1e23]:
+        - link "Facebook" [ref=f1e24] [cursor=pointer]:
+          - /url: https://www.facebook.com/eurowindow.biz
+        - link "YouTube" [ref=f1e27] [cursor=pointer]:
+          - /url: https://www.youtube.com/@Eurowindow_EW
+        - link "Zalo" [ref=f1e32] [cursor=pointer]:
+          - /url: https://zalo.me/0966994338
+  - banner [ref=f1e35]:
+    - generic [ref=f1e37]:
+      - link [ref=f1e38] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=f1e39]
+      - generic [ref=f1e40]:
+        - generic [ref=f1e41]:
+          - link "VI" [ref=f1e42] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "EN" [ref=f1e47] [cursor=pointer]:
+            - /url: /en/about
+        - button "Toggle mobile menu" [ref=f1e56]
+  - generic [ref=f1e60]:
+    - generic [ref=f1e61]:
+      - link [ref=f1e63] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=f1e64]
+      - button "Close menu Modal" [ref=f1e65] [cursor=pointer]
+    - navigation [ref=f1e68]:
+      - link "Trang chủ" [ref=f1e70] [cursor=pointer]:
+        - /url: /
+      - link "Giới thiệu" [ref=f1e72] [cursor=pointer]:
+        - /url: "#"
+      - link "Sản phẩm" [ref=f1e76] [cursor=pointer]:
+        - /url: /san-pham
+      - link "Dự án" [ref=f1e78] [cursor=pointer]:
+        - /url: /du-an
+      - link "Tin tức" [ref=f1e80] [cursor=pointer]:
+        - /url: "#"
+      - link "Báo giá ngay" [ref=f1e84] [cursor=pointer]:
+        - /url: /bao-gia
+    - link "0966 994 338" [ref=f1e88] [cursor=pointer]:
+      - /url: tel:0966994338
+  - main [ref=f1e89]:
+    - generic [ref=f1e90]:
+      - img "Trụ sở Eurowindow Miền Nam" [ref=f1e92]
+      - generic [ref=f1e96]:
+        - generic [ref=f1e97]: Về chúng tôi
+        - heading "Kiến Tạo Không Gian Sống Đẳng Cấp" [level=1] [ref=f1e99]
+        - paragraph [ref=f1e100]: Nhà cung cấp giải pháp tổng thể về cửa hàng đầu Việt Nam. Tự hào mang đến vẻ đẹp sang trọng, đẳng cấp và bền vững cho hàng triệu công trình trên toàn quốc.
+    - generic [ref=f1e104]:
+      - generic [ref=f1e105]:
+        - heading "Câu chuyện thương hiệu" [level=2] [ref=f1e108]
+        - heading "Tiên phong kiến tạo giải pháp kiến trúc" [level=3] [ref=f1e109]
+        - generic [ref=f1e110]:
+          - paragraph [ref=f1e111]:
+            - text: Được thành lập với sứ mệnh mang đến những sản phẩm cửa chất lượng chuẩn Châu Âu cho người Việt,
+            - strong [ref=f1e112]: Eurowindow Miền Nam
+            - text: đã và đang khẳng định vị thế vững chắc là nhà cung cấp giải pháp tổng thể về cửa số 1 tại khu vực phía Nam và trên toàn quốc.
+          - paragraph [ref=f1e113]:
+            - text: "Chúng tôi không chỉ cung cấp sản phẩm thuần túy, mà còn trao tặng những giải pháp kiến trúc đột phá: từ"
+            - strong [ref=f1e114]: cửa nhôm kính cao cấp, cửa nhựa lõi thép uPVC, cửa gỗ tự nhiên
+            - text: ", cho đến các hệ vách kính mặt dựng quy mô lớn."
+        - generic [ref=f1e115]:
+          - generic [ref=f1e116]:
+            - paragraph [ref=f1e117]: 20+
+            - paragraph [ref=f1e118]: Năm kinh nghiệm
+          - generic [ref=f1e119]:
+            - paragraph [ref=f1e120]: 100k
+            - paragraph [ref=f1e121]: Dự án hoàn thành
+      - generic [ref=f1e122]:
+        - img "Nhà máy sản xuất Eurowindow" [ref=f1e125]
+        - generic [ref=f1e126]:
+          - paragraph [ref=f1e138]: Thương hiệu Quốc gia
+          - paragraph [ref=f1e139]: Đạt giải thưởng danh giá trong nhiều năm liên tiếp, khẳng định uy tín vượt trội.
+    - generic [ref=f1e142]:
+      - generic [ref=f1e143]:
+        - heading "Kim Chỉ Nam Hoạt Động" [level=2] [ref=f1e144]
+        - paragraph [ref=f1e145]: Định hướng phát triển bền vững, lấy chất lượng làm nền tảng và sự hài lòng của khách hàng làm mục tiêu cao nhất.
+      - generic [ref=f1e146]:
+        - generic [ref=f1e147]:
+          - heading "Tầm nhìn" [level=3] [ref=f1e153]
+          - paragraph [ref=f1e154]: Khẳng định vị thế nhà cung cấp giải pháp tổng thể về vật liệu xây dựng xanh, thân thiện với môi trường lớn nhất Việt Nam và từng bước vươn tầm quốc tế.
+        - generic [ref=f1e155]:
+          - heading "Sứ mệnh" [level=3] [ref=f1e161]
+          - paragraph [ref=f1e162]: Tiên phong mang đến những giải pháp tốt nhất nhằm nâng tầm chất lượng không gian sống, kiến tạo kiến trúc hiện đại, đóng góp vì sự phát triển phồn vinh của xã hội.
+        - generic [ref=f1e163]:
+          - heading "Giá trị cốt lõi" [level=3] [ref=f1e166]
+          - paragraph [ref=f1e167]:
+            - strong [ref=f1e168]: Chất lượng
+            - text: "-"
+            - strong [ref=f1e169]: Chuyên nghiệp
+            - text: "-"
+            - strong [ref=f1e170]: Hiệu quả
+            - text: . Đây là ba trụ cột vững chắc định hướng mọi hành động và quyết định của chúng tôi.
+    - generic [ref=f1e172]:
+      - generic [ref=f1e173]:
+        - generic [ref=f1e174]:
+          - heading "Hệ thống sản xuất" [level=2] [ref=f1e177]
+          - heading "5 Nhà máy quy mô lớn với Công nghệ Châu Âu" [level=3] [ref=f1e178]
+          - paragraph [ref=f1e179]:
+            - text: Sở hữu hệ thống khép kín với tổng diện tích hơn
+            - strong [ref=f1e180]: 250.000 m²
+            - text: tại Hà Nội, Đà Nẵng và Bình Dương. Dây chuyền sản xuất được trang bị máy móc hiện đại nhất từ CHLB Đức, Italia, Phần Lan và Tây Ban Nha.
+          - generic [ref=f1e181]:
+            - generic [ref=f1e182]: Dây chuyền sản xuất nhựa uPVC
+            - generic [ref=f1e187]: Hệ thống vách nhôm kính lớn
+            - generic [ref=f1e193]: Phân xưởng sơn tự động
+            - generic [ref=f1e198]: Dây chuyền cửa chống cháy
+        - generic [ref=f1e203]:
+          - generic [ref=f1e204]:
+            - generic [ref=f1e205]:
+              - img "Máy móc hiện đại" [ref=f1e207]
+              - img "Công nhân tay nghề cao" [ref=f1e209]
+            - generic [ref=f1e210]:
+              - img "Nhà máy cửa gỗ" [ref=f1e212]
+              - img "Kiểm soát chất lượng" [ref=f1e214]
+          - generic [ref=f1e216]:
+            - paragraph [ref=f1e217]: 250K
+            - paragraph [ref=f1e218]: m² Diện tích
+      - generic [ref=f1e219]:
+        - generic [ref=f1e220]:
+          - heading "01." [level=4] [ref=f1e221]
+          - heading "Cửa nhựa & Nhôm" [level=5] [ref=f1e222]
+          - paragraph [ref=f1e223]: Sản xuất cửa nhựa uPVC lõi thép gia cường, vách kính mặt dựng nhôm kính lớn tiêu chuẩn quốc tế.
+        - generic [ref=f1e224]:
+          - heading "02." [level=4] [ref=f1e225]
+          - heading "Xưởng Gỗ Công nghệ cao" [level=5] [ref=f1e226]
+          - paragraph [ref=f1e227]: Chế tác cửa gỗ tự nhiên, cửa gỗ chống cháy 60/90/120 phút với độ thẩm mỹ và an toàn tối đa.
+        - generic [ref=f1e228]:
+          - heading "03." [level=4] [ref=f1e229]
+          - heading "Trung tâm gia công Kính" [level=5] [ref=f1e230]
+          - paragraph [ref=f1e231]: Tôi kính cường lực, kính dán an toàn nhiều lớp, kính hộp cách âm cách nhiệt bằng công nghệ Bystronic.
+    - generic [ref=f1e235]:
+      - heading "Đồng Hành Cùng Công Trình Của Bạn" [level=2] [ref=f1e236]
+      - paragraph [ref=f1e237]: Quan tâm đến các giải pháp cửa nhôm, cửa nhựa uPVC hay cửa gỗ? Hãy liên hệ ngay để chuyên gia tư vấn thiết kế và báo giá chi tiết.
+      - generic [ref=f1e238]:
+        - link [ref=f1e239] [cursor=pointer]:
+          - /url: /lien-he
+        - link "Xem Danh Mục Sản Phẩm" [ref=f1e243] [cursor=pointer]:
+          - /url: /san-pham
+  - contentinfo [ref=f1e246]:
+    - generic [ref=f1e247]:
+      - generic [ref=f1e250]:
+        - generic [ref=f1e251]:
+          - heading "Sẵn sàng nâng tầm không gian sống?" [level=3] [ref=f1e252]
+          - paragraph [ref=f1e253]: Hãy để các chuyên gia của Eurowindow tư vấn giải pháp tổng thể về cửa cho công trình của bạn.
+        - link "Nhận báo giá ngay" [ref=f1e255] [cursor=pointer]:
+          - /url: /bao-gia
+      - generic [ref=f1e260]:
+        - generic [ref=f1e261]:
+          - link [ref=f1e263] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow" [ref=f1e264]
+          - paragraph [ref=f1e265]: Nhà cung cấp giải pháp tổng thể về cửa và vật liệu xây dựng xanh hàng đầu Việt Nam. Tự hào mang đến vẻ đẹp sang trọng và bền bỉ cho mọi công trình kiến trúc.
+          - generic [ref=f1e266]:
+            - link "Facebook" [ref=f1e267] [cursor=pointer]:
+              - /url: https://www.facebook.com/eurowindow.biz
+            - link "YouTube" [ref=f1e271] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Eurowindow_EW
+            - link "Zalo" [ref=f1e277] [cursor=pointer]:
+              - /url: https://zalo.me/0966994338
+        - generic [ref=f1e282]:
+          - heading "Về công ty" [level=4] [ref=f1e283]
+          - list [ref=f1e285]:
+            - listitem [ref=f1e286]:
+              - link "Trang chủ" [ref=f1e287] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1e289]:
+              - link "Giới thiệu" [ref=f1e290] [cursor=pointer]:
+                - /url: /gioi-thieu
+            - listitem [ref=f1e292]:
+              - link "Sản phẩm" [ref=f1e293] [cursor=pointer]:
+                - /url: /san-pham
+            - listitem [ref=f1e295]:
+              - link "Showroom" [ref=f1e296] [cursor=pointer]:
+                - /url: /he-thong-showroom
+            - listitem [ref=f1e298]:
+              - link "Dự án" [ref=f1e299] [cursor=pointer]:
+                - /url: /du-an
+            - listitem [ref=f1e301]:
+              - link "Tin tức" [ref=f1e302] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f1e304]:
+              - link "Catalogue" [ref=f1e305] [cursor=pointer]:
+                - /url: /catalogue
+            - listitem [ref=f1e307]:
+              - link "Liên hệ" [ref=f1e308] [cursor=pointer]:
+                - /url: /lien-he
+        - generic [ref=f1e310]:
+          - heading "Liên hệ" [level=4] [ref=f1e311]
+          - generic [ref=f1e313]:
+            - paragraph [ref=f1e318]: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP.HCM
+            - link "0966 994 338" [ref=f1e319] [cursor=pointer]:
+              - /url: tel:0966994338
+            - link "thangtq2@eurowindow.biz" [ref=f1e324] [cursor=pointer]:
+              - /url: mailto:thangtq2@eurowindow.biz
+        - generic [ref=f1e332]:
+          - heading "Chứng nhận" [level=4] [ref=f1e333]
+          - generic [ref=f1e335]:
+            - generic [ref=f1e341]:
+              - paragraph [ref=f1e342]: Thương hiệu Quốc gia
+              - paragraph [ref=f1e343]: Nhiều năm liên tiếp
+            - generic [ref=f1e348]:
+              - paragraph [ref=f1e349]: ISO 9001:2015
+              - paragraph [ref=f1e350]: Quản lý chất lượng
+            - generic [ref=f1e355]:
+              - paragraph [ref=f1e356]: Top 500 DN lớn nhất
+              - paragraph [ref=f1e357]: VNR500 Vietnam
+      - generic [ref=f1e358]:
+        - generic [ref=f1e359]:
+          - paragraph [ref=f1e360]: © 2026 Eurowindow Miền Nam. All rights reserved.
+          - paragraph [ref=f1e363]: Premium Architectural Solutions
+        - generic [ref=f1e364]:
+          - link "Chính sách bảo mật" [ref=f1e365] [cursor=pointer]:
+            - /url: /chinh-sach-bao-mat
+          - link "Điều khoản dịch vụ" [ref=f1e366] [cursor=pointer]:
+            - /url: /lien-he
+  - button "Open Next.js Dev Tools" [ref=f1e372] [cursor=pointer]
+  - alert [ref=f1e376]
+  - generic [ref=f1e377]:
+    - button "Mở chat AI tư vấn" [ref=f1e378] [cursor=pointer]
+    - 'link "Chat Zalo: 0966 994 338" [ref=f1e382] [cursor=pointer]':
+      - /url: https://zalo.me/0966994338
+      - img [ref=f1e383]:
+        - generic [ref=f1e386]: Zalo
+    - 'link "Gọi điện: 0966 994 338" [ref=f1e387] [cursor=pointer]':
+      - /url: tel:0966994338

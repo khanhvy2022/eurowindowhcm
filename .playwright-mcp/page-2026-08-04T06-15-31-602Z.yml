@@ -1,0 +1,393 @@
+- generic [ref=f18e2]:
+  - banner [ref=f18e3]:
+    - generic [ref=f18e5]:
+      - generic [ref=f18e6]:
+        - list [ref=f18e7]:
+          - listitem [ref=f18e8]: VN
+          - listitem [ref=f18e9]: ENG
+        - generic [ref=f18e11]:
+          - textbox "Tìm kiếm" [ref=f18e12]:
+            - /placeholder: Tìm kiếm...
+          - button "Tìm kiếm" [ref=f18e13] [cursor=pointer]
+      - link [ref=f18e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=f18e18]
+      - link "Nhận tư vấn" [ref=f18e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f18e24]:
+      - listitem [ref=f18e25]:
+        - link "GIỚI THIỆU" [ref=f18e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f18e27]:
+        - link "SẢN PHẨM" [ref=f18e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f18e31]:
+        - link "SHOWROOM" [ref=f18e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f18e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f18e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f18e37]:
+        - link "TÀI LIỆU" [ref=f18e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f18e39]:
+        - link "TIN TỨC" [ref=f18e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f18e43]:
+        - link "CHÍNH SÁCH" [ref=f18e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f18e47]:
+        - link "LIÊN HỆ" [ref=f18e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f18e49]:
+    - generic [ref=f18e52]:
+      - heading "CỬA TỰ ĐỘNG" [level=1] [ref=f18e54]
+      - list [ref=f18e56]:
+        - listitem [ref=f18e57]:
+          - link "Trang chủ" [ref=f18e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=f18e59]:
+          - link "CỬA TỰ ĐỘNG" [ref=f18e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-tu-dong
+    - generic [ref=f18e63]:
+      - generic [ref=f18e64]:
+        - list [ref=f18e66]:
+          - listitem [ref=f18e67]:
+            - combobox [ref=f18e68] [cursor=pointer]
+            - combobox [ref=f18e71] [cursor=pointer]:
+              - textbox "Hệ/Loại sản phẩm" [ref=f18e72]
+          - listitem [ref=f18e73]:
+            - combobox [ref=f18e74] [cursor=pointer]
+            - combobox [ref=f18e77] [cursor=pointer]:
+              - textbox "Kiểu dáng" [ref=f18e78]
+          - listitem [ref=f18e79]:
+            - combobox [ref=f18e80] [cursor=pointer]
+            - combobox [ref=f18e83] [cursor=pointer]:
+              - textbox "Màu sắc" [ref=f18e84]
+          - listitem [ref=f18e85]:
+            - generic [ref=f18e86]:
+              - textbox "Tìm kiếm" [ref=f18e87]:
+                - /placeholder: Tìm kiếm...
+              - button "Tìm kiếm" [ref=f18e88] [cursor=pointer]
+        - generic [ref=f18e91]: Cửa tự động Eurowindow là giải pháp cửa hiện đại, đáp ứng nhu cầu sử dụng tiện nghi, an toàn và thẩm mỹ trong các công trình nhà ở, văn phòng, khách sạn, trung tâm thương mại và không gian công cộng. Với khả năng đóng mở linh hoạt bằng cảm biến, các dòng cửa tự động giúp tối ưu trải nghiệm vận hành, tăng khả năng lưu thông và phù hợp với xu hướng kiến trúc thông minh.
+        - generic [ref=f18e96]:
+          - generic [ref=f18e97]:
+            - link [ref=f18e99] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-tu-dong/cua-truot-tu-dong-2-canh.html
+              - img "cua-truot-tu-dong-2-canh-co-kha-nang-ket-noi-voi-he-thong-pccc-ho-tro-thoat-hiem-trong-cac-tinh-huong-khan-cap" [ref=f18e101]
+            - link [ref=f18e103] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-tu-dong/cua-truot-tu-dong-2-canh.html
+              - heading "CỬA TRƯỢT TỰ ĐỘNG 2 CÁNH" [level=2] [ref=f18e104]
+          - generic [ref=f18e105]:
+            - link [ref=f18e107] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-tu-dong/cua-tu-dong-xoay-tron-3-hoac-4-canh.html
+              - img "cuatudong" [ref=f18e109]
+            - link [ref=f18e111] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-tu-dong/cua-tu-dong-xoay-tron-3-hoac-4-canh.html
+              - heading "CỬA TỰ ĐỘNG XOAY TRÒN 3 HOẶC 4 CÁNH" [level=2] [ref=f18e112]
+        - generic [ref=f18e113]:
+          - generic [ref=f18e114]:
+            - heading "1. Các dòng sản phẩm cửa tự động của Eurowindow" [level=2] [ref=f18e115]
+            - paragraph [ref=f18e116]: Eurowindow hiện cung cấp 2 dòng sản phẩm chính trong danh mục cửa tự động thương mại, phù hợp với 2 nhóm nhu cầu kiến trúc khác nhau.
+            - heading "1.1. Cửa trượt tự động 2 cánh" [level=3] [ref=f18e117]
+            - paragraph [ref=f18e118]: "Đây là giải pháp cửa hiện đại dành cho các khu vực có lưu lượng người qua lại lớn như sảnh chính, tòa nhà văn phòng, khách sạn, chung cư và trung tâm thương mại. Sản phẩm có 2 mẫu thiết kế: cánh kính trượt có khung nhôm và không khung nhôm, chiều cao tối đa đến 3m, kết cấu bền chắc, chịu lực tốt và vận hành êm ái."
+            - paragraph [ref=f18e119]: "Hệ cửa tích hợp 4 chế độ vận hành gồm: tự động, mở thường trực, mở một chiều và ban đêm. Đồng thời, cửa có khả năng tự kiểm tra, cảnh báo lỗi và kết nối với hệ thống báo cháy tòa nhà, giúp tăng tính an toàn, tiện nghi và thẩm mỹ cho công trình."
+            - img "Cửa trượt tự động 2 cánh Eurowindow" [ref=f18e121]
+            - paragraph [ref=f18e122]:
+              - emphasis [ref=f18e123]: Cửa trượt tự động 2 cánh Eurowindow
+            - paragraph [ref=f18e124]:
+              - link "XEM SẢN PHẨM" [ref=f18e125] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-tu-dong/cua-truot-tu-dong-2-canh.html
+            - heading "1.2. Cửa tự động xoay tròn 3 hoặc 4 cánh" [level=3] [ref=f18e126]
+            - paragraph [ref=f18e127]: Đây là giải pháp cửa cao cấp, phù hợp để lắp đặt tại sảnh chính và lối vào các công trình có lưu lượng người qua lại lớn như tòa nhà văn phòng, trung tâm thương mại, khách sạn. Sản phẩm được nhập khẩu nguyên chiếc từ các hãng hàng đầu tại Đức và Italy, có kết cấu bền chắc, chịu lực tốt, vận hành êm ái, ổn định và không bị gián đoạn.
+            - paragraph [ref=f18e128]: Hệ cửa tích hợp nhiều chế độ vận hành như Night (Khóa đêm an ninh), Revolve (Xoay liên tục tốc độ thấp), Automatic (Tự động kích hoạt khi có người), Exit (Chỉ đi ra) và Manual (Vận hành bằng tay khi mất điện), giúp kiểm soát linh hoạt luồng ra vào, tăng độ an toàn và tạo điểm nhấn sang trọng, chuyên nghiệp cho công trình.
+            - img "Cửa tự động xoay tròn của Eurowindow" [ref=f18e130]
+            - paragraph [ref=f18e131]:
+              - emphasis [ref=f18e132]: Cửa tự động xoay tròn của Eurowindow
+            - paragraph [ref=f18e133]:
+              - link "XEM SẢN PHẨM" [ref=f18e134] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cua-tu-dong/cua-tu-dong-xoay-tron-3-hoac-4-canh.html
+            - heading "2. Ưu điểm của cửa tự động Eurowindow" [level=2] [ref=f18e135]
+            - heading "2.1. Phù hợp với khu vực có lưu lượng người qua lại lớn" [level=3] [ref=f18e136]
+            - paragraph [ref=f18e137]: Cửa tự động Eurowindow được thiết kế cho các vị trí thường xuyên có nhiều người ra vào như sảnh chính, lối vào tòa nhà văn phòng, khách sạn, chung cư, trung tâm thương mại hoặc siêu thị. Với cửa trượt tự động 2 cánh, hệ cửa có kích thước lớn, chiều cao tối đa đến 3m, giúp tạo lối đi rộng và thuận tiện.
+            - paragraph [ref=f18e138]: Trong khi đó, cửa tự động lồng xoay 3 hoặc 4 cánh giúp điều tiết dòng người ra vào ổn định, phù hợp với các công trình quy mô lớn cần kiểm soát luồng di chuyển hiệu quả.
+            - heading "2.2. Vận hành tự động, linh hoạt theo từng nhu cầu sử dụng" [level=3] [ref=f18e139]
+            - paragraph [ref=f18e140]: Cả 2 dòng cửa đều được tích hợp nhiều chế độ vận hành, giúp người dùng dễ dàng lựa chọn theo từng thời điểm và mục đích sử dụng. Cửa có thể tự động mở khi phát hiện người đến gần, giữ mở thường trực, chỉ cho phép đi một chiều hoặc khóa ban đêm để tăng kiểm soát ra vào.
+            - paragraph [ref=f18e141]: Với cửa lồng xoay, người dùng còn có thể chọn chế độ quay liên tục, tự động khởi động khi có người tới gần hoặc vận hành bằng tay trong trường hợp cần thiết.
+            - img "Cửa tự động Eurowindow vận hành linh hoạt theo nhu cầu sử dụng" [ref=f18e143]
+            - paragraph [ref=f18e144]:
+              - emphasis [ref=f18e145]: Cửa tự động Eurowindow vận hành linh hoạt theo nhu cầu sử dụng
+            - heading "2.3. An toàn hơn trong quá trình sử dụng" [level=3] [ref=f18e146]
+            - paragraph [ref=f18e147]: Cửa tự động Eurowindow chú trọng yếu tố an toàn khi vận hành tại những khu vực công cộng. Hệ cửa có khả năng tự kiểm tra, cảnh báo lỗi và có thể kết nối với hệ thống báo cháy của tòa nhà, hỗ trợ xử lý tình huống khẩn cấp.
+            - paragraph [ref=f18e148]: Riêng cửa lồng xoay còn được kiểm soát tốc độ quay, hạn chế tình trạng cửa xoay quá nhanh do tác động của gió, giúp người dùng di chuyển an toàn hơn.
+            - heading "2.4. Vận hành êm ái, ổn định và hạn chế gián đoạn" [level=3] [ref=f18e149]
+            - paragraph [ref=f18e150]: Hệ thống động cơ, cảm biến và cơ cấu điều khiển được thiết kế để cửa đóng mở nhịp nhàng, hạn chế tiếng ồn, phù hợp với các công trình yêu cầu trải nghiệm ra vào chuyên nghiệp như khách sạn, văn phòng, trung tâm thương mại, siêu thị,... Cửa lồng xoay còn có khả năng hoạt động liên tục mà không bị gián đoạn, đáp ứng tốt nhu cầu sử dụng cường độ cao.
+            - img "Cửa tự động Eurowindow vận hành êm ái, ổn định, phù hợp với những công trình yêu cầu trải nghiệm ra và chuyên nghiệp" [ref=f18e152]
+            - paragraph [ref=f18e153]:
+              - emphasis [ref=f18e154]: Cửa tự động Eurowindow vận hành êm ái, ổn định, phù hợp với những công trình yêu cầu trải nghiệm ra và chuyên nghiệp
+            - heading "2.5. Độ bền cao, chịu lực tốt" [level=3] [ref=f18e155]
+            - paragraph [ref=f18e156]: Cửa trượt tự động và cửa tự động lồng xoay Eurowindow đều có kết cấu chắc chắn, chịu lực tốt và độ bền cao. Đây là yếu tố quan trọng với các hệ cửa lắp đặt tại mặt tiền hoặc sảnh chính, nơi thường xuyên chịu tác động từ tần suất sử dụng lớn, gió, bụi và thay đổi thời tiết.
+            - paragraph [ref=f18e157]: Độ cứng vững của hệ cửa giúp duy trì khả năng vận hành ổn định, đồng thời đảm bảo tính an toàn cho công trình trong quá trình sử dụng lâu dài.
+            - heading "2.6. Tăng tính thẩm mỹ và sự chuyên nghiệp cho công trình" [level=3] [ref=f18e158]
+            - paragraph [ref=f18e159]: Thiết kế gọn gàng, hiện đại và sang trọng giúp khu vực sảnh chính trở nên chuyên nghiệp, thuận tiện và có tính nhận diện cao hơn. Cửa trượt tự động phù hợp với không gian cần sự thông thoáng, tối giản; trong khi cửa lồng xoay tạo điểm nhấn sang trọng cho các công trình cao cấp như khách sạn, tòa nhà văn phòng hoặc trung tâm thương mại.
+            - img "Cửa trượt tự động Eurowindow đảm bảo tính thẩm mỹ và sự chuyên nghiệp cho công trình" [ref=f18e161]
+            - paragraph [ref=f18e162]:
+              - emphasis [ref=f18e163]: Cửa trượt tự động Eurowindow đảm bảo tính thẩm mỹ và sự chuyên nghiệp cho công trình
+            - heading "3. Điểm nổi bật trong công nghệ cửa tự động của Eurowindow" [level=2] [ref=f18e164]
+            - heading "3.1. Hệ điều khiển tự động theo nhu cầu sử dụng" [level=3] [ref=f18e165]
+            - paragraph [ref=f18e166]: Điểm đặc biệt của cửa tự động Eurowindow nằm ở khả năng thiết lập nhiều chế độ vận hành theo từng thời điểm và nhu cầu kiểm soát ra vào. Với cửa trượt tự động 2 cánh, hệ thống có thể chuyển đổi giữa các chế độ tự động, mở thường trực, mở một chiều hoặc khóa ban đêm.
+            - paragraph [ref=f18e167]: Với cửa lồng xoay, các chế độ như Night, Revolve, Automatic, Exit và Manual giúp cửa vận hành linh hoạt hơn trong các tình huống khác nhau, từ giờ cao điểm, giờ đóng cửa đến khi cần thoát người một chiều.
+            - heading "3.2. Cảm biến nhận diện chuyển động giúp cửa phản ứng chủ động" [level=3] [ref=f18e168]
+            - paragraph [ref=f18e169]: Công nghệ cảm biến là yếu tố quan trọng giúp cửa tự động nhận biết người dùng khi đến gần và kích hoạt đóng mở phù hợp. Ở cửa trượt tự động, cảm biến giúp cửa mở khi có người đi qua và tự đóng lại sau đó, hạn chế thao tác chạm tay.
+            - paragraph [ref=f18e170]: Với cửa lồng xoay, radar phát hiện người trong vùng cảm biến để điều chỉnh trạng thái quay hoặc tốc độ quay, giúp quá trình ra vào diễn ra chủ động, thuận tiện và đồng bộ với nhịp di chuyển thực tế.
+            - img "Cơ chế cảm biến nhận diện chuyển động giúp cửa phản ứng chủ động" [ref=f18e172]
+            - paragraph [ref=f18e173]:
+              - emphasis [ref=f18e174]: Cơ chế cảm biến nhận diện chuyển động giúp cửa phản ứng chủ động
+            - heading "3.3. Cơ chế kiểm soát tốc độ giúp vận hành ổn định hơn" [level=3] [ref=f18e175]
+            - paragraph [ref=f18e176]: Cửa tự động lồng xoay Eurowindow được thiết kế với khả năng kiểm soát tốc độ quay theo từng chế độ cài đặt. Khi không có người, cửa có thể quay chậm hoặc dừng; khi có người bước vào vùng nhận diện, cửa tự động xoay với tốc độ phù hợp.
+            - paragraph [ref=f18e177]: Ở chế độ Manual, tốc độ xoay bằng tay cũng được kiểm soát để hạn chế tình trạng cửa quay quá nhanh do tác động của gió. Đây là điểm công nghệ quan trọng giúp hệ cửa vận hành ổn định trong khu vực sảnh lớn hoặc mặt tiền công trình.
+            - heading "3.4. Khả năng tự kiểm tra và cảnh báo lỗi trong quá trình vận hành" [level=3] [ref=f18e178]
+            - paragraph [ref=f18e179]: Không chỉ đóng mở tự động, hệ cửa tự động Eurowindow còn có khả năng tự kiểm tra trạng thái hoạt động và phát hiện lỗi trong quá trình sử dụng. Khi có bất thường, hệ thống có thể đưa ra cảnh báo để người quản lý kịp thời kiểm tra, xử lý.
+            - paragraph [ref=f18e180]: Tính năng này đặc biệt cần thiết với các công trình có tần suất sử dụng cao như tòa nhà văn phòng, khách sạn, trung tâm thương mại, nơi cửa cần duy trì khả năng vận hành liên tục và ổn định.
+            - img "Hệ cửa tự động Eurowindow có khả năng cảnh báo lỗi trong quá trình sử dụng" [ref=f18e182]
+            - paragraph [ref=f18e183]:
+              - emphasis [ref=f18e184]: Hệ cửa tự động Eurowindow có khả năng cảnh báo lỗi trong quá trình sử dụng
+            - heading "3.5. Tích hợp được với hệ thống kỹ thuật của tòa nhà" [level=3] [ref=f18e185]
+            - paragraph [ref=f18e186]: Cửa tự động Eurowindow có thể kết nối với hệ thống báo cháy của tòa nhà, hỗ trợ công trình xử lý tình huống khẩn cấp theo kịch bản kỹ thuật đã thiết lập. Đây là điểm khác biệt so với các hệ cửa đóng mở cơ bản, bởi cửa không chỉ là lối ra vào mà còn có thể trở thành một phần trong hệ thống vận hành an toàn chung của công trình. Tính năng này phù hợp với các tòa nhà lớn, nơi yêu cầu cao về kiểm soát ra vào và an toàn vận hành.
+            - heading "3.6. Công nghệ động cơ và phanh điện hỗ trợ kiểm soát trạng thái cửa" [level=3] [ref=f18e187]
+            - paragraph [ref=f18e188]: Ở cửa tự động xoay, chế độ Night sử dụng khóa điện và phanh điện để giữ cửa ở trạng thái đóng, đồng thời ngừng hoạt động của các cảm biến. Cách thiết kế này giúp cửa được kiểm soát chặt chẽ ngoài giờ vận hành, hạn chế mở ngoài ý muốn.
+            - paragraph [ref=f18e189]: Với cửa trượt tự động, hệ thống động cơ cũng được thiết kế để phối hợp với các chế độ mở, đóng, khóa và điều khiển, tạo nên một quy trình vận hành tự động, liền mạch và dễ quản lý.
+            - img "Cửa tự động xoay của Eurowindow có hỗ trợ phanh điện để giữ cửa ở trạng thái đóng" [ref=f18e191]
+            - paragraph [ref=f18e192]:
+              - emphasis [ref=f18e193]: Cửa tự động xoay của Eurowindow có hỗ trợ phanh điện để giữ cửa ở trạng thái đóng
+            - heading "4. Địa chỉ showroom/Văn phòng Eurowindow" [level=2] [ref=f18e194]
+            - paragraph [ref=f18e195]:
+              - text: Khám phá trực tiếp cửa tự động tại hệ thống
+              - strong [ref=f18e196]: hơn 40 showroom
+              - text: Eurowindow trên toàn quốc. Đội ngũ tư vấn kỹ thuật sẽ hỗ trợ đo đạc thực địa, lên phương án và báo giá miễn phí.
+            - paragraph [ref=f18e197]:
+              - strong [ref=f18e198]: "Showroom tại Hà Nội:"
+            - table [ref=f18e199]:
+              - rowgroup [ref=f18e200]:
+                - row [ref=f18e201]:
+                  - cell [ref=f18e202]:
+                    - paragraph [ref=f18e203]:
+                      - strong [ref=f18e204]: Showroom
+                  - cell [ref=f18e205]:
+                    - paragraph [ref=f18e206]:
+                      - strong [ref=f18e208]: Địa chỉ
+                  - cell [ref=f18e209]:
+                    - paragraph [ref=f18e210]:
+                      - strong [ref=f18e212]: Điện thoại
+                - row [ref=f18e213]:
+                  - cell [ref=f18e214]:
+                    - paragraph [ref=f18e215]: Tôn Thất Tùng (Trụ sở chính)
+                  - cell [ref=f18e216]:
+                    - paragraph [ref=f18e217]: 02 Tôn Thất Tùng, Đống Đa
+                  - cell [ref=f18e218]:
+                    - paragraph [ref=f18e219]: (84-24) 3 747 4777
+                    - paragraph [ref=f18e220]: 0909 888 000
+                - row [ref=f18e221]:
+                  - cell [ref=f18e222]:
+                    - paragraph [ref=f18e223]: Eurowindow Multi Complex
+                  - cell [ref=f18e224]:
+                    - paragraph [ref=f18e225]: Tầng 1&4, 27 Trần Duy Hưng, Cầu Giấy
+                  - cell [ref=f18e226]:
+                    - paragraph [ref=f18e227]: (84-24) 3577 4777
+                    - paragraph [ref=f18e228]: 0909 888 000
+            - paragraph [ref=f18e229]:
+              - strong [ref=f18e230]: "Showroom tại TP. Hồ Chí Minh:"
+            - table [ref=f18e231]:
+              - rowgroup [ref=f18e232]:
+                - row [ref=f18e233]:
+                  - cell [ref=f18e234]:
+                    - paragraph [ref=f18e235]:
+                      - strong [ref=f18e236]: Showroom
+                  - cell [ref=f18e237]:
+                    - paragraph [ref=f18e238]:
+                      - strong [ref=f18e240]: Địa chỉ
+                  - cell [ref=f18e241]:
+                    - paragraph [ref=f18e242]:
+                      - strong [ref=f18e244]: Điện thoại
+                - row [ref=f18e245]:
+                  - cell [ref=f18e246]:
+                    - paragraph [ref=f18e247]: Mạc Đĩnh Chi
+                  - cell [ref=f18e248]:
+                    - paragraph [ref=f18e249]: 39 Bis Mạc Đĩnh Chi, Đakao, Q.1
+                  - cell [ref=f18e250]:
+                    - paragraph [ref=f18e251]: (84-28) 6278 8124
+            - paragraph [ref=f18e252]:
+              - link "HỆ THỐNG SHOWROOM TOÀN QUỐC" [ref=f18e253] [cursor=pointer]:
+                - /url: https://eurowindow.biz/he-thong-cua-hang.html
+            - paragraph [ref=f18e254]:
+              - emphasis [ref=f18e255]: Cửa
+              - emphasis [ref=f18e256]: tự động Eurowindow là giải pháp phù hợp cho các công trình cần nâng cao sự tiện nghi, an toàn và tính chuyên nghiệp trong vận hành. Với các dòng sản phẩm như cửa trượt tự động 2 cánh và cửa tự động lồng xoay 3 hoặc 4 cánh, Eurowindow đáp ứng tốt nhu cầu lưu thông tại những khu vực có mật độ ra vào lớn như sảnh tòa nhà, khách sạn, trung tâm thương mại, chung cư và văn phòng.
+            - paragraph [ref=f18e257]:
+              - emphasis [ref=f18e258]: Nhờ thiết kế hiện đại, khả năng vận hành êm ái, linh hoạt nhiều chế độ và tích hợp các tính năng an toàn, cửa tự động Eurowindow góp phần hoàn thiện không gian kiến trúc theo hướng thông minh, sang trọng và hiệu quả hơn.
+            - paragraph [ref=f18e259]:
+              - emphasis [ref=f18e260]:
+                - strong [ref=f18e261]: "Liên hệ Eurowindow để nhận tư vấn và báo giá miễn phí:"
+            - list [ref=f18e262]:
+              - listitem [ref=f18e263]:
+                - emphasis [ref=f18e264]: "Miền Bắc:"
+                - emphasis [ref=f18e265]:
+                  - strong [ref=f18e266]: 0909 888 000
+              - listitem [ref=f18e267]:
+                - emphasis [ref=f18e268]: "Miền Trung:"
+                - emphasis [ref=f18e269]:
+                  - strong [ref=f18e270]: 0906 000 111
+              - listitem [ref=f18e271]:
+                - emphasis [ref=f18e272]: "Miền Nam:"
+                - emphasis [ref=f18e273]:
+                  - strong [ref=f18e274]: 0903 11 8888
+              - listitem [ref=f18e275]:
+                - emphasis [ref=f18e276]: "Website:"
+                - emphasis [ref=f18e277]:
+                  - strong [ref=f18e278]: www.eurowindow.biz
+          - link "Xem thêm" [ref=f18e279] [cursor=pointer]:
+            - /url: javascript:;
+        - generic [ref=f18e282]:
+          - img "callcenter-1" [ref=f18e284]
+          - generic [ref=f18e285]:
+            - paragraph [ref=f18e286]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+            - generic [ref=f18e287]:
+              - generic [ref=f18e288]:
+                - textbox "Họ và tên" [ref=f18e290]:
+                  - /placeholder: Họ và tên *
+                - textbox "Số điện thoại" [ref=f18e292]:
+                  - /placeholder: Số điện thoại *
+                - textbox "Email" [ref=f18e294]:
+                  - /placeholder: Email *
+              - textbox "Lời nhắn tới Eurowindow" [ref=f18e296]
+              - button "Gửi" [ref=f18e298] [cursor=pointer]
+      - generic [ref=f18e302]:
+        - generic [ref=f18e303]:
+          - img "logo-ngang-xanh-13" [ref=f18e305]
+          - paragraph [ref=f18e307]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+        - generic [ref=f18e309]:
+          - generic [ref=f18e310]:
+            - textbox "Họ và tên *" [ref=f18e312]
+            - textbox "Số điện thoại *" [ref=f18e314]
+            - textbox "Email *" [ref=f18e316]
+          - textbox "Lời nhắn tới Eurowindow" [ref=f18e318]
+          - button "Gửi" [ref=f18e320] [cursor=pointer]
+  - contentinfo [ref=f18e321]:
+    - generic [ref=f18e323]:
+      - generic [ref=f18e324]:
+        - link [ref=f18e326] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f18e327]
+        - generic [ref=f18e328]:
+          - link "Facebook" [ref=f18e329] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f18e330]
+          - link "Instagram" [ref=f18e331] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f18e332]
+          - link "Youtube" [ref=f18e333] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f18e334]
+          - link "Zalo" [ref=f18e335] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f18e336]
+          - link "Tiktok" [ref=f18e337] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f18e341] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f18e345] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f18e349]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f18e352] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f18e353]:
+          - link "Bộ Công Thương" [ref=f18e354] [cursor=pointer]:
+            - /url: javascript:;
+            - img "Bộ Công Thương" [ref=f18e355]
+          - link "DMCA Protection Status" [ref=f18e356] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f18e357]
+      - generic [ref=f18e358]:
+        - generic [ref=f18e359]: Giới thiệu
+        - list [ref=f18e360]:
+          - listitem [ref=f18e361]:
+            - link "Giới thiệu" [ref=f18e362] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f18e363]:
+            - link "Tầm nhìn sứ mệnh" [ref=f18e364] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f18e365]:
+            - link "Giải thưởng" [ref=f18e366] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f18e367]:
+            - link "Tài liệu" [ref=f18e368] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f18e369]:
+        - generic [ref=f18e370]: Sản phẩm
+        - list [ref=f18e371]:
+          - listitem [ref=f18e372]:
+            - link "Cửa - Vách nhôm" [ref=f18e373] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f18e374]:
+            - link "Cửa uPVC" [ref=f18e375] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f18e376]:
+            - link "Cửa gỗ" [ref=f18e377] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f18e378]:
+            - link "Cửa cuốn" [ref=f18e379] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f18e380]:
+            - link "Cửa thông minh" [ref=f18e381] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f18e382]:
+        - generic [ref=f18e383]: Tin tức
+        - list [ref=f18e384]:
+          - listitem [ref=f18e385]:
+            - link "Tin tức sự kiện" [ref=f18e386] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f18e387]:
+            - link "Tin dự án" [ref=f18e388] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f18e389]:
+            - link "Tin nội bộ" [ref=f18e390] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f18e391]:
+            - link "Tin khuyến mãi" [ref=f18e392] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f18e393]:
+            - link "Tư vấn" [ref=f18e394] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f18e395]:
+        - generic [ref=f18e396]: Chăm sóc khách hàng
+        - list [ref=f18e397]:
+          - listitem [ref=f18e398]:
+            - link "Chính sách bảo hành" [ref=f18e399] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f18e400]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f18e401] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f18e402]:
+            - link "(84 - 24) 37 47 47 00" [ref=f18e403] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f18e406]:
+            - link "cskhhn@eurowindow.biz" [ref=f18e407] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f18e410]: Dự án quốc tế và xuất khẩu
+          - list [ref=f18e411]:
+            - listitem [ref=f18e412]:
+              - link "+84 -903 41 55 52" [ref=f18e413] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f18e416]:
+              - link "export@eurowindow.biz" [ref=f18e417] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f18e422]:
+      - generic [ref=f18e423]:
+        - paragraph
+        - paragraph
+      - generic [ref=f18e424]:
+        - paragraph
+        - paragraph [ref=f18e425]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f18e431] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f18e432]

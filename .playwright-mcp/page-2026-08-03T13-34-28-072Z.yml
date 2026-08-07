@@ -1,0 +1,164 @@
+- generic [active] [ref=f46e1]:
+  - generic [ref=f46e2]:
+    - banner [ref=f46e3]:
+      - generic [ref=f46e4]:
+        - link "Eurowindow" [ref=f46e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f46e6]
+        - navigation "Main navigation" [ref=f46e7]:
+          - link "Home" [ref=f46e8] [cursor=pointer]:
+            - /url: /en
+          - link "About us" [ref=f46e10] [cursor=pointer]:
+            - /url: /en/about
+          - link "Projects" [ref=f46e14] [cursor=pointer]:
+            - /url: /en/projects
+          - link "Products" [ref=f46e18] [cursor=pointer]:
+            - /url: /en/products
+          - link "News" [ref=f46e22] [cursor=pointer]:
+            - /url: /en/news
+          - generic "Language selector" [ref=f46e23]:
+            - link [ref=f46e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f46e25]
+            - link [ref=f46e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f46e27]
+        - link "Contact now" [ref=f46e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f46e30]:
+      - generic [ref=f46e31]:
+        - img "ALUMINIUM DOORS & LARGE PARTITIONS" [ref=f46e32]
+        - generic [ref=f46e34]:
+          - heading "ALUMINIUM DOORS & LARGE PARTITIONS" [level=1] [ref=f46e35]
+          - paragraph [ref=f46e36]: Aluminium door and large glass partition systems in EA55–EA95i profiles with genuine Cmech, Roto and Hafele hardware. High airtightness and multi-directional opening meet demanding design requirements while bearing high wind load for large projects.
+          - navigation "Breadcrumb" [ref=f46e37]:
+            - link "Home" [ref=f46e38] [cursor=pointer]:
+              - /url: /en
+            - generic [ref=f46e39]: /
+            - link "Products" [ref=f46e40] [cursor=pointer]:
+              - /url: /en/products
+            - generic [ref=f46e41]: /
+            - generic [ref=f46e42]: ALUMINIUM DOORS
+      - generic [ref=f46e44]:
+        - generic [ref=f46e45]:
+          - img "ALUMINIUM DOORS & LARGE PARTITIONS" [ref=f46e47]
+          - generic [ref=f46e49]:
+            - heading "ALUMINIUM DOORS & LARGE PARTITIONS" [level=2] [ref=f46e50]
+            - paragraph [ref=f46e51]: Aluminium door and large glass partition systems in EA55–EA95i profiles with genuine Cmech, Roto and Hafele hardware. High airtightness and multi-directional opening meet demanding design requirements while bearing high wind load for large projects.
+            - list [ref=f46e52]:
+              - listitem [ref=f46e53]: "Multi-directional opening: side-hung, top-hung, turn-tilt, folding-sliding, sliding"
+              - listitem [ref=f46e56]: EA55–EA95i profiles with genuine Cmech, Roto, Hafele hardware
+              - listitem [ref=f46e59]: High wind-load capacity for large-scale glazed facades
+            - generic [ref=f46e62]:
+              - generic [ref=f46e63]:
+                - paragraph [ref=f46e64]: "7"
+                - paragraph [ref=f46e65]: systems
+              - generic [ref=f46e66]:
+                - paragraph [ref=f46e67]: "6"
+                - paragraph [ref=f46e68]: advantages
+              - generic [ref=f46e69]:
+                - paragraph [ref=f46e70]: 5+
+                - paragraph [ref=f46e71]: years warranty
+            - link "Request a quote" [ref=f46e72] [cursor=pointer]:
+              - /url: "#lien-he"
+        - generic [ref=f46e75]:
+          - generic [ref=f46e76]:
+            - generic [ref=f46e77]:
+              - paragraph [ref=f46e78]: Introduction
+              - generic [ref=f46e79]:
+                - paragraph [ref=f46e80]: Eurowindow aluminium doors and large glass partitions are manufactured from premium aluminium profiles (EA55–EA95i) with genuine European hardware from Cmech, Roto and Hafele. The multi-chambered thermal-break profiles combined with gas-fill insulating glass units minimise thermal transfer while maximising light transmittance.
+                - paragraph [ref=f46e81]: Eurowindow collaborates with leading aluminium profile suppliers worldwide — Technal (France), Schüco (Germany) — and operates in-house powder-coating (Powdercoating) and PVDF paint lines allowing panel finishing up to 2.5m × 2.5m × 6m, with wastewater treatment meeting A-Grade standards.
+            - generic [ref=f46e82]:
+              - paragraph [ref=f46e83]: Structure & technology
+              - generic [ref=f46e84]:
+                - generic [ref=f46e85]:
+                  - heading "Profile bar" [level=3] [ref=f46e86]
+                  - paragraph [ref=f46e87]: Profile bars feature thermal-break or standard chambers with reinforcing ribs, engineered drainage channels and acoustic/thermal cavity design.
+                - generic [ref=f46e88]:
+                  - heading "Insulating glass unit" [level=3] [ref=f46e89]
+                  - paragraph [ref=f46e90]: Combined with argon-fill IGUs, EPDM gaskets and synchronised metal hardware for superior acoustic and thermal performance.
+                - generic [ref=f46e91]:
+                  - heading "Hardware system" [level=3] [ref=f46e92]
+                  - paragraph [ref=f46e93]: Genuine European hardware from Cmech, Roto, Hafele, Huy Hoang, GMT, Kinlong ensuring precision and safety in operation.
+          - generic [ref=f46e94]:
+            - paragraph [ref=f46e95]: Outstanding features
+            - generic [ref=f46e96]:
+              - generic [ref=f46e97]:
+                - heading "Acoustic & thermal insulation" [level=3] [ref=f46e98]
+                - paragraph [ref=f46e101]: Thermal-break aluminium profiles combined with IGUs, EPDM gaskets and synchronised hardware deliver superior acoustic and thermal performance — especially in the thermal-break series.
+              - generic [ref=f46e102]:
+                - heading "High structural strength" [level=3] [ref=f46e103]
+                - paragraph [ref=f46e106]: Hollow-chamber profile design with reinforcing ribs and optimised aluminium thickness withstands wind, storm and seismic forces.
+              - generic [ref=f46e107]:
+                - heading "Lightweight load" [level=3] [ref=f46e108]
+                - paragraph [ref=f46e111]: Aluminium is lightweight yet high-strength, reducing overall building load compared to solid wall materials for safer design.
+              - generic [ref=f46e112]:
+                - heading "Cost-effective operation" [level=3] [ref=f46e113]
+                - paragraph [ref=f46e116]: Acoustic/thermal IGUs and safety glass reduce air-conditioning energy; powder-coated surfaces are durable and easy to maintain.
+              - generic [ref=f46e117]:
+                - heading "Aesthetic appeal" [level=3] [ref=f46e118]
+                - paragraph [ref=f46e121]: Hidden-load-bearing frame system creates large flat glass surfaces; suitable for coloured, decorative and frosted glass for both privacy and aesthetics.
+              - generic [ref=f46e122]:
+                - heading "Quality standards" [level=3] [ref=f46e123]
+                - paragraph [ref=f46e126]: Meets European standards and TCVN 330:2004, TCVN 7452-1/2/3:2004 (airtightness, water tightness, wind pressure resistance), ISO 140-5 for acoustics.
+          - generic [ref=f46e127]:
+            - paragraph [ref=f46e128]: Product systems
+            - list [ref=f46e129]:
+              - listitem [ref=f46e130]: Aluminium entry doors
+              - listitem [ref=f46e133]: Aluminium windows
+              - listitem [ref=f46e136]: Large aluminium glass partitions (Stick system)
+              - listitem [ref=f46e139]: Spider glass partitions
+              - listitem [ref=f46e142]: Semi-unitized glass partitions
+              - listitem [ref=f46e145]: Unitized large glass partitions
+              - listitem [ref=f46e148]: Canopy roofs
+      - generic [ref=f46e152]:
+        - generic [ref=f46e153]:
+          - heading "Related products" [level=2] [ref=f46e154]
+          - link "View all" [ref=f46e155] [cursor=pointer]:
+            - /url: /en/products
+        - generic [ref=f46e158]:
+          - link [ref=f46e159] [cursor=pointer]:
+            - /url: /en/products/cua-upvc
+            - img "EUROPEAN-STANDARD uPVC DOORS" [ref=f46e161]
+            - generic [ref=f46e163]:
+              - heading "EUROPEAN-STANDARD uPVC DOORS" [level=3] [ref=f46e164]
+              - paragraph [ref=f46e165]: uPVC DOORS
+          - link [ref=f46e166] [cursor=pointer]:
+            - /url: /en/products/cua-go
+            - img "WOODEN & FIRE-RESISTANT DOORS" [ref=f46e168]
+            - generic [ref=f46e170]:
+              - heading "WOODEN & FIRE-RESISTANT DOORS" [level=3] [ref=f46e171]
+              - paragraph [ref=f46e172]: WOODEN & FIRE-RESISTANT DOORS
+          - link [ref=f46e173] [cursor=pointer]:
+            - /url: /en/products/san-pham-kinh
+            - img "PREMIUM GLASS PRODUCTS" [ref=f46e175]
+            - generic [ref=f46e177]:
+              - heading "PREMIUM GLASS PRODUCTS" [level=3] [ref=f46e178]
+              - paragraph [ref=f46e179]: GLASS PRODUCTS
+    - contentinfo [ref=f46e180]:
+      - generic [ref=f46e181]:
+        - generic [ref=f46e182]:
+          - link "Eurowindow" [ref=f46e183] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f46e184]
+          - paragraph [ref=f46e185]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f46e186]:
+          - heading "Contact" [level=2] [ref=f46e187]
+          - generic [ref=f46e188]:
+            - paragraph [ref=f46e189]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f46e190]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f46e191]: infoew@eurowindow.biz
+        - generic [ref=f46e192]:
+          - heading "Explore" [level=2] [ref=f46e193]
+          - generic [ref=f46e194]:
+            - link "About us" [ref=f46e195] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f46e196] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f46e197] [cursor=pointer]:
+              - /url: /en/products
+            - link "News" [ref=f46e198] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f46e199]: © 2026 Eurowindow. All rights reserved.
+  - button "Mở chat Eurowindow" [ref=f46e200]
+  - button "Open Next.js Dev Tools" [ref=f46e208] [cursor=pointer]

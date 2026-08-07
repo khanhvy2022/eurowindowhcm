@@ -1,0 +1,561 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]: VN
+          - listitem [ref=e9]: ENG
+        - generic [ref=e11]:
+          - textbox "Tìm kiếm..." [ref=e12]
+          - button "Tìm kiếm" [ref=e13] [cursor=pointer]
+      - link [ref=e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=e18]
+      - link "Nhận tư vấn" [ref=e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=e24]:
+      - listitem [ref=e25]:
+        - link "GIỚI THIỆU" [ref=e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=e27]:
+        - link "SẢN PHẨM" [ref=e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=e31]:
+        - link "SHOWROOM" [ref=e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=e37]:
+        - link "TÀI LIỆU" [ref=e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=e39]:
+        - link "TIN TỨC" [ref=e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=e43]:
+        - link "CHÍNH SÁCH" [ref=e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=e47]:
+        - link "LIÊN HỆ" [ref=e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=e49]:
+    - generic [ref=e52]:
+      - heading "CỬA SỔ" [level=1] [ref=e54]
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - link "Trang chủ" [ref=e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=e59]:
+          - link "CỬA NHÔM" [ref=e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-vach-nhom
+          - text: /
+        - listitem [ref=e61]:
+          - link "CỬA SỔ" [ref=e62] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - combobox [ref=e70] [cursor=pointer]
+            - combobox [ref=e73] [cursor=pointer]:
+              - textbox "Hệ/Loại sản phẩm" [ref=e74]
+          - listitem [ref=e75]:
+            - combobox [ref=e76] [cursor=pointer]
+            - combobox [ref=e79] [cursor=pointer]:
+              - textbox "Kiểu dáng" [ref=e80]
+          - listitem [ref=e81]:
+            - combobox [ref=e82] [cursor=pointer]
+            - combobox [ref=e85] [cursor=pointer]:
+              - textbox "Màu sắc" [ref=e86]
+          - listitem [ref=e87]:
+            - combobox [ref=e88] [cursor=pointer]
+            - combobox [ref=e91] [cursor=pointer]:
+              - textbox "Loại kính" [ref=e92]
+          - listitem [ref=e93]:
+            - combobox [ref=e94] [cursor=pointer]
+            - combobox [ref=e97] [cursor=pointer]:
+              - textbox "Phụ kiện" [ref=e98]
+          - listitem [ref=e99]:
+            - generic [ref=e100]:
+              - textbox "Tìm kiếm..." [ref=e101]
+              - button [ref=e102] [cursor=pointer]
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - link [ref=e110] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-1-canh-mo-quay-trong.html
+              - img "untitled-3" [ref=e112]
+            - link [ref=e114] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-1-canh-mo-quay-trong.html
+              - heading "CỬA SỔ NHÔM 1 CÁNH MỞ QUAY TRONG" [level=2] [ref=e115]
+          - generic [ref=e116]:
+            - link [ref=e118] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-2-canh-mo-quay-trong.html
+              - img "untitled-3-2" [ref=e120]
+            - link [ref=e122] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-2-canh-mo-quay-trong.html
+              - heading "CỬA SỔ NHÔM 2 CÁNH MỞ QUAY TRONG" [level=2] [ref=e123]
+          - generic [ref=e124]:
+            - link [ref=e126] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-1-canh-mo-quay-ngoai.html
+              - img "1-11" [ref=e128]
+            - link [ref=e130] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-1-canh-mo-quay-ngoai.html
+              - heading "CỬA SỔ NHÔM 1 CÁNH MỞ QUAY NGOÀI" [level=2] [ref=e131]
+          - generic [ref=e132]:
+            - link [ref=e134] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-2-canh-mo-quay-ngoai.html
+              - img "untitled-3-1" [ref=e136]
+            - link [ref=e138] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-2-canh-mo-quay-ngoai.html
+              - heading "CỬA SỔ NHÔM 2 CÁNH MỞ QUAY NGOÀI" [level=2] [ref=e139]
+          - generic [ref=e140]:
+            - link [ref=e142] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-2-canh-mo-truot.html
+              - img "1-9" [ref=e144]
+            - link [ref=e146] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-2-canh-mo-truot.html
+              - heading "CỬA SỔ NHÔM 2 CÁNH MỞ TRƯỢT" [level=2] [ref=e147]
+          - generic [ref=e148]:
+            - link [ref=e150] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-mo-hat.html
+              - img "3-12" [ref=e152]
+            - link [ref=e154] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-mo-hat.html
+              - heading "CỬA SỔ NHÔM MỞ HẤT" [level=2] [ref=e155]
+          - generic [ref=e156]:
+            - link [ref=e158] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-mo-quay-lat-trong.html
+              - img "anh1-1" [ref=e160]
+            - link [ref=e162] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom/cua-so-nhom/cua-so-nhom-mo-quay-lat-trong.html
+              - heading "CỬA SỔ NHÔM MỞ QUAY LẬT TRONG" [level=2] [ref=e163]
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - paragraph [ref=e166]:
+              - emphasis [ref=e167]: Với hơn 20 năm tiên phong tiêu chuẩn Châu Âu tại Việt Nam, Eurowindow cung cấp hệ
+              - emphasis [ref=e168]:
+                - strong [ref=e169]: cửa sổ nhôm
+              - emphasis [ref=e170]: gồm cả dòng không cầu cách nhiệt và dòng có cầu cách nhiệt, kết hợp hộp kính bơm khí trơ Argon để hạn chế truyền nhiệt và tiết kiệm điện năng. Sản phẩm đã có mặt tại nhiều công trình lớn như Sân bay Quốc tế Nội Bài (T2), Vietcombank Tower và các tòa nhà cao tầng trên cả nước.
+            - heading "1. Ưu điểm vượt trội của cửa sổ nhôm Eurowindow" [level=2] [ref=e171]
+            - paragraph [ref=e172]:
+              - text: Bên cạnh những ưu điểm chung của vật liệu nhôm,
+              - strong [ref=e173]: cửa sổ nhôm
+              - text: Eurowindow còn có nhiều thế mạnh riêng về công nghệ bề mặt, cách âm, cách nhiệt và khả năng tùy biến cho từng công trình.
+            - heading "1.1. Độ bền cao, không cong vênh, không oxy hóa" [level=3] [ref=e174]
+            - paragraph [ref=e175]: Khác với cửa gỗ hay cửa sắt, khung nhôm không cong vênh, không oxy hóa và chịu được điều kiện thời tiết nắng mưa tại Việt Nam. Nhờ đó, cửa sổ nhôm giữ được hình dáng và độ kín khít ổn định suốt vòng đời sử dụng, phù hợp với khí hậu nóng ẩm, mưa nhiều tại Việt Nam.
+            - paragraph [ref=e176]: "Điểm khác biệt của Eurowindow nằm ở khâu xử lý bề mặt: profile nhôm được xử lý qua dây chuyền sơn tĩnh điện (Powder Coating) đạt chuẩn Tiger, Interpon D (AkzoNobel) và sơn nước PVDF theo tiêu chuẩn công nghiệp PPG, kết hợp dây chuyền sơn Jotun."
+            - paragraph [ref=e177]: Các chuẩn sơn này đều đạt chứng nhận bảo hành màu sắc lên tới 30 năm (tiêu chuẩn AAMA2605-05), giúp bề mặt cửa không bạc màu, không bong tróc dù lắp đặt ở mặt tiền hướng nắng gắt hay khu vực gần biển.
+            - img "Cửa sổ nhôm Eurowindow bền chắc, không cong vênh, bền màu theo thời gian" [ref=e179]
+            - paragraph [ref=e180]:
+              - emphasis [ref=e181]: Cửa sổ nhôm Eurowindow bền chắc, không cong vênh, bền màu theo thời gian
+            - heading "1.2. Cách âm, cách nhiệt tốt với hệ có cầu cách nhiệt" [level=3] [ref=e182]
+            - paragraph [ref=e183]: Ở các hệ có cầu cách nhiệt, lõi Polyamide đặt giữa thanh nhôm giúp cắt cầu nhiệt, hạn chế truyền nhiệt qua khung cửa. Khi kết hợp với hộp kính bơm khí trơ Argon, hệ cửa nâng cao rõ rệt khả năng cách âm và cách nhiệt. Tùy cấu hình, hệ EA60i đạt cách âm khoảng 33 đến 44dB, còn dòng thế hệ mới EA68i lên tới 47dB. Đây là lựa chọn phù hợp cho phòng ngủ, khách sạn và nhà gần trục giao thông cần sự yên tĩnh.
+            - img "Cửa sổ nhôm có cầu cách nhiệt kết hợp kính hộp cho khả năng cách âm tốt" [ref=e185]
+            - paragraph [ref=e186]:
+              - emphasis [ref=e187]: Cửa sổ nhôm có cầu cách nhiệt kết hợp kính hộp cho khả năng cách âm tốt
+            - heading "1.3. Tiết kiệm năng lượng, tiết kiệm điện cho công trình" [level=3] [ref=e188]
+            - paragraph [ref=e189]: Cửa sổ nhôm có cầu cách nhiệt giảm đáng kể lượng nhiệt truyền qua khung và kính so với hệ không cầu, nhờ đó nhiệt độ trong nhà ổn định hơn khi thời tiết nắng nóng hoặc lạnh sâu. Điều này làm giảm tải cho hệ thống điều hòa, từ đó tiết kiệm điện năng trong quá trình sử dụng, phù hợp với các công trình sử dụng nhiều diện tích kính như căn hộ cao tầng, biệt thự có mặt kính lớn, văn phòng,...
+            - img "Cửa sổ nhôm cách nhiệt giúp giảm tải điều hòa và tiết kiệm điện" [ref=e191]
+            - paragraph [ref=e192]:
+              - emphasis [ref=e193]: Cửa sổ nhôm cách nhiệt giúp giảm tải điều hòa và tiết kiệm điện
+            - heading "1.4. Lấy sáng, thông gió linh hoạt nhờ đa dạng kiểu mở" [level=3] [ref=e194]
+            - paragraph [ref=e195]: "Cửa sổ nhôm Eurowindow được thiết kế với nhiều kiểu mở để tối ưu lấy sáng và thông gió theo từng vị trí lắp đặt như: mở quay (trong hoặc ngoài) cho độ kín khít cao, mở quay lật kết hợp thông gió nhẹ mà vẫn ngăn mưa hắt, mở hất phù hợp vị trí cao khó với tay, và mở trượt tiết kiệm diện tích thao tác."
+            - paragraph [ref=e196]: Việc lựa chọn đúng kiểu mở theo từng không gian như mở hất cho phòng vệ sinh, mở quay lật cho phòng ngủ, mở trượt cho ban công diện tích hẹp,... giúp công trình vừa đảm bảo lưu thông không khí tự nhiên, vừa hạn chế rủi ro va chạm cánh cửa trong sinh hoạt hàng ngày.
+            - img "Cửa sổ nhôm nhiều kiểu mở giúp lấy sáng và thông gió linh hoạt" [ref=e198]
+            - paragraph [ref=e199]:
+              - emphasis [ref=e200]: Cửa sổ nhôm nhiều kiểu mở giúp lấy sáng và thông gió linh hoạt
+            - heading "1.5. Đa dạng màu sắc, loại kính, phụ kiện" [level=3] [ref=e201]
+            - paragraph [ref=e202]: Hệ cửa sổ nhôm Eurowindow có nhiều tùy chọn màu sơn như trắng, trắng bóng, các tông xám sần và vân gỗ dạng laminate, cho phép phối hợp với nhiều phong cách kiến trúc từ hiện đại tối giản đến cổ điển.
+            - paragraph [ref=e203]: Sản phẩm hỗ trợ cả kính đơn và kính hộp, có hoặc không có nan trang trí bên trong, cùng nhiều dòng phụ kiện tiêu chuẩn như Roto, Cmech, Hafele, Kinlong và GMT. Nhờ vậy, hệ cửa dễ dàng may đo theo từng phong cách kiến trúc và mức ngân sách.
+            - img "Cửa sổ nhôm đa dạng màu sơn, loại kính và phụ kiện" [ref=e205]
+            - paragraph [ref=e206]:
+              - emphasis [ref=e207]: Cửa sổ nhôm đa dạng màu sơn, loại kính và phụ kiện
+            - heading "2. Các hệ cửa sổ nhôm của Eurowindow" [level=2] [ref=e208]
+            - paragraph [ref=e209]: Eurowindow phát triển nhiều hệ profile cửa sổ nhôm, chia thành hai nhóm chính theo khả năng cách nhiệt để phù hợp với từng nhu cầu và ngân sách. Hệ không cầu cách nhiệt phù hợp ngân sách phổ thông và hệ có cầu cách nhiệt dành cho công trình yêu cầu cao về cách âm, cách nhiệt.
+            - heading "2.1. Hệ cửa sổ nhôm không cầu cách nhiệt" [level=3] [ref=e210]
+            - paragraph [ref=e211]: Các sản phẩm cửa sổ nhôm dùng hệ không cầu cách nhiệt có giá thành hợp lý, dễ lắp đặt và phù hợp với phần lớn công trình dân dụng, thương mại thông thường. Tuy nhiên, nhược điểm chung là khả năng cách âm, cách nhiệt không bằng nhóm có cầu cách nhiệt.
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - strong [ref=e214]: "EA55:"
+                - text: Dùng cho cửa sổ mở quay, mở quay lật, độ cách âm tiêu chuẩn khoảng 32dB; profile cánh bo cong, dễ vệ sinh.
+              - listitem [ref=e215]:
+                - strong [ref=e216]: "EA65:"
+                - text: Thế hệ mới phát triển từ EA55, profile rộng 65mm (tăng khoảng 18% so với EA55), thiết kế phẳng mặt khi đóng giúp ít bám bụi và tăng tính thẩm mỹ; đạt độ kín khí Class 3, độ kín nước Class 9, cách âm tối đa 33dB.
+              - listitem [ref=e217]:
+                - strong [ref=e218]: "EA70:"
+                - text: Chuyên dùng cho cửa sổ mở trượt, độ cách âm khoảng 27dB, thao tác đóng mở nhẹ nhàng, tiết kiệm diện tích thi công.
+              - listitem [ref=e219]:
+                - strong [ref=e220]: "EA90:"
+                - text: Dùng cho hệ cửa sổ mở trượt khổ lớn, thường dùng cho cửa đi kết hợp cửa sổ tại các mặt tiền cần tầm nhìn rộng.
+            - heading "2.2. Hệ cửa sổ nhôm có cầu cách nhiệt" [level=3] [ref=e221]
+            - paragraph [ref=e222]: "Nhóm hệ có cầu cách nhiệt trang bị lõi Polyamide ngăn cách hai lớp nhôm trong - ngoài, cho khả năng cách âm và cách nhiệt vượt trội so với hệ không cầu, phù hợp công trình cao cấp hoặc khu vực nhiều tiếng ồn. Các mã sản phẩm tiêu biểu:"
+            - list [ref=e223]:
+              - listitem [ref=e224]:
+                - strong [ref=e225]: "EA60i:"
+                - text: Dùng cho cửa sổ mở quay, mở hất, cách âm dao động 33 - 44dB tùy cấu hình kính, kính hộp lắp được tới 41mm.
+              - listitem [ref=e226]:
+                - strong [ref=e227]: "EA68i:"
+                - text: Cải tiến với cầu cách nhiệt Polyamide rộng 24mm (tăng khoảng 50% so với hệ EA60i), profile 68mm, thiết kế 3 tầng gioăng cùng gioăng giữa cải tiến giúp tăng độ kín khí (Class 3) và kín nước (Class 9); cách âm tối đa tới 47dB, lắp được kính dày đến 49mm, phù hợp biệt thự, căn hộ cao cấp, khách sạn và công trình thương mại yêu cầu cao về hiệu suất năng lượng.
+              - listitem [ref=e228]:
+                - strong [ref=e229]: "EA95Wi:"
+                - text: Dùng cho cửa sổ mở trượt khổ lớn có cầu cách nhiệt, kính hộp lên tới 41mm, phù hợp vị trí cần tầm nhìn rộng mà vẫn giữ khả năng cách âm tốt.
+            - img "Cửa sổ nhôm hệ có cầu cách nhiệt, cách âm và cách nhiệt vượt trội" [ref=e231]
+            - paragraph [ref=e232]:
+              - emphasis [ref=e233]: Cửa sổ nhôm hệ có cầu cách nhiệt, cách âm và cách nhiệt vượt trội
+            - heading "3. Các loại cửa sổ nhôm Eurowindow theo kiểu mở" [level=2] [ref=e234]
+            - paragraph [ref=e235]: Cửa sổ nhôm Eurowindow còn có nhiều kiểu mở khác nhau, phù hợp với từng vị trí lắp đặt và nhu cầu sử dụng thực tế của công trình, từ lấy sáng, thông gió đến chống chịu thời tiết khắc nghiệt.
+            - 'heading "3.1. Cửa sổ nhôm mở quay (trong/ngoài): Kín khít, cách âm tốt" [level=3] [ref=e236]'
+            - paragraph [ref=e237]: Cửa sổ mở quay đóng kín khít nhờ hệ chốt và gioăng bao quanh, nên cách âm, cách nhiệt và chống thấm tốt hơn cửa trượt. Khách hàng có thể chọn hướng mở vào trong để dễ lau chùi, hoặc mở ra ngoài để không chiếm diện tích trong phòng. Mỗi hướng mở đều có loại một cánh và hai cánh, phù hợp cho phòng ngủ, phòng khách và mặt tiền công trình.
+            - list [ref=e238]:
+              - listitem [ref=e239]:
+                - strong [ref=e240]: Cửa sổ nhôm 1 cánh mở quay trong
+                - text: ": gọn gàng, phù hợp ô cửa vừa và nhỏ, dễ thao tác và vệ sinh."
+              - listitem [ref=e241]:
+                - strong [ref=e242]: Cửa sổ nhôm 2 cánh mở quay trong
+                - text: ": khẩu độ rộng hơn, lấy sáng và thông gió tốt cho phòng khách, phòng ngủ."
+              - listitem [ref=e243]:
+                - strong [ref=e244]: Cửa sổ nhôm 1 cánh mở quay ngoài
+                - text: ": mở ra ngoài, không chiếm diện tích trong phòng."
+              - listitem [ref=e245]:
+                - strong [ref=e246]: Cửa sổ nhôm 2 cánh mở quay ngoài
+                - text: ": khẩu độ lớn, phù hợp vị trí cần tối ưu không gian bên trong."
+            - img "Cửa sổ nhôm mở quay đóng kín khít, cách âm và chống thấm tốt" [ref=e248]
+            - paragraph [ref=e249]:
+              - emphasis [ref=e250]: Cửa sổ nhôm mở quay đóng kín khít, cách âm và chống thấm tốt
+            - 'heading "3.2. Cửa sổ mở trượt lùa: An toàn trước gió bão, tiết kiệm diện tích" [level=3] [ref=e251]'
+            - paragraph [ref=e252]: Cửa sổ mở trượt vận hành bằng cách di chuyển cánh theo phương ngang trên ray, giúp tiết kiệm không gian khi đóng mở và hạn chế tình trạng va đập do gió mạnh so với cửa mở quay, phù hợp với các khu vực miền Trung, ven biển, khu vực thường xuyên chịu ảnh hưởng bão. Kiểu mở này cũng tối ưu diện tích sử dụng cho ban công, hành lang hẹp vì không cần chừa khoảng trống cho cánh cửa xoay ra.
+            - img "Cửa sổ nhôm mở trượt tiết kiệm diện tích, an toàn trước gió lớn" [ref=e254]
+            - paragraph [ref=e255]:
+              - emphasis [ref=e256]: Cửa sổ nhôm mở trượt tiết kiệm diện tích, an toàn trước gió lớn
+            - 'heading "3.3. Cửa sổ mở hất và mở quay lật: Giải pháp thông minh cho mùa mưa" [level=3] [ref=e257]'
+            - paragraph [ref=e258]: Cửa sổ mở hất và cửa sổ mở quay lật trong đều là những giải pháp hiện đại, được ưa chuộng nhờ khả năng thông gió hiệu quả và tính linh hoạt trong sử dụng.
+            - list [ref=e259]:
+              - listitem [ref=e260]:
+                - strong [ref=e261]: Cửa sổ nhôm mở hất
+                - text: ": Có đặc điểm cánh mở ra ngoài theo góc nghiêng, giúp tạo khe thoáng phía dưới, vừa đón gió tự nhiên vừa hạn chế nước mưa hắt vào bên trong."
+              - listitem [ref=e262]:
+                - strong [ref=e263]: Cửa sổ nhôm mở quay lật trong
+                - text: ": Có thể mở theo hai chế độ: mở quay toàn phần hoặc lật nghiêng phần trên, cho phép điều chỉnh mức độ thông gió linh hoạt."
+            - paragraph [ref=e264]: Ưu điểm chung của hai loại cửa này là tăng cường lưu thông không khí, đảm bảo an toàn, phù hợp với nhiều không gian như nhà ở, căn hộ cao tầng hoặc văn phòng, đồng thời góp phần nâng cao tính thẩm mỹ và tiện nghi cho công trình.
+            - img "Cửa sổ nhôm mở quay lật thông gió tốt cả khi trời mưa" [ref=e266]
+            - paragraph [ref=e267]:
+              - emphasis [ref=e268]: Cửa sổ nhôm mở quay lật thông gió tốt cả khi trời mưa
+            - heading "3. Giá cửa sổ nhôm Eurowindow" [level=2] [ref=e269]
+            - paragraph [ref=e270]: "Giá cửa sổ nhôm phụ thuộc vào hệ nhôm, loại kính, kích thước, màu sơn và phụ kiện đi kèm. Dưới đây là các mức giá tham khảo, chưa bao gồm VAT và có thể thay đổi theo thời điểm, khu vực lắp đặt:"
+            - table [ref=e271]:
+              - rowgroup [ref=e272]:
+                - row [ref=e273]:
+                  - cell [ref=e274]:
+                    - paragraph [ref=e275]:
+                      - strong [ref=e276]: Hệ nhôm
+                  - cell [ref=e277]:
+                    - paragraph [ref=e278]:
+                      - strong [ref=e280]: Cầu cách nhiệt
+                  - cell [ref=e281]:
+                    - paragraph [ref=e282]:
+                      - strong [ref=e284]: Kiểu mở phù hợp
+                  - cell [ref=e285]:
+                    - paragraph [ref=e286]:
+                      - strong [ref=e288]: Giá tham khảo (triệu đồng/m²)
+                - row [ref=e289]:
+                  - cell [ref=e290]:
+                    - paragraph [ref=e291]: EA70
+                  - cell [ref=e292]:
+                    - paragraph [ref=e293]: Không cầu
+                  - cell [ref=e294]:
+                    - paragraph [ref=e295]: Mở trượt
+                  - cell [ref=e296]:
+                    - paragraph [ref=e297]: ~3,1
+                - row [ref=e298]:
+                  - cell [ref=e299]:
+                    - paragraph [ref=e300]: EA90
+                  - cell [ref=e301]:
+                    - paragraph [ref=e302]: Không cầu
+                  - cell [ref=e303]:
+                    - paragraph [ref=e304]: Mở trượt
+                  - cell [ref=e305]:
+                    - paragraph [ref=e306]: ~3,6
+                - row [ref=e307]:
+                  - cell [ref=e308]:
+                    - paragraph [ref=e309]: EA55
+                  - cell [ref=e310]:
+                    - paragraph [ref=e311]: Không cầu
+                  - cell [ref=e312]:
+                    - paragraph [ref=e313]: Mở quay, mở quay lật
+                  - cell [ref=e314]:
+                    - paragraph [ref=e315]: ~5,4
+                - row [ref=e316]:
+                  - cell [ref=e317]:
+                    - paragraph [ref=e318]: EA95Wi
+                  - cell [ref=e319]:
+                    - paragraph [ref=e320]: Có cầu cách nhiệt
+                  - cell [ref=e321]:
+                    - paragraph [ref=e322]: Mở trượt
+                  - cell [ref=e323]:
+                    - paragraph [ref=e324]: ~5,2
+                - row [ref=e325]:
+                  - cell [ref=e326]:
+                    - paragraph [ref=e327]: EA95i
+                  - cell [ref=e328]:
+                    - paragraph [ref=e329]: Có cầu cách nhiệt
+                  - cell [ref=e330]:
+                    - paragraph [ref=e331]: Mở trượt
+                  - cell [ref=e332]:
+                    - paragraph [ref=e333]: ~7,66
+                - row [ref=e334]:
+                  - cell [ref=e335]:
+                    - paragraph [ref=e336]: EA60i
+                  - cell [ref=e337]:
+                    - paragraph [ref=e338]: Có cầu cách nhiệt
+                  - cell [ref=e339]:
+                    - paragraph [ref=e340]: Mở quay, mở hất
+                  - cell [ref=e341]:
+                    - paragraph [ref=e342]: ~8
+            - paragraph [ref=e343]:
+              - emphasis [ref=e344]:
+                - strong [ref=e345]: "Lưu ý:"
+              - emphasis [ref=e346]: Mức giá trên chỉ mang tính tham khảo và thay đổi theo cấu hình thực tế. Để có báo giá chính xác, khách hàng nên liên hệ Eurowindow để được khảo sát và tư vấn theo công trình.
+            - paragraph [ref=e347]:
+              - link "LIÊN HỆ TƯ VẤN & BÁO GIÁ" [ref=e348] [cursor=pointer]:
+                - /url: tel:(84%20-%2024)%2037%2047%2047%2000
+            - heading "4. Tư vấn cách chọn cửa sổ nhôm phù hợp" [level=2] [ref=e349]
+            - paragraph [ref=e350]: "Chọn đúng hệ cửa sổ nhôm cho từng vị trí giúp công trình vừa tối ưu chi phí, vừa đảm bảo hiệu quả sử dụng lâu dài. Dưới đây là các tiêu chí bạn nên cân nhắc trước khi quyết định:"
+            - list [ref=e351]:
+              - listitem [ref=e352]:
+                - strong [ref=e353]: "Theo vị trí lắp đặt:"
+                - text: Phòng ngủ và phòng làm việc nên ưu tiên hệ có cầu cách nhiệt (EA60i, EA68i) để giảm tiếng ồn; khu bếp, nhà vệ sinh phù hợp cửa mở hất để thông gió mà vẫn tránh nước hắt; mặt tiền và nhà cao tầng nên chọn hệ chịu lực tốt như EA65, EA68i để đảm bảo an toàn trước tải trọng gió.
+              - listitem [ref=e354]:
+                - strong [ref=e355]: "Theo nhu cầu cách âm - cách nhiệt:"
+                - text: Nhà gần trục giao thông, khu đô thị đông đúc nên chọn hệ có cầu cách nhiệt kết hợp kính hộp thay vì hệ không cầu, để đạt mức cách âm 40 - 47 dB thay vì chỉ 27 - 33 dB.
+              - listitem [ref=e356]:
+                - strong [ref=e357]: "Theo kiểu mở phù hợp không gian:"
+                - text: Ban công, hành lang hẹp phù hợp mở trượt; phòng ngủ, phòng khách phù hợp mở quay hoặc quay lật để tối ưu độ kín khít.
+              - listitem [ref=e358]:
+                - strong [ref=e359]: "Theo loại kính:"
+                - text: Kính đơn phù hợp ngân sách tiết kiệm, kính hộp phù hợp yêu cầu cách âm - cách nhiệt cao; có thể chọn thêm nan trang trí nếu công trình theo phong cách cổ điển.
+              - listitem [ref=e360]:
+                - strong [ref=e361]: "Theo phụ kiện:"
+                - text: Các thương hiệu Roto, Cmech, Hafele, Kinlong, GMT có mức giá và độ bền khác nhau, nên lựa chọn dựa trên tần suất sử dụng và ngân sách của công trình.
+            - paragraph [ref=e362]: Trong mọi trường hợp, khách hàng nên trao đổi với đội ngũ tư vấn Eurowindow để được khảo sát và đề xuất hệ cửa, loại kính và phụ kiện phù hợp nhất với công trình.
+            - img "Hãy cân nhắc kỹ để chọn cửa sổ nhôm phù hợp theo nhu cầu công trình" [ref=e364]
+            - paragraph [ref=e365]:
+              - emphasis [ref=e366]: Hãy cân nhắc kỹ để chọn cửa sổ nhôm phù hợp theo nhu cầu công trình
+            - heading "5. Địa chỉ showroom/Văn phòng Eurowindow" [level=2] [ref=e367]
+            - paragraph [ref=e368]: Khách hàng có thể trải nghiệm trực tiếp các sản phẩm cửa sổ nhôm kính tại hệ thống hơn 40 showroom Eurowindow trên toàn quốc. Đội ngũ tư vấn kỹ thuật sẽ hỗ trợ đo đạc thực địa, lên phương án và báo giá miễn phí.
+            - paragraph [ref=e369]:
+              - strong [ref=e370]: "Showroom tại Hà Nội:"
+            - table [ref=e371]:
+              - rowgroup [ref=e372]:
+                - row [ref=e373]:
+                  - cell [ref=e374]:
+                    - paragraph [ref=e375]:
+                      - strong [ref=e376]: Showroom
+                  - cell [ref=e377]:
+                    - paragraph [ref=e378]:
+                      - strong [ref=e380]: Địa chỉ
+                  - cell [ref=e381]:
+                    - paragraph [ref=e382]:
+                      - strong [ref=e384]: Điện thoại
+                - row [ref=e385]:
+                  - cell [ref=e386]:
+                    - paragraph [ref=e387]: Tôn Thất Tùng (Trụ sở chính)
+                  - cell [ref=e388]:
+                    - paragraph [ref=e389]: 02 Tôn Thất Tùng, Đống Đa
+                  - cell [ref=e390]:
+                    - paragraph [ref=e391]: (84-24) 3 747 4777
+                    - paragraph [ref=e392]: 0909 888 000
+                - row [ref=e393]:
+                  - cell [ref=e394]:
+                    - paragraph [ref=e395]: Eurowindow Multi Complex
+                  - cell [ref=e396]:
+                    - paragraph [ref=e397]: Tầng 1&4, 27 Trần Duy Hưng, Cầu Giấy
+                  - cell [ref=e398]:
+                    - paragraph [ref=e399]: (84-24) 3577 4777
+                    - paragraph [ref=e400]: 0909 888 000
+            - paragraph [ref=e401]:
+              - strong [ref=e402]: "Showroom tại TP. Hồ Chí Minh:"
+            - table [ref=e403]:
+              - rowgroup [ref=e404]:
+                - row [ref=e405]:
+                  - cell [ref=e406]:
+                    - paragraph [ref=e407]:
+                      - strong [ref=e408]: Showroom
+                  - cell [ref=e409]:
+                    - paragraph [ref=e410]:
+                      - strong [ref=e412]: Địa chỉ
+                  - cell [ref=e413]:
+                    - paragraph [ref=e414]:
+                      - strong [ref=e416]: Điện thoại
+                - row [ref=e417]:
+                  - cell [ref=e418]:
+                    - paragraph [ref=e419]: Mạc Đĩnh Chi
+                  - cell [ref=e420]:
+                    - paragraph [ref=e421]: 39 Bis Mạc Đĩnh Chi, Đakao, Q.1
+                  - cell [ref=e422]:
+                    - paragraph [ref=e423]: (84-28) 6278 8124
+            - paragraph [ref=e424]:
+              - generic [ref=e425]: HỆ THỐNG SHOWROOM TOÀN QUỐC
+            - paragraph [ref=e426]:
+              - emphasis [ref=e427]: Là thương hiệu hơn 20 năm tiên phong tiêu chuẩn Châu Âu, Eurowindow mang đến giải pháp cửa sổ nhôm bền đẹp, cách âm, cách nhiệt và an toàn cho công trình hiện đại.
+              - emphasis [ref=e428]: Từ độ bền, khả năng cách âm - cách nhiệt đến sự đa dạng về hệ profile và kiểu mở,
+              - emphasis [ref=e429]:
+                - strong [ref=e430]: cửa sổ nhôm Eurowindow
+              - emphasis [ref=e431]: đáp ứng được cả nhu cầu nhà ở dân dụng lẫn công trình thương mại quy mô lớn.
+            - paragraph [ref=e432]:
+              - emphasis [ref=e433]: Bạn có thể liên hệ hotline hoặc ghé showroom gần nhất để được khảo sát và báo giá chi tiết theo đúng công trình của mình.
+            - paragraph [ref=e434]:
+              - emphasis [ref=e435]:
+                - strong [ref=e436]: "Liên hệ Eurowindow để nhận tư vấn và báo giá miễn phí:"
+            - list [ref=e437]:
+              - listitem [ref=e438]:
+                - emphasis [ref=e439]: "Miền Bắc: 0909 888 000"
+              - listitem [ref=e440]:
+                - emphasis [ref=e441]: "Miền Trung: 0906 000 111"
+              - listitem [ref=e442]:
+                - emphasis [ref=e443]: "Miền Nam: 0903 11 8888"
+              - listitem [ref=e444]:
+                - emphasis [ref=e445]: "Website: https://eurowindow.biz/"
+          - link "Xem thêm" [ref=e446] [cursor=pointer]:
+            - /url: javascript:;
+        - generic [ref=e449]:
+          - img "callcenter-1" [ref=e451]
+          - generic [ref=e452]:
+            - paragraph [ref=e453]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - textbox "Họ và tên *" [ref=e457]
+                - textbox "Số điện thoại *" [ref=e459]
+                - textbox "Email *" [ref=e461]
+              - textbox "Lời nhắn tới Eurowindow" [ref=e463]
+              - button "Gửi" [ref=e465] [cursor=pointer]
+      - generic [ref=e469]:
+        - generic [ref=e470]:
+          - img "logo-ngang-xanh-13" [ref=e472]
+          - paragraph [ref=e474]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+        - generic [ref=e476]:
+          - generic [ref=e477]:
+            - textbox "Họ và tên *" [ref=e479]
+            - textbox "Số điện thoại *" [ref=e481]
+            - textbox "Email *" [ref=e483]
+          - textbox "Lời nhắn tới Eurowindow" [ref=e485]
+          - button "Gửi" [ref=e487] [cursor=pointer]
+  - contentinfo [ref=e488]:
+    - generic [ref=e490]:
+      - generic [ref=e491]:
+        - link [ref=e493] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=e494]
+        - generic [ref=e495]:
+          - link "Facebook" [ref=e496] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=e497]
+          - link "Instagram" [ref=e498] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=e499]
+          - link "Youtube" [ref=e500] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=e501]
+          - link "Zalo" [ref=e502] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=e503]
+          - link "Tiktok" [ref=e504] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=e508] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=e512] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=e516]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=e519] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=e520]:
+          - link [ref=e521] [cursor=pointer]:
+            - /url: javascript:;
+            - img "BCT" [ref=e522]
+          - link [ref=e523] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=e524]
+      - generic [ref=e525]:
+        - generic [ref=e526]: Giới thiệu
+        - list [ref=e527]:
+          - listitem [ref=e528]:
+            - link "Giới thiệu" [ref=e529] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=e530]:
+            - link "Tầm nhìn sứ mệnh" [ref=e531] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=e532]:
+            - link "Giải thưởng" [ref=e533] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=e534]:
+            - link "Tài liệu" [ref=e535] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=e536]:
+        - generic [ref=e537]: Sản phẩm
+        - list [ref=e538]:
+          - listitem [ref=e539]:
+            - link "Cửa - Vách nhôm" [ref=e540] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=e541]:
+            - link "Cửa uPVC" [ref=e542] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=e543]:
+            - link "Cửa gỗ" [ref=e544] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=e545]:
+            - link "Cửa cuốn" [ref=e546] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=e547]:
+            - link "Cửa thông minh" [ref=e548] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=e549]:
+        - generic [ref=e550]: Tin tức
+        - list [ref=e551]:
+          - listitem [ref=e552]:
+            - link "Tin tức sự kiện" [ref=e553] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=e554]:
+            - link "Tin dự án" [ref=e555] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=e556]:
+            - link "Tin nội bộ" [ref=e557] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=e558]:
+            - link "Tin khuyến mãi" [ref=e559] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=e560]:
+            - link "Tư vấn" [ref=e561] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=e562]:
+        - generic [ref=e563]: Chăm sóc khách hàng
+        - list [ref=e564]:
+          - listitem [ref=e565]:
+            - link "Chính sách bảo hành" [ref=e566] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=e567]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=e568] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=e569]:
+            - link "(84 - 24) 37 47 47 00" [ref=e570] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=e573]:
+            - link "cskhhn@eurowindow.biz" [ref=e574] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=e577]: Dự án quốc tế và xuất khẩu
+          - list [ref=e578]:
+            - listitem [ref=e579]:
+              - link "+84 -903 41 55 52" [ref=e580] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=e583]:
+              - link "export@eurowindow.biz" [ref=e584] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=e589]:
+      - generic [ref=e590]:
+        - paragraph
+        - paragraph
+      - generic [ref=e591]:
+        - paragraph
+        - paragraph [ref=e592]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=e598] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=e599]

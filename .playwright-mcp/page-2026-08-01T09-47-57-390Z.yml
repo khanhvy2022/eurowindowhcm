@@ -1,0 +1,83 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - banner [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - link "Eurowindow" [ref=f2e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f2e6]
+        - button "Mở menu" [ref=f2e7]
+    - main [ref=f2e9]:
+      - generic [ref=f2e10]:
+        - paragraph [ref=f2e11]: Về Eurowindow · Từ năm 2002
+        - heading "Tiên phong mở ra một kỷ nguyên mới cho ngôi nhà Việt." [level=1] [ref=f2e12]
+        - paragraph [ref=f2e13]: "Eurowindow bắt đầu từ một câu hỏi đơn giản: một ngôi nhà Việt Nam đáng sống nhất trông như thế nào? Câu trả lời nằm ở những bộ cửa — nơi ánh sáng, không khí và sự riêng tư được dung hòa với nhau một cách chính xác."
+      - figure [ref=f2e14]:
+        - img "Không gian văn phòng hiện đại với hệ cửa kính rộng" [ref=f2e16]
+      - generic [ref=f2e17]:
+        - paragraph [ref=f2e18]: Câu chuyện của chúng tôi
+        - article [ref=f2e19]:
+          - paragraph [ref=f2e20]: "Từ năm 2002, Eurowindow là đơn vị tiên phong đưa cửa nhựa uPVC tiêu chuẩn châu Âu vào Việt Nam — khi dòng sản phẩm này còn xa lạ với thị trường trong nước. Chúng tôi tin rằng một ngôi nhà đáng sống bắt đầu từ những ranh giới được làm đúng: đóng lại thì yên tĩnh, mở ra thì đón nắng."
+          - blockquote [ref=f2e21]: “Chúng tôi không bán cửa. Chúng tôi bảo đảm cho ranh giới giữa ngôi nhà và thế giới bên ngoài.”
+          - paragraph [ref=f2e22]: "Sau uPVC, chúng tôi mở rộng sang hệ giải pháp nhôm, gỗ, kính, cửa tự động và các vật liệu hoàn thiện. Mỗi hệ sản phẩm ra đời đều trả lời cùng một câu hỏi: nó giúp người ở sống tốt hơn như thế nào?"
+          - heading "Tầm nhìn" [level=2] [ref=f2e23]
+          - paragraph [ref=f2e24]: Kiến tạo không gian sống văn minh với các giải pháp xây dựng hiện đại — hài hòa công năng, thẩm mỹ và hiệu quả sử dụng năng lượng.
+          - heading "Sứ mệnh" [level=2] [ref=f2e25]
+          - paragraph [ref=f2e26]: Đặt con người và môi trường ở vị trí trung tâm trong mọi quyết định thiết kế, để mỗi công trình không chỉ đẹp hôm nay mà còn bền vững với ngày mai.
+          - heading "Cam kết" [level=2] [ref=f2e27]
+          - paragraph [ref=f2e28]: Tư vấn rõ ràng, triển khai đồng bộ và đồng hành sau bàn giao để mỗi công trình duy trì giá trị bền vững theo thời gian.
+      - generic [ref=f2e30]:
+        - paragraph [ref=f2e31]: Hệ giải pháp
+        - heading "Một hệ sinh thái sản phẩm, một chuẩn mực chất lượng." [level=2] [ref=f2e32]
+        - list [ref=f2e33]:
+          - listitem [ref=f2e34]:
+            - heading "Cửa nhựa uPVC" [level=3] [ref=f2e35]
+            - paragraph [ref=f2e36]: Tiêu chuẩn châu Âu, cách âm – cách nhiệt, bền màu theo thời gian.
+          - listitem [ref=f2e37]:
+            - heading "Cửa nhôm" [level=3] [ref=f2e38]
+            - paragraph [ref=f2e39]: Hệ nhôm cao cấp cho công trình đương đại, độ bền và tính thẩm mỹ song hành.
+          - listitem [ref=f2e40]:
+            - heading "Cửa gỗ" [level=3] [ref=f2e41]
+            - paragraph [ref=f2e42]: Chất liệu tự nhiên, ấm áp, tôn vinh kiến trúc cổ điển lẫn hiện đại.
+          - listitem [ref=f2e43]:
+            - heading "Kính & vách" [level=3] [ref=f2e44]
+            - paragraph [ref=f2e45]: Kính hộp, kính an toàn và vách ngăn, mở rộng ánh sáng tự nhiên.
+          - listitem [ref=f2e46]:
+            - heading "Cửa tự động" [level=3] [ref=f2e47]
+            - paragraph [ref=f2e48]: Công nghệ vận hành thông minh cho khu vực công cộng và thương mại.
+          - listitem [ref=f2e49]:
+            - heading "Vật liệu hoàn thiện" [level=3] [ref=f2e50]
+            - paragraph [ref=f2e51]: Đồng bộ từ phụ kiện đến vật liệu, hoàn thiện mọi chi tiết công trình.
+      - generic [ref=f2e53]:
+        - blockquote [ref=f2e54]: “Restraint, repeated, becomes a signature.”
+        - paragraph [ref=f2e55]: Triết lý thiết kế của Eurowindow
+        - generic [ref=f2e56]:
+          - link "Liên hệ tư vấn" [ref=f2e57] [cursor=pointer]:
+            - /url: "#lien-he"
+          - link "Xem các dự án" [ref=f2e58] [cursor=pointer]:
+            - /url: /du-an
+    - contentinfo [ref=f2e59]:
+      - generic [ref=f2e60]:
+        - generic [ref=f2e61]:
+          - link "Eurowindow" [ref=f2e62] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f2e63]
+          - paragraph [ref=f2e64]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f2e65]:
+          - heading "Liên hệ" [level=2] [ref=f2e66]
+          - generic [ref=f2e67]:
+            - paragraph [ref=f2e68]: Eurowindow Office Building
+            - paragraph [ref=f2e69]: "Hotline: 0909 888 000"
+            - paragraph [ref=f2e70]: infoew@eurowindow.biz
+        - generic [ref=f2e71]:
+          - heading "Khám phá" [level=2] [ref=f2e72]
+          - generic [ref=f2e73]:
+            - link "Giới thiệu" [ref=f2e74] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f2e75] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f2e76] [cursor=pointer]:
+              - /url: /dich-vu
+            - link "Tin tức" [ref=f2e77] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f2e78]: © 2026 Eurowindow. All rights reserved.
+  - alert [ref=f2e79]

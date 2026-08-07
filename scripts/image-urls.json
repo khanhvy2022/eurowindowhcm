@@ -1,0 +1,105 @@
+{
+  "projects": {
+    "nha-quoc-hoi-viet-nam": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/nha-quoc-hoi.html",
+      "images": [
+        "https://sudospaces.com/eurowindow/2022/07/mg-1220-large.jpg",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/dsc5755.jpg.webp",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/dsc5767.jpg.webp",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/dsc5733.jpg.webp",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/img-3596.jpg.webp"
+      ]
+    },
+    "tru-so-bo-ngoai-giao": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-bo-ngoai-giao.html",
+      "images": [
+        "https://sudospaces.com/eurowindow/2022/07/20191030-tru-so-bo-ngoai-giao-0719-large.jpg",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/20191030-tru-so-bo-ngoai-giao-0719.jpg.webp"
+      ]
+    },
+    "benh-vien-viet-phap-ha-noi": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-viet-phap.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/img-7105-medium.jpg.webp",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/img-7105.jpg.webp"
+      ]
+    },
+    "benh-vien-ung-buou-da-nang": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-ung-buou-da-nang.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/benh-vien-ung-buou-da-nang-17-medium.jpg.webp",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/benh-vien-ung-buou-da-nang-17.jpg.webp"
+      ]
+    },
+    "benh-vien-nhi-dong-tp-ho-chi-minh": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-nhi-dong-tp-ho-chi-minh.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/dji-0090-1-medium.jpg.webp",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/dji-0090-1.jpg.webp"
+      ]
+    },
+    "cang-hang-khong-phu-bai-hue": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-phu-bai-hue.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2025/02/viber-image-2025-02-05-13-33-24-065-medium.png.webp"
+      ]
+    },
+    "cang-hang-khong-quoc-te-can-tho": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-quoc-te-can-tho.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/san-bay-can-tho.jpg.webp"
+      ]
+    },
+    "cang-hang-khong-quoc-te-van-don": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-quoc-te-van-don.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/san-bay-van-don.jpg.webp"
+      ]
+    },
+    "toa-nha-van-phong-chinh-phu": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/toa-nha-van-phong-chinh-phu.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/20190612-hanoi-cityscape-7928.jpg.webp"
+      ]
+    },
+    "tru-so-bo-cong-an": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-bo-cong-an.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/toa-nha-bo-cong-an.jpg.webp"
+      ]
+    },
+    "tru-so-van-phong-vien-kiem-sat-nhan-dan-toi-cao": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-van-phong-vien-kiem-sat-nhan-dan-toi-cao.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/20191115-vien-kiem-soat-nhan-dan-toi-cao-0038-medium.jpg.webp",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/20191115-vien-kiem-soat-nhan-dan-toi-cao-0038.jpg.webp"
+      ]
+    },
+    "trung-tam-truyen-hinh-thong-tan-xa": {
+      "url": "https://eurowindow.biz/cong-trinh-tieu-bieu/tt-truyen-hinh-thong-tan-xa-viet-nam.html",
+      "images": [
+        "https://storage.sudospaces.com/eurowindow/2022/07/img-7172-medium.jpg.webp",
+        "https://storage.sudospaces.com/eurowindow/2022/07/w400/img-7172.jpg.webp"
+      ]
+    }
+  },
+  "products": {
+    "cua-di-nhom": "https://eurowindow.biz/cua-vach-nhom/cua-di-nhom",
+    "cua-so-nhom": "https://eurowindow.biz/cua-vach-nhom/cua-so-nhom",
+    "vach-kinh-nhom": "https://eurowindow.biz/cua-vach-nhom/vach-kinh-nhom",
+    "cua-upvc": "https://eurowindow.biz/cua-nhua-upvc",
+    "cua-go-tu-nhien": "https://eurowindow.biz/cua-go/cua-go-tu-nhien.html",
+    "cua-go-cong-nghiep": "https://eurowindow.biz/cua-go/cua-go-cong-nghiep.html",
+    "cua-go-ghep-thanh": "https://eurowindow.biz/cua-go/cua-go-ghep-thanh.html",
+    "cua-go-composite": "https://eurowindow.biz/cua-go/cua-go-composite.html",
+    "cua-go-chong-chay": "https://eurowindow.biz/cua-go/cua-go-chong-chay.html",
+    "cua-cuon": "https://eurowindow.biz/cua-cuon",
+    "cua-tu-dong": "https://eurowindow.biz/cua-tu-dong",
+    "kinh-cuong-luc": "https://eurowindow.biz/san-pham-kinh",
+    "kinh-chong-chay": "https://eurowindow.biz/san-pham-kinh",
+    "kinh-cach-am": "https://eurowindow.biz/san-pham-kinh",
+    "kinh-low-e": "https://eurowindow.biz/san-pham-kinh",
+    "kinh-dien-thong-minh": "https://eurowindow.biz/san-pham-kinh",
+    "cua-thong-minh": "https://eurowindow.biz/cua-thong-minh-the-he-moi"
+  }
+}

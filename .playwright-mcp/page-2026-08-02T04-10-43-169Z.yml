@@ -1,0 +1,114 @@
+- generic [active] [ref=f51e1]:
+  - generic [ref=f51e2]:
+    - banner [ref=f51e3]:
+      - generic [ref=f51e4]:
+        - link "Eurowindow" [ref=f51e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f51e6]
+        - button "Open menu" [ref=f51e7]
+    - main [ref=f51e9]:
+      - generic [ref=f51e11]:
+        - heading "EUROWINDOW SERVICES" [level=1] [ref=f51e12]
+        - navigation "Breadcrumb" [ref=f51e13]:
+          - link "Trang chủ" [ref=f51e14] [cursor=pointer]:
+            - /url: /en
+          - generic [ref=f51e17]: Services
+      - generic [ref=f51e19]:
+        - tablist "Choose a service" [ref=f51e20]:
+          - tab "ALUMINIUM DOORS" [selected] [ref=f51e21]
+          - tab "uPVC DOORS" [ref=f51e22]
+          - tab "WOODEN & FIRE-RESISTANT DOORS" [ref=f51e23]
+        - generic [ref=f51e24]:
+          - img "ALUMINIUM DOORS & LARGE PARTITIONS" [ref=f51e26]
+          - generic [ref=f51e27]:
+            - heading "ALUMINIUM DOORS & LARGE PARTITIONS" [level=2] [ref=f51e28]
+            - paragraph [ref=f51e29]: Aluminium door and large glass partition systems in EA55–EA95i profiles with genuine Cmech, Roto and Hafele hardware — overcoming the flaws of conventional aluminium and bearing high wind load for large projects.
+            - generic [ref=f51e30]:
+              - generic [ref=f51e31]:
+                - paragraph [ref=f51e32]: 99%
+                - paragraph [ref=f51e33]: satisfied customers
+              - generic [ref=f51e34]:
+                - paragraph [ref=f51e35]: 12+
+                - paragraph [ref=f51e36]: official product systems
+              - generic [ref=f51e37]:
+                - paragraph [ref=f51e38]: 5 years
+                - paragraph [ref=f51e39]: standard warranty
+            - link "GET A PRICE QUOTE NOW" [ref=f51e40] [cursor=pointer]:
+              - /url: "#lien-he"
+      - generic [ref=f51e44]:
+        - heading "Our process" [level=2] [ref=f51e45]
+        - list [ref=f51e46]:
+          - listitem [ref=f51e47]:
+            - paragraph [ref=f51e48]: STAGE 1
+            - heading "Consultation & survey" [level=3] [ref=f51e49]
+            - paragraph [ref=f51e50]: Listen to your needs, survey the site and advise on door and partition systems that fit function and budget.
+          - listitem [ref=f51e51]:
+            - paragraph [ref=f51e52]: STAGE 2
+            - heading "Production & inspection" [level=3] [ref=f51e53]
+            - paragraph [ref=f51e54]: Prepare technical documents, manufacture at the plant to European standards and quality-check every batch of products.
+          - listitem [ref=f51e55]:
+            - paragraph [ref=f51e56]: STAGE 3
+            - heading "Installation & handover" [level=3] [ref=f51e57]
+            - paragraph [ref=f51e58]: Installed by an experienced team, each item is inspected and handed over with official warranty coverage.
+      - generic [ref=f51e60]:
+        - heading "Awards" [level=2] [ref=f51e61]
+        - generic [ref=f51e62]:
+          - generic [ref=f51e63]:
+            - paragraph [ref=f51e67]: 14 years
+            - heading "consecutive Vietnam National Brand" [level=3] [ref=f51e68]
+            - paragraph [ref=f51e69]: Ministry of Industry and Trade
+          - generic [ref=f51e70]:
+            - paragraph [ref=f51e74]: "2026"
+            - heading "Top 10 green enterprises in Vietnam" [level=3] [ref=f51e75]
+            - paragraph [ref=f51e76]: Vietnam Report
+          - generic [ref=f51e77]:
+            - paragraph [ref=f51e81]: "2024"
+            - heading "Vietnam Product Quality Award" [level=3] [ref=f51e82]
+            - paragraph [ref=f51e83]: Vietnam Quality Award
+      - generic [ref=f51e85]:
+        - heading "Featured projects" [level=2] [ref=f51e87]
+        - generic [ref=f51e88]:
+          - link [ref=f51e89] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Phu Bai International Airport" [ref=f51e91]
+            - generic [ref=f51e92]:
+              - heading "Phu Bai International Airport" [level=3] [ref=f51e93]
+              - paragraph [ref=f51e94]: National landmark
+          - link [ref=f51e95] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Hospital Francais de Hanoi" [ref=f51e97]
+            - generic [ref=f51e98]:
+              - heading "Hospital Francais de Hanoi" [level=3] [ref=f51e99]
+              - paragraph [ref=f51e100]: Hospital
+          - link [ref=f51e101] [cursor=pointer]:
+            - /url: /en/projects
+            - img "National Assembly Building" [ref=f51e103]
+            - generic [ref=f51e104]:
+              - heading "National Assembly Building" [level=3] [ref=f51e105]
+              - paragraph [ref=f51e106]: National landmark
+    - contentinfo [ref=f51e107]:
+      - generic [ref=f51e108]:
+        - generic [ref=f51e109]:
+          - link "Eurowindow" [ref=f51e110] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f51e111]
+          - paragraph [ref=f51e112]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f51e113]:
+          - heading "Contact" [level=2] [ref=f51e114]
+          - generic [ref=f51e115]:
+            - paragraph [ref=f51e116]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f51e117]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f51e118]: infoew@eurowindow.biz
+        - generic [ref=f51e119]:
+          - heading "Explore" [level=2] [ref=f51e120]
+          - generic [ref=f51e121]:
+            - link "About us" [ref=f51e122] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f51e123] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f51e124] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f51e125] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f51e126]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f51e132] [cursor=pointer]

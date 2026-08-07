@@ -1,0 +1,357 @@
+- generic [active] [ref=e1]:
+  - link "Chuyển đến nội dung" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation [ref=e7]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: https://catmoc.cmg.vn/
+          - img "CÁT MỘC GROUP" [ref=e10]
+        - text: 
+        - generic:
+          - list
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Trang chủ" [ref=e14] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/
+          - listitem [ref=e15]:
+            - link "Giới thiệu " [ref=e16] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/gioi-thieu/
+              - text: Giới thiệu
+              - generic [ref=e17]: 
+          - listitem [ref=e18]:
+            - link "Dự án/Công trình " [ref=e19] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/du-an/
+              - text: Dự án/Công trình
+              - generic [ref=e20]: 
+          - listitem [ref=e21]:
+            - link "Dịch vụ " [ref=e22] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+              - text: Dịch vụ
+              - generic [ref=e23]: 
+          - listitem [ref=e24]:
+            - link "Tin tức " [ref=e25] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/tin-tuc/
+              - text: Tin tức
+              - generic [ref=e26]: 
+          - listitem [ref=e27]:
+            - link "Tuyển dụng" [ref=e28] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/tuyen-dung/
+          - listitem [ref=e29]:
+            - link "Phong thủy " [ref=e30] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/phong-thuy/
+              - text: Phong thủy
+              - generic [ref=e31]: 
+          - listitem [ref=e32]:
+            - link "Liên hệ ngay" [ref=e33] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/lien-he/
+          - listitem [ref=e34]:
+            - link [ref=e35] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/gioi-thieu/
+          - listitem [ref=e36]:
+            - link [ref=e37] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/about-us/
+    - main [ref=e41]:
+      - main [ref=e42]:
+        - generic [ref=e54]:
+          - heading "VỀ CHÚNG TÔI" [level=1] [ref=e55]
+          - generic [ref=e58]:
+            - link "Trang chủ" [ref=e60] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/
+            - text: / Giới thiệu
+        - generic [ref=e63]:
+          - heading "VỀ CÁT MỘC DESIGN & CONSTRUCTION" [level=2] [ref=e68]
+          - generic [ref=e69]:
+            - img "Mm2h5803 (1) 1" [ref=e74]
+            - generic [ref=e76]:
+              - paragraph [ref=e77]: "Cát Mộc Design & Construction là một công ty uy tín trong lĩnh vực Thiết kế – Thi công, với quan niệm thiết kế: “Tạo dựng những không gian sống hữu dụng, thẩm mỹ, bền vững và kinh tế để phục vụ cộng đồng”"
+              - paragraph [ref=e78]: Cát Mộc được thành lập từ năm 2004, do Thạc sĩ kiến trúc sư Phạm Thanh Truyền sáng lập. Cát Mộc là một thương hiệu uy tín hàng đầu Việt Nam trong lĩnh vực Tư vấn thiết kế và thi công chuyên nghiệp các hạng mục công trình nhà ở, khách sạn, nhà hàng,…
+              - link "XEM THÊM ĐỘI NGŨ KIẾN TRÚC SƯ" [ref=e79] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc/
+                - generic [ref=e81]: 
+          - generic [ref=e82]:
+            - img "Rectangle" [ref=e87]
+            - generic [ref=e89]:
+              - paragraph [ref=e90]: Trải qua hơn 20 năm hình thành và phát triển, Cát Mộc đã và đang là nơi quy tụ những chuyên gia hàng đầu ngành, đạt đến tính thống nhất trong toàn bộ quy trình từ thiết kế, thi công, cho đến kiểm soát theo một tiêu chuẩn nghiêm ngặt, để luôn đảm bảo CHẤT LƯỢNG, AN TOÀN và TIỆN ÍCH
+              - paragraph [ref=e91]: "Những công trình do Cát Mộc tư vấn và thiết kế và xây dựng luôn mang đậm dấu ấn sáng tạo độc đáo, mang nét đẹp đặc trưng rất riêng của phong cách kiến trúc Cát Mộc – một phong cách định hình cho ý tưởng của tuổi trẻ: sáng tạo nhưng rất duyên dáng hài hòa trong bố cục không gian và thời gian."
+              - link "XEM THÊM ĐỘI NGŨ THI CÔNG" [ref=e92] [cursor=pointer]:
+                - /url: /thi-cong-tho/
+                - generic [ref=e94]: 
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - paragraph [ref=e111]: Hơn 20 năm, Cát mộc luôn tận tụy phục vụ, nỗ lực kiến tạo không gian sống hạnh phúc cho khách hàng…
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - heading "20 năm" [level=3] [ref=e115]
+                - paragraph [ref=e116]: kinh nghiệm
+              - generic [ref=e117]:
+                - heading "2500+" [level=3] [ref=e118]
+                - paragraph [ref=e119]: công trình HOÀN THIỆN
+              - generic [ref=e120]:
+                - heading "100000+" [level=3] [ref=e121]
+                - paragraph [ref=e122]: khách hàng tin tưởng
+              - generic [ref=e123]:
+                - heading "50+" [level=3] [ref=e124]
+                - paragraph [ref=e125]: GIẢI THƯỞNG UY TÍN
+              - generic [ref=e126]:
+                - heading "60+" [level=3] [ref=e127]
+                - paragraph [ref=e128]: TỈNH THÀNH
+              - generic [ref=e129]:
+                - heading "394+" [level=3] [ref=e130]
+                - paragraph [ref=e131]: NHÂN SỰ CHUYÊN NGHIỆP
+          - generic [ref=e134]:
+            - heading [level=2] [ref=e140]: THIẾT KẾ THI CÔNG TRỌN GÓI
+            - heading [level=2] [ref=e146]: CAt MOc Design & Construction
+            - heading [level=2] [ref=e152]: THIẾT KẾ THI CÔNG TRỌN GÓI
+            - heading "CAt MOc Design & Construction" [level=2] [ref=e158]
+            - heading "THIẾT KẾ THI CÔNG TRỌN GÓI" [level=2] [ref=e164]
+            - heading [level=2] [ref=e170]: CAt MOc Design & Construction
+            - heading [level=2] [ref=e176]: THIẾT KẾ THI CÔNG TRỌN GÓI
+            - heading [level=2] [ref=e182]: CAt MOc Design & Construction
+            - heading [level=2] [ref=e188]: THIẾT KẾ THI CÔNG TRỌN GÓI
+            - heading [level=2] [ref=e194]: CAt MOc Design & Construction
+        - generic [ref=e198]:
+          - generic [ref=e200]:
+            - heading "NGƯỜI SÁNG LẬP" [level=2] [ref=e202]
+            - generic [ref=e204]:
+              - paragraph [ref=e205]: Thạc sĩ Kiến trúc sư Phạm Thanh Truyền, người tốt nghiệp thủ khoa Đại học Kiến trúc Thành phố Hồ Chí Minh
+              - list [ref=e206]:
+                - listitem [ref=e207]: Năm 2004, ông thành lập Cát Mộc
+                - listitem [ref=e208]: Ông từng là giảng viên đại học Kiến trúc TP.HCM (2003 – 2008)
+                - listitem [ref=e209]: Năm 2009, tốt nghiệp Cao học Kiến trúc
+                - listitem [ref=e210]: Vào năm 2016, anh cùng các cộng sự vinh dự nhận được “Giải Bạc giải thưởng Kiến trúc Quốc gia”.
+                - listitem [ref=e211]: Năm 2017, Ông được vinh danh 1 trong Top 100 Kiến trúc sư toàn cầu
+              - paragraph [ref=e212]: "Ngoài ra, Ông còn đạt được nhiều thành tựu nổi bật khác: Giải Nhất thiết kế bệnh viện Nhi đồng TP.Cần Thơ, Giải Nhất thiết kế bệnh viện Đa Khoa II Lâm Đồng, Đạt Cúp Vàng năm 2008 về thiết kế bệnh viện,…"
+            - link "XEM THÊM TIỂU SỬ" [ref=e214] [cursor=pointer]:
+              - /url: /gioi-thieu/nguoi-sang-lap/
+              - generic [ref=e216]: 
+          - img "Nguoi Sang Lap" [ref=e221]
+        - generic [ref=e227]:
+          - img "6 17" [ref=e234]
+          - img "107" [ref=e241]
+          - img "Z6488158792480 132dd0c15b306db4a095a65799de58ce" [ref=e248]
+        - generic [ref=e252]:
+          - paragraph [ref=e256]:
+            - strong [ref=e257]: Với hơn 20 năm, Cát Mộc luôn đặt tâm huyết vào từng chi tiết nhỏ, luôn lắng nghe & thấu hiểu mong muốn của mỗi khách hàng, nỗ lực mang đến những trải nghiệm tốt nhất trong suốt quá trình thực hiện mỗi công trình.
+          - generic [ref=e260]:
+            - link [ref=e262] [cursor=pointer]:
+              - /url: "#accordion-item-tầm-nhìn"
+              - button "Chuyển đổi" [ref=e263]:
+                - generic [ref=e264]: 
+              - text: Tầm nhìn
+            - link [ref=e266] [cursor=pointer]:
+              - /url: "#accordion-item-sứ-mệnh"
+              - button "Chuyển đổi" [ref=e267]:
+                - generic [ref=e268]: 
+              - text: Sứ mệnh
+            - link [ref=e270] [cursor=pointer]:
+              - /url: "#accordion-item-quan-niệm-khi-thiết-kế"
+              - button "Chuyển đổi" [ref=e271]:
+                - generic [ref=e272]: 
+              - text: Quan niệm khi thiết kế
+            - link [ref=e274] [cursor=pointer]:
+              - /url: "#accordion-item-phương-châm-hoạt-động"
+              - button "Chuyển đổi" [ref=e275]:
+                - generic [ref=e276]: 
+              - text: Phương châm hoạt động
+        - generic [ref=e279]:
+          - heading "Dịch vụ của Cát Mộc Design & Construction" [level=2] [ref=e284]
+          - generic [ref=e285]:
+            - generic [ref=e288]:
+              - img "Frame 37653" [ref=e292]
+              - generic [ref=e293]:
+                - heading "THIẾT KẾ KIẾN TRÚC" [level=3] [ref=e294]
+                - paragraph [ref=e295]: Quy tụ đội ngũ kiến trúc sư chuyên nghiệp, giàu kinh nghiệm, được dẫn dắt bởi THS. KTS Phạm Thanh Truyền
+                - link "Xem thêm" [ref=e296] [cursor=pointer]:
+                  - /url: /thiet-ke-kien-truc/
+                  - generic [ref=e298]: 
+            - generic [ref=e301]:
+              - img "Frame 37654" [ref=e305]
+              - generic [ref=e306]:
+                - heading "THI CÔNG THÔ" [level=3] [ref=e307]
+                - paragraph [ref=e308]: Cát Mộc Thi Công đã kiến tạo hơn 1.500 công trình hữu dụng, thẩm mỹ, bền vững và kinh tế cho khách hàng.
+                - link "Xem thêm" [ref=e309] [cursor=pointer]:
+                  - /url: /thi-cong-tho/
+                  - generic [ref=e311]: 
+            - generic [ref=e314]:
+              - img "Vector (4)" [ref=e318]
+              - generic [ref=e319]:
+                - heading "THIẾT KẾ – SẢN XUẤT NỘI THẤT" [level=3] [ref=e320]
+                - paragraph [ref=e321]:
+                  - strong [ref=e322]: Giải nhất Thiết kế nội thất Châu Á 2023
+                  - text: là minh chứng cho sự sáng tạo và chuyên nghiệp của Cát Mộc Furniture.
+                - link "Xem thêm" [ref=e323] [cursor=pointer]:
+                  - /url: /thiet-ke-san-xuat-noi-that/
+                  - generic [ref=e325]: 
+        - generic [ref=e329]:
+          - generic [ref=e331]:
+            - heading "Giải thưởng" [level=2] [ref=e333]
+            - paragraph [ref=e336]: Sau hơn 20 năm hoạt động, dưới sự dẫn dắt của ThS. KTS Phạm Thanh Truyền, anh và cùng đội ngũ anh em Cát Mộc Design & Construction liên tục đạt nhiều giải thưởng lớn trong lĩnh vực kiến trúc
+            - link "XEM THÊM" [ref=e338] [cursor=pointer]:
+              - /url: /gioi-thieu/giai-thuong/
+              - generic [ref=e340]: 
+          - generic [ref=e343]:
+            - generic [ref=e345]:
+              - paragraph [ref=e347]: "2016"
+              - generic [ref=e348]:
+                - heading "Giải Bạc giải thưởng Kiến trúc Quốc Gia" [level=3] [ref=e349]
+                - paragraph [ref=e350]: BCI Interior Design Awards
+              - img "Gt1" [ref=e353]
+            - generic [ref=e355]:
+              - paragraph [ref=e357]: "2018"
+              - generic [ref=e358]:
+                - heading "Giải thưởng Thiết kế kiến trúc Châu Á" [level=3] [ref=e359]
+                - paragraph [ref=e360]: 2023 Asia Architect Design Awards
+              - img "Gt2" [ref=e363]
+            - generic [ref=e365]:
+              - paragraph [ref=e367]: "2024"
+              - generic [ref=e368]:
+                - heading "Giải thưởng Thiết kế Nội thất BCI (IDA)" [level=3] [ref=e369]
+                - paragraph [ref=e370]: BCI Interior Design Awards
+              - img "Gt3" [ref=e373]
+          - text: 
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - heading "DỰ ÁN TIÊU BIỂU" [level=2] [ref=e381]
+            - link "XEM TẤT CẢ" [ref=e384] [cursor=pointer]:
+              - /url: /du-an
+              - generic [ref=e386]: 
+          - generic [ref=e387]:
+            - generic [ref=e390]:
+              - link [ref=e392] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/duong-quy-hien-2/
+                - img "Dương Quý Hiển 11 29 55 13 Thg 7, 2026 (1)" [ref=e394]
+              - generic [ref=e397]:
+                - heading "Dương Quý Hiển" [level=3] [ref=e398]
+                - paragraph [ref=e399]: Đà Lạt
+            - generic [ref=e402]:
+              - link [ref=e404] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/nguyen-dai-dinh/
+                - img "Nguyễn Đại Đinh 10 18 06 13 Thg 6, 2026" [ref=e406]
+              - generic [ref=e409]:
+                - heading "Nguyễn Đại Đinh" [level=3] [ref=e410]
+                - paragraph [ref=e411]: Đà Nẵng
+            - generic [ref=e414]:
+              - link [ref=e416] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/modular-home-3/
+                - img "Z7850234358312 666cd8c8031c288638652b02f590cb93" [ref=e418]
+              - generic [ref=e421]:
+                - heading "Nhà lắp ghép 3" [level=3] [ref=e422]
+                - paragraph [ref=e423]: Australia
+            - generic [ref=e426]:
+              - link [ref=e428] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/modular-home-2/
+                - img "Z7850234115209 1ed93cca56c7c6c59b0e473db8caa3a1" [ref=e430]
+              - generic [ref=e433]:
+                - heading "Nhà lắp ghép 2" [level=3] [ref=e434]
+                - paragraph [ref=e435]: Australia
+            - generic [ref=e438]:
+              - link [ref=e440] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/the-horizon-luxury-resort/
+                - img "Z7814427672283 Cc8da2ac94663baa4885eaf5c49bfcb7" [ref=e442]
+              - generic [ref=e445]:
+                - heading "The Horizon Luxury Resort" [level=3] [ref=e446]
+                - paragraph [ref=e447]: Phan Thiết
+            - generic [ref=e450]:
+              - link [ref=e452] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/du-an/hoang-thi-bich-ngoc/
+                - img "Z7662520616386 20eb443a5de13be69fbc8c5b4a04adac" [ref=e454]
+              - generic [ref=e457]:
+                - heading "Hoàng Thị Bích Ngọc" [level=3] [ref=e458]
+                - paragraph [ref=e459]: Bình Phước
+          - text: 
+    - contentinfo [ref=e460]:
+      - generic [ref=e464]:
+        - generic [ref=e465]:
+          - generic [ref=e467]:
+            - img "Cmg Logo@2x" [ref=e470]
+            - generic [ref=e472]:
+              - heading "CÔNG TY TNHH KIẾN TRÚC – XÂY DỰNG – ĐÀO TẠO CÁT MỘC" [level=3] [ref=e473]
+              - list [ref=e474]:
+                - listitem [ref=e475]: 436B/6 Ba Tháng Hai, P.Hoà Hưng, TP.Hồ Chí Minh, Việt Nam.
+                - listitem [ref=e476]: 0942 62 64 69 - 0946 80 80 82
+                - listitem [ref=e477]:
+                  - link "info@cmg.vn" [ref=e478] [cursor=pointer]:
+                    - /url: mailto:info@cmg.vn
+            - link "Liên hệ ngay" [ref=e480] [cursor=pointer]:
+              - /url: /lien-he/
+          - generic [ref=e483]:
+            - heading "cat moc group | since 2004" [level=1] [ref=e485]
+            - iframe [ref=e487]:
+              - generic [ref=f1e2]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=f1e4]:
+                        - generic:
+                          - figure [ref=f1e5]
+                          - paragraph [ref=f1e8]: Cát Mộc group
+                        - generic [ref=f1e9]:
+                          - generic [ref=f1e10] [cursor=pointer]: 
+                          - generic [ref=f1e12] [cursor=pointer]: 
+                      - generic [ref=f1e15]:
+                        - paragraph [ref=f1e17]: Bắt đầu trò chuyện với Cát Mộc group
+                        - generic [ref=f1e18] [cursor=pointer]: Chat bằng Zalo
+                        - generic [ref=f1e19] [cursor=pointer]: Chat nhanh
+                      - generic [ref=f1e23]:
+                        - generic [ref=f1e24] [cursor=pointer]: Tiếng Việt
+                        - generic [ref=f1e25] [cursor=pointer]: English
+            - generic [ref=e489]:
+              - generic [ref=e492]:
+                - generic [ref=e493]: GIỚI THIỆU
+                - link "Về chúng tôi" [ref=e495] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/
+                - link "Người sáng lập" [ref=e498] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/nguoi-sang-lap/
+                - link "Giải thưởng" [ref=e501] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/giai-thuong/
+                - link "Hệ sinh thái CÁT MỘC" [ref=e504] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/he-sinh-thai-cat-moc/
+                - link "Portfolio Cát Mộc" [ref=e507] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn
+              - generic [ref=e511]:
+                - generic [ref=e512]: DỊCH VỤ
+                - link "Thiết kế kiến trúc" [ref=e514] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+                - link "Thi công thô" [ref=e517] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thi-cong-tho/
+                - link "Thiết kế - Sản xuất nội thất" [ref=e520] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-san-xuat-noi-that/
+              - generic [ref=e524]:
+                - generic [ref=e525]: TIN TỨC
+                - link "Ưu đãi" [ref=e527] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/uu-dai/
+                - link "Văn hóa" [ref=e530] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/van-hoa-cmg/
+                - link "Chia sẻ kiến thức" [ref=e533] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/chia-se-kien-thuc/
+                - link "Tuyển dụng" [ref=e536] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/tuyen-dung/
+        - generic [ref=e541]:
+          - generic [ref=e542]: Cat Moc Group | Since 2004
+          - generic [ref=e546]:
+            - generic [ref=e547]:
+              - link "Theo dõi trên Zalo" [ref=e548] [cursor=pointer]:
+                - /url: https://zalo.me/0912752275
+              - link "Theo dõi trên Messenger" [ref=e550] [cursor=pointer]:
+                - /url: https://m.me/CatMocDesignConstruction
+              - link "Theo dõi trên WhatsApp" [ref=e552] [cursor=pointer]:
+                - /url: https://wa.me/84942626469
+              - link "Theo dõi trên Facebook" [ref=e554] [cursor=pointer]:
+                - /url: https://www.facebook.com/CatMocDesignConstruction
+            - link [ref=e556] [cursor=pointer]:
+              - /url: tel:0942626469
+              - generic [ref=e557]: 
+      - link "Lên đầu trang":
+        - /url: "#top"
+        - generic: 
+  - text:     
+  - generic [ref=e559]:
+    - link [ref=e564] [cursor=pointer]:
+      - /url: https://zalo.me/0912752275
+    - link [ref=e570] [cursor=pointer]:
+      - /url: tel:0942626469
+  - iframe [ref=e574]:
+    - generic [ref=f2e6]:
+      - text: protected by
+      - strong [ref=f2e7]: reCAPTCHA

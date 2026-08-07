@@ -1,0 +1,451 @@
+- generic [active] [ref=f30e1]:
+  - link "Chuyển đến nội dung" [ref=f30e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f30e3]:
+    - banner [ref=f30e4]:
+      - navigation [ref=f30e7]:
+        - link [ref=f30e9] [cursor=pointer]:
+          - /url: https://catmoc.cmg.vn/
+          - img "CÁT MỘC GROUP" [ref=f30e10]
+        - text: 
+        - generic:
+          - list
+        - list [ref=f30e12]:
+          - listitem [ref=f30e13]:
+            - link "Trang chủ" [ref=f30e14] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/
+          - listitem [ref=f30e15]:
+            - link "Giới thiệu " [ref=f30e16] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/gioi-thieu/
+              - text: Giới thiệu
+              - generic [ref=f30e17]: 
+          - listitem [ref=f30e18]:
+            - link "Dự án/Công trình " [ref=f30e19] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/du-an/
+              - text: Dự án/Công trình
+              - generic [ref=f30e20]: 
+          - listitem [ref=f30e21]:
+            - link "Dịch vụ " [ref=f30e22] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+              - text: Dịch vụ
+              - generic [ref=f30e23]: 
+          - listitem [ref=f30e24]:
+            - link "Tin tức " [ref=f30e25] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/tin-tuc/
+              - text: Tin tức
+              - generic [ref=f30e26]: 
+          - listitem [ref=f30e27]:
+            - link "Tuyển dụng" [ref=f30e28] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/tuyen-dung/
+          - listitem [ref=f30e29]:
+            - link "Phong thủy " [ref=f30e30] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/phong-thuy/
+              - text: Phong thủy
+              - generic [ref=f30e31]: 
+          - listitem [ref=f30e32]:
+            - link "Liên hệ ngay" [ref=f30e33] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/lien-he/
+          - listitem [ref=f30e34]:
+            - link [ref=f30e35] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/35-mau-thiet-ke-nha-1-tret-1-lau-dep-xu-huong-2026/
+          - listitem [ref=f30e36]:
+            - link [ref=f30e37] [cursor=pointer]:
+              - /url: https://catmoc.cmg.vn/en/home/
+    - generic [ref=f30e43]:
+      - link "Trang chủ" [ref=f30e45] [cursor=pointer]:
+        - /url: https://catmoc.cmg.vn/
+      - text: / 35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026
+    - main [ref=f30e46]:
+      - article [ref=f30e50]:
+        - generic [ref=f30e51]:
+          - generic [ref=f30e53]:
+            - heading "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [level=1] [ref=f30e54]
+            - generic [ref=f30e55]: 30 THÁNG 07 NĂM 2026
+          - generic [ref=f30e56]:
+            - paragraph [ref=f30e57]:
+              - link "Nhà 1 trệt 1 lầu" [ref=f30e58] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/35-mau-thiet-ke-nha-1-tret-1-lau-dep-xu-huong-2026/
+              - text: là lựa chọn được nhiều gia đình trẻ và chủ đầu tư yêu thích nhờ tối ưu công năng, chi phí hợp lý và phù hợp với nhiều diện tích đất.
+            - paragraph [ref=f30e59]: Nếu đang tìm kiếm một mẫu nhà đẹp để xây dựng trong năm 2026, bạn cần hiểu rõ đặc điểm, ưu điểm và cách bố trí không gian để đưa ra quyết định phù hợp.
+            - generic [ref=f30e60]:
+              - generic [ref=f30e61]:
+                - paragraph [ref=f30e62]: Mục lục
+                - link "Toggle Table of Content" [ref=f30e63] [cursor=pointer]:
+                  - /url: "#"
+              - navigation [ref=f30e71]:
+                - list [ref=f30e72]:
+                  - listitem [ref=f30e73]:
+                    - link "Nhà 1 trệt 1 lầu là gì?" [ref=f30e74] [cursor=pointer]:
+                      - /url: "#Nha_1_tret_1_lau_la_gi"
+                    - list [ref=f30e75]:
+                      - listitem [ref=f30e76]:
+                        - link "Nhà 1 trệt 1 lầu phù hợp với những ai?" [ref=f30e77] [cursor=pointer]:
+                          - /url: "#Nha_1_tret_1_lau_phu_hop_voi_nhung_ai"
+                      - listitem [ref=f30e78]:
+                        - link "Công năng phổ biến của nhà 1 trệt 1 lầu" [ref=f30e79] [cursor=pointer]:
+                          - /url: "#Cong_nang_pho_bien_cua_nha_1_tret_1_lau"
+                  - listitem [ref=f30e80]:
+                    - link "Ưu điểm của kiểu nhà 1 trệt 1 lầu" [ref=f30e81] [cursor=pointer]:
+                      - /url: "#Uu_diem_cua_kieu_nha_1_tret_1_lau"
+                  - listitem [ref=f30e82]:
+                    - link "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [ref=f30e83] [cursor=pointer]:
+                      - /url: "#35_mau_thiet_ke_nha_1_tret_1_lau_dep_xu_huong_2026"
+                    - list [ref=f30e84]:
+                      - listitem [ref=f30e85]:
+                        - link "Mẫu nhà 1 trệt 1 lầu hiện đại" [ref=f30e86] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_hien_dai"
+                      - listitem [ref=f30e87]:
+                        - link "Mẫu nhà 1 trệt 1 lầu mái bằng" [ref=f30e88] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_mai_bang"
+                      - listitem [ref=f30e89]:
+                        - link "Mẫu nhà 1 trệt 1 lầu mái Nhật" [ref=f30e90] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_mai_Nhat"
+                      - listitem [ref=f30e91]:
+                        - link "Mẫu nhà 1 trệt 1 lầu mái Thái" [ref=f30e92] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_mai_Thai"
+                      - listitem [ref=f30e93]:
+                        - link "Mẫu nhà 1 trệt 1 lầu phong cách tối giản" [ref=f30e94] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_phong_cach_toi_gian"
+                      - listitem [ref=f30e95]:
+                        - link "Mẫu nhà 1 trệt 1 lầu có gara ô tô" [ref=f30e96] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_co_gara_o_to"
+                      - listitem [ref=f30e97]:
+                        - link "Mẫu nhà 1 trệt 1 lầu có sân vườn" [ref=f30e98] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_co_san_vuon"
+                      - listitem [ref=f30e99]:
+                        - link "Mẫu nhà 1 trệt 1 lầu 2 phòng ngủ" [ref=f30e100] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_2_phong_ngu"
+                      - listitem [ref=f30e101]:
+                        - link "Mẫu nhà 1 trệt 1 lầu 3 phòng ngủ" [ref=f30e102] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_3_phong_ngu"
+                      - listitem [ref=f30e103]:
+                        - link "Mẫu nhà 1 trệt 1 lầu 4 phòng ngủ" [ref=f30e104] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_4_phong_ngu"
+                      - listitem [ref=f30e105]:
+                        - link "Mẫu nhà 1 trệt 1 lầu ngang 5m" [ref=f30e106] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_ngang_5m"
+                      - listitem [ref=f30e107]:
+                        - link "Mẫu nhà 1 trệt 1 lầu ngang 6m" [ref=f30e108] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_ngang_6m"
+                      - listitem [ref=f30e109]:
+                        - link "Mẫu nhà 1 trệt 1 lầu diện tích 5x20m" [ref=f30e110] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_dien_tich_5x20m"
+                      - listitem [ref=f30e111]:
+                        - link "Mẫu nhà 1 trệt 1 lầu 100m²" [ref=f30e112] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_100m%C2%B2"
+                      - listitem [ref=f30e113]:
+                        - link "Mẫu nhà 1 trệt 1 lầu đẹp ở nông thôn" [ref=f30e114] [cursor=pointer]:
+                          - /url: "#Mau_nha_1_tret_1_lau_dep_o_nong_thon"
+                  - listitem [ref=f30e115]:
+                    - link "Đơn giá xây nhà 1 trệt 1 lầu tối ưu chi phí" [ref=f30e116] [cursor=pointer]:
+                      - /url: "#Don_gia_xay_nha_1_tret_1_lau_toi_uu_chi_phi"
+                    - list [ref=f30e117]:
+                      - listitem [ref=f30e118]:
+                        - link "Những yếu tố ảnh hưởng đến chi phí xây nhà" [ref=f30e119] [cursor=pointer]:
+                          - /url: "#Nhung_yeu_to_anh_huong_den_chi_phi_xay_nha"
+                      - listitem [ref=f30e120]:
+                        - link "Đơn giá xây nhà 1 trệt 1 lầu theo m²" [ref=f30e121] [cursor=pointer]:
+                          - /url: "#Don_gia_xay_nha_1_tret_1_lau_theo_m%C2%B2"
+                      - listitem [ref=f30e122]:
+                        - link "Chi phí xây phần thô và hoàn thiện" [ref=f30e123] [cursor=pointer]:
+                          - /url: "#Chi_phi_xay_phan_tho_va_hoan_thien"
+                      - listitem [ref=f30e124]:
+                        - link "Cách tối ưu ngân sách khi xây nhà" [ref=f30e125] [cursor=pointer]:
+                          - /url: "#Cach_toi_uu_ngan_sach_khi_xay_nha"
+                      - listitem [ref=f30e126]:
+                        - link "Có nên chọn dịch vụ thiết kế và thi công trọn gói?" [ref=f30e127] [cursor=pointer]:
+                          - /url: "#Co_nen_chon_dich_vu_thiet_ke_va_thi_cong_tron_goi"
+                  - listitem [ref=f30e128]:
+                    - link "Lưu ý nên biết khi thiết kế nhà 1 trệt 1 lầu" [ref=f30e129] [cursor=pointer]:
+                      - /url: "#Luu_y_nen_biet_khi_thiet_ke_nha_1_tret_1_lau"
+                    - list [ref=f30e130]:
+                      - listitem [ref=f30e131]:
+                        - link "Xác định nhu cầu sử dụng của gia đình" [ref=f30e132] [cursor=pointer]:
+                          - /url: "#Xac_dinh_nhu_cau_su_dung_cua_gia_dinh"
+                      - listitem [ref=f30e133]:
+                        - link "Lựa chọn phong cách kiến trúc phù hợp" [ref=f30e134] [cursor=pointer]:
+                          - /url: "#Lua_chon_phong_cach_kien_truc_phu_hop"
+                      - listitem [ref=f30e135]:
+                        - link "Tối ưu công năng và giao thông trong nhà" [ref=f30e136] [cursor=pointer]:
+                          - /url: "#Toi_uu_cong_nang_va_giao_thong_trong_nha"
+                      - listitem [ref=f30e137]:
+                        - link "Bố trí ánh sáng và thông gió tự nhiên" [ref=f30e138] [cursor=pointer]:
+                          - /url: "#Bo_tri_anh_sang_va_thong_gio_tu_nhien"
+                      - listitem [ref=f30e139]:
+                        - link "Dự trù chi phí và kế hoạch xây dựng" [ref=f30e140] [cursor=pointer]:
+                          - /url: "#Du_tru_chi_phi_va_ke_hoach_xay_dung"
+                      - listitem [ref=f30e141]:
+                        - link "Chuẩn bị hồ sơ thiết kế và xin phép xây dựng" [ref=f30e142] [cursor=pointer]:
+                          - /url: "#Chuan_bi_ho_so_thiet_ke_va_xin_phep_xay_dung"
+                  - listitem [ref=f30e143]:
+                    - link "Quy trình xây dựng nhà 1 trệt 1 lầu tại Cát Mộc Design & Construction" [ref=f30e144] [cursor=pointer]:
+                      - /url: "#Quy_trinh_xay_dung_nha_1_tret_1_lau_tai_Cat_Moc_Design_Construction"
+                  - listitem [ref=f30e145]:
+                    - link "Câu hỏi thường gặp về nhà 1 trệt 1 lầu (FAQ)" [ref=f30e146] [cursor=pointer]:
+                      - /url: "#Cau_hoi_thuong_gap_ve_nha_1_tret_1_lau_FAQ"
+                    - list [ref=f30e147]:
+                      - listitem [ref=f30e148]:
+                        - link "Nhà 1 trệt 1 lầu phù hợp với gia đình bao nhiêu người?" [ref=f30e149] [cursor=pointer]:
+                          - /url: "#Nha_1_tret_1_lau_phu_hop_voi_gia_dinh_bao_nhieu_nguoi"
+                      - listitem [ref=f30e150]:
+                        - link "Xây nhà 1 trệt 1 lầu mất bao lâu?" [ref=f30e151] [cursor=pointer]:
+                          - /url: "#Xay_nha_1_tret_1_lau_mat_bao_lau"
+                      - listitem [ref=f30e152]:
+                        - link "Chi phí xây nhà 1 trệt 1 lầu khoảng bao nhiêu?" [ref=f30e153] [cursor=pointer]:
+                          - /url: "#Chi_phi_xay_nha_1_tret_1_lau_khoang_bao_nhieu"
+                      - listitem [ref=f30e154]:
+                        - link "Nhà 1 trệt 1 lầu nên chọn mái bằng, mái Nhật hay mái Thái?" [ref=f30e155] [cursor=pointer]:
+                          - /url: "#Nha_1_tret_1_lau_nen_chon_mai_bang_mai_Nhat_hay_mai_Thai"
+                      - listitem [ref=f30e156]:
+                        - link "Diện tích tối thiểu để xây nhà 1 trệt 1 lầu là bao nhiêu?" [ref=f30e157] [cursor=pointer]:
+                          - /url: "#Dien_tich_toi_thieu_de_xay_nha_1_tret_1_lau_la_bao_nhieu"
+                  - listitem [ref=f30e158]:
+                    - link "Kết luận" [ref=f30e159] [cursor=pointer]:
+                      - /url: "#Ket_luan"
+            - heading "Nhà 1 trệt 1 lầu là gì?" [level=2] [ref=f30e160]
+            - paragraph [ref=f30e161]: Nhà 1 trệt 1 lầu là loại hình nhà ở gồm một tầng trệt và một tầng lầu, còn gọi là nhà 2 tầng. Đây là giải pháp phổ biến nhờ cân bằng giữa diện tích sử dụng, chi phí đầu tư và tính thẩm mỹ, phù hợp với nhiều khu đất nhà phố hoặc biệt thự.
+            - paragraph [ref=f30e162]:
+              - img "Nha 1 Tret 1 Lau La Gi" [ref=f30e163]
+            - heading "Nhà 1 trệt 1 lầu phù hợp với những ai?" [level=3] [ref=f30e164]
+            - paragraph [ref=f30e165]: Thiết kế nhà 1 trệt 1 lầu phù hợp với gia đình từ 3-5 thành viên hoặc những người muốn tối ưu không gian sống trên quỹ đất vừa và nhỏ. Mẫu nhà này đáp ứng tốt nhu cầu sinh hoạt hiện đại, đồng thời dễ mở rộng hoặc cải tạo khi cần.
+            - heading "Công năng phổ biến của nhà 1 trệt 1 lầu" [level=3] [ref=f30e166]
+            - paragraph [ref=f30e167]: Tầng trệt thường bố trí phòng khách, bếp và phòng ăn, kết hợp một phòng ngủ nếu cần. Tầng lầu là không gian nghỉ ngơi với 2-3 phòng ngủ, phòng thờ và ban công.
+            - paragraph [ref=f30e168]: Tùy diện tích xây dựng, chủ đầu tư có thể bổ sung gara ô tô, sân vườn hoặc giếng trời để tăng ánh sáng, thông gió tự nhiên và nâng cao chất lượng không gian sống.
+            - heading "Ưu điểm của kiểu nhà 1 trệt 1 lầu" [level=2] [ref=f30e169]
+            - paragraph [ref=f30e170]: Nhà 1 trệt 1 lầu được nhiều gia đình lựa chọn nhờ đáp ứng tốt cả về công năng, thẩm mỹ và chi phí đầu tư. Dưới đây là những ưu điểm nổi bật của loại hình nhà ở này.
+            - list [ref=f30e171]:
+              - listitem [level=1] [ref=f30e172]: "Tối ưu diện tích xây dựng: Tăng diện tích sử dụng mà không cần mở rộng quỹ đất, đặc biệt phù hợp với nhà phố."
+              - listitem [level=1] [ref=f30e173]: "Chi phí xây dựng hợp lý: So với nhà nhiều tầng, chi phí đầu tư và bảo trì thấp hơn nhưng vẫn đáp ứng đầy đủ nhu cầu sinh hoạt."
+              - listitem [level=1] [ref=f30e174]: "Đa dạng phong cách thiết kế: Dễ dàng ứng dụng phong cách hiện đại, tối giản, mái Nhật, mái Thái hoặc tân cổ điển theo sở thích."
+              - listitem [level=1] [ref=f30e175]: "Không gian sống tiện nghi: Công năng được phân chia rõ ràng giữa khu sinh hoạt chung và khu nghỉ ngơi, tạo sự riêng tư cho các thành viên."
+              - listitem [level=1] [ref=f30e176]: "Dễ lấy sáng và thông gió: Thiết kế nhà 1 trệt 1 lầu có thể kết hợp giếng trời, cửa kính và ban công để tăng ánh sáng tự nhiên, nâng cao chất lượng không gian sống."
+            - heading "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [level=2] [ref=f30e177]
+            - paragraph [ref=f30e178]: Với sự đa dạng về diện tích và phong cách kiến trúc, nhà 1 trệt 1 lầu có nhiều phương án thiết kế đáp ứng nhu cầu của từng gia đình. Dưới đây là những mẫu nhà được ưa chuộng trong năm 2026.
+            - heading "Mẫu nhà 1 trệt 1 lầu hiện đại" [level=3] [ref=f30e179]
+            - paragraph [ref=f30e180]: Mẫu nhà nổi bật với đường nét tối giản, hình khối vuông vức và mặt tiền sử dụng nhiều kính. Thiết kế ưu tiên không gian mở, đón ánh sáng tự nhiên và tối ưu công năng, phù hợp với các khu đô thị.
+            - paragraph [ref=f30e181]:
+              - img "Nha 1 Tret 1 Lau Hien Dai" [ref=f30e182]
+            - heading "Mẫu nhà 1 trệt 1 lầu mái bằng" [level=3] [ref=f30e183]
+            - paragraph [ref=f30e184]: Kiến trúc mái bằng mang vẻ đẹp trẻ trung, dễ thi công và thuận tiện khi cải tạo hoặc nâng tầng sau này. Đây là lựa chọn phù hợp cho nhà phố có diện tích hạn chế.
+            - paragraph [ref=f30e185]:
+              - img "Nha 1 Tret 1 Lau Mai Bang 2" [ref=f30e186]
+              - img "Nha 1 Tret 1 Lau Mai Bang" [ref=f30e187]
+            - heading "Mẫu nhà 1 trệt 1 lầu mái Nhật" [level=3] [ref=f30e188]
+            - paragraph [ref=f30e189]: Mái Nhật có độ dốc vừa phải, tạo vẻ đẹp thanh lịch và cân đối cho tổng thể công trình. Thiết kế này giúp thoát nước tốt, chống nóng hiệu quả và phù hợp với khí hậu Việt Nam.
+            - paragraph [ref=f30e190]:
+              - img "Nha 1 Tret 1 Lau Mai Nhat" [ref=f30e191]
+            - heading "Mẫu nhà 1 trệt 1 lầu mái Thái" [level=3] [ref=f30e192]
+            - paragraph [ref=f30e193]: Mái Thái tạo điểm nhấn sang trọng với phần mái cao, giúp ngôi nhà thông thoáng và hạn chế tình trạng đọng nước. Mẫu nhà phù hợp với cả khu vực thành thị và nông thôn.
+            - paragraph [ref=f30e194]:
+              - img "Nha 1 Tret 1 Lau Mai Thai" [ref=f30e195]
+            - heading "Mẫu nhà 1 trệt 1 lầu phong cách tối giản" [level=3] [ref=f30e196]
+            - paragraph [ref=f30e197]: Thiết kế tập trung vào công năng, hạn chế chi tiết trang trí và sử dụng bảng màu trung tính. Không gian gọn gàng, tinh tế, mang lại cảm giác rộng rãi và dễ bảo trì.
+            - paragraph [ref=f30e198]:
+              - img "Nha 1 Tret 1 Lau Toi Gian" [ref=f30e199]
+            - heading "Mẫu nhà 1 trệt 1 lầu có gara ô tô" [level=3] [ref=f30e200]
+            - paragraph [ref=f30e201]: Gara được bố trí ngay tầng trệt, đảm bảo thuận tiện khi di chuyển mà vẫn giữ sự thông thoáng cho không gian sinh hoạt. Giải pháp này phù hợp với gia đình sở hữu ô tô tại đô thị.
+            - paragraph [ref=f30e202]:
+              - img "Nha 1 Tret 1 Lau Co Gara Oto" [ref=f30e203]
+            - heading "Mẫu nhà 1 trệt 1 lầu có sân vườn" [level=3] [ref=f30e204]
+            - paragraph [ref=f30e205]: Khoảng sân trước hoặc sân sau kết hợp mảng xanh giúp điều hòa vi khí hậu và tạo không gian thư giãn. Thiết kế phù hợp với những khu đất có diện tích rộng hoặc vùng ven đô.
+            - paragraph [ref=f30e206]:
+              - img "Nha 1 Tret 1 Lau Co San Vuon" [ref=f30e207]
+              - img "Nha 1 Tret 1 Lau Co San Vuon 2" [ref=f30e208]
+            - heading "Mẫu nhà 1 trệt 1 lầu 2 phòng ngủ" [level=3] [ref=f30e209]
+            - paragraph [ref=f30e210]: Đây là lựa chọn dành cho gia đình trẻ hoặc vợ chồng mới cưới. Công năng được bố trí khoa học, đáp ứng nhu cầu sinh hoạt mà vẫn tối ưu chi phí xây dựng.
+            - paragraph [ref=f30e211]:
+              - img "Nha 1 Tret 1 Lau 2 Phong Ngu" [ref=f30e212]
+            - heading "Mẫu nhà 1 trệt 1 lầu 3 phòng ngủ" [level=3] [ref=f30e213]
+            - paragraph [ref=f30e214]: Mẫu nhà cân bằng giữa diện tích và công năng, phù hợp với gia đình 4-5 thành viên. Các phòng ngủ được bố trí hợp lý để đảm bảo sự riêng tư và tiện nghi.
+            - paragraph [ref=f30e215]:
+              - img "Nha 1 Tret 1 Lau 3 Phong Ngu" [ref=f30e216]
+            - heading "Mẫu nhà 1 trệt 1 lầu 4 phòng ngủ" [level=3] [ref=f30e217]
+            - paragraph [ref=f30e218]: Thiết kế dành cho gia đình nhiều thế hệ hoặc có nhu cầu sử dụng nhiều phòng. Việc phân chia không gian hợp lý giúp ngôi nhà luôn thông thoáng và thuận tiện trong sinh hoạt.
+            - paragraph [ref=f30e219]:
+              - img "Nha 1 Tret 1 Lau 4 Phong Ngu" [ref=f30e220]
+            - paragraph [ref=f30e221]:
+              - img "Nha 1 Tret 1 Lau 4 Phong Ngu 2" [ref=f30e222]
+            - heading "Mẫu nhà 1 trệt 1 lầu ngang 5m" [level=3] [ref=f30e223]
+            - paragraph [ref=f30e224]: Với mặt tiền 5m, thiết kế ưu tiên không gian mở, giếng trời và cửa kính lớn để tăng ánh sáng tự nhiên. Đây là kích thước phổ biến của nhà phố hiện nay.
+            - paragraph [ref=f30e225]:
+              - img "Nha 1 Tret 1 Lau Ngang 5m" [ref=f30e226]
+            - heading "Mẫu nhà 1 trệt 1 lầu ngang 6m" [level=3] [ref=f30e227]
+            - paragraph [ref=f30e228]: Mặt tiền rộng 6m tạo điều kiện bố trí gara, sân trước hoặc ban công rộng. Đồng thời, kiến trúc mặt tiền cũng có nhiều phương án sáng tạo hơn.
+            - paragraph [ref=f30e229]:
+              - img "Nha 1 Tret 1 Lau Ngang 6m" [ref=f30e230]
+            - heading "Mẫu nhà 1 trệt 1 lầu diện tích 5x20m" [level=3] [ref=f30e231]
+            - paragraph [ref=f30e232]: Diện tích 5x20m cho phép bố trí đầy đủ phòng khách, bếp, 3 phòng ngủ và khu vực sinh hoạt chung. Thiết kế phù hợp với các lô đất hình chữ nhật phổ biến tại đô thị.
+            - paragraph [ref=f30e233]:
+              - img "Nha 1 Tret 1 Lau 5 20m" [ref=f30e234]
+              - img "Nha 1 Tret 1 Lau 5 20m 2" [ref=f30e235]
+            - paragraph [ref=f30e236]
+            - heading "Mẫu nhà 1 trệt 1 lầu 100m²" [level=3] [ref=f30e237]
+            - paragraph [ref=f30e238]: Với diện tích xây dựng khoảng 100m², gia chủ có thể linh hoạt lựa chọn từ 2-4 phòng ngủ cùng nhiều không gian tiện ích. Đây là phương án cân đối giữa công năng và chi phí đầu tư.
+            - paragraph [ref=f30e239]:
+              - img "Nha 1 Tret 1 Lau 100m2" [ref=f30e240]
+              - img "Nha 1 Tret 1 Lau 100m2 2" [ref=f30e241]
+            - heading "Mẫu nhà 1 trệt 1 lầu đẹp ở nông thôn" [level=3] [ref=f30e242]
+            - paragraph [ref=f30e243]: Mẫu nhà tận dụng lợi thế quỹ đất rộng để kết hợp sân vườn, hiên nhà và không gian xanh. Kiến trúc hướng đến sự thông thoáng, gần gũi với thiên nhiên và đáp ứng nhu cầu sử dụng lâu dài.
+            - paragraph [ref=f30e244]:
+              - img "Nha 1 Tret 1 Lau Nong Thon" [ref=f30e245]
+            - heading "Đơn giá xây nhà 1 trệt 1 lầu tối ưu chi phí" [level=2] [ref=f30e246]
+            - paragraph [ref=f30e247]: Chi phí xây nhà 1 trệt 1 lầu phụ thuộc vào nhiều yếu tố như diện tích, phong cách kiến trúc, vật liệu hoàn thiện và điều kiện thi công. Việc dự toán từ sớm giúp chủ đầu tư chủ động ngân sách và lựa chọn giải pháp phù hợp với nhu cầu.
+            - heading "Những yếu tố ảnh hưởng đến chi phí xây nhà" [level=3] [ref=f30e248]
+            - paragraph [ref=f30e249]: Đơn giá xây dựng không chỉ phụ thuộc vào diện tích mà còn chịu tác động bởi kết cấu móng, quy mô công trình, vị trí xây dựng và mức độ đầu tư nội thất. Bên cạnh đó, việc lựa chọn vật liệu và yêu cầu về thiết kế cũng ảnh hưởng trực tiếp đến tổng chi phí.
+            - heading "Đơn giá xây nhà 1 trệt 1 lầu theo m²" [level=3] [ref=f30e250]
+            - paragraph [ref=f30e251]: Đơn giá xây dựng theo m² có thể thay đổi theo thời điểm, khu vực và phạm vi công việc. Để nhận báo giá chính xác, chủ đầu tư nên tham khảo bảng giá mới nhất hoặc liên hệ đơn vị thiết kế, thi công để được tư vấn theo nhu cầu thực tế.
+            - paragraph [ref=f30e252]:
+              - strong [ref=f30e255]: "Tham khảo chi tiết tại bài viết:"
+              - link "Báo giá thiết kế nhà mới nhất." [ref=f30e256] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/bang-gia-thiet-ke-kien-truc-moi-nhat/
+                - text: Báo giá thiết kế nhà mới nhất
+                - generic [ref=f30e257]: .
+            - heading "Chi phí xây phần thô và hoàn thiện" [level=3] [ref=f30e258]
+            - paragraph [ref=f30e259]: Chi phí phần thô và hoàn thiện sẽ khác nhau tùy theo chủng loại vật liệu, mức độ đầu tư và tiêu chuẩn bàn giao. Nếu đang cân nhắc giữa các phương án xây dựng, bạn nên tham khảo bảng báo giá chi tiết để có cơ sở so sánh và lựa chọn gói phù hợp.
+            - paragraph [ref=f30e260]:
+              - strong [ref=f30e263]: "Xem thêm:"
+              - link "Đơn giá xây dựng phần thô và hoàn thiện." [ref=f30e264] [cursor=pointer]:
+                - /url: https://catmoc.cmg.vn/bang-gia-xay-dung-phan-tho-moi-nhat/
+                - text: Đơn giá xây dựng phần thô và hoàn thiện
+                - generic [ref=f30e265]: .
+            - heading "Cách tối ưu ngân sách khi xây nhà" [level=3] [ref=f30e266]
+            - paragraph [ref=f30e267]: Để kiểm soát chi phí hiệu quả, chủ đầu tư nên lựa chọn phương án thiết kế phù hợp ngay từ đầu, hạn chế thay đổi trong quá trình thi công và ưu tiên vật liệu có chất lượng tương xứng với ngân sách. Đồng thời, lựa chọn đơn vị thiết kế và thi công đồng bộ cũng giúp giảm phát sinh và đảm bảo tiến độ.
+            - heading "Có nên chọn dịch vụ thiết kế và thi công trọn gói?" [level=3] [ref=f30e268]
+            - paragraph [ref=f30e269]: Dịch vụ thiết kế và thi công trọn gói giúp đồng bộ từ ý tưởng đến thi công thực tế, hạn chế sai lệch giữa bản vẽ và công trình. Đây cũng là giải pháp giúp chủ đầu tư tiết kiệm thời gian quản lý, tối ưu chi phí và kiểm soát chất lượng trong suốt quá trình xây dựng.
+            - paragraph [ref=f30e270]: Với kinh nghiệm thiết kế và thi công nhiều công trình nhà phố, biệt thự, Cát Mộc Design & Construction mang đến giải pháp trọn gói từ tư vấn, thiết kế đến thi công hoàn thiện.
+            - paragraph [ref=f30e271]: Đội ngũ kiến trúc sư và kỹ sư luôn đồng hành cùng chủ đầu tư để tối ưu công năng, kiểm soát ngân sách và đảm bảo công trình được triển khai đúng thiết kế, đúng tiến độ.
+            - paragraph [ref=f30e272]:
+              - img "cat-moc-thi-cong-nha" [ref=f30e273]
+            - heading "Lưu ý nên biết khi thiết kế nhà 1 trệt 1 lầu" [level=2] [ref=f30e274]
+            - paragraph [ref=f30e275]: Để sở hữu một căn nhà 1 trệt 1 lầu đẹp, tiện nghi và bền vững, chủ đầu tư cần chuẩn bị kỹ lưỡng ngay từ giai đoạn thiết kế. Những lưu ý dưới đây sẽ giúp tối ưu công năng, kiểm soát chi phí và hạn chế phát sinh trong quá trình thi công.
+            - heading "Xác định nhu cầu sử dụng của gia đình" [level=3] [ref=f30e276]
+            - paragraph [ref=f30e277]: Trước khi lên phương án thiết kế, hãy xác định số lượng thành viên, nhu cầu về phòng ngủ, không gian sinh hoạt và dự định sử dụng trong tương lai. Điều này giúp bố trí công năng hợp lý, tránh phải cải tạo sau khi đưa vào sử dụng.
+            - heading "Lựa chọn phong cách kiến trúc phù hợp" [level=3] [ref=f30e278]
+            - paragraph [ref=f30e279]: Phong cách kiến trúc nên hài hòa với diện tích khu đất, ngân sách và sở thích của gia chủ. Những phong cách như hiện đại, tối giản, mái Nhật hay mái Thái đều có ưu điểm riêng và cần được lựa chọn dựa trên nhu cầu thực tế.
+            - heading "Tối ưu công năng và giao thông trong nhà" [level=3] [ref=f30e280]
+            - paragraph [ref=f30e281]: Một bản thiết kế nhà 1 trệt 1 lầu tốt cần đảm bảo sự kết nối thuận tiện giữa các không gian. Việc bố trí cầu thang, phòng khách, bếp và phòng ngủ khoa học sẽ giúp tối ưu diện tích và nâng cao trải nghiệm sinh hoạt.
+            - heading "Bố trí ánh sáng và thông gió tự nhiên" [level=3] [ref=f30e282]
+            - paragraph [ref=f30e283]: Ưu tiên cửa sổ, ban công, giếng trời và khoảng thông tầng để tận dụng ánh sáng tự nhiên và lưu thông không khí. Đây là giải pháp giúp không gian luôn thông thoáng, tiết kiệm năng lượng và nâng cao chất lượng sống.
+            - heading "Dự trù chi phí và kế hoạch xây dựng" [level=3] [ref=f30e284]
+            - paragraph [ref=f30e285]: Chủ đầu tư nên lập kế hoạch ngân sách ngay từ đầu, bao gồm chi phí thiết kế, thi công và hoàn thiện. Dự toán rõ ràng giúp kiểm soát tài chính và hạn chế phát sinh ngoài kế hoạch.
+            - heading "Chuẩn bị hồ sơ thiết kế và xin phép xây dựng" [level=3] [ref=f30e286]
+            - paragraph [ref=f30e287]: Một bộ hồ sơ thiết kế đầy đủ không chỉ hỗ trợ xin phép xây dựng mà còn là cơ sở để thi công chính xác và nghiệm thu công trình. Vì vậy, nên lựa chọn đơn vị thiết kế có chuyên môn và kinh nghiệm để đảm bảo chất lượng hồ sơ ngay từ đầu.
+            - heading "Quy trình xây dựng nhà 1 trệt 1 lầu tại Cát Mộc Design & Construction" [level=2] [ref=f30e288]
+            - paragraph [ref=f30e289]: Để đảm bảo công trình đạt chất lượng, đúng tiến độ và tối ưu chi phí, Cát Mộc Design & Construction áp dụng quy trình làm việc rõ ràng ở từng giai đoạn. Điều này giúp chủ đầu tư dễ dàng theo dõi và kiểm soát toàn bộ quá trình xây dựng.
+            - list [ref=f30e290]:
+              - listitem [level=1] [ref=f30e291]: "Khảo sát hiện trạng: Đội ngũ kỹ thuật khảo sát khu đất, đánh giá điều kiện thi công và thu thập các thông tin cần thiết để đưa ra phương án phù hợp."
+              - listitem [level=1] [ref=f30e292]: "Tư vấn phương án thiết kế: Kiến trúc sư trao đổi nhu cầu, tư vấn phong cách kiến trúc, công năng và giải pháp tối ưu theo ngân sách của chủ đầu tư."
+              - listitem [level=1] [ref=f30e293]: "Lập báo giá chi tiết: Sau khi thống nhất phương án, Cát Mộc Design & Construction gửi bảng báo giá minh bạch, thể hiện rõ các hạng mục và phạm vi công việc."
+              - listitem [level=1] [ref=f30e294]: "Triển khai hồ sơ thiết kế: Hoàn thiện hồ sơ kiến trúc, kết cấu, điện nước và hỗ trợ các thủ tục liên quan trước khi thi công."
+              - listitem [level=1] [ref=f30e295]: "Thi công xây dựng: Công trình được triển khai theo đúng hồ sơ thiết kế, giám sát chặt chẽ về chất lượng, tiến độ và an toàn lao động trong từng giai đoạn."
+              - listitem [level=1] [ref=f30e296]: "Nghiệm thu và bàn giao: Sau khi hoàn thiện, công trình được kiểm tra, nghiệm thu theo từng hạng mục trước khi bàn giao và thực hiện chế độ bảo hành theo cam kết."
+            - heading "Câu hỏi thường gặp về nhà 1 trệt 1 lầu (FAQ)" [level=2] [ref=f30e297]
+            - heading "Nhà 1 trệt 1 lầu phù hợp với gia đình bao nhiêu người?" [level=3] [ref=f30e298]
+            - paragraph [ref=f30e299]: Mẫu nhà này phù hợp với gia đình từ 3–5 thành viên. Tùy diện tích xây dựng, công trình có thể bố trí từ 2–4 phòng ngủ cùng đầy đủ các không gian sinh hoạt chung.
+            - heading "Xây nhà 1 trệt 1 lầu mất bao lâu?" [level=3] [ref=f30e300]
+            - paragraph [ref=f30e301]: Thời gian thi công thường dao động từ 4–6 tháng, tùy quy mô công trình, điều kiện thi công và mức độ hoàn thiện. Lập kế hoạch và lựa chọn đơn vị thi công chuyên nghiệp sẽ giúp đảm bảo tiến độ.
+            - heading "Chi phí xây nhà 1 trệt 1 lầu khoảng bao nhiêu?" [level=3] [ref=f30e302]
+            - paragraph [ref=f30e303]: Chi phí xây dựng phụ thuộc vào diện tích, phong cách thiết kế, kết cấu và vật liệu hoàn thiện. Để có mức dự toán chính xác, bạn nên tham khảo bảng báo giá mới nhất hoặc liên hệ đơn vị thi công để được tư vấn.
+            - heading "Nhà 1 trệt 1 lầu nên chọn mái bằng, mái Nhật hay mái Thái?" [level=3] [ref=f30e304]
+            - paragraph [ref=f30e305]: Mỗi loại mái đều có ưu điểm riêng. Mái bằng phù hợp phong cách hiện đại, mái Nhật mang vẻ đẹp cân đối và chống nóng tốt, trong khi mái Thái nổi bật với khả năng thoát nước và tính thẩm mỹ cao.
+            - heading "Diện tích tối thiểu để xây nhà 1 trệt 1 lầu là bao nhiêu?" [level=3] [ref=f30e306]
+            - paragraph [ref=f30e307]: Không có quy định về diện tích tối thiểu cố định để xây nhà 1 trệt 1 lầu. Tuy nhiên, với lô đất từ khoảng 40-50 m², gia chủ đã có thể bố trí đầy đủ phòng khách, bếp và 2 phòng ngủ nếu thiết kế hợp lý.
+            - paragraph [ref=f30e308]: Với diện tích lớn hơn từ 60-100 m², việc sắp xếp 3-4 phòng ngủ, gara hoặc sân vườn sẽ thuận lợi hơn, mang lại không gian sống rộng rãi và tiện nghi.
+            - heading "Kết luận" [level=2] [ref=f30e309]
+            - paragraph [ref=f30e310]: Nhà 1 trệt 1 lầu là giải pháp lý tưởng cho nhiều gia đình nhờ tối ưu công năng, chi phí hợp lý và đa dạng phong cách thiết kế.
+            - paragraph [ref=f30e311]: Để sở hữu một công trình đẹp, bền vững và phù hợp với nhu cầu sử dụng, việc lựa chọn đơn vị thiết kế, thi công uy tín là rất quan trọng. Cát Mộc Design & Construction sẵn sàng đồng hành cùng bạn từ khâu tư vấn, thiết kế đến thi công trọn gói, mang đến không gian sống chất lượng và tối ưu giá trị đầu tư.
+    - contentinfo [ref=f30e312]:
+      - generic [ref=f30e316]:
+        - generic [ref=f30e317]:
+          - generic [ref=f30e319]:
+            - img "Cmg Logo@2x" [ref=f30e322]
+            - generic [ref=f30e324]:
+              - heading "CÔNG TY TNHH KIẾN TRÚC – XÂY DỰNG – ĐÀO TẠO CÁT MỘC" [level=3] [ref=f30e325]
+              - list [ref=f30e326]:
+                - listitem [ref=f30e327]: 436B/6 Ba Tháng Hai, P.Hoà Hưng, TP.Hồ Chí Minh, Việt Nam.
+                - listitem [ref=f30e328]: 0942 62 64 69 - 0946 80 80 82
+                - listitem [ref=f30e329]:
+                  - link "info@cmg.vn" [ref=f30e330] [cursor=pointer]:
+                    - /url: mailto:info@cmg.vn
+            - link "Liên hệ ngay" [ref=f30e332] [cursor=pointer]:
+              - /url: /lien-he/
+          - generic [ref=f30e335]:
+            - heading "cat moc group | since 2004" [level=1] [ref=f30e337]
+            - iframe [ref=f30e339]:
+              - generic [ref=f31e2]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=f31e4]:
+                        - generic:
+                          - figure [ref=f31e5]
+                          - paragraph [ref=f31e8]: Cát Mộc group
+                        - generic [ref=f31e9]:
+                          - generic [ref=f31e10] [cursor=pointer]: 
+                          - generic [ref=f31e12] [cursor=pointer]: 
+                      - generic [ref=f31e15]:
+                        - paragraph [ref=f31e17]: Bắt đầu trò chuyện với Cát Mộc group
+                        - generic [ref=f31e18] [cursor=pointer]: Chat bằng Zalo
+                        - generic [ref=f31e19] [cursor=pointer]: Chat nhanh
+                      - generic [ref=f31e23]:
+                        - generic [ref=f31e24] [cursor=pointer]: Tiếng Việt
+                        - generic [ref=f31e25] [cursor=pointer]: English
+            - generic [ref=f30e341]:
+              - generic [ref=f30e344]:
+                - generic [ref=f30e345]: GIỚI THIỆU
+                - link "Về chúng tôi" [ref=f30e347] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/
+                - link "Người sáng lập" [ref=f30e350] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/nguoi-sang-lap/
+                - link "Giải thưởng" [ref=f30e353] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/giai-thuong/
+                - link "Hệ sinh thái CÁT MỘC" [ref=f30e356] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/gioi-thieu/he-sinh-thai-cat-moc/
+                - link "Portfolio Cát Mộc" [ref=f30e359] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn
+              - generic [ref=f30e363]:
+                - generic [ref=f30e364]: DỊCH VỤ
+                - link "Thiết kế kiến trúc" [ref=f30e366] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-kien-truc/
+                - link "Thi công thô" [ref=f30e369] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thi-cong-tho/
+                - link "Thiết kế - Sản xuất nội thất" [ref=f30e372] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/thiet-ke-san-xuat-noi-that/
+              - generic [ref=f30e376]:
+                - generic [ref=f30e377]: TIN TỨC
+                - link "Ưu đãi" [ref=f30e379] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/uu-dai/
+                - link "Văn hóa" [ref=f30e382] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/van-hoa-cmg/
+                - link "Chia sẻ kiến thức" [ref=f30e385] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/chia-se-kien-thuc/
+                - link "Tuyển dụng" [ref=f30e388] [cursor=pointer]:
+                  - /url: https://catmoc.cmg.vn/tuyen-dung/
+        - generic [ref=f30e393]:
+          - generic [ref=f30e394]: Cat Moc Group | Since 2004
+          - generic [ref=f30e398]:
+            - generic [ref=f30e399]:
+              - link "Theo dõi trên Zalo" [ref=f30e400] [cursor=pointer]:
+                - /url: https://zalo.me/0912752275
+              - link "Theo dõi trên Messenger" [ref=f30e402] [cursor=pointer]:
+                - /url: https://m.me/CatMocDesignConstruction
+              - link "Theo dõi trên WhatsApp" [ref=f30e404] [cursor=pointer]:
+                - /url: https://wa.me/84942626469
+              - link "Theo dõi trên Facebook" [ref=f30e406] [cursor=pointer]:
+                - /url: https://www.facebook.com/CatMocDesignConstruction
+            - link [ref=f30e408] [cursor=pointer]:
+              - /url: tel:0942626469
+              - generic [ref=f30e409]: 
+      - link "Lên đầu trang":
+        - /url: "#top"
+        - generic: 
+  - text:     
+  - generic [ref=f30e411]:
+    - link [ref=f30e416] [cursor=pointer]:
+      - /url: https://zalo.me/0912752275
+    - link [ref=f30e422] [cursor=pointer]:
+      - /url: tel:0942626469
+  - iframe [ref=f30e426]:
+    - generic [ref=f32e6]:
+      - text: protected by
+      - strong [ref=f32e7]: reCAPTCHA

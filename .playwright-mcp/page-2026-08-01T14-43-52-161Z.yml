@@ -1,0 +1,109 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - banner [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - link "Eurowindow" [ref=f3e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f3e6]
+        - button "Mở menu" [ref=f3e7]
+    - main [ref=f3e9]:
+      - generic [ref=f3e11]:
+        - 'heading "Dá»° ÃN Cá»¦A EUROWINDOW" [level=1] [ref=f3e12]'
+        - navigation "Breadcrumb" [ref=f3e13]:
+          - link "Trang chủ" [ref=f3e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f3e17]: Dá»± Ã¡n
+      - generic [ref=f3e19]:
+        - generic [ref=f3e20]:
+          - search [ref=f3e21]:
+            - searchbox "TÃ¬m kiáº¿m dá»± Ã¡n" [ref=f3e25]
+          - navigation "Danh má»¥c dá»± Ã¡n" [ref=f3e26]:
+            - button "Táº¥t cáº£" [pressed] [ref=f3e27]
+            - button "Biá»‡t thá»±" [ref=f3e28]
+            - button "NhÃ phá»‘" [ref=f3e29]
+            - button "CÄƒn há»™" [ref=f3e30]
+            - button "CÃ´ng trÃ¬nh quá»‘c gia" [ref=f3e31]
+            - button "VÄƒn phÃ²ng" [ref=f3e32]
+            - button "NhÃ á»Ÿ" [ref=f3e33]
+        - generic [ref=f3e34]:
+          - link [ref=f3e35] [cursor=pointer]:
+            - /url: /du-an/toa-nha-eurowindow
+            - img "TÃ²a nhÃ Eurowindow" [ref=f3e37]
+            - generic [ref=f3e38]:
+              - heading "TÃ²a nhÃ Eurowindow" [level=2] [ref=f3e39]
+              - paragraph [ref=f3e40]: HÃ Ná»™i
+          - link [ref=f3e44] [cursor=pointer]:
+            - /url: /du-an/san-bay-nha-ga
+            - img "SÃ¢n bay & nhÃ ga" [ref=f3e46]
+            - generic [ref=f3e47]:
+              - heading "SÃ¢n bay & nhÃ ga" [level=2] [ref=f3e48]
+              - paragraph [ref=f3e49]: CÃ´ng trÃ¬nh quá»‘c gia
+          - link [ref=f3e53] [cursor=pointer]:
+            - /url: /du-an/chung-cu-cao-cap
+            - img "Chung cÆ° cao cáº¥p" [ref=f3e55]
+            - generic [ref=f3e56]:
+              - heading "Chung cÆ° cao cáº¥p" [level=2] [ref=f3e57]
+              - paragraph [ref=f3e58]: TP. Há»“ ChÃ Minh
+          - link [ref=f3e62] [cursor=pointer]:
+            - /url: /du-an/biet-thu-nha-vuon
+            - 'img "Biá»‡t thá»± & nhÃ vÆ°á»n" [ref=f3e64]'
+            - generic [ref=f3e65]:
+              - 'heading "Biá»‡t thá»± & nhÃ vÆ°á»n" [level=2] [ref=f3e66]'
+              - paragraph [ref=f3e67]: "Ä\x90Ã Láº¡t"
+          - link [ref=f3e71] [cursor=pointer]:
+            - /url: /du-an/trung-tam-thuong-mai
+            - img "Trung tÃ¢m thÆ°Æ¡ng máº¡i" [ref=f3e73]
+            - generic [ref=f3e74]:
+              - heading "Trung tÃ¢m thÆ°Æ¡ng máº¡i" [level=2] [ref=f3e75]
+              - paragraph [ref=f3e76]: HÃ Ná»™i
+          - link [ref=f3e80] [cursor=pointer]:
+            - /url: /du-an/nha-pho-do-thi
+            - img "NhÃ phá»‘ Ä‘Ã´ thá»‹" [ref=f3e82]
+            - generic [ref=f3e83]:
+              - heading "NhÃ phá»‘ Ä‘Ã´ thá»‹" [level=2] [ref=f3e84]
+              - paragraph [ref=f3e85]: "Ä\x90Ã Náºµng"
+          - link [ref=f3e89] [cursor=pointer]:
+            - /url: /du-an/khach-san-nghi-duong
+            - img "KhÃ¡ch sáº¡n & nghá»‰ dÆ°á»¡ng" [ref=f3e91]
+            - generic [ref=f3e92]:
+              - heading "KhÃ¡ch sáº¡n & nghá»‰ dÆ°á»¡ng" [level=2] [ref=f3e93]
+              - paragraph [ref=f3e94]: Phan Thiáº¿t
+          - link [ref=f3e98] [cursor=pointer]:
+            - /url: /du-an/benh-vien-y-te
+            - img "Bá»‡nh viá»‡n & y táº¿" [ref=f3e100]
+            - generic [ref=f3e101]:
+              - heading "Bá»‡nh viá»‡n & y táº¿" [level=2] [ref=f3e102]
+              - paragraph [ref=f3e103]: Cáº§n ThÆ¡
+          - link [ref=f3e107] [cursor=pointer]:
+            - /url: /du-an/van-phong-cho-thue
+            - img "VÄƒn phÃ²ng cho thuÃª" [ref=f3e109]
+            - generic [ref=f3e110]:
+              - heading "VÄƒn phÃ²ng cho thuÃª" [level=2] [ref=f3e111]
+              - paragraph [ref=f3e112]: TP. Há»“ ChÃ Minh
+        - button "Táº£i thÃªm dá»± Ã¡n" [ref=f3e117]
+    - contentinfo [ref=f3e118]:
+      - generic [ref=f3e119]:
+        - generic [ref=f3e120]:
+          - link "Eurowindow" [ref=f3e121] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f3e122]
+          - paragraph [ref=f3e123]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f3e124]:
+          - heading "Liên hệ" [level=2] [ref=f3e125]
+          - generic [ref=f3e126]:
+            - paragraph [ref=f3e127]: Eurowindow Office Building
+            - paragraph [ref=f3e128]: "Hotline: 0909 888 000"
+            - paragraph [ref=f3e129]: infoew@eurowindow.biz
+        - generic [ref=f3e130]:
+          - heading "Khám phá" [level=2] [ref=f3e131]
+          - generic [ref=f3e132]:
+            - link "Giới thiệu" [ref=f3e133] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f3e134] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f3e135] [cursor=pointer]:
+              - /url: /dich-vu
+            - link "Tin tức" [ref=f3e136] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f3e137]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f3e143] [cursor=pointer]

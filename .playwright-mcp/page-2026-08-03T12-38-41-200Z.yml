@@ -1,0 +1,126 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "Eurowindow" [ref=f1e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f1e6]
+        - navigation "�i?u hu?ng ch�nh" [ref=f1e7]:
+          - link "Trang ch?" [ref=f1e8] [cursor=pointer]:
+            - /url: /
+          - link "Gi?i thi?u" [ref=f1e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "C�ng tr�nh" [ref=f1e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "S?n ph?m" [ref=f1e18] [cursor=pointer]:
+            - /url: /san-pham
+          - link "Tin t?c" [ref=f1e22] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic "Language selector" [ref=f1e23]:
+            - link [ref=f1e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f1e25]
+            - link [ref=f1e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f1e27]
+        - link "Li�n h? ngay" [ref=f1e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f1e30]:
+      - generic [ref=f1e33]:
+        - heading "D? �N C?A EUROWINDOW" [level=1] [ref=f1e34]
+        - navigation "Breadcrumb" [ref=f1e35]:
+          - link "Trang chủ" [ref=f1e36] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f1e39]: D? �n
+      - generic [ref=f1e41]:
+        - generic [ref=f1e42]:
+          - search [ref=f1e43]:
+            - searchbox "T�m ki?m d? �n" [ref=f1e47]
+          - navigation "Danh m?c d? �n" [ref=f1e48]:
+            - button "T?t c?" [pressed] [ref=f1e49]
+            - button "C�ng tr�nh qu?c gia" [ref=f1e50]
+            - button "B?nh vi?n" [ref=f1e51]
+            - button "Tr? s? co quan" [ref=f1e52]
+            - button "Van ph�ng" [ref=f1e53]
+        - generic [ref=f1e54]:
+          - link [ref=f1e55] [cursor=pointer]:
+            - /url: /du-an/cang-hang-khong-phu-bai-hue
+            - img "Cảng hàng không Phú Bài Huế" [ref=f1e57]
+            - generic [ref=f1e59]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=2] [ref=f1e60]
+              - paragraph [ref=f1e61]: Huế
+          - link [ref=f1e65] [cursor=pointer]:
+            - /url: /du-an/benh-vien-viet-phap
+            - img "Bệnh viện Việt Pháp" [ref=f1e67]
+            - generic [ref=f1e69]:
+              - heading "Bệnh viện Việt Pháp" [level=2] [ref=f1e70]
+              - paragraph [ref=f1e71]: Hà Nội
+          - link [ref=f1e75] [cursor=pointer]:
+            - /url: /du-an/benh-vien-ung-buou-da-nang
+            - img "Bệnh viện ung bướu Đà Nẵng" [ref=f1e77]
+            - generic [ref=f1e79]:
+              - heading "Bệnh viện ung bướu Đà Nẵng" [level=2] [ref=f1e80]
+              - paragraph [ref=f1e81]: Đà Nẵng
+          - link [ref=f1e85] [cursor=pointer]:
+            - /url: /du-an/benh-vien-nhi-dong-tphcm
+            - img "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [ref=f1e87]
+            - generic [ref=f1e89]:
+              - heading "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [level=2] [ref=f1e90]
+              - paragraph [ref=f1e91]: TP. Hồ Chí Minh
+          - link [ref=f1e95] [cursor=pointer]:
+            - /url: /du-an/trung-tam-truyen-hinh-ttxvn
+            - img "TT Truyền hình Thông tấn xã Việt Nam" [ref=f1e97]
+            - generic [ref=f1e99]:
+              - heading "TT Truyền hình Thông tấn xã Việt Nam" [level=2] [ref=f1e100]
+              - paragraph [ref=f1e101]: Hà Nội
+          - link [ref=f1e105] [cursor=pointer]:
+            - /url: /du-an/vien-kiem-sat-nhan-dan-toi-cao
+            - img "Trụ sở Viện KSND Tối cao" [ref=f1e107]
+            - generic [ref=f1e109]:
+              - heading "Trụ sở Viện KSND Tối cao" [level=2] [ref=f1e110]
+              - paragraph [ref=f1e111]: Hà Nội
+          - link [ref=f1e115] [cursor=pointer]:
+            - /url: /du-an/toa-nha-quoc-hoi
+            - img "Tòa nhà Quốc hội" [ref=f1e117]
+            - generic [ref=f1e119]:
+              - heading "Tòa nhà Quốc hội" [level=2] [ref=f1e120]
+              - paragraph [ref=f1e121]: Hà Nội
+          - link [ref=f1e125] [cursor=pointer]:
+            - /url: /du-an/trung-tam-thuong-mai
+            - img "Trung tâm thương mại & văn phòng" [ref=f1e127]
+            - generic [ref=f1e129]:
+              - heading "Trung tâm thương mại & văn phòng" [level=2] [ref=f1e130]
+              - paragraph [ref=f1e131]: Hà Nội
+          - link [ref=f1e135] [cursor=pointer]:
+            - /url: /du-an/chung-cu-vinhomes-global-gate
+            - img "Khu đô thị Vinhomes Global Gate Cổ Loa" [ref=f1e137]
+            - generic [ref=f1e139]:
+              - heading "Khu đô thị Vinhomes Global Gate Cổ Loa" [level=2] [ref=f1e140]
+              - paragraph [ref=f1e141]: Hà Nội
+    - contentinfo [ref=f1e145]:
+      - generic [ref=f1e146]:
+        - generic [ref=f1e147]:
+          - link "Eurowindow" [ref=f1e148] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f1e149]
+          - paragraph [ref=f1e150]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f1e151]:
+          - heading "Liên hệ" [level=2] [ref=f1e152]
+          - generic [ref=f1e153]:
+            - paragraph [ref=f1e154]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f1e155]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f1e156]: infoew@eurowindow.biz
+        - generic [ref=f1e157]:
+          - heading "Khám phá" [level=2] [ref=f1e158]
+          - generic [ref=f1e159]:
+            - link "Giới thiệu" [ref=f1e160] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f1e161] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f1e162] [cursor=pointer]:
+              - /url: /san-pham
+            - link "Tin tức" [ref=f1e163] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f1e164]: © 2026 Eurowindow. All rights reserved.
+  - button "Mở chat Eurowindow" [ref=f1e165]
+  - button "Open Next.js Dev Tools" [ref=f1e173] [cursor=pointer]

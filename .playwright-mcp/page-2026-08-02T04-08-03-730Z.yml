@@ -1,0 +1,81 @@
+- generic [active] [ref=f45e1]:
+  - generic [ref=f45e2]:
+    - banner [ref=f45e3]:
+      - generic [ref=f45e4]:
+        - link "Eurowindow" [ref=f45e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f45e6]
+        - button "Mở menu" [ref=f45e7]
+    - main [ref=f45e9]:
+      - generic [ref=f45e11]:
+        - navigation "Breadcrumb" [ref=f45e12]:
+          - link "Trang chủ" [ref=f45e13] [cursor=pointer]:
+            - /url: /
+          - link "Tin tức" [ref=f45e16] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic [ref=f45e19]: Hoạt động
+        - paragraph [ref=f45e20]: Hoạt động · 25/07/2026
+        - heading "Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”" [level=1] [ref=f45e21]
+        - paragraph [ref=f45e22]: Tọa đàm quy tụ các diễn giả, chuyên gia và lãnh đạo nhằm chia sẻ xu hướng nguồn nhân lực cùng chiến lược phát triển, quản trị nhân sự trong bối cảnh kinh tế mới.
+      - img "Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”" [ref=f45e26]
+      - generic [ref=f45e28]:
+        - group [ref=f45e29]:
+          - generic "Mục lục" [ref=f45e30] [cursor=pointer]
+        - generic [ref=f45e33]:
+          - generic [ref=f45e34]:
+            - heading "Tọa đàm chuyên sâu về chiến lược nhân sự" [level=2] [ref=f45e35]
+            - generic [ref=f45e36]:
+              - paragraph [ref=f45e37]: Eurowindow vừa tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”. Sự kiện quy tụ lãnh đạo, chuyên gia nhân sự và đội ngũ quản lý các cấp cùng trao đổi về những thách thức và cơ hội trong thu hút, giữ chân và phát triển nhân tài.
+              - paragraph [ref=f45e38]: Tại tọa đàm, các diễn giả đã chia sẻ bức tranh tổng quan về thị trường lao động, xu hướng chuyển dịch nhân sự cũng như vai trò của văn hóa doanh nghiệp trong việc kiến tạo môi trường làm việc bền vững.
+          - generic [ref=f45e39]:
+            - heading "Con người là nền tảng phát triển" [level=2] [ref=f45e40]
+            - generic [ref=f45e41]:
+              - paragraph [ref=f45e42]: Với hơn 20 năm phát triển, Eurowindow luôn xác định con người là tài sản quý giá nhất. Các chương trình đào tạo, lộ trình thăng tiến và chính sách phúc lợi được liên tục hoàn thiện nhằm đồng hành cùng sự phát triển của từng cá nhân.
+              - paragraph [ref=f45e43]: Thông qua tọa đàm, Eurowindow mong muốn xây dựng một đội ngũ vững mạnh, sẵn sàng kiến tạo những giá trị bền vững cho khách hàng và cộng đồng.
+        - link "Quay lại tin tức" [ref=f45e45] [cursor=pointer]:
+          - /url: /tin-tuc
+      - generic [ref=f45e49]:
+        - heading "Bài viết liên quan" [level=2] [ref=f45e51]
+        - generic [ref=f45e52]:
+          - link "Dự án · 18/07/2026 Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa Đọc thêm" [ref=f45e53] [cursor=pointer]:
+            - /url: /tin-tuc/cua-vach-kinh-vinhomes-global-gate
+            - paragraph [ref=f45e55]: Dự án · 18/07/2026
+            - heading "Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa" [level=3] [ref=f45e56]
+            - generic [ref=f45e57]: Đọc thêm
+          - link "Chia sẻ kiến thức · 10/07/2026 Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026 Đọc thêm" [ref=f45e60] [cursor=pointer]:
+            - /url: /tin-tuc/giai-phap-cua-chong-nong-mua-he-2026
+            - paragraph [ref=f45e62]: Chia sẻ kiến thức · 10/07/2026
+            - heading "Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026" [level=3] [ref=f45e63]
+            - generic [ref=f45e64]: Đọc thêm
+          - link "Chia sẻ kiến thức · 05/07/2026 Nên chọn cửa gì cho mùa hè nắng nóng? Đọc thêm" [ref=f45e67] [cursor=pointer]:
+            - /url: /tin-tuc/nen-chon-cua-gi-cho-mua-he-nang-nong
+            - paragraph [ref=f45e69]: Chia sẻ kiến thức · 05/07/2026
+            - heading "Nên chọn cửa gì cho mùa hè nắng nóng?" [level=3] [ref=f45e70]
+            - generic [ref=f45e71]: Đọc thêm
+    - contentinfo [ref=f45e74]:
+      - generic [ref=f45e75]:
+        - generic [ref=f45e76]:
+          - link "Eurowindow" [ref=f45e77] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f45e78]
+          - paragraph [ref=f45e79]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f45e80]:
+          - heading "Liên hệ" [level=2] [ref=f45e81]
+          - generic [ref=f45e82]:
+            - paragraph [ref=f45e83]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f45e84]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f45e85]: infoew@eurowindow.biz
+        - generic [ref=f45e86]:
+          - heading "Khám phá" [level=2] [ref=f45e87]
+          - generic [ref=f45e88]:
+            - link "Giới thiệu" [ref=f45e89] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f45e90] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f45e91] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f45e92] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f45e93]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f45e99] [cursor=pointer]
+  - alert [ref=f45e103]

@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-08-01",
+    "genre": "editorial",
+    "macrostructure": "Long Document",
+    "theme": "Eurowindow Light (custom-tuned)",
+    "nav": "N11 mega-menu (site chrome)",
+    "footer": "site footer (unchanged)",
+    "brief": "eurowindow · gioi-thieu /gioi-thieu"
+  },
+  {
+    "date": "2026-08-01",
+    "genre": "editorial",
+    "macrostructure": "Portfolio Grid",
+    "theme": "Eurowindow Light (custom-tuned)",
+    "nav": "N11 mega-menu (site chrome)",
+    "footer": "site footer (unchanged)",
+    "brief": "eurowindow · du-an /du-an"
+  },
+  {
+    "date": "2026-08-01",
+    "genre": "editorial",
+    "macrostructure": "Narrative Workflow",
+    "theme": "Eurowindow Light (custom-tuned)",
+    "nav": "N11 mega-menu (site chrome)",
+    "footer": "site footer (unchanged)",
+    "brief": "eurowindow · dich-vu /dich-vu"
+  },
+  {
+    "date": "2026-08-01",
+    "genre": "editorial",
+    "macrostructure": "Ecosystem Index",
+    "theme": "Eurowindow Light (custom-tuned)",
+    "nav": "N11 mega-menu (site chrome)",
+    "footer": "site footer (unchanged)",
+    "brief": "eurowindow · tin-tuc /tin-tuc"
+  },
+  {
+    "date": "2026-08-01",
+    "genre": "modern-minimal",
+    "macrostructure": "Split Studio",
+    "theme": "Cobalt",
+    "nav": "N9 edge-aligned minimal",
+    "footer": "Ft2 inline-rule single-line"
+  },
+  {
+    "date": "2026-08-01",
+    "genre": "atmospheric",
+    "macrostructure": "Marquee Hero",
+    "theme": "Midnight",
+    "nav": "N11 mega-menu",
+    "footer": "Ft1 mast-headed"
+  }
+]

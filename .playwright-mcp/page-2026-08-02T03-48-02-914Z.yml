@@ -1,0 +1,311 @@
+- generic [ref=f18e2]:
+  - banner [ref=f18e3]:
+    - generic [ref=f18e5]:
+      - generic [ref=f18e6]:
+        - list [ref=f18e7]:
+          - listitem [ref=f18e8]: VN
+          - listitem [ref=f18e9]: ENG
+        - generic [ref=f18e11]:
+          - textbox "Tìm kiếm..." [ref=f18e12]
+          - button "Tìm kiếm" [ref=f18e13] [cursor=pointer]
+      - link [ref=f18e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=f18e18]
+      - link "Nhận tư vấn" [ref=f18e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f18e24]:
+      - listitem [ref=f18e25]:
+        - link "GIỚI THIỆU" [ref=f18e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f18e27]:
+        - link "SẢN PHẨM" [ref=f18e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f18e31]:
+        - link "SHOWROOM" [ref=f18e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f18e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f18e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f18e37]:
+        - link "TÀI LIỆU" [ref=f18e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f18e39]:
+        - link "TIN TỨC" [ref=f18e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f18e43]:
+        - link "CHÍNH SÁCH" [ref=f18e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f18e47]:
+        - link "LIÊN HỆ" [ref=f18e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f18e49]:
+    - generic [ref=f18e52]:
+      - paragraph [ref=f18e54]: Công trình tiêu biểu
+      - list [ref=f18e56]:
+        - listitem [ref=f18e57]:
+          - link "Trang chủ" [ref=f18e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=f18e59]:
+          - link "CÔNG TRÌNH CẤP QUỐC GIA" [ref=f18e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+    - generic [ref=f18e62]:
+      - generic [ref=f18e63]:
+        - heading [level=1] [ref=f18e65]:
+          - link "CÔNG TRÌNH CẤP QUỐC GIA" [ref=f18e66] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+        - paragraph [ref=f18e68]:
+          - link "TÒA NHÀ VP - CHUNG CƯ" [ref=f18e69] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/toa-nha-vp-chung-cu
+        - paragraph [ref=f18e71]:
+          - link "CÔNG TRÌNH DÂN DỤNG" [ref=f18e72] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-dan-dung
+      - generic [ref=f18e73]:
+        - generic [ref=f18e74]:
+          - generic [ref=f18e75]:
+            - link [ref=f18e77] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-phu-bai-hue.html
+              - img "viber-image-2025-02-05-13-33-24-065" [ref=f18e78]
+            - link [ref=f18e80] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-phu-bai-hue.html
+              - heading "CẢNG HÀNG KHÔNG PHÚ BÀI HUẾ" [level=2] [ref=f18e81]
+          - generic [ref=f18e82]:
+            - link [ref=f18e84] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-viet-phap.html
+              - img "img-7105" [ref=f18e85]
+            - generic [ref=f18e86]:
+              - link [ref=f18e87] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-viet-phap.html
+                - heading "Bệnh viện Việt Pháp" [level=2] [ref=f18e88]
+              - paragraph [ref=f18e89]: Hà Nội
+          - generic [ref=f18e92]:
+            - link [ref=f18e94] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-ung-buou-da-nang.html
+              - img "benh-vien-ung-buou-da-nang-17" [ref=f18e95]
+            - generic [ref=f18e96]:
+              - link [ref=f18e97] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-ung-buou-da-nang.html
+                - heading "Bệnh viện ung bướu Đà Nẵng" [level=2] [ref=f18e98]
+              - paragraph [ref=f18e99]: Đà Nẵng
+          - generic [ref=f18e102]:
+            - link [ref=f18e104] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-nhi-dong-tp-ho-chi-minh.html
+              - img "dji-0090-1" [ref=f18e105]
+            - generic [ref=f18e106]:
+              - link [ref=f18e107] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/benh-vien-nhi-dong-tp-ho-chi-minh.html
+                - heading "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [level=2] [ref=f18e108]
+              - paragraph [ref=f18e109]: TP. Hồ Chí Minh
+          - generic [ref=f18e112]:
+            - link [ref=f18e114] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tt-truyen-hinh-thong-tan-xa-viet-nam.html
+              - img "img-7172" [ref=f18e115]
+            - generic [ref=f18e116]:
+              - link [ref=f18e117] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tt-truyen-hinh-thong-tan-xa-viet-nam.html
+                - heading "TT Truyền hình Thông tấn xã Việt Nam" [level=2] [ref=f18e118]
+              - paragraph [ref=f18e119]: Hà Nội
+          - generic [ref=f18e122]:
+            - link [ref=f18e124] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-van-phong-vien-kiem-sat-nhan-dan-toi-cao.html
+              - img "20191115-vien-kiem-soat-nhan-dan-toi-cao-0038" [ref=f18e125]
+            - generic [ref=f18e126]:
+              - link [ref=f18e127] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-van-phong-vien-kiem-sat-nhan-dan-toi-cao.html
+                - heading "Trụ sở Văn phòng Viện kiểm sát nhân dân tối cao" [level=2] [ref=f18e128]
+              - paragraph [ref=f18e129]: Hà Nội
+          - generic [ref=f18e132]:
+            - link [ref=f18e134] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/nha-quoc-hoi.html
+              - img "mg-1220" [ref=f18e135]
+            - generic [ref=f18e136]:
+              - link [ref=f18e137] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/nha-quoc-hoi.html
+                - heading "Nhà Quốc hội" [level=2] [ref=f18e138]
+              - paragraph [ref=f18e139]: Hà Nội
+          - generic [ref=f18e142]:
+            - link [ref=f18e144] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/toa-nha-van-phong-chinh-phu.html
+              - img "20190612-hanoi-cityscape-7928" [ref=f18e145]
+            - generic [ref=f18e146]:
+              - link [ref=f18e147] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/toa-nha-van-phong-chinh-phu.html
+                - heading "Tòa nhà văn phòng Chính phủ" [level=2] [ref=f18e148]
+              - paragraph [ref=f18e149]: Hà Nội
+          - generic [ref=f18e152]:
+            - link [ref=f18e154] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-bo-cong-an.html
+              - img "toa-nha-bo-cong-an" [ref=f18e155]
+            - generic [ref=f18e156]:
+              - link [ref=f18e157] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-bo-cong-an.html
+                - heading "Trụ sở Bộ Công an" [level=2] [ref=f18e158]
+              - paragraph [ref=f18e159]: Hà Nội
+          - generic [ref=f18e162]:
+            - link [ref=f18e164] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-bo-ngoai-giao.html
+              - img "20191030-tru-so-bo-ngoai-giao-0719" [ref=f18e165]
+            - generic [ref=f18e166]:
+              - link [ref=f18e167] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/tru-so-bo-ngoai-giao.html
+                - heading "Trụ sở Bộ Ngoại giao" [level=2] [ref=f18e168]
+              - paragraph [ref=f18e169]: Hà Nội
+          - generic [ref=f18e172]:
+            - link [ref=f18e174] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-quoc-te-can-tho.html
+              - img "san-bay-can-tho" [ref=f18e175]
+            - generic [ref=f18e176]:
+              - link [ref=f18e177] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-quoc-te-can-tho.html
+                - heading "Cảng hàng không quốc tế Cần Thơ" [level=2] [ref=f18e178]
+              - paragraph [ref=f18e179]: Cần Thơ
+          - generic [ref=f18e182]:
+            - link [ref=f18e184] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-quoc-te-van-don.html
+              - img "san-bay-van-don" [ref=f18e185]
+            - generic [ref=f18e186]:
+              - link [ref=f18e187] [cursor=pointer]:
+                - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-quoc-te-van-don.html
+                - heading "Cảng hàng không quốc tế Vân Đồn" [level=2] [ref=f18e188]
+              - paragraph [ref=f18e189]: Quảng Ninh
+        - navigation [ref=f18e192]:
+          - navigation [ref=f18e193]:
+            - list [ref=f18e194]:
+              - listitem [ref=f18e195]:
+                - generic [ref=f18e196]: "1"
+              - listitem [ref=f18e197]:
+                - link "2" [ref=f18e198] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia?page=2
+              - listitem [ref=f18e199]:
+                - link "pagination.next" [ref=f18e200] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia?page=2
+      - generic [ref=f18e203]:
+        - img "callcenter-1" [ref=f18e205]
+        - generic [ref=f18e206]:
+          - paragraph [ref=f18e207]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+          - generic [ref=f18e208]:
+            - generic [ref=f18e209]:
+              - textbox "Họ và tên *" [ref=f18e211]
+              - textbox "Số điện thoại *" [ref=f18e213]
+              - textbox "Email *" [ref=f18e215]
+            - textbox "Lời nhắn tới Eurowindow" [ref=f18e217]
+            - button "Gửi" [ref=f18e219] [cursor=pointer]
+  - contentinfo [ref=f18e220]:
+    - generic [ref=f18e222]:
+      - generic [ref=f18e223]:
+        - link [ref=f18e225] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f18e226]
+        - generic [ref=f18e227]:
+          - link "Facebook" [ref=f18e228] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f18e229]
+          - link "Instagram" [ref=f18e230] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f18e231]
+          - link "Youtube" [ref=f18e232] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f18e233]
+          - link "Zalo" [ref=f18e234] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f18e235]
+          - link "Tiktok" [ref=f18e236] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f18e240] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f18e244] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f18e248]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f18e251] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f18e252]:
+          - link [ref=f18e253] [cursor=pointer]:
+            - /url: javascript:;
+            - img "BCT" [ref=f18e254]
+          - link [ref=f18e255] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f18e256]
+      - generic [ref=f18e257]:
+        - generic [ref=f18e258]: Giới thiệu
+        - list [ref=f18e259]:
+          - listitem [ref=f18e260]:
+            - link "Giới thiệu" [ref=f18e261] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f18e262]:
+            - link "Tầm nhìn sứ mệnh" [ref=f18e263] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f18e264]:
+            - link "Giải thưởng" [ref=f18e265] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f18e266]:
+            - link "Tài liệu" [ref=f18e267] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f18e268]:
+        - generic [ref=f18e269]: Sản phẩm
+        - list [ref=f18e270]:
+          - listitem [ref=f18e271]:
+            - link "Cửa - Vách nhôm" [ref=f18e272] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f18e273]:
+            - link "Cửa uPVC" [ref=f18e274] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f18e275]:
+            - link "Cửa gỗ" [ref=f18e276] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f18e277]:
+            - link "Cửa cuốn" [ref=f18e278] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f18e279]:
+            - link "Cửa thông minh" [ref=f18e280] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f18e281]:
+        - generic [ref=f18e282]: Tin tức
+        - list [ref=f18e283]:
+          - listitem [ref=f18e284]:
+            - link "Tin tức sự kiện" [ref=f18e285] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f18e286]:
+            - link "Tin dự án" [ref=f18e287] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f18e288]:
+            - link "Tin nội bộ" [ref=f18e289] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f18e290]:
+            - link "Tin khuyến mãi" [ref=f18e291] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f18e292]:
+            - link "Tư vấn" [ref=f18e293] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f18e294]:
+        - generic [ref=f18e295]: Chăm sóc khách hàng
+        - list [ref=f18e296]:
+          - listitem [ref=f18e297]:
+            - link "Chính sách bảo hành" [ref=f18e298] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f18e299]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f18e300] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f18e301]:
+            - link "(84 - 24) 37 47 47 00" [ref=f18e302] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f18e305]:
+            - link "cskhhn@eurowindow.biz" [ref=f18e306] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f18e309]: Dự án quốc tế và xuất khẩu
+          - list [ref=f18e310]:
+            - listitem [ref=f18e311]:
+              - link "+84 -903 41 55 52" [ref=f18e312] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f18e315]:
+              - link "export@eurowindow.biz" [ref=f18e316] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f18e321]:
+      - generic [ref=f18e322]:
+        - paragraph
+        - paragraph
+      - generic [ref=f18e323]:
+        - paragraph
+        - paragraph [ref=f18e324]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f18e330] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f18e331]

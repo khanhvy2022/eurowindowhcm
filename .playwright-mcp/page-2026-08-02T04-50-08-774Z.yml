@@ -1,0 +1,171 @@
+- generic [active] [ref=f71e1]:
+  - generic [ref=f71e2]:
+    - banner [ref=f71e3]:
+      - generic [ref=f71e4]:
+        - link "Eurowindow" [ref=f71e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f71e6]
+        - button "Mở menu" [ref=f71e7]
+    - main [ref=f71e9]:
+      - generic [ref=f71e11]:
+        - heading "SẢN PHẨM CỦA EUROWINDOW" [level=1] [ref=f71e12]
+        - navigation "Breadcrumb" [ref=f71e13]:
+          - link "Trang chủ" [ref=f71e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f71e17]: Sản phẩm
+      - generic [ref=f71e19]:
+        - tablist "Chọn sản phẩm" [ref=f71e20]:
+          - tab "CỬA NHÔM & VÁCH KÍNH" [selected] [ref=f71e21]
+          - tab "CỬA uPVC" [ref=f71e22]
+          - tab "CỬA GỖ & GỖ CHỐNG CHÁY" [ref=f71e23]
+          - tab "SẢN PHẨM KÍNH" [ref=f71e24]
+          - tab "CỬA TỰ ĐỘNG" [ref=f71e25]
+          - tab "CỬA CUỐN" [ref=f71e26]
+        - generic [ref=f71e27]:
+          - img "CỬA NHÔM & VÁCH KÍNH LỚN" [ref=f71e29]
+          - generic [ref=f71e30]:
+            - heading "CỬA NHÔM & VÁCH KÍNH LỚN" [level=2] [ref=f71e31]
+            - paragraph [ref=f71e32]: Hệ cửa nhôm và vách nhôm kính lớn từ vật liệu nhôm EA55–EA95i, phụ kiện chính hãng Cmech, Roto, Hafele. Độ kín khít cao, đóng mở đa chiều đáp ứng những yêu cầu khắt khe về thiết kế, chịu tải trọng gió lớn cho công trình quy mô.
+            - list [ref=f71e33]:
+              - listitem [ref=f71e34]: "Đóng mở đa chiều: quay trong, quay ngoài, hất, quay lật, xếp trượt, trượt"
+              - listitem [ref=f71e37]: Hệ nhôm EA55–EA95i, phụ kiện chính hãng Cmech, Roto, Hafele
+              - listitem [ref=f71e40]: Chịu tải trọng gió lớn, phù hợp vách kính công trình quy mô
+            - generic [ref=f71e43]:
+              - generic [ref=f71e44]:
+                - paragraph [ref=f71e45]: 99%
+                - paragraph [ref=f71e46]: khách hàng hài lòng
+              - generic [ref=f71e47]:
+                - paragraph [ref=f71e48]: 12+
+                - paragraph [ref=f71e49]: hệ sản phẩm chính hãng
+              - generic [ref=f71e50]:
+                - paragraph [ref=f71e51]: 5 năm
+                - paragraph [ref=f71e52]: bảo hành tiêu chuẩn
+            - link "XEM NGAY BẢNG GIÁ" [ref=f71e53] [cursor=pointer]:
+              - /url: "#lien-he"
+        - generic [ref=f71e56]:
+          - generic [ref=f71e57]:
+            - generic [ref=f71e58]:
+              - paragraph [ref=f71e59]: Giới thiệu sản phẩm
+              - generic [ref=f71e60]:
+                - paragraph [ref=f71e61]: Cửa nhôm và vách nhôm kính lớn Eurowindow được sản xuất từ vật liệu nhôm cao cấp, khắc phục triệt để những nhược điểm của nhôm thông thường như kết cấu yếu, phụ kiện đơn giản, không có cầu cách nhiệt nên khả năng cách âm, cách nhiệt kém, hay bị rò rỉ nước mưa.
+                - paragraph [ref=f71e62]: Cửa nhôm (gồm cửa sổ, cửa đi) và cửa vách nhôm đảm bảo độ kín khít cao, có thể đóng mở đa chiều, phù hợp với nhiều kiểu phong cách kiến trúc. Đặc biệt, profile nhôm có cầu cách nhiệt kết hợp với hộp kính bơm khí trơ giúp hạn chế tối đa sự truyền nhiệt, góp phần tiết kiệm điện năng. Bên cạnh hợp tác chiến lược với các nhà cung cấp profile nhôm hàng đầu thế giới như Technal (Pháp), Shueco (CHLB Đức), Eurowindow còn đầu tư dây chuyền sơn tĩnh điện (Powdercoating) và sơn nước (PVDF), cho phép sơn tấm nhôm gấp khổ lớn tới 2,5m x 2,5m x 6m, cùng hệ thống xử lý nước thải đạt chuẩn A Grade.
+            - generic [ref=f71e63]:
+              - paragraph [ref=f71e64]: Chi tiết cấu tạo & công nghệ
+              - generic [ref=f71e65]:
+                - generic [ref=f71e66]:
+                  - heading "Thanh profile" [level=3] [ref=f71e67]
+                  - paragraph [ref=f71e68]: Thanh profile có cầu cách nhiệt hoặc không, với các khoang rỗng và gân tăng cứng, rãnh và vách kỹ thuật được tính toán kỹ lưỡng tạo sống gia cường, kênh thoát nước và khoang trống cách âm, cách nhiệt.
+                - generic [ref=f71e69]:
+                  - heading "Hộp kính" [level=3] [ref=f71e70]
+                  - paragraph [ref=f71e71]: Kết hợp hộp kính bơm khí trơ, hệ gioăng EPDM và hệ phụ kiện kim khí đồng bộ để đạt hiệu quả cách âm, cách nhiệt cao.
+                - generic [ref=f71e72]:
+                  - heading "Hệ phụ kiện" [level=3] [ref=f71e73]
+                  - paragraph [ref=f71e74]: Phụ kiện kim khí chính hãng Cmech, Roto, Hafele, Huy Hoàng, GMT, Kinlong tạo sự chính xác và an toàn trong sử dụng.
+          - generic [ref=f71e75]:
+            - paragraph [ref=f71e76]: Tính năng & ưu việt
+            - generic [ref=f71e77]:
+              - generic [ref=f71e78]:
+                - heading "Cách âm, cách nhiệt" [level=3] [ref=f71e79]
+                - paragraph [ref=f71e82]: Profile nhôm có cầu cách nhiệt kết hợp hộp kính, gioăng EPDM và phụ kiện đồng bộ đem lại tính cách âm, cách nhiệt cao — đặc biệt với dòng có cầu cách nhiệt.
+              - generic [ref=f71e83]:
+                - heading "Chịu lực tốt" [level=3] [ref=f71e84]
+                - paragraph [ref=f71e87]: Thanh profile thiết kế khoang rỗng, gân tăng cứng và chiều dày nhôm hợp lý giúp chịu tác động từ gió, bão, động đất.
+              - generic [ref=f71e88]:
+                - heading "Tải trọng nhẹ" [level=3] [ref=f71e89]
+                - paragraph [ref=f71e92]: Nhôm là vật liệu nhẹ, độ bền cao, giảm tải trọng toàn công trình so với vách tường vật liệu khác, mang lại giải pháp an toàn tối ưu.
+              - generic [ref=f71e93]:
+                - heading "Kinh tế trong sử dụng" [level=3] [ref=f71e94]
+                - paragraph [ref=f71e97]: Hộp kính cách âm, cách nhiệt, kính an toàn giúp tiết kiệm điện năng điều hòa; bề mặt sơn tĩnh điện bền màu, chỉ cần lau chùi thông thường.
+              - generic [ref=f71e98]:
+                - heading "Tính thẩm mỹ" [level=3] [ref=f71e99]
+                - paragraph [ref=f71e102]: Hệ vách giấu đố chịu lực tạo mặt phẳng kính lớn, sử dụng kính màu, kính hoa văn, kính mài mờ vừa đảm bảo kín đáo vừa thẩm mỹ.
+              - generic [ref=f71e103]:
+                - heading "Tiêu chuẩn chất lượng" [level=3] [ref=f71e104]
+                - paragraph [ref=f71e107]: Đạt tiêu chuẩn Châu Âu và TCVN 330:2004, TCVN 7452-1/2/3:2004 (lọt khí, kín nước, chịu áp lực gió), ISO 140-5 về cách âm.
+          - generic [ref=f71e108]:
+            - paragraph [ref=f71e109]: Các hệ sản phẩm
+            - list [ref=f71e110]:
+              - listitem [ref=f71e111]: Cửa đi nhôm
+              - listitem [ref=f71e114]: Cửa sổ nhôm
+              - listitem [ref=f71e117]: Vách nhôm kính lớn hệ Stick
+              - listitem [ref=f71e120]: Vách nhôm kính hệ Spider
+              - listitem [ref=f71e123]: Vách nhôm kính hệ Semi-Unitized
+              - listitem [ref=f71e126]: Vách nhôm kính lớn hệ Unitized
+              - listitem [ref=f71e129]: Mái che
+      - generic [ref=f71e133]:
+        - heading "Quy trình" [level=2] [ref=f71e134]
+        - list [ref=f71e135]:
+          - listitem [ref=f71e136]:
+            - paragraph [ref=f71e137]: GIAI ĐOẠN 1
+            - heading "Tư vấn & khảo sát" [level=3] [ref=f71e138]
+            - paragraph [ref=f71e139]: Lắng nghe nhu cầu, khảo sát hiện trường và tư vấn hệ giải pháp cửa, vách phù hợp công năng và ngân sách.
+          - listitem [ref=f71e140]:
+            - paragraph [ref=f71e141]: GIAI ĐOẠN 2
+            - heading "Sản xuất & kiểm tra" [level=3] [ref=f71e142]
+            - paragraph [ref=f71e143]: Lập hồ sơ kỹ thuật, triển khai sản xuất tại nhà máy theo hệ chuẩn Châu Âu và kiểm tra chất lượng từng lô sản phẩm.
+          - listitem [ref=f71e144]:
+            - paragraph [ref=f71e145]: GIAI ĐOẠN 3
+            - heading "Lắp đặt & bàn giao" [level=3] [ref=f71e146]
+            - paragraph [ref=f71e147]: Lắp đặt bởi đội ngũ kinh nghiệm, nghiệm thu từng hạng mục và bàn giao kèm chế độ bảo hành chính hãng.
+      - generic [ref=f71e149]:
+        - heading "Giải thưởng" [level=2] [ref=f71e150]
+        - generic [ref=f71e151]:
+          - generic [ref=f71e152]:
+            - paragraph [ref=f71e156]: 14 năm
+            - heading "liên tiếp Thương hiệu Quốc gia" [level=3] [ref=f71e157]
+            - paragraph [ref=f71e158]: Bộ Công Thương
+          - generic [ref=f71e159]:
+            - paragraph [ref=f71e163]: "2026"
+            - heading "Top 10 doanh nghiệp xanh Việt Nam" [level=3] [ref=f71e164]
+            - paragraph [ref=f71e165]: Vietnam Report
+          - generic [ref=f71e166]:
+            - paragraph [ref=f71e170]: "2024"
+            - heading "Giải thưởng chất lượng sản phẩm Việt Nam" [level=3] [ref=f71e171]
+            - paragraph [ref=f71e172]: Vietnam Quality Award
+      - generic [ref=f71e174]:
+        - heading "Dự án tiêu biểu" [level=2] [ref=f71e176]
+        - generic [ref=f71e177]:
+          - link [ref=f71e178] [cursor=pointer]:
+            - /url: /du-an
+            - img "Cảng hàng không Phú Bài Huế" [ref=f71e180]
+            - generic [ref=f71e181]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f71e182]
+              - paragraph [ref=f71e183]: Công trình quốc gia
+          - link [ref=f71e184] [cursor=pointer]:
+            - /url: /du-an
+            - img "Bệnh viện Việt Pháp" [ref=f71e186]
+            - generic [ref=f71e187]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f71e188]
+              - paragraph [ref=f71e189]: Bệnh viện
+          - link [ref=f71e190] [cursor=pointer]:
+            - /url: /du-an
+            - img "Tòa nhà Quốc hội" [ref=f71e192]
+            - generic [ref=f71e193]:
+              - heading "Tòa nhà Quốc hội" [level=3] [ref=f71e194]
+              - paragraph [ref=f71e195]: Công trình quốc gia
+    - contentinfo [ref=f71e196]:
+      - generic [ref=f71e197]:
+        - generic [ref=f71e198]:
+          - link "Eurowindow" [ref=f71e199] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f71e200]
+          - paragraph [ref=f71e201]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f71e202]:
+          - heading "Liên hệ" [level=2] [ref=f71e203]
+          - generic [ref=f71e204]:
+            - paragraph [ref=f71e205]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f71e206]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f71e207]: infoew@eurowindow.biz
+        - generic [ref=f71e208]:
+          - heading "Khám phá" [level=2] [ref=f71e209]
+          - generic [ref=f71e210]:
+            - link "Giới thiệu" [ref=f71e211] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f71e212] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f71e213] [cursor=pointer]:
+              - /url: /san-pham
+            - link "Tin tức" [ref=f71e214] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f71e215]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f71e221] [cursor=pointer]

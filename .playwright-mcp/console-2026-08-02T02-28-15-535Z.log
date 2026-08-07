@@ -1,0 +1,4 @@
+[    1478ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://catmoc.cmg.vn/wp-admin/admin-ajax.php:0
+[  199336ms] [LOG] Zalo Social Plugin is loaded successfully @ https://sp.zalo.me/plugins/sdk.js:1
+[  199337ms] [LOG] socialPluginsShare:  [] @ https://sp.zalo.me/plugins/sdk.js:1
+[  204375ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://catmoc.cmg.vn/wp-admin/admin-ajax.php:0

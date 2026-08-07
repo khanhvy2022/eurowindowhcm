@@ -1,0 +1,9 @@
+{
+  "scannedAt": "2026-08-01",
+  "fontStack": "Be Vietnam Pro via next/font/google (src/app/layout.tsx)",
+  "palette": "Eurowindow blue/red token layer with legacy styling retained for unrendered components",
+  "motion": "framer-motion and Swiper installed",
+  "spacing": "Tailwind utility scale with component-level spacing",
+  "framework": "Next.js 16 App Router",
+  "preserve": ["Be Vietnam Pro", "CÁT MỘC black-red brand direction", "Swiper interactions"]
+}

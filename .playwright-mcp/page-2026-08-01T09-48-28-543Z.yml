@@ -1,0 +1,62 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - banner [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - link "Eurowindow" [ref=f4e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f4e6]
+        - button "Mở menu" [ref=f4e7]
+    - main [ref=f4e9]:
+      - generic [ref=f4e10]:
+        - paragraph [ref=f4e11]: Dịch vụ · Quy trình 4 bước
+        - heading "Chọn đúng giải pháp, hoàn thiện đúng chuẩn." [level=1] [ref=f4e12]
+        - paragraph [ref=f4e13]: Eurowindow đồng hành cùng khách hàng từ tư vấn, thiết kế đến triển khai và chăm sóc sau bàn giao — theo một quy trình rõ ràng, có thể theo dõi ở từng bước.
+      - list [ref=f4e15]:
+        - listitem [ref=f4e16]:
+          - paragraph [ref=f4e17]: "1.0"
+          - heading "Tư vấn giải pháp" [level=2] [ref=f4e18]
+          - paragraph [ref=f4e19]: Phân tích công năng, điều kiện công trình và nhu cầu sử dụng để lựa chọn hệ sản phẩm phù hợp. Chúng tôi lắng nghe trước, đề xuất sau.
+        - listitem [ref=f4e20]:
+          - paragraph [ref=f4e21]: "2.0"
+          - heading "Thiết kế & triển khai" [level=2] [ref=f4e22]
+          - paragraph [ref=f4e23]: Phối hợp với kiến trúc sư, chủ đầu tư và đội ngũ thi công — từ ý tưởng đến hồ sơ kỹ thuật, khớp nối đúng chuẩn công trình.
+        - listitem [ref=f4e24]:
+          - paragraph [ref=f4e25]: "3.0"
+          - heading "Sản xuất & thi công" [level=2] [ref=f4e26]
+          - paragraph [ref=f4e27]: Sản xuất theo hệ chuẩn, lắp đặt bởi đội ngũ kinh nghiệm, kiểm tra nghiệm thu từng hạng mục trước khi bàn giao.
+        - listitem [ref=f4e28]:
+          - paragraph [ref=f4e29]: "4.0"
+          - heading "Bảo hành & chăm sóc" [level=2] [ref=f4e30]
+          - paragraph [ref=f4e31]: Đồng hành sau bàn giao với quy trình hỗ trợ rõ ràng và dịch vụ bảo hành theo chính sách sản phẩm.
+      - generic [ref=f4e33]:
+        - generic [ref=f4e34]:
+          - paragraph [ref=f4e35]: Bắt đầu ngay
+          - heading "Chia sẻ nhu cầu của bạn — chúng tôi sẽ tư vấn hướng đi phù hợp." [level=2] [ref=f4e36]
+        - link "Bắt đầu tư vấn →" [ref=f4e37] [cursor=pointer]:
+          - /url: "#lien-he"
+    - contentinfo [ref=f4e38]:
+      - generic [ref=f4e39]:
+        - generic [ref=f4e40]:
+          - link "Eurowindow" [ref=f4e41] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f4e42]
+          - paragraph [ref=f4e43]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f4e44]:
+          - heading "Liên hệ" [level=2] [ref=f4e45]
+          - generic [ref=f4e46]:
+            - paragraph [ref=f4e47]: Eurowindow Office Building
+            - paragraph [ref=f4e48]: "Hotline: 0909 888 000"
+            - paragraph [ref=f4e49]: infoew@eurowindow.biz
+        - generic [ref=f4e50]:
+          - heading "Khám phá" [level=2] [ref=f4e51]
+          - generic [ref=f4e52]:
+            - link "Giới thiệu" [ref=f4e53] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f4e54] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f4e55] [cursor=pointer]:
+              - /url: /dich-vu
+            - link "Tin tức" [ref=f4e56] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f4e57]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f4e63] [cursor=pointer]

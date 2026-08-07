@@ -1,0 +1,193 @@
+- generic [active] [ref=f50e1]:
+  - generic [ref=f50e2]:
+    - banner [ref=f50e3]:
+      - generic [ref=f50e4]:
+        - link "Eurowindow" [ref=f50e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f50e6]
+        - button "Open menu" [ref=f50e7]
+    - main [ref=f50e9]:
+      - generic [ref=f50e10]:
+        - generic [ref=f50e13]:
+          - generic [ref=f50e14]:
+            - paragraph [ref=f50e15]: EUROWINDOW
+            - heading "PIONEERING SUSTAINABLE LIVING SPACES" [level=1] [ref=f50e16]: PIONEERINGSUSTAINABLELIVING SPACES
+            - link [ref=f50e17] [cursor=pointer]:
+              - /url: /en/about
+          - generic [ref=f50e21]:
+            - generic [ref=f50e22]:
+              - paragraph [ref=f50e23]: "2002"
+              - paragraph [ref=f50e24]: YEAR OF FOUNDING
+            - generic [ref=f50e25]:
+              - paragraph [ref=f50e26]: 20+
+              - paragraph [ref=f50e27]: YEARS OF EXPERIENCE
+            - generic [ref=f50e28]:
+              - paragraph [ref=f50e29]: 100,000+
+              - paragraph [ref=f50e30]: PROJECTS DELIVERED
+            - generic [ref=f50e31]:
+              - paragraph [ref=f50e32]: "14"
+              - paragraph [ref=f50e33]: CONSECUTIVE NATIONAL BRAND YEARS
+        - generic [ref=f50e35]:
+          - generic [ref=f50e36]:
+            - generic [ref=f50e37]: EUROWINDOW | PIONEER. CREATE. ACCOMPANY.
+            - generic [ref=f50e38]: EUROWINDOW | PIONEER. CREATE. ACCOMPANY.
+          - generic [ref=f50e39]:
+            - generic [ref=f50e40]: EUROWINDOW | PIONEER. CREATE. ACCOMPANY.
+            - generic [ref=f50e41]: EUROWINDOW | PIONEER. CREATE. ACCOMPANY.
+      - generic [ref=f50e43]:
+        - heading "ABOUT EUROWINDOW" [level=2] [ref=f50e45]:
+          - generic [ref=f50e46]: ABOUT
+          - text: EUROWINDOW
+        - generic [ref=f50e47]:
+          - generic [ref=f50e48]:
+            - paragraph [ref=f50e49]: In 2002, Eurowindow pioneered the introduction of modern European-standard uPVC doors into the domestic market — a revolution in doors that opened a 'new era' for Vietnamese homes.
+            - paragraph [ref=f50e50]: "For over two decades Eurowindow has kept pioneering new technology and expanded its product range: uPVC doors, aluminium doors, large aluminium-glass partitions, wooden doors, fire-resistant doors, automatic doors, roller doors, glass products and interiors."
+            - paragraph [ref=f50e51]: Always leading demand and creating new consumer trends, Eurowindow contributes to shaping the architectural face of cities. Eurowindow products appear in hundreds of thousands of projects in Vietnam and abroad — from apartments, villas, offices, hotels and hospitals to national landmarks such as the National Assembly, the Government Office and international airports.
+            - paragraph [ref=f50e52]: Accompanying customers from consultation, design and construction to maintenance and warranty, Eurowindow aims to deliver distinctive experiences and build a prosperous life for society.
+          - img "Eurowindow – leading green building material solutions provider" [ref=f50e54]
+        - link "Learn more" [ref=f50e55] [cursor=pointer]:
+          - /url: /en/about
+      - generic [ref=f50e59]:
+        - heading "FEATURED PROJECTS" [level=2] [ref=f50e61]
+        - generic [ref=f50e62]:
+          - link [ref=f50e63] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Phu Bai International Airport" [ref=f50e65]
+            - generic [ref=f50e67]:
+              - heading "Phu Bai International Airport" [level=3] [ref=f50e68]
+              - paragraph [ref=f50e69]: National landmark
+          - link [ref=f50e75] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Hospital Francais de Hanoi" [ref=f50e77]
+            - generic [ref=f50e79]:
+              - heading "Hospital Francais de Hanoi" [level=3] [ref=f50e80]
+              - paragraph [ref=f50e81]: Hospital
+          - link [ref=f50e87] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Da Nang Oncology Hospital" [ref=f50e89]
+            - generic [ref=f50e91]:
+              - heading "Da Nang Oncology Hospital" [level=3] [ref=f50e92]
+              - paragraph [ref=f50e93]: Hospital
+          - link [ref=f50e99] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Children's Hospital 2 Ho Chi Minh City" [ref=f50e101]
+            - generic [ref=f50e103]:
+              - heading "Children's Hospital 2 Ho Chi Minh City" [level=3] [ref=f50e104]
+              - paragraph [ref=f50e105]: Hospital
+          - link [ref=f50e111] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Vietnam News Agency TV Centre" [ref=f50e113]
+            - generic [ref=f50e115]:
+              - heading "Vietnam News Agency TV Centre" [level=3] [ref=f50e116]
+              - paragraph [ref=f50e117]: Government building
+          - link [ref=f50e123] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Supreme People's Procuracy" [ref=f50e125]
+            - generic [ref=f50e127]:
+              - heading "Supreme People's Procuracy" [level=3] [ref=f50e128]
+              - paragraph [ref=f50e129]: Government building
+      - generic [ref=f50e136]:
+        - heading "EUROWINDOW PRODUCTS" [level=2] [ref=f50e137]
+        - generic [ref=f50e138]:
+          - article [ref=f50e139]:
+            - generic [ref=f50e141]:
+              - heading "ALUMINIUM DOORS" [level=3] [ref=f50e142]
+              - paragraph [ref=f50e143]: Premium aluminium door and partition systems in EA55–EA95i profiles with genuine Cmech, Roto and Hafele hardware.
+              - link "Learn more" [ref=f50e144] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f50e147]:
+            - generic [ref=f50e149]:
+              - heading "uPVC DOORS" [level=3] [ref=f50e150]
+              - paragraph [ref=f50e151]: European-standard uPVC doors with outstanding acoustic and thermal insulation — the product that made Eurowindow famous since 2002.
+              - link "Learn more" [ref=f50e152] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f50e155]:
+            - generic [ref=f50e157]:
+              - heading "WOODEN DOORS" [level=3] [ref=f50e158]
+              - paragraph [ref=f50e159]: Natural, engineered and fire-resistant wooden doors — luxurious, durable and safe for every project.
+              - link "Learn more" [ref=f50e160] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f50e163]:
+            - generic [ref=f50e165]:
+              - heading "GLASS PRODUCTS" [level=3] [ref=f50e166]
+              - paragraph [ref=f50e167]: Insulated glazing, Low-E glass, switchable smart glass and automatic sliding glass partitions.
+              - link "Learn more" [ref=f50e168] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f50e171]:
+            - generic [ref=f50e173]:
+              - heading "AUTOMATIC DOORS" [level=3] [ref=f50e174]
+              - paragraph [ref=f50e175]: Sliding, revolving and vertical-lift automatic door systems for modern commercial buildings.
+              - link "Learn more" [ref=f50e176] [cursor=pointer]:
+                - /url: /en/services
+          - article [ref=f50e179]:
+            - generic [ref=f50e181]:
+              - heading "ROLLER DOORS" [level=3] [ref=f50e182]
+              - paragraph [ref=f50e183]: Safe, smooth-operating roller doors for shops, warehouses and homes to Eurowindow standards.
+              - link "Learn more" [ref=f50e184] [cursor=pointer]:
+                - /url: /en/services
+      - generic [ref=f50e188]:
+        - heading "PROJECT CATEGORIES" [level=2] [ref=f50e190]
+        - generic [ref=f50e191]:
+          - link "NATIONAL LANDMARKS" [ref=f50e192] [cursor=pointer]:
+            - /url: /en/projects
+          - link "OFFICE & RESIDENCE TOWERS" [ref=f50e194] [cursor=pointer]:
+            - /url: /en/projects
+          - link "RESIDENTIAL" [ref=f50e196] [cursor=pointer]:
+            - /url: /en/projects
+          - link "HOSPITALS" [ref=f50e198] [cursor=pointer]:
+            - /url: /en/projects
+          - link "AIRPORTS & TERMINALS" [ref=f50e200] [cursor=pointer]:
+            - /url: /en/projects
+          - link "GOVERNMENT BUILDINGS" [ref=f50e202] [cursor=pointer]:
+            - /url: /en/projects
+      - generic [ref=f50e205]:
+        - heading "NEWS" [level=2] [ref=f50e207]
+        - generic [ref=f50e208]:
+          - generic [ref=f50e210]:
+            - link "Eurowindow hosted a talk on human-resource trends and management strategy Read more" [ref=f50e212] [cursor=pointer]:
+              - /url: /en/news/toa-dam-xu-huong-nguon-nhan-luc
+              - heading "Eurowindow hosted a talk on human-resource trends and management strategy" [level=3] [ref=f50e214]
+              - generic [ref=f50e215]: Read more
+            - link "Eurowindow supplies doors & glass partitions for Vinhomes Global Gate Co Loa Read more" [ref=f50e219] [cursor=pointer]:
+              - /url: /en/news/cua-vach-kinh-vinhomes-global-gate
+              - heading "Eurowindow supplies doors & glass partitions for Vinhomes Global Gate Co Loa" [level=3] [ref=f50e221]
+              - generic [ref=f50e222]: Read more
+            - link "Eurowindow heat-proof door solutions for summer 2026 Read more" [ref=f50e226] [cursor=pointer]:
+              - /url: /en/news/giai-phap-cua-chong-nong-mua-he-2026
+              - heading "Eurowindow heat-proof door solutions for summer 2026" [level=3] [ref=f50e228]
+              - generic [ref=f50e229]: Read more
+            - link "Which door should you choose for hot summer weather? Read more" [ref=f50e233] [cursor=pointer]:
+              - /url: /en/news/nen-chon-cua-gi-cho-mua-he-nang-nong
+              - heading "Which door should you choose for hot summer weather?" [level=3] [ref=f50e235]
+              - generic [ref=f50e236]: Read more
+          - button "Previous article" [ref=f50e239] [cursor=pointer]
+          - button "Next article" [ref=f50e242] [cursor=pointer]
+      - heading "KEY ACHIEVEMENTS" [level=2] [ref=f50e247]:
+        - generic [ref=f50e248]: KEY
+        - text: ACHIEVEMENTS
+    - contentinfo [ref=f50e271]:
+      - generic [ref=f50e272]:
+        - generic [ref=f50e273]:
+          - link "Eurowindow" [ref=f50e274] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f50e275]
+          - paragraph [ref=f50e276]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f50e277]:
+          - heading "Contact" [level=2] [ref=f50e278]
+          - generic [ref=f50e279]:
+            - paragraph [ref=f50e280]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f50e281]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f50e282]: infoew@eurowindow.biz
+        - generic [ref=f50e283]:
+          - heading "Explore" [level=2] [ref=f50e284]
+          - generic [ref=f50e285]:
+            - link "About us" [ref=f50e286] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f50e287] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f50e288] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f50e289] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f50e290]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f50e296] [cursor=pointer]

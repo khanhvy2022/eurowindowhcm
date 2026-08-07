@@ -1,0 +1,224 @@
+- generic [ref=f41e1]:
+  - button "Open Next.js Dev Tools" [ref=f41e296] [cursor=pointer]
+  - alert [ref=f41e305]
+  - generic [ref=f41e629]:
+    - banner [ref=f41e630]:
+      - generic [ref=f41e631]:
+        - link "Eurowindow" [ref=f41e632] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f41e633]
+        - button "Đóng menu" [ref=f41e920]
+      - navigation "Điều hướng di động" [ref=f41e924]:
+        - link "Trang chủ" [ref=f41e925] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f41e927]:
+          - link "Giới thiệu" [ref=f41e928] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - button "Mở Giới thiệu" [ref=f41e929]
+        - generic [ref=f41e932]:
+          - generic [ref=f41e933]:
+            - link "Công trình" [ref=f41e934] [cursor=pointer]:
+              - /url: /du-an
+            - button "Mở Công trình" [active] [ref=f41e935]
+          - generic [ref=f41e958]:
+            - link "Công trình quốc gia" [ref=f41e959] [cursor=pointer]:
+              - /url: /du-an/cang-hang-khong-phu-bai-hue
+            - link "Bệnh viện" [ref=f41e960] [cursor=pointer]:
+              - /url: /du-an/benh-vien-viet-phap
+            - link "Trụ sở cơ quan" [ref=f41e961] [cursor=pointer]:
+              - /url: /du-an/trung-tam-truyen-hinh-ttxvn
+        - generic [ref=f41e939]:
+          - link "Sản phẩm" [ref=f41e940] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - button "Mở Sản phẩm" [ref=f41e941]
+        - link "Tin tức" [ref=f41e946] [cursor=pointer]:
+          - /url: /tin-tuc
+        - generic [ref=f41e947]:
+          - generic [ref=f41e948]: Ngôn ngữ
+          - generic "Language selector" [ref=f41e949]:
+            - link [ref=f41e950] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f41e951]
+            - link [ref=f41e952] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f41e953]
+        - link "Liên hệ ngay" [ref=f41e954] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f41e636]:
+      - generic [ref=f41e637]:
+        - generic [ref=f41e640]:
+          - generic [ref=f41e641]:
+            - paragraph [ref=f41e642]: EUROWINDOW
+            - heading "TIÊN PHONG KIẾN TẠO KHÔNG GIAN SỐNG BỀN VỮNG" [level=1] [ref=f41e643]: TIÊN PHONGKIẾN TẠO KHÔNG GIANSỐNG BỀN VỮNG
+            - link [ref=f41e644] [cursor=pointer]:
+              - /url: "#gioi-thieu"
+          - generic [ref=f41e648]:
+            - generic [ref=f41e649]:
+              - paragraph [ref=f41e650]: "2002"
+              - paragraph [ref=f41e651]: NĂM THÀNH LẬP
+            - generic [ref=f41e652]:
+              - paragraph [ref=f41e653]: 20+
+              - paragraph [ref=f41e654]: NĂM KINH NGHIỆM
+            - generic [ref=f41e655]:
+              - paragraph [ref=f41e656]: 100.000+
+              - paragraph [ref=f41e657]: CÔNG TRÌNH PHỦ SÓNG
+            - generic [ref=f41e658]:
+              - paragraph [ref=f41e659]: "14"
+              - paragraph [ref=f41e660]: NĂM LIÊN TIẾP THƯƠNG HIỆU QUỐC GIA
+        - generic [ref=f41e662]:
+          - generic [ref=f41e663]:
+            - generic [ref=f41e664]: EUROWINDOW | TIÊN PHONG. KIẾN TẠO. ĐỒNG HÀNH.
+            - generic [ref=f41e665]: EUROWINDOW | TIÊN PHONG. KIẾN TẠO. ĐỒNG HÀNH.
+          - generic [ref=f41e666]:
+            - generic [ref=f41e667]: EUROWINDOW | TIÊN PHONG. KIẾN TẠO. ĐỒNG HÀNH.
+            - generic [ref=f41e668]: EUROWINDOW | TIÊN PHONG. KIẾN TẠO. ĐỒNG HÀNH.
+      - generic [ref=f41e670]:
+        - heading "GIỚI THIỆU EUROWINDOW" [level=2] [ref=f41e672]:
+          - generic [ref=f41e673]: GIỚI
+          - text: THIỆU EUROWINDOW
+        - generic [ref=f41e674]:
+          - generic [ref=f41e675]:
+            - paragraph [ref=f41e676]: Năm 2002, Eurowindow tiên phong đưa cửa hiện đại uPVC tiêu chuẩn Châu Âu vào thị trường trong nước, làm nên cuộc cách mạng về cửa và mở ra “kỷ nguyên mới” cho những ngôi nhà Việt.
+            - paragraph [ref=f41e677]: "Qua hơn hai thập kỷ, Eurowindow không ngừng TIÊN PHONG ứng dụng công nghệ mới, phát triển đa dạng các dòng sản phẩm gồm: cửa uPVC, cửa nhôm, vách nhôm kính lớn, cửa gỗ, cửa gỗ chống cháy, cửa tự động, cửa cuốn, cửa thủy lực, các sản phẩm kính, nội thất…"
+            - paragraph [ref=f41e678]: Luôn dẫn dắt nhu cầu và tạo ra xu hướng tiêu dùng mới, Eurowindow góp phần KIẾN TẠO diện mạo kiến trúc các đô thị. Sản phẩm Eurowindow hiện diện ở hàng trăm nghìn công trình tại Việt Nam và nước ngoài — từ chung cư, biệt thự, văn phòng, khách sạn, bệnh viện đến các công trình trọng điểm như Tòa nhà Quốc hội, trụ sở Chính phủ, cảng hàng không quốc tế.
+            - paragraph [ref=f41e679]: ĐỒNG HÀNH cùng khách hàng từ tư vấn, thiết kế cho tới thi công, bảo trì, bảo hành sản phẩm — Eurowindow mong muốn mang tới những trải nghiệm khác biệt, kiến thiết cuộc sống phồn vinh cho toàn xã hội.
+          - img "Eurowindow – nhà cung cấp giải pháp tổng thể về vật liệu xây dựng xanh" [ref=f41e681]
+        - link "Xem thêm" [ref=f41e682] [cursor=pointer]:
+          - /url: "#du-an"
+      - generic [ref=f41e686]:
+        - heading "CÔNG TRÌNH TIÊU BIỂU" [level=2] [ref=f41e688]
+        - generic [ref=f41e689]:
+          - article [ref=f41e690]:
+            - img "Cảng hàng không Phú Bài Huế" [ref=f41e692]
+            - generic [ref=f41e694]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f41e695]
+              - paragraph [ref=f41e696]: Công trình quốc gia
+          - article [ref=f41e702]:
+            - img "Bệnh viện Việt Pháp" [ref=f41e704]
+            - generic [ref=f41e706]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f41e707]
+              - paragraph [ref=f41e708]: Bệnh viện
+          - article [ref=f41e714]:
+            - img "Bệnh viện ung bướu Đà Nẵng" [ref=f41e716]
+            - generic [ref=f41e718]:
+              - heading "Bệnh viện ung bướu Đà Nẵng" [level=3] [ref=f41e719]
+              - paragraph [ref=f41e720]: Bệnh viện
+          - article [ref=f41e726]:
+            - img "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [ref=f41e728]
+            - generic [ref=f41e730]:
+              - heading "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [level=3] [ref=f41e731]
+              - paragraph [ref=f41e732]: Bệnh viện
+          - article [ref=f41e738]:
+            - img "TT Truyền hình Thông tấn xã Việt Nam" [ref=f41e740]
+            - generic [ref=f41e742]:
+              - heading "TT Truyền hình Thông tấn xã Việt Nam" [level=3] [ref=f41e743]
+              - paragraph [ref=f41e744]: Trụ sở cơ quan
+          - article [ref=f41e750]:
+            - img "Trụ sở Viện KSND Tối cao" [ref=f41e752]
+            - generic [ref=f41e754]:
+              - heading "Trụ sở Viện KSND Tối cao" [level=3] [ref=f41e755]
+              - paragraph [ref=f41e756]: Trụ sở cơ quan
+      - generic [ref=f41e763]:
+        - heading "SẢN PHẨM CỦA EUROWINDOW" [level=2] [ref=f41e764]
+        - generic [ref=f41e765]:
+          - article [ref=f41e766]:
+            - generic [ref=f41e768]:
+              - heading "CỬA NHÔM" [level=3] [ref=f41e769]
+              - paragraph [ref=f41e770]: Cửa và vách nhôm cao cấp từ vật liệu nhôm EA55–EA95i, phụ kiện chính hãng Cmech, Roto, Hafele — khắc phục triệt để nhược điểm nhôm thông thường.
+              - link "Xem thêm" [ref=f41e771] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+          - article [ref=f41e774]:
+            - generic [ref=f41e776]:
+              - heading "CỬA uPVC" [level=3] [ref=f41e777]
+              - paragraph [ref=f41e778]: Cửa nhựa uPVC tiêu chuẩn Châu Âu với khả năng cách âm, cách nhiệt vượt trội — dòng sản phẩm làm nên tên tuổi Eurowindow từ năm 2002.
+              - link "Xem thêm" [ref=f41e779] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+          - article [ref=f41e782]:
+            - generic [ref=f41e784]:
+              - heading "CỬA GỖ" [level=3] [ref=f41e785]
+              - paragraph [ref=f41e786]: Cửa gỗ tự nhiên, gỗ công nghiệp, gỗ ghép thanh và gỗ chống cháy — sang trọng, bền bỉ và an toàn cho mọi công trình.
+              - link "Xem thêm" [ref=f41e787] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+          - article [ref=f41e790]:
+            - generic [ref=f41e792]:
+              - heading "SẢN PHẨM KÍNH" [level=3] [ref=f41e793]
+              - paragraph [ref=f41e794]: Kính hộp cách nhiệt, kính Low-E, kính điện đổi màu và vách kính trượt tự động — tối ưu ánh sáng và không gian sống.
+              - link "Xem thêm" [ref=f41e795] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+          - article [ref=f41e798]:
+            - generic [ref=f41e800]:
+              - heading "CỬA TỰ ĐỘNG" [level=3] [ref=f41e801]
+              - paragraph [ref=f41e802]: Cửa trượt, cửa xoay tự động và vách kính trượt dọc thông minh cho các công trình thương mại, văn phòng hiện đại.
+              - link "Xem thêm" [ref=f41e803] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+          - article [ref=f41e806]:
+            - generic [ref=f41e808]:
+              - heading "CỬA CUỐN" [level=3] [ref=f41e809]
+              - paragraph [ref=f41e810]: Cửa cuốn an toàn, vận hành êm ái, phù hợp cửa hàng, kho xưởng và nhà ở theo tiêu chuẩn Eurowindow.
+              - link "Xem thêm" [ref=f41e811] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+      - generic [ref=f41e815]:
+        - heading "DANH MỤC CÔNG TRÌNH" [level=2] [ref=f41e817]
+        - generic [ref=f41e818]:
+          - link "CÔNG TRÌNH CẤP QUỐC GIA" [ref=f41e819] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "TÒA NHÀ VP – CHUNG CƯ" [ref=f41e821] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "CÔNG TRÌNH DÂN DỤNG" [ref=f41e823] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "BỆNH VIỆN" [ref=f41e825] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "SÂN BAY – NHÀ GA" [ref=f41e827] [cursor=pointer]:
+            - /url: "#du-an"
+          - link "TRỤ SỞ CƠ QUAN" [ref=f41e829] [cursor=pointer]:
+            - /url: "#du-an"
+      - generic [ref=f41e832]:
+        - heading "TIN TỨC" [level=2] [ref=f41e834]
+        - generic [ref=f41e835]:
+          - generic [ref=f41e837]:
+            - article [ref=f41e839]:
+              - heading "Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”" [level=3] [ref=f41e841]
+              - link "Đọc thêm" [ref=f41e842] [cursor=pointer]:
+                - /url: /tin-tuc
+            - article [ref=f41e846]:
+              - heading "Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa" [level=3] [ref=f41e848]
+              - link "Đọc thêm" [ref=f41e849] [cursor=pointer]:
+                - /url: /tin-tuc
+            - article [ref=f41e853]:
+              - heading "Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026" [level=3] [ref=f41e855]
+              - link "Đọc thêm" [ref=f41e856] [cursor=pointer]:
+                - /url: /tin-tuc
+            - article [ref=f41e860]:
+              - heading "Nên chọn cửa gì cho mùa hè nắng nóng?" [level=3] [ref=f41e862]
+              - link "Đọc thêm" [ref=f41e863] [cursor=pointer]:
+                - /url: /tin-tuc
+          - button "Tin trước" [disabled]
+          - button "Tin tiếp theo" [ref=f41e866] [cursor=pointer]
+      - heading "THÀNH TÍCH NỔI BẬT" [level=2] [ref=f41e876]:
+        - generic [ref=f41e877]: THÀNH
+        - text: TÍCH NỔI BẬT
+    - contentinfo [ref=f41e900]:
+      - generic [ref=f41e901]:
+        - generic [ref=f41e902]:
+          - link "Eurowindow" [ref=f41e903] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f41e904]
+          - paragraph [ref=f41e905]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f41e906]:
+          - heading "Liên hệ" [level=2] [ref=f41e907]
+          - generic [ref=f41e908]:
+            - paragraph [ref=f41e909]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f41e910]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f41e911]: infoew@eurowindow.biz
+        - generic [ref=f41e912]:
+          - heading "Khám phá" [level=2] [ref=f41e913]
+          - generic [ref=f41e914]:
+            - link "Giới thiệu" [ref=f41e915] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f41e916] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f41e917] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f41e918] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f41e919]: © 2026 Eurowindow. All rights reserved.

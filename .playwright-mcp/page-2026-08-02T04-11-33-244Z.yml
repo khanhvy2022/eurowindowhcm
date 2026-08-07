@@ -1,0 +1,106 @@
+- generic [active] [ref=f55e1]:
+  - generic [ref=f55e2]:
+    - banner [ref=f55e3]:
+      - generic [ref=f55e4]:
+        - link "Eurowindow" [ref=f55e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f55e6]
+        - button "Open menu" [ref=f55e7]
+    - main [ref=f55e9]:
+      - generic [ref=f55e11]:
+        - heading "EUROWINDOW PROJECTS" [level=1] [ref=f55e12]
+        - navigation "Breadcrumb" [ref=f55e13]:
+          - link "Trang chủ" [ref=f55e14] [cursor=pointer]:
+            - /url: /en
+          - generic [ref=f55e17]: Projects
+      - generic [ref=f55e19]:
+        - generic [ref=f55e20]:
+          - search [ref=f55e21]:
+            - searchbox "Search projects" [ref=f55e25]
+          - navigation "Project categories" [ref=f55e26]:
+            - button "All" [pressed] [ref=f55e27]
+            - button "National landmark" [ref=f55e28]
+            - button "Hospital" [ref=f55e29]
+            - button "Government building" [ref=f55e30]
+            - button "Office" [ref=f55e31]
+        - generic [ref=f55e32]:
+          - link [ref=f55e33] [cursor=pointer]:
+            - /url: /en/projects/cang-hang-khong-phu-bai-hue
+            - img "Phu Bai International Airport" [ref=f55e35]
+            - generic [ref=f55e36]:
+              - heading "Phu Bai International Airport" [level=2] [ref=f55e37]
+              - paragraph [ref=f55e38]: Hue
+          - link [ref=f55e42] [cursor=pointer]:
+            - /url: /en/projects/benh-vien-viet-phap
+            - img "Hospital Francais de Hanoi" [ref=f55e44]
+            - generic [ref=f55e45]:
+              - heading "Hospital Francais de Hanoi" [level=2] [ref=f55e46]
+              - paragraph [ref=f55e47]: Hanoi
+          - link [ref=f55e51] [cursor=pointer]:
+            - /url: /en/projects/benh-vien-ung-buou-da-nang
+            - img "Da Nang Oncology Hospital" [ref=f55e53]
+            - generic [ref=f55e54]:
+              - heading "Da Nang Oncology Hospital" [level=2] [ref=f55e55]
+              - paragraph [ref=f55e56]: Da Nang
+          - link [ref=f55e60] [cursor=pointer]:
+            - /url: /en/projects/benh-vien-nhi-dong-tphcm
+            - img "Children's Hospital 2 Ho Chi Minh City" [ref=f55e62]
+            - generic [ref=f55e63]:
+              - heading "Children's Hospital 2 Ho Chi Minh City" [level=2] [ref=f55e64]
+              - paragraph [ref=f55e65]: Ho Chi Minh City
+          - link [ref=f55e69] [cursor=pointer]:
+            - /url: /en/projects/trung-tam-truyen-hinh-ttxvn
+            - img "Vietnam News Agency TV Centre" [ref=f55e71]
+            - generic [ref=f55e72]:
+              - heading "Vietnam News Agency TV Centre" [level=2] [ref=f55e73]
+              - paragraph [ref=f55e74]: Hanoi
+          - link [ref=f55e78] [cursor=pointer]:
+            - /url: /en/projects/vien-kiem-sat-nhan-dan-toi-cao
+            - img "Supreme People's Procuracy" [ref=f55e80]
+            - generic [ref=f55e81]:
+              - heading "Supreme People's Procuracy" [level=2] [ref=f55e82]
+              - paragraph [ref=f55e83]: Hanoi
+          - link [ref=f55e87] [cursor=pointer]:
+            - /url: /en/projects/toa-nha-quoc-hoi
+            - img "National Assembly Building" [ref=f55e89]
+            - generic [ref=f55e90]:
+              - heading "National Assembly Building" [level=2] [ref=f55e91]
+              - paragraph [ref=f55e92]: Hanoi
+          - link [ref=f55e96] [cursor=pointer]:
+            - /url: /en/projects/trung-tam-thuong-mai
+            - img "Commercial & Office Centre" [ref=f55e98]
+            - generic [ref=f55e99]:
+              - heading "Commercial & Office Centre" [level=2] [ref=f55e100]
+              - paragraph [ref=f55e101]: Hanoi
+          - link [ref=f55e105] [cursor=pointer]:
+            - /url: /en/projects/chung-cu-vinhomes-global-gate
+            - img "Vinhomes Global Gate Co Loa" [ref=f55e107]
+            - generic [ref=f55e108]:
+              - heading "Vinhomes Global Gate Co Loa" [level=2] [ref=f55e109]
+              - paragraph [ref=f55e110]: Hanoi
+    - contentinfo [ref=f55e114]:
+      - generic [ref=f55e115]:
+        - generic [ref=f55e116]:
+          - link "Eurowindow" [ref=f55e117] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f55e118]
+          - paragraph [ref=f55e119]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f55e120]:
+          - heading "Contact" [level=2] [ref=f55e121]
+          - generic [ref=f55e122]:
+            - paragraph [ref=f55e123]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f55e124]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f55e125]: infoew@eurowindow.biz
+        - generic [ref=f55e126]:
+          - heading "Explore" [level=2] [ref=f55e127]
+          - generic [ref=f55e128]:
+            - link "About us" [ref=f55e129] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f55e130] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f55e131] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f55e132] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f55e133]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f55e139] [cursor=pointer]

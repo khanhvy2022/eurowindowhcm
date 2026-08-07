@@ -1,0 +1,120 @@
+- generic [active] [ref=f46e1]:
+  - generic [ref=f46e2]:
+    - banner [ref=f46e3]:
+      - generic [ref=f46e4]:
+        - link "Eurowindow" [ref=f46e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f46e6]
+        - navigation "Điều hướng chính" [ref=f46e7]:
+          - link "Trang chủ" [ref=f46e8] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f46e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Dự án/Công trình" [ref=f46e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "Dịch vụ" [ref=f46e18] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f46e22] [cursor=pointer]:
+            - /url: /tin-tuc
+        - generic [ref=f46e23]:
+          - link "Liên hệ ngay" [ref=f46e24] [cursor=pointer]:
+            - /url: "#lien-he"
+          - img "Tiếng Việt" [ref=f46e25]
+    - main [ref=f46e26]:
+      - generic [ref=f46e28]:
+        - navigation "Breadcrumb" [ref=f46e29]:
+          - link "Trang chủ" [ref=f46e30] [cursor=pointer]:
+            - /url: /
+          - link "Tin tức" [ref=f46e33] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic [ref=f46e36]: Chia sẻ kiến thức
+        - paragraph [ref=f46e37]: Chia sẻ kiến thức · 28/07/2026
+        - heading "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [level=1] [ref=f46e38]
+        - paragraph [ref=f46e39]: Nhà 1 trệt 1 lầu là lựa chọn được nhiều gia đình trẻ yêu thích nhờ tối ưu công năng, chi phí hợp lý và phù hợp với quỹ đất phổ biến tại Việt Nam.
+      - img "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [ref=f46e43]
+      - generic [ref=f46e45]:
+        - group [ref=f46e46]:
+          - generic "Mục lục" [ref=f46e47] [cursor=pointer]
+        - generic [ref=f46e50]:
+          - generic [ref=f46e51]:
+            - heading "Nhà 1 trệt 1 lầu là gì?" [level=2] [ref=f46e52]
+            - generic [ref=f46e53]:
+              - paragraph [ref=f46e54]: Nhà 1 trệt 1 lầu là loại hình nhà ở gồm một tầng trệt và một tầng lầu, còn gọi là nhà 2 tầng. Đây là giải pháp phổ biến cho gia đình 3–5 thành viên, giúp tối ưu không gian sống trên quỹ đất hạn chế.
+              - paragraph [ref=f46e55]: Tầng trệt thường bố trí phòng khách, bếp và phòng ăn, kết hợp một phòng ngủ nếu cần. Tầng lầu là không gian nghỉ ngơi với các phòng ngủ và khu vực thư giãn. Tùy diện tích, gia chủ có thể bổ sung gara, sân vườn hoặc giếng trời để tăng ánh sáng, thông gió tự nhiên.
+          - generic [ref=f46e56]:
+            - heading "Ưu điểm của kiểu nhà 1 trệt 1 lầu" [level=2] [ref=f46e57]
+            - generic [ref=f46e58]:
+              - paragraph [ref=f46e59]: Nhà 1 trệt 1 lầu được nhiều gia đình lựa chọn nhờ đáp ứng tốt cả về công năng, thẩm mỹ và chi phí đầu tư. Thiết kế nhà 2 tầng giúp phân tách rõ khu vực sinh hoạt chung và không gian riêng tư, đồng thời dễ dàng mở rộng theo nhu cầu sử dụng.
+              - paragraph [ref=f46e60]: Chi phí xây dựng thấp hơn đáng kể so với nhà 3 tầng trở lên, trong khi vẫn bảo đảm đủ không gian cho gia đình. Đặc biệt, nhà 1 trệt 1 lầu phù hợp với quỹ đất phổ biến 5×20m, 5×15m tại các khu đô thị và nông thôn.
+          - generic [ref=f46e61]:
+            - heading "35+ mẫu thiết kế nhà 1 trệt 1 lầu đẹp, xu hướng 2026" [level=2] [ref=f46e62]
+            - generic [ref=f46e63]:
+              - paragraph [ref=f46e64]: Với sự đa dạng về diện tích và phong cách kiến trúc, nhà 1 trệt 1 lầu có nhiều phương án thiết kế đáp ứng nhu cầu của từng gia đình. Mẫu nhà hiện đại nổi bật với đường nét tối giản, hình khối vuông vức và mặt tiền sử dụng nhiều kính — ưu tiên không gian mở và ánh sáng tự nhiên.
+              - paragraph [ref=f46e65]: Kiến trúc mái bằng mang vẻ đẹp trẻ trung, dễ thi công và thuận tiện khi cải tạo hoặc nâng tầng. Mái Nhật có độ dốc vừa phải, tạo vẻ đẹp thanh lịch, cân đối và thoát nước tốt. Mái Thái tạo điểm nhấn sang trọng với phần mái cao, giúp ngôi nhà thông thoáng và hạn chế đọng nước.
+              - paragraph [ref=f46e66]: Với mặt tiền nhà, hệ cửa nhôm kính kết hợp kính cường lực được ưa chuộng nhờ khả năng lấy sáng tối đa, cách âm tốt và tính thẩm mỹ cao. Eurowindow khuyến nghị lựa chọn hệ cửa nhựa uPVC hoặc nhôm kính tiết kiệm năng lượng cho các mẫu nhà 2 tầng hiện đại.
+          - generic [ref=f46e67]:
+            - heading "Đơn giá xây nhà 1 trệt 1 lầu tối ưu chi phí" [level=2] [ref=f46e68]
+            - generic [ref=f46e69]:
+              - paragraph [ref=f46e70]: Chi phí xây nhà 1 trệt 1 lầu phụ thuộc vào diện tích, phong cách kiến trúc, chất lượng vật liệu và khu vực xây dựng. Các yếu tố như nền móng, hệ cửa, mái và vật liệu hoàn thiện chiếm tỷ trọng lớn trong tổng ngân sách.
+              - paragraph [ref=f46e71]: Để tối ưu chi phí, gia chủ nên lập hồ sơ thiết kế chi tiết trước khi thi công, lựa chọn vật liệu phù hợp ngân sách và ưu tiên các giải pháp tiết kiệm năng lượng như kính Low-E, cửa cách âm cách nhiệt — giúp giảm chi phí vận hành lâu dài.
+          - generic [ref=f46e72]:
+            - heading "Lưu ý nên biết khi thiết kế nhà 1 trệt 1 lầu" [level=2] [ref=f46e73]
+            - generic [ref=f46e74]:
+              - paragraph [ref=f46e75]: Xác định nhu cầu sử dụng của gia đình là bước đầu tiên và quan trọng nhất — số phòng ngủ, khu vực làm việc, không gian tiếp khách. Lựa chọn phong cách kiến trúc phù hợp (hiện đại, tân cổ điển, tối giản) giúp định hình toàn bộ thiết kế.
+              - paragraph [ref=f46e76]: Tối ưu công năng và giao thông trong nhà, bố trí ánh sáng và thông gió tự nhiên qua hệ cửa sổ, cửa đi và giếng trời. Dự trù chi phí, chuẩn bị hồ sơ thiết kế và xin phép xây dựng trước khi khởi công là những bước không thể bỏ qua.
+          - generic [ref=f46e77]:
+            - heading "Quy trình xây dựng tại Eurowindow" [level=2] [ref=f46e78]
+            - paragraph [ref=f46e80]: Eurowindow đồng hành cùng gia chủ từ khảo sát hiện trường, tư vấn giải pháp cửa và vật liệu, thiết kế hồ sơ kỹ thuật đến sản xuất và lắp đặt hệ cửa, vách nhôm kính. Mỗi hạng mục được kiểm soát theo tiêu chuẩn châu Âu, đảm bảo chất lượng và đúng tiến độ.
+        - generic [ref=f46e81]:
+          - heading "Câu hỏi thường gặp" [level=2] [ref=f46e82]
+          - generic [ref=f46e83]:
+            - group [ref=f46e84]:
+              - generic "Nhà 1 trệt 1 lầu phù hợp với gia đình bao nhiêu người?" [ref=f46e85] [cursor=pointer]
+            - group [ref=f46e88]:
+              - generic "Xây nhà 1 trệt 1 lầu mất bao lâu?" [ref=f46e89] [cursor=pointer]
+            - group [ref=f46e92]:
+              - generic "Nên chọn cửa gì cho nhà 1 trệt 1 lầu?" [ref=f46e93] [cursor=pointer]
+        - link "Quay lại tin tức" [ref=f46e97] [cursor=pointer]:
+          - /url: /tin-tuc
+      - generic [ref=f46e101]:
+        - generic [ref=f46e102]:
+          - heading "Bài viết liên quan" [level=2] [ref=f46e103]
+          - link "Xem tất cả" [ref=f46e104] [cursor=pointer]:
+            - /url: /tin-tuc
+        - generic [ref=f46e107]:
+          - link "Chia sẻ kiến thức · 25/07/2026 Phong cách Japandi – Khi tối giản không đồng nghĩa với nhàm chán Đọc thêm" [ref=f46e108] [cursor=pointer]:
+            - /url: /tin-tuc/phong-cach-japandi
+            - paragraph [ref=f46e110]: Chia sẻ kiến thức · 25/07/2026
+            - heading "Phong cách Japandi – Khi tối giản không đồng nghĩa với nhàm chán" [level=3] [ref=f46e111]
+            - generic [ref=f46e112]: Đọc thêm
+          - link "Chia sẻ kiến thức · 15/07/2026 Giải pháp cách âm, cách nhiệt cho mặt tiền kính Đọc thêm" [ref=f46e115] [cursor=pointer]:
+            - /url: /tin-tuc/cach-am-va-cach-nhiet
+            - paragraph [ref=f46e117]: Chia sẻ kiến thức · 15/07/2026
+            - heading "Giải pháp cách âm, cách nhiệt cho mặt tiền kính" [level=3] [ref=f46e118]
+            - generic [ref=f46e119]: Đọc thêm
+    - contentinfo [ref=f46e122]:
+      - generic [ref=f46e123]:
+        - generic [ref=f46e124]:
+          - link "Eurowindow" [ref=f46e125] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f46e126]
+          - paragraph [ref=f46e127]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f46e128]:
+          - heading "Liên hệ" [level=2] [ref=f46e129]
+          - generic [ref=f46e130]:
+            - paragraph [ref=f46e131]: Eurowindow Office Building
+            - paragraph [ref=f46e132]: "Hotline: 0909 888 000"
+            - paragraph [ref=f46e133]: infoew@eurowindow.biz
+        - generic [ref=f46e134]:
+          - heading "Khám phá" [level=2] [ref=f46e135]
+          - generic [ref=f46e136]:
+            - link "Giới thiệu" [ref=f46e137] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f46e138] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f46e139] [cursor=pointer]:
+              - /url: /dich-vu
+            - link "Tin tức" [ref=f46e140] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f46e141]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f46e147] [cursor=pointer]

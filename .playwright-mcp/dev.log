@@ -1,0 +1,21 @@
+▲ Next.js 16.2.12 (Turbopack)
+- Local:         http://localhost:3100
+- Network:       http://192.168.1.8:3100
+✓ Ready in 448ms
+
+ GET /gioi-thieu 200 in 356ms (next.js: 200ms, application-code: 156ms)
+ GET /gioi-thieu 200 in 44ms (next.js: 4ms, application-code: 40ms)
+ GET /du-an 200 in 80ms (next.js: 27ms, application-code: 53ms)
+ GET /dich-vu 200 in 69ms (next.js: 27ms, application-code: 42ms)
+ GET /tin-tuc 200 in 472ms (next.js: 418ms, application-code: 54ms)
+✓ Compiled in 176ms
+✓ Compiled in 125ms
+ GET /gioi-thieu 200 in 159ms (next.js: 60ms, application-code: 99ms)
+ GET /gioi-thieu 200 in 47ms (next.js: 4ms, application-code: 43ms)
+ GET /du-an 200 in 204ms (next.js: 78ms, application-code: 126ms)
+ GET /du-an/toa-nha-eurowindow 200 in 908ms (next.js: 781ms, generate-params: 384ms, application-code: 126ms)
+ GET /tin-tuc 200 in 198ms (next.js: 58ms, application-code: 141ms)
+ GET /tin-tuc/35-mau-thiet-ke-nha-1-tret-1-lau 200 in 759ms (next.js: 683ms, generate-params: 385ms, application-code: 76ms)
+ GET /thiet-ke-kien-truc 200 in 324ms (next.js: 286ms, application-code: 37ms)
+ GET /tin-tuc/khong-ton-tai 404 in 51ms (next.js: 8ms, generate-params: 5ms, application-code: 43ms)
+ GET /tin-tuc/khong-ton-tai 404 in 44ms (next.js: 7ms, generate-params: 4ms, application-code: 37ms)

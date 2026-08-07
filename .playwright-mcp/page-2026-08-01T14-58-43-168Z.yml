@@ -1,0 +1,205 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e2]:
+    - banner [ref=f13e3]:
+      - generic [ref=f13e4]:
+        - link "Eurowindow" [ref=f13e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f13e6]
+        - navigation "Điều hướng chính" [ref=f13e7]:
+          - link "Trang chủ" [ref=f13e8] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f13e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Dự án/Công trình" [ref=f13e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "Dịch vụ" [ref=f13e18] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f13e22] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic "Chọn ngôn ngữ" [ref=f13e23]:
+            - link [ref=f13e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f13e25]
+            - link [ref=f13e26] [cursor=pointer]:
+              - /url: /en/home
+              - img "English" [ref=f13e27]
+        - link "Liên hệ ngay" [ref=f13e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f13e30]:
+      - generic [ref=f13e32]:
+        - heading "VỀ CHÚNG TÔI" [level=1] [ref=f13e33]
+        - navigation "Breadcrumb" [ref=f13e34]:
+          - link "Trang chủ" [ref=f13e35] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f13e38]: Giới thiệu
+      - generic [ref=f13e40]:
+        - heading "VỀ EUROWINDOW" [level=2] [ref=f13e41]
+        - generic [ref=f13e42]:
+          - generic [ref=f13e43]:
+            - paragraph [ref=f13e44]: Eurowindow được thành lập từ năm 2002, là đơn vị tiên phong đưa cửa nhựa uPVC tiêu chuẩn châu Âu vào Việt Nam — khi dòng sản phẩm này còn xa lạ với thị trường trong nước. Với quan niệm “tạo dựng ranh giới sống đúng đắn”, chúng tôi kiến tạo những không gian hữu dụng, thẩm mỹ, bền vững và kinh tế để phục vụ cộng đồng.
+            - paragraph [ref=f13e45]: "Sau hơn 20 năm phát triển, Eurowindow mở rộng sang hệ giải pháp nhôm, gỗ, kính, cửa tự động và vật liệu hoàn thiện. Mỗi hệ sản phẩm ra đời đều trả lời cùng một câu hỏi: nó giúp người ở sống tốt hơn như thế nào?"
+            - link "XEM THÊM GIẢI PHÁP" [ref=f13e46] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+          - img "Không gian văn phòng hiện đại với hệ cửa kính rộng" [ref=f13e50]
+      - generic [ref=f13e52]:
+        - paragraph [ref=f13e53]: Hơn 20 năm, Eurowindow luôn tận tụy phục vụ, nỗ lực kiến tạo không gian sống hạnh phúc cho khách hàng…
+        - generic [ref=f13e54]:
+          - generic [ref=f13e55]:
+            - definition [ref=f13e56]: "22"
+            - term [ref=f13e57]: năm kinh nghiệm
+          - generic [ref=f13e58]:
+            - definition [ref=f13e59]: 2500+
+            - term [ref=f13e60]: công trình hoàn thiện
+          - generic [ref=f13e61]:
+            - definition [ref=f13e62]: 100.000+
+            - term [ref=f13e63]: khách hàng tin tưởng
+          - generic [ref=f13e64]:
+            - definition [ref=f13e65]: 100+
+            - term [ref=f13e66]: giải thưởng uy tín
+          - generic [ref=f13e67]:
+            - definition [ref=f13e68]: "63"
+            - term [ref=f13e69]: tỉnh thành phủ sóng
+          - generic [ref=f13e70]:
+            - definition [ref=f13e71]: 500+
+            - term [ref=f13e72]: nhân sự chuyên nghiệp
+      - generic [ref=f13e74]:
+        - generic [ref=f13e75]:
+          - generic [ref=f13e76]:
+            - text: Giải pháp cửa & vách nhôm kính
+            - generic [ref=f13e77]: •
+          - generic [ref=f13e78]:
+            - text: Tiêu chuẩn châu Âu
+            - generic [ref=f13e79]: •
+          - generic [ref=f13e80]:
+            - text: Kiến tạo không gian sống
+            - generic [ref=f13e81]: •
+        - generic [ref=f13e82]:
+          - generic [ref=f13e83]:
+            - text: Giải pháp cửa & vách nhôm kính
+            - generic [ref=f13e84]: •
+          - generic [ref=f13e85]:
+            - text: Tiêu chuẩn châu Âu
+            - generic [ref=f13e86]: •
+          - generic [ref=f13e87]:
+            - text: Kiến tạo không gian sống
+            - generic [ref=f13e88]: •
+      - generic [ref=f13e90]:
+        - generic [ref=f13e91]:
+          - heading "Hành trình thương hiệu" [level=2] [ref=f13e92]
+          - list [ref=f13e93]:
+            - listitem [ref=f13e94]:
+              - paragraph [ref=f13e96]: 2002 — thành lập, tiên phong dòng cửa nhựa uPVC tiêu chuẩn châu Âu tại Việt Nam.
+            - listitem [ref=f13e97]:
+              - paragraph [ref=f13e99]: 2008 — mở rộng hệ giải pháp nhôm kính, cửa gỗ và kỹ thuật.
+            - listitem [ref=f13e100]:
+              - paragraph [ref=f13e102]: 2015 — trở thành thương hiệu được tin dùng tại các công trình quốc gia trọng điểm.
+            - listitem [ref=f13e103]:
+              - paragraph [ref=f13e105]: 2024 — hơn 2.500 công trình, phủ sóng 63 tỉnh thành và vươn ra quốc tế.
+        - img "Kiến trúc hiện đại với hệ cửa kính" [ref=f13e107]
+      - generic [ref=f13e109]:
+        - heading "Giá trị cốt lõi" [level=2] [ref=f13e110]
+        - generic [ref=f13e111]:
+          - generic [ref=f13e112]:
+            - button "Tầm nhìn" [expanded] [ref=f13e113]
+            - generic [ref=f13e116]: Trở thành thương hiệu hàng đầu Việt Nam trong lĩnh vực giải pháp cửa, vách nhôm kính và vật liệu hoàn thiện — kiến tạo không gian sống văn minh, hài hòa công năng và thẩm mỹ.
+          - button "Sứ mệnh" [ref=f13e118]
+          - button "Quan niệm khi thiết kế" [ref=f13e122]
+          - button "Phương châm hoạt động" [ref=f13e126]
+      - generic [ref=f13e130]:
+        - heading "Dịch vụ của Eurowindow" [level=2] [ref=f13e131]
+        - generic [ref=f13e132]:
+          - article [ref=f13e133]:
+            - generic [ref=f13e135]:
+              - heading "TƯ VẤN GIẢI PHÁP CỬA" [level=3] [ref=f13e136]
+              - paragraph [ref=f13e137]: Đội ngũ chuyên gia tư vấn hệ cửa nhựa uPVC, nhôm, gỗ và kính phù hợp công năng, khí hậu và ngân sách từng công trình.
+              - link "Xem thêm" [ref=f13e138] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+          - article [ref=f13e141]:
+            - generic [ref=f13e143]:
+              - heading "THIẾT KẾ & THI CÔNG" [level=3] [ref=f13e144]
+              - paragraph [ref=f13e145]: Phối hợp từ khảo sát hiện trường, thiết kế hồ sơ kỹ thuật đến sản xuất, lắp đặt và nghiệm thu theo tiêu chuẩn châu Âu.
+              - link "Xem thêm" [ref=f13e146] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+          - article [ref=f13e149]:
+            - generic [ref=f13e151]:
+              - heading "BẢO HÀNH & CHĂM SÓC" [level=3] [ref=f13e152]
+              - paragraph [ref=f13e153]: Chính sách bảo hành rõ ràng, dịch vụ chăm sóc định kỳ và hỗ trợ nhanh chóng trong suốt vòng đời sản phẩm.
+              - link "Xem thêm" [ref=f13e154] [cursor=pointer]:
+                - /url: /thiet-ke-kien-truc
+      - generic [ref=f13e158]:
+        - heading "Giải thưởng" [level=2] [ref=f13e159]
+        - generic [ref=f13e160]:
+          - generic [ref=f13e161]:
+            - paragraph [ref=f13e165]: "2024"
+            - heading "Giải thưởng chất lượng sản phẩm Việt Nam" [level=3] [ref=f13e166]
+            - paragraph [ref=f13e167]: Vietnam Quality Award
+          - generic [ref=f13e168]:
+            - paragraph [ref=f13e172]: "2023"
+            - heading "Thương hiệu quốc gia Việt Nam" [level=3] [ref=f13e173]
+            - paragraph [ref=f13e174]: National Brand Award
+          - generic [ref=f13e175]:
+            - paragraph [ref=f13e179]: "2022"
+            - heading "Top 10 doanh nghiệp uy tín ngành xây dựng" [level=3] [ref=f13e180]
+            - paragraph [ref=f13e181]: Vietnam Report
+      - generic [ref=f13e183]:
+        - generic [ref=f13e184]:
+          - heading "Dự án tiêu biểu" [level=2] [ref=f13e185]
+          - link "Xem tất cả" [ref=f13e186] [cursor=pointer]:
+            - /url: /du-an
+        - generic [ref=f13e189]:
+          - article [ref=f13e190]:
+            - img "Tòa nhà Eurowindow" [ref=f13e192]
+            - generic [ref=f13e194]:
+              - heading "Tòa nhà Eurowindow" [level=3] [ref=f13e195]
+              - paragraph [ref=f13e196]: Hà Nội
+          - article [ref=f13e199]:
+            - img "Sân bay & nhà ga" [ref=f13e201]
+            - generic [ref=f13e203]:
+              - heading "Sân bay & nhà ga" [level=3] [ref=f13e204]
+              - paragraph [ref=f13e205]: Công trình quốc gia
+          - article [ref=f13e208]:
+            - img "Chung cư cao cấp" [ref=f13e210]
+            - generic [ref=f13e212]:
+              - heading "Chung cư cao cấp" [level=3] [ref=f13e213]
+              - paragraph [ref=f13e214]: Văn phòng & căn hộ
+          - article [ref=f13e217]:
+            - img "Biệt thự & nhà vườn" [ref=f13e219]
+            - generic [ref=f13e221]:
+              - heading "Biệt thự & nhà vườn" [level=3] [ref=f13e222]
+              - paragraph [ref=f13e223]: Nhà ở
+          - article [ref=f13e226]:
+            - img "Trung tâm thương mại" [ref=f13e228]
+            - generic [ref=f13e230]:
+              - heading "Trung tâm thương mại" [level=3] [ref=f13e231]
+              - paragraph [ref=f13e232]: Văn phòng & căn hộ
+          - article [ref=f13e235]:
+            - img "Nhà phố đô thị" [ref=f13e237]
+            - generic [ref=f13e239]:
+              - heading "Nhà phố đô thị" [level=3] [ref=f13e240]
+              - paragraph [ref=f13e241]: Nhà ở
+    - contentinfo [ref=f13e244]:
+      - generic [ref=f13e245]:
+        - generic [ref=f13e246]:
+          - link "Eurowindow" [ref=f13e247] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f13e248]
+          - paragraph [ref=f13e249]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f13e250]:
+          - heading "Liên hệ" [level=2] [ref=f13e251]
+          - generic [ref=f13e252]:
+            - paragraph [ref=f13e253]: Eurowindow Office Building
+            - paragraph [ref=f13e254]: "Hotline: 0909 888 000"
+            - paragraph [ref=f13e255]: infoew@eurowindow.biz
+        - generic [ref=f13e256]:
+          - heading "Khám phá" [level=2] [ref=f13e257]
+          - generic [ref=f13e258]:
+            - link "Giới thiệu" [ref=f13e259] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f13e260] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f13e261] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f13e262] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f13e263]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f13e269] [cursor=pointer]

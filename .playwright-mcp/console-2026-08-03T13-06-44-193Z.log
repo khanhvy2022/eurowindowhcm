@@ -1,0 +1,9 @@
+[     137ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://eurowindow.biz/cong-trinh:0
+[     161ms] [WARNING] jQuery.Deferred exception: $(...).owlCarousel is not a function TypeError: $(...).owlCarousel is not a function
+    at HTMLDocument.<anonymous> (https://eurowindow.biz/assets/js/product.min.js?v=2.3:1:2124)
+    at e (https://eurowindow.biz/assets/libs/jquery/jquery.min.js?v=2.3:2:30005)
+    at t (https://eurowindow.biz/assets/libs/jquery/jquery.min.js?v=2.3:2:30307) undefined @ https://eurowindow.biz/assets/libs/jquery/jquery.min.js?v=2.3:1
+[     175ms] TypeError: $(...).owlCarousel is not a function
+    at HTMLDocument.<anonymous> (https://eurowindow.biz/assets/js/product.min.js?v=2.3:1:2124)
+    at e (https://eurowindow.biz/assets/libs/jquery/jquery.min.js?v=2.3:2:30005)
+    at t (https://eurowindow.biz/assets/libs/jquery/jquery.min.js?v=2.3:2:30307)

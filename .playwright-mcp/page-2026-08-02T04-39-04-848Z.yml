@@ -1,0 +1,106 @@
+- generic [active] [ref=f67e1]:
+  - generic [ref=f67e2]:
+    - banner [ref=f67e3]:
+      - generic [ref=f67e4]:
+        - link "Eurowindow" [ref=f67e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f67e6]
+        - button "Mở menu" [ref=f67e7]
+    - main [ref=f67e9]:
+      - generic [ref=f67e11]:
+        - heading "DỰ ÁN CỦA EUROWINDOW" [level=1] [ref=f67e12]
+        - navigation "Breadcrumb" [ref=f67e13]:
+          - link "Trang chủ" [ref=f67e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f67e17]: Dự án
+      - generic [ref=f67e19]:
+        - generic [ref=f67e20]:
+          - search [ref=f67e21]:
+            - searchbox "Tìm kiếm dự án" [ref=f67e25]
+          - navigation "Danh mục dự án" [ref=f67e26]:
+            - button "Tất cả" [pressed] [ref=f67e27]
+            - button "Công trình quốc gia" [ref=f67e28]
+            - button "Bệnh viện" [ref=f67e29]
+            - button "Trụ sở cơ quan" [ref=f67e30]
+            - button "Văn phòng" [ref=f67e31]
+        - generic [ref=f67e32]:
+          - link [ref=f67e33] [cursor=pointer]:
+            - /url: /du-an/cang-hang-khong-phu-bai-hue
+            - img "Cảng hàng không Phú Bài Huế" [ref=f67e35]
+            - generic [ref=f67e36]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=2] [ref=f67e37]
+              - paragraph [ref=f67e38]: Huế
+          - link [ref=f67e42] [cursor=pointer]:
+            - /url: /du-an/benh-vien-viet-phap
+            - img "Bệnh viện Việt Pháp" [ref=f67e44]
+            - generic [ref=f67e45]:
+              - heading "Bệnh viện Việt Pháp" [level=2] [ref=f67e46]
+              - paragraph [ref=f67e47]: Hà Nội
+          - link [ref=f67e51] [cursor=pointer]:
+            - /url: /du-an/benh-vien-ung-buou-da-nang
+            - img "Bệnh viện ung bướu Đà Nẵng" [ref=f67e53]
+            - generic [ref=f67e54]:
+              - heading "Bệnh viện ung bướu Đà Nẵng" [level=2] [ref=f67e55]
+              - paragraph [ref=f67e56]: Đà Nẵng
+          - link [ref=f67e60] [cursor=pointer]:
+            - /url: /du-an/benh-vien-nhi-dong-tphcm
+            - img "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [ref=f67e62]
+            - generic [ref=f67e63]:
+              - heading "Bệnh viện Nhi đồng TP. Hồ Chí Minh" [level=2] [ref=f67e64]
+              - paragraph [ref=f67e65]: TP. Hồ Chí Minh
+          - link [ref=f67e69] [cursor=pointer]:
+            - /url: /du-an/trung-tam-truyen-hinh-ttxvn
+            - img "TT Truyền hình Thông tấn xã Việt Nam" [ref=f67e71]
+            - generic [ref=f67e72]:
+              - heading "TT Truyền hình Thông tấn xã Việt Nam" [level=2] [ref=f67e73]
+              - paragraph [ref=f67e74]: Hà Nội
+          - link [ref=f67e78] [cursor=pointer]:
+            - /url: /du-an/vien-kiem-sat-nhan-dan-toi-cao
+            - img "Trụ sở Viện KSND Tối cao" [ref=f67e80]
+            - generic [ref=f67e81]:
+              - heading "Trụ sở Viện KSND Tối cao" [level=2] [ref=f67e82]
+              - paragraph [ref=f67e83]: Hà Nội
+          - link [ref=f67e87] [cursor=pointer]:
+            - /url: /du-an/toa-nha-quoc-hoi
+            - img "Tòa nhà Quốc hội" [ref=f67e89]
+            - generic [ref=f67e90]:
+              - heading "Tòa nhà Quốc hội" [level=2] [ref=f67e91]
+              - paragraph [ref=f67e92]: Hà Nội
+          - link [ref=f67e96] [cursor=pointer]:
+            - /url: /du-an/trung-tam-thuong-mai
+            - img "Trung tâm thương mại & văn phòng" [ref=f67e98]
+            - generic [ref=f67e99]:
+              - heading "Trung tâm thương mại & văn phòng" [level=2] [ref=f67e100]
+              - paragraph [ref=f67e101]: Hà Nội
+          - link [ref=f67e105] [cursor=pointer]:
+            - /url: /du-an/chung-cu-vinhomes-global-gate
+            - img "Khu đô thị Vinhomes Global Gate Cổ Loa" [ref=f67e107]
+            - generic [ref=f67e108]:
+              - heading "Khu đô thị Vinhomes Global Gate Cổ Loa" [level=2] [ref=f67e109]
+              - paragraph [ref=f67e110]: Hà Nội
+    - contentinfo [ref=f67e114]:
+      - generic [ref=f67e115]:
+        - generic [ref=f67e116]:
+          - link "Eurowindow" [ref=f67e117] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f67e118]
+          - paragraph [ref=f67e119]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f67e120]:
+          - heading "Liên hệ" [level=2] [ref=f67e121]
+          - generic [ref=f67e122]:
+            - paragraph [ref=f67e123]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f67e124]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f67e125]: infoew@eurowindow.biz
+        - generic [ref=f67e126]:
+          - heading "Khám phá" [level=2] [ref=f67e127]
+          - generic [ref=f67e128]:
+            - link "Giới thiệu" [ref=f67e129] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f67e130] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f67e131] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f67e132] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f67e133]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f67e139] [cursor=pointer]

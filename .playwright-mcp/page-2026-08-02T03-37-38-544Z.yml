@@ -1,0 +1,136 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e2]:
+    - banner [ref=f27e3]:
+      - generic [ref=f27e4]:
+        - link "Eurowindow" [ref=f27e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f27e6]
+        - navigation "Main navigation" [ref=f27e7]:
+          - link "Home" [ref=f27e8] [cursor=pointer]:
+            - /url: /en
+          - link "About us" [ref=f27e10] [cursor=pointer]:
+            - /url: /en/about
+          - link "Projects" [ref=f27e14] [cursor=pointer]:
+            - /url: /en/projects
+          - link "Services" [ref=f27e18] [cursor=pointer]:
+            - /url: /en/services
+          - link "News" [ref=f27e22] [cursor=pointer]:
+            - /url: /en/news
+          - generic "Language selector" [ref=f27e23]:
+            - link [ref=f27e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f27e25]
+            - link [ref=f27e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f27e27]
+        - link "Contact now" [ref=f27e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f27e30]:
+      - generic [ref=f27e32]:
+        - heading "EUROWINDOW SERVICES" [level=1] [ref=f27e33]
+        - navigation "Breadcrumb" [ref=f27e34]:
+          - link "Trang chủ" [ref=f27e35] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f27e38]: Services
+      - generic [ref=f27e40]:
+        - tablist "Choose a service" [ref=f27e41]:
+          - tab "ALUMINIUM DOORS" [selected] [ref=f27e42]
+          - tab "uPVC DOORS" [ref=f27e43]
+          - tab "WOODEN & FIRE-RESISTANT DOORS" [ref=f27e44]
+        - generic [ref=f27e45]:
+          - img "ALUMINIUM DOORS & LARGE PARTITIONS" [ref=f27e47]
+          - generic [ref=f27e48]:
+            - heading "ALUMINIUM DOORS & LARGE PARTITIONS" [level=2] [ref=f27e49]
+            - paragraph [ref=f27e50]: Aluminium door and large glass partition systems in EA55–EA95i profiles with genuine Cmech, Roto and Hafele hardware — overcoming the flaws of conventional aluminium and bearing high wind load for large projects.
+            - generic [ref=f27e51]:
+              - generic [ref=f27e52]:
+                - paragraph [ref=f27e53]: 99%
+                - paragraph [ref=f27e54]: satisfied customers
+              - generic [ref=f27e55]:
+                - paragraph [ref=f27e56]: 12+
+                - paragraph [ref=f27e57]: official product systems
+              - generic [ref=f27e58]:
+                - paragraph [ref=f27e59]: 5 years
+                - paragraph [ref=f27e60]: standard warranty
+            - link "GET A PRICE QUOTE NOW" [ref=f27e61] [cursor=pointer]:
+              - /url: "#lien-he"
+      - generic [ref=f27e65]:
+        - heading "Our process" [level=2] [ref=f27e66]
+        - list [ref=f27e67]:
+          - listitem [ref=f27e68]:
+            - paragraph [ref=f27e69]: STAGE 1
+            - heading "Consultation & survey" [level=3] [ref=f27e70]
+            - paragraph [ref=f27e71]: Listen to your needs, survey the site and advise on door and partition systems that fit function and budget.
+          - listitem [ref=f27e72]:
+            - paragraph [ref=f27e73]: STAGE 2
+            - heading "Production & inspection" [level=3] [ref=f27e74]
+            - paragraph [ref=f27e75]: Prepare technical documents, manufacture at the plant to European standards and quality-check every batch of products.
+          - listitem [ref=f27e76]:
+            - paragraph [ref=f27e77]: STAGE 3
+            - heading "Installation & handover" [level=3] [ref=f27e78]
+            - paragraph [ref=f27e79]: Installed by an experienced team, each item is inspected and handed over with official warranty coverage.
+      - generic [ref=f27e81]:
+        - heading "Awards" [level=2] [ref=f27e82]
+        - generic [ref=f27e83]:
+          - generic [ref=f27e84]:
+            - paragraph [ref=f27e88]: 14 years
+            - heading "consecutive Vietnam National Brand" [level=3] [ref=f27e89]
+            - paragraph [ref=f27e90]: Ministry of Industry and Trade
+          - generic [ref=f27e91]:
+            - paragraph [ref=f27e95]: "2026"
+            - heading "Top 10 green enterprises in Vietnam" [level=3] [ref=f27e96]
+            - paragraph [ref=f27e97]: Vietnam Report
+          - generic [ref=f27e98]:
+            - paragraph [ref=f27e102]: "2024"
+            - heading "Vietnam Product Quality Award" [level=3] [ref=f27e103]
+            - paragraph [ref=f27e104]: Vietnam Quality Award
+      - generic [ref=f27e106]:
+        - generic [ref=f27e107]:
+          - heading "Featured projects" [level=2] [ref=f27e108]
+          - link "View all" [ref=f27e109] [cursor=pointer]:
+            - /url: /en/projects
+        - generic [ref=f27e112]:
+          - link [ref=f27e113] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Phu Bai International Airport" [ref=f27e115]
+            - generic [ref=f27e116]:
+              - heading "Phu Bai International Airport" [level=3] [ref=f27e117]
+              - paragraph [ref=f27e118]: National landmark
+          - link [ref=f27e119] [cursor=pointer]:
+            - /url: /en/projects
+            - img "Hospital Francais de Hanoi" [ref=f27e121]
+            - generic [ref=f27e122]:
+              - heading "Hospital Francais de Hanoi" [level=3] [ref=f27e123]
+              - paragraph [ref=f27e124]: Hospital
+          - link [ref=f27e125] [cursor=pointer]:
+            - /url: /en/projects
+            - img "National Assembly Building" [ref=f27e127]
+            - generic [ref=f27e128]:
+              - heading "National Assembly Building" [level=3] [ref=f27e129]
+              - paragraph [ref=f27e130]: National landmark
+    - contentinfo [ref=f27e131]:
+      - generic [ref=f27e132]:
+        - generic [ref=f27e133]:
+          - link "Eurowindow" [ref=f27e134] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f27e135]
+          - paragraph [ref=f27e136]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f27e137]:
+          - heading "Contact" [level=2] [ref=f27e138]
+          - generic [ref=f27e139]:
+            - paragraph [ref=f27e140]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f27e141]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f27e142]: infoew@eurowindow.biz
+        - generic [ref=f27e143]:
+          - heading "Explore" [level=2] [ref=f27e144]
+          - generic [ref=f27e145]:
+            - link "About us" [ref=f27e146] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f27e147] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f27e148] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f27e149] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f27e150]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f27e156] [cursor=pointer]

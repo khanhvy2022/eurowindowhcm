@@ -1,0 +1,136 @@
+- generic [active] [ref=f21e1]:
+  - generic [ref=f21e2]:
+    - banner [ref=f21e3]:
+      - generic [ref=f21e4]:
+        - link "Eurowindow" [ref=f21e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f21e6]
+        - navigation "Điều hướng chính" [ref=f21e7]:
+          - link "Trang chủ" [ref=f21e8] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f21e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Dự án/Công trình" [ref=f21e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "Dịch vụ" [ref=f21e18] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f21e22] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic "Language selector" [ref=f21e23]:
+            - link [ref=f21e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f21e25]
+            - link [ref=f21e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f21e27]
+        - link "Liên hệ ngay" [ref=f21e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f21e30]:
+      - generic [ref=f21e32]:
+        - heading "DỊCH VỤ CỦA EUROWINDOW" [level=1] [ref=f21e33]
+        - navigation "Breadcrumb" [ref=f21e34]:
+          - link "Trang chủ" [ref=f21e35] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f21e38]: Dịch vụ
+      - generic [ref=f21e40]:
+        - tablist "Chọn dịch vụ" [ref=f21e41]:
+          - tab "CỬA NHÔM & VÁCH KÍNH" [selected] [ref=f21e42]
+          - tab "CỬA uPVC" [ref=f21e43]
+          - tab "CỬA GỖ & GỖ CHỐNG CHÁY" [ref=f21e44]
+        - generic [ref=f21e45]:
+          - img "CỬA NHÔM & VÁCH KÍNH LỚN" [ref=f21e47]
+          - generic [ref=f21e48]:
+            - heading "CỬA NHÔM & VÁCH KÍNH LỚN" [level=2] [ref=f21e49]
+            - paragraph [ref=f21e50]: Hệ cửa nhôm và vách nhôm kính lớn từ vật liệu nhôm EA55–EA95i, phụ kiện chính hãng Cmech, Roto, Hafele — khắc phục triệt để nhược điểm nhôm thông thường, chịu tải trọng gió lớn cho công trình quy mô.
+            - generic [ref=f21e51]:
+              - generic [ref=f21e52]:
+                - paragraph [ref=f21e53]: 99%
+                - paragraph [ref=f21e54]: khách hàng hài lòng
+              - generic [ref=f21e55]:
+                - paragraph [ref=f21e56]: 12+
+                - paragraph [ref=f21e57]: hệ sản phẩm chính hãng
+              - generic [ref=f21e58]:
+                - paragraph [ref=f21e59]: 5 năm
+                - paragraph [ref=f21e60]: bảo hành tiêu chuẩn
+            - link "XEM NGAY BẢNG GIÁ" [ref=f21e61] [cursor=pointer]:
+              - /url: "#lien-he"
+      - generic [ref=f21e65]:
+        - heading "Quy trình" [level=2] [ref=f21e66]
+        - list [ref=f21e67]:
+          - listitem [ref=f21e68]:
+            - paragraph [ref=f21e69]: GIAI ĐOẠN 1
+            - heading "Tư vấn & khảo sát" [level=3] [ref=f21e70]
+            - paragraph [ref=f21e71]: Lắng nghe nhu cầu, khảo sát hiện trường và tư vấn hệ giải pháp cửa, vách phù hợp công năng và ngân sách.
+          - listitem [ref=f21e72]:
+            - paragraph [ref=f21e73]: GIAI ĐOẠN 2
+            - heading "Sản xuất & kiểm tra" [level=3] [ref=f21e74]
+            - paragraph [ref=f21e75]: Lập hồ sơ kỹ thuật, triển khai sản xuất tại nhà máy theo hệ chuẩn Châu Âu và kiểm tra chất lượng từng lô sản phẩm.
+          - listitem [ref=f21e76]:
+            - paragraph [ref=f21e77]: GIAI ĐOẠN 3
+            - heading "Lắp đặt & bàn giao" [level=3] [ref=f21e78]
+            - paragraph [ref=f21e79]: Lắp đặt bởi đội ngũ kinh nghiệm, nghiệm thu từng hạng mục và bàn giao kèm chế độ bảo hành chính hãng.
+      - generic [ref=f21e81]:
+        - heading "Giải thưởng" [level=2] [ref=f21e82]
+        - generic [ref=f21e83]:
+          - generic [ref=f21e84]:
+            - paragraph [ref=f21e88]: 14 năm
+            - heading "liên tiếp Thương hiệu Quốc gia" [level=3] [ref=f21e89]
+            - paragraph [ref=f21e90]: Bộ Công Thương
+          - generic [ref=f21e91]:
+            - paragraph [ref=f21e95]: "2026"
+            - heading "Top 10 doanh nghiệp xanh Việt Nam" [level=3] [ref=f21e96]
+            - paragraph [ref=f21e97]: Vietnam Report
+          - generic [ref=f21e98]:
+            - paragraph [ref=f21e102]: "2024"
+            - heading "Giải thưởng chất lượng sản phẩm Việt Nam" [level=3] [ref=f21e103]
+            - paragraph [ref=f21e104]: Vietnam Quality Award
+      - generic [ref=f21e106]:
+        - generic [ref=f21e107]:
+          - heading "Dự án tiêu biểu" [level=2] [ref=f21e108]
+          - link "Xem tất cả" [ref=f21e109] [cursor=pointer]:
+            - /url: /du-an
+        - generic [ref=f21e112]:
+          - link [ref=f21e113] [cursor=pointer]:
+            - /url: /du-an
+            - img "Cảng hàng không Phú Bài Huế" [ref=f21e115]
+            - generic [ref=f21e116]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f21e117]
+              - paragraph [ref=f21e118]: Công trình quốc gia
+          - link [ref=f21e119] [cursor=pointer]:
+            - /url: /du-an
+            - img "Bệnh viện Việt Pháp" [ref=f21e121]
+            - generic [ref=f21e122]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f21e123]
+              - paragraph [ref=f21e124]: Bệnh viện
+          - link [ref=f21e125] [cursor=pointer]:
+            - /url: /du-an
+            - img "Tòa nhà Quốc hội" [ref=f21e127]
+            - generic [ref=f21e128]:
+              - heading "Tòa nhà Quốc hội" [level=3] [ref=f21e129]
+              - paragraph [ref=f21e130]: Công trình quốc gia
+    - contentinfo [ref=f21e131]:
+      - generic [ref=f21e132]:
+        - generic [ref=f21e133]:
+          - link "Eurowindow" [ref=f21e134] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f21e135]
+          - paragraph [ref=f21e136]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f21e137]:
+          - heading "Liên hệ" [level=2] [ref=f21e138]
+          - generic [ref=f21e139]:
+            - paragraph [ref=f21e140]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f21e141]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f21e142]: infoew@eurowindow.biz
+        - generic [ref=f21e143]:
+          - heading "Khám phá" [level=2] [ref=f21e144]
+          - generic [ref=f21e145]:
+            - link "Giới thiệu" [ref=f21e146] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f21e147] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f21e148] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f21e149] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f21e150]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f21e156] [cursor=pointer]

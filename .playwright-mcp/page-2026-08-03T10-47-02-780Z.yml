@@ -1,0 +1,379 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]: VN
+          - listitem [ref=e9]: ENG
+        - generic [ref=e11]:
+          - textbox "Tìm kiếm..." [ref=e12]
+          - button "Tìm kiếm" [ref=e13] [cursor=pointer]
+      - link [ref=e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=e18]
+      - link "Nhận tư vấn" [ref=e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=e24]:
+      - listitem [ref=e25]:
+        - link "GIỚI THIỆU" [ref=e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=e27]:
+        - link "SẢN PHẨM" [ref=e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=e31]:
+        - link "SHOWROOM" [ref=e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=e37]:
+        - link "TÀI LIỆU" [ref=e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=e39]:
+        - link "TIN TỨC" [ref=e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=e43]:
+        - link "CHÍNH SÁCH" [ref=e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=e47]:
+        - link "LIÊN HỆ" [ref=e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - link "Trang chủ" [ref=e54] [cursor=pointer]:
+              - /url: https://eurowindow.biz
+            - text: /
+          - listitem [ref=e55]:
+            - link "Tin tức" [ref=e56] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc
+            - text: /
+          - listitem [ref=e57]:
+            - link "Tin khuyến mãi" [ref=e58] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+            - text: /
+          - listitem [ref=e59]:
+            - link "Thể lệ chương trình khuyến mãi “Siêu phẩm sang – Ưu đãi vàng”" [ref=e60] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Csieu-pham-sang-%E2%80%93-uu-dai-vang%E2%80%9D.html
+        - generic [ref=e61]:
+          - generic [ref=e63]:
+            - heading "Thể lệ chương trình khuyến mãi “Siêu phẩm sang – Ưu đãi vàng”" [level=1] [ref=e65]
+            - generic [ref=e66]:
+              - generic [ref=e67]: 20/07/2026
+              - link "Tin khuyến mãi" [ref=e70] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+              - generic [ref=e73]: 264 Lượt xem
+            - generic [ref=e77]:
+              - paragraph [ref=e78]:
+                - text: Nhằm tri ân khách hàng, từ ngày
+                - strong [ref=e79]: 15/07/2026 đến 15/09/2026
+                - text: ", Eurowindow triển khai chương trình khuyến mãi"
+                - strong [ref=e80]: “Siêu phẩm sang – Ưu đãi vàng”
+                - text: dành cho khách hàng nhà riêng trên phạm vi toàn quốc.
+              - paragraph [ref=e81]:
+                - text: Theo đó, khách hàng nhà riêng ký hợp đồng/phụ lục hợp đồng mua các sản phẩm thuộc
+                - strong [ref=e82]: hệ nhôm EA63 và EA68i
+                - text: trong thời gian diễn ra chương trình sẽ được
+                - strong [ref=e83]: giảm giá trực tiếp 15%
+                - text: trên giá trị sản phẩm. Đây là cơ hội hấp dẫn để khách hàng có thể sở hữu dòng cửa nhôm hiện đại, sang trọng, thiết kế tinh tế cùng nhiều ưu điểm về cách âm, cách nhiệt và độ bền vượt trội, giúp nâng tầm chất lượng không gian sống.
+              - generic [ref=e84]:
+                - img "ctkm-ea65ea68i-169-at-3x" [ref=e85]
+                - paragraph [ref=e86]:
+                  - emphasis [ref=e87]: Chương trình khuyến mãi “Siêu phẩm sang - Ưu đãi vàng" diễn ra từ ngày 15/07/2026 đến hết ngày 15/09/2026
+              - paragraph [ref=e88]: Với mức ưu đãi đặc biệt này, Eurowindow mong muốn đồng hành cùng khách hàng trong hành trình kiến tạo những không gian sống cao cấp, tối ưu chi phí đầu tư mà vẫn đảm bảo chất lượng và tính thẩm mỹ cao.
+              - heading [level=3] [ref=e89]:
+                - strong [ref=e90]: THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MÃI
+              - list [ref=e91]:
+                - listitem [ref=e92]:
+                  - strong [ref=e93]: "Tên chương trình:"
+                  - text: “SIÊU PHẨM SANG – ƯU ĐÃI VÀNG”
+                - listitem [ref=e94]:
+                  - strong [ref=e95]: "Hàng hóa, dịch vụ dùng để khuyến mãi:"
+                  - text: Các sản phẩm hệ nhôm
+                  - strong [ref=e96]: EA63
+                  - text: và
+                  - strong [ref=e97]: EA68i
+                  - text: của Eurowindow.
+                - listitem [ref=e98]:
+                  - strong [ref=e99]: "Thời gian khuyến mãi:"
+                  - text: Từ ngày
+                  - strong [ref=e100]: 15/07/2026 đến hết ngày 15/09/2026
+                  - text: .
+                - listitem [ref=e101]:
+                  - strong [ref=e102]: "Đối tượng và phạm vi khuyến mãi:"
+                  - text: Khách hàng nhà riêng trên phạm vi toàn quốc ký hợp đồng/phụ lục hợp đồng với Eurowindow trong thời gian diễn ra chương trình.
+                  - strong [ref=e103]
+                - listitem [ref=e104]:
+                  - strong [ref=e105]: Chi tiết nội dung và thể lệ tham gia chương trình
+              - paragraph [ref=e106]:
+                - emphasis [ref=e107]: "Ưu đãi khuyến mãi:"
+              - list [ref=e108]:
+                - listitem [level=1] [ref=e109]:
+                  - text: Giảm giá
+                  - strong [ref=e110]: 15%
+                  - text: khi khách hàng mua các sản phẩm thuộc hệ nhôm
+                  - strong [ref=e111]: EA63
+                  - text: và
+                  - strong [ref=e112]: EA68i
+                  - text: .
+                - listitem [level=1] [ref=e113]: Mức giảm giá được áp dụng trực tiếp trên giá trị các sản phẩm thuộc hệ EA63 và EA68i trong Hợp đồng/Phụ lục hợp đồng.
+              - paragraph [ref=e114]:
+                - emphasis [ref=e115]: "Điều kiện áp dụng:"
+              - list [ref=e116]:
+                - listitem [level=1] [ref=e117]:
+                  - text: Áp dụng đối với các Hợp đồng/Phụ lục hợp đồng được ký trong thời gian khuyến mãi từ
+                  - strong [ref=e118]: 15/07/2026 đến 15/09/2026
+                  - text: .
+                - listitem [level=1] [ref=e119]:
+                  - text: Khách hàng hoàn thành thủ tục thanh toán đặt cọc tối thiểu
+                  - strong [ref=e120]: 30% giá trị Hợp đồng/Phụ lục hợp đồng
+                  - text: trong thời gian diễn ra chương trình khuyến mãi.
+              - paragraph [ref=e121]:
+                - text: "6."
+                - strong [ref=e122]: Các quy định khác
+              - list [ref=e123]:
+                - listitem [ref=e124]: Chương trình khuyến mãi không áp dụng đồng thời với các chương trình khuyến mãi khác của Eurowindow.
+                - listitem [level=1] [ref=e125]: Trong trường hợp phát sinh tranh chấp, khiếu nại liên quan đến chương trình khuyến mãi, Công ty Cổ phần Eurowindow sẽ trực tiếp giải quyết và quyết định của Công ty Cổ phần Eurowindow là quyết định cuối cùng.
+              - paragraph [ref=e126]:
+                - text: "7."
+                - strong [ref=e127]: Trách nhiệm thông báo
+              - paragraph [ref=e128]: Công ty Cổ phần Eurowindow có trách nhiệm thông báo đầy đủ chi tiết nội dung thể lệ chương trình khuyến mãi trên ít nhất một phương tiện thông tin đại chúng chính thức.
+              - paragraph [ref=e129]:
+                - text: "8."
+                - strong [ref=e130]: Liên hệ
+              - paragraph [ref=e131]:
+                - strong [ref=e132]: Công ty Cổ phần Eurowindow
+              - list [ref=e133]:
+                - listitem [level=1] [ref=e134]:
+                  - strong [ref=e135]: "Trụ sở chính:"
+                  - text: "Tòa nhà Văn phòng Eurowindow, số 2 Tôn Thất Tùng, phường Kim Liên, TP. Hà NộiHotline miền Bắc: 0909 888 000"
+                - listitem [level=1] [ref=e136]:
+                  - strong [ref=e137]: "Chi nhánh miền Trung:"
+                  - text: "152 Phan Đăng Lưu, phường Hòa Cường, TP. Đà NẵngHotline miền Trung: 0906 000 111"
+                - listitem [level=1] [ref=e138]:
+                  - strong [ref=e139]: "Chi nhánh miền Nam:"
+                  - text: "39 Bis Mạc Đĩnh Chi, phường Tân Định, TP. Hồ Chí MinhHotline miền Nam: 0903 11 8888"
+              - paragraph [ref=e140]:
+                - text: 👉
+                - strong [ref=e141]: Liên hệ Eurowindow trên toàn quốc để được tư vấn chi tiết và nhận ưu đãi từ chương trình “Siêu phẩm sang – Ưu đãi vàng”.
+            - generic [ref=e142]:
+              - generic [ref=e143]: "Chia sẻ:"
+              - link "Facebook" [ref=e146] [cursor=pointer]:
+                - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feurowindow.biz%2Ftin-tuc%2Ftin-khuyen-mai%2Fthe-le-chuong-trinh-khuyen-mai-%25E2%2580%259Csieu-pham-sang-%25E2%2580%2593-uu-dai-vang%25E2%2580%259D.html
+              - link "Zalo" [ref=e151] [cursor=pointer]:
+                - /url: https://sp.zalo.me/share?url=https%3A%2F%2Feurowindow.biz%2Ftin-tuc%2Ftin-khuyen-mai%2Fthe-le-chuong-trinh-khuyen-mai-%25E2%2580%259Csieu-pham-sang-%25E2%2580%2593-uu-dai-vang%25E2%2580%259D.html
+              - generic [ref=e161]:
+                - generic [ref=e162]: "Tóm tắt với AI:"
+                - generic [ref=e163]:
+                  - link "Tóm tắt với ChatGPT" [ref=e164] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Tóm tắt với Claude" [ref=e167] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Tóm tắt với Perplexity" [ref=e170] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e173]:
+              - paragraph [ref=e174]: "Đánh giá:"
+              - list [ref=e176]:
+                - listitem [ref=e177]: 0/5
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+              - paragraph
+            - generic [ref=e178]:
+              - generic [ref=e179]: Bình luận (0 Bình luận)
+              - generic [ref=e182]:
+                - textbox "Tên của bạn *" [ref=e185]
+                - textbox "Viết bình luận của bạn ..." [ref=e186]
+                - button "Gửi" [ref=e187] [cursor=pointer]
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - paragraph [ref=e192]: Danh mục tin tức
+              - list [ref=e193]:
+                - listitem [ref=e194]:
+                  - link [ref=e195] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+                    - paragraph [ref=e196]: Tin khuyến mãi
+                - listitem [ref=e197]:
+                  - link [ref=e198] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tuyen-dung
+                    - paragraph [ref=e199]: Tuyển dụng
+                - listitem [ref=e200]:
+                  - link [ref=e201] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+                    - paragraph [ref=e202]: Tin nội bộ
+                - listitem [ref=e203]:
+                  - link [ref=e204] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+                    - paragraph [ref=e205]: Tin dự án
+                - listitem [ref=e206]:
+                  - link [ref=e207] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+                    - paragraph [ref=e208]: Tin tức sự kiện
+            - generic [ref=e209]:
+              - paragraph [ref=e211]: Bài viết mới
+              - list [ref=e212]:
+                - listitem [ref=e213]:
+                  - link [ref=e214] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tu-van/giai-phap-cach-nhiet-eurowindow-he-2026.html
+                    - paragraph [ref=e215]: Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026
+                - listitem [ref=e216]:
+                  - link [ref=e217] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tu-van/nen-chon-cua-gi-cho-mua-he-nang-nong.html
+                    - paragraph [ref=e218]: Nên chọn cửa gì cho mùa hè nắng nóng?
+                - listitem [ref=e219]:
+                  - link [ref=e220] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/eurowindow-to-chuc-thanh-cong-toa-dam-xu-huong-nguon-nhan-luc-chien-luoc-phat-trien-va-quan-tri-trong-boi-canh-moi.html
+                    - paragraph [ref=e221]: Eurowindow tổ chức thành công tọa đàm “ Xu hướng nguồn nhân lực - Chiến lược phát triển và quản trị trong bối cảnh mới”
+            - generic [ref=e222]:
+              - paragraph [ref=e224]: Bài viết đọc nhiều
+              - list [ref=e225]:
+                - listitem [ref=e226]:
+                  - link [ref=e227] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/eurowindow-khuyen-mai-nhan-dip-vietbuild-don-cua-tan-gia-nhan-qua-nghi-duong.html
+                    - paragraph [ref=e228]: "EUROWINDOW KHUYẾN MÃI NHÂN DỊP VIETBUILD: “ĐÓN CỬA TÂN GIA – NHẬN QUÀ NGHỈ DƯỠNG”"
+                - listitem [ref=e229]:
+                  - link [ref=e230] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-ngan-uu-dai-vang-tri-an-khach-hang-nhan-ky-niem-20-nam-thanh-lap-eurowindow.html
+                    - paragraph [ref=e231]: "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MÃI: “NGÀN ƯU ĐÃI VÀNG – TRI ÂN KHÁCH HÀNG” NHÂN KỶ NIỆM 20 NĂM THÀNH LẬP EUROWINDOW"
+                - listitem [ref=e232]:
+                  - link [ref=e233] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Cdau-tu-xung-tam-%E2%80%93-uu-dai-cuc-pham%E2%80%9D.html
+                    - paragraph [ref=e234]: THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MÃI “ĐẦU TƯ XỨNG TẦM – ƯU ĐÃI CỰC PHẨM”
+            - link [ref=e236] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/chuong-trinh-khuyen-mai-dac-biet-danh-cho-khach-hang-mua-kinh-dien-eurowindow.html
+              - img "popup-website" [ref=e237]
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - img "logo-ngang-xanh-13" [ref=e242]
+                - paragraph [ref=e244]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - textbox "Họ và tên *" [ref=e249]
+                  - textbox "Số điện thoại *" [ref=e251]
+                  - textbox "Email *" [ref=e253]
+                - textbox "Lời nhắn tới Eurowindow" [ref=e255]
+                - button "Gửi" [ref=e257] [cursor=pointer]
+      - generic: Đã sao chép liên kết bài viết.Đang mở trình duyệt AI...
+  - contentinfo [ref=e258]:
+    - generic [ref=e260]:
+      - generic [ref=e261]:
+        - link [ref=e263] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=e264]
+        - generic [ref=e265]:
+          - link "Facebook" [ref=e266] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=e267]
+          - link "Instagram" [ref=e268] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=e269]
+          - link "Youtube" [ref=e270] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=e271]
+          - link "Zalo" [ref=e272] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=e273]
+          - link "Tiktok" [ref=e274] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=e278] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=e282] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=e286]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=e289] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=e290]:
+          - link [ref=e291] [cursor=pointer]:
+            - /url: javascript:;
+            - img "BCT" [ref=e292]
+          - link [ref=e293] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=e294]
+      - generic [ref=e295]:
+        - generic [ref=e296]: Giới thiệu
+        - list [ref=e297]:
+          - listitem [ref=e298]:
+            - link "Giới thiệu" [ref=e299] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=e300]:
+            - link "Tầm nhìn sứ mệnh" [ref=e301] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=e302]:
+            - link "Giải thưởng" [ref=e303] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=e304]:
+            - link "Tài liệu" [ref=e305] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=e306]:
+        - generic [ref=e307]: Sản phẩm
+        - list [ref=e308]:
+          - listitem [ref=e309]:
+            - link "Cửa - Vách nhôm" [ref=e310] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=e311]:
+            - link "Cửa uPVC" [ref=e312] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=e313]:
+            - link "Cửa gỗ" [ref=e314] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=e315]:
+            - link "Cửa cuốn" [ref=e316] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=e317]:
+            - link "Cửa thông minh" [ref=e318] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=e319]:
+        - generic [ref=e320]: Tin tức
+        - list [ref=e321]:
+          - listitem [ref=e322]:
+            - link "Tin tức sự kiện" [ref=e323] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=e324]:
+            - link "Tin dự án" [ref=e325] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=e326]:
+            - link "Tin nội bộ" [ref=e327] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=e328]:
+            - link "Tin khuyến mãi" [ref=e329] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=e330]:
+            - link "Tư vấn" [ref=e331] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=e332]:
+        - generic [ref=e333]: Chăm sóc khách hàng
+        - list [ref=e334]:
+          - listitem [ref=e335]:
+            - link "Chính sách bảo hành" [ref=e336] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=e337]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=e338] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=e339]:
+            - link "(84 - 24) 37 47 47 00" [ref=e340] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=e343]:
+            - link "cskhhn@eurowindow.biz" [ref=e344] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=e347]: Dự án quốc tế và xuất khẩu
+          - list [ref=e348]:
+            - listitem [ref=e349]:
+              - link "+84 -903 41 55 52" [ref=e350] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=e353]:
+              - link "export@eurowindow.biz" [ref=e354] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=e359]:
+      - generic [ref=e360]:
+        - paragraph
+        - paragraph
+      - generic [ref=e361]:
+        - paragraph
+        - paragraph [ref=e362]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=e368] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=e369]

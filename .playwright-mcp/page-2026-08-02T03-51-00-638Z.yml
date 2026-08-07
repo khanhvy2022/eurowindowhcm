@@ -1,0 +1,119 @@
+- generic [active] [ref=f25e1]:
+  - generic [ref=f25e2]:
+    - banner [ref=f25e3]:
+      - generic [ref=f25e4]:
+        - link "Eurowindow" [ref=f25e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f25e6]
+        - navigation "Điều hướng chính" [ref=f25e7]:
+          - link "Trang chủ" [ref=f25e8] [cursor=pointer]:
+            - /url: /
+          - link "Giới thiệu" [ref=f25e10] [cursor=pointer]:
+            - /url: /gioi-thieu
+          - link "Công trình" [ref=f25e14] [cursor=pointer]:
+            - /url: /du-an
+          - link "Sản phẩm" [ref=f25e18] [cursor=pointer]:
+            - /url: /thiet-ke-kien-truc
+          - link "Tin tức" [ref=f25e22] [cursor=pointer]:
+            - /url: /tin-tuc
+          - generic "Language selector" [ref=f25e23]:
+            - link [ref=f25e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f25e25]
+            - link [ref=f25e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f25e27]
+        - link "Liên hệ ngay" [ref=f25e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f25e30]:
+      - generic [ref=f25e32]:
+        - navigation "Breadcrumb" [ref=f25e33]:
+          - link "Trang chủ" [ref=f25e34] [cursor=pointer]:
+            - /url: /
+          - link "Dự án" [ref=f25e37] [cursor=pointer]:
+            - /url: /du-an
+          - generic [ref=f25e40]: Tòa nhà Quốc hội
+        - heading "Tòa nhà Quốc hội" [level=1] [ref=f25e41]
+        - paragraph [ref=f25e42]: Hà Nội
+      - generic [ref=f25e48]:
+        - img "Tòa nhà Quốc hội – ảnh 1" [ref=f25e50]
+        - img "Tòa nhà Quốc hội – ảnh 2" [ref=f25e52]
+        - img "Tòa nhà Quốc hội – ảnh 3" [ref=f25e54]
+      - generic [ref=f25e56]:
+        - generic [ref=f25e57]:
+          - heading "Thông tin dự án" [level=2] [ref=f25e58]
+          - generic [ref=f25e59]:
+            - generic [ref=f25e60]:
+              - term [ref=f25e61]: CHỦ ĐẦU TƯ
+              - definition [ref=f25e62]: Eurowindow
+            - generic [ref=f25e63]:
+              - term [ref=f25e64]: PHÂN LOẠI
+              - definition [ref=f25e65]: Công trình quốc gia
+            - generic [ref=f25e66]:
+              - term [ref=f25e67]: HOÀN THÀNH
+              - definition [ref=f25e68]: "2019"
+            - generic [ref=f25e69]:
+              - term [ref=f25e70]: DIỆN TÍCH
+              - definition [ref=f25e71]: Nhà Quốc hội
+            - generic [ref=f25e72]:
+              - term [ref=f25e73]: VỊ TRÍ
+              - definition [ref=f25e74]: Hà Nội
+            - generic [ref=f25e75]:
+              - term [ref=f25e76]: HẠNG MỤC
+              - definition [ref=f25e77]: Cửa & vách nhôm kính
+        - generic [ref=f25e78]:
+          - heading "Giới thiệu dự án" [level=2] [ref=f25e79]
+          - paragraph [ref=f25e80]: Sản phẩm Eurowindow hiện diện tại Nhà Quốc hội — biểu tượng của sự tự hào dân tộc, minh chứng cho chất lượng đạt chuẩn công trình quốc gia.
+          - paragraph [ref=f25e81]: Eurowindow đồng hành từ khâu khảo sát, tư vấn giải pháp đến sản xuất và thi công lắp đặt — đảm bảo mỗi hạng mục đạt chuẩn chất lượng và đúng tiến độ. Hệ sản phẩm được kiểm soát theo tiêu chuẩn châu Âu, đáp ứng tốt yêu cầu cách âm, cách nhiệt, an toàn và thẩm mỹ của từng công trình.
+          - link "Liên hệ tư vấn" [ref=f25e82] [cursor=pointer]:
+            - /url: "#lien-he"
+      - generic [ref=f25e86]:
+        - generic [ref=f25e87]:
+          - heading "Dự án liên quan" [level=2] [ref=f25e88]
+          - link "Xem tất cả" [ref=f25e89] [cursor=pointer]:
+            - /url: /du-an
+        - generic [ref=f25e92]:
+          - link [ref=f25e93] [cursor=pointer]:
+            - /url: /du-an/cang-hang-khong-phu-bai-hue
+            - img "Cảng hàng không Phú Bài Huế" [ref=f25e95]
+            - generic [ref=f25e96]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f25e97]
+              - paragraph [ref=f25e98]: Huế
+          - link [ref=f25e102] [cursor=pointer]:
+            - /url: /du-an/benh-vien-viet-phap
+            - img "Bệnh viện Việt Pháp" [ref=f25e104]
+            - generic [ref=f25e105]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f25e106]
+              - paragraph [ref=f25e107]: Hà Nội
+          - link [ref=f25e111] [cursor=pointer]:
+            - /url: /du-an/benh-vien-ung-buou-da-nang
+            - img "Bệnh viện ung bướu Đà Nẵng" [ref=f25e113]
+            - generic [ref=f25e114]:
+              - heading "Bệnh viện ung bướu Đà Nẵng" [level=3] [ref=f25e115]
+              - paragraph [ref=f25e116]: Đà Nẵng
+    - contentinfo [ref=f25e120]:
+      - generic [ref=f25e121]:
+        - generic [ref=f25e122]:
+          - link "Eurowindow" [ref=f25e123] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f25e124]
+          - paragraph [ref=f25e125]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f25e126]:
+          - heading "Liên hệ" [level=2] [ref=f25e127]
+          - generic [ref=f25e128]:
+            - paragraph [ref=f25e129]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f25e130]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f25e131]: infoew@eurowindow.biz
+        - generic [ref=f25e132]:
+          - heading "Khám phá" [level=2] [ref=f25e133]
+          - generic [ref=f25e134]:
+            - link "Giới thiệu" [ref=f25e135] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f25e136] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f25e137] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f25e138] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f25e139]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f25e145] [cursor=pointer]

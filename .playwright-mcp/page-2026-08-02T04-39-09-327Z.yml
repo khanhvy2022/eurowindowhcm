@@ -1,0 +1,97 @@
+- generic [active] [ref=f68e1]:
+  - generic [ref=f68e2]:
+    - banner [ref=f68e3]:
+      - generic [ref=f68e4]:
+        - link "Eurowindow" [ref=f68e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f68e6]
+        - button "Mở menu" [ref=f68e7]
+    - main [ref=f68e9]:
+      - generic [ref=f68e11]:
+        - navigation "Breadcrumb" [ref=f68e12]:
+          - link "Trang chủ" [ref=f68e13] [cursor=pointer]:
+            - /url: /
+          - link "Dự án" [ref=f68e16] [cursor=pointer]:
+            - /url: /du-an
+          - generic [ref=f68e19]: Trung tâm thương mại & văn phòng
+        - heading "Trung tâm thương mại & văn phòng" [level=1] [ref=f68e20]
+        - paragraph [ref=f68e21]: Hà Nội
+      - generic [ref=f68e27]:
+        - img "Trung tâm thương mại & văn phòng – ảnh 1" [ref=f68e29]
+        - img "Trung tâm thương mại & văn phòng – ảnh 2" [ref=f68e31]
+        - img "Trung tâm thương mại & văn phòng – ảnh 3" [ref=f68e33]
+      - generic [ref=f68e35]:
+        - generic [ref=f68e36]:
+          - heading "Thông tin dự án" [level=2] [ref=f68e37]
+          - generic [ref=f68e38]:
+            - generic [ref=f68e39]:
+              - term [ref=f68e40]: CHỦ ĐẦU TƯ
+              - definition [ref=f68e41]: Eurowindow
+            - generic [ref=f68e42]:
+              - term [ref=f68e43]: PHÂN LOẠI
+              - definition [ref=f68e44]: Văn phòng
+            - generic [ref=f68e45]:
+              - term [ref=f68e46]: HOÀN THÀNH
+              - definition [ref=f68e47]: "2023"
+            - generic [ref=f68e48]:
+              - term [ref=f68e49]: DIỆN TÍCH
+              - definition [ref=f68e50]: Tòa nhà văn phòng
+            - generic [ref=f68e51]:
+              - term [ref=f68e52]: VỊ TRÍ
+              - definition [ref=f68e53]: Hà Nội
+            - generic [ref=f68e54]:
+              - term [ref=f68e55]: HẠNG MỤC
+              - definition [ref=f68e56]: Cửa & vách nhôm kính
+        - generic [ref=f68e57]:
+          - heading "Giới thiệu dự án" [level=2] [ref=f68e58]
+          - paragraph [ref=f68e59]: Mặt tiền kính lớn, cửa tự động và hệ vách ngăn thông minh cho không gian thương mại, văn phòng hiện đại.
+          - paragraph [ref=f68e60]: Eurowindow đồng hành từ khâu khảo sát, tư vấn giải pháp đến sản xuất và thi công lắp đặt — đảm bảo mỗi hạng mục đạt chuẩn chất lượng và đúng tiến độ. Hệ sản phẩm được kiểm soát theo tiêu chuẩn châu Âu, đáp ứng tốt yêu cầu cách âm, cách nhiệt, an toàn và thẩm mỹ của từng công trình.
+          - link "Liên hệ tư vấn" [ref=f68e61] [cursor=pointer]:
+            - /url: "#lien-he"
+      - generic [ref=f68e65]:
+        - heading "Dự án liên quan" [level=2] [ref=f68e67]
+        - generic [ref=f68e68]:
+          - link [ref=f68e69] [cursor=pointer]:
+            - /url: /du-an/cang-hang-khong-phu-bai-hue
+            - img "Cảng hàng không Phú Bài Huế" [ref=f68e71]
+            - generic [ref=f68e72]:
+              - heading "Cảng hàng không Phú Bài Huế" [level=3] [ref=f68e73]
+              - paragraph [ref=f68e74]: Huế
+          - link [ref=f68e78] [cursor=pointer]:
+            - /url: /du-an/benh-vien-viet-phap
+            - img "Bệnh viện Việt Pháp" [ref=f68e80]
+            - generic [ref=f68e81]:
+              - heading "Bệnh viện Việt Pháp" [level=3] [ref=f68e82]
+              - paragraph [ref=f68e83]: Hà Nội
+          - link [ref=f68e87] [cursor=pointer]:
+            - /url: /du-an/benh-vien-ung-buou-da-nang
+            - img "Bệnh viện ung bướu Đà Nẵng" [ref=f68e89]
+            - generic [ref=f68e90]:
+              - heading "Bệnh viện ung bướu Đà Nẵng" [level=3] [ref=f68e91]
+              - paragraph [ref=f68e92]: Đà Nẵng
+    - contentinfo [ref=f68e96]:
+      - generic [ref=f68e97]:
+        - generic [ref=f68e98]:
+          - link "Eurowindow" [ref=f68e99] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f68e100]
+          - paragraph [ref=f68e101]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f68e102]:
+          - heading "Liên hệ" [level=2] [ref=f68e103]
+          - generic [ref=f68e104]:
+            - paragraph [ref=f68e105]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f68e106]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f68e107]: infoew@eurowindow.biz
+        - generic [ref=f68e108]:
+          - heading "Khám phá" [level=2] [ref=f68e109]
+          - generic [ref=f68e110]:
+            - link "Giới thiệu" [ref=f68e111] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f68e112] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f68e113] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f68e114] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f68e115]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f68e121] [cursor=pointer]

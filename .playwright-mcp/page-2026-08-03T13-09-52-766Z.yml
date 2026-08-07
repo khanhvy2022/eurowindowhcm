@@ -1,0 +1,193 @@
+- generic [ref=f29e2]:
+  - banner [ref=f29e3]:
+    - generic [ref=f29e5]:
+      - generic [ref=f29e6]:
+        - list [ref=f29e7]:
+          - listitem [ref=f29e8]: VN
+          - listitem [ref=f29e9]: ENG
+        - generic [ref=f29e11]:
+          - textbox "Tìm kiếm..." [ref=f29e12]
+          - button "Tìm kiếm" [ref=f29e13] [cursor=pointer]
+      - link [ref=f29e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=f29e18]
+      - link "Nhận tư vấn" [ref=f29e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f29e24]:
+      - listitem [ref=f29e25]:
+        - link "GIỚI THIỆU" [ref=f29e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f29e27]:
+        - link "SẢN PHẨM" [ref=f29e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f29e31]:
+        - link "SHOWROOM" [ref=f29e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f29e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f29e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f29e37]:
+        - link "TÀI LIỆU" [ref=f29e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f29e39]:
+        - link "TIN TỨC" [ref=f29e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f29e43]:
+        - link "CHÍNH SÁCH" [ref=f29e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f29e47]:
+        - link "LIÊN HỆ" [ref=f29e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f29e49]:
+    - generic [ref=f29e52]:
+      - heading "CẢNG HÀNG KHÔNG PHÚ BÀI HUẾ" [level=1] [ref=f29e54]
+      - list [ref=f29e56]:
+        - listitem [ref=f29e57]:
+          - link "Trang chủ" [ref=f29e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=f29e59]:
+          - link "CÔNG TRÌNH CẤP QUỐC GIA" [ref=f29e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+          - text: /
+        - listitem [ref=f29e61]:
+          - link "CẢNG HÀNG KHÔNG PHÚ BÀI HUẾ" [ref=f29e62] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cang-hang-khong-phu-bai-hue.html
+    - generic [ref=f29e64]:
+      - generic [ref=f29e65]:
+        - img "viber-image-2025-02-05-13-33-24-065" [ref=f29e67]
+        - generic [ref=f29e68]:
+          - link [ref=f29e70] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+            - heading "CÔNG TRÌNH CẤP QUỐC GIA" [level=2] [ref=f29e71]
+          - paragraph [ref=f29e73]: CẢNG HÀNG KHÔNG PHÚ BÀI HUẾ
+      - generic [ref=f29e74]:
+        - img "callcenter-1" [ref=f29e76]
+        - generic [ref=f29e77]:
+          - paragraph [ref=f29e78]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+          - generic [ref=f29e79]:
+            - generic [ref=f29e80]:
+              - textbox "Họ và tên *" [ref=f29e82]
+              - textbox "Số điện thoại *" [ref=f29e84]
+              - textbox "Email *" [ref=f29e86]
+            - textbox "Lời nhắn tới Eurowindow" [ref=f29e88]
+            - button "Gửi" [ref=f29e90] [cursor=pointer]
+  - contentinfo [ref=f29e91]:
+    - generic [ref=f29e93]:
+      - generic [ref=f29e94]:
+        - link [ref=f29e96] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f29e97]
+        - generic [ref=f29e98]:
+          - link "Facebook" [ref=f29e99] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f29e100]
+          - link "Instagram" [ref=f29e101] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f29e102]
+          - link "Youtube" [ref=f29e103] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f29e104]
+          - link "Zalo" [ref=f29e105] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f29e106]
+          - link "Tiktok" [ref=f29e107] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f29e111] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f29e115] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f29e119]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f29e122] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f29e123]:
+          - link [ref=f29e124] [cursor=pointer]:
+            - /url: javascript:;
+            - img "BCT" [ref=f29e125]
+          - link [ref=f29e126] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f29e127]
+      - generic [ref=f29e128]:
+        - generic [ref=f29e129]: Giới thiệu
+        - list [ref=f29e130]:
+          - listitem [ref=f29e131]:
+            - link "Giới thiệu" [ref=f29e132] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f29e133]:
+            - link "Tầm nhìn sứ mệnh" [ref=f29e134] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f29e135]:
+            - link "Giải thưởng" [ref=f29e136] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f29e137]:
+            - link "Tài liệu" [ref=f29e138] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f29e139]:
+        - generic [ref=f29e140]: Sản phẩm
+        - list [ref=f29e141]:
+          - listitem [ref=f29e142]:
+            - link "Cửa - Vách nhôm" [ref=f29e143] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f29e144]:
+            - link "Cửa uPVC" [ref=f29e145] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f29e146]:
+            - link "Cửa gỗ" [ref=f29e147] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f29e148]:
+            - link "Cửa cuốn" [ref=f29e149] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f29e150]:
+            - link "Cửa thông minh" [ref=f29e151] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f29e152]:
+        - generic [ref=f29e153]: Tin tức
+        - list [ref=f29e154]:
+          - listitem [ref=f29e155]:
+            - link "Tin tức sự kiện" [ref=f29e156] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f29e157]:
+            - link "Tin dự án" [ref=f29e158] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f29e159]:
+            - link "Tin nội bộ" [ref=f29e160] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f29e161]:
+            - link "Tin khuyến mãi" [ref=f29e162] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f29e163]:
+            - link "Tư vấn" [ref=f29e164] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f29e165]:
+        - generic [ref=f29e166]: Chăm sóc khách hàng
+        - list [ref=f29e167]:
+          - listitem [ref=f29e168]:
+            - link "Chính sách bảo hành" [ref=f29e169] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f29e170]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f29e171] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f29e172]:
+            - link "(84 - 24) 37 47 47 00" [ref=f29e173] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f29e176]:
+            - link "cskhhn@eurowindow.biz" [ref=f29e177] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f29e180]: Dự án quốc tế và xuất khẩu
+          - list [ref=f29e181]:
+            - listitem [ref=f29e182]:
+              - link "+84 -903 41 55 52" [ref=f29e183] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f29e186]:
+              - link "export@eurowindow.biz" [ref=f29e187] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f29e192]:
+      - generic [ref=f29e193]:
+        - paragraph
+        - paragraph
+      - generic [ref=f29e194]:
+        - paragraph
+        - paragraph [ref=f29e195]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f29e201] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f29e202]

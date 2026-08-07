@@ -1,0 +1,280 @@
+- generic [ref=f14e2]:
+  - banner [ref=f14e3]:
+    - generic [ref=f14e5]:
+      - generic [ref=f14e6]:
+        - list [ref=f14e7]:
+          - listitem [ref=f14e8]: VN
+          - listitem [ref=f14e9]: ENG
+        - generic [ref=f14e11]:
+          - textbox "Tìm kiếm" [ref=f14e12]:
+            - /placeholder: Tìm kiếm...
+          - button "Tìm kiếm" [ref=f14e13] [cursor=pointer]
+      - link [ref=f14e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=f14e18]
+      - link "Nhận tư vấn" [ref=f14e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f14e24]:
+      - listitem [ref=f14e25]:
+        - link "GIỚI THIỆU" [ref=f14e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f14e27]:
+        - link "SẢN PHẨM" [ref=f14e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f14e31]:
+        - link "SHOWROOM" [ref=f14e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f14e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f14e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f14e37]:
+        - link "TÀI LIỆU" [ref=f14e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f14e39]:
+        - link "TIN TỨC" [ref=f14e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f14e43]:
+        - link "CHÍNH SÁCH" [ref=f14e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f14e47]:
+        - link "LIÊN HỆ" [ref=f14e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f14e49]:
+    - generic [ref=f14e52]:
+      - heading "CỬA GỖ" [level=1] [ref=f14e54]
+      - list [ref=f14e56]:
+        - listitem [ref=f14e57]:
+          - link "Trang chủ" [ref=f14e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=f14e59]:
+          - link "CỬA GỖ" [ref=f14e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cua-go
+    - generic [ref=f14e63]:
+      - generic [ref=f14e64]:
+        - list [ref=f14e66]:
+          - listitem [ref=f14e67]:
+            - combobox [ref=f14e68] [cursor=pointer]
+            - combobox [ref=f14e71] [cursor=pointer]:
+              - textbox "Hệ/Loại sản phẩm" [ref=f14e72]
+          - listitem [ref=f14e73]:
+            - generic [ref=f14e74]:
+              - textbox "Tìm kiếm" [ref=f14e75]:
+                - /placeholder: Tìm kiếm...
+              - button "Tìm kiếm" [ref=f14e76] [cursor=pointer]
+        - generic [ref=f14e81]:
+          - paragraph [ref=f14e83]
+          - paragraph [ref=f14e84]
+        - generic [ref=f14e87]:
+          - generic [ref=f14e88]:
+            - link [ref=f14e90] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-tu-nhien.html
+              - img "untitled-1-13" [ref=f14e92]
+            - link [ref=f14e94] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-tu-nhien.html
+              - heading "CỬA GỖ TỰ NHIÊN" [level=2] [ref=f14e95]
+          - generic [ref=f14e96]:
+            - link [ref=f14e98] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-cong-nghiep.html
+              - img "untitled-2-15" [ref=f14e100]
+            - link [ref=f14e102] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-cong-nghiep.html
+              - heading "CỬA GỖ CÔNG NGHIỆP" [level=2] [ref=f14e103]
+          - generic [ref=f14e104]:
+            - link [ref=f14e106] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-ghep-thanh.html
+              - img "untitled-2-14" [ref=f14e108]
+            - link [ref=f14e110] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-ghep-thanh.html
+              - heading "CỬA GỖ GHÉP THANH" [level=2] [ref=f14e111]
+          - generic [ref=f14e112]:
+            - link [ref=f14e114] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-chong-chay.html
+              - img "untitled-1-14" [ref=f14e116]
+            - link [ref=f14e118] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-chong-chay.html
+              - heading "CỬA GỖ CHỐNG CHÁY" [level=2] [ref=f14e119]
+          - generic [ref=f14e120]:
+            - link [ref=f14e122] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-composite.html
+              - img "untitled-1-11" [ref=f14e124]
+            - link [ref=f14e126] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go/cua-go-composite.html
+              - heading "CỬA GỖ COMPOSITE" [level=2] [ref=f14e127]
+        - generic [ref=f14e128]:
+          - generic [ref=f14e129]:
+            - generic [ref=f14e130]: Áp dụng công nghệ sản xuất hiện đại từ Ý, Tây Ban Nha, Nga, các sản phẩm cửa gỗ Eurowindow vừa giữ được tính năng của gỗ tự nhiên, vừa có độ cứng và độ bền cao, hạn chế tối đa sự biến đổi theo thời tiết như cong vênh, co ngót.
+            - paragraph [ref=f14e131]: Nếu như sản phẩm cửa uPVC được chọn là giải pháp hoàn hảo cho mặt ngoài của ngôi nhà (cửa sổ và cửa ban công) thì sản phẩm cửa gỗ được xem như một giải pháp tối ưu bên trong (cửa thông phòng), phù hợp với nội thất trong nhà.
+            - paragraph [ref=f14e132]: "Trước đây người ta thường chọn các loại gỗ Đinh, Lim, Sến, Táu, Nghiến hay Lát Hoa để làm cửa nhằm tận dụng các đặc tính tốt như: cứng, chắc, khả năng chịu nén, kháng mối mọt cao và vân gỗ đẹp. Mặc dù đây là những loại gỗ quý hiếm nhưng khi dùng gỗ nguyên tấm có kích thước lớn thì cửa vẫn có sự co ngớt nhất định hoặc đôi khi bị nứt do thay đổi độ ẩm và nhiệt độ."
+            - paragraph [ref=f14e133]: "Với nhà máy sản xuất cửa gỗ được đầu tư xây dựng hiện đại, đồng bộ tại KCN Quang Minh, Mê Linh – Hà Nội và KCN Tân Uyên – Bình Dương, cùng quá trình nghiên cứu của Eurowindow và sự chuyên giao công nghệ bởi các nhà sản xuất lâu đời, nổi tiếng có nhiều năm kinh nghiệm từ Ý, Tây Ban Nha, Nga cho phép sản phẩm cửa gỗ Eurowindow vừa giữ được những tính năng của cửa làm từ các vật liệu gỗ tự nhiên, vừa có nhiều tính năng ưu việt như: ổn định, kít khít, đóng mở êm, thẩm mỹ cao, thời gian thi công nhanh."
+            - paragraph [ref=f14e134]: Sản phẩm cửa gỗ Eurowndow không chỉ có mẫu mã đa dạng và được thiết kế theo nhiều phong cách khác nhau từ cổ điển, bán cổ điển, hiện đại đến hi-tech mà còn đạt tiêu chuẩn TCVN9366-1:2021 về độ bền áp lực gió, độ kín nước và độ bền chịu va đập.
+            - paragraph [ref=f14e135]:
+              - strong [ref=f14e136]: TÍNH ƯU VIỆT CỦA SẢN PHẨM CỬA GỖ
+            - list [ref=f14e137]:
+              - listitem [ref=f14e138]:
+                - generic [ref=f14e139]:
+                  - strong [ref=f14e140]: Tính ổn định
+                  - text: ": Nguyên liệu đầu vào được xử lý, tẩm sấy theo tiêu chuẩn độ ẩm xuất khẩu (12-14%), gỗ rừng trồng ghép thanh được xử lý theo công nghệ biến tính gỗ nên cửa gỗ Eurowindow có độ cứng và độ bền cao, hạn chế được sự biến đổi của gỗ theo thời tiết như cong vênh, co ngót."
+              - listitem [ref=f14e141]:
+                - generic [ref=f14e142]:
+                  - strong [ref=f14e143]: Đóng mở êm, kín khít, khả năng cách âm, cách nhiệt cao
+                  - text: ": Sản phẩm cửa gỗ Eurowindow có sử dụng hệ thống gioăng chuyên dụng được nhập khẩu từ châu Âu giúp cửa đóng mở êm, kín khít, tăng khả năng cách âm, cách nhiệt."
+              - listitem [ref=f14e144]:
+                - generic [ref=f14e145]:
+                  - strong [ref=f14e146]: Tính thẩm mỹ
+                  - text: ": Lựa chọn gỗ trước khi đưa vào sản xuất và hệ thống phun sơn tự động cho phép cửa gỗ Eurowindow có độ phẳng về bề mặt, đồng đều về màu sắc, tính thẩm mỹ cao và tăng độ bền của sản phẩm."
+              - listitem [ref=f14e147]:
+                - generic [ref=f14e148]:
+                  - strong [ref=f14e149]: Thời gian thi công nhanh
+                  - text: ": Toàn bộ sản phẩm khuôn, cửa gỗ Eurowindow được thiết kế phù hợp cho việc lắp dựng công nghiệp ở giai đoạn cuối hoàn thiện của các công trình, từ đó có thể đẩy nhanh tiến độ lắp dựng nên tiết kiệm tối đa thời gian thi công."
+              - listitem [ref=f14e150]:
+                - generic [ref=f14e151]:
+                  - strong [ref=f14e152]: Hiệu quả kinh tế cao
+                  - text: ": cửa Eurowindow có độ bền cao, khả năng cách âm, cách nhiệt tốt nên đem lại hiệu quả kinh tế cho người sử dụng."
+            - paragraph [ref=f14e153]: "Cửa gỗ Eurowindow thiết kế đa dạng về kiểu dáng, mẫu mã như: pano kính, pano đặc, với các đường chỉ nổi, chỉ liền… đáp ứng được hầu hết các nhu cầu về cửa đi chính, cửa thông phòng cho các công trình xây dựng."
+          - link "Xem thêm" [ref=f14e154] [cursor=pointer]:
+            - /url: javascript:;
+        - generic [ref=f14e157]:
+          - img "callcenter-1" [ref=f14e159]
+          - generic [ref=f14e160]:
+            - paragraph [ref=f14e161]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+            - generic [ref=f14e162]:
+              - generic [ref=f14e163]:
+                - textbox "Họ và tên" [ref=f14e165]:
+                  - /placeholder: Họ và tên *
+                - textbox "Số điện thoại" [ref=f14e167]:
+                  - /placeholder: Số điện thoại *
+                - textbox "Email" [ref=f14e169]:
+                  - /placeholder: Email *
+              - textbox "Lời nhắn tới Eurowindow" [ref=f14e171]
+              - button "Gửi" [ref=f14e173] [cursor=pointer]
+      - generic [ref=f14e177]:
+        - generic [ref=f14e178]:
+          - img "logo-ngang-xanh-13" [ref=f14e180]
+          - paragraph [ref=f14e182]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+        - generic [ref=f14e184]:
+          - generic [ref=f14e185]:
+            - textbox "Họ và tên *" [ref=f14e187]
+            - textbox "Số điện thoại *" [ref=f14e189]
+            - textbox "Email *" [ref=f14e191]
+          - textbox "Lời nhắn tới Eurowindow" [ref=f14e193]
+          - button "Gửi" [ref=f14e195] [cursor=pointer]
+  - contentinfo [ref=f14e196]:
+    - generic [ref=f14e198]:
+      - generic [ref=f14e199]:
+        - link [ref=f14e201] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f14e202]
+        - generic [ref=f14e203]:
+          - link "Facebook" [ref=f14e204] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f14e205]
+          - link "Instagram" [ref=f14e206] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f14e207]
+          - link "Youtube" [ref=f14e208] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f14e209]
+          - link "Zalo" [ref=f14e210] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f14e211]
+          - link "Tiktok" [ref=f14e212] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f14e216] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f14e220] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f14e224]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f14e227] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f14e228]:
+          - link "Bộ Công Thương" [ref=f14e229] [cursor=pointer]:
+            - /url: javascript:;
+            - img "Bộ Công Thương" [ref=f14e230]
+          - link "DMCA Protection Status" [ref=f14e231] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f14e232]
+      - generic [ref=f14e233]:
+        - generic [ref=f14e234]: Giới thiệu
+        - list [ref=f14e235]:
+          - listitem [ref=f14e236]:
+            - link "Giới thiệu" [ref=f14e237] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f14e238]:
+            - link "Tầm nhìn sứ mệnh" [ref=f14e239] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f14e240]:
+            - link "Giải thưởng" [ref=f14e241] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f14e242]:
+            - link "Tài liệu" [ref=f14e243] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f14e244]:
+        - generic [ref=f14e245]: Sản phẩm
+        - list [ref=f14e246]:
+          - listitem [ref=f14e247]:
+            - link "Cửa - Vách nhôm" [ref=f14e248] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f14e249]:
+            - link "Cửa uPVC" [ref=f14e250] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f14e251]:
+            - link "Cửa gỗ" [ref=f14e252] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f14e253]:
+            - link "Cửa cuốn" [ref=f14e254] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f14e255]:
+            - link "Cửa thông minh" [ref=f14e256] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f14e257]:
+        - generic [ref=f14e258]: Tin tức
+        - list [ref=f14e259]:
+          - listitem [ref=f14e260]:
+            - link "Tin tức sự kiện" [ref=f14e261] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f14e262]:
+            - link "Tin dự án" [ref=f14e263] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f14e264]:
+            - link "Tin nội bộ" [ref=f14e265] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f14e266]:
+            - link "Tin khuyến mãi" [ref=f14e267] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f14e268]:
+            - link "Tư vấn" [ref=f14e269] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f14e270]:
+        - generic [ref=f14e271]: Chăm sóc khách hàng
+        - list [ref=f14e272]:
+          - listitem [ref=f14e273]:
+            - link "Chính sách bảo hành" [ref=f14e274] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f14e275]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f14e276] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f14e277]:
+            - link "(84 - 24) 37 47 47 00" [ref=f14e278] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f14e281]:
+            - link "cskhhn@eurowindow.biz" [ref=f14e282] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f14e285]: Dự án quốc tế và xuất khẩu
+          - list [ref=f14e286]:
+            - listitem [ref=f14e287]:
+              - link "+84 -903 41 55 52" [ref=f14e288] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f14e291]:
+              - link "export@eurowindow.biz" [ref=f14e292] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f14e297]:
+      - generic [ref=f14e298]:
+        - paragraph
+        - paragraph
+      - generic [ref=f14e299]:
+        - paragraph
+        - paragraph [ref=f14e300]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f14e306] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f14e307]

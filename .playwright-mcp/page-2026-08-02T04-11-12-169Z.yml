@@ -1,0 +1,80 @@
+- generic [active] [ref=f53e1]:
+  - generic [ref=f53e2]:
+    - banner [ref=f53e3]:
+      - generic [ref=f53e4]:
+        - link "Eurowindow" [ref=f53e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f53e6]
+        - button "Open menu" [ref=f53e7]
+    - main [ref=f53e9]:
+      - generic [ref=f53e11]:
+        - navigation "Breadcrumb" [ref=f53e12]:
+          - link "Home" [ref=f53e13] [cursor=pointer]:
+            - /url: /en
+          - link "News" [ref=f53e16] [cursor=pointer]:
+            - /url: /en/news
+          - generic [ref=f53e19]: Activities
+        - paragraph [ref=f53e20]: Activities · 25/07/2026
+        - heading "Eurowindow hosted a successful talk on human-resource trends and management strategy in the new era" [level=1] [ref=f53e21]
+        - paragraph [ref=f53e22]: The talk gathered speakers, experts and leaders to share human-resource trends along with development and management strategies in a new economic context.
+      - img "Eurowindow hosted a successful talk on human-resource trends and management strategy in the new era" [ref=f53e26]
+      - generic [ref=f53e28]:
+        - group [ref=f53e29]:
+          - generic "Table of contents" [ref=f53e30] [cursor=pointer]
+        - generic [ref=f53e33]:
+          - generic [ref=f53e34]:
+            - heading "A deep-dive talk on HR strategy" [level=2] [ref=f53e35]
+            - generic [ref=f53e36]:
+              - paragraph [ref=f53e37]: Eurowindow recently hosted the talk “Human-resource trends – Development and management strategy in the new era”. The event brought together leaders, HR experts and management teams across levels to discuss challenges and opportunities in attracting, retaining and developing talent.
+              - paragraph [ref=f53e38]: At the talk, speakers shared an overview of the labour market, talent-shift trends and the role of corporate culture in building a sustainable working environment.
+          - generic [ref=f53e39]:
+            - heading "People are the foundation of growth" [level=2] [ref=f53e40]
+            - generic [ref=f53e41]:
+              - paragraph [ref=f53e42]: With more than 20 years of development, Eurowindow has always identified its people as its most precious asset. Training programmes, career paths and welfare policies are continuously improved to accompany the growth of every individual.
+              - paragraph [ref=f53e43]: Through the talk, Eurowindow aims to build a strong team ready to create sustainable value for customers and the community.
+        - link "Back to news" [ref=f53e45] [cursor=pointer]:
+          - /url: /en/news
+      - generic [ref=f53e49]:
+        - heading "Related articles" [level=2] [ref=f53e51]
+        - generic [ref=f53e52]:
+          - link "Projects · 18/07/2026 Eurowindow supplies and installs doors and glass partitions at Vinhomes Global Gate Co Loa Read more" [ref=f53e53] [cursor=pointer]:
+            - /url: /en/news/cua-vach-kinh-vinhomes-global-gate
+            - paragraph [ref=f53e55]: Projects · 18/07/2026
+            - heading "Eurowindow supplies and installs doors and glass partitions at Vinhomes Global Gate Co Loa" [level=3] [ref=f53e56]
+            - generic [ref=f53e57]: Read more
+          - link "Knowledge sharing · 10/07/2026 Eurowindow heat-proof door solutions for summer 2026 Read more" [ref=f53e60] [cursor=pointer]:
+            - /url: /en/news/giai-phap-cua-chong-nong-mua-he-2026
+            - paragraph [ref=f53e62]: Knowledge sharing · 10/07/2026
+            - heading "Eurowindow heat-proof door solutions for summer 2026" [level=3] [ref=f53e63]
+            - generic [ref=f53e64]: Read more
+          - link "Knowledge sharing · 05/07/2026 Which door should you choose for hot summer weather? Read more" [ref=f53e67] [cursor=pointer]:
+            - /url: /en/news/nen-chon-cua-gi-cho-mua-he-nang-nong
+            - paragraph [ref=f53e69]: Knowledge sharing · 05/07/2026
+            - heading "Which door should you choose for hot summer weather?" [level=3] [ref=f53e70]
+            - generic [ref=f53e71]: Read more
+    - contentinfo [ref=f53e74]:
+      - generic [ref=f53e75]:
+        - generic [ref=f53e76]:
+          - link "Eurowindow" [ref=f53e77] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f53e78]
+          - paragraph [ref=f53e79]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f53e80]:
+          - heading "Contact" [level=2] [ref=f53e81]
+          - generic [ref=f53e82]:
+            - paragraph [ref=f53e83]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f53e84]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f53e85]: infoew@eurowindow.biz
+        - generic [ref=f53e86]:
+          - heading "Explore" [level=2] [ref=f53e87]
+          - generic [ref=f53e88]:
+            - link "About us" [ref=f53e89] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f53e90] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f53e91] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f53e92] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f53e93]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f53e99] [cursor=pointer]

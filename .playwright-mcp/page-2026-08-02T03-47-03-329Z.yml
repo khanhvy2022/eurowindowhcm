@@ -1,0 +1,141 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - banner [ref=f10e3]:
+      - generic [ref=f10e4]:
+        - link "Eurowindow" [ref=f10e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f10e6]
+        - button "Mở menu" [ref=f10e7]
+    - main [ref=f10e9]:
+      - generic [ref=f10e11]:
+        - heading "TIN TỨC" [level=1] [ref=f10e12]
+        - navigation "Breadcrumb" [ref=f10e13]:
+          - link "Trang chủ" [ref=f10e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f10e17]: Tin tức
+      - generic [ref=f10e19]:
+        - generic [ref=f10e20]:
+          - heading "Tin mới nhất" [level=2] [ref=f10e21]
+          - link "Xem tất cả" [ref=f10e22] [cursor=pointer]:
+            - /url: /danh-muc-tin-tuc
+        - generic [ref=f10e25]:
+          - link "Hoạt động · 25/07/2026 Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới” Đọc thêm" [ref=f10e26] [cursor=pointer]:
+            - /url: /tin-tuc/toa-dam-xu-huong-nguon-nhan-luc
+            - paragraph [ref=f10e28]: Hoạt động · 25/07/2026
+            - heading "Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”" [level=3] [ref=f10e29]
+            - generic [ref=f10e30]: Đọc thêm
+          - link "Dự án · 18/07/2026 Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa Đọc thêm" [ref=f10e33] [cursor=pointer]:
+            - /url: /tin-tuc/cua-vach-kinh-vinhomes-global-gate
+            - paragraph [ref=f10e35]: Dự án · 18/07/2026
+            - heading "Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa" [level=3] [ref=f10e36]
+            - generic [ref=f10e37]: Đọc thêm
+          - link "Chia sẻ kiến thức · 10/07/2026 Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026 Đọc thêm" [ref=f10e40] [cursor=pointer]:
+            - /url: /tin-tuc/giai-phap-cua-chong-nong-mua-he-2026
+            - paragraph [ref=f10e42]: Chia sẻ kiến thức · 10/07/2026
+            - heading "Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026" [level=3] [ref=f10e43]
+            - generic [ref=f10e44]: Đọc thêm
+          - link "Chia sẻ kiến thức · 05/07/2026 Nên chọn cửa gì cho mùa hè nắng nóng? Đọc thêm" [ref=f10e47] [cursor=pointer]:
+            - /url: /tin-tuc/nen-chon-cua-gi-cho-mua-he-nang-nong
+            - paragraph [ref=f10e49]: Chia sẻ kiến thức · 05/07/2026
+            - heading "Nên chọn cửa gì cho mùa hè nắng nóng?" [level=3] [ref=f10e50]
+            - generic [ref=f10e51]: Đọc thêm
+      - generic [ref=f10e55]:
+        - generic [ref=f10e56]:
+          - heading "Ưu đãi" [level=2] [ref=f10e57]
+          - link "Xem tất cả" [ref=f10e58] [cursor=pointer]:
+            - /url: /uu-dai
+        - generic [ref=f10e61]:
+          - link [ref=f10e62] [cursor=pointer]:
+            - /url: /tin-tuc/khuyen-mai-kinh-dien
+            - paragraph [ref=f10e63]: Ưu đãi · 01/08/2026
+            - heading "KHUYẾN MÃI KÍNH ĐIỆN – SỞ HỮU CÔNG NGHỆ ĐỔI MÀU" [level=3] [ref=f10e64]
+            - generic [ref=f10e65]: Đọc thêm
+          - link [ref=f10e68] [cursor=pointer]:
+            - /url: /tin-tuc/uu-dai-cua-upvc
+            - paragraph [ref=f10e69]: Ưu đãi · 07/2026
+            - heading "ƯU ĐÃI CỬA uPVC TIẾT KIỆM NĂNG LƯỢNG" [level=3] [ref=f10e70]
+            - generic [ref=f10e71]: Đọc thêm
+          - link [ref=f10e74] [cursor=pointer]:
+            - /url: /tin-tuc/uu-dai-cua-nhom-kinh
+            - paragraph [ref=f10e75]: Ưu đãi · 07/2026
+            - heading "ƯU ĐÃI HỆ CỬA NHÔM KÍNH EA55–EA95i" [level=3] [ref=f10e76]
+            - generic [ref=f10e77]: Đọc thêm
+      - generic [ref=f10e81]:
+        - generic [ref=f10e82]:
+          - heading "Báo chí nói gì về Eurowindow" [level=2] [ref=f10e83]
+          - link "Xem tất cả" [ref=f10e84] [cursor=pointer]:
+            - /url: /bao-chi-noi-gi-ve-eurowindow
+        - generic [ref=f10e87]:
+          - link [ref=f10e88] [cursor=pointer]:
+            - /url: /tin-tuc/thuong-hieu-quoc-gia
+            - paragraph [ref=f10e89]: Báo chí nói về Eurowindow · 2025
+            - heading "Eurowindow 14 năm liên tiếp đạt Thương hiệu Quốc gia Việt Nam" [level=3] [ref=f10e90]
+            - generic [ref=f10e91]: Đọc thêm
+          - link [ref=f10e94] [cursor=pointer]:
+            - /url: /tin-tuc/top-10-doanh-nghiep-xanh
+            - paragraph [ref=f10e95]: Báo chí nói về Eurowindow · 2026
+            - heading "Eurowindow vào Top 10 doanh nghiệp xanh Việt Nam 2026" [level=3] [ref=f10e96]
+            - generic [ref=f10e97]: Đọc thêm
+          - link [ref=f10e100] [cursor=pointer]:
+            - /url: /tin-tuc/hang-viet-nam-chat-luong-cao
+            - paragraph [ref=f10e101]: Báo chí nói về Eurowindow · 2024
+            - heading "Hàng Việt Nam chất lượng cao – Eurowindow ghi dấu ấn" [level=3] [ref=f10e102]
+            - generic [ref=f10e103]: Đọc thêm
+      - generic [ref=f10e107]:
+        - generic [ref=f10e108]:
+          - heading "Văn hóa Eurowindow" [level=2] [ref=f10e109]
+          - link "Xem tất cả" [ref=f10e110] [cursor=pointer]:
+            - /url: /van-hoa-eurowindow
+        - generic [ref=f10e113]:
+          - link [ref=f10e114] [cursor=pointer]:
+            - /url: /tin-tuc/sinh-nhat-eurowindow
+            - paragraph [ref=f10e115]: Văn hóa · 2026
+            - heading "CHÀO MỪNG SINH NHẬT EUROWINDOW – HÀNH TRÌNH 20+ NĂM TIÊN PHONG" [level=3] [ref=f10e116]
+            - generic [ref=f10e117]: Đọc thêm
+          - link [ref=f10e120] [cursor=pointer]:
+            - /url: /tin-tuc/giai-bong-da-noi-bo
+            - paragraph [ref=f10e121]: Văn hóa · 2025
+            - heading "GIẢI BÓNG ĐÁ NỘI BỘ – GẮN KẾT ĐỘI NGŨ" [level=3] [ref=f10e122]
+            - generic [ref=f10e123]: Đọc thêm
+      - generic [ref=f10e127]:
+        - generic [ref=f10e128]:
+          - heading "Chia sẻ kiến thức" [level=2] [ref=f10e129]
+          - link "Xem tất cả" [ref=f10e130] [cursor=pointer]:
+            - /url: /chia-se-kien-thuc
+        - generic [ref=f10e133]:
+          - link [ref=f10e134] [cursor=pointer]:
+            - /url: /tin-tuc/giai-phap-cua-chong-nong-mua-he-2026
+            - paragraph [ref=f10e135]: Chia sẻ kiến thức · 10/07/2026
+            - heading "Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026" [level=3] [ref=f10e136]
+            - generic [ref=f10e137]: Đọc thêm
+          - link [ref=f10e140] [cursor=pointer]:
+            - /url: /tin-tuc/nen-chon-cua-gi-cho-mua-he-nang-nong
+            - paragraph [ref=f10e141]: Chia sẻ kiến thức · 05/07/2026
+            - heading "Nên chọn cửa gì cho mùa hè nắng nóng?" [level=3] [ref=f10e142]
+            - generic [ref=f10e143]: Đọc thêm
+    - contentinfo [ref=f10e146]:
+      - generic [ref=f10e147]:
+        - generic [ref=f10e148]:
+          - link "Eurowindow" [ref=f10e149] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f10e150]
+          - paragraph [ref=f10e151]: Eurowindow cung cấp giải pháp tổng thể về cửa, vách nhôm kính và vật liệu hoàn thiện cho các công trình hiện đại.
+        - generic [ref=f10e152]:
+          - heading "Liên hệ" [level=2] [ref=f10e153]
+          - generic [ref=f10e154]:
+            - paragraph [ref=f10e155]: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội
+            - paragraph [ref=f10e156]: "Hotline: (84 - 24) 37 47 47 00"
+            - paragraph [ref=f10e157]: infoew@eurowindow.biz
+        - generic [ref=f10e158]:
+          - heading "Khám phá" [level=2] [ref=f10e159]
+          - generic [ref=f10e160]:
+            - link "Giới thiệu" [ref=f10e161] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Dự án" [ref=f10e162] [cursor=pointer]:
+              - /url: /du-an
+            - link "Dịch vụ" [ref=f10e163] [cursor=pointer]:
+              - /url: /thiet-ke-kien-truc
+            - link "Tin tức" [ref=f10e164] [cursor=pointer]:
+              - /url: /tin-tuc
+      - generic [ref=f10e165]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f10e171] [cursor=pointer]

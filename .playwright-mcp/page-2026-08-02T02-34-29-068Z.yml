@@ -1,0 +1,125 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e2]:
+    - banner [ref=f20e3]:
+      - generic [ref=f20e4]:
+        - link "Eurowindow" [ref=f20e5] [cursor=pointer]:
+          - /url: /
+          - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f20e6]
+        - navigation "Main navigation" [ref=f20e7]:
+          - link "Home" [ref=f20e8] [cursor=pointer]:
+            - /url: /en
+          - link "About us" [ref=f20e10] [cursor=pointer]:
+            - /url: /en/about
+          - link "Projects" [ref=f20e14] [cursor=pointer]:
+            - /url: /en/projects
+          - link "Services" [ref=f20e18] [cursor=pointer]:
+            - /url: /en/services
+          - link "News" [ref=f20e22] [cursor=pointer]:
+            - /url: /en/news
+          - generic "Language selector" [ref=f20e23]:
+            - link [ref=f20e24] [cursor=pointer]:
+              - /url: /
+              - img "Tiếng Việt" [ref=f20e25]
+            - link [ref=f20e26] [cursor=pointer]:
+              - /url: /en
+              - img "English" [ref=f20e27]
+        - link "Contact now" [ref=f20e29] [cursor=pointer]:
+          - /url: "#lien-he"
+    - main [ref=f20e30]:
+      - generic [ref=f20e32]:
+        - navigation "Breadcrumb" [ref=f20e33]:
+          - link "Home" [ref=f20e34] [cursor=pointer]:
+            - /url: /en
+          - link "News" [ref=f20e37] [cursor=pointer]:
+            - /url: /en/news
+          - generic [ref=f20e40]: Knowledge sharing
+        - paragraph [ref=f20e41]: Knowledge sharing · 28/07/2026
+        - heading "35+ Beautiful 2-Storey House Designs, 2026 Trends" [level=1] [ref=f20e42]
+        - paragraph [ref=f20e43]: The 2-storey house is a favourite of many young families thanks to optimised functionality, reasonable cost and suitability for common land plots across Vietnam.
+      - img "35+ Beautiful 2-Storey House Designs, 2026 Trends" [ref=f20e47]
+      - generic [ref=f20e49]:
+        - group [ref=f20e50]:
+          - generic "Table of contents" [ref=f20e51] [cursor=pointer]
+        - generic [ref=f20e54]:
+          - generic [ref=f20e55]:
+            - heading "What is a 2-storey house?" [level=2] [ref=f20e56]
+            - generic [ref=f20e57]:
+              - paragraph [ref=f20e58]: A 2-storey house consists of a ground floor and an upper floor. It is a popular solution for families of 3–5 members, maximising living space on a limited land plot.
+              - paragraph [ref=f20e59]: The ground floor usually hosts the living room, kitchen and dining area, plus a bedroom if needed. The upper floor is the rest zone with bedrooms and a relaxation area. Depending on the area, owners can add a garage, garden or skylight to increase natural light and ventilation.
+          - generic [ref=f20e60]:
+            - heading "Advantages of a 2-storey house" [level=2] [ref=f20e61]
+            - generic [ref=f20e62]:
+              - paragraph [ref=f20e63]: The 2-storey house is chosen by many families because it balances functionality, aesthetics and investment cost. The design clearly separates shared living zones from private spaces while being easy to expand as needs grow.
+              - paragraph [ref=f20e64]: Construction costs are significantly lower than a 3-storey house and above, while still guaranteeing enough space for the family. It suits common land plots of 5×20m and 5×15m in urban and rural areas.
+          - generic [ref=f20e65]:
+            - heading "35+ beautiful 2-storey house designs, 2026 trends" [level=2] [ref=f20e66]
+            - generic [ref=f20e67]:
+              - paragraph [ref=f20e68]: With a wide variety of sizes and architectural styles, 2-storey houses offer many design options for every family. Modern designs stand out with minimalist lines, clean geometric volumes and glass-heavy facades — prioritising open space and natural light.
+              - paragraph [ref=f20e69]: Flat-roof architecture is youthful, easy to build and convenient for renovation or adding floors. The Japanese-style roof has a moderate slope, elegant and balanced, with good drainage. The Thai-style roof adds a luxurious accent with a high roof that keeps the home airy.
+              - paragraph [ref=f20e70]: For facades, aluminium-glass door systems combined with tempered glass are preferred for maximum daylight, good acoustics and high aesthetics. Eurowindow recommends energy-efficient uPVC or aluminium-glass door systems for modern 2-storey homes.
+          - generic [ref=f20e71]:
+            - heading "Cost-optimised pricing for a 2-storey house" [level=2] [ref=f20e72]
+            - generic [ref=f20e73]:
+              - paragraph [ref=f20e74]: The cost of a 2-storey house depends on area, architectural style, material quality and construction region. Foundations, door systems, roofing and finishing materials account for a large share of the total budget.
+              - paragraph [ref=f20e75]: To optimise cost, owners should prepare a detailed design before construction, choose materials that fit the budget and prioritise energy-efficient solutions such as Low-E glass and acoustic-thermal doors — reducing long-term running costs.
+          - generic [ref=f20e76]:
+            - heading "Things to note when designing a 2-storey house" [level=2] [ref=f20e77]
+            - generic [ref=f20e78]:
+              - paragraph [ref=f20e79]: Defining the family's needs is the first and most important step — number of bedrooms, workspace, guest area. Choosing a suitable architectural style (modern, neo-classical, minimalist) shapes the whole design.
+              - paragraph [ref=f20e80]: Optimise layout and indoor circulation, arrange natural light and ventilation through windows, doors and skylights. Budgeting, preparing design documents and obtaining construction permits before starting are unmissable steps.
+          - generic [ref=f20e81]:
+            - heading "The Eurowindow construction process" [level=2] [ref=f20e82]
+            - paragraph [ref=f20e84]: Eurowindow accompanies homeowners from site survey, door and material solution consulting and technical design to the production and installation of door and aluminium-glass partition systems. Every item is controlled to European standards, ensuring quality and on-time delivery.
+        - generic [ref=f20e85]:
+          - heading "Frequently asked questions" [level=2] [ref=f20e86]
+          - generic [ref=f20e87]:
+            - group [ref=f20e88]:
+              - generic "What family size suits a 2-storey house?" [ref=f20e89] [cursor=pointer]
+            - group [ref=f20e92]:
+              - generic "How long does building a 2-storey house take?" [ref=f20e93] [cursor=pointer]
+            - group [ref=f20e96]:
+              - generic "Which doors should I choose for a 2-storey house?" [ref=f20e97] [cursor=pointer]
+        - link "Back to news" [ref=f20e101] [cursor=pointer]:
+          - /url: /en/news
+      - generic [ref=f20e105]:
+        - generic [ref=f20e106]:
+          - heading "Related articles" [level=2] [ref=f20e107]
+          - link "View all" [ref=f20e108] [cursor=pointer]:
+            - /url: /en/news
+        - generic [ref=f20e111]:
+          - link "Knowledge sharing · 25/07/2026 The Japandi Style – When Minimalism Is Never Boring Read more" [ref=f20e112] [cursor=pointer]:
+            - /url: /en/news/phong-cach-japandi
+            - paragraph [ref=f20e114]: Knowledge sharing · 25/07/2026
+            - heading "The Japandi Style – When Minimalism Is Never Boring" [level=3] [ref=f20e115]
+            - generic [ref=f20e116]: Read more
+          - link "Knowledge sharing · 15/07/2026 Acoustic and Thermal Solutions for Glass Facades Read more" [ref=f20e119] [cursor=pointer]:
+            - /url: /en/news/cach-am-va-cach-nhiet
+            - paragraph [ref=f20e121]: Knowledge sharing · 15/07/2026
+            - heading "Acoustic and Thermal Solutions for Glass Facades" [level=3] [ref=f20e122]
+            - generic [ref=f20e123]: Read more
+    - contentinfo [ref=f20e126]:
+      - generic [ref=f20e127]:
+        - generic [ref=f20e128]:
+          - link "Eurowindow" [ref=f20e129] [cursor=pointer]:
+            - /url: /
+            - img "Eurowindow – Tiên phong. Kiến tạo. Đồng hành." [ref=f20e130]
+          - paragraph [ref=f20e131]: Eurowindow provides complete solutions for doors, aluminium-glass partitions and finishing materials for modern buildings.
+        - generic [ref=f20e132]:
+          - heading "Contact" [level=2] [ref=f20e133]
+          - generic [ref=f20e134]:
+            - paragraph [ref=f20e135]: Eurowindow Office Building
+            - paragraph [ref=f20e136]: "Hotline: 0909 888 000"
+            - paragraph [ref=f20e137]: infoew@eurowindow.biz
+        - generic [ref=f20e138]:
+          - heading "Explore" [level=2] [ref=f20e139]
+          - generic [ref=f20e140]:
+            - link "About us" [ref=f20e141] [cursor=pointer]:
+              - /url: /en/about
+            - link "Projects" [ref=f20e142] [cursor=pointer]:
+              - /url: /en/projects
+            - link "Services" [ref=f20e143] [cursor=pointer]:
+              - /url: /en/services
+            - link "News" [ref=f20e144] [cursor=pointer]:
+              - /url: /en/news
+      - generic [ref=f20e145]: © 2026 Eurowindow. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f20e151] [cursor=pointer]
