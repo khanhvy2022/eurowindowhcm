@@ -108,7 +108,7 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
       </div>
       {open ? (
         <nav
-          className="border-t border-white/10 bg-[#071523]/98 px-5 pb-8 pt-4 backdrop-blur-2xl lg:hidden"
+          className="border-t border-white/10 bg-[#071523]/98 px-5 pb-8 pt-4 backdrop-blur-2xl max-h-[calc(100vh-80px)] overflow-y-auto no-scrollbar shadow-2xl lg:hidden"
           aria-label={lang === "en" ? "Mobile navigation" : "Điều hướng di động"}
         >
           <Link

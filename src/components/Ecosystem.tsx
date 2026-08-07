@@ -37,20 +37,18 @@ export default function Ecosystem() {
                 <p key={paragraph.slice(0, 24)}>{paragraph}</p>
               ))}
             </div>
-            <div className="mt-8 pt-6 border-t border-white/10 flex items-center gap-6">
-              <div>
-                <div className="text-2xl font-extrabold text-[#E2C275]">23+</div>
-                <div className="text-xs text-[#94A3B8] uppercase tracking-wider">Năm Tiên Phong</div>
+            <div className="mt-8 pt-6 border-t border-white/10 grid grid-cols-1 gap-5 sm:grid-cols-3 sm:gap-4 sm:divide-x sm:divide-white/10">
+              <div className="sm:pr-2">
+                <div className="text-2xl font-extrabold text-[#E2C275] sm:text-3xl">23+ Năm</div>
+                <div className="mt-1 text-xs font-medium uppercase tracking-wider text-[#94A3B8]">Tiên Phong Thị Trường</div>
               </div>
-              <div className="h-8 w-px bg-white/10" />
-              <div>
-                <div className="text-2xl font-extrabold text-[#E2C275]">5 Nhà Máy</div>
-                <div className="text-xs text-[#94A3B8] uppercase tracking-wider">Công Nghệ Châu Âu</div>
+              <div className="sm:px-4">
+                <div className="text-2xl font-extrabold text-[#E2C275] sm:text-3xl">5 Nhà Máy</div>
+                <div className="mt-1 text-xs font-medium uppercase tracking-wider text-[#94A3B8]">Công Nghệ Châu Âu</div>
               </div>
-              <div className="h-8 w-px bg-white/10" />
-              <div>
-                <div className="text-2xl font-extrabold text-[#E2C275]">Top 1</div>
-                <div className="text-xs text-[#94A3B8] uppercase tracking-wider">Thị Phần Cửa &amp; Vách Kính</div>
+              <div className="sm:pl-4">
+                <div className="text-2xl font-extrabold text-[#E2C275] sm:text-3xl">Top 1</div>
+                <div className="mt-1 text-xs font-medium uppercase tracking-wider text-[#94A3B8]">Thị Phần Cửa &amp; Vách Kính</div>
               </div>
             </div>
           </div>
