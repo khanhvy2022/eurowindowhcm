@@ -11,14 +11,16 @@ export async function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const product = getProduct(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const product = getProduct(slug);
   if (!product) return { title: "Product Not Found" };
   return { title: `${product.title} | Eurowindow`, description: product.text.slice(0, 160) };
 }
 
-export default function ProductDetailPage({ params }: { params: { slug: string } }) {
-  const product = getProduct(params.slug);
+export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const product = getProduct(slug);
   if (!product) notFound();
 
   return (

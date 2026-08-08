@@ -28,12 +28,12 @@ export const products = [
 ] as const;
 
 export const featuredProjects = [
-  { title: "Cảng hàng không Phú Bài Huế", location: "Công trình quốc gia", image: "/eurowindow/constructions/viber-image-2025-02-05-13-33-24-065.png.webp" },
-  { title: "Bệnh viện Việt Pháp", location: "Bệnh viện", image: "/eurowindow/constructions/img-7105.jpg.webp" },
-  { title: "Bệnh viện ung bướu Đà Nẵng", location: "Bệnh viện", image: "/eurowindow/constructions/benh-vien-ung-buou-da-nang-17.jpg.webp" },
-  { title: "Bệnh viện Nhi đồng TP. Hồ Chí Minh", location: "Bệnh viện", image: "/eurowindow/constructions/dji-0090-1.jpg.webp" },
-  { title: "TT Truyền hình Thông tấn xã Việt Nam", location: "Trụ sở cơ quan", image: "/eurowindow/constructions/img-7172.jpg.webp" },
-  { title: "Trụ sở Viện KSND Tối cao", location: "Trụ sở cơ quan", image: "/eurowindow/constructions/20191115-vien-kiem-soat-nhan-dan-toi-cao-0038.jpg.webp" },
+  { title: "Cảng hàng không Phú Bài Huế", location: "Công trình quốc gia", image: "/eurowindow/constructions/viber-image-2025-02-05-13-33-24-065.png.webp", href: "/du-an/cang-hang-khong-phu-bai-hue" },
+  { title: "Bệnh viện Việt Pháp", location: "Bệnh viện", image: "/eurowindow/constructions/img-7105.jpg.webp", href: "/du-an/benh-vien-viet-phap" },
+  { title: "Bệnh viện ung bướu Đà Nẵng", location: "Bệnh viện", image: "/eurowindow/constructions/benh-vien-ung-buou-da-nang-17.jpg.webp", href: "/du-an/benh-vien-ung-buou-da-nang" },
+  { title: "Bệnh viện Nhi đồng TP. Hồ Chí Minh", location: "Bệnh viện", image: "/eurowindow/constructions/dji-0090-1.jpg.webp", href: "/du-an/benh-vien-nhi-dong-tphcm" },
+  { title: "TT Truyền hình Thông tấn xã Việt Nam", location: "Trụ sở cơ quan", image: "/eurowindow/constructions/img-7172.jpg.webp", href: "/du-an/trung-tam-truyen-hinh-ttxvn" },
+  { title: "Trụ sở Viện KSND Tối cao", location: "Trụ sở cơ quan", image: "/eurowindow/constructions/20191115-vien-kiem-soat-nhan-dan-toi-cao-0038.jpg.webp", href: "/du-an/vien-kiem-sat-nhan-dan-toi-cao" },
 ] as const;
 
 export const categories = [

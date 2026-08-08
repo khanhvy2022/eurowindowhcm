@@ -20,22 +20,17 @@ const accordions = [
   {
     id: "vision",
     label: "Vision",
-    text: "To become the leading Vietnamese brand in door, aluminium-glass partition and finishing material solutions — creating civilised living spaces that harmonise function and aesthetics.",
+    text: "To keep asserting its position as the leading provider of total solutions for green building materials in Vietnam.",
   },
   {
     id: "mission",
     label: "Mission",
-    text: "To put people and the environment at the centre of every decision, so each project is not only beautiful today but sustainable for tomorrow.",
+    text: "To pioneer new-technology products that are environmentally friendly and energy-saving. Eurowindow strives to elevate the quality of life for millions of customers and to modernise urban architecture.\n\nAlongside partners in a spirit of synergy to create long-term value for shareholders and employees, Eurowindow aligns corporate interests with the common good of society, joining hands with the community to promote the prosperity of the nation.",
   },
   {
-    id: "quan-niem",
-    label: "Our design philosophy",
-    text: "\"We do not sell doors. We guarantee the boundary between your home and the outside world\" — where light, air and privacy are reconciled with precision.",
-  },
-  {
-    id: "phuong-cham",
-    label: "Operating motto",
-    text: "Clear consulting, synchronised execution and after-handover support so every project retains lasting value over time.",
+    id: "core-values",
+    label: "Core values",
+    text: "QUALITY: Good products and services decide Eurowindow's reputation.\nPROFESSIONALISM: Our staff combine high professional expertise with a professional, devoted service style, contributing to the success of the Eurowindow brand.\nEFFICIENCY: In every activity we strive to maximise benefits for our customers and for Eurowindow.",
   },
 ] as const;
 
@@ -177,7 +172,7 @@ export default function AboutPage() {
 
         <section className="border-t border-white/10 bg-[#102238]/60 py-16 md:py-20">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white md:text-4xl">Core Values</h2>
+            <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white md:text-4xl">Vision – Mission – Core Values</h2>
             <div className="mt-10 space-y-4">
               {accordions.map((item) => (
                 <div key={item.id} className="glass-card overflow-hidden">
@@ -192,7 +187,7 @@ export default function AboutPage() {
                     <ChevronDown className={`h-5 w-5 shrink-0 text-[#E2C275] transition-transform ${open === item.id ? "rotate-180" : ""}`} />
                   </button>
                   {open === item.id ? (
-                    <div id={`panel-${item.id}`} className="border-t border-white/10 px-6 py-5 leading-8 text-[#D2D8E3]">{item.text}</div>
+                    <div id={`panel-${item.id}`} className="border-t border-white/10 px-6 py-5 text-[#D2D8E3] whitespace-pre-line leading-8">{item.text}</div>
                   ) : null}
                 </div>
               ))}

@@ -10,14 +10,34 @@ type Item = { label: string; href: string; children?: { label: string; href: str
 
 const viItems: Item[] = [
   { label: "Giới thiệu", href: "/gioi-thieu", children: [{ label: "Về Eurowindow", href: "/gioi-thieu" }, { label: "Tầm nhìn & sứ mệnh", href: "/gioi-thieu#tam-nhin" }] },
-  { label: "Công trình", href: "/du-an", children: [{ label: "Công trình quốc gia", href: "/du-an/cang-hang-khong-phu-bai-hue" }, { label: "Bệnh viện", href: "/du-an/benh-vien-viet-phap" }, { label: "Trụ sở cơ quan", href: "/du-an/trung-tam-truyen-hinh-ttxvn" }] },
+  {
+    label: "Công trình",
+    href: "/du-an",
+    children: [
+      { label: "Công trình cấp quốc gia", href: "/du-an/cong-trinh-quoc-gia" },
+      { label: "Bệnh viện", href: "/du-an/benh-vien" },
+      { label: "Trụ sở cơ quan", href: "/du-an/tru-so-co-quan" },
+      { label: "Công trình dân dụng", href: "/du-an/cong-trinh-dan-dung" },
+      { label: "Tin dự án", href: "/du-an/tin-du-an" },
+    ],
+  },
   { label: "Sản phẩm", href: "/san-pham", children: [{ label: "Cửa nhôm & vách kính", href: "/san-pham/cua-nhom" }, { label: "Cửa uPVC", href: "/san-pham/cua-nhua-upvc" }, { label: "Cửa gỗ & chống cháy", href: "/san-pham/cua-go" }, { label: "Sản phẩm kính", href: "/san-pham/san-pham-kinh" }, { label: "Cửa tự động", href: "/san-pham/cua-tu-dong" }, { label: "Cửa cuốn", href: "/san-pham/cua-cuon" }] },
   { label: "Tin tức", href: "/tin-tuc" },
 ];
 
 const enItems: Item[] = [
   { label: "About us", href: "/en/about", children: [{ label: "About Eurowindow", href: "/en/about" }, { label: "Vision & mission", href: "/en/about#vision" }] },
-  { label: "Projects", href: "/en/projects", children: [{ label: "National landmarks", href: "/en/projects/cang-hang-khong-phu-bai-hue" }, { label: "Hospitals", href: "/en/projects/benh-vien-viet-phap" }, { label: "Government buildings", href: "/en/projects/trung-tam-truyen-hinh-ttxvn" }] },
+  {
+    label: "Projects",
+    href: "/en/projects",
+    children: [
+      { label: "National landmarks", href: "/en/projects/cong-trinh-quoc-gia" },
+      { label: "Hospitals", href: "/en/projects/benh-vien" },
+      { label: "Government buildings", href: "/en/projects/tru-so-co-quan" },
+      { label: "Civil construction", href: "/en/projects/cong-trinh-dan-dung" },
+      { label: "Project news", href: "/en/projects/tin-du-an" },
+    ],
+  },
   { label: "Products", href: "/en/products", children: [{ label: "Aluminium doors", href: "/en/products/cua-nhom-vach-kinh" }, { label: "uPVC doors", href: "/en/products/cua-upvc" }, { label: "Wooden doors", href: "/en/products/cua-go-va-go-chong-chay" }, { label: "Glass products", href: "/en/products/san-pham-kinh" }, { label: "Automatic doors", href: "/en/products/cua-tu-dong-va-cua-xoay" }, { label: "Roller doors", href: "/en/products/cua-cuon-nhom-khe-thoang" }] },
   { label: "News", href: "/en/news" },
 ];

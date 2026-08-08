@@ -1,0 +1,409 @@
+- generic [ref=f62e2]:
+  - banner [ref=f62e3]:
+    - generic [ref=f62e5]:
+      - generic [ref=f62e6]:
+        - list [ref=f62e7]:
+          - listitem [ref=f62e8]: VN
+          - listitem [ref=f62e9]: ENG
+        - generic [ref=f62e11]:
+          - textbox "Tìm kiếm" [ref=f62e12]:
+            - /placeholder: Tìm kiếm...
+          - button "Tìm kiếm" [ref=f62e13] [cursor=pointer]
+      - link [ref=f62e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=f62e18]
+      - link "Nhận tư vấn" [ref=f62e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f62e24]:
+      - listitem [ref=f62e25]:
+        - link "GIỚI THIỆU" [ref=f62e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f62e27]:
+        - link "SẢN PHẨM" [ref=f62e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f62e31]:
+        - link "SHOWROOM" [ref=f62e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f62e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f62e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f62e37]:
+        - link "TÀI LIỆU" [ref=f62e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f62e39]:
+        - link "TIN TỨC" [ref=f62e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f62e43]:
+        - link "CHÍNH SÁCH" [ref=f62e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f62e47]:
+        - link "LIÊN HỆ" [ref=f62e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f62e49]:
+    - generic [ref=f62e52]:
+      - heading "Tin dự án" [level=1] [ref=f62e54]
+      - list [ref=f62e56]:
+        - listitem [ref=f62e57]:
+          - link "Trang chủ" [ref=f62e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=f62e59]:
+          - link "Tin tức" [ref=f62e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/tin-tuc
+          - text: /
+        - listitem [ref=f62e61]:
+          - link "Tin dự án" [ref=f62e62] [cursor=pointer]:
+            - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+    - generic [ref=f62e65]:
+      - generic [ref=f62e67]:
+        - generic [ref=f62e69]:
+          - link [ref=f62e71] [cursor=pointer]:
+            - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+            - img "img-0344" [ref=f62e72]
+          - link [ref=f62e74] [cursor=pointer]:
+            - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-lap-dat-cua-va-vach-kinh-tai-khu-do-thi-vinhomes-global-gate-co-loa.html
+            - heading "Eurowindow cung cấp, lắp đặt cửa và vách kính tại khu đô thị Vinhomes Global Gate Cổ Loa" [level=2] [ref=f62e75]
+          - generic [ref=f62e76]:
+            - generic [ref=f62e77]: 30/07/2026
+            - link "Tin dự án" [ref=f62e80] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+            - generic [ref=f62e83]: 136 Lượt xem
+          - paragraph [ref=f62e87]: Eurowindow vừa trúng thầu gói cung cấp, lắp đặt hệ cửa sổ, cửa đi, vách kính, louver và lan can kính tại tòa Y5 Pacific Tower Imperia Signature – The Continental – phân khu căn hộ cao cấp đầu tiên ...
+        - generic [ref=f62e88]:
+          - generic [ref=f62e89]:
+            - article [ref=f62e90]:
+              - figure [ref=f62e91]:
+                - link [ref=f62e92] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-thi-cong-cua-va-vach-nhom-kinh-cho-du-an-to-hop-nghi-duong-5-sao-the-residences-at-arbora-quang-nam.html
+                  - img "picture1-4" [ref=f62e93]
+              - generic [ref=f62e94]:
+                - heading [level=2] [ref=f62e95]:
+                  - link "Eurowindow thi công cửa và vách nhôm kính cho dự án Tổ hợp nghỉ dưỡng 5 sao The Residences at Arbora (Quảng Nam)" [ref=f62e96] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-thi-cong-cua-va-vach-nhom-kinh-cho-du-an-to-hop-nghi-duong-5-sao-the-residences-at-arbora-quang-nam.html
+                - generic [ref=f62e97]:
+                  - generic [ref=f62e98]: 30/09/2025
+                  - link "Tin dự án" [ref=f62e101] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+                  - generic [ref=f62e104]: 954 Lượt xem
+                - paragraph [ref=f62e107]: Tiếp nối thành công sau Hyatt Regency Hồ Tràm, mới đây, Eurowindow tiếp tục đồng hành cùng IFF Holdings thi công hoàn thiện dự án khu nghỉ dưỡng 5 sao quốc tế The Residences at Arbora, nằm trong bộ ...
+                - link "Xem thêm" [ref=f62e108] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-thi-cong-cua-va-vach-nhom-kinh-cho-du-an-to-hop-nghi-duong-5-sao-the-residences-at-arbora-quang-nam.html
+            - article [ref=f62e109]:
+              - figure [ref=f62e110]:
+                - link [ref=f62e111] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-va-thi-cong-gan-30000m2-cua-vach-kinh-tai-du-an-sunshine-crystal-river.html
+                  - img "anh-1-2" [ref=f62e112]
+              - generic [ref=f62e113]:
+                - heading [level=2] [ref=f62e114]:
+                  - link "Eurowindow cung cấp và thi công gần 30.000m2 cửa, vách kính tại dự án Sunshine Crystal River" [ref=f62e115] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-va-thi-cong-gan-30000m2-cua-vach-kinh-tai-du-an-sunshine-crystal-river.html
+                - generic [ref=f62e116]:
+                  - generic [ref=f62e117]: 30/06/2025
+                  - link "Tin dự án" [ref=f62e120] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+                  - generic [ref=f62e123]: 1579 Lượt xem
+                - paragraph [ref=f62e126]: Tiếp tục trúng thầu cung cấp và thi công hệ cửa, vách kính cho tháp S1 thuộc dự án Sunshine Crystal River, Eurowindow đã và đang đồng hành cùng Sunshine Group phát triển các dự án đô thị hiện đại, ...
+                - link "Xem thêm" [ref=f62e127] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-cung-cap-va-thi-cong-gan-30000m2-cua-vach-kinh-tai-du-an-sunshine-crystal-river.html
+            - article [ref=f62e128]:
+              - figure [ref=f62e129]:
+                - link [ref=f62e130] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/trung-tam-hoi-nghi-tinh-yen-bai-%E2%80%93-bieu-tuong-kien-truc-moi-mang-hoi-tho-thien-nhien-tay-bac-dau-an-eurowindow.html
+                  - img "viber-image-2025-05-15-17-45-09-985" [ref=f62e131]
+              - generic [ref=f62e132]:
+                - heading [level=2] [ref=f62e133]:
+                  - link "Trung tâm Hội nghị tỉnh Yên Bái – Biểu tượng kiến trúc mới mang hơi thở thiên nhiên Tây Bắc & dấu ấn Eurowindow" [ref=f62e134] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/trung-tam-hoi-nghi-tinh-yen-bai-%E2%80%93-bieu-tuong-kien-truc-moi-mang-hoi-tho-thien-nhien-tay-bac-dau-an-eurowindow.html
+                - generic [ref=f62e135]:
+                  - generic [ref=f62e136]: 15/05/2025
+                  - link "Tin dự án" [ref=f62e139] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+                  - generic [ref=f62e142]: 1913 Lượt xem
+                - paragraph [ref=f62e145]: Eurowindow vừa trúng thầu cung cấp và thi công gần 4.000 m2 sản phẩm vách kính mặt dựng, vách kính trong nhà và mái kính tại dự án Trung tâm Hội nghị tỉnh Yên Bái. Tọa lạc tại phường Đồng Tâm, trung ...
+                - link "Xem thêm" [ref=f62e146] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/trung-tam-hoi-nghi-tinh-yen-bai-%E2%80%93-bieu-tuong-kien-truc-moi-mang-hoi-tho-thien-nhien-tay-bac-dau-an-eurowindow.html
+            - article [ref=f62e147]:
+              - figure [ref=f62e148]:
+                - link [ref=f62e149] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/cang-hang-khong-quoc-te-long-thanh-cong-trinh-kien-truc-mang-tinh-bieu-tuong-va-dau-an-kien-tao-tu-eurowindow.html
+                  - img "viber-image-2025-04-28-16-08-31-035" [ref=f62e150]
+              - generic [ref=f62e151]:
+                - heading [level=2] [ref=f62e152]:
+                  - 'link "Cảng hàng không quốc tế Long Thành: Công trình kiến trúc mang tính biểu tượng và dấu ấn kiến tạo từ Eurowindow" [ref=f62e153] [cursor=pointer]':
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/cang-hang-khong-quoc-te-long-thanh-cong-trinh-kien-truc-mang-tinh-bieu-tuong-va-dau-an-kien-tao-tu-eurowindow.html
+                - generic [ref=f62e154]:
+                  - generic [ref=f62e155]: 28/04/2025
+                  - link "Tin dự án" [ref=f62e158] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+                  - generic [ref=f62e161]: 2092 Lượt xem
+                - paragraph [ref=f62e164]: Mới đây, Eurowindow vừa trúng thầu dự án trọng điểm quốc gia – Cảng hàng không Quốc tế Long Thành (Đồng Nai). Theo đó, Eurowindow tư vấn giải pháp, cung cấp và lắp đặt hoàn thiện hơn 12.000 m2 cửa, ...
+                - link "Xem thêm" [ref=f62e165] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/cang-hang-khong-quoc-te-long-thanh-cong-trinh-kien-truc-mang-tinh-bieu-tuong-va-dau-an-kien-tao-tu-eurowindow.html
+            - article [ref=f62e166]:
+              - figure [ref=f62e167]:
+                - link [ref=f62e168] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/hon-4200m%C2%B2-cua-upvc-va-vach-ngan-kinh-eurowindow-lap-dat-hoan-thien-cong-trinh-truong-thpt-chuyen-luong-van-chanh-phu-yen.html
+                  - img "viber-image-2025-04-17-17-56-03-140" [ref=f62e169]
+              - generic [ref=f62e170]:
+                - heading [level=2] [ref=f62e171]:
+                  - link "Hơn 4.200m² cửa uPVC và vách ngăn kính Eurowindow lắp đặt hoàn thiện công trình Trường THPT chuyên Lương Văn Chánh (Phú Yên)" [ref=f62e172] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/hon-4200m%C2%B2-cua-upvc-va-vach-ngan-kinh-eurowindow-lap-dat-hoan-thien-cong-trinh-truong-thpt-chuyen-luong-van-chanh-phu-yen.html
+                - generic [ref=f62e173]:
+                  - generic [ref=f62e174]: 17/04/2025
+                  - link "Tin dự án" [ref=f62e177] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+                  - generic [ref=f62e180]: 1350 Lượt xem
+                - paragraph [ref=f62e183]: Eurowindow vừa ký kết hợp tác, trở thành nhà thầu cung cấp, lắp đặt hơn 4.200m² cửa đi, cửa sổ uPVC lõi thép, vách ngăn kính cho công trình Trường THPT chuyên Lương Văn Chánh, tỉnh Phú Yên. Là ngôi ...
+                - link "Xem thêm" [ref=f62e184] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/hon-4200m%C2%B2-cua-upvc-va-vach-ngan-kinh-eurowindow-lap-dat-hoan-thien-cong-trinh-truong-thpt-chuyen-luong-van-chanh-phu-yen.html
+            - article [ref=f62e185]:
+              - figure [ref=f62e186]:
+                - link [ref=f62e187] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-dong-hanh-cung-mandarin-oriental-da-nang-kien-tao-khong-gian-nghi-duong-thuong-luu-5.html
+                  - img "12" [ref=f62e188]
+              - generic [ref=f62e189]:
+                - heading [level=2] [ref=f62e190]:
+                  - link "Eurowindow đồng hành cùng Mandarin Oriental Đà Nẵng kiến tạo không gian nghỉ dưỡng thượng lưu 5*" [ref=f62e191] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-dong-hanh-cung-mandarin-oriental-da-nang-kien-tao-khong-gian-nghi-duong-thuong-luu-5.html
+                - generic [ref=f62e192]:
+                  - generic [ref=f62e193]: 17/04/2025
+                  - link "Tin dự án" [ref=f62e196] [cursor=pointer]:
+                    - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+                  - generic [ref=f62e199]: 1304 Lượt xem
+                - paragraph [ref=f62e202]: Với năng lực đã được khẳng định qua nhiều công trình cao cấp, Eurowindow tiếp tục ghi dấu ấn khi trở thành đối tác cung cấp, thi công hoàn thiện hạng mục cửa và vách kính cao cấp cho khu nghỉ dưỡng ...
+                - link "Xem thêm" [ref=f62e203] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an/eurowindow-dong-hanh-cung-mandarin-oriental-da-nang-kien-tao-khong-gian-nghi-duong-thuong-luu-5.html
+          - navigation [ref=f62e205]:
+            - list [ref=f62e206]:
+              - listitem [ref=f62e207]:
+                - link "pagination.previous" [ref=f62e208] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=1
+                  - text: ‹
+              - listitem [ref=f62e209]:
+                - link "1" [ref=f62e210] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=1
+              - listitem [ref=f62e211]:
+                - generic [ref=f62e212]: "2"
+              - listitem [ref=f62e213]:
+                - link "3" [ref=f62e214] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=3
+              - listitem [ref=f62e215]:
+                - link "4" [ref=f62e216] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=4
+              - listitem [ref=f62e217]:
+                - link "5" [ref=f62e218] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=5
+              - listitem [ref=f62e219]:
+                - link "6" [ref=f62e220] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=6
+              - listitem [ref=f62e221]:
+                - link "7" [ref=f62e222] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=7
+              - listitem [ref=f62e223]:
+                - link "8" [ref=f62e224] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=8
+              - listitem [ref=f62e225]:
+                - link "9" [ref=f62e226] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=9
+              - listitem [ref=f62e227]:
+                - link "10" [ref=f62e228] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=10
+              - listitem [ref=f62e229]:
+                - generic [ref=f62e230]: ...
+              - listitem [ref=f62e231]:
+                - link "37" [ref=f62e232] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=37
+              - listitem [ref=f62e233]:
+                - link "38" [ref=f62e234] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=38
+              - listitem [ref=f62e235]:
+                - link "pagination.next" [ref=f62e236] [cursor=pointer]:
+                  - /url: https://eurowindow.biz/tin-tuc/tin-du-an?page=3
+                  - text: ›
+      - generic [ref=f62e238]:
+        - generic [ref=f62e239]:
+          - paragraph [ref=f62e241]: Danh mục tin tức
+          - list [ref=f62e242]:
+            - listitem [ref=f62e243]:
+              - link [ref=f62e244] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+                - paragraph [ref=f62e245]: Tin tức sự kiện
+            - listitem [ref=f62e246]:
+              - link [ref=f62e247] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+                - paragraph [ref=f62e248]: Tin dự án
+            - listitem [ref=f62e249]:
+              - link [ref=f62e250] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+                - paragraph [ref=f62e251]: Tin nội bộ
+            - listitem [ref=f62e252]:
+              - link [ref=f62e253] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+                - paragraph [ref=f62e254]: Tin khuyến mãi
+            - listitem [ref=f62e255]:
+              - link [ref=f62e256] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tuyen-dung
+                - paragraph [ref=f62e257]: Tuyển dụng
+        - generic [ref=f62e258]:
+          - paragraph [ref=f62e260]: Bài viết mới
+          - list [ref=f62e261]:
+            - listitem [ref=f62e262]:
+              - link [ref=f62e263] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tu-van/giai-phap-cach-nhiet-eurowindow-he-2026.html
+                - paragraph [ref=f62e264]: Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026
+            - listitem [ref=f62e265]:
+              - link [ref=f62e266] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tu-van/nen-chon-cua-gi-cho-mua-he-nang-nong.html
+                - paragraph [ref=f62e267]: Nên chọn cửa gì cho mùa hè nắng nóng?
+            - listitem [ref=f62e268]:
+              - link [ref=f62e269] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo/cap-nhat-cuoc-thi-eurowindow-noi-lam-viec-toi-yeu-16-cau-chuyen-dau-tien-va-loi-moi-goi-tiep-noi-hanh-trinh.html
+                - paragraph [ref=f62e270]: "Cập nhật cuộc thi \"Eurowindow – Nơi làm việc tôi yêu\": 16 câu chuyện đầu tiên và lời mời gọi tiếp nối hành trình"
+        - generic [ref=f62e271]:
+          - paragraph [ref=f62e273]: Bài viết đọc nhiều
+          - list [ref=f62e274]:
+            - listitem [ref=f62e275]:
+              - link [ref=f62e276] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/eurowindow-khuyen-mai-nhan-dip-vietbuild-don-cua-tan-gia-nhan-qua-nghi-duong.html
+                - paragraph [ref=f62e277]: "EUROWINDOW KHUYẾN MÃI NHÂN DỊP VIETBUILD: “ĐÓN CỬA TÂN GIA – NHẬN QUÀ NGHỈ DƯỠNG”"
+            - listitem [ref=f62e278]:
+              - link [ref=f62e279] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-ngan-uu-dai-vang-tri-an-khach-hang-nhan-ky-niem-20-nam-thanh-lap-eurowindow.html
+                - paragraph [ref=f62e280]: "THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MÃI: “NGÀN ƯU ĐÃI VÀNG – TRI ÂN KHÁCH HÀNG” NHÂN KỶ NIỆM 20 NĂM THÀNH LẬP EUROWINDOW"
+            - listitem [ref=f62e281]:
+              - link [ref=f62e282] [cursor=pointer]:
+                - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-%E2%80%9Cdau-tu-xung-tam-%E2%80%93-uu-dai-cuc-pham%E2%80%9D.html
+                - paragraph [ref=f62e283]: THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MÃI “ĐẦU TƯ XỨNG TẦM – ƯU ĐÃI CỰC PHẨM”
+        - link [ref=f62e285] [cursor=pointer]:
+          - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai/chuong-trinh-khuyen-mai-dac-biet-danh-cho-khach-hang-mua-kinh-dien-eurowindow.html
+          - img "popup-website" [ref=f62e286]
+        - generic [ref=f62e288]:
+          - generic [ref=f62e289]:
+            - img "logo-ngang-xanh-13" [ref=f62e291]
+            - paragraph [ref=f62e293]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+          - generic [ref=f62e295]:
+            - generic [ref=f62e296]:
+              - textbox "Họ và tên *" [ref=f62e298]
+              - textbox "Số điện thoại *" [ref=f62e300]
+              - textbox "Email *" [ref=f62e302]
+            - textbox "Lời nhắn tới Eurowindow" [ref=f62e304]
+            - button "Gửi" [ref=f62e306] [cursor=pointer]
+  - contentinfo [ref=f62e307]:
+    - generic [ref=f62e309]:
+      - generic [ref=f62e310]:
+        - link [ref=f62e312] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f62e313]
+        - generic [ref=f62e314]:
+          - link "Facebook" [ref=f62e315] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f62e316]
+          - link "Instagram" [ref=f62e317] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f62e318]
+          - link "Youtube" [ref=f62e319] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f62e320]
+          - link "Zalo" [ref=f62e321] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f62e322]
+          - link "Tiktok" [ref=f62e323] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f62e327] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f62e331] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f62e335]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f62e338] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f62e339]:
+          - link "Bộ Công Thương" [ref=f62e340] [cursor=pointer]:
+            - /url: javascript:;
+            - img "Bộ Công Thương" [ref=f62e341]
+          - link "DMCA Protection Status" [ref=f62e342] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f62e343]
+      - generic [ref=f62e344]:
+        - generic [ref=f62e345]: Giới thiệu
+        - list [ref=f62e346]:
+          - listitem [ref=f62e347]:
+            - link "Giới thiệu" [ref=f62e348] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f62e349]:
+            - link "Tầm nhìn sứ mệnh" [ref=f62e350] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f62e351]:
+            - link "Giải thưởng" [ref=f62e352] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f62e353]:
+            - link "Tài liệu" [ref=f62e354] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f62e355]:
+        - generic [ref=f62e356]: Sản phẩm
+        - list [ref=f62e357]:
+          - listitem [ref=f62e358]:
+            - link "Cửa - Vách nhôm" [ref=f62e359] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f62e360]:
+            - link "Cửa uPVC" [ref=f62e361] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f62e362]:
+            - link "Cửa gỗ" [ref=f62e363] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f62e364]:
+            - link "Cửa cuốn" [ref=f62e365] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f62e366]:
+            - link "Cửa thông minh" [ref=f62e367] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f62e368]:
+        - generic [ref=f62e369]: Tin tức
+        - list [ref=f62e370]:
+          - listitem [ref=f62e371]:
+            - link "Tin tức sự kiện" [ref=f62e372] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f62e373]:
+            - link "Tin dự án" [ref=f62e374] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f62e375]:
+            - link "Tin nội bộ" [ref=f62e376] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f62e377]:
+            - link "Tin khuyến mãi" [ref=f62e378] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f62e379]:
+            - link "Tư vấn" [ref=f62e380] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f62e381]:
+        - generic [ref=f62e382]: Chăm sóc khách hàng
+        - list [ref=f62e383]:
+          - listitem [ref=f62e384]:
+            - link "Chính sách bảo hành" [ref=f62e385] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f62e386]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f62e387] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f62e388]:
+            - link "(84 - 24) 37 47 47 00" [ref=f62e389] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f62e392]:
+            - link "cskhhn@eurowindow.biz" [ref=f62e393] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f62e396]: Dự án quốc tế và xuất khẩu
+          - list [ref=f62e397]:
+            - listitem [ref=f62e398]:
+              - link "+84 -903 41 55 52" [ref=f62e399] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f62e402]:
+              - link "export@eurowindow.biz" [ref=f62e403] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f62e408]:
+      - generic [ref=f62e409]:
+        - paragraph
+        - paragraph
+      - generic [ref=f62e410]:
+        - paragraph
+        - paragraph [ref=f62e411]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f62e417] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f62e418]

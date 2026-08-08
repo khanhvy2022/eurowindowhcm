@@ -1,4 +1,5 @@
 import { ArrowRight, MapPin, Building2 } from "lucide-react";
+import Link from "next/link";
 import { featuredProjects } from "@/data/eurowindow";
 
 export default function FeaturedProjects() {
@@ -31,30 +32,36 @@ export default function FeaturedProjects() {
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {featuredProjects.map((project) => (
-            <article key={project.title} className="glass-card glass-card-hover group flex flex-col overflow-hidden p-5">
-              <div className="relative aspect-[16/11] overflow-hidden rounded-xl bg-[#102238]">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#071523]/80 via-transparent to-transparent" />
-              </div>
-              <div className="flex flex-1 items-end justify-between gap-4 pt-5">
-                <div>
-                  <h3 className="text-lg font-bold tracking-tight text-white transition group-hover:text-[#E2C275]">
-                    {project.title}
-                  </h3>
-                  <p className="mt-2 flex items-center gap-1.5 text-xs text-[#94A3B8]">
-                    <MapPin className="h-3.5 w-3.5 text-[#E2C275]" />
-                    {project.location}
-                  </p>
+            <Link
+              key={project.title}
+              href={project.href}
+              className="group block h-full"
+            >
+              <article className="glass-card glass-card-hover flex h-full flex-col overflow-hidden p-5">
+                <div className="relative aspect-[16/11] overflow-hidden rounded-xl bg-[#102238]">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#071523]/80 via-transparent to-transparent" />
                 </div>
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 transition duration-300 group-hover:border-[#E2C275] group-hover:bg-[#E2C275] group-hover:text-[#071523]">
-                  <ArrowRight className="h-4 w-4" />
+                <div className="flex flex-1 items-end justify-between gap-4 pt-5">
+                  <div>
+                    <h3 className="text-lg font-bold tracking-tight text-white transition group-hover:text-[#E2C275]">
+                      {project.title}
+                    </h3>
+                    <p className="mt-2 flex items-center gap-1.5 text-xs text-[#94A3B8]">
+                      <MapPin className="h-3.5 w-3.5 text-[#E2C275]" />
+                      {project.location}
+                    </p>
+                  </div>
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 transition duration-300 group-hover:border-[#E2C275] group-hover:bg-[#E2C275] group-hover:text-[#071523]">
+                    <ArrowRight className="h-4 w-4" />
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </Link>
           ))}
         </div>
       </div>

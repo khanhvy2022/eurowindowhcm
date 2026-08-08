@@ -21,22 +21,17 @@ const accordions = [
   {
     id: "tam-nhin",
     label: "Tầm nhìn",
-    text: "Trở thành thương hiệu hàng đầu Việt Nam trong lĩnh vực giải pháp cửa, vách nhôm kính và vật liệu hoàn thiện — kiến tạo không gian sống văn minh, hài hòa công năng và thẩm mỹ.",
+    text: "Tiếp tục khẳng định vị thế Nhà cung cấp giải pháp tổng thể về vật liệu xây dựng xanh hàng đầu Việt Nam.",
   },
   {
     id: "su-menh",
     label: "Sứ mệnh",
-    text: "Đặt con người và môi trường ở vị trí trung tâm trong mọi quyết định, để mỗi công trình không chỉ đẹp hôm nay mà còn bền vững với ngày mai.",
+    text: "Tiên phong mang đến những sản phẩm công nghệ mới, thân thiện với môi trường, tiết kiệm năng lượng. Eurowindow phấn đấu nâng tầm chất lượng cuộc sống cho hàng triệu khách hàng và hiện đại hóa kiến trúc đô thị.\n\nĐồng hành cùng đối tác trên tinh thần cộng hưởng nhằm gia tăng giá trị dài hạn cho cổ đông và người lao động, Eurowindow gắn lợi ích doanh nghiệp với lợi ích chung của xã hội, chung tay cùng cộng đồng thúc đẩy sự phát triển phồn vinh của đất nước.",
   },
   {
-    id: "quan-niem",
-    label: "Quan niệm khi thiết kế",
-    text: "“Chúng tôi không bán cửa. Chúng tôi bảo đảm cho ranh giới giữa ngôi nhà và thế giới bên ngoài” — nơi ánh sáng, không khí và sự riêng tư được dung hòa chính xác.",
-  },
-  {
-    id: "phuong-cham",
-    label: "Phương châm hoạt động",
-    text: "Tư vấn rõ ràng, triển khai đồng bộ và đồng hành sau bàn giao để mỗi công trình duy trì giá trị bền vững theo thời gian.",
+    id: "gia-tri-cot-loi",
+    label: "Giá trị cốt lõi",
+    text: "CHẤT LƯỢNG: Sản phẩm và dịch vụ tốt quyết định uy tín Eurowindow.\nCHUYÊN NGHIỆP: Đội ngũ CBNV có trình độ chuyên môn cao, phong cách phục vụ chuyên nghiệp và tận tâm, góp phần tạo nên thành công của thương hiệu Eurowindow.\nHIỆU QUẢ: Trong từng hoạt động để gia tăng lợi ích cho khách hàng và cho Eurowindow.",
   },
 ] as const;
 
@@ -171,7 +166,7 @@ export default function AboutPage() {
 
         <section className="border-t border-white/10 bg-[#102238]/60 py-24">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white md:text-4xl">Giá trị cốt lõi</h2>
+            <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white md:text-4xl">Tầm nhìn – Sứ mệnh – Giá trị cốt lõi</h2>
             <div className="mt-12 space-y-4">
               {accordions.map((item) => (
                 <div key={item.id} className="glass-card overflow-hidden transition">
@@ -186,7 +181,7 @@ export default function AboutPage() {
                     <ChevronDown className={`h-5 w-5 shrink-0 text-[#E2C275] transition-transform ${open === item.id ? "rotate-180" : ""}`} />
                   </button>
                   {open === item.id ? (
-                    <div id={`panel-${item.id}`} className="border-t border-white/10 px-6 py-6 text-sm leading-relaxed text-[#D2D8E3]">{item.text}</div>
+                    <div id={`panel-${item.id}`} className="whitespace-pre-line border-t border-white/10 px-6 py-6 text-sm leading-relaxed text-[#D2D8E3]">{item.text}</div>
                   ) : null}
                 </div>
               ))}

@@ -1,0 +1,237 @@
+- generic [ref=f43e2]:
+  - banner [ref=f43e3]:
+    - generic [ref=f43e5]:
+      - generic [ref=f43e6]:
+        - list [ref=f43e7]:
+          - listitem [ref=f43e8]: VN
+          - listitem [ref=f43e9]: ENG
+        - generic [ref=f43e11]:
+          - textbox "Tìm kiếm" [ref=f43e12]:
+            - /placeholder: Tìm kiếm...
+          - button "Tìm kiếm" [ref=f43e13] [cursor=pointer]
+      - link [ref=f43e17] [cursor=pointer]:
+        - /url: https://eurowindow.biz
+        - img "Eurowindow" [ref=f43e18]
+      - link "Nhận tư vấn" [ref=f43e20] [cursor=pointer]:
+        - /url: javascript:;
+    - list [ref=f43e24]:
+      - listitem [ref=f43e25]:
+        - link "GIỚI THIỆU" [ref=f43e26] [cursor=pointer]:
+          - /url: /gioi-thieu.html
+      - listitem [ref=f43e27]:
+        - link "SẢN PHẨM" [ref=f43e28] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f43e31]:
+        - link "SHOWROOM" [ref=f43e32] [cursor=pointer]:
+          - /url: /he-thong-cua-hang.html
+      - listitem [ref=f43e33]:
+        - link "CÔNG TRÌNH TIÊU BIỂU" [ref=f43e34] [cursor=pointer]:
+          - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/cong-trinh-cap-quoc-gia
+      - listitem [ref=f43e37]:
+        - link "TÀI LIỆU" [ref=f43e38] [cursor=pointer]:
+          - /url: /tai-lieu.html
+      - listitem [ref=f43e39]:
+        - link "TIN TỨC" [ref=f43e40] [cursor=pointer]:
+          - /url: /tin-tuc
+      - listitem [ref=f43e43]:
+        - link "CHÍNH SÁCH" [ref=f43e44] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=f43e47]:
+        - link "LIÊN HỆ" [ref=f43e48] [cursor=pointer]:
+          - /url: /lien-he.html
+  - main [ref=f43e49]:
+    - generic [ref=f43e52]:
+      - heading "Chung cư Sun Grand City" [level=1] [ref=f43e54]
+      - list [ref=f43e56]:
+        - listitem [ref=f43e57]:
+          - link "Trang chủ" [ref=f43e58] [cursor=pointer]:
+            - /url: https://eurowindow.biz
+          - text: /
+        - listitem [ref=f43e59]:
+          - link "TÒA NHÀ VP - CHUNG CƯ" [ref=f43e60] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/toa-nha-vp-chung-cu
+          - text: /
+        - listitem [ref=f43e61]:
+          - link "Chung cư Sun Grand City" [ref=f43e62] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/chung-cu-sun-grand-city.html
+    - generic [ref=f43e64]:
+      - generic [ref=f43e65]:
+        - img "dji-0243-hdr" [ref=f43e67]
+        - generic [ref=f43e68]:
+          - link [ref=f43e70] [cursor=pointer]:
+            - /url: https://eurowindow.biz/cong-trinh-tieu-bieu/toa-nha-vp-chung-cu
+            - heading "TÒA NHÀ VP - CHUNG CƯ" [level=2] [ref=f43e71]
+          - paragraph [ref=f43e73]: Chung cư Sun Grand City
+      - generic [ref=f43e74]:
+        - paragraph [ref=f43e75]: Một số hình ảnh tiêu biểu
+        - generic [ref=f43e77]:
+          - generic [ref=f43e79]:
+            - link [ref=f43e82] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/20200218-sun-grand-city-0945.jpg.webp
+              - img "20200218-sun-grand-city-0945" [ref=f43e83]
+            - link [ref=f43e86] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/dji-0269-hdr-2.jpg.webp
+              - img "dji-0269-hdr-2" [ref=f43e87]
+            - link [ref=f43e90] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/dji-0232-hdr.jpg.webp
+              - img "dji-0232-hdr" [ref=f43e91]
+            - link [ref=f43e94] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/dji-0258-hdr.jpg.webp
+              - img "dji-0258-hdr" [ref=f43e95]
+            - link [ref=f43e98] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/20200218-sun-grand-city-0945.jpg.webp
+              - img "20200218-sun-grand-city-0945" [ref=f43e99]
+            - link [ref=f43e102] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/dji-0269-hdr-2.jpg.webp
+              - img "dji-0269-hdr-2" [ref=f43e103]
+            - link [ref=f43e106] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/dji-0232-hdr.jpg.webp
+              - img "dji-0232-hdr" [ref=f43e107]
+            - link [ref=f43e110] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/dji-0258-hdr.jpg.webp
+              - img "dji-0258-hdr" [ref=f43e111]
+            - link [ref=f43e114] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/20200218-sun-grand-city-0945.jpg.webp
+              - img "20200218-sun-grand-city-0945" [ref=f43e115]
+            - link [ref=f43e118] [cursor=pointer]:
+              - /url: https://storage.sudospaces.com/eurowindow/2022/07/w900/dji-0269-hdr-2.jpg.webp
+              - img "dji-0269-hdr-2" [ref=f43e119]
+          - generic:
+            - button [ref=f43e120] [cursor=pointer]
+            - button [ref=f43e123] [cursor=pointer]
+          - generic [ref=f43e126]:
+            - button [ref=f43e127] [cursor=pointer]
+            - button [ref=f43e129] [cursor=pointer]
+      - generic [ref=f43e131]:
+        - img "callcenter-1" [ref=f43e133]
+        - generic [ref=f43e134]:
+          - paragraph [ref=f43e135]: Đăng ký ngay để nhận tư vấn từ Eurowindow!
+          - generic [ref=f43e136]:
+            - generic [ref=f43e137]:
+              - textbox "Họ và tên" [ref=f43e139]:
+                - /placeholder: Họ và tên *
+              - textbox "Số điện thoại" [ref=f43e141]:
+                - /placeholder: Số điện thoại *
+              - textbox "Email" [ref=f43e143]:
+                - /placeholder: Email *
+            - textbox "Lời nhắn tới Eurowindow" [ref=f43e145]
+            - button "Gửi" [ref=f43e147] [cursor=pointer]
+  - contentinfo [ref=f43e148]:
+    - generic [ref=f43e150]:
+      - generic [ref=f43e151]:
+        - link [ref=f43e153] [cursor=pointer]:
+          - /url: https://eurowindow.biz
+          - img "logo-ngang-xanh-13" [ref=f43e154]
+        - generic [ref=f43e155]:
+          - link "Facebook" [ref=f43e156] [cursor=pointer]:
+            - /url: https://www.facebook.com/eurowindow.biz
+            - img "Facebook" [ref=f43e157]
+          - link "Instagram" [ref=f43e158] [cursor=pointer]:
+            - /url: https://www.instagram.com/eurowindow.biz/
+            - img "Instagram" [ref=f43e159]
+          - link "Youtube" [ref=f43e160] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCpMyOKyn5p1TX3urz_dHo7A
+            - img "Youtube" [ref=f43e161]
+          - link "Zalo" [ref=f43e162] [cursor=pointer]:
+            - /url: https://zalo.me/3969929733792079943
+            - img "Zalo" [ref=f43e163]
+          - link "Tiktok" [ref=f43e164] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@eurowindow.official
+        - link "(84 - 24) 37 47 47 00" [ref=f43e168] [cursor=pointer]:
+          - /url: tel:(84 - 24) 37 47 47 00
+        - link "infoew@eurowindow.biz" [ref=f43e172] [cursor=pointer]:
+          - /url: mailto:infoew@eurowindow.biz
+        - paragraph [ref=f43e176]:
+          - link "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội" [ref=f43e179] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/6Bj1QCJAheiMKr9Z6
+        - generic [ref=f43e180]:
+          - link "Bộ Công Thương" [ref=f43e181] [cursor=pointer]:
+            - /url: javascript:;
+            - img "Bộ Công Thương" [ref=f43e182]
+          - link "DMCA Protection Status" [ref=f43e183] [cursor=pointer]:
+            - /url: //www.dmca.com/Protection/Status.aspx?ID=9753a5d8-c1fa-42e2-876e-3a12383d7ae0
+            - img "DMCA.com Protection Status" [ref=f43e184]
+      - generic [ref=f43e185]:
+        - generic [ref=f43e186]: Giới thiệu
+        - list [ref=f43e187]:
+          - listitem [ref=f43e188]:
+            - link "Giới thiệu" [ref=f43e189] [cursor=pointer]:
+              - /url: /gioi-thieu.html
+          - listitem [ref=f43e190]:
+            - link "Tầm nhìn sứ mệnh" [ref=f43e191] [cursor=pointer]:
+              - /url: /tam-nhin-su-menh.html
+          - listitem [ref=f43e192]:
+            - link "Giải thưởng" [ref=f43e193] [cursor=pointer]:
+              - /url: /giai-thuong
+          - listitem [ref=f43e194]:
+            - link "Tài liệu" [ref=f43e195] [cursor=pointer]:
+              - /url: /tai-lieu.html
+      - generic [ref=f43e196]:
+        - generic [ref=f43e197]: Sản phẩm
+        - list [ref=f43e198]:
+          - listitem [ref=f43e199]:
+            - link "Cửa - Vách nhôm" [ref=f43e200] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-vach-nhom
+          - listitem [ref=f43e201]:
+            - link "Cửa uPVC" [ref=f43e202] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-nhua-upvc
+          - listitem [ref=f43e203]:
+            - link "Cửa gỗ" [ref=f43e204] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-go
+          - listitem [ref=f43e205]:
+            - link "Cửa cuốn" [ref=f43e206] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-cuon
+          - listitem [ref=f43e207]:
+            - link "Cửa thông minh" [ref=f43e208] [cursor=pointer]:
+              - /url: https://eurowindow.biz/cua-thong-minh-the-he-moi
+      - generic [ref=f43e209]:
+        - generic [ref=f43e210]: Tin tức
+        - list [ref=f43e211]:
+          - listitem [ref=f43e212]:
+            - link "Tin tức sự kiện" [ref=f43e213] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-tuc-su-kien
+          - listitem [ref=f43e214]:
+            - link "Tin dự án" [ref=f43e215] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-du-an
+          - listitem [ref=f43e216]:
+            - link "Tin nội bộ" [ref=f43e217] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-noi-bo
+          - listitem [ref=f43e218]:
+            - link "Tin khuyến mãi" [ref=f43e219] [cursor=pointer]:
+              - /url: https://eurowindow.biz/tin-tuc/tin-khuyen-mai
+          - listitem [ref=f43e220]:
+            - link "Tư vấn" [ref=f43e221] [cursor=pointer]:
+              - /url: /tu-van
+      - generic [ref=f43e222]:
+        - generic [ref=f43e223]: Chăm sóc khách hàng
+        - list [ref=f43e224]:
+          - listitem [ref=f43e225]:
+            - link "Chính sách bảo hành" [ref=f43e226] [cursor=pointer]:
+              - /url: https://eurowindow.biz/bao-hanh.html
+          - listitem [ref=f43e227]:
+            - link "Chính sách bảo mật thông tin khách hàng" [ref=f43e228] [cursor=pointer]:
+              - /url: https://eurowindow.biz/chinh-sach-bao-mat-thong-tin-khach-hang.html
+          - listitem [ref=f43e229]:
+            - link "(84 - 24) 37 47 47 00" [ref=f43e230] [cursor=pointer]:
+              - /url: tel:(84 - 24) 37 47 47 00
+          - listitem [ref=f43e233]:
+            - link "cskhhn@eurowindow.biz" [ref=f43e234] [cursor=pointer]:
+              - /url: mailto:cskhhn@eurowindow.biz
+          - generic [ref=f43e237]: Dự án quốc tế và xuất khẩu
+          - list [ref=f43e238]:
+            - listitem [ref=f43e239]:
+              - link "+84 -903 41 55 52" [ref=f43e240] [cursor=pointer]:
+                - /url: tel:+84 -903 41 55 52
+            - listitem [ref=f43e243]:
+              - link "export@eurowindow.biz" [ref=f43e244] [cursor=pointer]:
+                - /url: mailto:export@eurowindow.biz
+    - generic [ref=f43e249]:
+      - generic [ref=f43e250]:
+        - paragraph
+        - paragraph
+      - generic [ref=f43e251]:
+        - paragraph
+        - paragraph [ref=f43e252]: Copyright © 2021 www.eurowindow.biz
+  - link "Gọi điện thoại" [ref=f43e258] [cursor=pointer]:
+    - /url: tel:+84909 888 000
+    - img "Hotline" [ref=f43e259]
