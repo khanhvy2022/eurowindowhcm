@@ -4,6 +4,23 @@ import PageBanner from "@/components/PageBanner";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { articles } from "../articles-data";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Eurowindow News – Events, Offers & Construction Insights",
+  description:
+    "Stay updated with the latest Eurowindow news: highlights, promotions on aluminium glass doors, uPVC windows, and expert construction knowledge.",
+  alternates: {
+    canonical: "https://eurowindowhcm.vn/en/news",
+    languages: { vi: "https://eurowindowhcm.vn/tin-tuc", en: "https://eurowindowhcm.vn/en/news" },
+  },
+  openGraph: {
+    title: "Eurowindow News – Events, Offers & Construction Insights",
+    description: "Latest Eurowindow news, events and building material knowledge.",
+    url: "https://eurowindowhcm.vn/en/news",
+  },
+};
+
 
 function SectionHeader({ title, href }: { title: string; href: string }) {
   return (
@@ -19,7 +36,7 @@ function NewsCard({ slug, title, date, category, image }: { slug: string; title:
     <Link href={`/en/news/${slug}`} className="glass-card glass-card-hover group flex flex-col overflow-hidden p-5">
       {image ? (
         <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-[#102238]">
-          <img src={image} alt="" loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+          <img src={image} alt={title} loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#071523]/80 via-transparent to-transparent" />
         </div>
       ) : null}

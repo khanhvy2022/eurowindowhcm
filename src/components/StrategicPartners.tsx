@@ -28,6 +28,8 @@ export default function StrategicPartners() {
               <img
                 src={logo}
                 alt=""
+                role="presentation"
+                aria-hidden="true"
                 className="aspect-[12/7] w-[194px] max-w-full object-contain grayscale opacity-60 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-105"
               />
             </div>

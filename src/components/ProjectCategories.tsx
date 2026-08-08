@@ -12,7 +12,7 @@ export default function ProjectCategories() {
         <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-5">
           {categories.map(([title, image]) => (
             <a key={title} href="/du-an" className="group relative aspect-[1.08] overflow-hidden bg-zinc-800">
-              <img src={image} alt="" className="h-full w-full object-cover opacity-70 transition duration-700 group-hover:scale-105 group-hover:opacity-90" />
+              <img src={image} alt={title} className="h-full w-full object-cover opacity-70 transition duration-700 group-hover:scale-105 group-hover:opacity-90" />
               <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent px-5 pb-5 pt-14 text-base font-bold uppercase sm:text-xl">{title}</span>
             </a>
           ))}

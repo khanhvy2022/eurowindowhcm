@@ -5,6 +5,24 @@ import NewsListClient from "@/components/NewsListClient";
 import { getAllPosts } from "@/lib/posts";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Tin tức Eurowindow – Sự kiện, Ưu đãi & Kiến thức xây dựng",
+  description:
+    "Cập nhật tin tức mới nhất từ Eurowindow: sự kiện nổi bật, chương trình ưu đãi cửa nhôm kính, uPVC, cửa gỗ và chia sẻ kiến thức xây dựng.",
+  alternates: {
+    canonical: "https://eurowindowhcm.vn/tin-tuc",
+  },
+  openGraph: {
+    title: "Tin tức Eurowindow – Sự kiện, Ưu đãi & Kiến thức xây dựng",
+    description:
+      "Cập nhật tin tức mới nhất từ Eurowindow: sự kiện nổi bật, chương trình ưu đãi và chia sẻ kiến thức xây dựng.",
+    url: "https://eurowindowhcm.vn/tin-tuc",
+    images: [{ url: "/eurowindow/toa-dam-1.png.webp", width: 1200, height: 630, alt: "Tin tức Eurowindow" }],
+  },
+};
+
 
 const promos = [
   { slug: "khuyen-mai-kinh-dien", title: "KHUYẾN MÃI KÍNH ĐIỆN – SỞ HỮU CÔNG NGHỆ ĐỔI MÀU", date: "01/08/2026", category: "Ưu đãi" },
@@ -44,7 +62,7 @@ function NewsCard({ slug, title, date, category, image }: { slug: string; title:
     <Link href={`/tin-tuc/${slug}`} className="glass-card glass-card-hover group flex flex-col overflow-hidden p-5">
       {image ? (
         <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-[#102238]">
-          <img src={image} alt="" loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+          <img src={image} alt={title} loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#071523]/80 via-transparent to-transparent" />
         </div>
       ) : null}

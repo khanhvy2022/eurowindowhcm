@@ -50,7 +50,7 @@ export default function NewsSlide() {
               <SwiperSlide key={article.title}>
                 <article className="group">
                   <div className="aspect-[1.45] overflow-hidden bg-[#152238] relative">
-                    <img src={article.image} alt="" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                    <img src={article.image} alt={article.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                     <div className="absolute inset-0 bg-black/20 transition duration-500 group-hover:bg-black/10" />
                   </div>
                   <h3 className="mt-5 text-xl font-bold leading-snug tracking-[-0.03em]">{article.title}</h3>

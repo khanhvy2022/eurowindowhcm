@@ -18,16 +18,47 @@ export const metadata: Metadata = {
   },
   description:
     "Eurowindow – giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vật liệu xây dựng cao cấp chuẩn quốc tế. Hơn 23 năm kinh nghiệm, Top 1 thương hiệu cửa Việt Nam.",
-  icons: { icon: "/favicon.ico" },
+  keywords: [
+    "cửa nhôm kính",
+    "cửa uPVC",
+    "cửa gỗ",
+    "kính an toàn",
+    "vách kính",
+    "cửa cuốn",
+    "cửa tự động",
+    "eurowindow",
+    "eurowindow HCM",
+    "cửa cao cấp",
+    "vật liệu xây dựng",
+  ],
+  authors: [{ name: "Eurowindow HCM", url: "https://eurowindowhcm.vn" }],
+  creator: "Eurowindow HCM",
+  publisher: "Eurowindow HCM",
+  category: "Xây dựng & Vật liệu",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   metadataBase: new URL("https://eurowindowhcm.vn"),
+  alternates: {
+    canonical: "https://eurowindowhcm.vn",
+    languages: {
+      "vi": "https://eurowindowhcm.vn",
+      "en": "https://eurowindowhcm.vn/en",
+      "x-default": "https://eurowindowhcm.vn",
+    },
+  },
   openGraph: {
     type: "website",
     locale: "vi_VN",
+    alternateLocale: "en_US",
     siteName: "Eurowindow HCM",
     title: "Eurowindow HCM | Giải pháp cửa & vật liệu xây dựng cao cấp",
     description:
       "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn cho biệt thự, căn hộ và công trình hiện đại.",
     images: [{ url: "/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Eurowindow - Kiến tạo không gian sống đẳng cấp" }],
+    url: "https://eurowindowhcm.vn",
   },
   twitter: {
     card: "summary_large_image",
@@ -35,8 +66,23 @@ export const metadata: Metadata = {
     description:
       "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ và kính an toàn chuẩn quốc tế.",
     images: ["/eurowindow/cuanhom.jpg.webp"],
+    site: "@eurowindow_hcm",
+    creator: "@eurowindow_hcm",
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "google-site-verification-placeholder",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

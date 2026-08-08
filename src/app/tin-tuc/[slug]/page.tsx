@@ -122,7 +122,7 @@ export default async function ArticleDetailPage({ params }: Props) {
                 <Link key={item.slug} href={`/tin-tuc/${item.slug}`} className="group block">
                   {item.image ? (
                     <div className="aspect-[1.45] overflow-hidden bg-[#102238]">
-                      <img src={item.image} alt="" loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                      <img src={item.image} alt={item.title} loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                     </div>
                   ) : null}
                   <p className="mt-4 text-xs font-bold uppercase tracking-wide text-[#E2C275]">{item.category} · {item.date}</p>

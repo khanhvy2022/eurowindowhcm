@@ -201,7 +201,7 @@ export default function AboutPage() {
             <div className="mt-14 grid gap-6 md:grid-cols-3">
               {services.map((service) => (
                 <article key={service.title} className="glass-card glass-card-hover group relative min-h-[420px] overflow-hidden p-6">
-                  <img src={service.image} alt="" className="absolute inset-0 h-full w-full object-cover opacity-35 transition duration-700 group-hover:scale-105 group-hover:opacity-50" />
+                  <img src={service.image} alt={service.title} className="absolute inset-0 h-full w-full object-cover opacity-35 transition duration-700 group-hover:scale-105 group-hover:opacity-50" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#071523] via-[#071523]/60 to-transparent" />
                   <div className="relative flex h-full flex-col justify-end">
                     <h3 className="text-xl font-extrabold leading-tight text-white transition group-hover:text-[#E2C275]">{service.title}</h3>

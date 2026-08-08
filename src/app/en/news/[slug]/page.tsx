@@ -119,7 +119,7 @@ export default async function ArticleDetailPage({ params }: Props) {
                 <Link key={item.slug} href={`/en/news/${item.slug}`} className="glass-card glass-card-hover group flex flex-col overflow-hidden p-5">
                   {item.image ? (
                     <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-[#102238]">
-                      <img src={item.image} alt="" loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                      <img src={item.image} alt={item.title} loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                     </div>
                   ) : null}
                   <div className="pt-4 flex flex-1 flex-col justify-between">
