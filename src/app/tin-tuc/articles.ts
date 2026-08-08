@@ -82,7 +82,6 @@ export const articles: Article[] = [
         id: "cac-giai-phap-tieu-bieu",
         body: [
           "Cửa nhựa uPVC với cấu trúc khoang rỗng nhiều ngăn kết hợp kính hộp cách nhiệt giúp ngăn truyền nhiệt vượt trội. Cửa nhôm kính kết hợp kính Low-E phản xạ bức xạ mặt trời, giảm nóng hiệu quả mà vẫn đón sáng tự nhiên.",
-          "Ngoài ra, các loại kính hộp cách nhiệt với khí Argon giúp cách âm, cách nhiệt tối ưu — phù hợp cho nhà phố, biệt thự và công trình văn phòng.",
         ],
       },
     ],
@@ -103,16 +102,188 @@ export const articles: Article[] = [
         heading: "Yếu tố quyết định khi chọn cửa",
         id: "yeu-to-quyet-dinh",
         body: [
-          "Khi lựa chọn cửa cho khí hậu nắng nóng, cần cân nhắc khả năng cách nhiệt của khung, loại kính, hệ số truyền nhiệt và chi phí vận hành lâu dài. Sự kết hợp hài hòa giữa khung cửa và kính quyết định hiệu quả chống nóng tổng thể.",
+          "Khi lựa chọn cửa cho khí hậu nắng nóng, cần cân nhắc khả năng cách nhiệt của khung, loại kính, hệ số truyền nhiệt và chi phí vận hành lâu dài.",
         ],
       },
+    ],
+  },
+  {
+    slug: "eurowindow-top-10-doanh-nghiep-xanh-2026",
+    title: "Eurowindow tự hào được vinh danh Top 10 doanh nghiệp xanh Việt Nam 2026",
+    category: "Sự kiện",
+    date: "28/06/2026",
+    excerpt: "Eurowindow tiếp tục khẳng định vị thế dẫn đầu khi lần thứ 14 vinh danh trong bảng xếp hạng doanh nghiệp phát triển xanh và bền vững.",
+    image: "/eurowindow/img-0344.jpeg.webp",
+    sections: [
       {
-        heading: "Gợi ý từ Eurowindow",
-        id: "goi-y-tu-eurowindow",
-        body: [
-          "Với nhà phố, biệt thự, Eurowindow khuyến nghị cửa nhựa uPVC kết hợp kính hộp cách nhiệt hoặc cửa nhôm kính dùng kính Low-E. Với mặt tiền kính lớn, nên dùng vách kính hộp cách nhiệt có thanh nhôm nhiệt cắt cầu để ngăn thất thoát nhiệt.",
-          "Hãy liên hệ Eurowindow để được tư vấn giải pháp phù hợp nhất với công trình của bạn.",
-        ],
+        heading: "Hành trình cam kết phát triển xanh",
+        id: "hanh-trinh-cam-ket",
+        body: ["Ứng dụng công nghệ tiết kiệm năng lượng và dây chuyền sản xuất hiện đại tiêu chuẩn Châu Âu giúp Eurowindow giảm phát thải carbon."],
+      },
+    ],
+  },
+  {
+    slug: "eurowindow-dien-dan-nang-luong-moi-truong",
+    title: "Eurowindow đồng hành Diễn đàn Năng lượng và Môi trường Thế giới – Việt Nam 2026",
+    category: "Sự kiện",
+    date: "20/06/2026",
+    excerpt: "Thúc đẩy các giải pháp vật liệu xây dựng xanh hướng tới Net Zero và kiến trúc phát triển bền vững.",
+    image: "/eurowindow/toa-dam-1.png.webp",
+    sections: [
+      {
+        heading: "Đồng hành hướng tới mục tiêu Net Zero",
+        id: "dong-hanh-net-zero",
+        body: ["Eurowindow mang tới các giải pháp vách kính tiết kiệm năng lượng, kính Low-E và cửa nhôm cầu cách nhiệt cao cấp."],
+      },
+    ],
+  },
+  {
+    slug: "eurowindow-fpt-telecom-tower",
+    title: "Eurowindow trúng thầu thi công hệ cửa và vách nhôm kính dự án FPT Telecom Tower",
+    category: "Dự án",
+    date: "12/06/2026",
+    excerpt: "Thi công hệ vách kính mặt dựng nhôm kính lớn cho tòa nhà công nghệ hiện đại FPT Telecom Tower.",
+    image: "/eurowindow/constructions/img-7172.jpg.webp",
+    sections: [
+      {
+        heading: "Hệ vách kính mặt dựng quy mô lớn",
+        id: "he-vach-kinh-mat-dung",
+        body: ["Dự án đòi hỏi khả năng chịu lực gió, cách âm và phản quang chống chói tối ưu cho tòa nhà văn phòng cao tầng."],
+      },
+    ],
+  },
+  {
+    slug: "eurowindow-sunshine-noble-palace",
+    title: "Eurowindow góp phần kiến tạo không gian sống thượng lưu dự án Sunshine Noble Palace Long Biên",
+    category: "Dự án",
+    date: "02/06/2026",
+    excerpt: "Cung cấp trọn gói hệ thống cửa nhôm kính cao cấp cho quần thể biệt thự xa xỉ tại Hà Nội.",
+    image: "/eurowindow/constructions/img-7105.jpg.webp",
+    sections: [
+      {
+        heading: "Đẳng cấp kiến trúc thượng lưu",
+        id: "dang-cap-kien-truc",
+        body: ["Cửa nhôm kính Eurowindow tôn vinh vẻ đẹp hiện đại và đáp ứng các tiêu chuẩn cách âm, kín nước cao nhất."],
+      },
+    ],
+  },
+  {
+    slug: "eurowindow-the-9-stellars",
+    title: "Eurowindow trúng thầu thi công cửa và vách nhôm kính dự án The 9 Stellars",
+    category: "Dự án",
+    date: "25/05/2026",
+    excerpt: "Triển khai lắp đặt giải pháp cửa nhôm kính cao cấp tại khu đô thị thông minh The 9 Stellars TP. Thủ Đức.",
+    image: "/eurowindow/constructions/dji-0090-1.jpg.webp",
+    sections: [
+      {
+        heading: "Dấu ấn kiến trúc tại TP. Thủ Đức",
+        id: "dau-an-thu-duc",
+        body: ["Đồng hành cùng chủ đầu tư tạo nên không gian sống xanh, đón ánh sáng tự nhiên tối đa."],
+      },
+    ],
+  },
+  {
+    slug: "eurowindow-the-prive-nam-rach-chiec",
+    title: "Eurowindow kiến tạo không gian sống tại chung cư cao tầng The Privé Nam Rạch Chiếc",
+    category: "Dự án",
+    date: "15/05/2026",
+    excerpt: "Cung cấp giải pháp cửa uPVC cách âm và vách nhôm kính ban công cho tổ hợp căn hộ cao cấp.",
+    image: "/eurowindow/constructions/benh-vien-ung-buou-da-nang-17.jpg.webp",
+    sections: [
+      {
+        heading: "Giải pháp cửa cách âm vượt trội",
+        id: "cua-cach-am-privie",
+        body: ["Giúp cư dân tận hưởng không gian yên tĩnh và tầm nhìn xanh tuyệt đẹp hướng sông."],
+      },
+    ],
+  },
+  {
+    slug: "cua-nhom-cau-cach-nhiet-bi-quyet-tiet-kiem-dien",
+    title: "Cửa nhôm cầu cách nhiệt – Bí quyết tiết kiệm điện năng cho biệt thự hiện đại",
+    category: "Chia sẻ kiến thức",
+    date: "02/05/2026",
+    excerpt: "Giải mã cấu tạo dải polyamide cách nhiệt giúp cản nhiệt nóng mùa hè và giữ ấm mùa đông.",
+    image: "/eurowindow/cuanhom.jpg.webp",
+    sections: [
+      {
+        heading: "Công nghệ cầu cách nhiệt Châu Âu",
+        id: "cong-nghe-cau-cach-nhiet",
+        body: ["Dải Polyamide cách nhiệt giảm đến 40% lượng nhiệt thất thoát qua khung nhôm."],
+      },
+    ],
+  },
+  {
+    slug: "phong-thuy-cua-so-va-cua-chinh",
+    title: "Phong thủy cửa sổ và cửa chính: Kích thước Lỗ Ban đón tài lộc cho gia chủ",
+    category: "Chia sẻ kiến thức",
+    date: "20/04/2026",
+    excerpt: "Hướng dẫn chọn kích thước lọt lòng hợp phong thủy theo Thước Lỗ Ban 52.2cm chuẩn xác.",
+    image: "/eurowindow/cuanhua1.jpg.webp",
+    sections: [
+      {
+        heading: "Ứng dụng Thước Lỗ Ban 52.2cm",
+        id: "ung-dung-thuoc-lo-ban",
+        body: ["Đo thông thủy cửa đi và cửa sổ vào các cung Cát: Tài Lộc, Quý Nhân, Tử Tức."],
+      },
+    ],
+  },
+  {
+    slug: "so-sanh-cua-nhom-va-cua-upvc",
+    title: "So sánh cửa nhôm kính và cửa nhựa uPVC Eurowindow: Nên chọn loại nào?",
+    category: "Chia sẻ kiến thức",
+    date: "10/04/2026",
+    excerpt: "Phân tích ưu nhược điểm, độ bền, độ cách âm và chi phí giữa cửa nhôm cao cấp và cửa uPVC.",
+    image: "/eurowindow/cuagotrangchu.jpg.webp",
+    sections: [
+      {
+        heading: "So sánh toàn diện hai hệ cửa",
+        id: "so-sanh-hai-he-cua",
+        body: ["Cửa uPVC vượt trội về cách âm cách nhiệt. Cửa nhôm vượt trội về chịu lực và thẩm mỹ kính lớn."],
+      },
+    ],
+  },
+  {
+    slug: "quy-trinh-san-xuat-kinh-cuong-luc-eurowindow",
+    title: "Quy trình gia công kính cường lực và kính hộp cách nhiệt tiêu chuẩn Châu Âu",
+    category: "Chia sẻ kiến thức",
+    date: "01/04/2026",
+    excerpt: "Khám phá quy trình tôi cường lực, nạp khí Argon và gia công kính Low-E tại nhà máy Eurowindow.",
+    image: "/eurowindow/san-pham-kinh.jpg.webp",
+    sections: [
+      {
+        heading: "Dây chuyền công nghệ cao",
+        id: "day-chuyen-cong-nghe",
+        body: ["Sử dụng công nghệ Châu Âu đảm bảo bề mặt kính phẳng hoàn hảo và chịu va đập gấp 5 lần."],
+      },
+    ],
+  },
+  {
+    slug: "khuyen-mai-kinh-dien-doi-mau",
+    title: "Chương trình ưu đãi kính điện đổi màu và cửa tự động Eurowindow 2026",
+    category: "Ưu đãi",
+    date: "20/03/2026",
+    excerpt: "Ưu đãi hấp dẫn lên đến 15% cho các gói giải pháp kính thông minh và cửa trượt tự động.",
+    image: "/eurowindow/cua-tu-dong.jpg.webp",
+    sections: [
+      {
+        heading: "Trải nghiệm kính thông minh cao cấp",
+        id: "trai-nghiem-kinh-thong-minh",
+        body: ["Đổi màu linh hoạt từ trong suốt sang mờ chỉ bằng một thao tác bấm công tắc hoặc smartphone."],
+      },
+    ],
+  },
+  {
+    slug: "bao-tri-he-thong-cua-dung-cach",
+    title: "Hướng dẫn bảo trì & vệ sinh hệ thống cửa nhôm kính luôn như mới",
+    category: "Chia sẻ kiến thức",
+    date: "10/03/2026",
+    excerpt: "Mẹo vệ sinh bề mặt nhôm sơn tĩnh điện và tra dầu phụ kiện kim khí định kỳ đúng kỹ thuật.",
+    image: "/eurowindow/cua-cuon.jpg.webp",
+    sections: [
+      {
+        heading: "Quy trình chăm sóc định kỳ",
+        id: "quy-trinh-cham-soc",
+        body: ["Giúp nâng cao tuổi thọ vận hành cửa lên tới 30 - 50 năm."],
       },
     ],
   },

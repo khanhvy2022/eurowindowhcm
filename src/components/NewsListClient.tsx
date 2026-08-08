@@ -60,20 +60,16 @@ export default function NewsListClient({ initialPosts }: { initialPosts: NewsIte
         ))}
       </div>
 
-      {hasMore ? (
+      {hasMore && (
         <div className="mt-12 text-center">
           <button
             onClick={handleLoadMore}
             type="button"
             className="btn-gold-luxury inline-flex items-center gap-2 px-8 py-4 text-xs font-bold uppercase tracking-widest"
           >
-            Xem thêm bài viết ({initialPosts.length - visibleCount} bài còn lại)
+            Xem thêm
             <ChevronDown className="h-4 w-4" />
           </button>
-        </div>
-      ) : (
-        <div className="mt-12 text-center text-xs font-semibold uppercase tracking-wider text-[#94A3B8]">
-          Đã hiển thị tất cả {initialPosts.length} bài viết
         </div>
       )}
     </div>
