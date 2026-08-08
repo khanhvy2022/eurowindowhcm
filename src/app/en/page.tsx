@@ -9,8 +9,6 @@ import Services from "@/components/Services";
 import ProjectCategories from "@/components/ProjectCategories";
 import NewsSection from "@/components/NewsSection";
 import StrategicPartners from "@/components/StrategicPartners";
-import CostEstimator from "@/components/CostEstimator";
-import FengShuiTool from "@/components/FengShuiTool";
 
 export default function HomeEn() {
   return (
@@ -30,8 +28,6 @@ export default function HomeEn() {
         <FeaturedProjects />
         <Services />
         <ProjectCategories />
-        <CostEstimator />
-        <FengShuiTool />
         <NewsSection />
         <StrategicPartners />
       </main>
