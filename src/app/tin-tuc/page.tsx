@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PageBanner from "@/components/PageBanner";
+import NewsListClient from "@/components/NewsListClient";
 import { getAllPosts } from "@/lib/posts";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -62,13 +63,15 @@ function NewsCard({ slug, title, date, category, image }: { slug: string; title:
 
 export default async function NewsPage() {
   const dbPosts = await getAllPosts();
-  const latest = dbPosts.slice(0, 8).map((a) => ({
+  const allFormattedPosts = dbPosts.map((a) => ({
     slug: a.slug,
     title: a.title,
     date: a.date,
     category: a.category,
     image: a.image,
+    excerpt: a.excerpt,
   }));
+
   return (
     <div className="min-h-screen bg-[#071523] text-white">
       <Header />
@@ -77,10 +80,12 @@ export default async function NewsPage() {
 
         <section className="pb-24 pt-16">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <SectionHeader title="Tin mới nhất" href="/danh-muc-tin-tuc" />
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {latest.map((article) => <NewsCard key={article.slug} {...article} />)}
+            <div className="mb-10">
+              <h2 className="text-2xl font-extrabold uppercase tracking-tight text-white md:text-3xl">
+                Tin mới nhất
+              </h2>
             </div>
+            <NewsListClient initialPosts={allFormattedPosts} />
           </div>
         </section>
 
