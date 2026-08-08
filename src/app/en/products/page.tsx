@@ -12,25 +12,29 @@ export const metadata = {
 
 export default function ProductsPage() {
   return (
-    <div className="min-h-screen bg-[#0b1628] text-white">
+    <div className="min-h-screen bg-[#071523] text-white">
       <Header lang="en" />
       <main>
-        <PageBanner title="PRODUCTS" crumb="Products" bgImage="/eurowindow/products-hero.jpg.webp" />
+        <PageBanner title="PRODUCTS &amp; SOLUTIONS" crumb="Products" homeHref="/en" bgImage="/eurowindow/cuanhom.jpg.webp" />
 
-        <section className="pb-20 pt-12">
+        <section className="pb-24 pt-16">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <h2 className="mb-10 text-3xl font-bold uppercase tracking-[-0.04em] md:text-4xl">Our Products</h2>
+            <h2 className="mb-10 text-3xl font-extrabold uppercase tracking-tight text-white md:text-4xl">Our Products</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {products.map((product) => (
-                <Link key={product.slug} href={`/en/products/${product.slug}`} className="group overflow-hidden bg-[#14253f]">
-                  <div className="relative aspect-[16/10] overflow-hidden">
-                    <img src={product.image} alt={product.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
-                    <div className="absolute inset-0 bg-black/30" />
+                <Link key={product.slug} href={`/en/products/${product.slug}`} className="glass-card glass-card-hover group overflow-hidden p-5 flex flex-col justify-between">
+                  <div>
+                    <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-[#102238]">
+                      <img src={product.image} alt={product.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#071523]/80 via-transparent to-transparent" />
+                    </div>
+                    <div className="pt-5">
+                      <h3 className="text-xl font-extrabold uppercase tracking-wide text-white transition group-hover:text-[#E2C275]">{product.title}</h3>
+                      <p className="mt-3 text-sm leading-relaxed text-[#D2D8E3]">{product.text.slice(0, 120)}...</p>
+                    </div>
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold uppercase tracking-[-0.03em]">{product.title}</h3>
-                    <p className="mt-3 text-sm leading-6 text-zinc-400">{product.text.slice(0, 120)}...</p>
-                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-[#4da6e0]">View details <ArrowRight className="h-4 w-4" /></span>
+                  <div className="pt-4">
+                    <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#E2C275] transition group-hover:text-white">View details <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></span>
                   </div>
                 </Link>
               ))}
@@ -38,7 +42,7 @@ export default function ProductsPage() {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer lang="en" />
     </div>
   );
 }

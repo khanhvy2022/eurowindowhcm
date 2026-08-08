@@ -22,30 +22,33 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
   if (!product) notFound();
 
   return (
-    <div className="min-h-screen bg-[#0b1628] text-white">
+    <div className="min-h-screen bg-[#071523] text-white">
       <Header lang="en" />
       <main>
-        <PageBanner title={product.tab} crumb={product.title} bgImage={product.image} />
+        <PageBanner title={product.tab} crumb={product.title} homeHref="/en" bgImage={product.image} />
 
-        <section className="pb-20 pt-12">
+        <section className="pb-24 pt-14">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
             <div className="mb-8 flex items-center gap-3">
-              <span className="inline-block rounded-full bg-[#0066aa] px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white">{product.tab}</span>
+              <span className="inline-block rounded-full border border-[#E2C275]/40 bg-[#E2C275]/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[#E2C275]">
+                {product.tab}
+              </span>
             </div>
 
             <div className="grid gap-12 lg:grid-cols-2 lg:items-start">
-              <div className="relative aspect-[16/10] w-full overflow-hidden bg-[#1a2e4d]">
-                <Image src={product.image} alt={product.title} fill className="object-cover" />
-                <div className="absolute inset-0 bg-black/20" />
+              <div className="glass-card p-3 backdrop-blur-2xl">
+                <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-[#102238]">
+                  <Image src={product.image} alt={product.title} fill className="object-cover" />
+                </div>
               </div>
 
               <div className="flex flex-col justify-center gap-6">
-                <h2 className="text-3xl font-bold uppercase tracking-[-0.04em]">{product.title}</h2>
-                <p className="max-w-xl leading-8 text-zinc-300">{product.text}</p>
+                <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white sm:text-4xl">{product.title}</h2>
+                <p className="max-w-xl text-base leading-relaxed text-[#D2D8E3]">{product.text}</p>
                 <ul className="mt-2 space-y-3">
                   {product.features.map((f) => (
-                    <li key={f} className="flex items-start gap-3 text-sm leading-6 text-zinc-200">
-                      <Check className="mt-1 h-4 w-4 shrink-0 text-[#4da6e0]" strokeWidth={3} />
+                    <li key={f} className="flex items-start gap-3 text-sm leading-relaxed text-[#D2D8E3]">
+                      <Check className="mt-1 h-4 w-4 shrink-0 text-[#E2C275]" strokeWidth={3} />
                       {f}
                     </li>
                   ))}
@@ -54,47 +57,47 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             </div>
 
             <div className="mt-16 border-t border-white/10 pt-14">
-              <h3 className="text-2xl font-bold uppercase tracking-[-0.04em]">Introduction</h3>
-              <div className="mt-6 space-y-5 leading-8 text-zinc-300">
+              <h3 className="text-2xl font-extrabold uppercase tracking-tight text-white">Introduction</h3>
+              <div className="mt-6 space-y-5 text-base leading-relaxed text-[#D2D8E3]">
                 {product.intro.map((p, i) => (
                   <p key={i}>{p}</p>
                 ))}
               </div>
 
-              <h3 className="mt-10 text-2xl font-bold uppercase tracking-[-0.04em]">Product Structure</h3>
-              <div className="mt-6 grid gap-4 md:grid-cols-2">
+              <h3 className="mt-12 text-2xl font-extrabold uppercase tracking-tight text-white">Product Structure</h3>
+              <div className="mt-6 grid gap-6 md:grid-cols-2">
                 {product.structure.map((s) => (
-                  <div key={s.title} className="border-l-2 border-[#0066aa] pl-5">
-                    <h4 className="font-bold">{s.title}</h4>
-                    <p className="mt-2 text-sm leading-7 text-zinc-400">{s.text}</p>
+                  <div key={s.title} className="glass-card p-6 border-l-4 border-l-[#E2C275]">
+                    <h4 className="font-bold text-white text-lg">{s.title}</h4>
+                    <p className="mt-2 text-sm leading-relaxed text-[#D2D8E3]">{s.text}</p>
                   </div>
                 ))}
               </div>
 
-              <h3 className="mt-10 text-2xl font-bold uppercase tracking-[-0.04em]">Advantages</h3>
-              <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              <h3 className="mt-12 text-2xl font-extrabold uppercase tracking-tight text-white">Advantages</h3>
+              <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {product.advantages.map((a) => (
-                  <div key={a.title} className="border border-white/10 bg-[#14253f] p-6">
-                    <h4 className="flex items-start gap-3 font-bold">
-                      <Check className="mt-1 h-4 w-4 shrink-0 text-[#4da6e0]" strokeWidth={3} />
+                  <div key={a.title} className="glass-card glass-card-hover p-6">
+                    <h4 className="flex items-start gap-3 font-bold text-white text-base">
+                      <Check className="mt-1 h-4 w-4 shrink-0 text-[#E2C275]" strokeWidth={3} />
                       {a.title}
                     </h4>
-                    <p className="mt-3 text-sm leading-6 text-zinc-400">{a.text}</p>
+                    <p className="mt-3 text-xs leading-relaxed text-[#94A3B8]">{a.text}</p>
                   </div>
                 ))}
               </div>
 
-              <h3 className="mt-10 text-2xl font-bold uppercase tracking-[-0.04em]">Product Lines</h3>
-              <div className="mt-6 flex flex-wrap gap-2">
+              <h3 className="mt-12 text-2xl font-extrabold uppercase tracking-tight text-white">Product Lines</h3>
+              <div className="mt-6 flex flex-wrap gap-3">
                 {product.systems.map((s) => (
-                  <span key={s} className="rounded-full border border-white/20 bg-[#14253f] px-4 py-2 text-sm text-zinc-300">{s}</span>
+                  <span key={s} className="rounded-full border border-[#E2C275]/30 bg-[#E2C275]/10 px-5 py-2 text-xs font-bold uppercase tracking-wider text-[#E2C275]">{s}</span>
                 ))}
               </div>
             </div>
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer lang="en" />
     </div>
   );
 }
