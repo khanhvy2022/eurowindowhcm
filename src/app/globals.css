@@ -45,6 +45,11 @@ html {
   overflow-x: clip;
 }
 
+img, video {
+  content-visibility: auto;
+  contain-intrinsic-size: 300px 200px;
+}
+
 body {
   background: linear-gradient(180deg, #071523 0%, #0c1c33 35%, #102238 65%, #071523 100%);
   color: var(--text-secondary);
