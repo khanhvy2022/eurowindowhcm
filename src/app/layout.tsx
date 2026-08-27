@@ -13,7 +13,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "Cửa Eurowindow Hồ Chí Minh | Giải pháp cửa & vật liệu xây dựng cao cấp",
+    default: "Cửa Eurowindow Hồ Chí Minh",
     template: "%s | Cửa Eurowindow Hồ Chí Minh",
   },
   description:
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     alternateLocale: "en_US",
     siteName: "Cửa Eurowindow Hồ Chí Minh",
-    title: "Cửa Eurowindow Hồ Chí Minh | Giải pháp cửa & vật liệu xây dựng cao cấp",
+    title: "Cửa Eurowindow Hồ Chí Minh",
     description:
       "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn cho biệt thự, căn hộ và công trình hiện đại.",
     images: [{ url: "/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Eurowindow - Kiến tạo không gian sống đẳng cấp" }],
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cửa Eurowindow Hồ Chí Minh | Giải pháp cửa & vật liệu xây dựng cao cấp",
+    title: "Cửa Eurowindow Hồ Chí Minh",
     description:
       "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ và kính an toàn chuẩn quốc tế.",
     images: ["/eurowindow/cuanhom.jpg.webp"],
