@@ -36,6 +36,31 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/p/lien-he-2.html",
+        destination: "/dich-vu",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/lien-he-2",
+        destination: "/dich-vu",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/eurowindow-tu-hao-5-lan-lien-tiep-at-2",
+        destination: "/tin-tuc/eurowindow-tu-hao-5-lan-lien-tiep-at",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/cong-trinh-cua-eurowindow-vung-tau-2",
+        destination: "/tin-tuc/cong-trinh-cua-eurowindow-vung-tau",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/san-pham-cua-nhom-eurowindow",
+        destination: "/tin-tuc/cua-nhom-eurowindow",
+        permanent: true,
+      },
+      {
         source: "/p/anh-cua-ep.html",
         destination: "/tin-tuc/anh-cua-dep",
         permanent: true,
