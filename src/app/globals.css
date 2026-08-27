@@ -346,16 +346,27 @@ textarea {
   animation: scrollDotBounce 2s infinite ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .animate-hero-enter {
-    animation: none;
-    opacity: 1;
-    filter: none;
-    transform: none;
-  }
-  .animate-scroll-dot {
-    animation: none;
-    opacity: 0.7;
-  }
+@keyframes phoneRing {
+  0% { transform: rotate(0) scale(1) skew(1deg); }
+  10% { transform: rotate(-25deg) scale(1) skew(1deg); }
+  20% { transform: rotate(25deg) scale(1) skew(1deg); }
+  30% { transform: rotate(-25deg) scale(1) skew(1deg); }
+  40% { transform: rotate(25deg) scale(1) skew(1deg); }
+  50% { transform: rotate(0) scale(1) skew(1deg); }
+  100% { transform: rotate(0) scale(1) skew(1deg); }
+}
+
+@keyframes contactPulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 104, 255, 0.6); }
+  70% { transform: scale(1); box-shadow: 0 0 0 14px rgba(0, 104, 255, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 104, 255, 0); }
+}
+
+.animate-phone-ring {
+  animation: phoneRing 1.2s infinite ease-in-out;
+}
+
+.animate-zalo-pulse {
+  animation: contactPulse 2s infinite;
 }
 

@@ -21,7 +21,7 @@ export default function QuickContactButtons() {
         className="group relative flex items-center gap-2.5 rounded-full bg-white/95 p-1.5 pr-4 shadow-lg shadow-blue-500/20 backdrop-blur-md border border-blue-100 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-blue-500/30"
       >
         {/* Vòng xung quanh Zalo */}
-        <span className="relative flex h-11 w-11 items-center justify-center rounded-full bg-[#0068FF] text-white shadow-md shadow-[#0068FF]/30">
+        <span className="relative flex h-11 w-11 items-center justify-center rounded-full bg-[#0068FF] text-white shadow-md shadow-[#0068FF]/40 animate-zalo-pulse">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#0068FF] opacity-30 duration-1000" />
           <svg
             className="relative h-6 w-6 fill-current transition-transform duration-300 group-hover:scale-110"
@@ -47,16 +47,16 @@ export default function QuickContactButtons() {
       <a
         href={`tel:${phoneNumber}`}
         title={`Gọi Hotline: ${displayPhone}`}
-        className="group relative flex items-center gap-2.5 rounded-full bg-white/95 p-1.5 pr-4 shadow-lg shadow-emerald-500/20 backdrop-blur-md border border-emerald-100 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-emerald-500/30"
+        className="group relative flex items-center gap-2.5 rounded-full bg-white/95 p-1.5 pr-4 shadow-lg shadow-red-500/20 backdrop-blur-md border border-red-100 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-red-500/30"
       >
         {/* Vòng hiệu ứng sóng Hotline */}
-        <span className="relative flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-tr from-emerald-600 to-teal-500 text-white shadow-md shadow-emerald-600/30">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-35 duration-700" />
-          <Phone className="relative h-5 w-5 animate-pulse fill-current transition-transform duration-300 group-hover:rotate-12" />
+        <span className="relative flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-tr from-red-600 via-rose-500 to-amber-500 text-white shadow-md shadow-red-600/40">
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-500 opacity-40 duration-700" />
+          <Phone className="relative h-5 w-5 animate-phone-ring fill-current transition-transform duration-300" />
         </span>
         <div className="flex flex-col text-left leading-tight">
-          <span className="text-[10px] font-extrabold uppercase tracking-wider text-emerald-600">Hotline 24/7</span>
-          <span className="text-xs font-extrabold text-slate-900 group-hover:text-emerald-600 transition-colors tracking-tight">
+          <span className="text-[10px] font-extrabold uppercase tracking-wider text-red-600">Hotline 24/7</span>
+          <span className="text-xs font-extrabold text-slate-900 group-hover:text-red-600 transition-colors tracking-tight">
             {displayPhone}
           </span>
         </div>
