@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
       // Static Blogger pages
       {
         source: "/p/lien-he.html",
-        destination: "/dich-vu",
+        destination: "/lien-he",
         permanent: true,
       },
       {
@@ -37,12 +37,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/p/lien-he-2.html",
-        destination: "/dich-vu",
+        destination: "/lien-he",
         permanent: true,
       },
       {
         source: "/tin-tuc/lien-he-2",
-        destination: "/dich-vu",
+        destination: "/lien-he",
         permanent: true,
       },
       {

@@ -44,6 +44,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url("/tin-tuc", 0.9, "daily"),
     url("/tin-tuc/du-an", 0.7, "weekly"),
     url("/dich-vu", 0.8, "monthly"),
+    url("/lien-he", 0.9, "monthly"),
     url("/thiet-ke-kien-truc", 0.8, "monthly"),
     // English pages
     url("/en", 0.8, "weekly"),
@@ -57,6 +58,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url("/en/projects/tin-du-an", 0.7, "weekly"),
     url("/en/news", 0.8, "daily"),
     url("/en/services", 0.7, "monthly"),
+    url("/en/contact", 0.8, "monthly"),
   ];
 
   const productRoutes: MetadataRoute.Sitemap = products.map((p) => ({

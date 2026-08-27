@@ -23,6 +23,7 @@ const viItems: Item[] = [
   },
   { label: "Sản phẩm", href: "/san-pham", children: [{ label: "Cửa nhôm & vách kính", href: "/san-pham/cua-nhom" }, { label: "Cửa uPVC", href: "/san-pham/cua-nhua-upvc" }, { label: "Cửa gỗ & chống cháy", href: "/san-pham/cua-go" }, { label: "Sản phẩm kính", href: "/san-pham/san-pham-kinh" }, { label: "Cửa tự động", href: "/san-pham/cua-tu-dong" }, { label: "Cửa cuốn", href: "/san-pham/cua-cuon" }] },
   { label: "Tin tức", href: "/tin-tuc" },
+  { label: "Liên hệ", href: "/lien-he" },
 ];
 
 const enItems: Item[] = [
@@ -40,6 +41,7 @@ const enItems: Item[] = [
   },
   { label: "Products", href: "/en/products", children: [{ label: "Aluminium doors", href: "/en/products/cua-nhom-vach-kinh" }, { label: "uPVC doors", href: "/en/products/cua-upvc" }, { label: "Wooden doors", href: "/en/products/cua-go-va-go-chong-chay" }, { label: "Glass products", href: "/en/products/san-pham-kinh" }, { label: "Automatic doors", href: "/en/products/cua-tu-dong-va-cua-xoay" }, { label: "Roller doors", href: "/en/products/cua-cuon-nhom-khe-thoang" }] },
   { label: "News", href: "/en/news" },
+  { label: "Contact", href: "/en/contact" },
 ];
 
 export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
@@ -109,12 +111,12 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
           <LanguageSwitcher lang={lang} />
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
-          <a
-            href="#lien-he"
+          <Link
+            href={lang === "en" ? "/en/contact" : "/lien-he"}
             className="btn-gold-luxury text-sm font-bold uppercase tracking-wider"
           >
             {lang === "en" ? "Contact now" : "Liên hệ ngay"}
-          </a>
+          </Link>
         </div>
         <button
           type="button"
@@ -179,13 +181,13 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
             <span className="text-sm text-[#94A3B8]">{lang === "en" ? "Language" : "Ngôn ngữ"}</span>
             <LanguageSwitcher lang={lang} />
           </div>
-          <a
-            href="#lien-he"
+          <Link
+            href={lang === "en" ? "/en/contact" : "/lien-he"}
             onClick={() => setOpen(false)}
             className="btn-gold-luxury mt-3 block w-full text-center text-sm font-bold uppercase tracking-wider"
           >
             {lang === "en" ? "Contact now" : "Liên hệ ngay"}
-          </a>
+          </Link>
         </nav>
       ) : null}
     </header>
