@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import ChatWidget from "@/components/ChatWidget";
+import QuickContactButtons from "@/components/QuickContactButtons";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
 import "./globals.css";
 
@@ -94,7 +95,7 @@ const orgSchema = {
   logo: `${SITE_URL}/favicon.ico`,
   image: `${SITE_URL}/eurowindow/cuanhom.jpg.webp`,
   description: "Nhà cung cấp tổng thể các giải pháp cửa nhôm kính, cửa uPVC, cửa gỗ cao cấp Eurowindow tại TP. Hồ Chí Minh và khu vực miền Nam.",
-  telephone: "+84 907 428 399",
+  telephone: "+84 966 994 338",
   address: {
     "@type": "PostalAddress",
     streetAddress: "TP. Hồ Chí Minh",
@@ -129,6 +130,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className={`${spaceGrotesk.className} min-h-full`}>
         <ScrollProgressBar />
         {children}
+        <QuickContactButtons />
         <ChatWidget />
       </body>
     </html>
