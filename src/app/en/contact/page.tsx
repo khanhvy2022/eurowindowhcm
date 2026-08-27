@@ -58,17 +58,35 @@ export default function EnContactPage() {
   });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setErrorMessage("");
     if (!form.fullName.trim() || !form.phone.trim()) {
-      alert("Please enter your full name and phone number.");
+      setErrorMessage("Please enter your full name and phone number.");
       return;
     }
     setSubmitting(true);
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitting(false);
-    setSubmitted(true);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
+      const data = await res.json();
+      if (res.ok && data.success) {
+        setSubmitted(true);
+      } else {
+        setErrorMessage(data.error || "An error occurred. Please try again.");
+      }
+    } catch {
+      setErrorMessage("Network error. Please call our hotline +84 966 994 338.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -199,6 +217,11 @@ export default function EnContactPage() {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="mt-8 space-y-5">
+                  {errorMessage ? (
+                    <div className="rounded-xl border border-red-500/30 bg-red-950/40 p-3.5 text-xs text-red-200">
+                      {errorMessage}
+                    </div>
+                  ) : null}
                   <div className="grid gap-5 sm:grid-cols-2">
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">

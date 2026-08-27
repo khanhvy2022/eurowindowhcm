@@ -62,4 +62,5 @@ export async function getDb(): Promise<Db | null> {
 export const COLLECTIONS = {
   posts: "posts",
   knowledge: "knowledge",
+  contacts: "contacts",
 } as const;
