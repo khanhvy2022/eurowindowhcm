@@ -18,6 +18,7 @@ type Post = {
   image?: string;
   sections?: { heading: string; id: string; body: string[] }[];
   faq?: { q: string; a: string }[];
+  contentHtml?: string;
   filePath?: string;
   source?: "file" | "db";
 };
@@ -327,6 +328,19 @@ function PostForm({ initial, onCancel, onSaved }: { initial?: Post; onCancel: ()
         <label className={labelCls}>Nội dung (mục)</label>
         <SectionEditor value={form.sections ?? []} onChange={(sections) => set("sections", sections)} />
       </div>
+
+      {form.contentHtml !== undefined ? (
+        <div>
+          <label className={labelCls}>Nội dung HTML (từ bài viết di trú eurowindowhcm.com)</label>
+          <textarea
+            className={inputCls}
+            rows={8}
+            value={form.contentHtml}
+            onChange={(e) => set("contentHtml", e.target.value)}
+            placeholder="<div>...</div>"
+          />
+        </div>
+      ) : null}
 
       {error ? <p className="text-sm font-medium text-red-600">{error}</p> : null}
 
@@ -742,7 +756,7 @@ export default function AdminPage() {
             ) : null}
             {filePosts.length > 0 ? (
               <div className="rounded-lg border border-blue-200 bg-blue-50 p-3 text-xs text-blue-700">
-                <strong>{filePosts.length} bài viết</strong> từ file markdown (docs/articles/).{" "}
+                <strong>{filePosts.length} bài viết</strong> từ dữ liệu hệ thống (eurowindowhcm.com & docs/articles).{" "}
                 {posts.length > 0 ? `${posts.length} bài đã lưu vào DB.` : "Chưa import vào DB."}
               </div>
             ) : null}

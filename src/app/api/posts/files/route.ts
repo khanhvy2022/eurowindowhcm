@@ -1,6 +1,7 @@
 import { NextRequest } from "next/server";
 import { readdirSync, readFileSync, statSync } from "fs";
 import { join, relative } from "path";
+import { articles } from "@/app/tin-tuc/articles";
 
 type Frontmatter = {
   title: string;
@@ -119,9 +120,29 @@ function scanDir(dir: string): string[] {
 
 export async function GET(_request: NextRequest) {
   try {
-    const files = scanDir(ARTICLES_DIR);
     const posts: PostFromFile[] = [];
+    const seenSlugs = new Set<string>();
 
+    // 1. Add all static & migrated articles from eurowindowhcm.com
+    for (const article of articles) {
+      if (!article.slug || seenSlugs.has(article.slug)) continue;
+      seenSlugs.add(article.slug);
+      posts.push({
+        slug: article.slug,
+        title: article.title || article.slug,
+        category: article.category || "Tin tức",
+        date: article.date || "",
+        excerpt: article.excerpt || "",
+        image: article.image || "",
+        sections: article.sections || [],
+        faq: article.faq || [],
+        filePath: "src/data/migrated-articles.json",
+        source: "file",
+      });
+    }
+
+    // 2. Add any additional markdown articles from docs/articles
+    const files = scanDir(ARTICLES_DIR);
     for (const filePath of files) {
       try {
         const raw = readFileSync(filePath, "utf-8");
@@ -134,6 +155,9 @@ export async function GET(_request: NextRequest) {
           "san-pham": "Sản phẩm",
         };
         const fileSlug = relPath.replace(/\.md$/, "").split("/").pop() || "bai-viet";
+
+        if (seenSlugs.has(fileSlug)) continue;
+        seenSlugs.add(fileSlug);
 
         posts.push({
           slug: fileSlug,
@@ -156,3 +180,4 @@ export async function GET(_request: NextRequest) {
     return Response.json({ ok: false, error: err instanceof Error ? err.message : "Lỗi đọc file", posts: [] }, { status: 500 });
   }
 }
+

@@ -12,6 +12,7 @@ type PostBody = {
   image?: string;
   sections?: { heading: string; id: string; body: string[] }[];
   faq?: { q: string; a: string }[];
+  contentHtml?: string;
 };
 
 function slugify(text: string): string {
@@ -43,6 +44,7 @@ function validate(body: PostBody): { ok: true; data: Record<string, unknown> } |
   const faq = Array.isArray(body.faq)
     ? body.faq.filter((f) => f?.q && f?.a).map((f) => ({ q: f.q, a: f.a }))
     : undefined;
+  const contentHtml = body.contentHtml ? String(body.contentHtml) : undefined;
   return {
     ok: true,
     data: {
@@ -55,6 +57,7 @@ function validate(body: PostBody): { ok: true; data: Record<string, unknown> } |
       image: (body.image ?? "").trim() || null,
       sections,
       faq: faq && faq.length > 0 ? faq : undefined,
+      contentHtml,
       updatedAt: new Date().toISOString(),
     },
   };
@@ -80,6 +83,7 @@ export async function GET(request: NextRequest) {
       image: p.image,
       sections: p.sections,
       faq: p.faq,
+      contentHtml: p.contentHtml,
       createdAt: p.createdAt,
     }));
     return Response.json({ posts: result });

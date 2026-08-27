@@ -3,6 +3,7 @@ import { getDb, COLLECTIONS } from "@/lib/db";
 import { checkAuth, unauthorized } from "@/lib/auth";
 import { readdirSync, readFileSync, statSync } from "fs";
 import { join, relative } from "path";
+import { articles } from "@/app/tin-tuc/articles";
 
 function slugify(text: string): string {
   return text
@@ -83,11 +84,45 @@ export async function POST(request: NextRequest) {
   if (!db) return Response.json({ ok: false, error: "Chưa cấu hình MONGODB_URI" }, { status: 500 });
 
   try {
-    const files = scanDir(ARTICLES_DIR);
     let imported = 0;
     let skipped = 0;
     let errors = 0;
+    const seenSlugs = new Set<string>();
 
+    // 1. Import all 280+ articles from articles.ts (including migrated from eurowindowhcm.com)
+    for (const article of articles) {
+      if (!article.slug || seenSlugs.has(article.slug)) continue;
+      seenSlugs.add(article.slug);
+
+      try {
+        const existing = await db.collection(COLLECTIONS.posts).findOne({ slug: article.slug });
+        if (existing) {
+          skipped++;
+          continue;
+        }
+
+        await db.collection(COLLECTIONS.posts).insertOne({
+          slug: article.slug,
+          title: article.title,
+          category: article.category || "Tin tức",
+          date: article.date || "",
+          excerpt: article.excerpt || "",
+          image: article.image || null,
+          sections: article.sections || [],
+          faq: article.faq || [],
+          contentHtml: article.contentHtml || null,
+          filePath: "src/data/migrated-articles.json",
+          source: "file",
+          createdAt: new Date().toISOString(),
+        });
+        imported++;
+      } catch {
+        errors++;
+      }
+    }
+
+    // 2. Import any markdown articles from docs/articles
+    const files = scanDir(ARTICLES_DIR);
     const categoryMap: Record<string, string> = {
       "du-an": "Dự án",
       "tin-tuc": "Tin tức",
@@ -101,6 +136,9 @@ export async function POST(request: NextRequest) {
         const relPath = relative(ARTICLES_DIR, filePath).replace(/\\/g, "/");
         const categoryDir = relPath.split("/")[0] || "khac";
         const fileSlug = relPath.replace(/\.md$/, "").split("/").pop() || "bai-viet";
+
+        if (seenSlugs.has(fileSlug)) continue;
+        seenSlugs.add(fileSlug);
 
         const slug = fileSlug;
         const title = meta.title || fileSlug;
@@ -134,7 +172,7 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    return Response.json({ ok: true, imported, skipped, errors, total: files.length });
+    return Response.json({ ok: true, imported, skipped, errors, total: seenSlugs.size });
   } catch (err) {
     return Response.json({ ok: false, error: err instanceof Error ? err.message : "Lỗi import" }, { status: 500 });
   }

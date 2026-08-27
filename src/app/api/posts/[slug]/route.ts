@@ -11,7 +11,7 @@ export async function PUT(request: NextRequest, { params }: { params: Promise<{ 
     const { slug } = await params;
     const body = await request.json();
     const update: Record<string, unknown> = {};
-    for (const field of ["title", "category", "subCategory", "date", "excerpt", "image", "sections", "faq"]) {
+    for (const field of ["title", "category", "subCategory", "date", "excerpt", "image", "sections", "faq", "contentHtml"]) {
       if (body[field] !== undefined) update[field] = body[field];
     }
     update.updatedAt = new Date().toISOString();
