@@ -486,7 +486,7 @@ export default function AdminPage() {
 
   const filteredPosts = useMemo(() => {
     const q = search.toLowerCase();
-    const allPosts = [...posts, ...filePosts.filter((fp) => !posts.some((p) => p.slug === fp.slug))];
+    const allPosts = posts.length > 0 ? posts : filePosts;
     return allPosts.filter((p) => (p.title + p.category).toLowerCase().includes(q));
   }, [posts, filePosts, search]);
 
@@ -601,7 +601,7 @@ export default function AdminPage() {
             onClick={() => setTab("posts")}
             className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold ${tab === "posts" ? "bg-[#0066aa] text-white" : "text-slate-600 hover:bg-slate-100"}`}
           >
-            <FileText className="h-4 w-4" /> Bài viết ({posts.length + filePosts.filter((fp) => !posts.some((p) => p.slug === fp.slug)).length})
+            <FileText className="h-4 w-4" /> Bài viết ({posts.length > 0 ? posts.length : filePosts.length})
           </button>
           <button
             onClick={() => setTab("knowledge")}
@@ -754,10 +754,13 @@ export default function AdminPage() {
                 {importResult}
               </div>
             ) : null}
-            {filePosts.length > 0 ? (
+            {posts.length > 0 ? (
               <div className="rounded-lg border border-blue-200 bg-blue-50 p-3 text-xs text-blue-700">
-                <strong>{filePosts.length} bài viết</strong> từ dữ liệu hệ thống (eurowindowhcm.com & docs/articles).{" "}
-                {posts.length > 0 ? `${posts.length} bài đã lưu vào DB.` : "Chưa import vào DB."}
+                <strong>{posts.length} bài viết</strong> đồng bộ trực tiếp từ Database MongoDB Atlas (100% Khớp với DB).
+              </div>
+            ) : filePosts.length > 0 ? (
+              <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-xs text-amber-700">
+                <strong>{filePosts.length} bài viết</strong> từ dữ liệu file hệ thống (Đang ở chế độ Offline / Chưa kết nối DB).
               </div>
             ) : null}
           </div>
