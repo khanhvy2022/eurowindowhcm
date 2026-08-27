@@ -12,14 +12,14 @@ export const knowledgeBase: KnowledgeEntry[] = [
     category: "Liên hệ",
     keywords: ["hotline", "số điện thoại", "liên hệ", "gọi", "phone", "tư vấn"],
     question: "Liên hệ Eurowindow bằng cách nào?",
-    answer: "Hotline Miền Bắc: 0909 888 000 · Miền Trung: 0906 000 111 · Miền Nam: 0903 11 8888. Tổng đài trụ sở chính: (84 - 24) 37 47 47 00. Email: infoew@eurowindow.biz. Địa chỉ: Tòa nhà Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội.",
+    answer: "Hotline: 0966 994 338. Email: Thangtq2@eurowindow.biz. Chi Nhánh Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP.HCM. Trụ sở chính: Tòa nhà Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội.",
   },
   {
     id: "contact-email",
     category: "Liên hệ",
     keywords: ["email", "mail", "gửi thư", "thư"],
     question: "Email liên hệ Eurowindow?",
-    answer: "Email chính thức: infoew@eurowindow.biz. Bộ phận chăm sóc khách hàng Hà Nội: cskhhn@eurowindow.biz. Bộ phận dự án quốc tế & xuất khẩu: export@eurowindow.biz.",
+    answer: "Email chính thức: Thangtq2@eurowindow.biz. Bộ phận chăm sóc khách hàng: Thangtq2@eurowindow.biz. Bộ phận dự án quốc tế & xuất khẩu: export@eurowindow.biz.",
   },
   {
     id: "contact-showroom",
@@ -110,7 +110,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     category: "Báo giá",
     keywords: ["giá", "bao nhiêu", "báo giá", "chi phí", "cost", "bảng giá"],
     question: "Báo giá cửa Eurowindow như thế nào?",
-    answer: "Giá cửa phụ thuộc hệ sản phẩm, kích thước, loại kính, phụ kiện và vị trí công trình. Eurowindow hỗ trợ đo đạc thực địa, lên phương án và báo giá miễn phí. Liên hệ hotline Miền Bắc 0909 888 000, Miền Trung 0906 000 111, Miền Nam 0903 11 8888 hoặc email infoew@eurowindow.biz để nhận tư vấn.",
+    answer: "Giá cửa phụ thuộc hệ sản phẩm, kích thước, loại kính, phụ kiện và vị trí công trình. Eurowindow hỗ trợ đo đạc thực địa, lên phương án và báo giá miễn phí. Liên hệ hotline 0966 994 338 hoặc email Thangtq2@eurowindow.biz để nhận tư vấn.",
   },
   {
     id: "production-thoi-gian",

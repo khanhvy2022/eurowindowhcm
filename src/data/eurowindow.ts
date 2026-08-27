@@ -100,7 +100,7 @@ export const achievements = [
 export const contact = {
   phone: "0966 994 338",
   hotline: "0966 994 338",
-  email: "infoew@eurowindow.biz",
+  email: "Thangtq2@eurowindow.biz",
   branchSouth: "Chi Nhánh Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP.HCM",
   headquarters: "Trụ sở chính: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội",
   address: "Chi Nhánh Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP.HCM",
