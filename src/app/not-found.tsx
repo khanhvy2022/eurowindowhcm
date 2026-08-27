@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "404 – Trang không tìm thấy | Eurowindow HCM",
+  title: "404 – Trang không tìm thấy | Cửa Eurowindow Hồ Chí Minh",
   description:
     "Trang bạn đang tìm kiếm có thể đã thay đổi hoặc không tồn tại. Khám phá các giải pháp cửa nhôm kính, uPVC, cửa gỗ và dự án cao cấp của Eurowindow.",
   robots: { index: false, follow: true },

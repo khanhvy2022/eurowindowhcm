@@ -13,8 +13,8 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "Eurowindow HCM | Giải pháp cửa & vật liệu xây dựng cao cấp",
-    template: "%s | Eurowindow HCM",
+    default: "Cửa Eurowindow Hồ Chí Minh | Giải pháp cửa & vật liệu xây dựng cao cấp",
+    template: "%s | Cửa Eurowindow Hồ Chí Minh",
   },
   description:
     "Eurowindow – giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vật liệu xây dựng cao cấp chuẩn quốc tế. Hơn 23 năm kinh nghiệm, Top 1 thương hiệu cửa Việt Nam.",
@@ -27,13 +27,14 @@ export const metadata: Metadata = {
     "cửa cuốn",
     "cửa tự động",
     "eurowindow",
+    "cửa eurowindow hồ chí minh",
     "eurowindow HCM",
     "cửa cao cấp",
     "vật liệu xây dựng",
   ],
-  authors: [{ name: "Eurowindow HCM", url: "https://eurowindowhcm.vn" }],
-  creator: "Eurowindow HCM",
-  publisher: "Eurowindow HCM",
+  authors: [{ name: "Cửa Eurowindow Hồ Chí Minh", url: "https://eurowindowhcm.vn" }],
+  creator: "Cửa Eurowindow Hồ Chí Minh",
+  publisher: "Cửa Eurowindow Hồ Chí Minh",
   category: "Xây dựng & Vật liệu",
   icons: {
     icon: "/favicon.ico",
@@ -53,8 +54,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "vi_VN",
     alternateLocale: "en_US",
-    siteName: "Eurowindow HCM",
-    title: "Eurowindow HCM | Giải pháp cửa & vật liệu xây dựng cao cấp",
+    siteName: "Cửa Eurowindow Hồ Chí Minh",
+    title: "Cửa Eurowindow Hồ Chí Minh | Giải pháp cửa & vật liệu xây dựng cao cấp",
     description:
       "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn cho biệt thự, căn hộ và công trình hiện đại.",
     images: [{ url: "/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Eurowindow - Kiến tạo không gian sống đẳng cấp" }],
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eurowindow HCM | Giải pháp cửa & vật liệu xây dựng cao cấp",
+    title: "Cửa Eurowindow Hồ Chí Minh | Giải pháp cửa & vật liệu xây dựng cao cấp",
     description:
       "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ và kính an toàn chuẩn quốc tế.",
     images: ["/eurowindow/cuanhom.jpg.webp"],
