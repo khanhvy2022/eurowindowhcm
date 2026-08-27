@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://eurowindowhcm.com";
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
@@ -9,7 +11,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin", "/api/", "/admin/"],
       },
     ],
-    sitemap: "https://eurowindowhcm.vn/sitemap.xml",
-    host: "https://eurowindowhcm.vn",
+    sitemap: `${BASE}/sitemap.xml`,
+    host: BASE,
   };
 }

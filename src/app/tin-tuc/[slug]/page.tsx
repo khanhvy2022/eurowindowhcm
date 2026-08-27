@@ -9,6 +9,8 @@ import { articles } from "../articles";
 
 type Props = { params: Promise<{ slug: string }> };
 
+const BASE_URL = "https://eurowindowhcm.com";
+
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
 }
@@ -17,7 +19,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const article = await getPostBySlug(slug);
   if (!article) return { title: "Không tìm thấy bài viết" };
-  return { title: `${article.title} – Tin tức Eurowindow`, description: article.excerpt };
+
+  const canonicalUrl = `${BASE_URL}/tin-tuc/${slug}`;
+  const title = `${article.title} | Eurowindow HCM`;
+  const description = article.excerpt || article.title;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      type: "article",
+      publishedTime: article.date,
+      authors: [article.author || "Eurowindow HCM"],
+      images: article.image ? [{ url: article.image }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: article.image ? [article.image] : undefined,
+    },
+  };
 }
 
 export default async function ArticleDetailPage({ params }: Props) {
@@ -25,10 +53,71 @@ export default async function ArticleDetailPage({ params }: Props) {
   const article = await getPostBySlug(slug);
   if (!article) notFound();
 
-  const related = (await getAllPosts()).filter((a) => a.slug !== slug).slice(0, 3);
+  const all = await getAllPosts();
+  const related = all.filter((a) => a.slug !== slug).slice(0, 3);
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    image: article.image ? [article.image] : undefined,
+    datePublished: article.date,
+    dateModified: article.date,
+    author: {
+      "@type": "Organization",
+      name: article.author || "Eurowindow HCM",
+      url: BASE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Eurowindow HCM",
+      logo: {
+        "@type": "ImageObject",
+        url: `${BASE_URL}/logo.png`,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${BASE_URL}/tin-tuc/${slug}`,
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Trang chủ",
+        item: BASE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Tin tức",
+        item: `${BASE_URL}/tin-tuc`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: article.title,
+        item: `${BASE_URL}/tin-tuc/${slug}`,
+      },
+    ],
+  };
 
   return (
     <div className="min-h-screen bg-[#071523] text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Header />
       <main>
         <section className="border-b border-white/10 py-16 md:py-20">
@@ -46,7 +135,7 @@ export default async function ArticleDetailPage({ params }: Props) {
           </div>
         </section>
 
-        {article.image ? (
+        {article.image && !article.contentHtml ? (
           <section className="py-12">
             <div className="mx-auto max-w-[900px] px-5 sm:px-8">
               <div className="overflow-hidden bg-[#071523]">
@@ -58,33 +147,42 @@ export default async function ArticleDetailPage({ params }: Props) {
 
         <section className="pb-20 pt-6">
           <div className="mx-auto max-w-[900px] px-5 sm:px-8">
-            <details className="group border border-white/15 bg-[#102238]">
-              <summary className="flex cursor-pointer items-center justify-between gap-4 px-6 py-5 text-lg font-bold uppercase tracking-[-0.02em]">
-                Mục lục
-                <ChevronDown className="h-5 w-5 shrink-0 transition-transform group-open:rotate-180" />
-              </summary>
-              <ol className="border-t border-white/10 px-6 py-6 space-y-3">
-                {article.sections.map((s) => (
-                  <li key={s.id}>
-                    <a href={`#${s.id}`} className="leading-7 text-[#D2D8E3] transition hover:text-[#E2C275]">{s.heading}</a>
-                  </li>
-                ))}
-                {article.faq ? <li><a href="#faq" className="leading-7 text-[#D2D8E3] transition hover:text-[#E2C275]">Câu hỏi thường gặp</a></li> : null}
-              </ol>
-            </details>
+            {article.sections && article.sections.length > 1 ? (
+              <details className="group mb-12 border border-white/15 bg-[#102238]">
+                <summary className="flex cursor-pointer items-center justify-between gap-4 px-6 py-5 text-lg font-bold uppercase tracking-[-0.02em]">
+                  Mục lục
+                  <ChevronDown className="h-5 w-5 shrink-0 transition-transform group-open:rotate-180" />
+                </summary>
+                <ol className="border-t border-white/10 px-6 py-6 space-y-3">
+                  {article.sections.map((s) => (
+                    <li key={s.id}>
+                      <a href={`#${s.id}`} className="leading-7 text-[#D2D8E3] transition hover:text-[#E2C275]">{s.heading}</a>
+                    </li>
+                  ))}
+                  {article.faq ? <li><a href="#faq" className="leading-7 text-[#D2D8E3] transition hover:text-[#E2C275]">Câu hỏi thường gặp</a></li> : null}
+                </ol>
+              </details>
+            ) : null}
 
-            <div className="mt-14 space-y-16">
-              {article.sections.map((section) => (
-                <section key={section.id} id={section.id} className="scroll-mt-24">
-                  <h2 className="text-2xl font-bold tracking-[-0.03em] md:text-3xl">{section.heading}</h2>
-                  <div className="mt-6 space-y-6">
-                    {section.body.map((p, i) => (
-                      <p key={i} className="text-lg leading-8 text-[#D2D8E3]">{p}</p>
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </div>
+            {article.contentHtml ? (
+              <div
+                className="article-body text-[#D2D8E3] text-lg leading-relaxed space-y-6 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-white [&_h2]:mt-10 [&_h2]:mb-4 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-white [&_h3]:mt-8 [&_h3]:mb-3 [&_p]:leading-8 [&_img]:max-w-full [&_img]:h-auto [&_img]:rounded-lg [&_img]:my-6 [&_a]:text-[#E2C275] [&_a]:underline [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_table]:w-full [&_table]:border-collapse [&_th]:border [&_th]:border-white/20 [&_th]:p-3 [&_td]:border [&_td]:border-white/10 [&_td]:p-3"
+                dangerouslySetInnerHTML={{ __html: article.contentHtml }}
+              />
+            ) : (
+              <div className="mt-14 space-y-16">
+                {article.sections.map((section) => (
+                  <section key={section.id} id={section.id} className="scroll-mt-24">
+                    <h2 className="text-2xl font-bold tracking-[-0.03em] md:text-3xl">{section.heading}</h2>
+                    <div className="mt-6 space-y-6">
+                      {section.body.map((p, i) => (
+                        <p key={i} className="text-lg leading-8 text-[#D2D8E3]">{p}</p>
+                      ))}
+                    </div>
+                  </section>
+                ))}
+              </div>
+            )}
 
             {article.faq ? (
               <section id="faq" className="mt-20 scroll-mt-24 border-t border-white/10 pt-16">

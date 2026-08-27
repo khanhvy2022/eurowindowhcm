@@ -1,3 +1,5 @@
+import migratedArticlesData from "@/data/migrated-articles.json";
+
 export type Article = {
   slug: string;
   title: string;
@@ -7,9 +9,13 @@ export type Article = {
   sections: { heading: string; id: string; body: string[] }[];
   faq?: { q: string; a: string }[];
   image?: string;
+  contentHtml?: string;
+  author?: string;
+  tags?: string[];
+  oldUrl?: string;
 };
 
-export const articles: Article[] = [
+const handcraftedArticles: Article[] = [
   {
     slug: "toa-dam-xu-huong-nguon-nhan-luc",
     title: "Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”",
@@ -587,9 +593,15 @@ export const articles: Article[] = [
       },
     ],
   },
-
 ];
+
+const migratedArticles: Article[] = (migratedArticlesData as Article[]).filter(
+  (m) => !handcraftedArticles.some((h) => h.slug === m.slug)
+);
+
+export const articles: Article[] = [...handcraftedArticles, ...migratedArticles];
 
 export function getArticle(slug: string) {
   return articles.find((a) => a.slug === slug);
 }
+

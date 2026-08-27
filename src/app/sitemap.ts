@@ -2,7 +2,9 @@ import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/posts";
 import { projects } from "@/app/du-an/projects";
 
-const BASE = "https://eurowindowhcm.vn";
+import { products } from "@/app/san-pham/products-data";
+
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://eurowindowhcm.com";
 
 function url(
   path: string,
@@ -57,6 +59,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url("/en/services", 0.7, "monthly"),
   ];
 
+  const productRoutes: MetadataRoute.Sitemap = products.map((p) => ({
+    url: `${BASE}/san-pham/${p.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   const postRoutes: MetadataRoute.Sitemap = posts.map((p) => ({
     url: `${BASE}/tin-tuc/${p.slug}`,
     lastModified: p.date
@@ -107,6 +116,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     ...staticRoutes,
+    ...productRoutes,
     ...postRoutes,
     ...projectRoutes,
     ...enPostRoutes,

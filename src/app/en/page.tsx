@@ -27,7 +27,7 @@ export default function HomeEn() {
         <Ecosystem />
         <FeaturedProjects />
         <Services />
-        <ProjectCategories />
+        <ProjectCategories lang="en" />
         <NewsSection />
         <StrategicPartners />
       </main>

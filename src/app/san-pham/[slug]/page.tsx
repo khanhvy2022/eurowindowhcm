@@ -7,7 +7,37 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
-export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+import type { Metadata } from "next";
+
+type Props = { params: Promise<{ slug: string }> };
+
+export function generateStaticParams() {
+  return products.map((p) => ({ slug: p.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const product = getProduct(slug);
+  if (!product) return { title: "Không tìm thấy sản phẩm" };
+
+  const canonical = `https://eurowindowhcm.com/san-pham/${slug}`;
+  const title = `${product.title} – Cửa Eurowindow Chính Hãng`;
+  const description = product.text;
+
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      images: [{ url: product.image, alt: product.title }],
+    },
+  };
+}
+
+export default async function ProductDetailPage({ params }: Props) {
   const { slug } = await params;
   const product = getProduct(slug);
 
@@ -17,8 +47,33 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   const related = products.filter((p) => p.slug !== product.slug).slice(0, 3);
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.title,
+    description: product.text,
+    image: `https://eurowindowhcm.com${product.image}`,
+    brand: {
+      "@type": "Brand",
+      name: "Eurowindow"
+    },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "VND",
+      availability: "https://schema.org/InStock",
+      seller: {
+        "@type": "Organization",
+        name: "Cửa Eurowindow Hồ Chí Minh"
+      }
+    }
+  };
+
   return (
     <div className="min-h-screen bg-[#071523] text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
       <Header />
       <main>
         <PageBanner title={product.title} crumb={product.title} bgImage={product.image} />

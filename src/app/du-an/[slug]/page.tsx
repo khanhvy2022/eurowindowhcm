@@ -7,7 +7,37 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
-export default async function ProjectDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+import type { Metadata } from "next";
+
+type Props = { params: Promise<{ slug: string }> };
+
+export function generateStaticParams() {
+  return projects.map((p) => ({ slug: p.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const project = getProject(slug);
+  if (!project) return { title: "Không tìm thấy dự án" };
+
+  const canonical = `https://eurowindowhcm.com/du-an/${slug}`;
+  const title = `Dự án ${project.title} – Eurowindow Thi Công`;
+  const description = `${project.intro} Vị trí: ${project.location}. Hạng mục thi công: ${project.scope}.`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      images: project.images?.[0] ? [{ url: project.images[0], alt: project.title }] : undefined,
+    },
+  };
+}
+
+export default async function ProjectDetailPage({ params }: Props) {
   const { slug } = await params;
   const project = getProject(slug);
 

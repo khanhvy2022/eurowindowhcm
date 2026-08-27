@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Giới thiệu Eurowindow – 23 năm dẫn đầu ngành cửa & vật liệu xây dựng Việt Nam",
-  description:
-    "Tìm hiểu về Eurowindow – thương hiệu cửa hàng đầu Việt Nam với 23 năm kinh nghiệm, 14 lần liên tiếp đạt Thương hiệu Quốc gia, hơn 100.000 công trình phủ sóng trên toàn quốc.",
+  title: "Giới Thiệu Eurowindow Hồ Chí Minh – 23+ Năm Tiên Phong & Kiến Tạo",
+  description: "Tìm hiểu lịch sử hình thành, năng lực sản xuất, quy mô nhà máy và tầm nhìn sứ mệnh của Eurowindow – Thương hiệu Quốc gia hàng đầu Việt Nam.",
   alternates: {
-    canonical: "https://eurowindowhcm.vn/gioi-thieu",
+    canonical: "https://eurowindowhcm.com/gioi-thieu",
   },
   openGraph: {
-    title: "Giới thiệu Eurowindow – 23 năm dẫn đầu ngành cửa Việt Nam",
-    description:
-      "Eurowindow – thương hiệu cửa hàng đầu Việt Nam với 23+ năm kinh nghiệm, 14 lần Thương hiệu Quốc gia, phủ sóng hơn 100.000 công trình.",
-    url: "https://eurowindowhcm.vn/gioi-thieu",
-    images: [{ url: "/eurowindow/upvc4.png.webp", width: 1200, height: 630, alt: "Eurowindow – Giới thiệu thương hiệu" }],
+    title: "Giới Thiệu Eurowindow Hồ Chí Minh – 23+ Năm Tiên Phong & Kiến Tạo",
+    description: "Tìm hiểu lịch sử hình thành, năng lực sản xuất, quy mô nhà máy và tầm nhìn sứ mệnh của Eurowindow – Thương hiệu Quốc gia hàng đầu Việt Nam.",
+    url: "https://eurowindowhcm.com/gioi-thieu",
+    images: [{ url: "/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Giới thiệu Eurowindow" }],
   },
 };
 

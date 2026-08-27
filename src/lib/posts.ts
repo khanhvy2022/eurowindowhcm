@@ -11,6 +11,10 @@ function toArticle(doc: Record<string, unknown>): Article {
     image: doc.image ? String(doc.image) : undefined,
     sections: Array.isArray(doc.sections) ? (doc.sections as Article["sections"]) : [],
     faq: doc.faq ? (doc.faq as Article["faq"]) : undefined,
+    contentHtml: doc.contentHtml ? String(doc.contentHtml) : undefined,
+    author: doc.author ? String(doc.author) : undefined,
+    tags: Array.isArray(doc.tags) ? (doc.tags as string[]) : undefined,
+    oldUrl: doc.oldUrl ? String(doc.oldUrl) : undefined,
   };
 }
 

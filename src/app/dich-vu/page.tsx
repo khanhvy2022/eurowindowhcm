@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
@@ -7,6 +8,19 @@ const stages = [
   ["3.0", "Sản xuất & thi công", "Sản xuất theo hệ chuẩn, lắp đặt bởi đội ngũ kinh nghiệm, kiểm tra nghiệm thu từng hạng mục trước khi bàn giao."],
   ["4.0", "Bảo hành & chăm sóc", "Đồng hành sau bàn giao với quy trình hỗ trợ rõ ràng và dịch vụ bảo hành theo chính sách sản phẩm."],
 ] as const;
+
+export const metadata: Metadata = {
+  title: "Dịch Vụ Thi Công & Bảo Hành Cửa Eurowindow Hồ Chí Minh",
+  description: "Quy trình tư vấn giải pháp, thiết kế kỹ thuật, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow chuẩn châu Âu tại TP.HCM.",
+  alternates: {
+    canonical: "https://eurowindowhcm.com/dich-vu",
+  },
+  openGraph: {
+    title: "Dịch Vụ Thi Công & Bảo Hành Cửa Eurowindow Hồ Chí Minh",
+    description: "Quy trình tư vấn giải pháp, thiết kế kỹ thuật, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow chuẩn châu Âu tại TP.HCM.",
+    url: "https://eurowindowhcm.com/dich-vu",
+  },
+};
 
 export default function ServicesPage() {
   return (

@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sản phẩm Eurowindow – Cửa Nhôm, uPVC, Gỗ, Cuốn, Tự Động & Kính",
-  description:
-    "Danh mục sản phẩm Eurowindow: cửa nhôm kính EA55–EA95i, cửa uPVC tiêu chuẩn châu Âu, cửa gỗ & chống cháy, cửa cuốn, cửa tự động và các giải pháp kính an toàn cao cấp.",
+  title: "Sản Phẩm Cửa Eurowindow Chính Hãng – Cửa Nhôm, uPVC, Cửa Gỗ, Kính Cao Cấp",
+  description: "Tổng hợp các dòng sản phẩm cửa cao cấp Eurowindow: Cửa nhôm cầu cách nhiệt, cửa nhựa uPVC, cửa gỗ, kính an toàn, cửa cuốn, cửa tự động đạt tiêu chuẩn châu Âu.",
   alternates: {
-    canonical: "https://eurowindowhcm.vn/san-pham",
+    canonical: "https://eurowindowhcm.com/san-pham",
   },
   openGraph: {
-    title: "Sản phẩm Eurowindow – Cửa Nhôm, uPVC, Gỗ, Cuốn, Tự Động & Kính",
-    description:
-      "Khám phá toàn bộ dòng sản phẩm cao cấp của Eurowindow: cửa nhôm kính, uPVC, cửa gỗ, cửa cuốn và kính an toàn tiêu chuẩn quốc tế.",
-    url: "https://eurowindowhcm.vn/san-pham",
+    title: "Sản Phẩm Cửa Eurowindow Chính Hãng – Cửa Nhôm, uPVC, Cửa Gỗ, Kính Cao Cấp",
+    description: "Tổng hợp các dòng sản phẩm cửa cao cấp Eurowindow: Cửa nhôm cầu cách nhiệt, cửa nhựa uPVC, cửa gỗ, kính an toàn, cửa cuốn, cửa tự động đạt tiêu chuẩn châu Âu.",
+    url: "https://eurowindowhcm.com/san-pham",
     images: [{ url: "/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Sản phẩm Eurowindow" }],
   },
 };
