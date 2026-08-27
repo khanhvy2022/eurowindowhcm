@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDb, COLLECTIONS } from "@/lib/db";
+import { ObjectId } from "mongodb";
 
 const GOOGLE_FORM_ACTION =
   process.env.GOOGLE_FORM_ACTION_URL ||
@@ -124,5 +125,37 @@ export async function GET() {
       { success: false, error: "Không thể lấy danh sách liên hệ" },
       { status: 500 }
     );
+  }
+}
+
+export async function DELETE(req: NextRequest) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const id = searchParams.get("id");
+    const db = await getDb();
+    if (!db) {
+      return NextResponse.json({ success: false, error: "Chưa kết nối DB" }, { status: 500 });
+    }
+
+    if (id === "all") {
+      const result = await db.collection(COLLECTIONS.contacts).deleteMany({});
+      return NextResponse.json({ success: true, deletedCount: result.deletedCount });
+    }
+
+    if (id) {
+      let query: any = { _id: id };
+      try {
+        query = { _id: new ObjectId(id) };
+      } catch {
+        query = { _id: id };
+      }
+      const result = await db.collection(COLLECTIONS.contacts).deleteOne(query);
+      return NextResponse.json({ success: true, deletedCount: result.deletedCount });
+    }
+
+    return NextResponse.json({ success: false, error: "Thiếu ID liên hệ cần xóa" }, { status: 400 });
+  } catch (error) {
+    console.error("[contact DELETE] Error:", error);
+    return NextResponse.json({ success: false, error: "Lỗi xóa liên hệ" }, { status: 500 });
   }
 }

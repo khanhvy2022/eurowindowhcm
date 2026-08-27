@@ -533,6 +533,25 @@ export default function AdminPage() {
     refresh();
   }
 
+  async function deleteContact(c: ContactLead) {
+    if (!confirm(`Xóa yêu cầu liên hệ của khách hàng "${c.fullName}" (${c.phone})?`)) return;
+    if (!c._id) return;
+    await fetch(`/api/contact?id=${encodeURIComponent(c._id)}`, {
+      method: "DELETE",
+      headers: { Authorization: `Bearer ${getToken()}` },
+    });
+    refresh();
+  }
+
+  async function deleteAllContacts() {
+    if (!confirm("Bạn có chắc chắn muốn xóa tất cả các yêu cầu liên hệ hiện tại?")) return;
+    await fetch("/api/contact?id=all", {
+      method: "DELETE",
+      headers: { Authorization: `Bearer ${getToken()}` },
+    });
+    refresh();
+  }
+
   async function createUser() {
     if (!newUsername.trim() || !newPassword.trim()) return;
     const res = await fetch("/api/admin/users", {
@@ -856,9 +875,19 @@ export default function AdminPage() {
                 <h2 className="text-lg font-bold text-slate-900">Danh sách khách hàng liên hệ & yêu cầu báo giá</h2>
                 <p className="text-xs text-slate-500 mt-0.5">Tự động đồng bộ với Google Form và lưu vào Database MongoDB</p>
               </div>
-              <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold text-emerald-800">
-                {contacts.length} yêu cầu
-              </span>
+              <div className="flex items-center gap-3">
+                {contacts.length > 0 ? (
+                  <button
+                    onClick={deleteAllContacts}
+                    className="inline-flex items-center gap-1.5 rounded-lg border border-red-200 bg-red-50 px-3 py-1.5 text-xs font-bold text-red-700 transition hover:bg-red-100"
+                  >
+                    <Trash2 className="h-3.5 w-3.5" /> Xóa tất cả
+                  </button>
+                ) : null}
+                <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold text-emerald-800">
+                  {contacts.length} yêu cầu
+                </span>
+              </div>
             </div>
 
             {loading ? <p className="py-10 text-center text-sm text-slate-500">Đang tải dữ liệu...</p> : null}
@@ -872,7 +901,7 @@ export default function AdminPage() {
                     <th className="px-4 py-3">Địa chỉ công trình</th>
                     <th className="px-4 py-3">Sản phẩm & Nội dung</th>
                     <th className="px-4 py-3">Đồng bộ</th>
-                    <th className="px-4 py-3 text-right">Gọi nhanh</th>
+                    <th className="px-4 py-3 text-right">Thao tác</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100">
@@ -911,12 +940,21 @@ export default function AdminPage() {
                         )}
                       </td>
                       <td className="px-4 py-3 text-right">
-                        <a
-                          href={`tel:${c.phone.replace(/\s+/g, "")}`}
-                          className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-600 px-3 py-1.5 text-xs font-bold text-white shadow-sm hover:bg-emerald-700 transition"
-                        >
-                          <Phone className="h-3 w-3" /> Gọi
-                        </a>
+                        <div className="flex items-center justify-end gap-2">
+                          <a
+                            href={`tel:${c.phone.replace(/\s+/g, "")}`}
+                            className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-600 px-3 py-1.5 text-xs font-bold text-white shadow-sm hover:bg-emerald-700 transition"
+                          >
+                            <Phone className="h-3 w-3" /> Gọi
+                          </a>
+                          <button
+                            onClick={() => deleteContact(c)}
+                            className="rounded p-1.5 text-slate-400 hover:text-red-500 transition"
+                            title="Xóa yêu cầu này"
+                          >
+                            <Trash2 className="h-4 w-4" />
+                          </button>
+                        </div>
                       </td>
                     </tr>
                   ))}
