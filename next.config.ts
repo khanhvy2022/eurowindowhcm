@@ -36,6 +36,36 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/p/anh-cua-ep.html",
+        destination: "/tin-tuc/anh-cua-dep",
+        permanent: true,
+      },
+      {
+        source: "/p/anh-cua-ep",
+        destination: "/tin-tuc/anh-cua-dep",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/anh-cua-ep",
+        destination: "/tin-tuc/anh-cua-dep",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/p/anh-cua-ep.html",
+        destination: "/tin-tuc/anh-cua-dep",
+        permanent: true,
+      },
+      {
+        source: "/anh-cua-ep",
+        destination: "/tin-tuc/anh-cua-dep",
+        permanent: true,
+      },
+      {
+        source: "/anh-cua-dep",
+        destination: "/tin-tuc/anh-cua-dep",
+        permanent: true,
+      },
+      {
         source: "/p/:slug*.html",
         destination: "/tin-tuc/:slug*",
         permanent: true,

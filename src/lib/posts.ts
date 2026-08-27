@@ -86,10 +86,12 @@ export async function getPostBySlug(rawSlug: string): Promise<Article | null> {
   let match = articles.find((a) => a.slug === cleanSlug || a.slug === rawSlug);
   if (match) return match;
 
-  // 2. Match on originalSlug / oldUrl / prefixes
+  // 2. Match on aliases / originalSlug / oldUrl / prefixes
   match = articles.find((a) => {
     const orig = (a as unknown as { originalSlug?: string }).originalSlug;
     if (orig && (orig === rawSlug || orig === cleanSlug || normalizeSlug(orig) === cleanSlug)) return true;
+    const aliases = (a as unknown as { aliases?: string[] }).aliases;
+    if (aliases && aliases.some((al) => al === rawSlug || al === cleanSlug || normalizeSlug(al) === cleanSlug)) return true;
     if (a.oldUrl && (a.oldUrl.includes(cleanSlug) || a.oldUrl.includes(rawSlug))) return true;
     if (cleanSlug.length > 5 && a.slug.includes(cleanSlug)) return true;
     if (cleanSlug.length > 5 && cleanSlug.includes(a.slug)) return true;

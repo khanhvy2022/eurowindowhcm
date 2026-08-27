@@ -13,6 +13,8 @@ export type Article = {
   author?: string;
   tags?: string[];
   oldUrl?: string;
+  originalSlug?: string;
+  aliases?: string[];
 };
 
 const handcraftedArticles: Article[] = [
