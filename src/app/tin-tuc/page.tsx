@@ -109,7 +109,7 @@ export default async function NewsPage() {
 
         <section className="border-t border-white/10 bg-[#102238]/60 py-24">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <SectionHeader title="Ưu đãi" href="/uu-dai" />
+            <SectionHeader title="Ưu đãi" href="/tin-tuc" />
             <div className="grid gap-6 md:grid-cols-3">
               {promos.map((article) => <NewsCard key={article.slug} {...article} />)}
             </div>
@@ -118,7 +118,7 @@ export default async function NewsPage() {
 
         <section className="py-24">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <SectionHeader title="Báo chí nói gì về Eurowindow" href="/bao-chi-noi-gi-ve-eurowindow" />
+            <SectionHeader title="Báo chí nói gì về Eurowindow" href="/tin-tuc" />
             <div className="grid gap-6 md:grid-cols-3">
               {press.map((article) => <NewsCard key={article.slug} {...article} />)}
             </div>
@@ -127,7 +127,7 @@ export default async function NewsPage() {
 
         <section className="border-t border-white/10 bg-[#102238]/60 py-24">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <SectionHeader title="Văn hóa Eurowindow" href="/van-hoa-eurowindow" />
+            <SectionHeader title="Văn hóa Eurowindow" href="/tin-tuc" />
             <div className="grid gap-6 md:grid-cols-2">
               {culture.map((article) => <NewsCard key={article.slug} {...article} />)}
             </div>
@@ -136,7 +136,7 @@ export default async function NewsPage() {
 
         <section className="py-24">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <SectionHeader title="Chia sẻ kiến thức" href="/chia-se-kien-thuc" />
+            <SectionHeader title="Chia sẻ kiến thức" href="/tin-tuc" />
             <div className="grid gap-6 md:grid-cols-2">
               {knowledge.map((article) => <NewsCard key={article.slug} {...article} />)}
             </div>
