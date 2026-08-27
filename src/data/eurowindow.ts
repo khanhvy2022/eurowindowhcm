@@ -98,8 +98,17 @@ export const achievements = [
 ];
 
 export const contact = {
-  phone: "(84 - 24) 37 47 47 00",
+  phone: "0966 994 338",
+  hotline: "0966 994 338",
   email: "infoew@eurowindow.biz",
-  address: "Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội",
-  hotline: "(84 - 24) 37 47 47 00",
+  branchSouth: "Chi Nhánh Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP.HCM",
+  headquarters: "Trụ sở chính: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội",
+  address: "Chi Nhánh Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP.HCM",
 };
+
+export const partnerLinks = [
+  { label: "Eurowindow - Nhà Cung Cấp Cửa Hàng Đầu Việt Nam", href: "https://www.euroowindow.com/" },
+  { label: "Eurowindow - Chi Nhánh Miền Nam", href: "https://www.eurowindowvn.com/" },
+  { label: "Công ty CP Eurowindow", href: "https://www.eurowindowdoor.com/" },
+  { label: "Cửa Eurowindow Miền Nam", href: "https://www.eurowindow.top/" },
+];
