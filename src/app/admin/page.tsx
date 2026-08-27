@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import SeoTab from "./seo/SeoTab";
 import {
-  LogOut, Plus, Trash2, Pencil, FileText, BookOpen, Lock, Search, X, Gauge, Users, Shield,
+  LogOut, Plus, Trash2, Pencil, FileText, BookOpen, Lock, Search, X, Gauge, Users, Shield, Inbox, Phone, Mail, MapPin, CheckCircle2,
 } from "lucide-react";
 
 type Post = {
@@ -29,6 +29,20 @@ type KnowledgeItem = {
   keywords: string[];
   question: string;
   answer: string;
+};
+
+type ContactLead = {
+  _id?: string;
+  fullName: string;
+  phone: string;
+  email?: string;
+  address?: string;
+  product?: string;
+  message?: string;
+  formattedNote?: string;
+  googleFormSynced?: boolean;
+  createdAt?: string;
+  status?: string;
 };
 
 type UserItem = {
@@ -432,10 +446,11 @@ function KnowledgeForm({ initial, onCancel, onSaved }: { initial?: KnowledgeItem
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false);
-  const [tab, setTab] = useState<"posts" | "knowledge" | "seo" | "users">("posts");
+  const [tab, setTab] = useState<"posts" | "knowledge" | "seo" | "contacts" | "users">("posts");
   const [posts, setPosts] = useState<Post[]>([]);
   const [filePosts, setFilePosts] = useState<Post[]>([]);
   const [knowledge, setKnowledge] = useState<KnowledgeItem[]>([]);
+  const [contacts, setContacts] = useState<ContactLead[]>([]);
   const [users, setUsers] = useState<UserItem[]>([]);
   const [editing, setEditing] = useState<Post | null>(null);
   const [showNewPost, setShowNewPost] = useState(false);
@@ -454,20 +469,23 @@ export default function AdminPage() {
   const refresh = useCallback(async () => {
     setLoading(true);
     try {
-      const [postsRes, kbRes, usersRes, fileRes] = await Promise.all([
+      const [postsRes, kbRes, usersRes, fileRes, contactsRes] = await Promise.all([
         fetch("/api/posts"),
         fetch("/api/knowledge"),
         fetch("/api/admin/users", { headers: { Authorization: `Bearer ${getToken()}` } }),
         fetch("/api/posts/files"),
+        fetch("/api/contact"),
       ]);
       const postsData = await postsRes.json();
       const kbData = await kbRes.json();
       const usersData = await usersRes.json();
       const fileData = await fileRes.json();
+      const contactsData = await contactsRes.json();
       setPosts(postsData.posts ?? []);
       setFilePosts(fileData.posts ?? []);
       setKnowledge(kbData.entries ?? []);
       setUsers(usersData.users ?? []);
+      setContacts(contactsData.contacts ?? []);
     } finally {
       setLoading(false);
     }
@@ -494,6 +512,14 @@ export default function AdminPage() {
     const q = search.toLowerCase();
     return knowledge.filter((k) => (k.question + k.answer + k.category).toLowerCase().includes(q));
   }, [knowledge, search]);
+
+  const filteredContacts = useMemo(() => {
+    const q = search.toLowerCase();
+    return contacts.filter(
+      (c) =>
+        (c.fullName + (c.phone || "") + (c.email || "") + (c.address || "") + (c.product || "") + (c.message || "")).toLowerCase().includes(q)
+    );
+  }, [contacts, search]);
 
   async function deletePost(p: Post) {
     if (!confirm(`Xóa bài viết "${p.title}"?`)) return;
@@ -614,6 +640,12 @@ export default function AdminPage() {
             className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold ${tab === "seo" ? "bg-[#0066aa] text-white" : "text-slate-600 hover:bg-slate-100"}`}
           >
             <Gauge className="h-4 w-4" /> SEO
+          </button>
+          <button
+            onClick={() => setTab("contacts")}
+            className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold ${tab === "contacts" ? "bg-[#0066aa] text-white" : "text-slate-600 hover:bg-slate-100"}`}
+          >
+            <Inbox className="h-4 w-4" /> Liên hệ ({contacts.length})
           </button>
           {adminRole === "admin" ? (
             <button
@@ -810,6 +842,90 @@ export default function AdminPage() {
                   ))}
                   {filteredKb.length === 0 ? (
                     <tr><td colSpan={3} className="px-4 py-8 text-center text-slate-400">Chưa có câu hỏi nào.</td></tr>
+                  ) : null}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+        {tab === "contacts" && (
+          <div className="space-y-5">
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-lg font-bold text-slate-900">Danh sách khách hàng liên hệ & yêu cầu báo giá</h2>
+                <p className="text-xs text-slate-500 mt-0.5">Tự động đồng bộ với Google Form và lưu vào Database MongoDB</p>
+              </div>
+              <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold text-emerald-800">
+                {contacts.length} yêu cầu
+              </span>
+            </div>
+
+            {loading ? <p className="py-10 text-center text-sm text-slate-500">Đang tải dữ liệu...</p> : null}
+
+            <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+              <table className="w-full text-left text-sm">
+                <thead className="border-b border-slate-200 bg-slate-50 text-xs font-bold uppercase tracking-wide text-slate-500">
+                  <tr>
+                    <th className="px-4 py-3">Thời gian</th>
+                    <th className="px-4 py-3">Khách hàng</th>
+                    <th className="px-4 py-3">Địa chỉ công trình</th>
+                    <th className="px-4 py-3">Sản phẩm & Nội dung</th>
+                    <th className="px-4 py-3">Đồng bộ</th>
+                    <th className="px-4 py-3 text-right">Gọi nhanh</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100">
+                  {filteredContacts.map((c, i) => (
+                    <tr key={c._id || i} className="hover:bg-slate-50">
+                      <td className="whitespace-nowrap px-4 py-3 text-xs text-slate-500">
+                        {c.createdAt ? new Date(c.createdAt).toLocaleString("vi-VN") : "Mới"}
+                      </td>
+                      <td className="px-4 py-3">
+                        <div className="font-bold text-slate-900">{c.fullName}</div>
+                        <div className="mt-0.5 flex items-center gap-2 text-xs text-slate-500">
+                          <span className="font-semibold text-[#0066aa]">{c.phone}</span>
+                          {c.email ? <span>· {c.email}</span> : null}
+                        </div>
+                      </td>
+                      <td className="max-w-[200px] px-4 py-3 text-xs text-slate-600">
+                        {c.address || <span className="text-slate-400">Chưa cung cấp</span>}
+                      </td>
+                      <td className="max-w-[280px] px-4 py-3">
+                        {c.product ? (
+                          <span className="inline-block rounded bg-amber-50 border border-amber-200 px-2 py-0.5 text-[11px] font-bold text-amber-800">
+                            {c.product}
+                          </span>
+                        ) : null}
+                        {c.message ? (
+                          <p className="mt-1 text-xs text-slate-600 line-clamp-2">{c.message}</p>
+                        ) : null}
+                      </td>
+                      <td className="px-4 py-3 text-xs">
+                        {c.googleFormSynced !== false ? (
+                          <span className="inline-flex items-center gap-1 text-emerald-600 font-semibold">
+                            <CheckCircle2 className="h-3.5 w-3.5" /> Google Form
+                          </span>
+                        ) : (
+                          <span className="text-slate-400">Database</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3 text-right">
+                        <a
+                          href={`tel:${c.phone.replace(/\s+/g, "")}`}
+                          className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-600 px-3 py-1.5 text-xs font-bold text-white shadow-sm hover:bg-emerald-700 transition"
+                        >
+                          <Phone className="h-3 w-3" /> Gọi
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                  {filteredContacts.length === 0 && !loading ? (
+                    <tr>
+                      <td colSpan={6} className="px-4 py-12 text-center text-slate-400">
+                        Chưa có khách hàng nào gửi yêu cầu liên hệ.
+                      </td>
+                    </tr>
                   ) : null}
                 </tbody>
               </table>
