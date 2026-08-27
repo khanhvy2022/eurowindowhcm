@@ -50,7 +50,10 @@ export async function getDb(): Promise<Db | null> {
     db = client.db(dbName);
     return db;
   } catch (err) {
-    console.error("[db] MongoDB connection failed:", err instanceof Error ? err.message : err);
+    // Dùng console.warn để tránh kích hoạt màn hình báo lỗi đỏ (error overlay) của Next.js dev khi mất mạng / DB không sẵn sàng
+    console.warn("[db] MongoDB connection failed (fallback to local data):", err instanceof Error ? err.message : err);
+    globalThis._ewMongoClient = undefined;
+    client = undefined;
     failedAt = Date.now();
     return null;
   }
