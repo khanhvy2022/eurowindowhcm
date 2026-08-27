@@ -52,15 +52,49 @@ export async function getAllPosts(): Promise<Article[]> {
   return merged;
 }
 
-export async function getPostBySlug(slug: string): Promise<Article | null> {
+function normalizeSlug(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/^(\/?p\/|\/?\d{4}\/\d{2}\/)?/, "")
+    .replace(/\.html$/, "")
+    .replace(/^\/+|\/+$/g, "")
+    .replace(/^-+|-+$/g, "")
+    .trim();
+}
+
+export async function getPostBySlug(rawSlug: string): Promise<Article | null> {
+  const cleanSlug = normalizeSlug(rawSlug);
   try {
     const db = await getDb();
     if (db) {
-      const doc = await db.collection(COLLECTIONS.posts).findOne({ slug });
+      const doc = await db.collection(COLLECTIONS.posts).findOne({
+        $or: [
+          { slug: rawSlug },
+          { slug: cleanSlug },
+          { originalSlug: rawSlug },
+          { originalSlug: cleanSlug },
+          { oldUrl: { $regex: cleanSlug, $options: "i" } },
+        ],
+      });
       if (doc) return toArticle(doc as unknown as Record<string, unknown>);
     }
   } catch {
     // fallback static
   }
-  return articles.find((a) => a.slug === slug) ?? null;
+
+  // 1. Exact match on slug
+  let match = articles.find((a) => a.slug === cleanSlug || a.slug === rawSlug);
+  if (match) return match;
+
+  // 2. Match on originalSlug / oldUrl / prefixes
+  match = articles.find((a) => {
+    const orig = (a as unknown as { originalSlug?: string }).originalSlug;
+    if (orig && (orig === rawSlug || orig === cleanSlug || normalizeSlug(orig) === cleanSlug)) return true;
+    if (a.oldUrl && (a.oldUrl.includes(cleanSlug) || a.oldUrl.includes(rawSlug))) return true;
+    if (cleanSlug.length > 5 && a.slug.includes(cleanSlug)) return true;
+    if (cleanSlug.length > 5 && cleanSlug.includes(a.slug)) return true;
+    return false;
+  });
+
+  return match ?? null;
 }

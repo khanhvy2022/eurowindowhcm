@@ -7,20 +7,21 @@ import { notFound } from "next/navigation";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import { articles } from "../articles";
 
-type Props = { params: Promise<{ slug: string }> };
+type Props = { params: Promise<{ slug: string[] }> };
 
 const BASE_URL = "https://eurowindowhcm.com";
 
 export function generateStaticParams() {
-  return articles.map((a) => ({ slug: a.slug }));
+  return articles.map((a) => ({ slug: a.slug.split("/").filter(Boolean) }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const article = await getPostBySlug(slug);
+  const slugStr = Array.isArray(slug) ? slug.join("/") : String(slug);
+  const article = await getPostBySlug(slugStr);
   if (!article) return { title: "Không tìm thấy bài viết" };
 
-  const canonicalUrl = `${BASE_URL}/tin-tuc/${slug}`;
+  const canonicalUrl = `${BASE_URL}/tin-tuc/${article.slug}`;
   const title = `${article.title} | Eurowindow HCM`;
   const description = article.excerpt || article.title;
 
@@ -50,11 +51,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ArticleDetailPage({ params }: Props) {
   const { slug } = await params;
-  const article = await getPostBySlug(slug);
+  const slugStr = Array.isArray(slug) ? slug.join("/") : String(slug);
+  const article = await getPostBySlug(slugStr);
   if (!article) notFound();
 
   const all = await getAllPosts();
-  const related = all.filter((a) => a.slug !== slug).slice(0, 3);
+  const related = all.filter((a) => a.slug !== article.slug).slice(0, 3);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -79,7 +81,7 @@ export default async function ArticleDetailPage({ params }: Props) {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${BASE_URL}/tin-tuc/${slug}`,
+      "@id": `${BASE_URL}/tin-tuc/${article.slug}`,
     },
   };
 
@@ -103,7 +105,7 @@ export default async function ArticleDetailPage({ params }: Props) {
         "@type": "ListItem",
         position: 3,
         name: article.title,
-        item: `${BASE_URL}/tin-tuc/${slug}`,
+        item: `${BASE_URL}/tin-tuc/${article.slug}`,
       },
     ],
   };

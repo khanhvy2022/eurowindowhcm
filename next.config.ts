@@ -40,6 +40,37 @@ const nextConfig: NextConfig = {
         destination: "/tin-tuc/:slug*",
         permanent: true,
       },
+      {
+        source: "/p/:slug*",
+        destination: "/tin-tuc/:slug*",
+        permanent: true,
+      },
+      // Tin-tuc legacy path redirects (/tin-tuc/p/..., /tin-tuc/YYYY/MM/..., /tin-tuc/*.html)
+      {
+        source: "/tin-tuc/p/:slug*.html",
+        destination: "/tin-tuc/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/p/:slug*",
+        destination: "/tin-tuc/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/:year(\\d{4})/:month(\\d{2})/:slug*.html",
+        destination: "/tin-tuc/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/:year(\\d{4})/:month(\\d{2})/:slug*",
+        destination: "/tin-tuc/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/:slug*.html",
+        destination: "/tin-tuc/:slug*",
+        permanent: true,
+      },
       // Blogger Post URLs: /YYYY/MM/slug.html -> /tin-tuc/slug
       {
         source: "/:year(\\d{4})/:month(\\d{2})/:slug*.html",
