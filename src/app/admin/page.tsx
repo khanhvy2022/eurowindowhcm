@@ -694,7 +694,54 @@ export default function AdminPage() {
   async function uploadDocument(file: File) {
     setUploading(true);
     setUploadError(null);
+
+    const MAX_BINARY_SIZE = 4.3 * 1024 * 1024; // 4.3MB (Vercel Serverless hard limit là 4.5MB)
+
     try {
+      const ext = file.name.split(".").pop()?.toLowerCase() || "";
+      const isTextType = ["txt", "csv", "md", "json", "html", "htm"].includes(ext);
+
+      // Nếu là file text/markdown/csv/json: đọc trực tiếp trên trình duyệt rồi gửi dạng JSON (chỉ vài chục KB)
+      if (isTextType) {
+        const textContent = await file.text();
+        const res = await fetch("/api/documents", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${getToken()}`,
+          },
+          body: JSON.stringify({
+            text: textContent,
+            fileName: file.name,
+            fileSize: file.size,
+            fileType: ext,
+            title: file.name.replace(/\.[^/.]+$/, ""),
+          }),
+        });
+
+        let data: Record<string, unknown> = {};
+        try {
+          data = (await res.json()) as Record<string, unknown>;
+        } catch {
+          data = { ok: false, error: `Máy chủ trả về trạng thái ${res.status}` };
+        }
+
+        if (res.ok && data.ok) {
+          refresh();
+        } else {
+          setUploadError(typeof data.error === "string" ? data.error : `Upload thất bại (${res.status})`);
+        }
+        return;
+      }
+
+      // Đối với file binary (PDF, DOCX): kiểm tra dung lượng trước khi gửi
+      if (file.size > MAX_BINARY_SIZE) {
+        setUploadError(
+          `File "${file.name}" (${(file.size / (1024 * 1024)).toFixed(1)}MB) vượt quá giới hạn 4.5MB của server Vercel. Vui lòng nén file, lưu dưới dạng text/markdown hoặc tải file dưới 4.5MB.`
+        );
+        return;
+      }
+
       const formData = new FormData();
       formData.append("file", file);
       const res = await fetch("/api/documents", {
@@ -702,6 +749,12 @@ export default function AdminPage() {
         headers: { Authorization: `Bearer ${getToken()}` },
         body: formData,
       });
+
+      if (res.status === 413) {
+        setUploadError(`File vượt quá dung lượng cho phép của máy chủ Vercel (lỗi 413). Vui lòng chọn file dưới 4.5MB.`);
+        return;
+      }
+
       let data: Record<string, unknown> = {};
       try {
         data = (await res.json()) as Record<string, unknown>;
@@ -1058,7 +1111,7 @@ export default function AdminPage() {
                   </div>
                   <div>
                     <p className="font-bold text-slate-700">Kéo & thả tài liệu vào đây</p>
-                    <p className="mt-1 text-xs text-slate-500">Hỗ trợ: PDF, DOCX, TXT, CSV, MD, JSON · Tối đa 10MB</p>
+                    <p className="mt-1 text-xs text-slate-500">Hỗ trợ: PDF, DOCX, TXT, CSV, MD, JSON · File text không giới hạn · PDF/DOCX tối đa 4.5MB</p>
                   </div>
                   <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-[#0066aa] px-5 py-2.5 text-sm font-bold text-white transition hover:bg-[#005690]">
                     <FileUp className="h-4 w-4" />

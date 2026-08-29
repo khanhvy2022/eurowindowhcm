@@ -85,10 +85,7 @@ function extractKeywords(text: string): string[] {
     .map(([w]) => w);
 }
 
-/**
- * Chia nhỏ văn bản thành các chunks có độ dài vừa phải (~600 - 1000 ký tự) kèm độ gối đầu
- */
-function chunkText(text: string, chunkSize = 800, overlap = 150): DocumentChunk[] {
+export function chunkText(text: string, chunkSize = 800, overlap = 150): DocumentChunk[] {
   const clean = text
     .replace(/\r\n/g, "\n")
     .replace(/\n{3,}/g, "\n\n")

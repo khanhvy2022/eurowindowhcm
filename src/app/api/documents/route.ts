@@ -1,7 +1,9 @@
 import { NextRequest } from "next/server";
 import { checkAuth, unauthorized } from "@/lib/auth";
-import { parseDocument } from "@/lib/documentParser";
+import { parseDocument, chunkText } from "@/lib/documentParser";
 import { getAllDocuments, saveDocument } from "@/lib/documentStore";
+
+export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
   if (!checkAuth(request)) return unauthorized();
@@ -34,19 +36,56 @@ export async function POST(request: NextRequest) {
   if (!checkAuth(request)) return unauthorized();
 
   try {
-    const formData = await request.formData();
-    const file = formData.get("file") as File | null;
-    const customTitle = (formData.get("title") as string | null) || undefined;
+    const contentType = request.headers.get("content-type") || "";
 
-    if (!file) {
-      return Response.json({ ok: false, error: "Vui lòng chọn file tài liệu" }, { status: 400 });
+    let fileName = "";
+    let fileSize = 0;
+    let fileType = "";
+    let customTitle: string | undefined = undefined;
+    let rawText = "";
+    let buffer: Buffer | null = null;
+
+    if (contentType.includes("application/json")) {
+      const body = await request.json();
+      fileName = String(body.fileName || "tai-lieu.txt");
+      fileSize = Number(body.fileSize || 0);
+      fileType = String(body.fileType || fileName.split(".").pop() || "txt");
+      customTitle = (body.title ? String(body.title).trim() : undefined);
+      rawText = String(body.text || "").trim();
+    } else {
+      const formData = await request.formData();
+      const file = formData.get("file") as File | null;
+      customTitle = (formData.get("title") as string | null) || undefined;
+
+      if (!file) {
+        return Response.json({ ok: false, error: "Vui lòng chọn file tài liệu" }, { status: 400 });
+      }
+
+      fileName = file.name;
+      fileSize = file.size;
+      fileType = file.name.split(".").pop()?.toLowerCase() || "";
+
+      const arrayBuffer = await file.arrayBuffer();
+      buffer = Buffer.from(arrayBuffer);
     }
 
-    const arrayBuffer = await file.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-
-    // Bóc tách nội dung và chia nhỏ thành các chunks
-    const parsed = await parseDocument(buffer, file.name, customTitle);
+    let parsed;
+    if (rawText) {
+      const chunks = chunkText(rawText);
+      parsed = {
+        fileName,
+        fileSize: fileSize || rawText.length,
+        fileType: fileType || "txt",
+        title: customTitle?.trim() || fileName.replace(/\.[^/.]+$/, ""),
+        chunks,
+        totalChunks: chunks.length,
+        extractedChars: rawText.length,
+      };
+    } else if (buffer) {
+      parsed = await parseDocument(buffer, fileName, customTitle);
+    } else {
+      return Response.json({ ok: false, error: "Không tìm thấy dữ liệu file" }, { status: 400 });
+    }
 
     if (parsed.totalChunks === 0 || parsed.extractedChars === 0) {
       return Response.json(
