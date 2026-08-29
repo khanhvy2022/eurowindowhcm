@@ -17,7 +17,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://eurowindowhcm.com"
 
 export const metadata: Metadata = {
   title: {
-    default: "Cửa Eurowindow Hồ Chí Minh | Cửa Nhôm, uPVC, Kính Cao Cấp",
+    default: "Cửa Eurowindow Hồ Chí Minh",
     template: "%s | Cửa Eurowindow Hồ Chí Minh",
   },
   description:
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     alternateLocale: "en_US",
     siteName: "Cửa Eurowindow Hồ Chí Minh",
-    title: "Cửa Eurowindow Hồ Chí Minh | Cửa Nhôm, uPVC, Kính Cao Cấp",
+    title: "Cửa Eurowindow Hồ Chí Minh",
     description:
       "Nhà phân phối chính hãng Eurowindow tại TP.HCM – cửa nhôm kính, cửa uPVC, kính an toàn cho biệt thự, căn hộ và công trình hiện đại. Hơn 23 năm kinh nghiệm.",
     images: [
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cửa Eurowindow Hồ Chí Minh | Cửa Nhôm, uPVC, Kính Cao Cấp",
+    title: "Cửa Eurowindow Hồ Chí Minh",
     description:
       "Nhà phân phối chính hãng Eurowindow tại TP.HCM – cửa nhôm kính, cửa uPVC, kính an toàn. Hotline: 0966 994 338.",
     images: [`${SITE_URL}/eurowindow/cuanhom.jpg.webp`],
@@ -226,6 +226,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <QuickContactButtons />
         <ChatWidget />
+
+        {/* Microformats (h-card / vcard) Markup for SEO Parsers */}
+        <div className="vcard h-card hidden" aria-hidden="true" style={{ display: "none" }}>
+          <a className="url fn org u-url u-uid p-name" href={SITE_URL}>Cửa Eurowindow Hồ Chí Minh</a>
+          <p className="note p-note">Nhà cung cấp tổng thể giải pháp cửa nhôm kính, cửa uPVC và vách kính hàng đầu Việt Nam</p>
+          <div className="adr h-adr p-adr">
+            <span className="street-address p-street-address">TP. Hồ Chí Minh</span>,
+            <span className="locality p-locality">Hồ Chí Minh</span>,
+            <span className="region p-region">Hồ Chí Minh</span>,
+            <span className="country-name p-country-name">Vietnam</span>
+          </div>
+          <span className="tel p-tel">+84 966 994 338</span>
+          <a className="email u-email" href="mailto:contact@eurowindowhcm.com">contact@eurowindowhcm.com</a>
+          <span className="category p-category">Cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn</span>
+        </div>
       </body>
     </html>
   );

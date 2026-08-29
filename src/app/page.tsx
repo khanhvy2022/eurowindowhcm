@@ -11,7 +11,7 @@ import StrategicPartners from "@/components/StrategicPartners";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cửa Eurowindow Hồ Chí Minh – Nhà Cung Cấp Tổng Thể Cửa Hàng Đầu Việt Nam",
+  title: "Cửa Eurowindow Hồ Chí Minh",
   description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
   alternates: {
     canonical: "https://eurowindowhcm.com",
@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Cửa Eurowindow Hồ Chí Minh – Nhà Cung Cấp Tổng Thể Cửa Hàng Đầu Việt Nam",
+    title: "Cửa Eurowindow Hồ Chí Minh",
     description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
     url: "https://eurowindowhcm.com",
-    images: [{ url: "/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Eurowindow Hồ Chí Minh" }],
+    images: [{ url: "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Cửa Eurowindow Hồ Chí Minh" }],
   },
 };
 
