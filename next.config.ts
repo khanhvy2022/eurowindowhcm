@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  serverExternalPackages: ["@zvec/zvec"],
+  serverExternalPackages: ["@zvec/zvec", "pdf-parse", "mammoth"],
   async redirects() {
     return [
       // Static Blogger pages
