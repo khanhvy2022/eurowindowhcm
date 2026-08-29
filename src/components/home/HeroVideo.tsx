@@ -22,7 +22,7 @@ export default function HeroVideo({
   videoSrc = "/videos/hero-video-optimized.mp4",
   posterSrc = "/videos/hero-poster.jpg",
   badge = "GIẢI PHÁP VẬT LIỆU KIẾN TRÚC CAO CẤP",
-  headline = "Kiến tạo không gian sống đẳng cấp",
+  headline = "Eurowindow - Kiến tạo không gian sống đẳng cấp",
   subheadline = "Eurowindow mang đến các giải pháp cửa, kính và vật liệu xây dựng cao cấp cho biệt thự, căn hộ và công trình hiện đại.",
   primaryCtaText = "Khám phá sản phẩm",
   primaryCtaHref = "/san-pham",
@@ -97,7 +97,6 @@ export default function HeroVideo({
             <source src="/videos/hero-video-optimized.mp4" type="video/mp4" />
             <img src={posterSrc} alt="Eurowindow" className="h-full w-full object-cover" />
           </video>
-
         )}
       </div>
 
@@ -111,37 +110,37 @@ export default function HeroVideo({
       />
 
       {/* 3. Hero Content Container */}
-      <div className="relative z-20 mx-auto max-w-[800px] px-6 text-center animate-hero-enter">
+      <div className="relative z-20 mx-auto max-w-[860px] px-6 text-center animate-hero-enter">
         {/* Luxury Gold Badge */}
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#E2C275]/40 bg-[#E2C275]/10 px-5 py-2 backdrop-blur-md">
-          <Sparkles className="h-4 w-4 text-[#E2C275]" />
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#E2C275]">
+        <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#E2C275]/40 bg-[#E2C275]/10 px-4 py-1.5 backdrop-blur-md">
+          <Sparkles className="h-3.5 w-3.5 text-[#E2C275]" />
+          <span className="text-[11px] sm:text-xs font-bold uppercase tracking-[0.18em] text-[#E2C275]">
             {badge}
           </span>
         </div>
 
-        {/* Hero Headline */}
-        <h1 className="text-[36px] sm:text-[48px] lg:text-[72px] font-bold leading-[1.1] tracking-tight text-white drop-shadow-lg">
+        {/* Hero Headline (Compact, elegant typography) */}
+        <h1 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-bold leading-[1.25] tracking-tight text-white drop-shadow-lg">
           {headline}
         </h1>
 
         {/* Subheadline */}
-        <p className="mt-6 text-base sm:text-lg lg:text-[20px] font-normal leading-[1.8] text-[#D2D8E3] max-w-[720px] mx-auto drop-shadow">
+        <p className="mt-4 sm:mt-5 text-sm sm:text-base lg:text-[17px] font-normal leading-[1.7] text-[#D2D8E3] max-w-[680px] mx-auto drop-shadow">
           {subheadline}
         </p>
 
         {/* Action CTAs */}
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
           <Link
             href={primaryCtaHref}
-            className="btn-gold-luxury w-full sm:w-auto px-8 py-4 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2"
+            className="btn-gold-luxury w-full sm:w-auto px-7 py-3.5 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2"
           >
             {primaryCtaText}
             <ArrowRight className="h-4 w-4" />
           </Link>
           <Link
             href={secondaryCtaHref}
-            className="btn-secondary-outline w-full sm:w-auto px-8 py-4 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2"
+            className="btn-secondary-outline w-full sm:w-auto px-7 py-3.5 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2"
           >
             {secondaryCtaText}
           </Link>
