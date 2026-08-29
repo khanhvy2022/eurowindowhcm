@@ -17,11 +17,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://eurowindowhcm.com"
 
 export const metadata: Metadata = {
   title: {
-    default: "Cửa Eurowindow Hồ Chí Minh – Nhà Cung Cấp Tổng Thể Cửa Hàng Đầu Việt Nam",
+    default: "Cửa Eurowindow Hồ Chí Minh | Cửa Nhôm, uPVC, Kính Cao Cấp",
     template: "%s | Cửa Eurowindow Hồ Chí Minh",
   },
   description:
-    "Eurowindow – giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vật liệu xây dựng cao cấp chuẩn quốc tế. Hơn 23 năm kinh nghiệm, Top 1 thương hiệu cửa Việt Nam.",
+    "Eurowindow HCM – nhà phân phối chính hãng cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn tại TP.HCM. Hơn 23 năm kinh nghiệm, chuẩn quốc tế, bảo hành dài hạn. Hotline: 0966 994 338.",
   keywords: [
     "cửa nhôm kính",
     "cửa uPVC",
@@ -35,25 +35,35 @@ export const metadata: Metadata = {
     "eurowindow HCM",
     "cửa cao cấp",
     "vật liệu xây dựng",
+    "cửa nhôm kính HCM",
+    "cửa nhà ở",
+    "cửa biệt thự",
+    "cửa sổ nhôm kính",
   ],
   authors: [{ name: "Cửa Eurowindow Hồ Chí Minh", url: SITE_URL }],
   creator: "Cửa Eurowindow Hồ Chí Minh",
   publisher: "Cửa Eurowindow Hồ Chí Minh",
   category: "Xây dựng & Vật liệu",
+  applicationName: "Cửa Eurowindow Hồ Chí Minh",
+  generator: "Next.js",
+  referrer: "origin-when-cross-origin",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
     ],
     shortcut: "/favicon.ico",
     apple: [
       { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
+    other: [
+      { rel: "mask-icon", url: "/favicon.png" },
+    ],
   },
 
   metadataBase: new URL(SITE_URL),
   alternates: {
-    canonical: SITE_URL,
+    canonical: "/",
     languages: {
       "vi": SITE_URL,
       "en": `${SITE_URL}/en`,
@@ -65,33 +75,49 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     alternateLocale: "en_US",
     siteName: "Cửa Eurowindow Hồ Chí Minh",
-    title: "Cửa Eurowindow Hồ Chí Minh – Giải Pháp Cửa & Vách Kính Cao Cấp",
+    title: "Cửa Eurowindow Hồ Chí Minh | Cửa Nhôm, uPVC, Kính Cao Cấp",
     description:
-      "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn cho biệt thự, căn hộ và công trình hiện đại.",
-    images: [{ url: "/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Eurowindow - Kiến tạo không gian sống đẳng cấp" }],
+      "Nhà phân phối chính hãng Eurowindow tại TP.HCM – cửa nhôm kính, cửa uPVC, kính an toàn cho biệt thự, căn hộ và công trình hiện đại. Hơn 23 năm kinh nghiệm.",
+    images: [
+      {
+        url: `${SITE_URL}/eurowindow/cuanhom.jpg.webp`,
+        width: 1200,
+        height: 630,
+        alt: "Cửa Eurowindow Hồ Chí Minh – Cửa nhôm kính, uPVC cao cấp",
+        type: "image/webp",
+      },
+    ],
     url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cửa Eurowindow Hồ Chí Minh",
+    title: "Cửa Eurowindow Hồ Chí Minh | Cửa Nhôm, uPVC, Kính Cao Cấp",
     description:
-      "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ và kính an toàn chuẩn quốc tế.",
-    images: ["/eurowindow/cuanhom.jpg.webp"],
+      "Nhà phân phối chính hãng Eurowindow tại TP.HCM – cửa nhôm kính, cửa uPVC, kính an toàn. Hotline: 0966 994 338.",
+    images: [`${SITE_URL}/eurowindow/cuanhom.jpg.webp`],
     site: "@eurowindow_hcm",
     creator: "@eurowindow_hcm",
   },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
+      noimageindex: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
     },
   },
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
+
 
 const structuredData = {
   "@context": "https://schema.org",
