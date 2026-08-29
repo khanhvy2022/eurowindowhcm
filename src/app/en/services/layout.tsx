@@ -4,13 +4,6 @@ export const metadata: Metadata = {
   title: "Services & Warranty – Eurowindow Ho Chi Minh City",
   description:
     "End-to-end solutions: architectural consulting, engineering design, European-standard precision fabrication, professional installation, and lifetime genuine warranty.",
-  alternates: {
-    canonical: "https://eurowindowhcm.com/en/services",
-    languages: {
-      vi: "https://eurowindowhcm.com/dich-vu",
-      en: "https://eurowindowhcm.com/en/services",
-    },
-  },
   openGraph: {
     title: "Services & Warranty – Eurowindow Ho Chi Minh City",
     description:

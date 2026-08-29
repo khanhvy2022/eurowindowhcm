@@ -13,16 +13,22 @@ export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.slug }));
 }
 
+const EN_TO_VI_PROJECT_SLUG: Record<string, string> = {
+  "biet-thu-fu-thi-son-tay": "biet-thu-phu-thinh-son-tay",
+  "bie-thu-green-pearl-minh-khai": "biet-thu-green-pearl-minh-khai",
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const project = getProject(slug);
   if (!project) return { title: "Project not found" };
+  const viSlug = EN_TO_VI_PROJECT_SLUG[slug] || slug;
   return {
     title: `${project.title} – Eurowindow HCM`,
     description: project.intro,
     alternates: {
       canonical: `/en/projects/${slug}`,
-      languages: { vi: `/du-an/${slug}`, en: `/en/projects/${slug}` },
+      languages: { vi: `/du-an/${viSlug}`, en: `/en/projects/${slug}` },
     },
     openGraph: {
       type: "article",

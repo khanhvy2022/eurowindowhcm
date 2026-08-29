@@ -63,14 +63,6 @@ export const metadata: Metadata = {
   },
 
   metadataBase: new URL(SITE_URL),
-  alternates: {
-    canonical: "/",
-    languages: {
-      "vi": SITE_URL,
-      "en": `${SITE_URL}/en`,
-      "x-default": SITE_URL,
-    },
-  },
   openGraph: {
     type: "website",
     locale: "vi_VN",

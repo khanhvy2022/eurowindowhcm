@@ -15,11 +15,17 @@ export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.slug }));
 }
 
+const VI_TO_EN_PROJECT_SLUG: Record<string, string> = {
+  "biet-thu-phu-thinh-son-tay": "biet-thu-fu-thi-son-tay",
+  "biet-thu-green-pearl-minh-khai": "bie-thu-green-pearl-minh-khai",
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const project = getProject(slug);
   if (!project) return { title: "Không tìm thấy dự án" };
 
+  const enSlug = VI_TO_EN_PROJECT_SLUG[slug] || slug;
   const canonical = `https://eurowindowhcm.com/du-an/${slug}`;
   const title = `Dự Án ${project.title} – Eurowindow Thi Công`;
   const description = `${project.intro} Vị trí: ${project.location}. Hạng mục thi công: ${project.scope}.`;
@@ -28,7 +34,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: { canonical },
+    alternates: {
+      canonical,
+      languages: {
+        vi: `/du-an/${slug}`,
+        en: `/en/projects/${enSlug}`,
+      },
+    },
     openGraph: {
       type: "website",
       locale: "vi_VN",

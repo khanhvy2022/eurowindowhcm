@@ -15,6 +15,13 @@ export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug.split("/").filter(Boolean) }));
 }
 
+const EN_NEWS_SLUGS = new Set([
+  "toa-dam-xu-huong-nguon-nhan-luc",
+  "cua-vach-kinh-vinhomes-global-gate",
+  "giai-phap-cua-chong-nong-mua-he-2026",
+  "nen-chon-cua-gi-cho-mua-he-nang-nong",
+]);
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const slugStr = Array.isArray(slug) ? slug.join("/") : String(slug);
@@ -24,12 +31,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonicalUrl = `${BASE_URL}/tin-tuc/${article.slug}`;
   const title = `${article.title} | Eurowindow HCM`;
   const description = article.excerpt || article.title;
+  const hasEn = EN_NEWS_SLUGS.has(article.slug);
 
   return {
     title,
     description,
     alternates: {
       canonical: canonicalUrl,
+      ...(hasEn
+        ? {
+            languages: {
+              vi: `${BASE_URL}/tin-tuc/${article.slug}`,
+              en: `${BASE_URL}/en/news/${article.slug}`,
+            },
+          }
+        : {}),
     },
     openGraph: {
       title,

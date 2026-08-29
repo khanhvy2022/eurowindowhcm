@@ -10,6 +10,9 @@ type SearchParams = { searchParams?: Promise<Record<string, string | undefined>>
 export const metadata = {
   title: "Bài viết sản phẩm | Eurowindow",
   description: "Danh sách bài viết chuyên sâu về cửa nhôm, cửa nhựa uPVC, cửa gỗ, cửa cuốn, cửa tự động và kính Eurowindow.",
+  alternates: {
+    canonical: "/san-pham/bai-viet",
+  },
 };
 
 export default async function SanPhamBaiVietList({ searchParams }: SearchParams) {

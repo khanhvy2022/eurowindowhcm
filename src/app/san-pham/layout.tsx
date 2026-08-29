@@ -3,13 +3,6 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sản Phẩm Cửa Eurowindow Chính Hãng – Cửa Nhôm, uPVC, Cửa Gỗ, Kính Cao Cấp",
   description: "Tổng hợp các dòng sản phẩm cửa cao cấp Eurowindow: Cửa nhôm cầu cách nhiệt, cửa nhựa uPVC, cửa gỗ, kính an toàn, cửa cuốn, cửa tự động đạt tiêu chuẩn châu Âu.",
-  alternates: {
-    canonical: "https://eurowindowhcm.com/san-pham",
-    languages: {
-      vi: "/san-pham",
-      en: "/en/products",
-    },
-  },
   openGraph: {
     type: "website",
     locale: "vi_VN",

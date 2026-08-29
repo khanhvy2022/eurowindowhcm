@@ -17,6 +17,9 @@ export async function generateMetadata() {
   return {
     title: `${a.title} | Eurowindow`,
     description: a?.excerpt ?? "",
+    alternates: {
+      canonical: "/san-pham/cua-nhua-upvc/bai-viet",
+    },
   };
 }
 

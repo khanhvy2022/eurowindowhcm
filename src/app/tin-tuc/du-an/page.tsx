@@ -9,6 +9,9 @@ import { ArrowRight } from "lucide-react";
 export const metadata = {
   title: "Tin dự án Eurowindow | Dự án tiêu biểu",
   description: "Tổng hợp tin tức, hình ảnh và giải pháp cửa, vách kính Eurowindow cho các dự án công trình tiêu biểu trên toàn quốc.",
+  alternates: {
+    canonical: "/tin-tuc/du-an",
+  },
 };
 
 export default async function ProjectNewsPage() {

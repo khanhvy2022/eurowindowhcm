@@ -16,10 +16,6 @@ export const metadata: Metadata = {
   description: "Quy trình tư vấn giải pháp, thiết kế kỹ thuật, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow chuẩn châu Âu tại TP.HCM.",
   alternates: {
     canonical: "https://eurowindowhcm.com/dich-vu",
-    languages: {
-      vi: "/dich-vu",
-      en: "/en/services",
-    },
   },
   openGraph: {
     type: "website",
