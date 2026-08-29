@@ -40,10 +40,16 @@ export const metadata: Metadata = {
   publisher: "Cửa Eurowindow Hồ Chí Minh",
   category: "Xây dựng & Vật liệu",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
     shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
+
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: SITE_URL,
