@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
+import Script from "next/script";
 import ChatWidget from "@/components/ChatWidget";
 import QuickContactButtons from "@/components/QuickContactButtons";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
@@ -182,6 +183,19 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         />
       </head>
       <body className={`${spaceGrotesk.className} min-h-full`}>
+        {/* Google Analytics GA4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-BBMNYWJ8WN"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BBMNYWJ8WN');
+          `}
+        </Script>
         <ScrollProgressBar />
         {children}
         <QuickContactButtons />
