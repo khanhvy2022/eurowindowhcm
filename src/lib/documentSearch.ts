@@ -1,18 +1,5 @@
-import { getDb, COLLECTIONS } from "./db";
+import { getAllDocuments, type StoredDocument } from "./documentStore";
 import type { DocumentChunk } from "./documentParser";
-
-export type StoredDocument = {
-  _id?: string;
-  fileName: string;
-  fileSize: number;
-  fileType: string;
-  title: string;
-  chunks: DocumentChunk[];
-  totalChunks: number;
-  extractedChars: number;
-  enabled: boolean;
-  uploadedAt: string;
-};
 
 export type MatchedChunk = {
   documentTitle: string;
@@ -40,14 +27,9 @@ export async function searchDocumentContext(
   topK = 4,
   minScore = 2.5
 ): Promise<{ matchedChunks: MatchedChunk[]; contextText: string }> {
-  const db = await getDb();
-  if (!db) return { matchedChunks: [], contextText: "" };
-
   try {
-    const docs = (await db
-      .collection(COLLECTIONS.documents)
-      .find({ enabled: { $ne: false } })
-      .toArray()) as unknown as StoredDocument[];
+    const allDocs = await getAllDocuments();
+    const docs = allDocs.filter((d) => d.enabled !== false);
 
     if (!docs || docs.length === 0) {
       return { matchedChunks: [], contextText: "" };

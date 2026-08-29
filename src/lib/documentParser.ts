@@ -1,7 +1,41 @@
 import mammoth from "mammoth";
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const pdfParse = require("pdf-parse") as (buffer: Buffer) => Promise<{ text: string }>;
 
+async function extractPdfText(buffer: Buffer): Promise<string> {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const pdfModule = require("pdf-parse");
+    if (pdfModule?.PDFParse) {
+      const parser = new pdfModule.PDFParse({ data: buffer });
+      const textResult = await parser.getText();
+      if (typeof textResult === "string") return textResult;
+      if (textResult?.text) return textResult.text;
+      if (Array.isArray(textResult?.pages)) {
+        return textResult.pages.map((p: { text?: string }) => p.text || "").join("\n\n");
+      }
+    }
+    if (typeof pdfModule === "function") {
+      const data = await pdfModule(buffer);
+      return data?.text || "";
+    }
+    if (typeof pdfModule?.default === "function") {
+      const data = await pdfModule.default(buffer);
+      return data?.text || "";
+    }
+  } catch (err) {
+    console.warn("[documentParser] PDF parsing library error, trying stream extraction:", err);
+  }
+
+  // Fallback text extraction from raw PDF byte streams
+  try {
+    const raw = buffer.toString("binary");
+    const textMatches = raw.match(/\(([^()]+)\)\s*Tj/g) || [];
+    if (textMatches.length > 0) {
+      return textMatches.map((m) => m.replace(/^\(|\)\s*Tj$/g, "")).join(" ");
+    }
+  } catch {}
+
+  return "";
+}
 
 export type DocumentChunk = {
   id: string;
@@ -128,8 +162,7 @@ export async function parseDocument(
   let rawText = "";
 
   if (ext === "pdf") {
-    const data = await pdfParse(buffer);
-    rawText = data.text || "";
+    rawText = await extractPdfText(buffer);
   } else if (ext === "docx") {
     const result = await mammoth.extractRawText({ buffer });
     rawText = result.value || "";

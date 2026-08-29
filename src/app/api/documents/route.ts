@@ -1,26 +1,17 @@
 import { NextRequest } from "next/server";
-import { getDb, COLLECTIONS } from "@/lib/db";
 import { checkAuth, unauthorized } from "@/lib/auth";
 import { parseDocument } from "@/lib/documentParser";
+import { getAllDocuments, saveDocument } from "@/lib/documentStore";
 
 export async function GET(request: NextRequest) {
   if (!checkAuth(request)) return unauthorized();
 
-  const db = await getDb();
-  if (!db) return Response.json({ ok: true, documents: [] });
-
   try {
-    const docs = await db
-      .collection(COLLECTIONS.documents)
-      .find({})
-      .sort({ uploadedAt: -1 })
-      .project({ chunks: 0 }) // Không tải mảng chunks lớn khi chỉ lấy danh sách
-      .toArray();
-
+    const docs = await getAllDocuments();
     return Response.json({
       ok: true,
       documents: docs.map((d) => ({
-        id: String(d._id),
+        id: d.id || d._id,
         fileName: d.fileName,
         fileSize: d.fileSize,
         fileType: d.fileType,
@@ -33,7 +24,7 @@ export async function GET(request: NextRequest) {
     });
   } catch (err) {
     return Response.json(
-      { ok: false, error: err instanceof Error ? err.message : "Lỗi server" },
+      { ok: false, error: err instanceof Error ? err.message : "Lỗi tải danh sách tài liệu" },
       { status: 500 }
     );
   }
@@ -41,11 +32,6 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   if (!checkAuth(request)) return unauthorized();
-
-  const db = await getDb();
-  if (!db) {
-    return Response.json({ ok: false, error: "Chưa cấu hình cơ sở dữ liệu MongoDB" }, { status: 500 });
-  }
 
   try {
     const formData = await request.formData();
@@ -64,12 +50,12 @@ export async function POST(request: NextRequest) {
 
     if (parsed.totalChunks === 0 || parsed.extractedChars === 0) {
       return Response.json(
-        { ok: false, error: "Không tìm thấy nội dung văn bản hợp lệ trong file" },
+        { ok: false, error: "Không tìm thấy nội dung văn bản hợp lệ trong file (hoặc file PDF quét dạng ảnh/bị khóa)" },
         { status: 400 }
       );
     }
 
-    // Lưu vào collection documents
+    // Lưu vào documentStore (tự động lưu vào MongoDB hoặc memory cache)
     const docData = {
       fileName: parsed.fileName,
       fileSize: parsed.fileSize,
@@ -82,11 +68,11 @@ export async function POST(request: NextRequest) {
       uploadedAt: new Date().toISOString(),
     };
 
-    const result = await db.collection(COLLECTIONS.documents).insertOne(docData);
+    const insertedId = await saveDocument(docData);
 
     return Response.json({
       ok: true,
-      id: String(result.insertedId),
+      id: insertedId,
       fileName: parsed.fileName,
       title: parsed.title,
       totalChunks: parsed.totalChunks,

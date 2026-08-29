@@ -702,21 +702,28 @@ export default function AdminPage() {
         headers: { Authorization: `Bearer ${getToken()}` },
         body: formData,
       });
-      const data = await res.json();
-      if (data.ok) {
+      let data: Record<string, unknown> = {};
+      try {
+        data = (await res.json()) as Record<string, unknown>;
+      } catch {
+        data = { ok: false, error: `Máy chủ trả về trạng thái ${res.status}` };
+      }
+      if (res.ok && data.ok) {
         refresh();
       } else {
-        setUploadError(data.error ?? "Upload thất bại");
+        setUploadError(typeof data.error === "string" ? data.error : `Upload thất bại (${res.status})`);
       }
-    } catch {
-      setUploadError("Lỗi kết nối máy chủ");
+    } catch (err) {
+      setUploadError(err instanceof Error ? err.message : "Lỗi kết nối máy chủ");
     } finally {
       setUploading(false);
     }
   }
 
-  async function toggleDocument(doc: DocumentItem) {
-    await fetch(`/api/documents/${doc._id}`, {
+  async function toggleDocument(doc: DocumentItem & { id?: string }) {
+    const docId = doc.id || doc._id;
+    if (!docId) return;
+    await fetch(`/api/documents/${docId}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
       body: JSON.stringify({ enabled: !doc.enabled }),
@@ -724,9 +731,11 @@ export default function AdminPage() {
     refresh();
   }
 
-  async function deleteDocument(doc: DocumentItem) {
+  async function deleteDocument(doc: DocumentItem & { id?: string }) {
+    const docId = doc.id || doc._id;
+    if (!docId) return;
     if (!confirm(`Xóa tài liệu "${doc.title}"?`)) return;
-    await fetch(`/api/documents/${doc._id}`, {
+    await fetch(`/api/documents/${docId}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${getToken()}` },
     });
