@@ -22,10 +22,19 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    siteName: "Cửa Eurowindow Hồ Chí Minh",
     title: "Cửa Eurowindow Hồ Chí Minh",
     description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
     url: "https://eurowindowhcm.com",
     images: [{ url: "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Cửa Eurowindow Hồ Chí Minh" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cửa Eurowindow Hồ Chí Minh",
+    description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
+    images: ["https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
   },
 };
 

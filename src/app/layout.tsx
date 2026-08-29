@@ -123,7 +123,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+      "@type": "LocalBusiness",
       "@id": `${SITE_URL}/#organization`,
       name: "Cửa Eurowindow Hồ Chí Minh",
       alternateName: "Eurowindow HCM",
@@ -134,6 +134,7 @@ const structuredData = {
         "Nhà cung cấp tổng thể các giải pháp cửa nhôm kính, cửa uPVC, cửa gỗ cao cấp Eurowindow tại TP. Hồ Chí Minh và khu vực miền Nam.",
       telephone: "+84 966 994 338",
       email: "contact@eurowindowhcm.com",
+      additionalType: "https://schema.org/HomeAndConstructionBusiness",
       address: {
         "@type": "PostalAddress",
         streetAddress: "TP. Hồ Chí Minh",
@@ -201,7 +202,12 @@ const structuredData = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="vi" data-scroll-behavior="smooth" className={`${spaceGrotesk.variable} h-full antialiased scroll-smooth`}>
+    <html
+      lang="vi"
+      prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#"
+      data-scroll-behavior="smooth"
+      className={`${spaceGrotesk.variable} h-full antialiased scroll-smooth`}
+    >
       <head>
         <script
           type="application/ld+json"
@@ -227,19 +233,54 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <QuickContactButtons />
         <ChatWidget />
 
-        {/* Microformats (h-card / vcard) Markup for SEO Parsers */}
-        <div className="vcard h-card hidden" aria-hidden="true" style={{ display: "none" }}>
-          <a className="url fn org u-url u-uid p-name" href={SITE_URL}>Cửa Eurowindow Hồ Chí Minh</a>
-          <p className="note p-note">Nhà cung cấp tổng thể giải pháp cửa nhôm kính, cửa uPVC và vách kính hàng đầu Việt Nam</p>
-          <div className="adr h-adr p-adr">
-            <span className="street-address p-street-address">TP. Hồ Chí Minh</span>,
-            <span className="locality p-locality">Hồ Chí Minh</span>,
-            <span className="region p-region">Hồ Chí Minh</span>,
-            <span className="country-name p-country-name">Vietnam</span>
+        {/* Microformats (h-card / vcard) & Schema.org Microdata for SEO Parsers */}
+        <div
+          className="vcard h-card hidden"
+          aria-hidden="true"
+          style={{ display: "none" }}
+          itemScope
+          itemType="https://schema.org/LocalBusiness"
+        >
+          <meta itemProp="image" content={`${SITE_URL}/eurowindow/cuanhom.jpg.webp`} />
+          <meta itemProp="priceRange" content="$$" />
+          <a
+            className="url fn org u-url u-uid p-name"
+            itemProp="url name"
+            href={SITE_URL}
+          >
+            Cửa Eurowindow Hồ Chí Minh
+          </a>
+          <p className="note p-note" itemProp="description">
+            Nhà cung cấp tổng thể giải pháp cửa nhôm kính, cửa uPVC và vách kính hàng đầu Việt Nam
+          </p>
+          <div
+            className="adr h-adr p-adr"
+            itemProp="address"
+            itemScope
+            itemType="https://schema.org/PostalAddress"
+          >
+            <span className="street-address p-street-address" itemProp="streetAddress">
+              TP. Hồ Chí Minh
+            </span>,
+            <span className="locality p-locality" itemProp="addressLocality">
+              Hồ Chí Minh
+            </span>,
+            <span className="region p-region" itemProp="addressRegion">
+              Hồ Chí Minh
+            </span>,
+            <span className="country-name p-country-name" itemProp="addressCountry">
+              VN
+            </span>
           </div>
-          <span className="tel p-tel">+84 966 994 338</span>
-          <a className="email u-email" href="mailto:contact@eurowindowhcm.com">contact@eurowindowhcm.com</a>
-          <span className="category p-category">Cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn</span>
+          <span className="tel p-tel" itemProp="telephone">
+            +84 966 994 338
+          </span>
+          <a className="email u-email" itemProp="email" href="mailto:contact@eurowindowhcm.com">
+            contact@eurowindowhcm.com
+          </a>
+          <span className="category p-category">
+            Cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn
+          </span>
         </div>
       </body>
     </html>
