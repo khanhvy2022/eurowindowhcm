@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Giới Thiệu Eurowindow Hồ Chí Minh – 23+ Năm Tiên Phong & Kiến Tạo",
+  title: "Giới Thiệu Eurowindow HCM – 23+ Năm Tiên Phong",
   description: "Tìm hiểu lịch sử hình thành, năng lực sản xuất, quy mô nhà máy và tầm nhìn sứ mệnh của Eurowindow – Thương hiệu Quốc gia hàng đầu Việt Nam.",
   alternates: {
     canonical: "https://eurowindowhcm.com/gioi-thieu",
+    languages: {
+      vi: "/gioi-thieu",
+      en: "/en/about",
+    },
   },
   openGraph: {
     type: "website",

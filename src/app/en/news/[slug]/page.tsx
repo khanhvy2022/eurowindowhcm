@@ -17,7 +17,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const article = getArticle(slug);
   if (!article) return { title: "Article not found" };
-  return { title: `${article.title} – Eurowindow News`, description: article.excerpt };
+  return {
+    title: `${article.title} – Eurowindow HCM`,
+    description: article.excerpt,
+    alternates: {
+      canonical: `/en/news/${slug}`,
+      languages: { vi: `/tin-tuc/${slug}`, en: `/en/news/${slug}` },
+    },
+    openGraph: {
+      type: "article",
+      locale: "en_US",
+      siteName: "Eurowindow HCM",
+      title: `${article.title} – Eurowindow HCM`,
+      description: article.excerpt,
+      images: article.image ? [{ url: article.image, width: 1200, height: 630 }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${article.title} – Eurowindow HCM`,
+      description: article.excerpt,
+    },
+  };
 }
 
 export default async function ArticleDetailPage({ params }: Props) {
@@ -31,7 +51,7 @@ export default async function ArticleDetailPage({ params }: Props) {
     <div className="min-h-screen bg-[#071523] text-white">
       <Header lang="en" />
       <main>
-        <PageBanner title={article.category} crumb={article.title} homeHref="/en" bgImage={article.image} />
+        <PageBanner title={article.category} crumb={article.title} homeHref="/en" bgImage={article.image} headingAs="div" />
 
         <section className="pb-16 pt-12">
           <div className="mx-auto max-w-[900px] px-5 sm:px-8">

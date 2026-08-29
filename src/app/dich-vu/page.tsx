@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import JsonLd from "@/components/JsonLd";
 
 const stages = [
   ["1.0", "Tư vấn giải pháp", "Phân tích công năng, điều kiện công trình và nhu cầu sử dụng để lựa chọn hệ sản phẩm phù hợp. Chúng tôi lắng nghe trước, đề xuất sau."],
@@ -14,6 +16,10 @@ export const metadata: Metadata = {
   description: "Quy trình tư vấn giải pháp, thiết kế kỹ thuật, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow chuẩn châu Âu tại TP.HCM.",
   alternates: {
     canonical: "https://eurowindowhcm.com/dich-vu",
+    languages: {
+      vi: "/dich-vu",
+      en: "/en/services",
+    },
   },
   openGraph: {
     type: "website",
@@ -32,9 +38,40 @@ export const metadata: Metadata = {
   },
 };
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Dịch vụ tư vấn, thi công và lắp đặt cửa Eurowindow",
+  provider: {
+    "@type": "HomeAndConstructionBusiness",
+    name: "Cửa Eurowindow Hồ Chí Minh",
+    url: "https://eurowindowhcm.com",
+    telephone: "+84966994338",
+  },
+  areaServed: {
+    "@type": "AdministrativeArea",
+    name: "Thành phố Hồ Chí Minh và khu vực miền Nam",
+  },
+  description: "Dịch vụ trọn gói từ tư vấn giải pháp, đo đạc thiết kế, sản xuất đến thi công lắp đặt cửa nhôm kính, cửa uPVC Eurowindow chính hãng.",
+};
+
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "Quy trình 4 bước thi công cửa Eurowindow tiêu chuẩn châu Âu",
+  step: stages.map(([num, name, text], idx) => ({
+    "@type": "HowToStep",
+    position: idx + 1,
+    name: `${num} ${name}`,
+    text,
+  })),
+};
+
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-[#071523] text-white">
+      <JsonLd data={serviceSchema} />
+      <JsonLd data={howToSchema} />
       <Header />
       <main>
         <section className="relative overflow-hidden mx-auto max-w-[1320px] px-5 pb-16 pt-28 sm:px-8 sm:pt-32 md:pt-40">
@@ -74,9 +111,9 @@ export default function ServicesPage() {
                 Chia sẻ nhu cầu của bạn — chúng tôi sẽ tư vấn giải pháp tối ưu nhất.
               </h2>
             </div>
-            <a href="#lien-he" className="btn-gold-luxury shrink-0 px-8 py-4 text-xs uppercase tracking-widest">
+            <Link href="/lien-he" className="btn-gold-luxury shrink-0 px-8 py-4 text-xs uppercase tracking-widest">
               Bắt đầu tư vấn ngay →
-            </a>
+            </Link>
           </div>
         </section>
       </main>

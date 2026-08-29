@@ -11,11 +11,33 @@ export async function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+import type { Metadata } from "next";
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) return { title: "Product Not Found" };
-  return { title: `${product.title} | Eurowindow`, description: product.text.slice(0, 160) };
+  return {
+    title: `${product.title} – Eurowindow HCM`,
+    description: product.text.slice(0, 160),
+    alternates: {
+      canonical: `/en/products/${slug}`,
+      languages: { vi: `/san-pham/${slug}`, en: `/en/products/${slug}` },
+    },
+    openGraph: {
+      type: "website",
+      locale: "en_US",
+      siteName: "Eurowindow HCM",
+      title: `${product.title} – Eurowindow HCM`,
+      description: product.text.slice(0, 160),
+      images: [{ url: product.image, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${product.title} – Eurowindow HCM`,
+      description: product.text.slice(0, 160),
+    },
+  };
 }
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -40,7 +62,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             <div className="grid gap-12 lg:grid-cols-2 lg:items-start">
               <div className="glass-card p-3 backdrop-blur-2xl">
                 <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-[#102238]">
-                  <Image src={product.image} alt={product.title} fill className="object-cover" />
+                  <Image src={product.image} alt={product.title} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
                 </div>
               </div>
 

@@ -119,6 +119,7 @@ export default async function ProjectDetailPage({ params }: Props) {
           title={project.title}
           crumb={project.title}
           bgImage={project.images[0]}
+          headingAs="div"
         />
 
         <section className="pb-20 pt-12">

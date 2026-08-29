@@ -103,7 +103,8 @@ export default function EnContactPage() {
 
       <main className="mx-auto max-w-[1320px] px-5 py-14 sm:px-8 lg:py-20">
         {/* Top Feature Cards */}
-        <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4" aria-labelledby="contact-info-heading">
+          <h2 id="contact-info-heading" className="sr-only">Contact Information</h2>
           <div className="group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl transition hover:border-[#E2C275]/50 hover:bg-white/[0.08]">
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#E2C275]/10 text-[#E2C275] transition group-hover:scale-110">
               <Phone className="h-6 w-6" />

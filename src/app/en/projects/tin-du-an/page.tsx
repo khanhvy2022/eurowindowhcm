@@ -7,8 +7,25 @@ import { ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Project News & Construction Updates | Eurowindow",
+  title: "Project News – Eurowindow HCM",
   description: "Stay updated with the latest news, milestone sign-offs, and construction updates on Eurowindow's featured projects.",
+  alternates: {
+    canonical: "/en/projects/tin-du-an",
+    languages: { vi: "/du-an/tin-du-an", en: "/en/projects/tin-du-an" },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Eurowindow HCM",
+    title: "Project News – Eurowindow HCM",
+    description: "Latest news, milestone sign-offs, and construction updates on Eurowindow's projects.",
+    images: [{ url: "/eurowindow/toa-dam-1.png.webp", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Project News – Eurowindow HCM",
+    description: "Latest project news and construction updates.",
+  },
 };
 
 const categoryLinksEn = [
@@ -54,6 +71,7 @@ export default function ProjectNewsPageEn() {
               ))}
             </div>
 
+            <h2 className="mb-6 text-xl font-extrabold uppercase tracking-tight text-white">Latest Project News</h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {articles.map((article) => (
                 <Link

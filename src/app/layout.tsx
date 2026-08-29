@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { Space_Grotesk } from "next/font/google";
 import Script from "next/script";
 import ChatWidget from "@/components/ChatWidget";
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Cửa Eurowindow Hồ Chí Minh",
   },
   description:
-    "Eurowindow HCM – nhà phân phối chính hãng cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn tại TP.HCM. Hơn 23 năm kinh nghiệm, chuẩn quốc tế, bảo hành dài hạn. Hotline: 0966 994 338.",
+    "Eurowindow HCM – phân phối chính hãng cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn tại TP.HCM. Chuẩn quốc tế, bảo hành dài hạn. Hotline: 0966 994 338.",
   keywords: [
     "cửa nhôm kính",
     "cửa uPVC",
@@ -205,10 +206,13 @@ const websiteSchema = {
   },
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const headersList = await headers();
+  const locale = headersList.get("x-locale") || "vi";
+
   return (
     <html
-      lang="vi"
+      lang={locale}
       prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#"
       data-scroll-behavior="smooth"
       className={`${spaceGrotesk.variable} h-full antialiased scroll-smooth`}

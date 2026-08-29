@@ -2,8 +2,25 @@ import ProjectCategoryViewEn from "@/components/ProjectCategoryViewEn";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Government & Office Building Projects | Eurowindow",
+  title: "Government Buildings – Eurowindow HCM",
   description: "Curtain wall and architectural door systems for government headquarters, corporate towers, and public institutions.",
+  alternates: {
+    canonical: "/en/projects/tru-so-co-quan",
+    languages: { vi: "/du-an/tru-so-co-quan", en: "/en/projects/tru-so-co-quan" },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Eurowindow HCM",
+    title: "Government Buildings – Eurowindow HCM",
+    description: "Curtain wall and architectural door systems for government headquarters, corporate towers.",
+    images: [{ url: "/eurowindow/constructions/img-7172.jpg.webp", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Government Buildings – Eurowindow HCM",
+    description: "Curtain wall and door systems for government buildings.",
+  },
 };
 
 export default function GovernmentBuildingsPage() {

@@ -8,8 +8,25 @@ import { ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tin Tức Dự Án & Tiến Độ Thi Công | Eurowindow",
+  title: "Tin Dự Án Eurowindow – Tin Tức & Cập Nhật",
   description: "Cập nhật tin tức mới nhất về các dự án, tiến độ thi công, lễ ký kết và nghiệm thu bàn giao các công trình của Eurowindow.",
+  alternates: {
+    canonical: "/du-an/tin-du-an",
+    languages: { vi: "/du-an/tin-du-an", en: "/en/projects/tin-du-an" },
+  },
+  openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    siteName: "Cửa Eurowindow Hồ Chí Minh",
+    title: "Tin Dự Án Eurowindow – Tin Tức & Cập Nhật",
+    description: "Cập nhật tin tức dự án, tiến độ thi công, lễ ký kết các công trình Eurowindow.",
+    images: [{ url: "/eurowindow/toa-dam-1.png.webp", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tin Dự Án Eurowindow – Tin Tức & Cập Nhật",
+    description: "Cập nhật tin tức dự án và tiến độ thi công của Eurowindow.",
+  },
 };
 
 const categoryLinks = [
@@ -64,6 +81,7 @@ export default function TinDuAnPage() {
               ))}
             </div>
 
+            <h2 className="mb-6 text-xl font-extrabold uppercase tracking-tight text-white">Bài Viết Dự Án Mới Nhất</h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {displayList.map((article) => (
                 <Link

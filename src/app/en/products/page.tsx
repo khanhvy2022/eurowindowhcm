@@ -5,9 +5,28 @@ import { products } from "@/app/en/products/products-data";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-export const metadata = {
-  title: "Products | Eurowindow",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Products & Solutions – Eurowindow HCM",
   description: "Explore Eurowindow's premium product range: aluminium doors, uPVC doors, wooden doors, glass products, automatic doors, and roller doors.",
+  alternates: {
+    canonical: "/en/products",
+    languages: { vi: "/san-pham", en: "/en/products" },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Eurowindow HCM",
+    title: "Products & Solutions – Eurowindow HCM",
+    description: "Explore Eurowindow's premium product range.",
+    images: [{ url: "/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Products & Solutions – Eurowindow HCM",
+    description: "Explore Eurowindow's premium product range.",
+  },
 };
 
 export default function ProductsPage() {

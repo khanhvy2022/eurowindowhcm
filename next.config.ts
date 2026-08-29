@@ -4,6 +4,17 @@ const nextConfig: NextConfig = {
   serverExternalPackages: ["@zvec/zvec", "pdf-parse", "mammoth"],
   async redirects() {
     return [
+      // Duplicate product category listing pages
+      {
+        source: "/san-pham/cua-nhom/bai-viet",
+        destination: "/san-pham/cua-nhom",
+        permanent: true,
+      },
+      {
+        source: "/san-pham/cua-nhua-upvc/bai-viet",
+        destination: "/san-pham/cua-nhua-upvc",
+        permanent: true,
+      },
       // Static Blogger pages
       {
         source: "/p/lien-he.html",

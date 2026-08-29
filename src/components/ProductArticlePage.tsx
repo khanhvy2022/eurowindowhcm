@@ -6,6 +6,7 @@ import { Check } from "lucide-react";
 import type { SanPhamArticle } from "@/app/san-pham/data";
 import { getArticlesByCategory, getCategoryByKey } from "@/app/san-pham/categories";
 import Link from "next/link";
+import JsonLd from "./JsonLd";
 
 type ProductArticlePageProps = {
   article: SanPhamArticle;
@@ -44,10 +45,39 @@ export default function ProductArticlePage({ article, label, bgImage, currentHre
   const currentCat = categoryKey ? getCategoryByKey(categoryKey) : undefined;
   const related = siblings.filter((a) => a.slug !== article.slug);
 
+  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://eurowindowhcm.com";
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt || "",
+    image: article.image ? `${SITE_URL}${article.image}` : undefined,
+    author: { "@type": "Organization", name: "Cửa Eurowindow Hồ Chí Minh" },
+    publisher: {
+      "@type": "Organization",
+      name: "Cửa Eurowindow Hồ Chí Minh",
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Trang chủ", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Sản phẩm", item: `${SITE_URL}/san-pham` },
+      { "@type": "ListItem", position: 3, name: label, item: currentCat ? `${SITE_URL}${currentCat.href}` : `${SITE_URL}/san-pham` },
+      { "@type": "ListItem", position: 4, name: article.title },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-[#071523] text-white">
       <Header />
       <main>
+        <JsonLd data={articleSchema} />
+        <JsonLd data={breadcrumbSchema} />
         <PageBanner title={article.bannerTitle} crumb={label} bgImage={bgImage} />
 
         <section className="pb-24 pt-14">
@@ -107,7 +137,7 @@ export default function ProductArticlePage({ article, label, bgImage, currentHre
                   </Link>
                 ) : null}
                 <Link
-                  href="/gioi-thieu#lien-he"
+                  href="/lien-he"
                   className="btn-secondary-outline text-xs uppercase tracking-wider"
                 >
                   Nhận báo giá &amp; Tư vấn

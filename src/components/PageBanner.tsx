@@ -11,9 +11,10 @@ type PageBannerProps = {
   homeHref?: string;
   homeLabel?: string;
   bgImage?: string;
+  headingAs?: "h1" | "h2" | "div";
 };
 
-export default function PageBanner({ title, crumb, sub, homeHref = "/", homeLabel, bgImage }: PageBannerProps) {
+export default function PageBanner({ title, crumb, sub, homeHref = "/", homeLabel, bgImage, headingAs = "h1" }: PageBannerProps) {
   const isEn = homeHref.startsWith("/en");
   const displayHome = homeLabel || (isEn ? "Home" : "Trang chủ");
   const bannerRef = useRef<HTMLElement>(null);
@@ -42,6 +43,8 @@ export default function PageBanner({ title, crumb, sub, homeHref = "/", homeLabe
   const contentOpacity = Math.min(1, Math.max(0.3, 1 - scrolled / 300));
   const contentTranslateY = scrolled * 0.15;
 
+  const HeadingTag = headingAs;
+
   return (
     <section ref={bannerRef} className="relative overflow-hidden bg-[#071523] text-white">
       {bgImage ? (
@@ -64,9 +67,9 @@ export default function PageBanner({ title, crumb, sub, homeHref = "/", homeLabe
         className="relative mx-auto flex min-h-[300px] max-w-[1320px] flex-col items-center justify-center px-5 pt-[72px] pb-20 text-center sm:px-8 sm:pt-[86px] md:min-h-[380px] md:pb-24 lg:pt-[96px]"
         style={{ opacity: contentOpacity, transform: `translateY(${contentTranslateY}px)` }}
       >
-        <h1 className="max-w-4xl text-3xl font-extrabold uppercase leading-[1.1] tracking-[-0.03em] text-white sm:text-5xl md:text-[54px]">
+        <HeadingTag className="max-w-4xl text-3xl font-extrabold uppercase leading-[1.1] tracking-[-0.03em] text-white sm:text-5xl md:text-[54px]">
           {title}
-        </h1>
+        </HeadingTag>
         {sub ? (
           <p className="mt-4 max-w-2xl text-base leading-8 text-[#D2D8E3] md:text-lg">
             {sub}

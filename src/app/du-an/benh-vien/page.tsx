@@ -2,8 +2,25 @@ import ProjectCategoryView from "@/components/ProjectCategoryView";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Dự Án Bệnh Viện & Cơ Sở Y Tế | Eurowindow",
-  description: "Hệ thống cửa và vách nhôm kính cách âm, cách nhiệt, vô trùng tiêu chuẩn cho các bệnh viện quốc tế và cơ sở y tế hàng đầu.",
+  title: "Dự Án Bệnh Viện – Eurowindow HCM",
+  description: "Các dự án cửa nhôm kính, vách kính Eurowindow cho bệnh viện lớn tại Việt Nam. Giải pháp cửa kính an toàn, cách âm cho công trình y tế.",
+  alternates: {
+    canonical: "/du-an/benh-vien",
+    languages: { vi: "/du-an/benh-vien", en: "/en/projects/benh-vien" },
+  },
+  openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    siteName: "Cửa Eurowindow Hồ Chí Minh",
+    title: "Dự Án Bệnh Viện – Eurowindow HCM",
+    description: "Các dự án cửa nhôm kính, vách kính Eurowindow cho bệnh viện lớn tại Việt Nam.",
+    images: [{ url: "/eurowindow/constructions/viber-image-2025-02-05-13-33-24-065.png.webp", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dự Án Bệnh Viện – Eurowindow HCM",
+    description: "Các dự án cửa nhôm kính Eurowindow cho bệnh viện tại Việt Nam.",
+  },
 };
 
 export default function BenhVienPage() {

@@ -3,14 +3,21 @@ import type { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone();
+  let response = NextResponse.next();
 
   // Strip Blogger mobile parameters ?m=1 or ?m=0 to avoid duplicate indexation
   if (url.searchParams.has("m")) {
     url.searchParams.delete("m");
-    return NextResponse.redirect(url, 301);
+    response = NextResponse.redirect(url, 301);
   }
 
-  return NextResponse.next();
+  if (url.pathname.startsWith('/en')) {
+    response.headers.set('x-locale', 'en');
+  } else {
+    response.headers.set('x-locale', 'vi');
+  }
+
+  return response;
 }
 
 

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/posts";
 import { projects } from "@/app/du-an/projects";
 import { products } from "@/app/san-pham/products-data";
+import { getAllArticleMetas } from "@/app/san-pham/categories";
 import { articles as enArticles } from "@/app/en/articles-data";
 import { products as enProducts } from "@/app/en/products/products-data";
 import { projects as enProjects } from "@/app/en/projects-data";
@@ -30,7 +31,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url("/san-pham", 0.9, "weekly"),
     url("/san-pham/cua-nhom", 0.85, "monthly"),
     url("/san-pham/cua-nhom/bai-viet", 0.7, "monthly"),
-    url("/san-pham/cua-upvc", 0.85, "monthly"),
     url("/san-pham/cua-nhua-upvc", 0.85, "monthly"),
     url("/san-pham/cua-nhua-upvc/bai-viet", 0.7, "monthly"),
     url("/san-pham/cua-go", 0.85, "monthly"),
@@ -47,7 +47,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url("/tin-tuc/du-an", 0.7, "weekly"),
     url("/dich-vu", 0.8, "monthly"),
     url("/lien-he", 0.9, "monthly"),
-    url("/thiet-ke-kien-truc", 0.8, "monthly"),
     // English pages
     url("/en", 0.8, "weekly"),
     url("/en/about", 0.7, "monthly"),
@@ -59,7 +58,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url("/en/projects/cong-trinh-dan-dung", 0.7, "weekly"),
     url("/en/projects/tin-du-an", 0.7, "weekly"),
     url("/en/news", 0.8, "daily"),
-    url("/en/services", 0.7, "monthly"),
     url("/en/contact", 0.8, "monthly"),
   ];
 
@@ -94,6 +92,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
+  const sanPhamArticles = getAllArticleMetas();
+  const sanPhamArticleRoutes: MetadataRoute.Sitemap = sanPhamArticles.map((a) => ({
+    url: `${BASE}/san-pham/${a.categoryKey}/bai-viet/${a.slug}`,
+    lastModified: a.date
+      ? (() => {
+          try {
+            const parts = a.date.split("/");
+            if (parts.length === 3) return new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
+            return new Date(a.date);
+          } catch {
+            return new Date();
+          }
+        })()
+      : new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   const enProductRoutes: MetadataRoute.Sitemap = enProducts.map((p) => ({
     url: `${BASE}/en/products/${p.slug}`,
     lastModified: new Date(),
@@ -118,6 +134,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...staticRoutes,
     ...productRoutes,
+    ...sanPhamArticleRoutes,
     ...postRoutes,
     ...projectRoutes,
     ...enProductRoutes,
