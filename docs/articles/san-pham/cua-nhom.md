@@ -3,6 +3,7 @@ title: "Cửa nhôm Eurowindow - Cửa nhôm hệ cao cấp chính hãng"
 bannerTitle: "CỬA NHÔM EUROWINDOW"
 description: "Tìm hiểu về cửa nhôm Eurowindow chính hãng, profile cầu cách nhiệt EA55 đến EA95i, phụ kiện kim khí Cmech, Roto, Hafele, sơn tĩnh điện bền đẹp hàng chục năm."
 date: "06/08/2026"
+image: "/eurowindow/cuanhom.jpg.webp"
 ---
 
 ## Cửa nhôm Eurowindow là gì

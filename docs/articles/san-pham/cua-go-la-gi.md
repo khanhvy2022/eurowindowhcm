@@ -3,6 +3,7 @@ title: "Cửa gỗ là gì — phân loại và ứng dụng phổ biến"
 bannerTitle: "CỬA GỖ LÀ GÌ CẦN BIẾT"
 description: "Giải thích cửa gỗ là gì, các loại cửa gỗ tự nhiên và công nghiệp cùng ứng dụng trong nhà ở. Hướng dẫn cơ bản để chọn cửa gỗ đúng nhu cầu."
 date: "06/08/2026"
+image: "/uploads/cua-go-eurowindow-4.jpg"
 ---
 ## Khái niệm cửa gỗ
 Cửa gỗ là loại cửa có cánh và khung được làm từ gỗ, được dùng phổ biến trong nhà ở và công trình. Gỗ mang lại vẻ đẹp ấm áp, sang trọng và khả năng cách âm, cách nhiệt tốt hơn nhiều vật liệu khác.

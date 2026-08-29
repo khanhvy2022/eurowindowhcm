@@ -3,6 +3,7 @@ title: "Cửa tự động Eurowindow cho nhà ở và biệt thự"
 bannerTitle: "CỬA TỰ ĐỘNG CHO NHÀ Ở"
 description: "Tìm hiểu lắp đặt cửa tự động Eurowindow cho nhà ở và biệt thự, từ lợi ích, vị trí phù hợp đến những lưu ý khi sử dụng trong gia đình."
 date: "06/08/2026"
+image: "/uploads/cua-bls-tu-dong.jpg"
 ---
 ## Cửa tự động cho không gian nhà ở
 

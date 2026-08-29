@@ -86,36 +86,84 @@ export const metadata: Metadata = {
   },
 };
 
-const orgSchema = {
+const structuredData = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": `${SITE_URL}/#organization`,
-  name: "Cửa Eurowindow Hồ Chí Minh",
-  url: SITE_URL,
-  logo: `${SITE_URL}/favicon.ico`,
-  image: `${SITE_URL}/eurowindow/cuanhom.jpg.webp`,
-  description: "Nhà cung cấp tổng thể các giải pháp cửa nhôm kính, cửa uPVC, cửa gỗ cao cấp Eurowindow tại TP. Hồ Chí Minh và khu vực miền Nam.",
-  telephone: "+84 966 994 338",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "TP. Hồ Chí Minh",
-    addressLocality: "Hồ Chí Minh",
-    addressRegion: "Hồ Chí Minh",
-    addressCountry: "VN"
-  },
-  priceRange: "$$",
-  openingHoursSpecification: [
+  "@graph": [
     {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "08:00",
-      closes: "18:00"
-    }
+      "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+      "@id": `${SITE_URL}/#organization`,
+      name: "Cửa Eurowindow Hồ Chí Minh",
+      alternateName: "Eurowindow HCM",
+      url: SITE_URL,
+      logo: `${SITE_URL}/logo.png`,
+      image: `${SITE_URL}/eurowindow/cuanhom.jpg.webp`,
+      description:
+        "Nhà cung cấp tổng thể các giải pháp cửa nhôm kính, cửa uPVC, cửa gỗ cao cấp Eurowindow tại TP. Hồ Chí Minh và khu vực miền Nam.",
+      telephone: "+84 966 994 338",
+      email: "contact@eurowindowhcm.com",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "TP. Hồ Chí Minh",
+        addressLocality: "Hồ Chí Minh",
+        addressRegion: "Hồ Chí Minh",
+        addressCountry: "VN",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 10.7769,
+        longitude: 106.7009,
+      },
+      areaServed: [
+        "Hồ Chí Minh",
+        "Bình Dương",
+        "Đồng Nai",
+        "Long An",
+        "Bà Rịa - Vũng Tàu",
+        "Miền Nam Việt Nam",
+      ],
+      priceRange: "$$",
+      openingHoursSpecification: [
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          opens: "08:00",
+          closes: "18:00",
+        },
+      ],
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: "+84 966 994 338",
+          contactType: "sales",
+          areaServed: "VN",
+          availableLanguage: ["Vietnamese", "English"],
+        },
+      ],
+      sameAs: [
+        "https://www.facebook.com/eurowindow.biz",
+        "https://www.youtube.com/@eurowindow",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: "Cửa Eurowindow Hồ Chí Minh",
+      description: "Nhà cung cấp tổng thể giải pháp cửa và vách kính hàng đầu Việt Nam",
+      publisher: {
+        "@id": `${SITE_URL}/#organization`,
+      },
+      inLanguage: ["vi", "en"],
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${SITE_URL}/tin-tuc?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
   ],
-  sameAs: [
-    "https://www.facebook.com/eurowindow.biz",
-    "https://www.youtube.com/@eurowindow"
-  ]
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -124,7 +172,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
       <body className={`${spaceGrotesk.className} min-h-full`}>

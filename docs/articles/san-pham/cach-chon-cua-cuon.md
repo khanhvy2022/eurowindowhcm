@@ -3,6 +3,7 @@ title: "Cách chọn cửa cuốn phù hợp cho cửa hàng, showroom, văn ph�
 bannerTitle: "CÁCH CHỌN CỬA CUỐN"
 description: "Hướng dẫn chọn mua cửa cuốn Eurowindow theo không gian, nhu cầu an ninh, vật liệu kính cường trong suốt hay nan thép và công suất mô tơ phù hợp."
 date: "06/08/2026"
+image: "/uploads/cua-cuon-eurowindow-2-.jpg"
 ---
 ## Xác định nhu cầu và không gian sử dụng
 

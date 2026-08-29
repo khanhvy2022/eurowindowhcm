@@ -3,6 +3,7 @@ title: "So sánh cửa uPVC và cửa nhôm: Nên chọn loại nào?"
 bannerTitle: "SO SÁNH uPVC VÀ NHÔM"
 description: "So sánh cửa uPVC và cửa nhôm trên các tiêu chí giá thành, khả năng cách nhiệt, độ bền và thẩm mỹ. Đưa ra lựa chọn phù hợp nhất cho công trình của bạn."
 date: "05/08/2026"
+image: "/uploads/upvc-eurowindow-282-29.png"
 ---
 ## So sánh về giá thành
 

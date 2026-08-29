@@ -3,6 +3,7 @@ title: "Cửa tự động Eurowindow – Giải pháp cửa thông minh cho cô
 bannerTitle: "CỬA TỰ ĐỘNG EUROWINDOW"
 description: "Khám phá dòng cửa tự động Eurowindow với công nghệ cảm biến hiện đại, phù hợp cho trung tâm thương mại, ngân hàng, siêu thị, bệnh viện và khách sạn."
 date: "06/08/2026"
+image: "/eurowindow/cua-tu-dong.jpg.webp"
 ---
 ## Tổng quan về cửa tự động Eurowindow
 

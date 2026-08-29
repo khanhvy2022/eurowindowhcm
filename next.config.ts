@@ -148,10 +148,40 @@ const nextConfig: NextConfig = {
         destination: "/tin-tuc",
         permanent: true,
       },
-      // Blogger Feeds
+      // Blogger Feeds & Legacy Sitemaps
       {
         source: "/feeds/:path*",
         destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/sitemap-pages.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/sitemap-posts.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/atom.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/rss.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/b/:path*",
+        destination: "/tin-tuc",
+        permanent: true,
+      },
+      {
+        source: "/:year(\\d{4})",
+        destination: "/tin-tuc",
         permanent: true,
       },
     ];

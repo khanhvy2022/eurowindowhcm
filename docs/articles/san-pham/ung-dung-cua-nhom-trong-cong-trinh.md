@@ -3,6 +3,7 @@ title: "Ứng dụng cửa nhôm trong công trình - Cửa nhôm Eurowindow"
 bannerTitle: "ỨNG DỤNG CỬA NHÔM"
 description: "Các ứng dụng cửa nhôm Eurowindow trong công trình như cửa sổ, cửa đi, vách kính, mái che, ban công và cửa hàng, biệt thự, chung cư."
 date: "06/08/2026"
+image: "/uploads/vach-kinh-lon-technal-eurowindow-mien-nam.jpg"
 ---
 
 ## Vai trò cửa nhôm trong công trình

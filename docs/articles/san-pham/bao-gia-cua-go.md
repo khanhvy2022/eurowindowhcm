@@ -4,6 +4,7 @@ bannerTitle: "NGHĨ GÌ BAO GIÁ CỬA GỖ"
 description: "
 Tìm hiểu những yếu tố ảnh hưởng đến giá cửa gỗ Eurowindow gồm vật liệu, kích thước, hoàn thiện bề mặt và phụ kiện. Nắm rõ để lựa chọn đúng nhu cầu."
 date: "06/08/2026"
+image: "/uploads/cua-go-eurowindow-1.jpg"
 ---
 ## Các yếu tố ảnh hưởng giá
 Giá báo cửa gỗ Eurowindow không có một con số cố định mà phụ thuộc nhiều yếu tố. Từng bộ phận như vật liệu lõi, lớp hoàn thiện, kích thước và phụ kiện kết hợp tác động trực tiếp đến chi phí cuối cùng.

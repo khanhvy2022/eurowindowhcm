@@ -14,6 +14,8 @@ interface HeroVideoProps {
   primaryCtaHref?: string;
   secondaryCtaText?: string;
   secondaryCtaHref?: string;
+  scrollHref?: string;
+  scrollAriaLabel?: string;
 }
 
 export default function HeroVideo({
@@ -26,6 +28,8 @@ export default function HeroVideo({
   primaryCtaHref = "/san-pham",
   secondaryCtaText = "Xem dự án tiêu biểu",
   secondaryCtaHref = "/du-an",
+  scrollHref = "#gioi-thieu",
+  scrollAriaLabel = "Cuộn xuống khám phá",
 }: HeroVideoProps) {
   const [isReducedMotion, setIsReducedMotion] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -146,9 +150,9 @@ export default function HeroVideo({
 
       {/* 4. Animated Scroll Indicator */}
       <a
-        href="#gioi-thieu"
+        href={scrollHref}
         className="absolute bottom-8 left-1/2 z-20 -translate-x-1/2 flex flex-col items-center gap-2 text-xs font-medium uppercase tracking-widest text-[#D2D8E3]/80 transition hover:text-[#E2C275]"
-        aria-label="Cuộn xuống khám phá"
+        aria-label={scrollAriaLabel}
       >
         <div className="flex h-10 w-6 items-start justify-center rounded-full border-2 border-white/30 p-1.5 backdrop-blur-sm">
           <div className="h-2 w-1.5 rounded-full bg-[#E2C275] animate-scroll-dot" />

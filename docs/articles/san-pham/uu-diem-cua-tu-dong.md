@@ -3,6 +3,7 @@ title: "Ưu điểm của cửa tự động Eurowindow so với cửa thường
 bannerTitle: "ƯU ĐIỂM CỬA TỰ ĐỘNG"
 description: "So sánh ưu điểm của cửa tự động Eurowindow với cửa thường: tiện nghi, tiết kiệm năng lượng, thẩm mỹ, an toàn và độ bền vượt trội."
 date: "06/08/2026"
+image: "/eurowindow/cua-tu-dong.jpg.webp"
 ---
 ## Tiện nghi và trải nghiệm người dùng
 

@@ -3,6 +3,7 @@ title: "Cửa tự động là gì? Khái niệm, cấu tạo và nguyên lý c�
 bannerTitle: "ĐỊNH NGHĨA CỬA TỰ ĐỘNG"
 description: "Tìm hiểu định nghĩa về cửa tự động, cấu tạo các bộ phận chính gồm motor, cảm biến chuyển động, cảm biến an toàn và bộ điều khiển theo công nghệ Eurowindow."
 date: "06/08/2026"
+image: "/uploads/cua-gap-truot-tu-dong.jpg"
 ---
 ## Cửa tự động là gì
 

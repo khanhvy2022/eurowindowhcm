@@ -3,6 +3,7 @@ title: "Ứng dụng cửa gỗ trong nội thất gia đình và biệt thự"
 bannerTitle: "ỨNG DỤNG CỬA GỖ ĐA NĂNG"
 description: "Các ứng dụng cửa gỗ Eurowindow trong nhà ở, biệt thự và công trình. Cách dùng cửa gỗ cho phòng ngủ, chia khu vực hợp lý và phối hợp hiện đại."
 date: "06/08/2026"
+image: "/uploads/cua-go-eurowindow-9.jpg"
 ---
 ## Cửa gỗ cho căn hộ và nhà phố
 Trong nhà phố và căn hộ, cửa gỗ được dùng cho phòng ngủ, phòng khách và phòng thờ. Với diện tích vừa phải, cửa gỗ giúp tối ưu không gian và tăng tính riêng tư cho từng khu vực.

@@ -3,6 +3,7 @@ title: "Cách chọn cửa nhôm phù hợp - Kinh nghiệm chọn cửa nhôm E
 bannerTitle: "CÁCH CHỌN CỬA NHÔM"
 description: "Kinh nghiệm chọn cửa nhôm Eurowindow theo hệ profile, kính hộp, phụ kiện kim khí, màu sơn và vị trí lắp đặt trong công trình."
 date: "06/08/2026"
+image: "/uploads/nhom-ea-60i.jpg"
 ---
 
 ## Xác định vị trí và công năng cửa

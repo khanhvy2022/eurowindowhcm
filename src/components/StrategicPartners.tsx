@@ -4,12 +4,13 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { achievements } from "@/data/eurowindow";
 
-export default function StrategicPartners() {
+export default function StrategicPartners({ lang = "vi" }: { lang?: "vi" | "en" }) {
+  const isEn = lang === "en";
   return (
     <section className="bg-[#071523] overflow-hidden py-16 text-white md:py-24">
       <div className="mx-auto max-w-[1500px] px-5 sm:px-8">
         <h2 className="mb-14 text-4xl font-bold uppercase tracking-[-0.055em] md:text-5xl">
-          THÀNH TÍCH NỔI BẬT
+          {isEn ? "OUTSTANDING ACHIEVEMENTS" : "THÀNH TÍCH NỔI BẬT"}
         </h2>
       </div>
       <Swiper

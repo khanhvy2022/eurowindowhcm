@@ -3,6 +3,7 @@ title: "Cửa cuốn Eurowindow – Giải pháp cửa cuốn kính cường l�
 bannerTitle: "CỬA CUỐN EUROWINDOW"
 description: "Khám phá dòng cửa cuốn Eurowindow với nan thép chắc chắn, kính cường lực trong suốt, vận hành êm ái và an ninh vượt trội cho cửa hàng, showroom, văn phòng và nhà ở."
 date: "06/08/2026"
+image: "/uploads/to-roi-cua-cuon-a4-002-1.jpg"
 ---
 ## Tổng quan dòng cửa cuốn
 

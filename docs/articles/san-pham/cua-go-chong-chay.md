@@ -3,6 +3,7 @@ title: "Cửa gỗ chống cháy Eurowindow — an toàn cho công trình"
 bannerTitle: "CỬA GỖ CHỐNG CHÁY AN TOÀN"
 description: "Cửa gỗ chống cháy Eurowindow giúp ngăn lửa lan, bảo vệ tính mạng và tài sản. Lõi đặc chịu nhiệt cùng cấu trúc ngăn khói đạt chuẩn phòng cháy."
 date: "06/08/2026"
+image: "/uploads/cua-go-eurowindow-3.jpg"
 ---
 ## Vì sao cần cửa gỗ chống cháy
 Cửa gỗ chống cháy đóng vai trò quan trọng trong việc bảo vệ con người khi có sự cố hỏa hoạn. Cửa có khả năng chặn lửa và khói trong thời gian nhất định, giúp lối thoát hiểm an toàn hơn.

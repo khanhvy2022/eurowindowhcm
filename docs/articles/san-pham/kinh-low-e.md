@@ -3,6 +3,7 @@ title: "Kính Low-E Eurowindow - Giải pháp tiết kiệm năng lượng"
 bannerTitle: "KÍNH LOW-E"
 description: "Kính Low-E Eurowindow có lớp phủ phản xạ nhiệt, giúp giảm nóng, chống nắng và tiết kiệm năng lượng điều hòa cho mọi công trình."
 date: "06/08/2026"
+image: "/uploads/vach-kinh-lon-technal-eurowindow-mien-nam.jpg"
 ---
 
 ## Kính Low-E là gì

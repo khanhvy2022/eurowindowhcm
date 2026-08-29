@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
   alternates: {
     canonical: "https://eurowindowhcm.com",
+    languages: {
+      vi: "https://eurowindowhcm.com",
+      en: "https://eurowindowhcm.com/en",
+      "x-default": "https://eurowindowhcm.com",
+    },
   },
   openGraph: {
     title: "Cửa Eurowindow Hồ Chí Minh – Nhà Cung Cấp Tổng Thể Cửa Hàng Đầu Việt Nam",

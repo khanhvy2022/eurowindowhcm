@@ -3,6 +3,7 @@ title: "Cửa gỗ Eurowindow – sự kết hợp giữa thẩm mỹ và độ 
 bannerTitle: "CỬA GỖ EUROWINDOW CHẤT LƯỢNG CAO"
 description: "Khám phá dòng cửa gỗ Eurowindow với cấu tạo chống cong vênh, cách âm tốt và thẩm mỹ sang trọng. Lựa chọn hoàn hảo cho nhà ở và biệt thự."
 date: "06/08/2026"
+image: "/eurowindow/cuagotrangchu.jpg.webp"
 ---
 ## Cửa gỗ Eurowindow là gì
 Cửa gỗ Eurowindow là sản phẩm cửa được chế tạo từ gỗ tự nhiên hoặc gỗ công nghiệp, kết hợp cùng khung nhôm và phụ kiện đồng bộ của thương hiệu. Sản phẩm được sản xuất trên dây chuyền hiện đại, đảm bảo độ chính xác cao trong từng chi tiết. Nhờ đó, cửa gỗ Eurowindow mang lại sự bền bỉ cũng như vẻ đẹp ấm áp riêng cho mọi không gian.

@@ -3,6 +3,7 @@ title: "Ứng dụng cửa cuốn Eurowindow trong các công trình thực tế
 bannerTitle: "ỨNG DỤNG CỬA CUỐN"
 description: "Tìm hiểu cách cửa cuốn kính cường trong suốt và nan thép Eurowindow được ứng dụng cho cửa hàng, showroom, văn phòng, nhà ở và công trình thương mại."
 date: "06/08/2026"
+image: "/eurowindow/cua-cuon.jpg.webp"
 ---
 ## Cửa hàng và showroom
 

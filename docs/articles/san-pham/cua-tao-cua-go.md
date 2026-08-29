@@ -3,6 +3,7 @@ title: "Cửa giả gỗ Eurowindow — vẻ đẹp vân gỗ tự nhiên"
 bannerTitle: "CỬA TẠO VÂN GỖ EUROWINDOW"
 description: "Cửa giả gỗ Eurowindow mang vẻ đẹp vân gỗ tự nhiên với chi phí hợp lý, dễ phối hợp nội thất. Chống cong vênh và dễ sử dụng."
 date: "06/08/2026"
+image: "/uploads/cua-go-eurowindow-8.jpg"
 ---
 ## Cửa giả gỗ là gì
 Cửa giả gỗ, hay còn gọi là cửa tạo vân gỗ, là loại cửa mô phỏng hoa văn và vân gỗ tự nhiên trên bề mặt. Sản phẩm dùng công nghệ in hoặc lớp veneer để tạo cảm giác chân thực như gỗ thật với chi phí phải chăng.

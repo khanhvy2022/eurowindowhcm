@@ -1,8 +1,20 @@
 import { ArrowRight, MapPin, Building2 } from "lucide-react";
 import Link from "next/link";
 import { featuredProjects } from "@/data/eurowindow";
+import { projects as projectsEn } from "@/app/en/projects-data";
 
-export default function FeaturedProjects() {
+export default function FeaturedProjects({ lang = "vi" }: { lang?: "vi" | "en" }) {
+  const isEn = lang === "en";
+
+  const displayProjects = isEn
+    ? projectsEn.slice(0, 6).map((p) => ({
+        title: p.title,
+        location: p.location,
+        image: p.images[0],
+        href: `/en/projects/${p.slug}`,
+      }))
+    : featuredProjects;
+
   return (
     <section id="du-an" className="relative overflow-hidden bg-[#071523] py-24 text-white">
       {/* Ambient background glow */}
@@ -14,24 +26,24 @@ export default function FeaturedProjects() {
             <div className="inline-flex items-center gap-2 rounded-full border border-[#E2C275]/30 bg-[#E2C275]/10 px-4 py-1.5 backdrop-blur-md">
               <Building2 className="h-4 w-4 text-[#E2C275]" />
               <span className="text-xs font-bold uppercase tracking-widest text-[#E2C275]">
-                BIỂU TƯỢNG KIẾN TRÚC VIỆT NAM
+                {isEn ? "VIETNAMESE ARCHITECTURAL LANDMARKS" : "BIỂU TƯỢNG KIẾN TRÚC VIỆT NAM"}
               </span>
             </div>
             <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white md:text-5xl">
-              CÔNG TRÌNH TIÊU BIỂU
+              {isEn ? "FEATURED PROJECTS" : "CÔNG TRÌNH TIÊU BIỂU"}
             </h2>
           </div>
-          <a
-            href="/du-an"
+          <Link
+            href={isEn ? "/en/projects" : "/du-an"}
             className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#E2C275] transition hover:text-[#F0D18A]"
           >
-            Xem tất cả dự án
+            {isEn ? "View all projects" : "Xem tất cả dự án"}
             <ArrowRight className="h-4 w-4" />
-          </a>
+          </Link>
         </div>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredProjects.map((project) => (
+          {displayProjects.map((project) => (
             <Link
               key={project.title}
               href={project.href}
@@ -68,3 +80,4 @@ export default function FeaturedProjects() {
     </section>
   );
 }
+

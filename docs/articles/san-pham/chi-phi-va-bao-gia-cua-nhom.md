@@ -3,6 +3,7 @@ title: "Chi phí và báo giá cửa nhôm - Báo giá cửa nhôm Eurowindow"
 bannerTitle: "GIÁ CỬA NHÔM"
 description: "Tìm hiểu chi phí cửa nhôm Eurowindow, các yếu tố ảnh hưởng đến giá như hệ profile, kích thước, loại kính, phụ kiện và công lắp đặt."
 date: "06/08/2026"
+image: "/uploads/gia-cua-eurowindow-1.jpg"
 ---
 
 ## Chi phí cửa nhôm phụ thuộc vào gì

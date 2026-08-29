@@ -3,6 +3,7 @@ title: "Những sự cố thường gặp cửa tự động và cách xử lý"
 bannerTitle: "SỰ CỐ CỬA TỰ ĐỘNG"
 description: "Tổng hợp các sự cố thường gặp của cửa tự động Eurowindow như cửa không đóng kín, kẹt, phát ra tiếng kêu và hướng xử lý ban đầu."
 date: "06/08/2026"
+image: "/uploads/cưatudong1.jpg"
 ---
 ## Cửa tự động không đóng kín
 

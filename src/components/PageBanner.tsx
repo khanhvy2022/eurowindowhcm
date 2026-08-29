@@ -9,10 +9,13 @@ type PageBannerProps = {
   crumb: string;
   sub?: string;
   homeHref?: string;
+  homeLabel?: string;
   bgImage?: string;
 };
 
-export default function PageBanner({ title, crumb, sub, homeHref = "/", bgImage }: PageBannerProps) {
+export default function PageBanner({ title, crumb, sub, homeHref = "/", homeLabel, bgImage }: PageBannerProps) {
+  const isEn = homeHref.startsWith("/en");
+  const displayHome = homeLabel || (isEn ? "Home" : "Trang chủ");
   const bannerRef = useRef<HTMLElement>(null);
   const [scrolled, setScrolled] = useState(0);
 
@@ -74,7 +77,7 @@ export default function PageBanner({ title, crumb, sub, homeHref = "/", bgImage 
           className="mt-8 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-2 text-xs font-semibold text-[#D2D8E3] backdrop-blur-md"
         >
           <Link href={homeHref} className="transition hover:text-[#E2C275]">
-            Trang chủ
+            {displayHome}
           </Link>
           <ChevronRight className="h-3.5 w-3.5 text-[#E2C275]" />
           <span className="text-white">{crumb}</span>

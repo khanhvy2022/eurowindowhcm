@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageBanner from "@/components/PageBanner";
 import { articles } from "@/app/tin-tuc/articles";
+import { resolveArticleImage } from "@/lib/posts";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
@@ -70,17 +71,15 @@ export default function TinDuAnPage() {
                   href={`/tin-tuc/${article.slug}`}
                   className="glass-card glass-card-hover group flex flex-col overflow-hidden p-5"
                 >
-                  {article.image ? (
-                    <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-[#102238]">
-                      <img
-                        src={article.image}
-                        alt={article.title}
-                        loading="lazy"
-                        className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#071523]/80 via-transparent to-transparent" />
-                    </div>
-                  ) : null}
+                  <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-[#102238]">
+                    <img
+                      src={resolveArticleImage(article.image, article.title, article.category, article.slug)}
+                      alt={article.title}
+                      loading="lazy"
+                      className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#071523]/80 via-transparent to-transparent" />
+                  </div>
                   <div className="flex flex-1 flex-col justify-between pt-4">
                     <div>
                       <p className="text-[11px] font-bold uppercase tracking-widest text-[#E2C275]">

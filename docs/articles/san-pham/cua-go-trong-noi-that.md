@@ -3,6 +3,7 @@ title: "Cửa gỗ trong nội thất — điểm nhấn cho không gian sống"
 bannerTitle: "CỬA GỖ TÔN ĐIỂM NỘI THẤT"
 description: "Vai trò của cửa gỗ trong nội thất hiện đại, từ phòng ngủ đến phòng khách. Cách chọn màu, phối hợp với đồ đạc để không gian hài hòa và sang trọng."
 date: "06/08/2026"
+image: "/uploads/cua-go-eurowindow-7.jpg"
 ---
 ## Vai trò của cửa gỗ trong nội thất
 Cửa gỗ góp phần tạo nên bộ khung thẩm mỹ cho tổng thể không gian nội thất. Một bộ cửa đẹp giúp liên kết các phòng, tạo cảm giác liền mạch và sang trọng cho ngôi nhà.

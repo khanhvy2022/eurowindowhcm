@@ -3,6 +3,7 @@ title: "Hướng dẫn bảo trì cửa gỗ Eurowindow bền lâu"
 bannerTitle: "BẢO TRÌ CỬA GỖ ĐÚNG CÁCH"
 description: "Mẹo bảo trì cửa gỗ Eurowindow để chống cong, giữ vẻ đẹp bền lâu. Vệ sinh, chống ẩm và điều chỉnh phụ kiện đúng cách."
 date: "06/08/2026"
+image: "/uploads/cua-go-eurowindow-2.jpg"
 ---
 ## Vệ sinh bề mặt cửa
 Dùng khăn khô hoặc khăn mềm hơi ẩm để lau bụi bẩn trên bề mặt cửa gỗ. Tránh dùng hóa chất mạnh hay vật cứng có thể làm trầy lớp hoàn thiện của cửa.

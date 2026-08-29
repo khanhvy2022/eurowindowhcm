@@ -3,6 +3,7 @@ title: "Cửa nhôm ban công - Cửa ban công cầu cách nhiệt Eurowindow"
 bannerTitle: "CỬA NHÔM BAN CÔNG"
 description: "Tìm hiểu cửa nhôm ban công Eurowindow, cửa mở quay, cửa lùa, vách kính ban công và giải pháp chống gió mưa cho công trình tầng cao."
 date: "06/08/2026"
+image: "/uploads/nhom-ea-60i-1.jpg"
 ---
 
 ## Cửa ban công Eurowindow

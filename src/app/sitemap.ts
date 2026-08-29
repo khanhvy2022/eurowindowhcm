@@ -1,8 +1,10 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/posts";
 import { projects } from "@/app/du-an/projects";
-
 import { products } from "@/app/san-pham/products-data";
+import { articles as enArticles } from "@/app/en/articles-data";
+import { products as enProducts } from "@/app/en/products/products-data";
+import { projects as enProjects } from "@/app/en/projects-data";
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://eurowindowhcm.com";
 
@@ -92,24 +94,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  const enPostRoutes: MetadataRoute.Sitemap = posts.map((p) => ({
-    url: `${BASE}/en/news/${p.slug}`,
-    lastModified: p.date
-      ? (() => {
-          try {
-            const parts = p.date.split("/");
-            if (parts.length === 3) return new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
-            return new Date(p.date);
-          } catch {
-            return new Date();
-          }
-        })()
-      : new Date(),
+  const enProductRoutes: MetadataRoute.Sitemap = enProducts.map((p) => ({
+    url: `${BASE}/en/products/${p.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  const enPostRoutes: MetadataRoute.Sitemap = enArticles.map((a) => ({
+    url: `${BASE}/en/news/${a.slug}`,
+    lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.6,
   }));
 
-  const enProjectRoutes: MetadataRoute.Sitemap = projects.map((p) => ({
+  const enProjectRoutes: MetadataRoute.Sitemap = enProjects.map((p) => ({
     url: `${BASE}/en/projects/${p.slug}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
@@ -121,7 +120,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...productRoutes,
     ...postRoutes,
     ...projectRoutes,
+    ...enProductRoutes,
     ...enPostRoutes,
     ...enProjectRoutes,
   ];
 }
+

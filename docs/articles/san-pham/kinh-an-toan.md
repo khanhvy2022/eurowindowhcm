@@ -3,6 +3,7 @@ title: "Kính an toàn (Tempered - Laminated Glass) Eurowindow"
 bannerTitle: "KÍNH AN TOÀN"
 description: "Kính dán an toàn tempered-laminated của Eurowindow gồm nhiều lớp kính liên kết bằng màng PVB, giữ mảnh vỡ không văng ra ngoài và chống xâm nhập hiệu quả."
 date: "06/08/2026"
+image: "/uploads/mai-kinh-skylight-1.jpg"
 ---
 
 ## Kính an toàn là gì

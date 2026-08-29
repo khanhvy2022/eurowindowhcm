@@ -3,6 +3,7 @@ title: "Cửa nhôm cầu cách nhiệt - Cửa nhôm hệ cầu nhiệt Eurowin
 bannerTitle: "CỬA NHÔM CÁCH NHIỆT"
 description: "Tìm hiểu cửa nhôm cầu cách nhiệt Eurowindow, cấu tạo thanh cầu nhiệt giữa profile, lợi ích cách âm cách nhiệt và tiết kiệm năng lượng."
 date: "06/08/2026"
+image: "/eurowindow/cua-nhom-kinh-cach-am-1.jpg.webp"
 ---
 
 ## Cửa nhôm cầu cách nhiệt là gì

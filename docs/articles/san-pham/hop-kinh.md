@@ -3,6 +3,7 @@ title: "Kính hộp cách nhiệt Eurowindow (Double / Triple Glazing)"
 bannerTitle: "KÍNH HỘP CÁCH NHIỆT"
 description: "Kính hộp cách nhiệt Eurowindow gồm hai hoặc ba lớp kính chứa khí trơ Argon, giúp cách âm, cách nhiệt và tiết kiệm năng lượng hiệu quả cho công trình."
 date: "06/08/2026"
+image: "/uploads/rem-trong-hop-kinh.jpg"
 ---
 
 ## Kính hộp cách nhiệt là gì

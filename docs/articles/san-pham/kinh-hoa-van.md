@@ -3,6 +3,7 @@ title: "Kính hoa văn và kính trang trí Eurowindow"
 bannerTitle: "KÍNH HOA VĂN TRANG TRÍ"
 description: "Kính hoa văn và kính trang trí Eurowindow có hoa văn đa dạng, xử lý phun cát, khắc axit giúp che chắn riêng tư và tạo điểm nhấn thẩm mỹ cho không gian."
 date: "06/08/2026"
+image: "/uploads/mai-kinh-ew.jpg"
 ---
 
 ## Kính hoa văn trang trí là gì

@@ -39,11 +39,24 @@ export default function ProjectCategoryViewEn({
   const filteredProjects = useMemo(() => {
     const q = query.trim().toLowerCase();
     return projects.filter((p) => {
-      const matchCat = categoryName ? p.category.toLowerCase().includes(categoryName.toLowerCase()) : true;
+      let matchCat = true;
+      if (categorySlug === "cong-trinh-quoc-gia") {
+        matchCat = p.category.toLowerCase().includes("national");
+      } else if (categorySlug === "benh-vien") {
+        matchCat = p.category.toLowerCase().includes("hospital");
+      } else if (categorySlug === "tru-so-co-quan") {
+        matchCat = p.category.toLowerCase().includes("government");
+      } else if (categorySlug === "cong-trinh-dan-dung") {
+        matchCat = p.category.toLowerCase().includes("residential") || p.category.toLowerCase().includes("civil");
+      } else if (categoryName) {
+        const catNorm = categoryName.toLowerCase().replace(/s$/, "");
+        matchCat = p.category.toLowerCase().includes(catNorm);
+      }
+
       const matchQuery = q ? p.title.toLowerCase().includes(q) || p.location.toLowerCase().includes(q) : true;
       return matchCat && matchQuery;
     });
-  }, [categoryName, query]);
+  }, [categorySlug, categoryName, query]);
 
   const shown = filteredProjects.slice(0, visible);
 

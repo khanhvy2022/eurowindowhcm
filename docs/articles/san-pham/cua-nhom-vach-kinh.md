@@ -3,6 +3,7 @@ title: "Cửa nhôm vách kính - Vách kính nhôm Eurowindow cho công trình"
 bannerTitle: "CỬA NHÔM VÁCH KÍNH"
 description: "Tìm hiểu vách kính nhôm Eurowindow, hệ Stick, Spider, Unitized, kính hộp khí trơ cho mặt tiền tòa nhà, sảnh và công trình hiện đại."
 date: "06/08/2026"
+image: "/uploads/mat-dung-eurowindow-1.jpg"
 ---
 
 ## Vách kính nhôm là gì

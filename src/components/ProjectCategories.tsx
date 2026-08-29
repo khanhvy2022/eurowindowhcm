@@ -47,6 +47,7 @@ export interface ProjectVideo {
   description: string;
   descriptionEn: string;
   projectHref: string;
+  projectHrefEn?: string;
 }
 
 export const projectVideos: ProjectVideo[] = [
@@ -67,6 +68,7 @@ export const projectVideos: ProjectVideo[] = [
     descriptionEn:
       "Eurowindow premium thermal-break aluminum doors and windows featuring polyamide barrier, delivering up to 30% HVAC energy savings and superior acoustic insulation.",
     projectHref: "/san-pham/cua-nhom",
+    projectHrefEn: "/en/products/cua-nhom-vach-kinh",
   },
   {
     id: "ban-le-san-tu-dong",
@@ -85,6 +87,7 @@ export const projectVideos: ProjectVideo[] = [
     descriptionEn:
       "Eurowindow 2-way automatic floor hinge doors with smart motion radar sensors, concealed silent motors, and intelligent anti-pinch safety features.",
     projectHref: "/san-pham/cua-tu-dong",
+    projectHrefEn: "/en/products/cua-tu-dong-va-cua-xoay",
   },
   {
     id: "gap-truot-doc-tu-dong",
@@ -103,6 +106,7 @@ export const projectVideos: ProjectVideo[] = [
     descriptionEn:
       "Breakthrough 2-in-1 multi-functional design transforming from a panoramic window into a modern sun awning canopy, motorized with smart remote controls.",
     projectHref: "/san-pham/cua-tu-dong",
+    projectHrefEn: "/en/products/cua-tu-dong-va-cua-xoay",
   },
   {
     id: "dieu-khien-giong-noi",
@@ -121,6 +125,7 @@ export const projectVideos: ProjectVideo[] = [
     descriptionEn:
       "Next-generation voice-operated smart windows with Vietnamese speech recognition, hands-free operation, and auto-shutting environmental rain sensors.",
     projectHref: "/san-pham/cua-nhom",
+    projectHrefEn: "/en/products/cua-nhom-vach-kinh",
   },
   {
     id: "mai-kinh-skylight",
@@ -139,6 +144,7 @@ export const projectVideos: ProjectVideo[] = [
     descriptionEn:
       "Premium glass skylights with intelligent multi-sensors: auto-closing upon rain, auto-venting smoke during fire alarms, and 99% UV radiation blocking.",
     projectHref: "/san-pham/san-pham-kinh",
+    projectHrefEn: "/en/products/san-pham-kinh",
   },
   {
     id: "cua-thong-minh-the-he-moi",
@@ -157,6 +163,7 @@ export const projectVideos: ProjectVideo[] = [
     descriptionEn:
       "Comprehensive smart door ecosystem featuring 3D FaceID biometric security, remote smartphone unlocking, and full smart home integration.",
     projectHref: "/san-pham/cua-nhom",
+    projectHrefEn: "/en/products/cua-nhom-vach-kinh",
   },
   {
     id: "ban-tin-tai-chinh",
@@ -175,6 +182,7 @@ export const projectVideos: ProjectVideo[] = [
     descriptionEn:
       "VTV national news report spotlighting Eurowindow's revolutionary smart door innovations setting new standards for secure, energy-efficient living.",
     projectHref: "/tin-tuc",
+    projectHrefEn: "/en/news",
   },
   {
     id: "phong-su-eurowindow",
@@ -193,8 +201,10 @@ export const projectVideos: ProjectVideo[] = [
     descriptionEn:
       "Comprehensive corporate documentary on Eurowindow's 20+ year legacy pioneering advanced architectural doors and green building materials in Vietnam.",
     projectHref: "/gioi-thieu",
+    projectHrefEn: "/en/about",
   },
 ];
+
 
 interface ProjectCategoriesProps {
   lang?: "vi" | "en";
@@ -435,7 +445,7 @@ export default function ProjectCategories({ lang = "vi" }: ProjectCategoriesProp
                   </div>
                   <div className="mt-2 flex items-center justify-between text-xs text-[#94A3B8]">
                     <span>{isEn ? "Standards" : "Tiêu chuẩn kỹ thuật"}:</span>
-                    <span className="font-semibold text-[#E2C275]">Châu Âu (EN / DIN)</span>
+                    <span className="font-semibold text-[#E2C275]">{isEn ? "European Standards (EN / DIN)" : "Châu Âu (EN / DIN)"}</span>
                   </div>
                   <div className="mt-2 flex items-center justify-between text-xs text-[#94A3B8]">
                     <span>{isEn ? "Video Source" : "Nguồn phát"}:</span>
@@ -457,7 +467,7 @@ export default function ProjectCategories({ lang = "vi" }: ProjectCategoriesProp
 
                 <div className="grid grid-cols-2 gap-2">
                   <Link
-                    href={currentVideo.projectHref}
+                    href={isEn ? (currentVideo.projectHrefEn || "/en/products") : currentVideo.projectHref}
                     className="flex items-center justify-center gap-1.5 rounded-xl border border-white/15 bg-white/5 px-3 py-2.5 text-[11px] font-bold uppercase tracking-wider text-white transition hover:border-[#E2C275] hover:text-[#E2C275]"
                   >
                     <span>{isEn ? "Details" : "Chi tiết"}</span>

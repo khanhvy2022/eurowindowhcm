@@ -3,6 +3,7 @@ title: "Ưu điểm cửa cuốn Eurowindow – An toàn, thẩm mỹ và bền 
 bannerTitle: "ƯU ĐIỂM CỬA CUỐN"
 description: "Điểm mạnh của cửa cuốn Eurowindow: vận hành êm ái, khả năng chống phá khóa, kính cường lực trong suốt tăng thẩm mỹ và tuổi thọ cao cho công trình."
 date: "06/08/2026"
+image: "/uploads/cua-cuon-eurowindow.jpg"
 ---
 ## An ninh và bảo vệ tốt cho công trình
 

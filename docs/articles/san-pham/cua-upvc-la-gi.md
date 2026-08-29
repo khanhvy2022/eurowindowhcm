@@ -3,6 +3,7 @@ title: "Cửa uPVC là gì? Tìm hiểu ngay cùng Eurowindow"
 bannerTitle: "CỬA uPVC LÀ GÌ?"
 description: "Cửa uPVC (polyvinyl chloride không hoá dẻo) là loại cửa làm từ chất dẻo uPVC kết hợp lõi thép, chống mọi thời tiết. Tìm hiểu khái niệm và ưu điểm của cửa Eurowindow tại đây."
 date: "05/08/2026"
+image: "/uploads/giai-ma-suc-hut-tu-cua-upvc-kommerling.png"
 ---
 ## Cửa uPVC được hiểu như thế nào
 

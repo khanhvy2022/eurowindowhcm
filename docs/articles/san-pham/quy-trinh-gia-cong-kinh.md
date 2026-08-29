@@ -3,6 +3,7 @@ title: "Quy trình gia công kính tại Eurowindow từ cắt đến tôi nhi�
 bannerTitle: "QUY TRÌNH GIA CÔNG KÍNH"
 description: "Quy trình gia công kính chuẩn Eurowindow gồm cắt kính, mài mép, khoan lỗ, ghép dán và tôi nhiệt để tạo thành sản phẩm an toàn đạt chuẩn."
 date: "06/08/2026"
+image: "/uploads/mat-dung-ew.jpg"
 ---
 
 ## Công đoạn cắt kính

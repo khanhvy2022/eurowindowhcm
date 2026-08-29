@@ -1,14 +1,32 @@
 import { getDb, COLLECTIONS } from "@/lib/db";
 import { articles, type Article } from "@/app/tin-tuc/articles";
 
+export function resolveArticleImage(image?: string | null, title = "", category = "", slug = ""): string {
+  if (image && image.trim()) return image;
+  const text = `${title} ${category} ${slug}`.toLowerCase();
+  if (text.includes("gỗ") || text.includes("wood")) return "/uploads/diem-noi-bat-cua-cua-go-eurowindow.png";
+  if (text.includes("cuốn") || text.includes("rolling")) return "/uploads/cua-cuon-eurowindow.jpg";
+  if (text.includes("tự động") || text.includes("automatic")) return "/eurowindow/cua-tu-dong.jpg.webp";
+  if (text.includes("upvc") || text.includes("nhựa")) return "/eurowindow/cuanhua1.jpg.webp";
+  if (text.includes("kính") || text.includes("glass") || text.includes("low-e")) return "/eurowindow/san-pham-kinh.jpg.webp";
+  if (text.includes("dự án") || text.includes("công trình") || text.includes("thi công")) return "/eurowindow/img-0344.jpeg.webp";
+  if (text.includes("khuyến mãi") || text.includes("ưu đãi")) return "/eurowindow/ctkm-ea65ea68i-169-at-3x-large.png.webp";
+  if (text.includes("nhôm") || text.includes("aluminium")) return "/uploads/cua-va-vach-nhom-kinh-eurowindow.jpg";
+  return "/eurowindow/toa-dam-1.png.webp";
+}
+
 function toArticle(doc: Record<string, unknown>): Article {
+  const title = String(doc.title ?? "");
+  const category = String(doc.category ?? "");
+  const slug = String(doc.slug ?? "");
+  const rawImage = doc.image ? String(doc.image) : undefined;
   return {
-    slug: String(doc.slug ?? ""),
-    title: String(doc.title ?? ""),
-    category: String(doc.category ?? ""),
+    slug,
+    title,
+    category,
     date: String(doc.date ?? ""),
     excerpt: String(doc.excerpt ?? ""),
-    image: doc.image ? String(doc.image) : undefined,
+    image: resolveArticleImage(rawImage, title, category, slug),
     sections: Array.isArray(doc.sections) ? (doc.sections as Article["sections"]) : [],
     faq: doc.faq ? (doc.faq as Article["faq"]) : undefined,
     contentHtml: doc.contentHtml ? String(doc.contentHtml) : undefined,
@@ -17,6 +35,7 @@ function toArticle(doc: Record<string, unknown>): Article {
     oldUrl: doc.oldUrl ? String(doc.oldUrl) : undefined,
   };
 }
+
 
 let cache: Article[] | null = null;
 let cacheTime = 0;

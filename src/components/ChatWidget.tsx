@@ -2,20 +2,32 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Bot, Send, X, MessageCircle } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 type ChatMessage = {
   role: "user" | "bot";
   content: string;
 };
 
-const QUICK_QUESTIONS = [
+const QUICK_QUESTIONS_VI = [
   "Eurowindow là gì?",
   "Giá cửa uPVC bao nhiêu?",
   "Sản phẩm đạt tiêu chuẩn nào?",
   "Liên hệ Eurowindow bằng cách nào?",
 ];
 
+const QUICK_QUESTIONS_EN = [
+  "What is Eurowindow?",
+  "uPVC doors price range?",
+  "What standards are met?",
+  "How to contact Eurowindow?",
+];
+
 export default function ChatWidget() {
+  const pathname = usePathname();
+  const isEn = pathname?.startsWith("/en");
+  const quickQuestions = isEn ? QUICK_QUESTIONS_EN : QUICK_QUESTIONS_VI;
+
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
@@ -40,12 +52,19 @@ export default function ChatWidget() {
         body: JSON.stringify({ message }),
       });
       const data = await res.json();
-      const reply = data?.ok ? (data.message as string) : "Xin lỗi, có lỗi xảy ra. Vui lòng thử lại.";
+      const reply = data?.ok
+        ? (data.message as string)
+        : (isEn ? "Sorry, an error occurred. Please try again." : "Xin lỗi, có lỗi xảy ra. Vui lòng thử lại.");
       setMessages((prev) => [...prev, { role: "bot", content: reply }]);
     } catch {
       setMessages((prev) => [
         ...prev,
-        { role: "bot", content: "Xin lỗi, không thể kết nối máy chủ. Vui lòng thử lại." },
+        {
+          role: "bot",
+          content: isEn
+            ? "Sorry, cannot connect to server. Please try again."
+            : "Xin lỗi, không thể kết nối máy chủ. Vui lòng thử lại.",
+        },
       ]);
     } finally {
       setLoading(false);
@@ -58,7 +77,7 @@ export default function ChatWidget() {
       {/* Nút nổi */}
       <button
         onClick={() => setOpen((v) => !v)}
-        aria-label="Mở chat Eurowindow"
+        aria-label={isEn ? "Open Eurowindow chat" : "Mở chat Eurowindow"}
         className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#0066aa] text-white shadow-lg shadow-[#0066aa]/40 transition hover:scale-105 hover:bg-[#005690]"
       >
         {open ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
@@ -73,8 +92,8 @@ export default function ChatWidget() {
               <Bot className="h-5 w-5" />
             </div>
             <div>
-              <p className="text-sm font-bold">Trợ lý Eurowindow</p>
-              <p className="text-[11px] text-white/60">Trả lời ngay • 24/7</p>
+              <p className="text-sm font-bold">{isEn ? "Eurowindow Assistant" : "Trợ lý Eurowindow"}</p>
+              <p className="text-[11px] text-white/60">{isEn ? "Instant reply • 24/7" : "Trả lời ngay • 24/7"}</p>
             </div>
           </div>
 
@@ -85,8 +104,9 @@ export default function ChatWidget() {
                 <Bot className="h-4 w-4 text-white" />
               </div>
               <div className="max-w-[85%] rounded-2xl rounded-tl-sm bg-white px-3.5 py-2.5 text-[13px] leading-6 text-[#1c2b3a] shadow-sm">
-                Xin chào! Tôi là trợ lý của Eurowindow. Tôi có thể giúp bạn tư vấn về sản phẩm, báo
-                giá, bảo hành hoặc liên hệ. Bạn muốn hỏi gì?
+                {isEn
+                  ? "Hello! I am Eurowindow's virtual assistant. How can I assist you with our doors, facade solutions, pricing, or warranty today?"
+                  : "Xin chào! Tôi là trợ lý của Eurowindow. Tôi có thể giúp bạn tư vấn về sản phẩm, báo giá, bảo hành hoặc liên hệ. Bạn muốn hỏi gì?"}
               </div>
             </div>
             {messages.map((m, i) =>
@@ -123,7 +143,7 @@ export default function ChatWidget() {
 
           {/* Quick questions */}
           <div className="flex flex-wrap gap-1.5 border-t border-[#0a1628]/5 bg-white px-3 pt-2">
-            {QUICK_QUESTIONS.map((q) => (
+            {quickQuestions.map((q) => (
               <button
                 key={q}
                 onClick={() => send(q)}
@@ -147,14 +167,14 @@ export default function ChatWidget() {
               ref={inputRef}
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Nhập câu hỏi..."
+              placeholder={isEn ? "Type your question..." : "Nhập câu hỏi..."}
               className="flex-1 rounded-full border border-[#0a1628]/10 bg-[#f5f8fb] px-4 py-2 text-[13px] outline-none transition focus:border-[#0066aa]"
               maxLength={500}
             />
             <button
               type="submit"
               disabled={loading || !input.trim()}
-              aria-label="Gửi"
+              aria-label={isEn ? "Send" : "Gửi"}
               className="flex h-9 w-9 items-center justify-center rounded-full bg-[#0066aa] text-white transition hover:bg-[#005690] disabled:opacity-40"
             >
               <Send className="h-4 w-4" />
@@ -162,6 +182,7 @@ export default function ChatWidget() {
           </form>
         </div>
       ) : null}
+
     </>
   );
 }

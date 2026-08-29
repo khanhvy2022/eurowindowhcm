@@ -3,6 +3,7 @@ title: "Hướng dẫn bảo trì cửa tự động Eurowindow định kỳ"
 bannerTitle: "BẢO TRÌ CỬA TỰ ĐỘNG"
 description: "Hướng dẫn bảo trì cửa tự động Eurowindow định kỳ, gồm vệ sinh ray, bôi trơn, kiểm tra cảm biến và bộ điều khiển để kéo dài tuổi thọ."
 date: "06/08/2026"
+image: "/uploads/c-c6-b0atudong1.jpg"
 ---
 ## Vì sao cần bảo trì cửa tự động định kỳ
 

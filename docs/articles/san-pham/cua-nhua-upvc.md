@@ -3,6 +3,7 @@ title: "Cửa nhựa uPVC Eurowindow – Giải pháp hiện đại cho ngôi nh
 bannerTitle: "CỬA NHỰA uPVC EUROWINDOW"
 description: "Cửa nhựa uPVC Eurowindow kết hợp khung nhựa khat nó khoang rỗng nhiều ngăn và lõi thép gia cố, mang lại khả năng chống nóng, cách âm, cách nhiệt vượt trội. Lựa chọn bền đẹp cho mọi công trình."
 date: "05/08/2026"
+image: "/eurowindow/cuanhua1.jpg.webp"
 ---
 ## Cửa nhựa uPVC Eurowindow là gì
 

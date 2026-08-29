@@ -88,7 +88,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                 Products are controlled to European standards, answering the acoustic, thermal, safety
                 and aesthetic requirements of every building.
               </p>
-              <Link href="/en/about#lien-he" className="btn-gold-luxury inline-flex items-center gap-2 px-8 py-4 text-xs font-bold uppercase tracking-widest">
+              <Link href="/en/contact" className="btn-gold-luxury inline-flex items-center gap-2 px-8 py-4 text-xs font-bold uppercase tracking-widest">
                 Contact us for advice <ArrowRight className="h-4 w-4" />
               </Link>
             </div>

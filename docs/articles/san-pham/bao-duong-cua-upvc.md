@@ -3,6 +3,7 @@ title: "Hướng dẫn bảo dưỡng cửa nhựa uPVC Eurowindow"
 bannerTitle: "BẢO DƯỠNG CỬA uPVC"
 description: "Cửa nhựa uPVC Eurowindow rất dễ bảo dưỡng và vệ sinh. Tìm hiểu các bước chăm sóc khung, gioăng, kính và phụ kiện để cửa luôn bền đẹp theo thời gian."
 date: "05/08/2026"
+image: "/uploads/cua-nhua-upvc-1-.jpg"
 ---
 ## Vì sao cửa uPVC dễ bảo dưỡng
 

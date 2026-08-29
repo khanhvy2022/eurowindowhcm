@@ -3,6 +3,7 @@ title: "Ưu điểm cửa gỗ Eurowindow nổi bật không nên bỏ lỡ"
 bannerTitle: "ƯU ĐIỂM VƯỢT TRỘI CỦA CỬA GỖ"
 description: "Các ưu điểm của cửa gỗ Eurowindow gồm khả năng chống cong vênh, cách âm cách nhiệt tốt và thẩm mỹ sang trọng. Lý do nên chọn cửa gỗ cho không gian sống."
 date: "06/08/2026"
+image: "/uploads/diem-noi-bat-cua-cua-go-eurowindow.png"
 ---
 ## Ưu điểm khả năng cách âm
 Cửa gỗ có kết cấu dày và đặc, giúp cách âm tốt hơn hầu hết các loại cửa khác. Nhờ vậy không gian phòng ngủ, phòng làm việc luôn yên tĩnh và dễ chịu.

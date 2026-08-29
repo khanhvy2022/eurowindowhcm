@@ -3,6 +3,7 @@ title: "Nguyên lý hoạt động của cửa tự động Eurowindow"
 bannerTitle: "NGUYÊN LÝ CỬA TỰ ĐỘNG"
 description: "Giải thích nguyên lý hoạt động của cửa tự động Eurowindow, từ cảm biến radar, bộ điều khiển, motor đến các lớp cảm biến an toàn."
 date: "06/08/2026"
+image: "/uploads/cưatudong2.jpg"
 ---
 ## Chu trình hoạt động của cửa tự động
 

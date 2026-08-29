@@ -3,6 +3,7 @@ title: "So sánh các loại kính xây dựng Eurowindow"
 bannerTitle: "SO SÁNH CÁC LOẠI KÍNH"
 description: "So sánh kính cường lực, kính dán an toàn, kính Low-E, kính hộp cách nhiệt và kính hoa văn để chọn đúng dòng kính cho công trình của bạn."
 date: "06/08/2026"
+image: "/uploads/mai-kinh-skylight-2-1.jpg"
 ---
 
 ## Kính cường lực so với kính thường

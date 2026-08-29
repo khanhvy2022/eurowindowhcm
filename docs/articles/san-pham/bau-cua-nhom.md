@@ -3,6 +3,7 @@ title: "Cửa nhôm uy tín chính hãng - Cửa nhôm Eurowindow tại Việt N
 bannerTitle: "CỬA NHÔM UY TÍN"
 description: "Lý do nên chọn cửa nhôm uy tín Eurowindow, nhà sản xuất cửa nhôm cầu cách nhiệt hàng đầu Việt Nam với công nghệ và dịch vụ chuyên nghiệp."
 date: "06/08/2026"
+image: "/uploads/nh-c3-b4m-ew-ea55.jpg"
 ---
 
 ## Chọn nhà cung cấp cửa nhôm uy tín

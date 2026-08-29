@@ -3,6 +3,7 @@ title: "Phụ kiện kim khí cửa nhôm - Các loại phụ kiện cửa nhôm
 bannerTitle: "PHỤ KIỆN KIM KHÍ"
 description: "Tìm hiểu phụ kiện kim khí cửa nhôm Eurowindow, khóa đa, bản lề, tay nắm, ray trượt và thương hiệu Cmech, Roto, Hafele chính hãng."
 date: "06/08/2026"
+image: "/uploads/cuanhomgo28129.jpg"
 ---
 
 ## Vai trò phụ kiện kim khí

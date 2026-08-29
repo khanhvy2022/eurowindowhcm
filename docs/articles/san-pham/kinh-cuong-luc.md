@@ -3,6 +3,7 @@ title: "Kính cường lực (Tempered Glass) Eurowindow"
 bannerTitle: "KÍNH CƯỜNG LỰC"
 description: "Kính cường lực chịu lực của Eurowindow được tôi ở nhiệt độ cao, làm bền gấp nhiều lần kính thường, khi vỡ tạo hạt nhỏ an toàn không gây thương tích."
 date: "06/08/2026"
+image: "/uploads/mai-kinh-skylight-2.jpg"
 ---
 
 ## Kính cường lực là gì

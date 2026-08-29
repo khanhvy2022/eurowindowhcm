@@ -4,11 +4,19 @@ import { ArrowLeft, ArrowRight, Newspaper } from "lucide-react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { news } from "@/data/eurowindow";
+import { articles as articlesEn } from "@/app/en/articles-data";
 import Link from "next/link";
 
-export default function NewsSection() {
-  // Slide 5 bài viết mới nhất
-  const displayNews = news.slice(0, 5);
+export default function NewsSection({ lang = "vi" }: { lang?: "vi" | "en" }) {
+  const isEn = lang === "en";
+
+  const displayNews = isEn
+    ? articlesEn.map((a) => ({
+        title: a.title,
+        image: a.image || "/eurowindow/toa-dam-1.png.webp",
+        href: `/en/news/${a.slug}`,
+      }))
+    : news.slice(0, 5);
 
   return (
     <section id="tin-tuc" className="relative overflow-hidden bg-[#071523] py-24 text-white">
@@ -21,18 +29,18 @@ export default function NewsSection() {
             <div className="inline-flex items-center gap-2 rounded-full border border-[#E2C275]/30 bg-[#E2C275]/10 px-4 py-1.5 backdrop-blur-md">
               <Newspaper className="h-4 w-4 text-[#E2C275]" />
               <span className="text-xs font-bold uppercase tracking-widest text-[#E2C275]">
-                TIN TỨC &amp; SỰ KIỆN NỔI BẬT
+                {isEn ? "LATEST NEWS & HIGHLIGHTS" : "TIN TỨC & SỰ KIỆN NỔI BẬT"}
               </span>
             </div>
             <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white md:text-5xl">
-              TIN TỨC EUROWINDOW
+              {isEn ? "EUROWINDOW NEWS" : "TIN TỨC EUROWINDOW"}
             </h2>
           </div>
           <Link
-            href="/tin-tuc"
+            href={isEn ? "/en/news" : "/tin-tuc"}
             className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#E2C275] transition hover:text-[#F0D18A]"
           >
-            Xem tất cả bài viết
+            {isEn ? "View all articles" : "Xem tất cả bài viết"}
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
@@ -65,7 +73,7 @@ export default function NewsSection() {
                       href={article.href}
                       className="mt-6 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#E2C275] transition hover:text-white"
                     >
-                      Đọc chi tiết
+                      {isEn ? "Read details" : "Đọc chi tiết"}
                       <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Link>
                   </div>
@@ -73,10 +81,18 @@ export default function NewsSection() {
               </SwiperSlide>
             ))}
           </Swiper>
-          <button type="button" className="news-prev slider-nav-btn slider-nav-prev" aria-label="Tin trước">
+          <button
+            type="button"
+            className="news-prev slider-nav-btn slider-nav-prev"
+            aria-label={isEn ? "Previous news" : "Tin trước"}
+          >
             <ArrowLeft className="h-5 w-5" />
           </button>
-          <button type="button" className="news-next slider-nav-btn slider-nav-next" aria-label="Tin tiếp theo">
+          <button
+            type="button"
+            className="news-next slider-nav-btn slider-nav-next"
+            aria-label={isEn ? "Next news" : "Tin tiếp theo"}
+          >
             <ArrowRight className="h-5 w-5" />
           </button>
           <div className="news-pagination mt-10 flex justify-center" />
@@ -85,10 +101,10 @@ export default function NewsSection() {
         {/* Action Button: Xem tất cả bài viết */}
         <div className="mt-12 text-center">
           <Link
-            href="/tin-tuc"
+            href={isEn ? "/en/news" : "/tin-tuc"}
             className="btn-gold-luxury inline-flex items-center gap-2 px-8 py-4 text-xs font-bold uppercase tracking-widest"
           >
-            Xem tất cả bài viết
+            {isEn ? "View all articles" : "Xem tất cả bài viết"}
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
@@ -96,3 +112,4 @@ export default function NewsSection() {
     </section>
   );
 }
+

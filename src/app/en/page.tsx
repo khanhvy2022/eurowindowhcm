@@ -23,13 +23,15 @@ export default function HomeEn() {
           primaryCtaHref="/en/products"
           secondaryCtaText="View Featured Projects"
           secondaryCtaHref="/en/projects"
+          scrollHref="#gioi-thieu"
+          scrollAriaLabel="Scroll down to explore"
         />
-        <Ecosystem />
-        <FeaturedProjects />
-        <Services />
+        <Ecosystem lang="en" />
+        <FeaturedProjects lang="en" />
+        <Services lang="en" />
         <ProjectCategories lang="en" />
-        <NewsSection />
-        <StrategicPartners />
+        <NewsSection lang="en" />
+        <StrategicPartners lang="en" />
       </main>
       <Footer lang="en" />
     </div>

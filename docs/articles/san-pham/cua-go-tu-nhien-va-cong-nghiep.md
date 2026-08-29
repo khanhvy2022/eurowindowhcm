@@ -3,6 +3,7 @@ title: "Cửa gỗ tự nhiên và công nghiệp — nên chọn loại nào"
 bannerTitle: "GỖ TỰ NHIÊN HAY CÔNG NGHIỆP"
 description: "So sánh cửa gỗ tự nhiên và gỗ công nghiệp Eurowindow về giá cả, độ bền và thẩm mỹ. Giúp bạn chọn loại cửa gỗ phù hợp với nhu cầu sử dụng."
 date: "06/08/2026"
+image: "/uploads/cua-go-ew-281-29.png"
 ---
 ## Giới thiệu hai dòng gỗ
 Cửa gỗ tự nhiên làm từ gỗ rừng trồng như sồi, xoan đào được xẻ từ khối gỗ thật. Cửa gỗ công nghiệp dùng lõi MDF hoặc HDF tráng phủ veneer, laminate để mô phỏng thớ gỗ. Mỗi dòng mang những đặc tính riêng đáng cân nhắc.

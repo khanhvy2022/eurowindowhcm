@@ -3,6 +3,7 @@ title: "Cách chọn cửa tự động Eurowindow phù hợp với công trình
 bannerTitle: "CÁCH CHỌN CỬA TỰ ĐỘNG"
 description: "Hướng dẫn chọn cửa tự động Eurowindow phù hợp, từ xác định lưu lượng sử dụng, loại cửa, kích thước, công suất motor đến đánh giá chi phí."
 date: "06/08/2026"
+image: "/uploads/c-c6-b0atudong2.jpg"
 ---
 ## Xác định nhu cầu và lưu lượng sử dụng
 

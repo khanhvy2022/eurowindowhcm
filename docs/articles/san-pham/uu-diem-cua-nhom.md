@@ -3,6 +3,7 @@ title: "Ưu điểm cửa nhôm - Lý do nên chọn cửa nhôm Eurowindow"
 bannerTitle: "ƯU ĐIỂM CỬA NHÔM"
 description: "Các ưu điểm cửa nhôm Eurowindow như bền bỉ, cách âm cách nhiệt, thẩm mỹ, dễ bảo trì và thân thiện với công trình hiện đại tại Việt Nam."
 date: "06/08/2026"
+image: "/uploads/cua-va-vach-nhom-kinh-eurowindow.jpg"
 ---
 
 ## Ưu điểm về độ bền

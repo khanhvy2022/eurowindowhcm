@@ -3,6 +3,7 @@ title: "Bảo trì và an toàn cửa cuốn Eurowindow cho người dùng"
 bannerTitle: "BẢO TRÌ & AN TOÀN"
 description: "Hướng dẫn vệ sinh, lịch bảo trì cửa cuốn Eurowindow và các quy tắc an toàn quan trọng giúp cửa hoạt động bền bỉ, hạn chế sự cố và bảo vệ người dùng."
 date: "06/08/2026"
+image: "/uploads/cua-cuon-eurowindow-1-.jpg"
 ---
 ## Lịch bảo trì định kỳ
 

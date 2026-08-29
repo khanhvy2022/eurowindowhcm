@@ -3,6 +3,7 @@ title: "Cấu tạo cửa uPVC Eurowindow chi tiết nhất"
 bannerTitle: "CẤU TẠO CỬA uPVC"
 description: "Cấu tạo cửa uPVC gồm hệ thanh nhựa chưa hoá với nhiều khoang rỗng, lõi thép gia cố và hệ gioăng kép. Tìm hiểu chi tiết từng lớp để thấy sự chắc chắn của cửa Eurowindow."
 date: "05/08/2026"
+image: "/uploads/cua-nhua-upvc-2-.jpg"
 ---
 ## Các bộ phận chính của cửa uPVC
 

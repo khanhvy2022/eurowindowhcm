@@ -3,6 +3,7 @@ title: "Ứng dụng của cửa uPVC trong các công trình xây dựng"
 bannerTitle: "ỨNG DỤNG CỬA uPVC"
 description: "Cửa uPVC Eurowindow được ứng dụng rộng rãi trong các công trình dân dụng và thương mại. Tìm hiểu những nơi phù hợp để lắp đặt cửa nhựa cao cấp này."
 date: "05/08/2026"
+image: "/uploads/0213cuaupvc-cuadixeptruot-img01.jpg"
 ---
 ## Ứng dụng trong nhà ở và căn hộ
 

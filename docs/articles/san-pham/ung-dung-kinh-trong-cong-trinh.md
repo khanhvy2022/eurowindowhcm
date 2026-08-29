@@ -3,6 +3,7 @@ title: "Ứng dụng kính trong công trình xây dựng"
 bannerTitle: "KÍNH TRONG CÔNG TRÌNH"
 description: "Các ứng dụng phổ biến của kính Eurowindow trong công trình: cửa nhôm kính, vách kính, mặt dựng và những hạng mục khác của tòa nhà."
 date: "06/08/2026"
+image: "/eurowindow/san-pham-kinh.jpg.webp"
 ---
 
 ## Ứng dụng kính cho cửa nhôm kính

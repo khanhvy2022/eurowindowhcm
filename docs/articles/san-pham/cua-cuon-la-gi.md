@@ -3,6 +3,7 @@ title: "Cửa cuốn là gì – Cấu tạo và nguyên lý hoạt động cử
 bannerTitle: "CỬA CUỐN LÀ GÌ"
 description: "Tìm hiểu cửa cuốn là gì, cấu tạo các bộ phận chính của cửa cuốn Eurowindow và cách hệ thống kính cường lực trong suốt với nan thép hoạt động trong công trình."
 date: "06/08/2026"
+image: "/eurowindow/cua-cuon.jpg.webp"
 ---
 ## Định nghĩa cửa cuốn
 

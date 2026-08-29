@@ -4,6 +4,7 @@ import BrandLogo from "@/components/BrandLogo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { ChevronDown, Menu, X } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 type Item = { label: string; href: string; children?: { label: string; href: string }[] };
@@ -43,7 +44,10 @@ const enItems: Item[] = [
 ];
 
 export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
-  const items = lang === "en" ? enItems : viItems;
+  const pathname = usePathname();
+  const isEn = pathname?.startsWith("/en") || lang === "en";
+  const currentLang = isEn ? "en" : "vi";
+  const items = isEn ? enItems : viItems;
   const [open, setOpen] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
@@ -72,14 +76,14 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
       }`}
     >
       <div className="mx-auto flex h-[72px] max-w-[1320px] items-center justify-between px-5 sm:h-[86px] sm:px-8 lg:h-[96px]">
-        <BrandLogo />
-        <nav className="hidden h-full items-center gap-6 lg:flex xl:gap-8" aria-label={lang === "en" ? "Main navigation" : "Điều hướng chính"}>
+        <BrandLogo lang={currentLang} />
+        <nav className="hidden h-full items-center gap-6 lg:flex xl:gap-8" aria-label={currentLang === "en" ? "Main navigation" : "Điều hướng chính"}>
           <Link
-            href={lang === "en" ? "/en" : "/"}
+            href={currentLang === "en" ? "/en" : "/"}
             className="group relative flex min-h-11 items-center whitespace-nowrap text-[15px] font-medium text-[#D2D8E3] transition hover:text-white xl:text-[16px]"
           >
-            {lang === "en" ? "Home" : "Trang chủ"}
-            <span className="absolute bottom-1 left-0 h-[2px] w-0 bg-[#E2C275] transition-all duration-300 group-hover:w-full" />
+            {currentLang === "en" ? "Home" : "Trang chủ"}
+            <span className="absolute bottom-1 left-0 h-[2px] w-0 bg-[#E2C275] transition-all duration-300 group-hover/link:w-full" />
           </Link>
           {items.map((item) => (
             <div key={item.label} className="group relative flex h-full items-center">
@@ -106,14 +110,14 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
               ) : null}
             </div>
           ))}
-          <LanguageSwitcher lang={lang} />
+          <LanguageSwitcher lang={currentLang} />
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
           <Link
-            href={lang === "en" ? "/en/contact" : "/lien-he"}
+            href={currentLang === "en" ? "/en/contact" : "/lien-he"}
             className="btn-gold-luxury text-sm font-bold uppercase tracking-wider"
           >
-            {lang === "en" ? "Contact now" : "Liên hệ ngay"}
+            {currentLang === "en" ? "Contact now" : "Liên hệ ngay"}
           </Link>
         </div>
         <button
@@ -176,15 +180,15 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
             </div>
           ))}
           <div className="flex items-center justify-between py-4">
-            <span className="text-sm text-[#94A3B8]">{lang === "en" ? "Language" : "Ngôn ngữ"}</span>
-            <LanguageSwitcher lang={lang} />
+            <span className="text-sm text-[#94A3B8]">{currentLang === "en" ? "Language" : "Ngôn ngữ"}</span>
+            <LanguageSwitcher lang={currentLang} />
           </div>
           <Link
-            href={lang === "en" ? "/en/contact" : "/lien-he"}
+            href={currentLang === "en" ? "/en/contact" : "/lien-he"}
             onClick={() => setOpen(false)}
             className="btn-gold-luxury mt-3 block w-full text-center text-sm font-bold uppercase tracking-wider"
           >
-            {lang === "en" ? "Contact now" : "Liên hệ ngay"}
+            {currentLang === "en" ? "Contact now" : "Liên hệ ngay"}
           </Link>
         </nav>
       ) : null}

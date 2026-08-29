@@ -3,6 +3,7 @@ title: "Chế độ vận hành của cửa tự động Eurowindow"
 bannerTitle: "CHẾ ĐỘ VẬN HÀNH CỬA TỰ ĐỘNG"
 description: "Tìm hiểu các chế độ vận hành của cửa tự động Eurowindow: tự động, bán tự động, mở thông và chế độ đêm an toàn cho công trình."
 date: "06/08/2026"
+image: "/uploads/c-c6-b0atudong3.jpg"
 ---
 ## Chế độ vận hành tự động
 

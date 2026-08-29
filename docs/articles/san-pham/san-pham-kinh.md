@@ -3,6 +3,7 @@ title: "Kính Eurowindow - Sản phẩm kính xây dựng chất lượng cao"
 bannerTitle: "KÍNH EUROWINDOW"
 description: "Tổng quan các dòng kính xây dựng của Eurowindow: kính cường lực, kính an toàn, kính Low-E, kính hộp cách nhiệt, kính hoa văn và kính chống cháy."
 date: "06/08/2026"
+image: "/eurowindow/san-pham-kinh.jpg.webp"
 ---
 
 ## Giới thiệu về kính Eurowindow

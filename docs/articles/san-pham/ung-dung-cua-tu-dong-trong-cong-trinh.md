@@ -3,6 +3,7 @@ title: "Ứng dụng của cửa tự động Eurowindow trong các công trình
 bannerTitle: "ỨNG DỤNG CỬA TỰ ĐỘNG"
 description: "Khám phá các ứng dụng của cửa tự động Eurowindow trong trung tâm thương mại, ngân hàng, siêu thị, bệnh viện, khách sạn và tòa nhà văn phòng."
 date: "06/08/2026"
+image: "/uploads/cưatudong3.jpg"
 ---
 ## Ứng dụng tại trung tâm thương mại
 

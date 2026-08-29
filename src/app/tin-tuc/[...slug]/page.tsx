@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect, RedirectType } from "next/navigation";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import { articles } from "../articles";
 
@@ -54,6 +54,11 @@ export default async function ArticleDetailPage({ params }: Props) {
   const slugStr = Array.isArray(slug) ? slug.join("/") : String(slug);
   const article = await getPostBySlug(slugStr);
   if (!article) notFound();
+
+  // Consolidate Link Equity & prevent duplicate content by permanently redirecting legacy slugs/aliases
+  if (slugStr !== article.slug) {
+    redirect(`/tin-tuc/${article.slug}`, RedirectType.replace);
+  }
 
   const all = await getAllPosts();
   const related = all.filter((a) => a.slug !== article.slug).slice(0, 3);
@@ -137,11 +142,11 @@ export default async function ArticleDetailPage({ params }: Props) {
           </div>
         </section>
 
-        {article.image && !article.contentHtml ? (
+        {article.image && (!article.contentHtml || !/<img/i.test(article.contentHtml.slice(0, 400))) ? (
           <section className="py-12">
             <div className="mx-auto max-w-[900px] px-5 sm:px-8">
-              <div className="overflow-hidden bg-[#071523]">
-                <img src={article.image} alt={article.title} className="aspect-[16/8] w-full object-cover" />
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#102238] shadow-2xl">
+                <img src={article.image} alt={article.title} className="aspect-[16/9] w-full object-cover" />
               </div>
             </div>
           </section>

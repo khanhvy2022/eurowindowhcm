@@ -3,6 +3,7 @@ title: "Kính Low-E là gì và vì sao nên dùng cho công trình"
 bannerTitle: "TÌM HIỂU KÍNH LOW-E"
 description: "Kính Low-E là gì, cơ chế phản xạ nhiệt hoạt động ra sao và vì sao dòng kính này giúp giảm nóng và tiết kiệm năng lượng cho ngôi nhà."
 date: "06/08/2026"
+image: "/uploads/mai-kinh-skylight.jpg"
 ---
 
 ## Kính Low-E là gì

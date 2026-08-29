@@ -3,6 +3,7 @@ title: "Cửa nhôm là gì - Giải đáp chi tiết về cửa nhôm hệ, c�
 bannerTitle: "CỬA NHÔM LÀ GÌ"
 description: "Giải đáp cửa nhôm là gì, cấu tạo, phân loại cửa nhôm hệ cầu cách nhiệt và vì sao cửa nhôm Eurowindow được ưa chuộng tại Việt Nam."
 date: "06/08/2026"
+image: "/eurowindow/cuanhom.jpg.webp"
 ---
 
 ## Cửa nhôm là gì

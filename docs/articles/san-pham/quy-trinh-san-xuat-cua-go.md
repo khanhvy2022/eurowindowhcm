@@ -3,6 +3,7 @@ title: "Quy trình sản xuất cửa gỗ Eurowindow chuẩn chất lượng"
 bannerTitle: "QUY TRÌNH SẢN XUẤT CỬA GỖ"
 description: "Tìm hiểu quy trình sản xuất cửa gỗ Eurowindow từ xử lý nguyên liệu gỗ, sấy, gia công đến hoàn thiện bề mặt. Đảm bảo độ bền và thẩm mỹ chuẩn thương hiệu."
 date: "06/08/2026"
+image: "/uploads/daytruyencuago-eurowindow-mien-nam.jpg"
 ---
 ## Chuẩn bị nguyên liệu gỗ
 Quy trình bắt đầu từ việc lựa chọn gỗ nguyên liệu và kiểm tra độ ẩm. Gỗ được đưa vào xưởng, sấy đúng chuẩn để giảm độ ồm và hạn chế cong vênh trong quá trình sử dụng.

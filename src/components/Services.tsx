@@ -1,7 +1,20 @@
 import { ArrowRight, Layers } from "lucide-react";
+import Link from "next/link";
 import { products } from "@/data/eurowindow";
+import { products as productsEn } from "@/app/en/products/products-data";
 
-export default function Services() {
+export default function Services({ lang = "vi" }: { lang?: "vi" | "en" }) {
+  const isEn = lang === "en";
+
+  const displayProducts = isEn
+    ? productsEn.map((p) => ({
+        title: p.title,
+        text: p.text.slice(0, 140) + "...",
+        image: p.image,
+        href: `/en/products/${p.slug}`,
+      }))
+    : products;
+
   return (
     <section id="dich-vu" className="relative overflow-hidden bg-[#071523] py-24 text-white">
       {/* Ambient background glow */}
@@ -12,16 +25,16 @@ export default function Services() {
           <div className="inline-flex items-center gap-2 rounded-full border border-[#E2C275]/30 bg-[#E2C275]/10 px-4 py-1.5 backdrop-blur-md">
             <Layers className="h-4 w-4 text-[#E2C275]" />
             <span className="text-xs font-bold uppercase tracking-widest text-[#E2C275]">
-              DANH MỤC GIẢI PHÁP VẬT LIỆU
+              {isEn ? "MATERIAL SOLUTIONS PORTFOLIO" : "DANH MỤC GIẢI PHÁP VẬT LIỆU"}
             </span>
           </div>
           <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white md:text-5xl">
-            SẢN PHẨM EUROWINDOW
+            {isEn ? "EUROWINDOW PRODUCTS" : "SẢN PHẨM EUROWINDOW"}
           </h2>
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
-          {products.map((product) => (
+          {displayProducts.map((product) => (
             <article
               key={product.title}
               className="glass-card glass-card-hover group relative min-h-[460px] overflow-hidden p-8 transition-transform duration-500 hover:-translate-y-2"
@@ -39,13 +52,13 @@ export default function Services() {
                 <p className="mt-3 text-sm leading-relaxed text-[#D2D8E3]">
                   {product.text}
                 </p>
-                <a
+                <Link
                   href={product.href}
                   className="mt-6 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#E2C275] transition hover:text-white"
                 >
-                  Khám phá danh mục
+                  {isEn ? "Explore Category" : "Khám phá danh mục"}
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </a>
+                </Link>
               </div>
             </article>
           ))}
@@ -54,3 +67,4 @@ export default function Services() {
     </section>
   );
 }
+

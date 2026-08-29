@@ -1,14 +1,17 @@
 "use client";
 
 import { Phone } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 export default function QuickContactButtons() {
+  const pathname = usePathname();
+  const isEn = pathname?.startsWith("/en");
   const phoneNumber = "0966994338";
   const zaloUrl = `https://zalo.me/${phoneNumber}`;
 
   return (
     <div
-      aria-label="Liên hệ nhanh"
+      aria-label={isEn ? "Quick contact" : "Liên hệ nhanh"}
       className="fixed bottom-6 left-6 z-50 flex flex-col items-center gap-4 print:hidden select-none"
     >
       {/* Nút Zalo tròn với vòng tròn tỏa sóng */}
@@ -16,7 +19,7 @@ export default function QuickContactButtons() {
         href={zaloUrl}
         target="_blank"
         rel="noopener noreferrer"
-        title="Chat Zalo: 0966 994 338"
+        title={isEn ? "Chat via Zalo: 0966 994 338" : "Chat Zalo: 0966 994 338"}
         className="group relative flex h-14 w-14 items-center justify-center transition-transform duration-300 hover:scale-110 active:scale-95"
       >
         {/* Vòng tỏa sóng lớn bên ngoài */}
@@ -34,7 +37,7 @@ export default function QuickContactButtons() {
       {/* Nút Gọi Điện thoại tròn màu đỏ với vòng tỏa sóng */}
       <a
         href={`tel:${phoneNumber}`}
-        title="Gọi Hotline: 0966 994 338"
+        title={isEn ? "Call Hotline: 0966 994 338" : "Gọi Hotline: 0966 994 338"}
         className="group relative flex h-14 w-14 items-center justify-center transition-transform duration-300 hover:scale-110 active:scale-95"
       >
         {/* Vòng tỏa sóng lớn bên ngoài */}

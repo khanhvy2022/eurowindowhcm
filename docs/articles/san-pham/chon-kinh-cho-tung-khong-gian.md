@@ -3,6 +3,7 @@ title: "Cách chọn kính phù hợp cho từng không gian sống"
 bannerTitle: "CHỌN KÍNH TỪNG KHÔNG GIAN"
 description: "Hướng dẫn chọn kính cho phòng khách, phòng ngủ, mặt tiền, văn phòng và bệnh viện dựa theo nhu cầu an toàn, cách nhiệt và thẩm mỹ của từng không gian."
 date: "06/08/2026"
+image: "/uploads/kinh-hoa-dong.jpg"
 ---
 
 ## Chọn kính cho phòng khách

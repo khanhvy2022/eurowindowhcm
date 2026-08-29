@@ -1,3 +1,4 @@
+import SetHtmlLang from "@/components/SetHtmlLang";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,5 +20,11 @@ export const metadata: Metadata = {
 };
 
 export default function EnLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <SetHtmlLang />
+      {children}
+    </>
+  );
 }
+
