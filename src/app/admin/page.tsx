@@ -489,31 +489,78 @@ export default function AdminPage() {
 
   const refresh = useCallback(async () => {
     setLoading(true);
+    const token = getToken();
+    const authHeaders: HeadersInit = token ? { Authorization: `Bearer ${token}` } : {};
+
     try {
-      const [postsRes, kbRes, usersRes, fileRes, contactsRes, docsRes] = await Promise.all([
-        fetch("/api/posts"),
-        fetch("/api/knowledge"),
-        fetch("/api/admin/users", { headers: { Authorization: `Bearer ${getToken()}` } }),
-        fetch("/api/posts/files"),
-        fetch("/api/contact"),
-        fetch("/api/documents", { headers: { Authorization: `Bearer ${getToken()}` } }),
-      ]);
-      const postsData = await postsRes.json();
-      const kbData = await kbRes.json();
-      const usersData = await usersRes.json();
-      const fileData = await fileRes.json();
-      const contactsData = await contactsRes.json();
-      const docsData = await docsRes.json();
-      setPosts(postsData.posts ?? []);
-      setFilePosts(fileData.posts ?? []);
-      setKnowledge(kbData.entries ?? []);
-      setUsers(usersData.users ?? []);
-      setContacts(contactsData.contacts ?? []);
-      setDocuments(docsData.documents ?? []);
+      // 1. Posts (all 336+ articles from DB or static fallback)
+      try {
+        const postsRes = await fetch("/api/posts");
+        if (postsRes.ok) {
+          const data = await postsRes.json();
+          setPosts(data.posts ?? []);
+        }
+      } catch (err) {
+        console.warn("[admin] Error loading posts:", err);
+      }
+
+      // 2. File Posts
+      try {
+        const fileRes = await fetch("/api/posts/files");
+        if (fileRes.ok) {
+          const data = await fileRes.json();
+          setFilePosts(data.posts ?? []);
+        }
+      } catch (err) {
+        console.warn("[admin] Error loading file posts:", err);
+      }
+
+      // 3. Knowledge Base (Q&A)
+      try {
+        const kbRes = await fetch("/api/knowledge");
+        if (kbRes.ok) {
+          const data = await kbRes.json();
+          setKnowledge(data.entries ?? []);
+        }
+      } catch (err) {
+        console.warn("[admin] Error loading knowledge:", err);
+      }
+
+      // 4. Admin Users
+      try {
+        const usersRes = await fetch("/api/admin/users", { headers: authHeaders });
+        if (usersRes.ok) {
+          const data = await usersRes.json();
+          setUsers(data.users ?? []);
+        }
+      } catch (err) {
+        console.warn("[admin] Error loading users:", err);
+      }
+
+      // 5. Contact leads
+      try {
+        const contactsRes = await fetch("/api/contact");
+        if (contactsRes.ok) {
+          const data = await contactsRes.json();
+          setContacts(data.contacts ?? []);
+        }
+      } catch (err) {
+        console.warn("[admin] Error loading contacts:", err);
+      }
+
+      // 6. Documents (RAG)
+      try {
+        const docsRes = await fetch("/api/documents", { headers: authHeaders });
+        if (docsRes.ok) {
+          const data = await docsRes.json();
+          setDocuments(data.documents ?? []);
+        }
+      } catch (err) {
+        console.warn("[admin] Error loading documents:", err);
+      }
     } finally {
       setLoading(false);
     }
-
   }, []);
 
   useEffect(() => {

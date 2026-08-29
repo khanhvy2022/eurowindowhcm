@@ -63,32 +63,26 @@ function validate(body: PostBody): { ok: true; data: Record<string, unknown> } |
   };
 }
 
+import { getAllPosts } from "@/lib/posts";
+
 export async function GET(request: NextRequest) {
-  const db = await getDb();
-  if (!db) return Response.json({ posts: [] });
   try {
-    const posts = await db
-      .collection(COLLECTIONS.posts)
-      .find({})
-      .sort({ createdAt: -1 })
-      .toArray();
+    const posts = await getAllPosts();
     const result = posts.map((p) => ({
-      _id: String(p._id),
       slug: p.slug,
       title: p.title,
       category: p.category,
-      subCategory: p.subCategory,
       date: p.date,
       excerpt: p.excerpt,
       image: p.image,
       sections: p.sections,
       faq: p.faq,
       contentHtml: p.contentHtml,
-      createdAt: p.createdAt,
+      author: p.author,
     }));
-    return Response.json({ posts: result });
-  } catch {
-    return Response.json({ posts: [] });
+    return Response.json({ posts: result, total: result.length });
+  } catch (err) {
+    return Response.json({ posts: [], error: err instanceof Error ? err.message : "Lỗi tải bài viết" });
   }
 }
 
