@@ -95,9 +95,9 @@ export default function HeroVideo({
             className="h-full w-full object-cover pointer-events-none"
           >
             <source src="/videos/hero-video-optimized.mp4" type="video/mp4" />
-            <source src="/videos/hero-video.mp4" type="video/mp4" />
-            <img src={posterSrc} alt="" className="h-full w-full object-cover" />
+            <img src={posterSrc} alt="Eurowindow" className="h-full w-full object-cover" />
           </video>
+
         )}
       </div>
 
