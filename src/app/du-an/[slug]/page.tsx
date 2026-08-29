@@ -21,18 +21,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!project) return { title: "Không tìm thấy dự án" };
 
   const canonical = `https://eurowindowhcm.com/du-an/${slug}`;
-  const title = `Dự án ${project.title} – Eurowindow Thi Công`;
+  const title = `Dự Án ${project.title} – Eurowindow Thi Công`;
   const description = `${project.intro} Vị trí: ${project.location}. Hạng mục thi công: ${project.scope}.`;
+  const imageUrl = project.images?.[0] ? `https://eurowindowhcm.com${project.images[0]}` : "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
 
   return {
     title,
     description,
     alternates: { canonical },
     openGraph: {
+      type: "website",
+      locale: "vi_VN",
+      siteName: "Cửa Eurowindow Hồ Chí Minh",
       title,
       description,
       url: canonical,
-      images: project.images?.[0] ? [{ url: project.images[0], alt: project.title }] : undefined,
+      images: [{ url: imageUrl, width: 1200, height: 630, alt: project.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [imageUrl],
     },
   };
 }
@@ -46,9 +56,63 @@ export default async function ProjectDetailPage({ params }: Props) {
   }
 
   const related = projects.filter((p) => p.category === project.category && p.slug !== project.slug).slice(0, 3);
+  const canonicalUrl = `https://eurowindowhcm.com/du-an/${project.slug}`;
+  const imageUrl = project.images?.[0] ? `https://eurowindowhcm.com${project.images[0]}` : "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
+
+  const projectSchema = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: project.title,
+    headline: `Dự Án ${project.title} – Eurowindow Thi Công`,
+    description: project.intro,
+    image: project.images.map((img) => `https://eurowindowhcm.com${img}`),
+    url: canonicalUrl,
+    creator: {
+      "@type": "Organization",
+      name: "Cửa Eurowindow Hồ Chí Minh",
+      url: "https://eurowindowhcm.com",
+    },
+    locationCreated: {
+      "@type": "Place",
+      name: project.location,
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Trang chủ",
+        item: "https://eurowindowhcm.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Dự án",
+        item: "https://eurowindowhcm.com/du-an",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: project.title,
+        item: canonicalUrl,
+      },
+    ],
+  };
 
   return (
     <div className="min-h-screen bg-[#071523] text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Header />
       <main>
         <PageBanner

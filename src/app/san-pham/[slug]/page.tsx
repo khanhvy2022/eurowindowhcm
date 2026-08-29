@@ -23,16 +23,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonical = `https://eurowindowhcm.com/san-pham/${slug}`;
   const title = `${product.title} – Cửa Eurowindow Chính Hãng`;
   const description = product.text;
+  const imageUrl = `https://eurowindowhcm.com${product.image}`;
 
   return {
     title,
     description,
     alternates: { canonical },
     openGraph: {
+      type: "website",
+      locale: "vi_VN",
+      siteName: "Cửa Eurowindow Hồ Chí Minh",
       title,
       description,
       url: canonical,
-      images: [{ url: product.image, alt: product.title }],
+      images: [{ url: imageUrl, width: 1200, height: 630, alt: product.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [imageUrl],
     },
   };
 }
@@ -46,26 +56,59 @@ export default async function ProductDetailPage({ params }: Props) {
   }
 
   const related = products.filter((p) => p.slug !== product.slug).slice(0, 3);
+  const canonicalUrl = `https://eurowindowhcm.com/san-pham/${product.slug}`;
+  const imageUrl = `https://eurowindowhcm.com${product.image}`;
 
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.title,
     description: product.text,
-    image: `https://eurowindowhcm.com${product.image}`,
+    image: [imageUrl],
+    url: canonicalUrl,
     brand: {
       "@type": "Brand",
-      name: "Eurowindow"
+      name: "Eurowindow",
     },
     offers: {
-      "@type": "AggregateOffer",
+      "@type": "Offer",
       priceCurrency: "VND",
+      price: "1500000",
+      priceValidUntil: "2027-12-31",
       availability: "https://schema.org/InStock",
+      itemCondition: "https://schema.org/NewCondition",
+      url: canonicalUrl,
       seller: {
         "@type": "Organization",
-        name: "Cửa Eurowindow Hồ Chí Minh"
-      }
-    }
+        name: "Cửa Eurowindow Hồ Chí Minh",
+        url: "https://eurowindowhcm.com",
+      },
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Trang chủ",
+        item: "https://eurowindowhcm.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Sản phẩm",
+        item: "https://eurowindowhcm.com/san-pham",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: product.title,
+        item: canonicalUrl,
+      },
+    ],
   };
 
   return (
@@ -73,6 +116,10 @@ export default async function ProductDetailPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Header />
       <main>

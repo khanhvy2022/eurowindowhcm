@@ -16,9 +16,19 @@ export const metadata: Metadata = {
     canonical: "https://eurowindowhcm.com/dich-vu",
   },
   openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    siteName: "Cửa Eurowindow Hồ Chí Minh",
     title: "Dịch Vụ Thi Công & Bảo Hành Cửa Eurowindow Hồ Chí Minh",
     description: "Quy trình tư vấn giải pháp, thiết kế kỹ thuật, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow chuẩn châu Âu tại TP.HCM.",
     url: "https://eurowindowhcm.com/dich-vu",
+    images: [{ url: "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Dịch vụ Eurowindow" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dịch Vụ Thi Công & Bảo Hành Cửa Eurowindow Hồ Chí Minh",
+    description: "Quy trình tư vấn, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow.",
+    images: ["https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
   },
 };
 
