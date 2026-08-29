@@ -5,6 +5,7 @@ import Link from "next/link";
 import SeoTab from "./seo/SeoTab";
 import {
   LogOut, Plus, Trash2, Pencil, FileText, BookOpen, Lock, Search, X, Gauge, Users, Shield, Inbox, Phone, Mail, MapPin, CheckCircle2,
+  Upload, Eye, ToggleLeft, ToggleRight, MessageSquare, FileUp,
 } from "lucide-react";
 
 type Post = {
@@ -49,6 +50,17 @@ type UserItem = {
   username: string;
   role: "admin" | "editor" | "viewer";
   createdAt?: string;
+};
+
+type DocumentItem = {
+  _id: string;
+  fileName: string;
+  fileSize: number;
+  fileType: string;
+  title: string;
+  totalChunks: number;
+  enabled: boolean;
+  uploadedAt: string;
 };
 
 const TOKEN_KEY = "ew_admin_token";
@@ -465,30 +477,43 @@ export default function AdminPage() {
   const [newUsername, setNewUsername] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [newUserRole, setNewUserRole] = useState<"admin" | "editor" | "viewer">("viewer");
+  const [documents, setDocuments] = useState<DocumentItem[]>([]);
+  const [subTab, setSubTab] = useState<"qa" | "docs">("qa");
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+  const [dragOver, setDragOver] = useState(false);
+  const [testQuery, setTestQuery] = useState("");
+  const [testAnswer, setTestAnswer] = useState<string | null>(null);
+  const [testLoading, setTestLoading] = useState(false);
+
 
   const refresh = useCallback(async () => {
     setLoading(true);
     try {
-      const [postsRes, kbRes, usersRes, fileRes, contactsRes] = await Promise.all([
+      const [postsRes, kbRes, usersRes, fileRes, contactsRes, docsRes] = await Promise.all([
         fetch("/api/posts"),
         fetch("/api/knowledge"),
         fetch("/api/admin/users", { headers: { Authorization: `Bearer ${getToken()}` } }),
         fetch("/api/posts/files"),
         fetch("/api/contact"),
+        fetch("/api/documents", { headers: { Authorization: `Bearer ${getToken()}` } }),
       ]);
       const postsData = await postsRes.json();
       const kbData = await kbRes.json();
       const usersData = await usersRes.json();
       const fileData = await fileRes.json();
       const contactsData = await contactsRes.json();
+      const docsData = await docsRes.json();
       setPosts(postsData.posts ?? []);
       setFilePosts(fileData.posts ?? []);
       setKnowledge(kbData.entries ?? []);
       setUsers(usersData.users ?? []);
       setContacts(contactsData.contacts ?? []);
+      setDocuments(docsData.documents ?? []);
     } finally {
       setLoading(false);
     }
+
   }, []);
 
   useEffect(() => {
@@ -619,6 +644,68 @@ export default function AdminPage() {
     setAuthed(false);
   }
 
+  async function uploadDocument(file: File) {
+    setUploading(true);
+    setUploadError(null);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      const res = await fetch("/api/documents", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${getToken()}` },
+        body: formData,
+      });
+      const data = await res.json();
+      if (data.ok) {
+        refresh();
+      } else {
+        setUploadError(data.error ?? "Upload thất bại");
+      }
+    } catch {
+      setUploadError("Lỗi kết nối máy chủ");
+    } finally {
+      setUploading(false);
+    }
+  }
+
+  async function toggleDocument(doc: DocumentItem) {
+    await fetch(`/api/documents/${doc._id}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+      body: JSON.stringify({ enabled: !doc.enabled }),
+    });
+    refresh();
+  }
+
+  async function deleteDocument(doc: DocumentItem) {
+    if (!confirm(`Xóa tài liệu "${doc.title}"?`)) return;
+    await fetch(`/api/documents/${doc._id}`, {
+      method: "DELETE",
+      headers: { Authorization: `Bearer ${getToken()}` },
+    });
+    refresh();
+  }
+
+  async function testChatQuery() {
+    if (!testQuery.trim()) return;
+    setTestLoading(true);
+    setTestAnswer(null);
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: testQuery }),
+      });
+      const data = await res.json();
+      setTestAnswer(data.message ?? "Không có câu trả lời");
+    } catch {
+      setTestAnswer("Lỗi kết nối API");
+    } finally {
+      setTestLoading(false);
+    }
+  }
+
+
   if (!authed) return <LoginForm onSuccess={() => { setAuthed(true); refresh(); }} />;
 
   return (
@@ -710,7 +797,7 @@ export default function AdminPage() {
                 <Plus className="h-4 w-4" /> Bài viết mới
               </button>
             </div>
-          ) : (
+          ) : tab === "knowledge" ? null : (
             <button
               onClick={() => { setEditingKb(null); setShowNewKb((v) => !v); }}
               className="inline-flex items-center gap-2 rounded-lg bg-[#0066aa] px-4 py-2.5 text-sm font-bold text-white transition hover:bg-[#005690]"
@@ -815,58 +902,230 @@ export default function AdminPage() {
               </div>
             ) : null}
           </div>
-        ) : (
+        ) : tab === "knowledge" ? (
           <div className="space-y-5">
-            {showNewKb || editingKb ? (
-              <KnowledgeForm
-                initial={editingKb ?? undefined}
-                onCancel={() => { setEditingKb(null); setShowNewKb(false); }}
-                onSaved={() => { setEditingKb(null); setShowNewKb(false); refresh(); }}
-              />
-            ) : null}
-            <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
-              <table className="w-full text-left text-sm">
-                <thead className="border-b border-slate-200 bg-slate-50 text-xs font-bold uppercase tracking-wide text-slate-500">
-                  <tr>
-                    <th className="px-4 py-3">Câu hỏi</th>
-                    <th className="px-4 py-3">Từ khóa</th>
-                    <th className="px-4 py-3 text-right">Thao tác</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-slate-100">
-                  {filteredKb.map((k) => (
-                    <tr key={k.id} className="hover:bg-slate-50">
-                      <td className="px-4 py-3">
-                        <p className="font-bold text-slate-900">{k.question}</p>
-                        <p className="mt-0.5 line-clamp-1 text-xs text-slate-400">{k.answer}</p>
-                      </td>
-                      <td className="px-4 py-3">
-                        <div className="flex flex-wrap gap-1">
-                          {k.keywords.map((kw, i) => (
-                            <span key={i} className="rounded bg-slate-100 px-1.5 py-0.5 text-[11px] text-slate-500">{kw}</span>
-                          ))}
-                        </div>
-                      </td>
-                      <td className="px-4 py-3">
-                        <div className="flex justify-end gap-1">
-                          <button onClick={() => setEditingKb(k)} className="rounded p-2 text-slate-400 hover:text-[#0066aa]" title="Sửa">
-                            <Pencil className="h-4 w-4" />
-                          </button>
-                          <button onClick={() => deleteKb(k)} className="rounded p-2 text-slate-400 hover:text-red-500" title="Xóa">
-                            <Trash2 className="h-4 w-4" />
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                  ))}
-                  {filteredKb.length === 0 ? (
-                    <tr><td colSpan={3} className="px-4 py-8 text-center text-slate-400">Chưa có câu hỏi nào.</td></tr>
-                  ) : null}
-                </tbody>
-              </table>
+            {/* Sub-tab switcher */}
+            <div className="flex gap-2 border-b border-slate-200 pb-3">
+              <button
+                onClick={() => setSubTab("qa")}
+                className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold transition ${subTab === "qa" ? "bg-[#0066aa] text-white" : "text-slate-600 hover:bg-slate-100"}`}
+              >
+                <MessageSquare className="h-4 w-4" /> Câu hỏi - Trả lời ({knowledge.length})
+              </button>
+              <button
+                onClick={() => setSubTab("docs")}
+                className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold transition ${subTab === "docs" ? "bg-[#0066aa] text-white" : "text-slate-600 hover:bg-slate-100"}`}
+              >
+                <FileUp className="h-4 w-4" /> Tài liệu nội bộ ({documents.length})
+              </button>
             </div>
+
+            {/* QA sub-tab */}
+            {subTab === "qa" && (
+              <div className="space-y-4">
+                <div className="flex justify-end">
+                  <button
+                    onClick={() => { setEditingKb(null); setShowNewKb((v) => !v); }}
+                    className="inline-flex items-center gap-2 rounded-lg bg-[#0066aa] px-4 py-2.5 text-sm font-bold text-white transition hover:bg-[#005690]"
+                  >
+                    <Plus className="h-4 w-4" /> Câu hỏi mới
+                  </button>
+                </div>
+                {showNewKb || editingKb ? (
+                  <KnowledgeForm
+                    initial={editingKb ?? undefined}
+                    onCancel={() => { setEditingKb(null); setShowNewKb(false); }}
+                    onSaved={() => { setEditingKb(null); setShowNewKb(false); refresh(); }}
+                  />
+                ) : null}
+                <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
+                  <table className="w-full text-left text-sm">
+                    <thead className="border-b border-slate-200 bg-slate-50 text-xs font-bold uppercase tracking-wide text-slate-500">
+                      <tr>
+                        <th className="px-4 py-3">Câu hỏi</th>
+                        <th className="px-4 py-3">Từ khóa</th>
+                        <th className="px-4 py-3 text-right">Thao tác</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100">
+                      {filteredKb.map((k) => (
+                        <tr key={k.id} className="hover:bg-slate-50">
+                          <td className="px-4 py-3">
+                            <p className="font-bold text-slate-900">{k.question}</p>
+                            <p className="mt-0.5 line-clamp-1 text-xs text-slate-400">{k.answer}</p>
+                          </td>
+                          <td className="px-4 py-3">
+                            <div className="flex flex-wrap gap-1">
+                              {k.keywords.map((kw, i) => (
+                                <span key={i} className="rounded bg-slate-100 px-1.5 py-0.5 text-[11px] text-slate-500">{kw}</span>
+                              ))}
+                            </div>
+                          </td>
+                          <td className="px-4 py-3">
+                            <div className="flex justify-end gap-1">
+                              <button onClick={() => setEditingKb(k)} className="rounded p-2 text-slate-400 hover:text-[#0066aa]" title="Sửa">
+                                <Pencil className="h-4 w-4" />
+                              </button>
+                              <button onClick={() => deleteKb(k)} className="rounded p-2 text-slate-400 hover:text-red-500" title="Xóa">
+                                <Trash2 className="h-4 w-4" />
+                              </button>
+                            </div>
+                          </td>
+                        </tr>
+                      ))}
+                      {filteredKb.length === 0 ? (
+                        <tr><td colSpan={3} className="px-4 py-8 text-center text-slate-400">Chưa có câu hỏi nào.</td></tr>
+                      ) : null}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {/* Documents sub-tab */}
+            {subTab === "docs" && (
+              <div className="space-y-5">
+                {/* Upload area */}
+                <div
+                  onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
+                  onDragLeave={() => setDragOver(false)}
+                  onDrop={(e) => {
+                    e.preventDefault();
+                    setDragOver(false);
+                    const file = e.dataTransfer.files[0];
+                    if (file) uploadDocument(file);
+                  }}
+                  className={`flex flex-col items-center justify-center gap-3 rounded-xl border-2 border-dashed p-10 text-center transition ${dragOver ? "border-[#0066aa] bg-blue-50" : "border-slate-300 bg-white hover:border-slate-400"}`}
+                >
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-slate-100">
+                    <Upload className="h-6 w-6 text-slate-500" />
+                  </div>
+                  <div>
+                    <p className="font-bold text-slate-700">Kéo & thả tài liệu vào đây</p>
+                    <p className="mt-1 text-xs text-slate-500">Hỗ trợ: PDF, DOCX, TXT, CSV, MD, JSON · Tối đa 10MB</p>
+                  </div>
+                  <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-[#0066aa] px-5 py-2.5 text-sm font-bold text-white transition hover:bg-[#005690]">
+                    <FileUp className="h-4 w-4" />
+                    {uploading ? "Đang tải lên..." : "Chọn tài liệu"}
+                    <input
+                      type="file"
+                      className="sr-only"
+                      accept=".pdf,.docx,.txt,.csv,.md,.json"
+                      disabled={uploading}
+                      onChange={(e) => {
+                        const file = e.target.files?.[0];
+                        if (file) uploadDocument(file);
+                        e.target.value = "";
+                      }}
+                    />
+                  </label>
+                  {uploadError && (
+                    <p className="text-sm font-medium text-red-600">{uploadError}</p>
+                  )}
+                </div>
+
+                {/* Documents table */}
+                <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
+                  <table className="w-full text-left text-sm">
+                    <thead className="border-b border-slate-200 bg-slate-50 text-xs font-bold uppercase tracking-wide text-slate-500">
+                      <tr>
+                        <th className="px-4 py-3">Tài liệu</th>
+                        <th className="px-4 py-3">Loại</th>
+                        <th className="px-4 py-3">Kích thước</th>
+                        <th className="px-4 py-3">Chunks</th>
+                        <th className="px-4 py-3">Ngày tải</th>
+                        <th className="px-4 py-3 text-center">Kích hoạt</th>
+                        <th className="px-4 py-3 text-right">Thao tác</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100">
+                      {documents.map((doc) => (
+                        <tr key={doc._id} className="hover:bg-slate-50">
+                          <td className="px-4 py-3">
+                            <p className="font-bold text-slate-900">{doc.title}</p>
+                            <p className="text-xs text-slate-400">{doc.fileName}</p>
+                          </td>
+                          <td className="px-4 py-3">
+                            <span className="rounded bg-slate-100 px-2 py-0.5 text-[11px] font-bold uppercase text-slate-600">
+                              {doc.fileType.replace("application/", "").replace("text/", "")}
+                            </span>
+                          </td>
+                          <td className="px-4 py-3 text-slate-600 text-xs">
+                            {doc.fileSize < 1024 * 1024
+                              ? `${(doc.fileSize / 1024).toFixed(1)} KB`
+                              : `${(doc.fileSize / 1024 / 1024).toFixed(2)} MB`}
+                          </td>
+                          <td className="px-4 py-3">
+                            <span className="inline-flex items-center gap-1 rounded-full bg-blue-100 px-2.5 py-0.5 text-[11px] font-bold text-blue-700">
+                              {doc.totalChunks} chunks
+                            </span>
+                          </td>
+                          <td className="px-4 py-3 text-xs text-slate-500 whitespace-nowrap">
+                            {new Date(doc.uploadedAt).toLocaleDateString("vi-VN")}
+                          </td>
+                          <td className="px-4 py-3 text-center">
+                            <button
+                              onClick={() => toggleDocument(doc)}
+                              title={doc.enabled ? "Đang bật — Click để tắt" : "Đang tắt — Click để bật"}
+                              className="transition"
+                            >
+                              {doc.enabled
+                                ? <ToggleRight className="h-6 w-6 text-emerald-500" />
+                                : <ToggleLeft className="h-6 w-6 text-slate-400" />}
+                            </button>
+                          </td>
+                          <td className="px-4 py-3 text-right">
+                            <button onClick={() => deleteDocument(doc)} className="rounded p-2 text-slate-400 hover:text-red-500" title="Xóa">
+                              <Trash2 className="h-4 w-4" />
+                            </button>
+                          </td>
+                        </tr>
+                      ))}
+                      {documents.length === 0 ? (
+                        <tr><td colSpan={7} className="px-4 py-10 text-center text-slate-400">Chưa có tài liệu nào. Tải tài liệu lên để chatbot trả lời theo nội dung của bạn.</td></tr>
+                      ) : null}
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* Test chat simulator */}
+                <div className="rounded-xl border border-slate-200 bg-white p-5 space-y-3">
+                  <h3 className="flex items-center gap-2 font-bold text-slate-900">
+                    <MessageSquare className="h-4 w-4 text-[#0066aa]" />
+                    Kiểm tra Chatbot theo tài liệu
+                  </h3>
+                  <p className="text-xs text-slate-500">Nhập câu hỏi để kiểm tra xem chatbot trả lời dựa trên tài liệu đã tải lên như thế nào.</p>
+                  <div className="flex gap-2">
+                    <input
+                      className={`${inputCls} flex-1`}
+                      placeholder="VD: Cửa EA55 cách âm bao nhiêu dB?"
+                      value={testQuery}
+                      onChange={(e) => setTestQuery(e.target.value)}
+                      onKeyDown={(e) => e.key === "Enter" && testChatQuery()}
+                    />
+                    <button
+                      onClick={testChatQuery}
+                      disabled={testLoading || !testQuery.trim()}
+                      className="inline-flex items-center gap-2 rounded-lg bg-[#0066aa] px-4 py-2.5 text-sm font-bold text-white transition hover:bg-[#005690] disabled:opacity-50"
+                    >
+                      {testLoading ? "Đang hỏi..." : "Kiểm tra"}
+                    </button>
+                  </div>
+                  {testAnswer !== null && (
+                    <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4">
+                      <p className="mb-1 text-xs font-bold uppercase tracking-wide text-emerald-600">Phản hồi chatbot:</p>
+                      <p className="text-sm text-slate-800 whitespace-pre-wrap">{testAnswer}</p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="rounded-lg border border-blue-200 bg-blue-50 p-3 text-xs text-blue-700">
+                  <strong>Cách hoạt động:</strong> Mỗi tài liệu được chia thành các đoạn nhỏ (chunks). Khi khách hàng đặt câu hỏi, chatbot tìm chunks liên quan nhất và trả lời dựa trên nội dung thực của tài liệu — không bịa đặt.
+                </div>
+              </div>
+            )}
           </div>
-        )}
+        ) : null}
 
         {tab === "contacts" && (
           <div className="space-y-5">
@@ -970,8 +1229,6 @@ export default function AdminPage() {
             </div>
           </div>
         )}
-          </>
-        )}
         {tab === "users" && adminRole === "admin" ? (
           <div className="space-y-5">
             <div className="flex items-center justify-between">
@@ -1049,6 +1306,8 @@ export default function AdminPage() {
             </div>
           </div>
         ) : null}
+      </>
+      )}
       </main>
     </div>
   );

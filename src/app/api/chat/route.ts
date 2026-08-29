@@ -50,7 +50,39 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // 2) LLM fallback với rotation 5 providers
+    // 2) Tìm kiếm ngữ cảnh từ tài liệu nội bộ đã tải lên (Document RAG)
+    try {
+      const { searchDocumentContext } = await import("@/lib/documentSearch");
+      const docContext = await searchDocumentContext(question);
+
+      if (docContext.matchedChunks.length > 0 && docContext.contextText) {
+        const docSystemPrompt = `${SYSTEM_PROMPT}
+
+DƯỚI ĐÂY LÀ THÔNG TIN TRÍCH XUẤT TỪ TÀI LIỆU NỘI BỘ VÀ CATALOGUE EUROWINDOW LIÊN QUAN ĐẾN CÂU HỎI:
+---
+${docContext.contextText}
+---
+HƯỚNG DẪN TRẢ LỜI:
+1. Hãy ưu tiên sử dụng thông tin chính xác, trung thực từ tài liệu trên để trả lời khách hàng.
+2. Trích dẫn chuẩn xác các thông số kỹ thuật, báo giá, hệ nhôm, phụ kiện, ưu điểm nếu được đề cập trong tài liệu.
+3. Trả lời mạch lạc, chuyên nghiệp, thân thiện bằng tiếng Việt.`;
+
+        const llm = await chatWithRotation(docSystemPrompt, question);
+        if (llm.provider) {
+          return Response.json({
+            ok: true,
+            source: "document",
+            provider: llm.provider,
+            message: llm.content,
+            sources: Array.from(new Set(docContext.matchedChunks.map((c) => c.documentTitle))),
+          });
+        }
+      }
+    } catch (err) {
+      console.warn("[chat] Document RAG search error (fallback to general LLM):", err);
+    }
+
+    // 3) LLM fallback với rotation 5 providers
     const llm = await chatWithRotation(SYSTEM_PROMPT, question);
     if (llm.provider) {
       return Response.json({
@@ -66,6 +98,7 @@ export async function POST(request: NextRequest) {
       message:
         "Tôi chưa có sẵn câu trả lời cho câu hỏi này. Vui lòng liên hệ hotline Eurowindow 0966 994 338 hoặc email Thangtq2@eurowindow.biz để được tư vấn chi tiết.",
     });
+
   } catch (err) {
     return Response.json(
       { ok: false, error: err instanceof Error ? err.message : "Lỗi server" },

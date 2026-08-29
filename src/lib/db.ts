@@ -63,4 +63,6 @@ export const COLLECTIONS = {
   posts: "posts",
   knowledge: "knowledge",
   contacts: "contacts",
+  documents: "documents",
 } as const;
+
