@@ -691,11 +691,36 @@ export default function AdminPage() {
     setAuthed(false);
   }
 
+  async function extractPdfTextClient(file: File): Promise<string> {
+    const arrayBuffer = await file.arrayBuffer();
+    const uint8 = new Uint8Array(arrayBuffer);
+    const pdfjsLib = (await import("pdfjs-dist")) as typeof import("pdfjs-dist");
+    // Disable worker — chạy inline trong main thread (không cần worker file)
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "";
+    const pdf = await pdfjsLib.getDocument({
+      data: uint8,
+      useWorkerFetch: false,
+      isEvalSupported: false,
+      useSystemFonts: true,
+    } as Parameters<typeof pdfjsLib.getDocument>[0]).promise;
+    const pageTexts: string[] = [];
+    for (let i = 1; i <= pdf.numPages; i++) {
+      const page = await pdf.getPage(i);
+      const content = await page.getTextContent();
+      const pageText = content.items
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .map((item: any) => ("str" in item ? item.str : ""))
+        .join(" ");
+      if (pageText.trim()) pageTexts.push(pageText);
+    }
+    return pageTexts.join("\n\n");
+  }
+
   async function uploadDocument(file: File) {
     setUploading(true);
     setUploadError(null);
 
-    const MAX_BINARY_SIZE = 4.3 * 1024 * 1024; // 4.3MB (Vercel Serverless hard limit là 4.5MB)
+    const MAX_BINARY_SIZE = 4.3 * 1024 * 1024; // 4.3MB
 
     try {
       const ext = file.name.split(".").pop()?.toLowerCase() || "";
@@ -734,10 +759,57 @@ export default function AdminPage() {
         return;
       }
 
-      // Đối với file binary (PDF, DOCX): kiểm tra dung lượng trước khi gửi
+      // Đối với file binary (PDF, DOCX)
+      if (ext === "pdf" && file.size > MAX_BINARY_SIZE) {
+        // File PDF lớn: đọc text ngay trên trình duyệt bằng PDF.js, gửi JSON nhẹ
+        setUploadError(null);
+        let rawText = "";
+        try {
+          rawText = await extractPdfTextClient(file);
+        } catch (pdfErr) {
+          console.error("[uploadDocument] Client PDF parse error:", pdfErr);
+        }
+
+        if (!rawText.trim()) {
+          setUploadError(
+            `File PDF "${file.name}" (${(file.size / (1024 * 1024)).toFixed(1)}MB) không tìm được nội dung văn bản. ` +
+            `File có thể là PDF quét dạng ảnh (scanned). Vui lòng chuyển sang định dạng TXT/DOCX hoặc dùng công cụ OCR trước.`
+          );
+          return;
+        }
+
+        const res = await fetch("/api/documents", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${getToken()}`,
+          },
+          body: JSON.stringify({
+            text: rawText,
+            fileName: file.name,
+            fileSize: file.size,
+            fileType: "pdf",
+            title: file.name.replace(/\.[^/.]+$/, ""),
+          }),
+        });
+
+        let data: Record<string, unknown> = {};
+        try {
+          data = (await res.json()) as Record<string, unknown>;
+        } catch {
+          data = { ok: false, error: `Máy chủ trả về trạng thái ${res.status}` };
+        }
+        if (res.ok && data.ok) {
+          refresh();
+        } else {
+          setUploadError(typeof data.error === "string" ? data.error : `Upload thất bại (${res.status})`);
+        }
+        return;
+      }
+
       if (file.size > MAX_BINARY_SIZE) {
         setUploadError(
-          `File "${file.name}" (${(file.size / (1024 * 1024)).toFixed(1)}MB) vượt quá giới hạn 4.5MB của server Vercel. Vui lòng nén file, lưu dưới dạng text/markdown hoặc tải file dưới 4.5MB.`
+          `File "${file.name}" (${(file.size / (1024 * 1024)).toFixed(1)}MB) vượt quá giới hạn 4.5MB. Vui lòng lưu dưới dạng TXT/MD hoặc tải file dưới 4.5MB.`
         );
         return;
       }
@@ -1115,7 +1187,7 @@ export default function AdminPage() {
                   </div>
                   <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-[#0066aa] px-5 py-2.5 text-sm font-bold text-white transition hover:bg-[#005690]">
                     <FileUp className="h-4 w-4" />
-                    {uploading ? "Đang tải lên..." : "Chọn tài liệu"}
+                    {uploading ? "Đang xử lý..." : "Chọn tài liệu"}
                     <input
                       type="file"
                       className="sr-only"
@@ -1128,6 +1200,9 @@ export default function AdminPage() {
                       }}
                     />
                   </label>
+                  {uploading && (
+                    <p className="text-sm text-slate-500 animate-pulse">Đang phân tích tài liệu, vui lòng chờ...</p>
+                  )}
                   {uploadError && (
                     <p className="text-sm font-medium text-red-600">{uploadError}</p>
                   )}
