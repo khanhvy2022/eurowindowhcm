@@ -7,7 +7,7 @@ import { articles as enArticles } from "@/app/en/articles-data";
 import { products as enProducts } from "@/app/en/products/products-data";
 import { projects as enProjects } from "@/app/en/projects-data";
 
-const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://eurowindowhcm.com";
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.eurowindowhcm.com";
 
 function url(
   path: string,

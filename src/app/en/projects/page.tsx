@@ -6,17 +6,17 @@ export const metadata: Metadata = {
   description:
     "Explore iconic architectural landmarks, international airports, hospitals, government headquarters, and luxury residences crafted by Eurowindow across Vietnam.",
   alternates: {
-    canonical: "https://eurowindowhcm.com/en/projects",
+    canonical: "https://www.eurowindowhcm.com/en/projects",
     languages: {
-      vi: "https://eurowindowhcm.com/du-an",
-      en: "https://eurowindowhcm.com/en/projects",
+      vi: "https://www.eurowindowhcm.com/du-an",
+      en: "https://www.eurowindowhcm.com/en/projects",
     },
   },
   openGraph: {
     title: "Featured Projects – Architectural Landmarks by Eurowindow",
     description:
       "Explore iconic architectural landmarks, international airports, hospitals, government headquarters, and luxury residences crafted by Eurowindow across Vietnam.",
-    url: "https://eurowindowhcm.com/en/projects",
+    url: "https://www.eurowindowhcm.com/en/projects",
     images: [
       {
         url: "/eurowindow/cuanhom.jpg.webp",

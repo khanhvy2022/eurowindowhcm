@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Featured Projects – Architectural Landmarks by Eurowindow",
     description:
       "Explore iconic architectural landmarks, international airports, hospitals, government headquarters, and luxury residences crafted by Eurowindow across Vietnam.",
-    url: "https://eurowindowhcm.com/en/projects",
+    url: "https://www.eurowindowhcm.com/en/projects",
     images: [
       {
         url: "/eurowindow/cuanhom.jpg.webp",

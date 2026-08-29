@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   description:
     "Liên hệ Eurowindow tại TP. Hồ Chí Minh. Nhận tư vấn giải pháp cửa nhôm kính, cửa uPVC, cửa gỗ, báo giá nhanh, hỗ trợ khảo sát công trình miễn phí 24/7.",
   alternates: {
-    canonical: "https://eurowindowhcm.com/lien-he",
+    canonical: "https://www.eurowindowhcm.com/lien-he",
     languages: {
-      vi: "https://eurowindowhcm.com/lien-he",
-      en: "https://eurowindowhcm.com/en/contact",
+      vi: "https://www.eurowindowhcm.com/lien-he",
+      en: "https://www.eurowindowhcm.com/en/contact",
     },
   },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     title: "Liên Hệ Cửa Eurowindow Hồ Chí Minh – Báo Giá & Tư Vấn Kỹ Thuật",
     description:
       "Liên hệ Eurowindow tại TP. Hồ Chí Minh. Nhận tư vấn giải pháp cửa nhôm kính, cửa uPVC, cửa gỗ, báo giá nhanh, hỗ trợ khảo sát công trình miễn phí 24/7.",
-    url: "https://eurowindowhcm.com/lien-he",
+    url: "https://www.eurowindowhcm.com/lien-he",
     images: [
       {
-        url: "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp",
+        url: "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp",
         width: 1200,
         height: 630,
         alt: "Liên hệ Cửa Eurowindow Hồ Chí Minh",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Liên Hệ Cửa Eurowindow Hồ Chí Minh – Báo Giá & Tư Vấn Kỹ Thuật",
     description: "Tư vấn giải pháp cửa nhôm kính, cửa uPVC, cửa gỗ, báo giá nhanh 24/7.",
-    images: ["https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
+    images: ["https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
   },
 };
 

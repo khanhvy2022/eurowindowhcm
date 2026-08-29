@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Eurowindow Ho Chi Minh City – Leading Total Door & Facade Solutions",
     description: "Total solutions for aluminum glass doors, uPVC doors, wooden doors, security glass, and facade systems meeting European standards in Vietnam.",
-    url: "https://eurowindowhcm.com/en",
+    url: "https://www.eurowindowhcm.com/en",
     locale: "en_US",
   },
 };

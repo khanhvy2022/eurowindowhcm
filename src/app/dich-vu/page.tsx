@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Dịch Vụ Thi Công & Bảo Hành Cửa Eurowindow Hồ Chí Minh",
   description: "Quy trình tư vấn giải pháp, thiết kế kỹ thuật, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow chuẩn châu Âu tại TP.HCM.",
   alternates: {
-    canonical: "https://eurowindowhcm.com/dich-vu",
+    canonical: "https://www.eurowindowhcm.com/dich-vu",
   },
   openGraph: {
     type: "website",
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     siteName: "Cửa Eurowindow Hồ Chí Minh",
     title: "Dịch Vụ Thi Công & Bảo Hành Cửa Eurowindow Hồ Chí Minh",
     description: "Quy trình tư vấn giải pháp, thiết kế kỹ thuật, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow chuẩn châu Âu tại TP.HCM.",
-    url: "https://eurowindowhcm.com/dich-vu",
-    images: [{ url: "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Dịch vụ Eurowindow" }],
+    url: "https://www.eurowindowhcm.com/dich-vu",
+    images: [{ url: "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Dịch vụ Eurowindow" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dịch Vụ Thi Công & Bảo Hành Cửa Eurowindow Hồ Chí Minh",
     description: "Quy trình tư vấn, sản xuất lắp đặt và bảo hành chính hãng cửa Eurowindow.",
-    images: ["https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
+    images: ["https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
   },
 };
 
@@ -41,7 +41,7 @@ const serviceSchema = {
   provider: {
     "@type": "HomeAndConstructionBusiness",
     name: "Cửa Eurowindow Hồ Chí Minh",
-    url: "https://eurowindowhcm.com",
+    url: "https://www.eurowindowhcm.com",
     telephone: "+84966994338",
   },
   areaServed: {

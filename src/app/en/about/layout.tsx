@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   description:
     "Over 23 years pioneering European-standard door, glass, and facade systems in Vietnam. Discover Eurowindow's manufacturing power, European technology, and national brand heritage.",
   alternates: {
-    canonical: "https://eurowindowhcm.com/en/about",
+    canonical: "https://www.eurowindowhcm.com/en/about",
     languages: {
-      vi: "https://eurowindowhcm.com/gioi-thieu",
-      en: "https://eurowindowhcm.com/en/about",
+      vi: "https://www.eurowindowhcm.com/gioi-thieu",
+      en: "https://www.eurowindowhcm.com/en/about",
     },
   },
   openGraph: {
     title: "About Eurowindow – Leading Door & Facade Solutions Provider in Vietnam",
     description:
       "Over 23 years pioneering European-standard door, glass, and facade systems in Vietnam. Discover Eurowindow's manufacturing power, European technology, and national brand heritage.",
-    url: "https://eurowindowhcm.com/en/about",
+    url: "https://www.eurowindowhcm.com/en/about",
     images: [
       {
         url: "/eurowindow/gioi-thieu.jpg.webp",

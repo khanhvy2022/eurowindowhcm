@@ -26,10 +26,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!project) return { title: "Không tìm thấy dự án" };
 
   const enSlug = VI_TO_EN_PROJECT_SLUG[slug] || slug;
-  const canonical = `https://eurowindowhcm.com/du-an/${slug}`;
+  const canonical = `https://www.eurowindowhcm.com/du-an/${slug}`;
   const title = `Dự Án ${project.title} – Eurowindow Thi Công`;
   const description = `${project.intro} Vị trí: ${project.location}. Hạng mục thi công: ${project.scope}.`;
-  const imageUrl = project.images?.[0] ? `https://eurowindowhcm.com${project.images[0]}` : "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
+  const imageUrl = project.images?.[0] ? `https://www.eurowindowhcm.com${project.images[0]}` : "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
 
   return {
     title,
@@ -68,8 +68,8 @@ export default async function ProjectDetailPage({ params }: Props) {
   }
 
   const related = projects.filter((p) => p.category === project.category && p.slug !== project.slug).slice(0, 3);
-  const canonicalUrl = `https://eurowindowhcm.com/du-an/${project.slug}`;
-  const imageUrl = project.images?.[0] ? `https://eurowindowhcm.com${project.images[0]}` : "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
+  const canonicalUrl = `https://www.eurowindowhcm.com/du-an/${project.slug}`;
+  const imageUrl = project.images?.[0] ? `https://www.eurowindowhcm.com${project.images[0]}` : "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
 
   const projectSchema = {
     "@context": "https://schema.org",
@@ -77,12 +77,12 @@ export default async function ProjectDetailPage({ params }: Props) {
     name: project.title,
     headline: `Dự Án ${project.title} – Eurowindow Thi Công`,
     description: project.intro,
-    image: project.images.map((img) => `https://eurowindowhcm.com${img}`),
+    image: project.images.map((img) => `https://www.eurowindowhcm.com${img}`),
     url: canonicalUrl,
     creator: {
       "@type": "Organization",
       name: "Cửa Eurowindow Hồ Chí Minh",
-      url: "https://eurowindowhcm.com",
+      url: "https://www.eurowindowhcm.com",
     },
     locationCreated: {
       "@type": "Place",
@@ -98,13 +98,13 @@ export default async function ProjectDetailPage({ params }: Props) {
         "@type": "ListItem",
         position: 1,
         name: "Trang chủ",
-        item: "https://eurowindowhcm.com",
+        item: "https://www.eurowindowhcm.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Dự án",
-        item: "https://eurowindowhcm.com/du-an",
+        item: "https://www.eurowindowhcm.com/du-an",
       },
       {
         "@type": "ListItem",

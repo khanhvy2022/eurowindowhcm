@@ -12,17 +12,17 @@ export const metadata: Metadata = {
   description:
     "Cập nhật tin tức mới nhất từ Eurowindow: sự kiện nổi bật, chương trình ưu đãi cửa nhôm kính, uPVC, cửa gỗ và chia sẻ kiến thức xây dựng.",
   alternates: {
-    canonical: "https://eurowindowhcm.com/tin-tuc",
+    canonical: "https://www.eurowindowhcm.com/tin-tuc",
     languages: {
-      vi: "https://eurowindowhcm.com/tin-tuc",
-      en: "https://eurowindowhcm.com/en/news",
+      vi: "https://www.eurowindowhcm.com/tin-tuc",
+      en: "https://www.eurowindowhcm.com/en/news",
     },
   },
   openGraph: {
     title: "Tin tức Eurowindow – Sự kiện, Ưu đãi & Kiến thức xây dựng",
     description:
       "Cập nhật tin tức mới nhất từ Eurowindow: sự kiện nổi bật, chương trình ưu đãi và chia sẻ kiến thức xây dựng.",
-    url: "https://eurowindowhcm.com/tin-tuc",
+    url: "https://www.eurowindowhcm.com/tin-tuc",
     images: [{ url: "/eurowindow/toa-dam-1.png.webp", width: 1200, height: 630, alt: "Tin tức Eurowindow" }],
   },
 };

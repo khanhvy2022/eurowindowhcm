@@ -9,7 +9,7 @@ import { articles } from "../articles";
 
 type Props = { params: Promise<{ slug: string[] }> };
 
-const BASE_URL = "https://eurowindowhcm.com";
+const BASE_URL = "https://www.eurowindowhcm.com";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug.split("/").filter(Boolean) }));

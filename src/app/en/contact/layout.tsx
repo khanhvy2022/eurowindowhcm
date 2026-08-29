@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   description:
     "Contact Eurowindow in Ho Chi Minh City for total door and facade solutions. Instant quotation, 24/7 technical advisory, and professional site survey support.",
   alternates: {
-    canonical: "https://eurowindowhcm.com/en/contact",
+    canonical: "https://www.eurowindowhcm.com/en/contact",
     languages: {
-      vi: "https://eurowindowhcm.com/lien-he",
-      en: "https://eurowindowhcm.com/en/contact",
+      vi: "https://www.eurowindowhcm.com/lien-he",
+      en: "https://www.eurowindowhcm.com/en/contact",
     },
   },
   openGraph: {
     title: "Contact Eurowindow Ho Chi Minh City – Free Consultation & Quotation",
     description:
       "Contact Eurowindow in Ho Chi Minh City for total door and facade solutions. Instant quotation, 24/7 technical advisory, and professional site survey support.",
-    url: "https://eurowindowhcm.com/en/contact",
+    url: "https://www.eurowindowhcm.com/en/contact",
     images: [
       {
         url: "/eurowindow/cuanhom.jpg.webp",

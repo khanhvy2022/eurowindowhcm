@@ -20,10 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProduct(slug);
   if (!product) return { title: "Không tìm thấy sản phẩm" };
 
-  const canonical = `https://eurowindowhcm.com/san-pham/${slug}`;
+  const canonical = `https://www.eurowindowhcm.com/san-pham/${slug}`;
   const title = `${product.title} – Cửa Eurowindow Chính Hãng`;
   const description = product.text;
-  const imageUrl = `https://eurowindowhcm.com${product.image}`;
+  const imageUrl = `https://www.eurowindowhcm.com${product.image}`;
 
   return {
     title,
@@ -62,8 +62,8 @@ export default async function ProductDetailPage({ params }: Props) {
   }
 
   const related = products.filter((p) => p.slug !== product.slug).slice(0, 3);
-  const canonicalUrl = `https://eurowindowhcm.com/san-pham/${product.slug}`;
-  const imageUrl = `https://eurowindowhcm.com${product.image}`;
+  const canonicalUrl = `https://www.eurowindowhcm.com/san-pham/${product.slug}`;
+  const imageUrl = `https://www.eurowindowhcm.com${product.image}`;
 
   const productSchema = {
     "@context": "https://schema.org",
@@ -87,7 +87,7 @@ export default async function ProductDetailPage({ params }: Props) {
       seller: {
         "@type": "Organization",
         name: "Cửa Eurowindow Hồ Chí Minh",
-        url: "https://eurowindowhcm.com",
+        url: "https://www.eurowindowhcm.com",
       },
     },
   };
@@ -100,13 +100,13 @@ export default async function ProductDetailPage({ params }: Props) {
         "@type": "ListItem",
         position: 1,
         name: "Trang chủ",
-        item: "https://eurowindowhcm.com",
+        item: "https://www.eurowindowhcm.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Sản phẩm",
-        item: "https://eurowindowhcm.com/san-pham",
+        item: "https://www.eurowindowhcm.com/san-pham",
       },
       {
         "@type": "ListItem",

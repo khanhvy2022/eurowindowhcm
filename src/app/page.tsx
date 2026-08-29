@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   title: "Cửa Eurowindow Hồ Chí Minh",
   description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
   alternates: {
-    canonical: "https://eurowindowhcm.com",
+    canonical: "https://www.eurowindowhcm.com",
     languages: {
-      vi: "https://eurowindowhcm.com",
-      en: "https://eurowindowhcm.com/en",
-      "x-default": "https://eurowindowhcm.com",
+      vi: "https://www.eurowindowhcm.com",
+      en: "https://www.eurowindowhcm.com/en",
+      "x-default": "https://www.eurowindowhcm.com",
     },
   },
   openGraph: {
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     siteName: "Cửa Eurowindow Hồ Chí Minh",
     title: "Cửa Eurowindow Hồ Chí Minh",
     description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
-    url: "https://eurowindowhcm.com",
-    images: [{ url: "https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Cửa Eurowindow Hồ Chí Minh" }],
+    url: "https://www.eurowindowhcm.com",
+    images: [{ url: "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp", width: 1200, height: 630, alt: "Cửa Eurowindow Hồ Chí Minh" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Cửa Eurowindow Hồ Chí Minh",
     description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
-    images: ["https://eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
+    images: ["https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
   },
 };
 

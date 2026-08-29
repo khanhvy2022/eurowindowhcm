@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description:
     "Stay updated with the latest Eurowindow news: highlights, promotions on aluminium glass doors, uPVC windows, and expert construction knowledge.",
   alternates: {
-    canonical: "https://eurowindowhcm.com/en/news",
-    languages: { vi: "https://eurowindowhcm.com/tin-tuc", en: "https://eurowindowhcm.com/en/news" },
+    canonical: "https://www.eurowindowhcm.com/en/news",
+    languages: { vi: "https://www.eurowindowhcm.com/tin-tuc", en: "https://www.eurowindowhcm.com/en/news" },
   },
   openGraph: {
     title: "Eurowindow News – Events, Offers & Construction Insights",
     description: "Latest Eurowindow news, events and building material knowledge.",
-    url: "https://eurowindowhcm.com/en/news",
+    url: "https://www.eurowindowhcm.com/en/news",
   },
 };
 

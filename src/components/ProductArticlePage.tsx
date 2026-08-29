@@ -45,7 +45,7 @@ export default function ProductArticlePage({ article, label, bgImage, currentHre
   const currentCat = categoryKey ? getCategoryByKey(categoryKey) : undefined;
   const related = siblings.filter((a) => a.slug !== article.slug);
 
-  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://eurowindowhcm.com";
+  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.eurowindowhcm.com";
 
   const articleSchema = {
     "@context": "https://schema.org",

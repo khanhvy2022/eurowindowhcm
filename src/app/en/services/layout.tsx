@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Services & Warranty – Eurowindow Ho Chi Minh City",
     description:
       "End-to-end solutions: architectural consulting, engineering design, European-standard precision fabrication, professional installation, and lifetime genuine warranty.",
-    url: "https://eurowindowhcm.com/en/services",
+    url: "https://www.eurowindowhcm.com/en/services",
     images: [
       {
         url: "/eurowindow/cuanhom.jpg.webp",
