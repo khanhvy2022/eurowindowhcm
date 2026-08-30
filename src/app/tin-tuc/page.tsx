@@ -8,7 +8,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tin tức Eurowindow – Sự kiện, Ưu đãi & Kiến thức xây dựng",
+  title: "Tin Tức Eurowindow – Sự Kiện & Kiến Thức",
   description:
     "Cập nhật tin tức mới nhất từ Eurowindow: sự kiện nổi bật, chương trình ưu đãi cửa nhôm kính, uPVC, cửa gỗ và chia sẻ kiến thức xây dựng.",
   alternates: {

@@ -72,11 +72,39 @@ export default function ProductArticlePage({ article, label, bgImage, currentHre
     ],
   };
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: article.title,
+    description: article.excerpt || "",
+    image: article.image ? `${SITE_URL}${article.image}` : undefined,
+    brand: {
+      "@type": "Brand",
+      name: "Eurowindow",
+    },
+    manufacturer: {
+      "@type": "Organization",
+      name: "Cửa Eurowindow Hồ Chí Minh",
+      url: SITE_URL,
+    },
+    offers: {
+      "@type": "Offer",
+      availability: "https://schema.org/InStock",
+      priceCurrency: "VND",
+      seller: {
+        "@type": "Organization",
+        name: "Cửa Eurowindow Hồ Chí Minh",
+        url: SITE_URL,
+      },
+    },
+  };
+
   return (
     <div className="min-h-screen bg-[#071523] text-white">
       <Header />
       <main>
         <JsonLd data={articleSchema} />
+        <JsonLd data={productSchema} />
         <JsonLd data={breadcrumbSchema} />
         <PageBanner title={article.bannerTitle} crumb={label} bgImage={bgImage} />
 

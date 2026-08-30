@@ -29,7 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!article) return { title: "Không tìm thấy bài viết" };
 
   const canonicalUrl = `${BASE_URL}/tin-tuc/${article.slug}`;
-  const title = article.title;
+  const rawTitle = article.title;
+  // Truncate article titles to 55 chars so template "%s | Eurowindow HCM" stays within ~60c
+  const title = rawTitle.length > 55 ? rawTitle.substring(0, 52) + "…" : rawTitle;
   const description = article.excerpt || article.title;
   const hasEn = EN_NEWS_SLUGS.has(article.slug);
 

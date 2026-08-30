@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Liên Hệ Cửa Eurowindow Hồ Chí Minh – Báo Giá & Tư Vấn Kỹ Thuật",
+  title: "Liên Hệ Eurowindow – Báo Giá & Tư Vấn Miễn Phí",
   description:
     "Liên hệ Eurowindow tại TP. Hồ Chí Minh. Nhận tư vấn giải pháp cửa nhôm kính, cửa uPVC, cửa gỗ, báo giá nhanh, hỗ trợ khảo sát công trình miễn phí 24/7.",
   alternates: {

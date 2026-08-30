@@ -18,7 +18,11 @@ export async function generateMetadata() {
     title: `${a.title} | Eurowindow`,
     description: a?.excerpt ?? "",
     alternates: {
-      canonical: `/san-pham/${CATEGORY_KEY}`,
+      canonical: `https://www.eurowindowhcm.com/san-pham/${CATEGORY_KEY}`,
+      languages: {
+        vi: `https://www.eurowindowhcm.com/san-pham/${CATEGORY_KEY}`,
+        en: "https://www.eurowindowhcm.com/en/products/cua-nhom-vach-kinh",
+      },
     },
   };
 }
