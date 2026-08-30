@@ -18,8 +18,8 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.eurowindowhcm.
 
 export const metadata: Metadata = {
   title: {
-    default: "Cửa Eurowindow Hồ Chí Minh",
-    template: "%s | Cửa Eurowindow Hồ Chí Minh",
+    default: "Cửa Eurowindow Hồ Chí Minh – Cửa Nhôm Kính & uPVC Cao Cấp",
+    template: "%s | Eurowindow HCM",
   },
   description:
     "Eurowindow HCM – phân phối chính hãng cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn tại TP.HCM. Chuẩn quốc tế, bảo hành dài hạn. Hotline: 0966 994 338.",

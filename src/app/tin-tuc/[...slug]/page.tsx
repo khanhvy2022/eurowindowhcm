@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!article) return { title: "Không tìm thấy bài viết" };
 
   const canonicalUrl = `${BASE_URL}/tin-tuc/${article.slug}`;
-  const title = `${article.title} | Eurowindow HCM`;
+  const title = article.title;
   const description = article.excerpt || article.title;
   const hasEn = EN_NEWS_SLUGS.has(article.slug);
 

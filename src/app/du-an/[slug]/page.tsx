@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const imageUrl = project.images?.[0] ? `https://www.eurowindowhcm.com${project.images[0]}` : "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
 
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: {
       canonical,
@@ -131,7 +131,7 @@ export default async function ProjectDetailPage({ params }: Props) {
           title={project.title}
           crumb={project.title}
           bgImage={project.images[0]}
-          headingAs="div"
+          headingAs="h1"
         />
 
         <section className="pb-20 pt-12">

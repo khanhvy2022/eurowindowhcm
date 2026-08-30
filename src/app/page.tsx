@@ -11,7 +11,9 @@ import StrategicPartners from "@/components/StrategicPartners";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cửa Eurowindow Hồ Chí Minh",
+  title: {
+    absolute: "Cửa Eurowindow Hồ Chí Minh – Cửa Nhôm Kính & uPVC Cao Cấp",
+  },
   description: "Cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách nhôm kính cao cấp Eurowindow tại TP. Hồ Chí Minh.",
   alternates: {
     canonical: "https://www.eurowindowhcm.com",
