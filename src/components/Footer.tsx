@@ -25,6 +25,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
         about: "About Us",
         projects: "Projects",
         products: "Products",
+        showrooms: "Showrooms",
         services: "Services",
         news: "News",
       }
@@ -40,6 +41,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
         about: "Giới thiệu",
         projects: "Dự án",
         products: "Sản phẩm",
+        showrooms: "Hệ thống showroom",
         services: "Dịch vụ",
         news: "Tin tức",
       };
@@ -47,6 +49,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
   const aboutHref = isEn ? "/en/about" : "/gioi-thieu";
   const projectsHref = isEn ? "/en/projects" : "/du-an";
   const productsHref = isEn ? "/en/products" : "/san-pham";
+  const showroomsHref = "/he-thong-showroom";
   const servicesHref = isEn ? "/en/services" : "/dich-vu";
   const newsHref = isEn ? "/en/news" : "/tin-tuc";
 
@@ -178,6 +181,11 @@ export default function Footer({ lang = "vi" }: FooterProps) {
               <li>
                 <Link href={productsHref} className="transition hover:text-[#E2C275] hover:underline">
                   {t.products}
+                </Link>
+              </li>
+              <li>
+                <Link href={showroomsHref} className="transition hover:text-[#E2C275] hover:underline">
+                  {t.showrooms}
                 </Link>
               </li>
               <li>

@@ -4,7 +4,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, redirect, RedirectType } from "next/navigation";
-import { getPostBySlug, getAllPosts } from "@/lib/posts";
+import { getPostBySlug, getAllPosts, cleanArticleHtml } from "@/lib/posts";
 import { articles } from "../articles";
 
 type Props = { params: Promise<{ slug: string[] }> };
@@ -70,8 +70,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ArticleDetailPage({ params }: Props) {
   const { slug } = await params;
   const slugStr = Array.isArray(slug) ? slug.join("/") : String(slug);
+  if (slugStr === "he-thong-showroom") {
+    redirect("/he-thong-showroom", RedirectType.replace);
+  }
+
   const article = await getPostBySlug(slugStr);
   if (!article) notFound();
+
+  // Permanent redirect showroom to dedicated /he-thong-showroom page
+  if (article.slug === "he-thong-showroom") {
+    redirect("/he-thong-showroom", RedirectType.replace);
+  }
 
   // Consolidate Link Equity & prevent duplicate content by permanently redirecting legacy slugs/aliases
   if (slugStr !== article.slug) {
@@ -191,8 +200,8 @@ export default async function ArticleDetailPage({ params }: Props) {
 
             {article.contentHtml ? (
               <div
-                className="article-body text-[#D2D8E3] text-lg leading-relaxed space-y-6 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-white [&_h2]:mt-10 [&_h2]:mb-4 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-white [&_h3]:mt-8 [&_h3]:mb-3 [&_p]:leading-8 [&_img]:max-w-full [&_img]:h-auto [&_img]:rounded-lg [&_img]:my-6 [&_a]:text-[#E2C275] [&_a]:underline [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_table]:w-full [&_table]:border-collapse [&_th]:border [&_th]:border-white/20 [&_th]:p-3 [&_td]:border [&_td]:border-white/10 [&_td]:p-3"
-                dangerouslySetInnerHTML={{ __html: article.contentHtml }}
+                className="article-body text-[#D2D8E3] text-lg leading-relaxed space-y-6 [&_*]:bg-transparent! [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-white [&_h2]:mt-10 [&_h2]:mb-4 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-white [&_h3]:mt-8 [&_h3]:mb-3 [&_p]:leading-8 [&_img]:max-w-full [&_img]:h-auto [&_img]:rounded-lg [&_img]:my-6 [&_a]:text-[#E2C275] [&_a]:underline [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_table]:w-full [&_table]:border-collapse [&_th]:border [&_th]:border-white/20 [&_th]:p-3 [&_td]:border [&_td]:border-white/10 [&_td]:p-3"
+                dangerouslySetInnerHTML={{ __html: cleanArticleHtml(article.contentHtml) || "" }}
               />
             ) : (
               <div className="mt-14 space-y-16">

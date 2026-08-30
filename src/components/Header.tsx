@@ -23,6 +23,7 @@ const viItems: Item[] = [
     ],
   },
   { label: "Sản phẩm", href: "/san-pham", children: [{ label: "Cửa nhôm & vách kính", href: "/san-pham/cua-nhom" }, { label: "Cửa uPVC", href: "/san-pham/cua-nhua-upvc" }, { label: "Cửa gỗ & chống cháy", href: "/san-pham/cua-go" }, { label: "Sản phẩm kính", href: "/san-pham/san-pham-kinh" }, { label: "Cửa tự động", href: "/san-pham/cua-tu-dong" }, { label: "Cửa cuốn", href: "/san-pham/cua-cuon" }] },
+  { label: "Hệ thống showroom", href: "/he-thong-showroom" },
   { label: "Tin tức", href: "/tin-tuc" },
 ];
 
@@ -40,6 +41,7 @@ const enItems: Item[] = [
     ],
   },
   { label: "Products", href: "/en/products", children: [{ label: "Aluminium doors", href: "/en/products/cua-nhom-vach-kinh" }, { label: "uPVC doors", href: "/en/products/cua-upvc" }, { label: "Wooden doors", href: "/en/products/cua-go-va-go-chong-chay" }, { label: "Glass products", href: "/en/products/san-pham-kinh" }, { label: "Automatic doors", href: "/en/products/cua-tu-dong-va-cua-xoay" }, { label: "Roller doors", href: "/en/products/cua-cuon-nhom-khe-thoang" }] },
+  { label: "Showrooms", href: "/he-thong-showroom" },
   { label: "News", href: "/en/news" },
 ];
 

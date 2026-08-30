@@ -57,6 +57,21 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/tin-tuc/he-thong-showroom",
+        destination: "/he-thong-showroom",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/he-thong-showroom.html",
+        destination: "/he-thong-showroom",
+        permanent: true,
+      },
+      {
+        source: "/2019/11/he-thong-showroom.html",
+        destination: "/he-thong-showroom",
+        permanent: true,
+      },
+      {
         source: "/tin-tuc/eurowindow-tu-hao-5-lan-lien-tiep-at-2",
         destination: "/tin-tuc/eurowindow-tu-hao-5-lan-lien-tiep-at",
         permanent: true,

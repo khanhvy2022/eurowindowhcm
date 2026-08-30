@@ -279,16 +279,16 @@ export default function ProjectCategories({ lang = "vi" }: ProjectCategoriesProp
             <div className="inline-flex items-center gap-2 rounded-full border border-[#E2C275]/40 bg-[#E2C275]/10 px-4 py-1.5 backdrop-blur-md">
               <YoutubeIcon className="h-4 w-4 text-[#FF0000]" />
               <span className="text-xs font-bold uppercase tracking-widest text-[#E2C275]">
-                {isEn ? "OFFICIAL PROJECT VIDEO SHOWCASE" : "THƯỚC PHIM CÔNG TRÌNH THỰC TẾ"}
+                {isEn ? "OFFICIAL PROJECT VIDEO SHOWCASE" : "VIDEO VỀ EUROWINDOW"}
               </span>
             </div>
             <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white sm:text-4xl md:text-5xl">
-              {isEn ? "FEATURED PROJECTS & VIDEO GALLERY" : "DANH MỤC CÔNG TRÌNH TIÊU BIỂU"}
+              {isEn ? "FEATURED PROJECTS & VIDEO GALLERY" : "VIDEO SẢN PHẨM"}
             </h2>
             <p className="max-w-2xl text-sm leading-relaxed text-[#94A3B8] sm:text-base">
               {isEn
                 ? "Experience Vietnam's iconic architectural landmarks, luxury high-rises, and advanced building solutions through Eurowindow's official video documentation."
-                : "Khám phá các công trình trọng điểm cấp quốc gia, tòa nhà cao cấp và giải pháp cửa nhôm kính đột phá của Eurowindow qua từng thước phim chân thực."}
+                : "Khám phá các video sản phẩm cao cấp và giải pháp cửa nhôm kính đột phá của Eurowindow qua từng thước phim chân thực."}
             </p>
           </div>
 

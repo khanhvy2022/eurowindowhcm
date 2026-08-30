@@ -15,6 +15,55 @@ export function resolveArticleImage(image?: string | null, title = "", category 
   return "/eurowindow/toa-dam-1.png.webp";
 }
 
+function cleanStyleAttr(styleVal: string): string {
+  const protectedVal = styleVal.replace(/&quot;/g, "'");
+  const declarations = protectedVal.split(";").map((d) => d.trim()).filter(Boolean);
+  const kept: string[] = [];
+  for (const d of declarations) {
+    const colonIdx = d.indexOf(":");
+    if (colonIdx === -1) continue;
+    const prop = d.slice(0, colonIdx).trim().toLowerCase();
+    const val = d.slice(colonIdx + 1).trim().toLowerCase();
+
+    // Remove white or light backgrounds
+    if (prop === "background" || prop === "background-color") {
+      if (/white|#fff|rgb\(255|#f2|#e4|transparent|rgba\(255|0px 0px rgb\(255/i.test(val)) {
+        continue;
+      }
+    }
+
+    // Remove legacy font families
+    if (prop === "font-family") {
+      continue;
+    }
+
+    // Convert dark color to white or gold
+    if (prop === "color") {
+      if (/#1458a8|#1559a8|#0070c0/i.test(val)) {
+        kept.push("color: #E2C275");
+        continue;
+      }
+      if (/#000|#050505|#111|#131313|#1c1e21|#202020|#222|#252525|#272727|#333|#444|#505050|#555|#5f5f5f|#646464|#666|black|windowtext|rgb\(\s*(?:[0-9]{1,2}|100)\s*,\s*(?:[0-9]{1,2}|100)\s*,\s*(?:[0-9]{1,2}|100)\s*\)/i.test(val)) {
+        kept.push("color: #ffffff");
+        continue;
+      }
+    }
+
+    kept.push(d);
+  }
+  return kept.join("; ");
+}
+
+export function cleanArticleHtml(html?: string): string | undefined {
+  if (!html) return html;
+  return html
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "")
+    .replace(/\bstyle="([^"]*)"/gi, (_, val) => {
+      const cleaned = cleanStyleAttr(val);
+      return cleaned ? `style="${cleaned}"` : "";
+    });
+}
+
 function toArticle(doc: Record<string, unknown>): Article {
   const title = String(doc.title ?? "");
   const category = String(doc.category ?? "");
@@ -29,7 +78,7 @@ function toArticle(doc: Record<string, unknown>): Article {
     image: resolveArticleImage(rawImage, title, category, slug),
     sections: Array.isArray(doc.sections) ? (doc.sections as Article["sections"]) : [],
     faq: doc.faq ? (doc.faq as Article["faq"]) : undefined,
-    contentHtml: doc.contentHtml ? String(doc.contentHtml) : undefined,
+    contentHtml: doc.contentHtml ? cleanArticleHtml(String(doc.contentHtml)) : undefined,
     author: doc.author ? String(doc.author) : undefined,
     tags: Array.isArray(doc.tags) ? (doc.tags as string[]) : undefined,
     oldUrl: doc.oldUrl ? String(doc.oldUrl) : undefined,
