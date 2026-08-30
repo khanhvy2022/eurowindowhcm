@@ -41,7 +41,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
         about: "Giới thiệu",
         projects: "Dự án",
         products: "Sản phẩm",
-        showrooms: "Hệ thống showroom",
+        showrooms: "Showroom",
         services: "Dịch vụ",
         news: "Tin tức",
       };

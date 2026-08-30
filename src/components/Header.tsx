@@ -23,7 +23,7 @@ const viItems: Item[] = [
     ],
   },
   { label: "Sản phẩm", href: "/san-pham", children: [{ label: "Cửa nhôm & vách kính", href: "/san-pham/cua-nhom" }, { label: "Cửa uPVC", href: "/san-pham/cua-nhua-upvc" }, { label: "Cửa gỗ & chống cháy", href: "/san-pham/cua-go" }, { label: "Sản phẩm kính", href: "/san-pham/san-pham-kinh" }, { label: "Cửa tự động", href: "/san-pham/cua-tu-dong" }, { label: "Cửa cuốn", href: "/san-pham/cua-cuon" }] },
-  { label: "Hệ thống showroom", href: "/he-thong-showroom" },
+  { label: "Showroom", href: "/he-thong-showroom" },
   { label: "Tin tức", href: "/tin-tuc" },
 ];
 
@@ -88,12 +88,12 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
           : "bg-transparent border-b border-transparent"
       }`}
     >
-      <div className="mx-auto flex h-[72px] max-w-[1320px] items-center justify-between px-5 sm:h-[86px] sm:px-8 lg:h-[96px]">
+      <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-4 sm:h-[86px] sm:px-6 lg:h-[96px] lg:px-6 xl:px-8">
         <BrandLogo lang={currentLang} />
-        <nav className="hidden h-full items-center gap-6 lg:flex xl:gap-8" aria-label={currentLang === "en" ? "Main navigation" : "Điều hướng chính"}>
+        <nav className="hidden h-full items-center lg:flex lg:gap-2.5 xl:gap-5 2xl:gap-7" aria-label={currentLang === "en" ? "Main navigation" : "Điều hướng chính"}>
           <Link
             href={currentLang === "en" ? "/en" : "/"}
-            className="group relative flex min-h-11 items-center whitespace-nowrap text-[15px] font-medium text-[#D2D8E3] transition hover:text-white xl:text-[16px]"
+            className="group relative flex min-h-11 items-center px-1 py-1 whitespace-nowrap text-[13.5px] font-medium tracking-tight text-[#D2D8E3] transition hover:text-white xl:text-[15px] xl:tracking-normal 2xl:text-[16px]"
           >
             {currentLang === "en" ? "Home" : "Trang chủ"}
             <span className="absolute bottom-1 left-0 h-[2px] w-0 bg-[#E2C275] transition-all duration-300 group-hover/link:w-full" />
@@ -102,10 +102,10 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
             <div key={item.label} className="group relative flex h-full items-center">
               <Link
                 href={item.href}
-                className="group/link relative flex min-h-11 items-center gap-1.5 whitespace-nowrap text-[15px] font-medium text-[#D2D8E3] transition hover:text-white xl:text-[16px]"
+                className="group/link relative flex min-h-11 items-center gap-1 px-1 py-1 whitespace-nowrap text-[13.5px] font-medium tracking-tight text-[#D2D8E3] transition hover:text-white xl:gap-1.5 xl:text-[15px] xl:tracking-normal 2xl:text-[16px]"
               >
                 {item.label}
-                {item.children ? <ChevronDown className="h-3.5 w-3.5 text-[#E2C275] transition-transform duration-200 group-hover:rotate-180" /> : null}
+                {item.children ? <ChevronDown className="h-3 w-3 shrink-0 text-[#E2C275] transition-transform duration-200 group-hover:rotate-180 xl:h-3.5 xl:w-3.5" /> : null}
                 <span className="absolute bottom-1 left-0 h-[2px] w-0 bg-[#E2C275] transition-all duration-300 group-hover/link:w-full" />
               </Link>
               {item.children ? (
@@ -123,12 +123,14 @@ export default function Header({ lang = "vi" }: { lang?: "vi" | "en" }) {
               ) : null}
             </div>
           ))}
-          <LanguageSwitcher lang={currentLang} />
+          <div className="shrink-0 pl-1">
+            <LanguageSwitcher lang={currentLang} />
+          </div>
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
           <Link
             href={currentLang === "en" ? "/en/contact" : "/lien-he"}
-            className="btn-gold-luxury text-sm font-bold uppercase tracking-wider"
+            className="btn-gold-luxury shrink-0 px-3.5 py-2 text-xs font-bold uppercase tracking-wider whitespace-nowrap xl:px-5 xl:py-2.5 xl:text-sm"
           >
             {currentLang === "en" ? "Contact now" : "Liên hệ ngay"}
           </Link>
