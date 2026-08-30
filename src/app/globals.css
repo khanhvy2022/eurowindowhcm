@@ -28,7 +28,7 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-space-grotesk), Inter, system-ui, sans-serif;
+  --font-sans: var(--font-be-vietnam-pro), Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --color-midnight: var(--bg-midnight);
   --color-sapphire-surface: var(--surface-sapphire);
   --color-primary-blue: var(--primary-blue);
@@ -43,6 +43,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: clip;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -51,6 +52,13 @@ body {
   overflow-x: clip;
   font-synthesis: none;
   font-family: var(--font-sans);
+  line-height: 1.65;
+  letter-spacing: 0.005em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 button,

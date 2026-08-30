@@ -78,14 +78,14 @@ export default function ChatWidget() {
       <button
         onClick={() => setOpen((v) => !v)}
         aria-label={isEn ? "Open Eurowindow chat" : "Mở chat Eurowindow"}
-        className="fixed bottom-6 left-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#0066aa] text-white shadow-lg shadow-[#0066aa]/40 transition hover:scale-105 hover:bg-[#005690]"
+        className="fixed bottom-5 left-4 sm:bottom-6 sm:left-6 z-50 flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#0066aa] text-white shadow-lg shadow-[#0066aa]/40 transition hover:scale-105 hover:bg-[#005690]"
       >
-        {open ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
+        {open ? <X className="h-5 w-5 sm:h-6 sm:w-6" /> : <MessageCircle className="h-5 w-5 sm:h-6 sm:w-6" />}
       </button>
 
       {/* Khung chat */}
       {open ? (
-        <div className="fixed bottom-24 left-6 z-50 flex h-[520px] w-[360px] max-w-[calc(100vw-2rem)] flex-col overflow-hidden rounded-2xl border border-[#0a1628]/10 bg-white shadow-2xl">
+        <div className="fixed bottom-20 left-3 sm:bottom-24 sm:left-6 z-50 flex h-[480px] sm:h-[520px] w-[350px] max-w-[calc(100vw-1.5rem)] flex-col overflow-hidden rounded-2xl border border-[#0a1628]/10 bg-white shadow-2xl">
           {/* Header */}
           <div className="flex items-center gap-3 bg-[#0b1628] px-4 py-3.5 text-white">
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#0066aa]">

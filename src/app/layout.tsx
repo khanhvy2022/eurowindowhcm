@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { Space_Grotesk } from "next/font/google";
+import { Be_Vietnam_Pro } from "next/font/google";
 import Script from "next/script";
 import ChatWidget from "@/components/ChatWidget";
 import QuickContactButtons from "@/components/QuickContactButtons";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500", "700"],
+const beVietnamPro = Be_Vietnam_Pro({
+  subsets: ["latin", "latin-ext", "vietnamese"],
+  weight: ["300", "400", "500", "600", "700", "800"],
   display: "swap",
-  variable: "--font-space-grotesk",
+  variable: "--font-be-vietnam-pro",
 });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.eurowindowhcm.com";
@@ -207,7 +207,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
       lang={locale}
       prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#"
       data-scroll-behavior="smooth"
-      className={`${spaceGrotesk.variable} h-full antialiased scroll-smooth`}
+      className={`${beVietnamPro.variable} h-full antialiased scroll-smooth`}
     >
       <head>
         <script
@@ -219,7 +219,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
-      <body className={`${spaceGrotesk.className} min-h-full`}>
+      <body className={`${beVietnamPro.className} min-h-full selection:bg-[#E2C275]/30 selection:text-white`}>
         {/* Google Analytics GA4 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BBMNYWJ8WN"
