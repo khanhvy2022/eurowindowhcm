@@ -5,10 +5,16 @@ export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone();
   let response = NextResponse.next();
 
+  // Normalize consecutive duplicate slashes (e.g., /tin-tuc//... -> /tin-tuc/...)
+  if (url.pathname.includes("//")) {
+    url.pathname = url.pathname.replace(/\/+/g, "/");
+    return NextResponse.redirect(url, 301);
+  }
+
   // Strip Blogger mobile parameters ?m=1 or ?m=0 to avoid duplicate indexation
   if (url.searchParams.has("m")) {
     url.searchParams.delete("m");
-    response = NextResponse.redirect(url, 301);
+    return NextResponse.redirect(url, 301);
   }
 
   if (url.pathname.startsWith('/en')) {

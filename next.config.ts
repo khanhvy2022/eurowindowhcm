@@ -116,6 +116,149 @@ const nextConfig: NextConfig = {
         destination: "/tin-tuc/anh-cua-dep",
         permanent: true,
       },
+      // Promo & Campaign URLs
+      {
+        source: "/uu-dai-cua-upvc",
+        destination: "/tin-tuc/uu-dai-cua-upvc",
+        permanent: true,
+      },
+      {
+        source: "/uu-dai-cua-upvc.html",
+        destination: "/tin-tuc/uu-dai-cua-upvc",
+        permanent: true,
+      },
+      {
+        source: "/uu-dai-cua-nhom-kinh",
+        destination: "/tin-tuc/uu-dai-cua-nhom-kinh",
+        permanent: true,
+      },
+      {
+        source: "/uu-dai-cua-nhom-kinh.html",
+        destination: "/tin-tuc/uu-dai-cua-nhom-kinh",
+        permanent: true,
+      },
+      {
+        source: "/khuyen-mai-kinh-dien",
+        destination: "/tin-tuc/khuyen-mai-kinh-dien-doi-mau",
+        permanent: true,
+      },
+      {
+        source: "/khuyen-mai-kinh-dien.html",
+        destination: "/tin-tuc/khuyen-mai-kinh-dien-doi-mau",
+        permanent: true,
+      },
+      {
+        source: "/khuyen-mai-kinh-dien-doi-mau",
+        destination: "/tin-tuc/khuyen-mai-kinh-dien-doi-mau",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/khuyen-mai-kinh-dien",
+        destination: "/tin-tuc/khuyen-mai-kinh-dien-doi-mau",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/top-10-doanh-nghiep-xanh",
+        destination: "/tin-tuc/eurowindow-top-10-doanh-nghiep-xanh-2026",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/thuong-hieu-quoc-gia",
+        destination: "/tin-tuc/eurowindow-12-nam-lien-tiep-dat-thuong-hieu-quoc-gia",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/hang-viet-nam-chat-luong-cao",
+        destination: "/tin-tuc/eurowindow-tu-hao-hang-viet-nam-chat-luong-cao-2023",
+        permanent: true,
+      },
+      // Root product slugs to canonical /san-pham/ category URLs
+      {
+        source: "/cua-nhom",
+        destination: "/san-pham/cua-nhom",
+        permanent: true,
+      },
+      {
+        source: "/cua-nhom.html",
+        destination: "/san-pham/cua-nhom",
+        permanent: true,
+      },
+      {
+        source: "/cua-nhua-upvc",
+        destination: "/san-pham/cua-nhua-upvc",
+        permanent: true,
+      },
+      {
+        source: "/cua-nhua-upvc.html",
+        destination: "/san-pham/cua-nhua-upvc",
+        permanent: true,
+      },
+      {
+        source: "/cua-upvc",
+        destination: "/san-pham/cua-nhua-upvc",
+        permanent: true,
+      },
+      {
+        source: "/cua-upvc.html",
+        destination: "/san-pham/cua-nhua-upvc",
+        permanent: true,
+      },
+      {
+        source: "/cua-go",
+        destination: "/san-pham/cua-go",
+        permanent: true,
+      },
+      {
+        source: "/cua-go.html",
+        destination: "/san-pham/cua-go",
+        permanent: true,
+      },
+      {
+        source: "/cua-cuon",
+        destination: "/san-pham/cua-cuon",
+        permanent: true,
+      },
+      {
+        source: "/cua-cuon.html",
+        destination: "/san-pham/cua-cuon",
+        permanent: true,
+      },
+      {
+        source: "/cua-tu-dong",
+        destination: "/san-pham/cua-tu-dong",
+        permanent: true,
+      },
+      {
+        source: "/cua-tu-dong.html",
+        destination: "/san-pham/cua-tu-dong",
+        permanent: true,
+      },
+      {
+        source: "/san-pham-kinh",
+        destination: "/san-pham/san-pham-kinh",
+        permanent: true,
+      },
+      {
+        source: "/san-pham-kinh.html",
+        destination: "/san-pham/san-pham-kinh",
+        permanent: true,
+      },
+      // Broken internal links from migrated articles
+      {
+        source: "/tin-tuc/cua-di-hai-mo-quay-eurowindow",
+        destination: "/tin-tuc/cua-di-hai-canh-mo-quay",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/kinh-cach-nhiet-eurowindow",
+        destination: "/tin-tuc/kinh-cach-nhiet-toan-act",
+        permanent: true,
+      },
+      {
+        source: "/tin-tuc/gioi-thieu-ve-cua-nhua-eurowindow",
+        destination: "/tin-tuc/gioi-thieu-ve-cua-nhua-upvc",
+        permanent: true,
+      },
       {
         source: "/p/:slug*.html",
         destination: "/tin-tuc/:slug*",
@@ -161,6 +304,12 @@ const nextConfig: NextConfig = {
       {
         source: "/:year(\\d{4})/:month(\\d{2})/:slug*",
         destination: "/tin-tuc/:slug*",
+        permanent: true,
+      },
+      // Root Blogger .html URLs: /slug.html -> /tin-tuc/slug
+      {
+        source: "/:slug([a-zA-Z0-9_-]+).html",
+        destination: "/tin-tuc/:slug",
         permanent: true,
       },
       // Blogger Labels & Search

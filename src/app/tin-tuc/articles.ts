@@ -19,6 +19,139 @@ export type Article = {
 
 const handcraftedArticles: Article[] = [
   {
+    slug: "uu-dai-cua-upvc",
+    aliases: ["uu-dai-cua-nhua-upvc", "khuyen-mai-cua-upvc"],
+    title: "ƯU ĐÃI CỬA uPVC TIẾT KIỆM NĂNG LƯỢNG – EUROWINDOW HCM",
+    category: "Ưu đãi",
+    date: "15/07/2026",
+    excerpt: "Chương trình ưu đãi đặc quyền hệ cửa nhựa uPVC Eurowindow tiêu chuẩn Châu Âu: cách âm vượt trội tới 44dB, giảm 30% chi phí điện năng tiêu thụ, bảo hành profile chính hãng 10 năm.",
+    image: "/eurowindow/cuanhua1.jpg.webp",
+    sections: [
+      {
+        heading: "Đột phá cách âm và tiết kiệm năng lượng với cửa uPVC Eurowindow",
+        id: "dot-pha-cach-am-tiet-kiem-nang-luong",
+        body: [
+          "Cửa nhựa uPVC Eurowindow là dòng sản phẩm tiên phong làm nên thương hiệu Eurowindow từ năm 2002 tại thị trường Việt Nam. Được sản xuất từ thanh profile định hình uPVC cao cấp gia cường lõi thép mạ kẽm chống gỉ, cửa có khả năng chịu lực va đập cực lớn và độ bền thách thức thời gian.",
+          "Hệ thống khoang rỗng cách âm nhiều buồng kết hợp gioăng cao su kép EPDM chuyên dụng kín khít tuyệt đối giúp giảm độ ồn từ bên ngoài vào tới 44dB, kiến tạo không gian sống yên tĩnh hoàn hảo giữa đô thị ồn ào.",
+          "Đặc biệt, khả năng dẫn nhiệt cực thấp của thanh profile uPVC kết hợp hộp kính khí trơ Argon hoặc kính Low-E ngăn truyền nhiệt hiệu quả, giúp căn nhà luôn mát mẻ vào mùa hè và ấm áp vào mùa đông, cắt giảm tới 30% chi phí tiền điện điều hòa hàng tháng.",
+        ],
+      },
+      {
+        heading: "Chính sách ưu đãi và gói bảo hành vàng 2026",
+        id: "chinh-sach-uu-dai-bao-hanh",
+        body: [
+          "Nhằm tri ân khách hàng và đồng hành cùng các gia đình kiến tạo tổ ấm bền vững, Eurowindow HCM triển khai chương trình ưu đãi đặc biệt:",
+          "• Giảm trực tiếp lên đến 15% cho các đơn hàng cửa sổ và cửa đi uPVC cao cấp lắp đặt trong tháng.",
+          "• Tặng gói phụ kiện kim khí đồng bộ nhập khẩu chính hãng (Roto, Winkhaus, GU) đạt chuẩn Châu Âu.",
+          "• Miễn phí 100% chi phí khảo sát công trình, tư vấn giải pháp thiết kế phong thủy và dự toán chi tiết tận nơi.",
+          "• Cam kết bảo hành 10 năm đối với thanh profile uPVC không ố vàng, rạn nứt hay co ngót theo thời tiết nhiệt đới.",
+        ],
+      },
+      {
+        heading: "Tiêu chuẩn kỹ thuật vượt trội",
+        id: "tieu-chuan-ky-thuat-vuot-troi",
+        body: [
+          "Toàn bộ sản phẩm được gia công trên dây chuyền tự động hóa nhập khẩu từ CHLB Đức. Các góc ghép được hàn nhiệt liên kết phân tử nguyên khối đảm bảo kín nước 100%, không bị thẩm thấu hay rò rỉ ngay cả khi đối mặt với bão gió cấp 12.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Cửa nhựa uPVC Eurowindow có bị ố vàng hay cong vênh dưới nắng nhiệt đới không?",
+        a: "Thanh profile uPVC của Eurowindow chứa hợp chất phụ gia ổn định nhiệt và chất chống tia cực tím (UV stabilizer) cao cấp, được chứng nhận không biến màu, không ố vàng và không cong vênh co ngót suốt hàng chục năm sử dụng.",
+      },
+      {
+        q: "Lắp đặt cửa uPVC Eurowindow tiết kiệm điện năng như thế nào?",
+        a: "Nhờ hệ số dẫn nhiệt k cực thấp của nhựa uPVC kết hợp với kính hộp cách nhiệt và gioăng EPDM kép, nhiệt lượng từ ngoài trời không truyền vào nhà, giảm tải làm việc cho máy điều hòa và giúp tiết kiệm khoảng 30% lượng điện tiêu thụ.",
+      },
+      {
+        q: "Thời gian bảo hành cửa uPVC Eurowindow là bao lâu?",
+        a: "Eurowindow áp dụng chính sách bảo hành chính hãng lên tới 10 năm cho thanh profile uPVC và bảo hành bảo trì định kỳ cho hệ phụ kiện kim khí đồng bộ.",
+      },
+    ],
+  },
+  {
+    slug: "uu-dai-cua-nhom-kinh",
+    aliases: ["uu-dai-cua-nhom", "khuyen-mai-cua-nhom-kinh"],
+    title: "ƯU ĐÃI HỆ CỬA NHÔM KÍNH EA55–EA95i EUROWINDOW",
+    category: "Ưu đãi",
+    date: "12/07/2026",
+    excerpt: "Chương trình ưu đãi hấp dẫn hệ cửa nhôm kính cao cấp EA55, EA65, EA95i có cầu cách nhiệt tiêu chuẩn Châu Âu, tích hợp phụ kiện Roto, Cmech cùng kính Low-E an toàn.",
+    image: "/eurowindow/ctkm-ea65ea68i-169-at-3x-large.png.webp",
+    sections: [
+      {
+        heading: "Đỉnh cao cửa nhôm kính thế hệ mới EA55 – EA95i",
+        id: "dinh-cao-cua-nhom-the-he-moi",
+        body: [
+          "Hệ cửa nhôm Eurowindow EA55–EA95i là dòng sản phẩm cao cấp được thiết kế tối ưu cho các công trình biệt thự, penthouse và căn hộ cao cấp. Với kết cấu profile nhôm định hình hợp kim 6063-T5 độ dày tiêu chuẩn, hệ cửa đem lại độ cứng cáp và khả năng chịu áp lực gió bão vượt trội.",
+          "Đặc biệt, phiên bản có dải cầu cách nhiệt Polyamide giúp ngắt hoàn toàn cầu dẫn nhiệt giữa mặt trong và mặt ngoài khung nhôm, kết hợp kính Low-E cản bức xạ mặt trời, giữ không gian nội thất luôn mát mẻ và sang trọng.",
+        ],
+      },
+      {
+        heading: "Ưu đãi độc quyền và quà tặng cao cấp",
+        id: "uu-dai-doc-quyen-qua-tang",
+        body: [
+          "Khách hàng ký hợp đồng lắp đặt hệ cửa nhôm EA55, EA65 hoặc EA95i trong thời gian khuyến mãi sẽ nhận ngay chiết khấu đặc biệt lên tới 12% tổng giá trị đơn hàng, kèm gói nâng cấp miễn phí kính an toàn 2 lớp chống trộm và dịch vụ bảo dưỡng định kỳ 2 năm đầu hoàn toàn miễn phí.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Cửa nhôm cầu cách nhiệt EA95i khác gì so với cửa nhôm thông thường?",
+        a: "Nhôm thông thường dẫn nhiệt mạnh khiến phòng dễ bị nóng. Hệ nhôm EA95i có cầu cách nhiệt bằng thanh Polyamide ở giữa, ngăn truyền nhiệt tới 95%, kết hợp kính hộp cách âm cách nhiệt toàn diện.",
+      },
+      {
+        q: "Bề mặt sơn nhôm Eurowindow được bảo hành bao lâu?",
+        a: "Bề mặt nhôm được sơn tĩnh điện công nghệ cao hoặc phủ PVDF/Anodize đạt chuẩn quốc tế Qualicoat, cam kết độ bền màu và chống ăn mòn muối biển lên tới 15 - 25 năm.",
+      },
+    ],
+  },
+  {
+    slug: "sinh-nhat-eurowindow",
+    aliases: ["chao-mung-sinh-nhat-eurowindow", "ky-niem-sinh-nhat-eurowindow"],
+    title: "CHÀO MỪNG SINH NHẬT EUROWINDOW – HÀNH TRÌNH 20+ NĂM TIÊN PHONG KIẾN TẠO",
+    category: "Văn hóa",
+    date: "20/08/2026",
+    excerpt: "Hành trình hơn hai thập kỷ phát triển bứt phá của Eurowindow, khẳng định vị thế thương hiệu quốc gia dẫn đầu ngành cửa và vật liệu xây dựng xanh tại Việt Nam.",
+    image: "/eurowindow/videos/phong-su-eurowindow.jpg.webp",
+    sections: [
+      {
+        heading: "Hơn 20 năm khẳng định vị thế thương hiệu tiên phong",
+        id: "hon-20-nam-khang-dinh-vi-the",
+        body: [
+          "Thành lập từ năm 2002, Eurowindow tự hào mở ra cuộc cách mạng về cửa hiện đại tại Việt Nam. Từ những ngày đầu đưa cửa uPVC vào thị trường, đến nay thương hiệu đã hiện diện tại hàng trăm nghìn công trình trên khắp cả nước, bao gồm cả những công trình trọng điểm cấp quốc gia như Tòa nhà Quốc hội, trụ sở Chính phủ, sân bay quốc tế và các khu đô thị hàng đầu.",
+          "Cột mốc sinh nhật là dịp để toàn thể cán bộ nhân viên nhìn lại hành trình vẻ vang và tiếp tục cống hiến cho sứ mệnh mang đến giải pháp cửa thông minh, xanh và bền vững cho người tiêu dùng.",
+        ],
+      },
+      {
+        heading: "Chuỗi hoạt động kỷ niệm và tri ân",
+        id: "chuoi-hoat-dong-ky-niem",
+        body: [
+          "Nhân dịp sinh nhật, Eurowindow tổ chức hàng loạt hoạt động văn hóa nội bộ sôi nổi, cùng các chương trình thiện nguyện vì cộng đồng và ưu đãi tri ân đối tác, khách hàng đã luôn tin tưởng đồng hành cùng thương hiệu suốt thời gian qua.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "giai-bong-da-noi-bo",
+    aliases: ["giai-bong-da-eurowindow", "hoi-thao-bong-da-noi-bo"],
+    title: "GIẢI BÓNG ĐÁ NỘI BỘ EUROWINDOW – GẮN KẾT ĐỘI NGŨ & BỨT PHÁ TINH THẦN",
+    category: "Văn hóa",
+    date: "15/08/2026",
+    excerpt: "Giải bóng đá nội bộ thường niên Eurowindow quy tụ các đội bóng từ khối văn phòng, nhà máy và chi nhánh, tạo sân chơi thể thao rèn luyện thể lực và thắt chặt tình đoàn kết.",
+    image: "/eurowindow/banner-than-website.png.webp",
+    sections: [
+      {
+        heading: "Sân chơi thể thao rèn luyện và gắn kết",
+        id: "san-choi-the-thao-gan-ket",
+        body: [
+          "Bên cạnh hoạt động sản xuất kinh doanh, Eurowindow luôn chú trọng xây dựng đời sống văn hóa tinh thần lành mạnh cho người lao động. Giải bóng đá nội bộ là sự kiện thường niên được đông đảo cán bộ công nhân viên mong chờ, quy tụ các tài năng bóng đá phong trào từ mọi phòng ban và đơn vị thành viên.",
+          "Các trận đấu diễn ra kịch tính, sôi nổi trên tinh thần thể thao cao thượng, đoàn kết và hữu nghị, tiếp thêm năng lượng tích cực cho tập thể hoàn thành xuất sắc các mục tiêu chung.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "toa-dam-xu-huong-nguon-nhan-luc",
     title: "Eurowindow tổ chức thành công tọa đàm “Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới”",
     category: "Hoạt động",
@@ -117,6 +250,7 @@ const handcraftedArticles: Article[] = [
   },
   {
     slug: "eurowindow-top-10-doanh-nghiep-xanh-2026",
+    aliases: ["top-10-doanh-nghiep-xanh"],
     title: "Eurowindow tự hào được vinh danh Top 10 doanh nghiệp xanh Việt Nam 2026",
     category: "Sự kiện",
     date: "28/06/2026",
@@ -267,6 +401,7 @@ const handcraftedArticles: Article[] = [
   },
   {
     slug: "khuyen-mai-kinh-dien-doi-mau",
+    aliases: ["khuyen-mai-kinh-dien"],
     title: "Chương trình ưu đãi kính điện đổi màu và cửa tự động Eurowindow 2026",
     category: "Ưu đãi",
     date: "20/03/2026",
@@ -597,9 +732,25 @@ const handcraftedArticles: Article[] = [
   },
 ];
 
-const migratedArticles: Article[] = (migratedArticlesData as Article[]).filter(
-  (m) => !handcraftedArticles.some((h) => h.slug === m.slug)
-);
+const EXTRA_ALIASES: Record<string, string[]> = {
+  "eurowindow-12-nam-lien-tiep-dat-thuong-hieu-quoc-gia": ["thuong-hieu-quoc-gia"],
+  "eurowindow-tu-hao-hang-viet-nam-chat-luong-cao-2023": ["hang-viet-nam-chat-luong-cao"],
+  "cua-di-hai-canh-mo-quay": ["cua-di-hai-mo-quay-eurowindow"],
+  "kinh-cach-nhiet-toan-act": ["kinh-cach-nhiet-eurowindow"],
+  "gioi-thieu-ve-cua-nhua-upvc": ["gioi-thieu-ve-cua-nhua-eurowindow"],
+};
+
+const migratedArticles: Article[] = (migratedArticlesData as Article[])
+  .filter((m) => !handcraftedArticles.some((h) => h.slug === m.slug))
+  .map((m) => {
+    if (EXTRA_ALIASES[m.slug]) {
+      return {
+        ...m,
+        aliases: [...(m.aliases || []), ...EXTRA_ALIASES[m.slug]],
+      };
+    }
+    return m;
+  });
 
 export const articles: Article[] = [...handcraftedArticles, ...migratedArticles];
 

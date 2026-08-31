@@ -29,15 +29,15 @@ export const metadata: Metadata = {
 
 
 const promos = [
-  { slug: "khuyen-mai-kinh-dien", title: "KHUYẾN MÃI KÍNH ĐIỆN – SỞ HỮU CÔNG NGHỆ ĐỔI MÀU", date: "01/08/2026", category: "Ưu đãi", image: "/eurowindow/san-pham-kinh.jpg.webp" },
+  { slug: "khuyen-mai-kinh-dien-doi-mau", title: "KHUYẾN MÃI KÍNH ĐIỆN – SỞ HỮU CÔNG NGHỆ ĐỔI MÀU", date: "01/08/2026", category: "Ưu đãi", image: "/eurowindow/san-pham-kinh.jpg.webp" },
   { slug: "uu-dai-cua-upvc", title: "ƯU ĐÃI CỬA uPVC TIẾT KIỆM NĂNG LƯỢNG", date: "07/2026", category: "Ưu đãi", image: "/eurowindow/cuanhua1.jpg.webp" },
   { slug: "uu-dai-cua-nhom-kinh", title: "ƯU ĐÃI HỆ CỬA NHÔM KÍNH EA55–EA95i", date: "07/2026", category: "Ưu đãi", image: "/eurowindow/ctkm-ea65ea68i-169-at-3x-large.png.webp" },
 ] as const;
 
 const press = [
-  { slug: "thuong-hieu-quoc-gia", title: "Eurowindow 14 năm liên tiếp đạt Thương hiệu Quốc gia Việt Nam", date: "2025", category: "Báo chí nói về Eurowindow", image: "/eurowindow/toa-dam-1.png.webp" },
-  { slug: "top-10-doanh-nghiep-xanh", title: "Eurowindow vào Top 10 doanh nghiệp xanh Việt Nam 2026", date: "2026", category: "Báo chí nói về Eurowindow", image: "/eurowindow/tai-thiet-lan-2-large.jpeg.webp" },
-  { slug: "hang-viet-nam-chat-luong-cao", title: "Hàng Việt Nam chất lượng cao – Eurowindow ghi dấu ấn", date: "2024", category: "Báo chí nói về Eurowindow", image: "/eurowindow/img-0344.jpeg.webp" },
+  { slug: "eurowindow-12-nam-lien-tiep-dat-thuong-hieu-quoc-gia", title: "Eurowindow 14 năm liên tiếp đạt Thương hiệu Quốc gia Việt Nam", date: "2025", category: "Báo chí nói về Eurowindow", image: "/eurowindow/toa-dam-1.png.webp" },
+  { slug: "eurowindow-top-10-doanh-nghiep-xanh-2026", title: "Eurowindow vào Top 10 doanh nghiệp xanh Việt Nam 2026", date: "2026", category: "Báo chí nói về Eurowindow", image: "/eurowindow/tai-thiet-lan-2-large.jpeg.webp" },
+  { slug: "eurowindow-tu-hao-hang-viet-nam-chat-luong-cao-2023", title: "Hàng Việt Nam chất lượng cao – Eurowindow ghi dấu ấn", date: "2024", category: "Báo chí nói về Eurowindow", image: "/eurowindow/img-0344.jpeg.webp" },
 ] as const;
 
 const culture = [
