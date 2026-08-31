@@ -50,7 +50,7 @@ export default function ContactCTA() {
                 <div>
                   <h4 className="text-sm font-bold text-white">Showroom &amp; Văn Phòng Eurowindow HCM</h4>
                   <p className="mt-1 text-xs leading-5 text-[#D2D8E3]">
-                    Trụ sở TP. Hồ Chí Minh &amp; Các chi nhánh toàn quốc
+                    39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP. Hồ Chí Minh
                   </p>
                 </div>
               </div>
@@ -60,11 +60,11 @@ export default function ContactCTA() {
                   <Phone className="h-5 w-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-white">Hotline Tư Vấn Dự Án (24/7)</h4>
+                  <h4 className="text-sm font-bold text-white">Hotline Tư Vấn (24/7)</h4>
                   <p className="mt-1 text-base font-extrabold text-[#E2C275]">
-                    1900 636 038 · 0942 62 64 69
+                    0966 994 338 (Miền Nam)
                   </p>
-                  <p className="mt-0.5 text-xs text-[#94A3B8]">Phòng tư vấn giải pháp: 0946 80 80 82</p>
+                  <p className="mt-0.5 text-xs text-[#94A3B8]">Miền Bắc: 0909 888 000 &bull; Miền Trung: 0906 000 111</p>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ export default function ContactCTA() {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-white">Email &amp; Thời Gian Làm Việc</h4>
-                  <p className="mt-1 text-xs text-[#D2D8E3]">info@eurowindowhcm.com.vn</p>
+                  <p className="mt-1 text-xs text-[#D2D8E3]">infoew@eurowindow.biz</p>
                   <p className="mt-1 flex items-center gap-1.5 text-xs text-[#94A3B8]">
                     <Clock className="h-3.5 w-3.5 text-[#E2C275]" />
                     Thứ 2 - Thứ 7: 08:00 - 17:30
@@ -218,7 +218,7 @@ export default function ContactCTA() {
         {speedDialOpen && (
           <div className="mb-2 flex flex-col items-end space-y-2.5 animate-in fade-in slide-in-from-bottom-3 duration-200">
             <a
-              href="https://zalo.me/0942626469"
+              href="https://zalo.me/0966994338"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 rounded-full bg-blue-600 px-4 py-2.5 text-xs font-bold text-white shadow-2xl transition hover:bg-blue-700"
@@ -228,10 +228,10 @@ export default function ContactCTA() {
             </a>
 
             <a
-              href="tel:1900636038"
+              href="tel:0966994338"
               className="btn-gold-luxury px-4 py-2.5 text-xs tracking-wider"
             >
-              <span>Hotline: 1900 636 038</span>
+              <span>Hotline: 0966 994 338</span>
               <Phone className="h-4 w-4" />
             </a>
 

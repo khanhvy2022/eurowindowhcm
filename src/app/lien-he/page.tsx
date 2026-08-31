@@ -343,10 +343,10 @@ export default function ContactPage() {
                     Chi Nhánh TP. Hồ Chí Minh
                   </div>
                   <div className="mt-1 text-xs text-[#D2D8E3]">
-                    39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP.HCM
+                    39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP.HCM
                   </div>
                   <div className="mt-2 flex items-center gap-2 text-xs font-semibold text-[#E2C275]">
-                    <Phone className="h-3.5 w-3.5" /> Hotline: 0966 994 338
+                    <Phone className="h-3.5 w-3.5" /> Hotline: 0966 994 338 &bull; (84 - 28) 6278 8124
                   </div>
                 </div>
 
@@ -361,7 +361,7 @@ export default function ContactPage() {
                     Số 02 Tôn Thất Tùng, Kim Liên, Q. Đống Đa, Hà Nội
                   </div>
                   <div className="mt-2 flex items-center gap-2 text-xs font-semibold text-[#D2D8E3]">
-                    <Phone className="h-3.5 w-3.5" /> Hotline: 0966 994 338
+                    <Phone className="h-3.5 w-3.5" /> Hotline: 0909 888 000 &bull; (84 - 24) 37 47 47 00
                   </div>
                 </div>
 
@@ -373,10 +373,10 @@ export default function ContactPage() {
                     Chi Nhánh Đà Nẵng
                   </div>
                   <div className="mt-1 text-xs text-[#D2D8E3]">
-                    Số 02 Nguyễn Hữu Thọ, Q. Hải Châu, TP. Đà Nẵng
+                    152 Phan Đăng Lưu, Phường Hòa Cường, TP. Đà Nẵng
                   </div>
                   <div className="mt-2 flex items-center gap-2 text-xs font-semibold text-[#D2D8E3]">
-                    <Phone className="h-3.5 w-3.5" /> Hotline: 0966 994 338
+                    <Phone className="h-3.5 w-3.5" /> Hotline: 0906 000 111 &bull; (84 - 236) 3 582 877
                   </div>
                 </div>
               </div>

@@ -23,7 +23,7 @@ export function buildProductArticleMetadata(input: ProductArticleMetaInput): Met
 
   return {
     title: `${title} | Eurowindow`,
-    description: excerpt || `${title} - ${categoryLabel} Eurowindow chính hãng tại TP.HCM. Hotline: 0966 994 338.`,
+    description: excerpt || `${title} - ${categoryLabel} Eurowindow chính hãng tại TP.HCM. Hotline: 0903 11 8888.`,
     alternates: {
       canonical: path,
     },

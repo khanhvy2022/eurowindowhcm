@@ -12,21 +12,21 @@ export const knowledgeBase: KnowledgeEntry[] = [
     category: "Liên hệ",
     keywords: ["hotline", "số điện thoại", "liên hệ", "gọi", "phone", "tư vấn"],
     question: "Liên hệ Eurowindow bằng cách nào?",
-    answer: "Hotline: 0966 994 338. Email: Thangtq2@eurowindow.biz. Chi Nhánh Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP.HCM. Trụ sở chính: Tòa nhà Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Hà Nội.",
+    answer: "Hotline Miền Nam: 0966 994 338. Hotline Miền Bắc: 0909 888 000. Hotline Miền Trung: 0906 000 111. Trụ sở chính Hà Nội: (84 - 24) 37 47 47 00. Email: infoew@eurowindow.biz. Chi Nhánh Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP.HCM. Trụ sở chính: Tòa nhà Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Đống Đa, Hà Nội.",
   },
   {
     id: "contact-email",
     category: "Liên hệ",
     keywords: ["email", "mail", "gửi thư", "thư"],
     question: "Email liên hệ Eurowindow?",
-    answer: "Email chính thức: Thangtq2@eurowindow.biz. Bộ phận chăm sóc khách hàng: Thangtq2@eurowindow.biz. Bộ phận dự án quốc tế & xuất khẩu: export@eurowindow.biz.",
+    answer: "Email chính thức: infoew@eurowindow.biz. Chăm sóc khách hàng: cskhhn@eurowindow.biz. Showroom Miền Nam: Showroom.mdc@eurowindow.biz. Dự án quốc tế & xuất khẩu: export@eurowindow.biz (+84 -903 41 55 52).",
   },
   {
     id: "contact-showroom",
     category: "Liên hệ",
     keywords: ["showroom", "cửa hàng", "địa chỉ", "trụ sở", "văn phòng", "mua ở đâu"],
     question: "Eurowindow có showroom ở đâu?",
-    answer: "Hệ thống hơn 40 showroom trên toàn quốc. Hà Nội: Trụ sở chính 02 Tôn Thất Tùng, Đống Đa (điện thoại (84-24) 3 747 4777); Eurowindow Multi Complex tầng 1&4, 27 Trần Duy Hưng, Cầu Giấy ((84-24) 3577 4777). TP.HCM: 39 Bis Mạc Đĩnh Chi, Đakao, Q.1 ((84-28) 6278 8124).",
+    answer: "Mạng lưới showroom và chi nhánh Eurowindow phủ rộng toàn quốc. Trụ sở chính Hà Nội: Tòa nhà Eurowindow Office Building, Số 02 Tôn Thất Tùng, Đống Đa (Tel: (84 - 24) 37 47 47 00 - Hotline: 0909 888 000). Showroom TP.HCM: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1 (Tel: (84 - 28) 6278 8124 - Hotline: 0966 994 338). Showroom Đà Nẵng: 152 Phan Đăng Lưu, Phường Hòa Cường (Tel: (84 - 236) 3 582 877 - Hotline: 0906 000 111). Cùng hệ thống showroom tại Cần Thơ, Biên Hòa, Vũng Tàu, Nha Trang, Buôn Ma Thuột...",
   },
   {
     id: "about-company",
@@ -110,7 +110,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     category: "Báo giá",
     keywords: ["giá", "bao nhiêu", "báo giá", "chi phí", "cost", "bảng giá"],
     question: "Báo giá cửa Eurowindow như thế nào?",
-    answer: "Giá cửa phụ thuộc hệ sản phẩm, kích thước, loại kính, phụ kiện và vị trí công trình. Eurowindow hỗ trợ đo đạc thực địa, lên phương án và báo giá miễn phí. Liên hệ hotline 0966 994 338 hoặc email Thangtq2@eurowindow.biz để nhận tư vấn.",
+    answer: "Giá cửa phụ thuộc hệ sản phẩm, kích thước, loại kính, phụ kiện và vị trí công trình. Eurowindow hỗ trợ đo đạc thực địa, lên phương án và báo giá miễn phí. Liên hệ hotline 0966 994 338 hoặc email infoew@eurowindow.biz để nhận tư vấn.",
   },
   {
     id: "production-thoi-gian",
@@ -131,7 +131,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     category: "Sản xuất",
     keywords: ["nhà máy", "sản xuất ở đâu", "công nghệ", "dây chuyền", "khu công nghiệp"],
     question: "Eurowindow sản xuất ở đâu?",
-    answer: "Eurowindow có hệ thống nhà máy hiện đại: Trung tâm gia công kính tại KCN Quang Minh, Mê Linh, Hà Nội; nhà máy cửa gỗ tại KCN Quang Minh và KCN Tân Uyên, Bình Dương; dây chuyền sơn tĩnh điện (Powdercoating, PVDF) hiện đại cho phép sơn tấm nhôm khổ lớn tới 2,5m x 2,5m x 6m.",
+    answer: "Eurowindow sở hữu hệ thống nhà máy hiện đại: Nhà máy sản xuất phía Nam tại ĐT745, P. Tân Uyên, TP. Hồ Chí Minh; Trung tâm gia công kính tại KCN Quang Minh, Mê Linh, Hà Nội; dây chuyền sơn tĩnh điện (Powdercoating, PVDF) tự động và xưởng gia công kính hộp tiêu chuẩn Châu Âu.",
   },
   {
     id: "project-du-an",

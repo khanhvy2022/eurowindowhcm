@@ -99,7 +99,7 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     console.error("[contact] Unexpected error:", error);
     return NextResponse.json(
-      { success: false, error: "Có lỗi xảy ra khi gửi liên hệ. Vui lòng thử lại hoặc gọi hotline 0966 994 338." },
+      { success: false, error: "Có lỗi xảy ra khi gửi liên hệ. Vui lòng thử lại hoặc gọi hotline 0966 994 338 / 0903 11 8888." },
       { status: 500 }
     );
   }

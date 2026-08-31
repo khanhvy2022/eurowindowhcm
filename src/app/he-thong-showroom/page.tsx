@@ -118,13 +118,13 @@ export default async function ShowroomPage() {
                   Chi Nhánh Miền Nam (Showroom Chính)
                 </h3>
                 <p className="mt-2 text-sm font-semibold leading-relaxed text-white">
-                  39 Bis Mạc Đĩnh Chi, P. Tân Định (P. Đakao cũ), Quận 1, TP. Hồ Chí Minh
+                  39 Bis Mạc Đĩnh Chi, P. Tân Định, Quận 1, TP. Hồ Chí Minh
                 </p>
                 <div className="mt-4 space-y-1.5 text-xs text-[#D2D8E3]">
-                  <p className="flex items-center gap-2">
-                    <Phone className="h-3.5 w-3.5 text-[#E2C275]" />
-                    <span>Hotline: <strong className="text-white">0966 994 338</strong></span>
-                  </p>
+                  <div className="flex items-center gap-2 text-xs text-[#94A3B8]">
+                    <Phone className="h-4 w-4 text-[#E2C275]" />
+                    <span>Hotline: <strong className="text-white">0966 994 338</strong> &bull; (84 - 28) 6278 8124</span>
+                  </div>
                   <p className="flex items-center gap-2">
                     <Clock className="h-3.5 w-3.5 text-[#E2C275]" />
                     <span>Giờ làm việc: 8h00 - 18h00 (Tất cả các ngày)</span>
@@ -146,7 +146,7 @@ export default async function ShowroomPage() {
                 <div className="mt-4 space-y-1.5 text-xs text-[#D2D8E3]">
                   <p className="flex items-center gap-2">
                     <Phone className="h-3.5 w-3.5 text-[#E2C275]" />
-                    <span>Hotline: <strong className="text-white">0966 994 338</strong></span>
+                    <span>Hotline: <strong className="text-white">0909 888 000</strong> &bull; (84 - 24) 37 47 47 00</span>
                   </p>
                   <p className="flex items-center gap-2">
                     <Clock className="h-3.5 w-3.5 text-[#E2C275]" />
@@ -164,12 +164,12 @@ export default async function ShowroomPage() {
                   Chi Nhánh Miền Trung (Đà Nẵng)
                 </h3>
                 <p className="mt-2 text-sm font-semibold leading-relaxed text-white">
-                  Số 163 Điện Biên Phủ, Phường Chính Gián, Quận Thanh Khê, TP. Đà Nẵng
+                  152 Phan Đăng Lưu, Phường Hòa Cường, TP. Đà Nẵng
                 </p>
                 <div className="mt-4 space-y-1.5 text-xs text-[#D2D8E3]">
                   <p className="flex items-center gap-2">
                     <Phone className="h-3.5 w-3.5 text-[#E2C275]" />
-                    <span>Hotline: <strong className="text-white">0966 994 338</strong></span>
+                    <span>Hotline: <strong className="text-white">0906 000 111</strong> &bull; (84 - 236) 3 582 877</span>
                   </p>
                   <p className="flex items-center gap-2">
                     <Clock className="h-3.5 w-3.5 text-[#E2C275]" />

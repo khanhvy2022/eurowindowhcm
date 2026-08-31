@@ -83,7 +83,7 @@ export default function EnContactPage() {
         setErrorMessage(data.error || "An error occurred. Please try again.");
       }
     } catch {
-      setErrorMessage("Network error. Please call our hotline +84 966 994 338.");
+      setErrorMessage("Network error. Please call our hotline +84 903 11 8888.");
     } finally {
       setSubmitting(false);
     }
@@ -346,7 +346,7 @@ export default function EnContactPage() {
                     39 Bis Mac Dinh Chi, Tan Dinh Ward, District 1, HCMC
                   </div>
                   <div className="mt-2 flex items-center gap-2 text-xs font-semibold text-[#E2C275]">
-                    <Phone className="h-3.5 w-3.5" /> Hotline: 0966 994 338
+                    <Phone className="h-3.5 w-3.5" /> Hotline: 0903 11 8888 &bull; (+84 - 28) 6278 8124
                   </div>
                 </div>
 
@@ -361,7 +361,7 @@ export default function EnContactPage() {
                     02 Ton That Tung, Kim Lien, Dong Da, Hanoi
                   </div>
                   <div className="mt-2 flex items-center gap-2 text-xs font-semibold text-[#D2D8E3]">
-                    <Phone className="h-3.5 w-3.5" /> Hotline: 0966 994 338
+                    <Phone className="h-3.5 w-3.5" /> Hotline: 0909 888 000 &bull; (+84 - 24) 37 47 47 00
                   </div>
                 </div>
 
@@ -373,10 +373,10 @@ export default function EnContactPage() {
                     Da Nang Branch
                   </div>
                   <div className="mt-1 text-xs text-[#D2D8E3]">
-                    02 Nguyen Huu Tho, Hai Chau Dist, Da Nang City
+                    152 Phan Dang Luu, Hoa Cuong Ward, Da Nang City
                   </div>
                   <div className="mt-2 flex items-center gap-2 text-xs font-semibold text-[#D2D8E3]">
-                    <Phone className="h-3.5 w-3.5" /> Hotline: 0966 994 338
+                    <Phone className="h-3.5 w-3.5" /> Hotline: 0906 000 111 &bull; (+84 - 236) 3 582 877
                   </div>
                 </div>
               </div>

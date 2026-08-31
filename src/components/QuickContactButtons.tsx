@@ -7,6 +7,7 @@ export default function QuickContactButtons() {
   const pathname = usePathname();
   const isEn = pathname?.startsWith("/en");
   const phoneNumber = "0966994338";
+  const formattedPhone = "0966 994 338";
   const zaloUrl = `https://zalo.me/${phoneNumber}`;
 
   return (
@@ -19,7 +20,7 @@ export default function QuickContactButtons() {
         href={zaloUrl}
         target="_blank"
         rel="noopener noreferrer"
-        title={isEn ? "Chat via Zalo: 0966 994 338" : "Chat Zalo: 0966 994 338"}
+        title={isEn ? `Chat via Zalo: ${formattedPhone}` : `Chat Zalo: ${formattedPhone}`}
         className="group relative flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center transition-transform duration-300 hover:scale-110 active:scale-95"
       >
         {/* Vòng tỏa sóng lớn bên ngoài */}
@@ -42,7 +43,7 @@ export default function QuickContactButtons() {
       {/* Nút Gọi Điện thoại tròn màu xanh lá với vòng tỏa sóng */}
       <a
         href={`tel:${phoneNumber}`}
-        title={isEn ? "Call Hotline: 0966 994 338" : "Gọi Hotline: 0966 994 338"}
+        title={isEn ? `Call Hotline: ${formattedPhone}` : `Gọi Hotline: ${formattedPhone}`}
         className="group relative flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center transition-transform duration-300 hover:scale-110 active:scale-95"
       >
         {/* Vòng tỏa sóng lớn bên ngoài */}

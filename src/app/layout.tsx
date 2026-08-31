@@ -124,14 +124,14 @@ const localBusinessSchema = {
   image: `${SITE_URL}/eurowindow/cuanhom.jpg.webp`,
   description:
     "Nhà phân phối chính hãng cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách kính cao cấp Eurowindow tại TP. Hồ Chí Minh và khu vực miền Nam.",
-  telephone: "+84966994338",
-  email: "contact@eurowindowhcm.com",
+  telephone: "+84903118888",
+  email: "infoew@eurowindow.biz",
   priceRange: "$$",
   currenciesAccepted: "VND",
   paymentAccepted: "Cash, Credit Card, Bank Transfer",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Đa Kao, Quận 1",
+    streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1",
     addressLocality: "Thành phố Hồ Chí Minh",
     addressRegion: "Hồ Chí Minh",
     postalCode: "700000",
@@ -161,7 +161,7 @@ const localBusinessSchema = {
   contactPoint: [
     {
       "@type": "ContactPoint",
-      telephone: "+84966994338",
+      telephone: "+84903118888",
       contactType: "sales",
       areaServed: "VN",
       availableLanguage: ["Vietnamese", "English"],

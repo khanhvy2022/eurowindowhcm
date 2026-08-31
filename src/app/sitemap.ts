@@ -29,6 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url("/", 1.0, "weekly"),
     url("/gioi-thieu", 0.8, "monthly"),
     url("/san-pham", 0.9, "weekly"),
+    url("/cua-eurowindow", 0.95, "weekly"),
     url("/san-pham/cua-nhom", 0.85, "monthly"),
     url("/san-pham/cua-nhom/bai-viet", 0.7, "monthly"),
     url("/san-pham/cua-nhua-upvc", 0.85, "monthly"),
