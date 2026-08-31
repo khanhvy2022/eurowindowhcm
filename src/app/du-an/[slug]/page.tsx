@@ -28,7 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const enSlug = VI_TO_EN_PROJECT_SLUG[slug] || slug;
   const canonical = `https://www.eurowindowhcm.com/du-an/${slug}`;
   const title = `Dự Án ${project.title} – Eurowindow Thi Công`;
-  const description = `${project.intro} Vị trí: ${project.location}. Hạng mục thi công: ${project.scope}.`;
+  const cleanIntro = project.intro.replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1").replace(/<[^>]+>/g, "");
+  const description = `${cleanIntro} Vị trí: ${project.location}. Hạng mục thi công: ${project.scope}.`;
   const imageUrl = project.images?.[0] ? `https://www.eurowindowhcm.com${project.images[0]}` : "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
 
   return {
@@ -59,6 +60,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function renderFormattedText(text: string) {
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    const [_, linkText, href] = match;
+    parts.push(
+      <Link key={match.index} href={href} className="font-semibold text-[#E2C275] underline hover:text-white transition">
+        {linkText}
+      </Link>
+    );
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+  return parts.length > 0 ? parts : text;
+}
+
 export default async function ProjectDetailPage({ params }: Props) {
   const { slug } = await params;
   const project = getProject(slug);
@@ -67,6 +92,7 @@ export default async function ProjectDetailPage({ params }: Props) {
     notFound();
   }
 
+  const cleanIntro = project.intro.replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1").replace(/<[^>]+>/g, "");
   const related = projects.filter((p) => p.category === project.category && p.slug !== project.slug).slice(0, 3);
   const canonicalUrl = `https://www.eurowindowhcm.com/du-an/${project.slug}`;
   const imageUrl = project.images?.[0] ? `https://www.eurowindowhcm.com${project.images[0]}` : "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp";
@@ -76,7 +102,7 @@ export default async function ProjectDetailPage({ params }: Props) {
     "@type": "CreativeWork",
     name: project.title,
     headline: `Dự Án ${project.title} – Eurowindow Thi Công`,
-    description: project.intro,
+    description: cleanIntro,
     image: project.images.map((img) => `https://www.eurowindowhcm.com${img}`),
     url: canonicalUrl,
     creator: {
@@ -161,7 +187,7 @@ export default async function ProjectDetailPage({ params }: Props) {
 
             <div className="mt-14">
               <h3 className="text-sm font-bold uppercase tracking-wide text-[#E2C275]">Mô tả dự án</h3>
-              <p className="mt-5 leading-8 text-[#D2D8E3]">{project.intro}</p>
+              <p className="mt-5 leading-8 text-[#D2D8E3]">{renderFormattedText(project.intro)}</p>
             </div>
 
             {related.length > 0 ? (

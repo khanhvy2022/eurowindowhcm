@@ -32,4 +32,4 @@ Toàn bộ profile nhôm Eurowindow được xử lý bề mặt theo công ngh�
 
 ## Vì sao chọn cửa nhôm Eurowindow
 
-Eurowindow là thương hiệu Việt Nam phát triển hệ thống cửa nhôm cầu cách nhiệt riêng, có chính sách bán hàng và hậu mãi tận công trình. Sản phẩm đa dạng từ cửa sổ, vách kính, mái che cho đến cửa ra vào và cửa ban công, phù hợp cho công trình hiện đại.
+Eurowindow là thương hiệu Việt Nam phát triển hệ thống cửa nhôm cầu cách nhiệt riêng, có chính sách bán hàng và hậu mãi tận công trình. Hệ thống sản phẩm cửa nhôm và vách kính lớn Eurowindow đã được khẳng định chất lượng tại hàng loạt công trình trọng điểm cấp quốc gia, tiêu biểu như dự án [Tòa nhà Quốc hội](/du-an/toa-nha-quoc-hoi). Sản phẩm đa dạng từ cửa sổ, vách kính, mái che cho đến cửa ra vào và cửa ban công, phù hợp cho công trình hiện đại.

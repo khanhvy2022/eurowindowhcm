@@ -31,7 +31,7 @@ const handcraftedArticles: Article[] = [
         heading: "Đột phá cách âm và tiết kiệm năng lượng với cửa uPVC Eurowindow",
         id: "dot-pha-cach-am-tiet-kiem-nang-luong",
         body: [
-          "Cửa nhựa uPVC Eurowindow là dòng sản phẩm tiên phong làm nên thương hiệu Eurowindow từ năm 2002 tại thị trường Việt Nam. Được sản xuất từ thanh profile định hình uPVC cao cấp gia cường lõi thép mạ kẽm chống gỉ, cửa có khả năng chịu lực va đập cực lớn và độ bền thách thức thời gian.",
+          "Cửa nhựa uPVC Eurowindow là dòng sản phẩm tiên phong làm nên thương hiệu Eurowindow từ năm 2002 tại thị trường Việt Nam. Được sản xuất từ thanh profile định hình uPVC cao cấp gia cường lõi thép mạ kẽm chống gỉ, quý khách có thể tham khảo bảng thông số kỹ thuật chi tiết tại danh mục [cửa nhựa uPVC Eurowindow](/san-pham/cua-nhua-upvc) chính hãng.",
           "Hệ thống khoang rỗng cách âm nhiều buồng kết hợp gioăng cao su kép EPDM chuyên dụng kín khít tuyệt đối giúp giảm độ ồn từ bên ngoài vào tới 44dB, kiến tạo không gian sống yên tĩnh hoàn hảo giữa đô thị ồn ào.",
           "Đặc biệt, khả năng dẫn nhiệt cực thấp của thanh profile uPVC kết hợp hộp kính khí trơ Argon hoặc kính Low-E ngăn truyền nhiệt hiệu quả, giúp căn nhà luôn mát mẻ vào mùa hè và ấm áp vào mùa đông, cắt giảm tới 30% chi phí tiền điện điều hòa hàng tháng.",
         ],
@@ -83,7 +83,7 @@ const handcraftedArticles: Article[] = [
         heading: "Đỉnh cao cửa nhôm kính thế hệ mới EA55 – EA95i",
         id: "dinh-cao-cua-nhom-the-he-moi",
         body: [
-          "Hệ cửa nhôm Eurowindow EA55–EA95i là dòng sản phẩm cao cấp được thiết kế tối ưu cho các công trình biệt thự, penthouse và căn hộ cao cấp. Với kết cấu profile nhôm định hình hợp kim 6063-T5 độ dày tiêu chuẩn, hệ cửa đem lại độ cứng cáp và khả năng chịu áp lực gió bão vượt trội.",
+          "Hệ [cửa nhôm Eurowindow EA55–EA95i](/san-pham/cua-nhom) là dòng sản phẩm cao cấp được thiết kế tối ưu cho các công trình biệt thự, penthouse và căn hộ cao cấp. Với kết cấu profile nhôm định hình hợp kim 6063-T5 độ dày tiêu chuẩn, hệ cửa đem lại độ cứng cáp và khả năng chịu áp lực gió bão vượt trội.",
           "Đặc biệt, phiên bản có dải cầu cách nhiệt Polyamide giúp ngắt hoàn toàn cầu dẫn nhiệt giữa mặt trong và mặt ngoài khung nhôm, kết hợp kính Low-E cản bức xạ mặt trời, giữ không gian nội thất luôn mát mẻ và sang trọng.",
         ],
       },
@@ -222,7 +222,7 @@ const handcraftedArticles: Article[] = [
         heading: "Các giải pháp tiêu biểu",
         id: "cac-giai-phap-tieu-bieu",
         body: [
-          "Cửa nhựa uPVC với cấu trúc khoang rỗng nhiều ngăn kết hợp kính hộp cách nhiệt giúp ngăn truyền nhiệt vượt trội. Cửa nhôm kính kết hợp kính Low-E phản xạ bức xạ mặt trời, giảm nóng hiệu quả mà vẫn đón sáng tự nhiên.",
+          "[Cửa nhựa uPVC Eurowindow](/san-pham/cua-nhua-upvc) với cấu trúc khoang rỗng nhiều ngăn kết hợp kính hộp cách nhiệt giúp ngăn truyền nhiệt vượt trội. Trong khi đó, [cửa nhôm kính Eurowindow](/san-pham/cua-nhom) kết hợp kính Low-E phản xạ bức xạ mặt trời, giảm nóng hiệu quả mà vẫn đón sáng tự nhiên.",
         ],
       },
     ],
@@ -243,7 +243,7 @@ const handcraftedArticles: Article[] = [
         heading: "Yếu tố quyết định khi chọn cửa",
         id: "yeu-to-quyet-dinh",
         body: [
-          "Khi lựa chọn cửa cho khí hậu nắng nóng, cần cân nhắc khả năng cách nhiệt của khung, loại kính, hệ số truyền nhiệt và chi phí vận hành lâu dài.",
+          "Khi lựa chọn cửa cho khí hậu nắng nóng, cần cân nhắc khả năng cách nhiệt của khung và ưu tiên ứng dụng các dòng [sản phẩm kính an toàn, kính Low-E Eurowindow](/san-pham/san-pham-kinh) với hệ số truyền nhiệt thấp để tối ưu chi phí vận hành điều hòa lâu dài.",
         ],
       },
     ],
@@ -350,7 +350,10 @@ const handcraftedArticles: Article[] = [
       {
         heading: "Công nghệ cầu cách nhiệt Châu Âu",
         id: "cong-nghe-cau-cach-nhiet",
-        body: ["Dải Polyamide cách nhiệt giảm đến 40% lượng nhiệt thất thoát qua khung nhôm."],
+        body: [
+          "Dải Polyamide cách nhiệt kết hợp hệ gioăng EPDM và khoang rỗng đa buồng giúp giảm đến 40% lượng nhiệt thất thoát qua khung nhôm.",
+          "Hệ nhôm cao cấp có cầu cách nhiệt Polyamide kết hợp đồng bộ với kính hộp nạp khí trơ mang lại giải pháp [cửa nhôm Eurowindow](/san-pham/cua-nhom) cách nhiệt, cách âm vượt trội cho các công trình nhà phố, biệt thự và căn hộ hiện đại.",
+        ],
       },
     ],
   },
@@ -365,7 +368,10 @@ const handcraftedArticles: Article[] = [
       {
         heading: "Ứng dụng Thước Lỗ Ban 52.2cm",
         id: "ung-dung-thuoc-lo-ban",
-        body: ["Đo thông thủy cửa đi và cửa sổ vào các cung Cát: Tài Lộc, Quý Nhân, Tử Tức."],
+        body: [
+          "Đo thông thủy cửa đi và cửa sổ vào các cung Cát: Tài Lộc, Quý Nhân, Tử Tức.",
+          "Quý gia chủ đang chuẩn bị hoàn thiện tổ ấm có thể đăng ký [tư vấn kích thước cửa Eurowindow chuẩn phong thủy tại TP.HCM](/cua-eurowindow) để nhận bản vẽ chi tiết và giải pháp báo giá tối ưu.",
+        ],
       },
     ],
   },
@@ -380,7 +386,10 @@ const handcraftedArticles: Article[] = [
       {
         heading: "So sánh toàn diện hai hệ cửa",
         id: "so-sanh-hai-he-cua",
-        body: ["Cửa uPVC vượt trội về cách âm cách nhiệt. Cửa nhôm vượt trội về chịu lực và thẩm mỹ kính lớn."],
+        body: [
+          "Dòng [cửa nhựa uPVC Eurowindow](/san-pham/cua-nhua-upvc) với cấu trúc khoang rỗng gia cường thép vượt trội về độ kín khít, cách âm tới 44dB và ngăn truyền nhiệt tối ưu cho không gian sống yên tĩnh.",
+          "Trong khi đó, hệ [cửa nhôm kính Eurowindow](/san-pham/cua-nhom) vượt trội về khả năng chịu tải trọng gió bão lớn, thích hợp hoàn hảo cho các diện vách kính khổ lớn và kiến trúc khẩu độ rộng sang trọng.",
+        ],
       },
     ],
   },
@@ -395,7 +404,10 @@ const handcraftedArticles: Article[] = [
       {
         heading: "Dây chuyền công nghệ cao",
         id: "day-chuyen-cong-nghe",
-        body: ["Sử dụng công nghệ Châu Âu đảm bảo bề mặt kính phẳng hoàn hảo và chịu va đập gấp 5 lần."],
+        body: [
+          "Sử dụng công nghệ Châu Âu đảm bảo bề mặt kính phẳng hoàn hảo và chịu va đập gấp 5 lần so với kính nổi thông thường.",
+          "Quy trình nạp khí trơ Argon tự động cùng thanh cữ nhôm hút ẩm tạo nên các hệ [sản phẩm kính an toàn Eurowindow](/san-pham/san-pham-kinh) và kính hộp cách nhiệt chất lượng cao, hạn chế tối đa hiện tượng ngưng tụ sương.",
+        ],
       },
     ],
   },
@@ -411,7 +423,10 @@ const handcraftedArticles: Article[] = [
       {
         heading: "Trải nghiệm kính thông minh cao cấp",
         id: "trai-nghiem-kinh-thong-minh",
-        body: ["Đổi màu linh hoạt từ trong suốt sang mờ chỉ bằng một thao tác bấm công tắc hoặc smartphone."],
+        body: [
+          "Đổi màu linh hoạt từ trong suốt sang mờ chỉ bằng một thao tác bấm công tắc hoặc điều khiển thông minh qua smartphone.",
+          "Khi lựa chọn gói kính điện thông minh, khách hàng được hưởng chính sách ưu đãi đặc biệt khi kết hợp lắp đặt đồng bộ cùng hệ thống [cửa tự động Eurowindow](/san-pham/cua-tu-dong) chuẩn Châu Âu.",
+        ],
       },
     ],
   },
@@ -426,7 +441,10 @@ const handcraftedArticles: Article[] = [
       {
         heading: "Quy trình chăm sóc định kỳ",
         id: "quy-trinh-cham-soc",
-        body: ["Giúp nâng cao tuổi thọ vận hành cửa lên tới 30 - 50 năm."],
+        body: [
+          "Việc tra dầu phụ kiện kim khí và vệ sinh bề mặt định kỳ giúp nâng cao tuổi thọ vận hành cửa lên tới 30 - 50 năm.",
+          "Bên cạnh việc tự bảo dưỡng cơ bản, khách hàng nên định kỳ sử dụng [dịch vụ bảo trì cửa chuyên nghiệp](/dich-vu) của Eurowindow để kỹ thuật viên kiểm tra độ kín khít và cân chỉnh bản lề, khóa đồng bộ.",
+        ],
       },
     ],
   },

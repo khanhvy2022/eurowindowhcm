@@ -15,7 +15,7 @@ Cửa nhựa uPVC Eurowindow là sản phẩm được làm từ nhựa PVC cứ
 
 ## Ưu điểm nổi bật của cửa nhựa uPVC
 
-Cửa nhựa uPVC Eurowindow sở hữu hàng loạt ưu điểm nổi bật so với các dòng cửa khác. Khả năng chống nóng, chống ồn và cách nhiệt vượt trội mang lại không gian sống thoải mái cho gia đình.
+Cửa nhựa uPVC Eurowindow sở hữu hàng loạt ưu điểm nổi bật so với các dòng cửa khác. Khả năng chống nóng, chống ồn và cách nhiệt vượt trội mang lại không gian sống thoải mái cho gia đình. Đặc biệt, độ kín khít và cách âm tới 44dB của cửa uPVC Eurowindow là giải pháp tin cậy cho các công trình y tế đòi hỏi môi trường yên tĩnh, sạch khuẩn như [Bệnh viện ung bướu Đà Nẵng](/du-an/benh-vien-ung-buou-da-nang).
 
 - Chống nóng, chống ồn, cách nhiệt vượt trội
 - Chống ăn mòn, không tồn theo thời gian, thân với môi trường

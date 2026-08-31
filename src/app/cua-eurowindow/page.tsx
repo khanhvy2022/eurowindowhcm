@@ -1011,9 +1011,14 @@ export default function CuaEurowindowPage() {
 
         {/* Section 6: Consultation and Workflow */}
         <section className="mt-16 space-y-6">
-          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl border-l-4 border-[#E2C275] pl-4">
-            Quy Trình Tư Vấn Kỹ Thuật &amp; Thi Công Lắp Đặt Cửa
-          </h2>
+          <div className="flex flex-wrap items-center justify-between gap-4 border-l-4 border-[#E2C275] pl-4">
+            <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
+              Quy Trình Tư Vấn Kỹ Thuật &amp; Thi Công Lắp Đặt Cửa
+            </h2>
+            <Link href="/dich-vu" className="text-sm font-semibold text-[#E2C275] underline hover:text-white transition">
+              Xem chi tiết quy trình thi công &amp; bảo hành tiêu chuẩn →
+            </Link>
+          </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             <div className="rounded-xl border border-white/10 bg-[#0d1e33] p-5 text-center space-y-2">

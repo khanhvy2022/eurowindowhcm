@@ -67,6 +67,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function renderFormattedText(text: string) {
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    const [_, linkText, href] = match;
+    parts.push(
+      <Link key={match.index} href={href} className="font-semibold text-[#E2C275] underline hover:text-white transition">
+        {linkText}
+      </Link>
+    );
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+  return parts.length > 0 ? parts : text;
+}
+
 export default async function ArticleDetailPage({ params }: Props) {
   const { slug } = await params;
   const slugStr = Array.isArray(slug) ? slug.join("/") : String(slug);
@@ -210,7 +234,7 @@ export default async function ArticleDetailPage({ params }: Props) {
                     <h2 className="text-2xl font-bold tracking-[-0.03em] md:text-3xl">{section.heading}</h2>
                     <div className="mt-6 space-y-6">
                       {section.body.map((p, i) => (
-                        <p key={i} className="text-lg leading-8 text-[#D2D8E3]">{p}</p>
+                        <p key={i} className="text-lg leading-8 text-[#D2D8E3]">{renderFormattedText(p)}</p>
                       ))}
                     </div>
                   </section>

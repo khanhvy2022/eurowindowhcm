@@ -22,7 +22,7 @@ export const projects: ProjectDetail[] = [
     year: "2023",
     area: "Nhà ga T2",
     scope: "Cửa & vách nhôm kính",
-    intro: "Eurowindow cung cấp và lắp đặt hệ cửa, vách nhôm kính cho nhà ga T2 Cảng hàng không quốc tế Phú Bài — đáp ứng tiêu chuẩn an toàn, cách âm cho công trình giao thông trọng điểm.",
+    intro: "Eurowindow cung cấp và lắp đặt đồng bộ [hệ cửa nhôm và vách kính lớn](/san-pham/cua-nhom) cho nhà ga T2 Cảng hàng không quốc tế Phú Bài — đáp ứng tiêu chuẩn an toàn, cách âm cho công trình giao thông trọng điểm.",
     images: [C + "viber-image-2025-02-05-13-33-24-065.png.webp"],
   },
   {
@@ -33,7 +33,7 @@ export const projects: ProjectDetail[] = [
     year: "2024",
     area: "Bệnh viện quốc tế",
     scope: "Cửa & vách nhôm kính",
-    intro: "Hệ cửa và vách kính cách âm, cách nhiệt cho Bệnh viện Việt Pháp — đảm bảo không gian y tế tiện nghi, sạch khuẩn và tối ưu ánh sáng tự nhiên.",
+    intro: "Cung cấp hệ thống [cửa tự động chuyên dụng](/san-pham/cua-tu-dong) và vách kính cách âm, cách nhiệt cho Bệnh viện Việt Pháp — đảm bảo không gian y tế tiện nghi, sạch khuẩn và tối ưu ánh sáng tự nhiên.",
     images: [C + "img-7105.jpg.webp", C + "img-7096.jpg.webp", C + "img-7125.jpg.webp", C + "img-7112.jpg.webp"],
   },
   {
@@ -55,7 +55,7 @@ export const projects: ProjectDetail[] = [
     year: "2023",
     area: "Bệnh viện nhi khoa",
     scope: "Cửa & vách nhôm kính",
-    intro: "Hệ cửa và vách kính an toàn, cách âm cho khu khám chữa bệnh Bệnh viện Nhi đồng TP. Hồ Chí Minh.",
+    intro: "Hệ cửa và vách kính tiêu chuẩn cao kết hợp [sản phẩm kính an toàn Eurowindow](/san-pham/san-pham-kinh) cách âm, cách nhiệt cho khu khám chữa bệnh Bệnh viện Nhi đồng TP. Hồ Chí Minh.",
     images: [C + "dji-0090-1.jpg.webp", C + "dji-0074.jpg.webp", C + "dji-0072.jpg.webp", C + "dji-0086.jpg.webp"],
   },
   {
@@ -139,11 +139,11 @@ export const projects: ProjectDetail[] = [
     slug: "khu-doi-thi-sala",
     title: "Khu đô thị Sala",
     category: "Công trình dân dụng",
-    location: "Hà Nội",
+    location: "TP. Hồ Chí Minh",
     year: "2022",
     area: "Khu đô thị",
     scope: "Cửa & vách nhôm kính",
-    intro: "Dự án căn hộ dịch vụ cao cấp Khu đô thị Sala tại quận 2, TP. HCM. Eurowindow cung cấp và lắp đặt hệ cửa nhôm kính và vách nhôm kính cho các tòa nhà chung cư cao tầng.",
+    intro: "Dự án căn hộ dịch vụ và biệt thự cao cấp Khu đô thị Sala tại TP. Thủ Đức, TP. HCM. Eurowindow cung cấp và lắp đặt đồng bộ hệ thống [cửa Eurowindow chính hãng tại TP.HCM](/cua-eurowindow) gồm cửa nhôm kính cao cấp và vách nhôm kính lớn cho các tòa tháp chung cư.",
     images: [C + "dji-0155-large.jpg", C + "dji-0153-1.jpg.webp"],
   },
   {

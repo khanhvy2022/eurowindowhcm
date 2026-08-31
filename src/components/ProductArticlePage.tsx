@@ -40,6 +40,37 @@ function renderFormattedText(text: string) {
   return parts.length > 0 ? parts : text;
 }
 
+const CATEGORY_KNOWLEDGE_LINKS: Record<string, { title: string; href: string }[]> = {
+  "cua-nhom": [
+    { title: "Cửa nhôm cầu cách nhiệt – Bí quyết tiết kiệm điện năng cho biệt thự hiện đại", href: "/tin-tuc/cua-nhom-cau-cach-nhiet-bi-quyet-tiet-kiem-dien" },
+    { title: "So sánh cửa nhôm kính và cửa nhựa uPVC Eurowindow: Nên chọn loại nào?", href: "/tin-tuc/so-sanh-cua-nhom-va-cua-upvc" },
+    { title: "Ưu đãi hệ cửa nhôm kính EA55–EA95i Eurowindow chính hãng", href: "/tin-tuc/uu-dai-cua-nhom-kinh" },
+    { title: "Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026", href: "/tin-tuc/giai-phap-cua-chong-nong-mua-he-2026" },
+  ],
+  "cua-nhua-upvc": [
+    { title: "Ưu đãi cửa uPVC tiết kiệm năng lượng – Eurowindow HCM", href: "/tin-tuc/uu-dai-cua-upvc" },
+    { title: "So sánh cửa nhôm kính và cửa nhựa uPVC Eurowindow: Nên chọn loại nào?", href: "/tin-tuc/so-sanh-cua-nhom-va-cua-upvc" },
+    { title: "Tổng hợp giải pháp cửa chống nóng Eurowindow mùa hè 2026", href: "/tin-tuc/giai-phap-cua-chong-nong-mua-he-2026" },
+  ],
+  "san-pham-kinh": [
+    { title: "Quy trình gia công kính cường lực và kính hộp cách nhiệt tiêu chuẩn Châu Âu", href: "/tin-tuc/quy-trinh-san-xuat-kinh-cuong-luc-eurowindow" },
+    { title: "Nên chọn cửa gì cho mùa hè nắng nóng?", href: "/tin-tuc/nen-chon-cua-gi-cho-mua-he-nang-nong" },
+    { title: "Chương trình ưu đãi kính điện đổi màu và cửa tự động Eurowindow 2026", href: "/tin-tuc/khuyen-mai-kinh-dien-doi-mau" },
+  ],
+  "cua-tu-dong": [
+    { title: "Chương trình ưu đãi kính điện đổi màu và cửa tự động Eurowindow 2026", href: "/tin-tuc/khuyen-mai-kinh-dien-doi-mau" },
+    { title: "Hướng dẫn bảo trì & vệ sinh hệ thống cửa nhôm kính luôn như mới", href: "/tin-tuc/bao-tri-he-thong-cua-dung-cach" },
+  ],
+  "cua-cuon": [
+    { title: "Hướng dẫn bảo trì & vệ sinh hệ thống cửa luôn như mới", href: "/tin-tuc/bao-tri-he-thong-cua-dung-cach" },
+    { title: "Phong thủy cửa sổ và cửa chính: Kích thước Lỗ Ban đón tài lộc cho gia chủ", href: "/tin-tuc/phong-thuy-cua-so-va-cua-chinh" },
+  ],
+  "cua-go": [
+    { title: "Phong thủy cửa sổ và cửa chính: Kích thước Lỗ Ban đón tài lộc cho gia chủ", href: "/tin-tuc/phong-thuy-cua-so-va-cua-chinh" },
+    { title: "So sánh cửa nhôm kính và cửa nhựa uPVC Eurowindow: Nên chọn loại nào?", href: "/tin-tuc/so-sanh-cua-nhom-va-cua-upvc" },
+  ],
+};
+
 export default function ProductArticlePage({ article, label, bgImage, currentHref, categoryKey }: ProductArticlePageProps) {
   const siblings = categoryKey ? getArticlesByCategory(categoryKey) : [];
   const currentCat = categoryKey ? getCategoryByKey(categoryKey) : undefined;
@@ -183,6 +214,23 @@ export default function ProductArticlePage({ article, label, bgImage, currentHre
                     <li key={r.slug} className="glass-card glass-card-hover p-6">
                       <Link href={`/san-pham/${currentCat.key}/bai-viet/${r.slug}`} className="text-base font-bold text-white hover:text-[#E2C275] transition">
                         {r.title || r.slug}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {categoryKey && CATEGORY_KNOWLEDGE_LINKS[categoryKey] && (
+              <div className="mt-16">
+                <h2 className="mb-8 text-xl font-extrabold uppercase tracking-tight text-white">
+                  Kiến thức &amp; Cẩm nang chuyên môn về {label}
+                </h2>
+                <ul className="grid gap-4 sm:grid-cols-2">
+                  {CATEGORY_KNOWLEDGE_LINKS[categoryKey].map((k) => (
+                    <li key={k.href} className="glass-card glass-card-hover p-5 border-l-2 border-l-[#E2C275]">
+                      <Link href={k.href} className="text-sm font-semibold text-[#D2D8E3] hover:text-[#E2C275] transition line-clamp-2">
+                        → {k.title}
                       </Link>
                     </li>
                   ))}

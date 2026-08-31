@@ -5,10 +5,10 @@ import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
 
 const stages = [
-  ["1.0", "Tư vấn giải pháp", "Phân tích công năng, điều kiện công trình và nhu cầu sử dụng để lựa chọn hệ sản phẩm phù hợp. Chúng tôi lắng nghe trước, đề xuất sau."],
-  ["2.0", "Thiết kế & triển khai", "Phối hợp với kiến trúc sư, chủ đầu tư và đội ngũ thi công — từ ý tưởng đến hồ sơ kỹ thuật, khớp nối đúng chuẩn công trình."],
+  ["1.0", "Tư vấn giải pháp", "Phân tích công năng, điều kiện công trình và nhu cầu sử dụng để lựa chọn hệ sản phẩm phù hợp. Quý khách có thể ghé thăm [hệ thống showroom Eurowindow](/he-thong-showroom) để trực tiếp trải nghiệm đóng mở và kiểm tra cách âm thực tế."],
+  ["2.0", "Thiết kế & triển khai", "Phối hợp với kiến trúc sư và chủ đầu tư lựa chọn [hệ cửa nhôm kính](/san-pham/cua-nhom) hoặc [cửa nhựa uPVC](/san-pham/cua-nhua-upvc) từ ý tưởng đến hồ sơ kỹ thuật, khớp nối đúng chuẩn công trình."],
   ["3.0", "Sản xuất & thi công", "Sản xuất theo hệ chuẩn, lắp đặt bởi đội ngũ kinh nghiệm, kiểm tra nghiệm thu từng hạng mục trước khi bàn giao."],
-  ["4.0", "Bảo hành & chăm sóc", "Đồng hành sau bàn giao với quy trình hỗ trợ rõ ràng và dịch vụ bảo hành theo chính sách sản phẩm."],
+  ["4.0", "Bảo hành & chăm sóc", "Đồng hành sau bàn giao với quy trình hỗ trợ rõ ràng và dịch vụ bảo hành, bảo dưỡng định kỳ chính hãng."],
 ] as const;
 
 export const metadata: Metadata = {
@@ -63,9 +63,33 @@ const howToSchema = {
     "@type": "HowToStep",
     position: idx + 1,
     name: `${num} ${name}`,
-    text,
+    text: text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1"),
   })),
 };
+
+function renderFormattedText(text: string) {
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    const [_, linkText, href] = match;
+    parts.push(
+      <Link key={match.index} href={href} className="font-semibold text-[#E2C275] underline hover:text-white transition">
+        {linkText}
+      </Link>
+    );
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+  return parts.length > 0 ? parts : text;
+}
 
 export default function ServicesPage() {
   return (
@@ -97,7 +121,7 @@ export default function ServicesPage() {
               >
                 <p className="font-mono text-3xl font-extrabold text-[#E2C275]">{num}</p>
                 <h2 className="text-2xl font-extrabold uppercase tracking-tight text-white md:text-3xl">{title}</h2>
-                <p className="text-sm leading-relaxed text-[#D2D8E3] sm:text-base">{text}</p>
+                <p className="text-sm leading-relaxed text-[#D2D8E3] sm:text-base">{renderFormattedText(text)}</p>
               </li>
             ))}
           </ol>

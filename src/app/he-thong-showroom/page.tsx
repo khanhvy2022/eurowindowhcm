@@ -206,7 +206,11 @@ export default async function ShowroomPage() {
                 Cần Tư Vấn Chọn Showroom Gần Bạn Nhất?
               </h3>
               <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-[#D2D8E3] sm:text-base">
-                Liên hệ ngay hotline kỹ thuật của Eurowindow để nhận chỉ dẫn đường đi, đặt lịch trải nghiệm hoặc yêu cầu chuyên viên tới khảo sát tận nơi miễn phí.
+                Liên hệ ngay hotline kỹ thuật của Eurowindow để nhận chỉ dẫn đường đi, đặt lịch trải nghiệm hoặc{" "}
+                <Link href="/lien-he" className="font-semibold text-[#E2C275] underline hover:text-white transition">
+                  liên hệ tư vấn báo giá
+                </Link>{" "}
+                để chuyên viên tới khảo sát đo đạc tận nơi miễn phí.
               </p>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
                 <a

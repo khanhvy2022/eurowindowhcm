@@ -26,7 +26,7 @@ Cửa gỗ Eurowindow chống cong vênh nhờ quy trình sấy gỗ và kết c
 - Bề mặt dễ lau chùi, màu sắc sang trọng cho phong cách hiện đại
 
 ## Ứng dụng trong nội thất
-Cửa gỗ Eurowindow phù hợp cho phòng ngủ, phòng khách, cửa phòng thờ và các khu vực riêng tư trong nhà. Sản phẩm cũng được lựa chọn cho biệt thự nhờ vẻ đẹp tự nhiên và khả năng phối hợp với nội thất đa dạng.
+Cửa gỗ Eurowindow phù hợp cho phòng ngủ, phòng khách, cửa phòng thờ và các khu vực riêng tư trong nhà. Đặc biệt, các dòng cửa gỗ chống cháy Eurowindow đạt chuẩn kiểm định an toàn PCCC, được tin dùng tại nhiều [công trình văn phòng và cơ quan](/du-an/tru-so-co-quan) cao cấp cũng như biệt thự hạng sang.
 
 - Giúp tăng tính thẩm mỹ và giá trị cho tổng thể công trình
 - Đa dạng màu gỗ, màu sắc cho gia chủ lựa chọn

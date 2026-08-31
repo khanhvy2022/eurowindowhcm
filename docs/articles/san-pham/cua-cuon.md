@@ -23,7 +23,7 @@ Cửa cuốn Eurowindow là giải pháp cửa cuốn hiện đại được thi
 
 ## An ninh và vận hành ổn định
 
-Cửa cuốn Eurowindow được thiết kế để hoạt động trơn tru và lâu bền trong suốt vòng đời sản phẩm. Điều khiển từ xa cùng hệ thống giới hạn hành trình giúp quá trình mở và đóng diễn ra nhanh chóng, chính xác ngay cả khi điện áp có sự thay đổi.
+Cửa cuốn Eurowindow được thiết kế để hoạt động trơn tru và lâu bền trong suốt vòng đời sản phẩm. Điều khiển từ xa cùng hệ thống giới hạn hành trình giúp quá trình mở và đóng diễn ra nhanh chóng, chính xác ngay cả khi điện áp có sự thay đổi. Tại các căn nhà phố và biệt thự hiện đại, cửa cuốn mặt tiền thường được thiết kế lắp đặt kết hợp đồng bộ cùng [hệ cửa nhôm Eurowindow](/san-pham/cua-nhom) bên trong để tạo thành hai lớp bảo vệ an toàn tối ưu.
 
 - Cơ chế chống mở trái phép, ngăn xâm nhập từ bên ngoài.
 - Hệ thống phanh và đảo chiều bảo vệ mô tơ khi quá giới hạn.
