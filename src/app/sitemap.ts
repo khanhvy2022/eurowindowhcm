@@ -45,6 +45,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url("/tin-tuc", 0.9, "daily"),
     url("/tin-tuc/du-an", 0.7, "weekly"),
     url("/dich-vu", 0.8, "monthly"),
+    url("/he-thong-showroom", 0.9, "monthly"),
     url("/lien-he", 0.9, "monthly"),
     // English pages
     url("/en", 0.8, "weekly"),

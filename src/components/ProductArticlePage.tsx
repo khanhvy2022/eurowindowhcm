@@ -130,6 +130,77 @@ export default function ProductArticlePage({ article, label, bgImage, currentHre
     },
   };
 
+  const categoryFaqs: Record<string, { q: string; a: string }[]> = {
+    "cua-nhom": [
+      {
+        q: "Cửa nhôm Eurowindow có ưu điểm gì nổi bật?",
+        a: "Cửa nhôm Eurowindow sử dụng hợp kim nhôm 6063-T5 tiêu chuẩn quốc tế kết hợp dải cầu cách nhiệt Polyamide và phụ kiện đồng bộ Roto/Cmech giúp cách âm tới 40dB, cách nhiệt vượt trội và chịu áp lực gió bão lớn.",
+      },
+      {
+        q: "Thời gian bảo hành cửa nhôm Eurowindow là bao lâu?",
+        a: "Eurowindow bảo hành bề mặt sơn tĩnh điện và Anodize từ 10 đến 25 năm, cùng dịch vụ bảo dưỡng định kỳ chính hãng trên toàn quốc.",
+      },
+    ],
+    "cua-nhua-upvc": [
+      {
+        q: "Cửa nhựa uPVC Eurowindow có bị ố vàng hay cong vênh không?",
+        a: "Thanh profile uPVC Eurowindow chứa chất ổn định nhiệt và phụ gia chống tia cực tím UV cao cấp, cam kết không cong vênh, không co ngót và không ố vàng sau hàng chục năm sử dụng.",
+      },
+      {
+        q: "Khả năng cách âm và tiết kiệm điện của cửa uPVC Eurowindow như thế nào?",
+        a: "Nhờ cấu trúc khoang rỗng đa buồng và hệ gioăng EPDM kép kín khít, cửa uPVC giảm độ ồn lên tới 44dB và cắt giảm khoảng 30% chi phí tiền điện điều hòa cho gia đình.",
+      },
+    ],
+    "san-pham-kinh": [
+      {
+        q: "Các loại kính Eurowindow đạt những tiêu chuẩn an toàn nào?",
+        a: "Kính cường lực, kính dán an toàn và kính hộp Eurowindow được tôi nhiệt và gia công tự động đạt tiêu chuẩn Châu Âu EN 12150, chịu va đập gấp 5 lần kính thông thường và an toàn tuyệt đối.",
+      },
+    ],
+    "cua-tu-dong": [
+      {
+        q: "Cửa tự động Eurowindow phù hợp cho những công trình nào?",
+        a: "Hệ thống cửa tự động Eurowindow chuyên dụng cho sảnh tòa nhà, văn phòng, bệnh viện và biệt thự với cảm biến thông minh, hoạt động êm ái và an toàn.",
+      },
+    ],
+    "cua-cuon": [
+      {
+        q: "Cửa cuốn Eurowindow có tính năng an toàn gì đặc biệt?",
+        a: "Cửa cuốn Eurowindow tích hợp cảm biến chống xô, tự động đảo chiều khi gặp vật cản, nan thép siêu bền và điều khiển mã nhảy chống sao chép.",
+      },
+    ],
+    "cua-go": [
+      {
+        q: "Cửa gỗ Eurowindow có chống cong vênh và chống cháy không?",
+        a: "Cửa gỗ Eurowindow được sấy công nghiệp đạt độ ẩm tiêu chuẩn dưới 12%, chống cong vênh co ngót, đồng thời có dòng cửa gỗ chống cháy đạt kiểm định PCCC 60-90-120 phút.",
+      },
+    ],
+  };
+
+  const defaultFaqs = (categoryKey && categoryFaqs[categoryKey]) || [
+    {
+      q: `Làm thế nào để nhận tư vấn báo giá ${article.title}?`,
+      a: "Quý khách có thể liên hệ hotline 0966 994 338 hoặc gửi thông tin qua trang liên hệ để chuyên viên kỹ thuật Eurowindow tư vấn giải pháp và báo giá miễn phí tận nơi.",
+    },
+    {
+      q: "Eurowindow có hỗ trợ thi công lắp đặt trọn gói không?",
+      a: "Eurowindow cung cấp dịch vụ trọn gói từ khảo sát, thiết kế, gia công sản xuất đến thi công lắp đặt chuẩn Châu Âu và bảo hành chính hãng.",
+    },
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: defaultFaqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.a,
+      },
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-[#071523] text-white">
       <Header />
@@ -137,6 +208,7 @@ export default function ProductArticlePage({ article, label, bgImage, currentHre
         <JsonLd data={articleSchema} />
         <JsonLd data={productSchema} />
         <JsonLd data={breadcrumbSchema} />
+        <JsonLd data={faqSchema} />
         <PageBanner title={article.bannerTitle} crumb={label} bgImage={bgImage} />
 
         <section className="pb-24 pt-14">
