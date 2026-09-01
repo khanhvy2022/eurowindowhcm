@@ -134,19 +134,90 @@ const handcraftedArticles: Article[] = [
   },
   {
     slug: "giai-bong-da-noi-bo",
-    aliases: ["giai-bong-da-eurowindow", "hoi-thao-bong-da-noi-bo"],
-    title: "GIẢI BÓNG ĐÁ NỘI BỘ EUROWINDOW – GẮN KẾT ĐỘI NGŨ & BỨT PHÁ TINH THẦN",
-    category: "Văn hóa",
-    date: "15/08/2026",
-    excerpt: "Giải bóng đá nội bộ thường niên Eurowindow quy tụ các đội bóng từ khối văn phòng, nhà máy và chi nhánh, tạo sân chơi thể thao rèn luyện thể lực và thắt chặt tình đoàn kết.",
-    image: "/eurowindow/banner-than-website.png.webp",
+    aliases: [
+      "giai-bong-da-eurowindow",
+      "hoi-thao-bong-da-noi-bo",
+      "eurowindow-football-championship-2022",
+      "doi-bong-kinh-doanh-nha-rieng-ha-noi-vo-dich-giai-bong-eurowindow-football-championship-2022"
+    ],
+    title: "Đội bóng Kinh doanh Nhà riêng Hà Nội vô địch giải bóng Eurowindow Football Championship 2022",
+    category: "Tin nội bộ",
+    date: "25/07/2022",
+    excerpt: "Giải bóng đá Eurowindow Football Championship 2022 chào mừng kỷ niệm 20 năm ngày thành lập đã khép lại thành công với ngôi vị Quán quân thuộc về Đội bóng Kinh doanh Nhà riêng KV Hà Nội.",
+    image: "/eurowindow/news/giai-bong-da/be-mac-eurowindow-football-championship-2022-1.jpg.webp",
+    contentHtml: `<p class="lead font-medium text-lg text-slate-200">Chiều ngày 24/7 vừa qua, Trận Chung kết và Tranh 3-4 Giải bóng đá Eurowindow Football Championship 2022 đã diễn ra tại sân bóng Trung Văn, Nam Từ Liêm, Hà Nội. Sau hơn 2 tiếng thi đấu, Giải bóng đã tìm ra Nhà vô địch mới của môn thể thao vua tại khu vực miền Bắc – <strong>Đội bóng Kinh doanh Nhà riêng KV Hà Nội</strong>, Giải Á quân thuộc về Ban QLCDA VPCT, giải Ba là Đội lắp đặt nhà riêng và khối Kỹ thuật giành giải Tư chung cuộc.</p>
+
+<p>Ngay sau trận chung kết, lễ bế mạc và trao giải cũng đã diễn ra trong không khí hân hoan, phấn khởi và tràn đầy niềm vui khi giải đấu đã diễn ra thành công tốt đẹp về cả quy mô và chất lượng. Buổi lễ có sự tham gia của <strong>Ông Đỗ Minh Thanh - Phó TGĐ PT Kinh doanh</strong>, Trưởng Ban chỉ đạo giải đấu cùng lãnh đạo các phòng ban, 4 đội bóng xuất sắc nhất, tổ trọng tài và đông đảo cổ động viên tới cổ vũ.</p>
+
+<figure class="my-8 text-center">
+  <img src="/eurowindow/news/giai-bong-da/be-mac-eurowindow-football-championship-2022-1.jpg.webp" alt="Lễ bế mạc và trao giải giải bóng đá Eurowindow Football Championship 2022" class="w-full rounded-2xl shadow-xl border border-white/10" />
+  <figcaption class="mt-3 text-sm italic text-slate-400">Lễ bế mạc và trao giải diễn ra tại sân bóng Trung Văn với sự góp mặt của 4 đội bóng xuất sắc nhất, BLĐ, Ban huấn luyện và đội cổ động viên vô cùng máu lửa</figcaption>
+</figure>
+
+<h2>Hành trình tranh tài sôi nổi của 8 đội bóng xuất sắc</h2>
+<p>Giải bóng đá Eurowindow Football Championship 2022 quy tụ 8 đội bóng đến từ các phòng/ban/đơn vị khu vực miền Bắc và Nhà máy 1. Trải qua 2 tuần thi đấu, sau 12 trận vòng bảng đấu loại trực tiếp và 2 trận bán kết, BTC đã chọn ra 4 đội xuất sắc nhất tranh tài tại vòng chung kết, bao gồm: Kinh doanh Nhà riêng Hà Nội, Ban QLCDA VPCT, Đội lắp đặt nhà riêng và Khối Kỹ thuật.</p>
+
+<p>Với sự cổ vũ nhiệt tình của đông đảo cổ động viên và tinh thần thi đấu hết mình của các cầu thủ, giải bóng đá Eurowindow Football Championship 2022 chào mừng kỷ niệm 20 năm ngày thành lập đã diễn ra trong không khí sôi nổi, hào hứng và tạo nên những khoảnh khắc giao lưu thể thao đáng nhớ, nâng cao tinh thần đoàn kết giữa các CBCNV. 8 đội bóng đã cống hiến cho khán giả 16 trận đấu ấn tượng, đầy kịch tính với nhiều bàn thắng đẹp mắt, những pha bóng hay đến từ cú sút xa, đánh đầu, tình huống cố định và phối hợp nhóm ăn ý.</p>
+
+<figure class="my-8 text-center">
+  <img src="/eurowindow/news/giai-bong-da/be-mac-eurowindow-football-championship-2022-2.jpg.webp" alt="Đội bóng Kinh doanh Nhà riêng Hà Nội xuất sắc lên ngôi Vô địch" class="w-full rounded-2xl shadow-xl border border-white/10" />
+  <figcaption class="mt-3 text-sm italic text-slate-400">Đội bóng Kinh doanh Nhà riêng Hà Nội xuất sắc lên ngôi Vô địch Giải bóng Eurowindow Football Championship 2022</figcaption>
+</figure>
+
+<h2>Trận chung kết kịch tính và chiến thắng sát nút 2-1</h2>
+<p>Trong suốt 60 phút tranh tài cao thấp tại trận chung kết, các cổ động viên đã được chứng kiến màn rượt đuổi tỉ số đầy căng thẳng, gay cấn với những đường bóng mãn nhãn, tinh thần thể thao cao thượng của Kinh doanh Nhà riêng Hà Nội và Ban QLCDA. Tại sân Trung Văn, sức nóng của trận đấu đã lan tỏa mạnh mẽ tới từng cầu thủ và cổ động viên át đi cả thời tiết oi bức của mùa hè.</p>
+
+<p>Sau những thế trận giằng co căng thẳng, cuối cùng tiếng còi kết thúc trận đấu đã vang lên trong niềm hân hoan tột độ của các cầu thủ và cổ động viên Kinh doanh Nhà riêng Hà Nội. Với một đội hình chất lượng, thi đấu tự tin gắn kết, cống hiến hết mình, Kinh doanh Nhà riêng Hà Nội đã giành chiến thắng trước Nhà vô địch giải Tứ hùng 2021 – Ban QLCDA với <strong>tỉ số sát nút 2-1</strong> và xứng đáng giành chiếc cúp danh giá. 2 bàn thắng quyết định làm nên chiến thắng của Nhà vô địch được lập công bởi 2 cầu thủ <strong>Vi Văn Mạnh</strong>, <strong>Nguyễn Duy Anh</strong> và đều do cầu thủ <strong>Đỗ Minh Thanh – Phó TGĐ Eurowindow</strong> kiến tạo.</p>
+
+<figure class="my-8 text-center">
+  <img src="/eurowindow/news/giai-bong-da/be-mac-eurowindow-football-championship-2022-3.jpg.webp" alt="Trận chung kết diễn ra với thế trận giằng co căng thẳng" class="w-full rounded-2xl shadow-xl border border-white/10" />
+  <figcaption class="mt-3 text-sm italic text-slate-400">Trận chung kết diễn ra với thế trận giằng co căng thẳng</figcaption>
+</figure>
+
+<p>Trước đó, tại trận tranh giải 3-4, Đội Lắp đặt Nhà riêng và Kỹ thuật cũng nhập cuộc với 100% năng lượng. Ưu thế về thể lực và kinh nghiệm thi đấu đã giúp các chàng trai của Lắp đặt Nhà riêng chiến thắng áp đảo các cầu thủ Kỹ thuật với tỉ số 3-0. Các cầu thủ ra sức tranh tài trên tinh thần fair-play, cống hiến cho khán giả nhiều pha bóng hay, những pha phối hợp bật tường, tấn công đẹp mắt.</p>
+
+<h2>Lan tỏa tinh thần đoàn kết và văn hóa Eurowindow</h2>
+<p>Có thể thấy, giải đấu là một sân chơi lành mạnh, bổ ích và thiết thực, đã tạo cơ hội giao lưu học hỏi, rèn luyện thể lực, góp phần thắt chặt hơn nữa tinh thần đoàn kết, hiểu biết lẫn nhau giữa các thành viên trong ngôi nhà chung Eurowindow miền Bắc, hướng tới xây dựng nền tảng văn hóa công ty, chào mừng kỷ niệm 20 năm thành lập.</p>
+
+<blockquote class="my-6 border-l-4 border-[#E2C275] bg-white/5 p-4 rounded-r-xl italic text-slate-200">
+  “Giải bóng của chúng ta đã thành công ngoài mong đợi với khâu tổ chức chuyên nghiệp, tinh thần thi đấu hết mình của các cầu thủ, sự quyết tâm của Ban huấn luyện và sự ủng hộ của BLĐ công ty. Tôi tin tưởng rằng, giải đấu này sẽ được tiếp tục duy trì và tổ chức thành công hơn nữa ở những mùa giải sau.”
+  <span class="block mt-2 text-xs font-semibold text-[#E2C275] not-italic">— Ông Đỗ Minh Thanh, Phó Tổng Giám đốc Eurowindow, Trưởng ban chỉ đạo giải đấu</span>
+</blockquote>
+
+<figure class="my-8 text-center">
+  <img src="/eurowindow/news/giai-bong-da/khai-mac-giai-bong-1.jpg.webp" alt="Lễ khai mạc giải bóng đá Eurowindow Football Championship 2022" class="w-full rounded-2xl shadow-xl border border-white/10" />
+  <figcaption class="mt-3 text-sm italic text-slate-400">Toàn thể 8 đội bóng và Ban lãnh đạo trong lễ khai mạc giải đấu</figcaption>
+</figure>
+
+<p>Cũng trong khuôn khổ lễ bế mạc, Phó Tổng Giám đốc cùng lãnh đạo các phòng ban đã thay mặt Ban lãnh đạo công ty trao thưởng cho 4 đội bóng xuất sắc nhất và tặng hoa cảm ơn Tổ trọng tài. Giải bóng đá Eurowindow Football Championship 2022 đã khép lại với nhiều niềm vui và tiếc nuối, nhưng dấu ấn đậm nét nhất chính là tinh thần thể thao đoàn kết và cao thượng của các cầu thủ Eurowindow.</p>`,
     sections: [
       {
-        heading: "Sân chơi thể thao rèn luyện và gắn kết",
-        id: "san-choi-the-thao-gan-ket",
+        heading: "Lễ bế mạc và tổng kết giải đấu",
+        id: "le-be-mac-tong-ket",
         body: [
-          "Bên cạnh hoạt động sản xuất kinh doanh, Eurowindow luôn chú trọng xây dựng đời sống văn hóa tinh thần lành mạnh cho người lao động. Giải bóng đá nội bộ là sự kiện thường niên được đông đảo cán bộ công nhân viên mong chờ, quy tụ các tài năng bóng đá phong trào từ mọi phòng ban và đơn vị thành viên.",
-          "Các trận đấu diễn ra kịch tính, sôi nổi trên tinh thần thể thao cao thượng, đoàn kết và hữu nghị, tiếp thêm năng lượng tích cực cho tập thể hoàn thành xuất sắc các mục tiêu chung.",
+          "Chiều ngày 24/7, Trận Chung kết và Tranh 3-4 Giải bóng đá Eurowindow Football Championship 2022 đã diễn ra sôi nổi tại sân bóng Trung Văn, Nam Từ Liêm, Hà Nội. Sau hơn 2 tiếng thi đấu kịch tính, Đội bóng Kinh doanh Nhà riêng KV Hà Nội đã xuất sắc lên ngôi Vô địch.",
+          "Buổi lễ bế mạc có sự tham dự của Ông Đỗ Minh Thanh - Phó TGĐ PT Kinh doanh, Trưởng Ban chỉ đạo giải đấu cùng lãnh đạo các phòng ban và đông đảo cán bộ công nhân viên tới cổ vũ nhiệt tình.",
+        ],
+      },
+      {
+        heading: "Hành trình tranh tài của 8 đội bóng",
+        id: "hanh-trinh-tranh-tai",
+        body: [
+          "Giải bóng quy tụ 8 đội bóng mạnh nhất đến từ khối Kinh doanh, Thi công, Nhà máy 1, Kỹ thuật và Chuỗi cung ứng miền Bắc. Trải qua 16 trận cầu hấp dẫn với nhiều bàn thắng đẹp mắt, các đội bóng đã cống hiến cho khán giả những giây phút thể thao mãn nhãn.",
+        ],
+      },
+      {
+        heading: "Trận chung kết kịch tính và chiến thắng 2-1",
+        id: "tran-chung-ket-kich-tinh",
+        body: [
+          "Tại trận chung kết, Kinh doanh Nhà riêng Hà Nội đã giành chiến thắng 2-1 trước đối thủ mạnh Ban QLCDA VPCT. 2 bàn thắng quý giá được ghi bởi Vi Văn Mạnh và Nguyễn Duy Anh từ những đường kiến tạo mẫu mực của cầu thủ Đỗ Minh Thanh.",
+        ],
+      },
+      {
+        heading: "Gắn kết văn hóa và tinh thần Eurowindow",
+        id: "gan-ket-van-hoa-eurowindow",
+        body: [
+          "Giải đấu là hoạt động thiết thực chào mừng 20 năm thành lập Eurowindow, thắt chặt tình đoàn kết giữa các phòng ban đơn vị, tạo động lực thi đua hoàn thành xuất sắc các chỉ tiêu sản xuất kinh doanh.",
         ],
       },
     ],
