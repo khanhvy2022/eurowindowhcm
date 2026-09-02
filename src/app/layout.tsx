@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { Be_Vietnam_Pro } from "next/font/google";
+import { Be_Vietnam_Pro, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import ChatWidget from "@/components/ChatWidget";
 import QuickContactButtons from "@/components/QuickContactButtons";
@@ -12,6 +12,13 @@ const beVietnamPro = Be_Vietnam_Pro({
   weight: ["300", "400", "500", "600", "700", "800"],
   display: "swap",
   variable: "--font-be-vietnam-pro",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin", "vietnamese"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap",
+  variable: "--font-playfair",
 });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.eurowindowhcm.com";
@@ -207,7 +214,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
       lang={locale}
       prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#"
       data-scroll-behavior="smooth"
-      className={`${beVietnamPro.variable} h-full antialiased scroll-smooth`}
+      className={`${beVietnamPro.variable} ${playfair.variable} h-full antialiased scroll-smooth`}
     >
       <head>
         <script

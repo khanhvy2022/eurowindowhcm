@@ -4,58 +4,79 @@ import { useState } from "react";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { achievements } from "@/data/eurowindow";
+import { Award } from "lucide-react";
 
 export default function StrategicPartners({ lang = "vi" }: { lang?: "vi" | "en" }) {
   const isEn = lang === "en";
   const [activeLogo, setActiveLogo] = useState<string | null>(null);
 
   return (
-    <section className="bg-[#071523] overflow-hidden py-16 text-white md:py-24">
-      <div className="mx-auto max-w-[1500px] px-5 sm:px-8">
-        <h2 className="mb-14 text-4xl font-bold uppercase tracking-[-0.055em] md:text-5xl">
-          {isEn ? "OUTSTANDING ACHIEVEMENTS" : "THÀNH TÍCH NỔI BẬT"}
-        </h2>
+    <section className="bg-[#071523] overflow-hidden py-20 sm:py-28 text-white border-t border-b border-white/5">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8 mb-12">
+        <div className="space-y-3 text-center sm:text-left">
+          <div className="inline-flex items-center gap-2 rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10 px-4 py-1.5 backdrop-blur-md">
+            <Award className="h-4 w-4 text-[#C9A227]" />
+            <span className="text-xs font-bold uppercase tracking-[0.18em] text-[#C9A227]">
+              {isEn ? "TRUSTED CREDENTIALS" : "ĐƯỢC TIN DÙNG & CÔNG NHẬN"}
+            </span>
+          </div>
+          <h2 className="font-serif text-3xl font-bold uppercase tracking-tight text-white md:text-4xl">
+            {isEn ? "NATIONAL AWARDS & CERTIFICATIONS" : "THÀNH TÍCH & CHỨNG NHẬN QUỐC GIA"}
+          </h2>
+        </div>
       </div>
-      <Swiper
-        modules={[Autoplay]}
-        autoplay={{ delay: 2400, disableOnInteraction: false }}
-        loop
-        speed={750}
-        spaceBetween={18}
-        slidesPerView={1.8}
-        breakpoints={{ 640: { slidesPerView: 3.2 }, 1024: { slidesPerView: 5.2 }, 1440: { slidesPerView: 6.2 } }}
-        className="!overflow-visible"
-      >
-        {achievements.map((logo) => {
-          const isActive = activeLogo === logo;
-          return (
-            <SwiperSlide key={logo}>
-              <div
-                role="button"
-                tabIndex={0}
-                onClick={() => setActiveLogo((prev) => (prev === logo ? null : logo))}
-                onTouchStart={() => setActiveLogo(logo)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    setActiveLogo((prev) => (prev === logo ? null : logo));
-                  }
-                }}
-                className="group flex h-28 w-full cursor-pointer items-center justify-center px-4 md:h-32 focus:outline-none select-none"
-              >
-                <img
-                  src={logo}
-                  alt="Thành tích Eurowindow"
-                  className={`aspect-[12/7] w-[194px] max-w-full object-contain transition-all duration-500 ${
-                    isActive
-                      ? "grayscale-0 opacity-100 scale-105"
-                      : "grayscale opacity-60"
-                  } group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 group-active:grayscale-0 group-active:opacity-100 group-active:scale-105 group-focus:grayscale-0 group-focus:opacity-100 group-focus:scale-105 hover:grayscale-0 hover:opacity-100 hover:scale-105 active:grayscale-0 active:opacity-100 active:scale-105 focus:grayscale-0 focus:opacity-100 focus:scale-105`}
-                />
-              </div>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+
+      <div className="relative">
+        {/* Soft edge gradient masks */}
+        <div className="pointer-events-none absolute left-0 top-0 bottom-0 z-10 w-24 bg-gradient-to-r from-[#071523] to-transparent" />
+        <div className="pointer-events-none absolute right-0 top-0 bottom-0 z-10 w-24 bg-gradient-to-l from-[#071523] to-transparent" />
+
+        <Swiper
+          modules={[Autoplay]}
+          autoplay={{ delay: 1800, disableOnInteraction: false }}
+          loop
+          speed={1000}
+          spaceBetween={24}
+          slidesPerView={2.2}
+          breakpoints={{
+            640: { slidesPerView: 3.5, spaceBetween: 24 },
+            1024: { slidesPerView: 5.2, spaceBetween: 32 },
+            1440: { slidesPerView: 6.2, spaceBetween: 40 },
+          }}
+          className="!overflow-visible py-4"
+        >
+          {achievements.map((logo, idx) => {
+            const isActive = activeLogo === logo;
+            return (
+              <SwiperSlide key={idx}>
+                <div
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => setActiveLogo((prev) => (prev === logo ? null : logo))}
+                  onTouchStart={() => setActiveLogo(logo)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      setActiveLogo((prev) => (prev === logo ? null : logo));
+                    }
+                  }}
+                  className="group flex h-24 w-full cursor-pointer items-center justify-center rounded-2xl border border-white/5 bg-[#0c1c33]/40 p-4 transition-all duration-300 hover:border-[#C9A227]/30 hover:bg-[#0c1c33] focus:outline-none select-none"
+                >
+                  <img
+                    src={logo}
+                    alt="Thành tích chứng nhận Eurowindow"
+                    className={`max-h-14 w-auto object-contain transition-all duration-500 ${
+                      isActive
+                        ? "grayscale-0 opacity-100 scale-105"
+                        : "grayscale opacity-50"
+                    } group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105`}
+                    loading="lazy"
+                  />
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
     </section>
   );
 }

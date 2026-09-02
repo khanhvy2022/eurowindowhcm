@@ -64,6 +64,58 @@ export function cleanArticleHtml(html?: string): string | undefined {
     });
 }
 
+export function parseArticleDateToTimestamp(dateStr?: string | null): number {
+  if (!dateStr || !dateStr.trim()) return 0;
+  const s = dateStr.trim();
+
+  // Try DD/MM/YYYY or DD-MM-YYYY (Vietnamese standard format)
+  const dmyMatch = s.match(/^(\d{1,2})[/-](\d{1,2})[/-](\d{4})/);
+  if (dmyMatch) {
+    const day = parseInt(dmyMatch[1], 10);
+    const month = parseInt(dmyMatch[2], 10) - 1;
+    const year = parseInt(dmyMatch[3], 10);
+    return new Date(Date.UTC(year, month, day)).getTime();
+  }
+
+  // Try YYYY-MM-DD or YYYY/MM/DD
+  const ymdMatch = s.match(/^(\d{4})[/-](\d{1,2})[/-](\d{1,2})/);
+  if (ymdMatch) {
+    const year = parseInt(ymdMatch[1], 10);
+    const month = parseInt(ymdMatch[2], 10) - 1;
+    const day = parseInt(ymdMatch[3], 10);
+    return new Date(Date.UTC(year, month, day)).getTime();
+  }
+
+  // Try standard ISO parse
+  const isoTime = Date.parse(s);
+  if (!isNaN(isoTime)) return isoTime;
+
+  // Try Year only e.g. "2026"
+  const yearMatch = s.match(/^(\d{4})$/);
+  if (yearMatch) {
+    return new Date(Date.UTC(parseInt(yearMatch[1], 10), 0, 1)).getTime();
+  }
+
+  return 0;
+}
+
+export function resolveArticleTimestamp(a: Partial<Article>): number {
+  // STRICT RULE: Prioritize publishedAt, then date, then createdAt. NEVER updatedAt!
+  if (a.publishedAt) {
+    const t = parseArticleDateToTimestamp(a.publishedAt);
+    if (t > 0) return t;
+  }
+  if (a.date) {
+    const t = parseArticleDateToTimestamp(a.date);
+    if (t > 0) return t;
+  }
+  if (a.createdAt) {
+    const t = parseArticleDateToTimestamp(a.createdAt);
+    if (t > 0) return t;
+  }
+  return 0;
+}
+
 function toArticle(doc: Record<string, unknown>): Article {
   const title = String(doc.title ?? "");
   const category = String(doc.category ?? "");
@@ -82,9 +134,13 @@ function toArticle(doc: Record<string, unknown>): Article {
     author: doc.author ? String(doc.author) : undefined,
     tags: Array.isArray(doc.tags) ? (doc.tags as string[]) : undefined,
     oldUrl: doc.oldUrl ? String(doc.oldUrl) : undefined,
+    status: (doc.status as Article["status"]) || "published",
+    publishedAt: doc.publishedAt ? String(doc.publishedAt) : doc.date ? String(doc.date) : doc.createdAt ? String(doc.createdAt) : undefined,
+    createdAt: doc.createdAt ? String(doc.createdAt) : undefined,
+    updatedAt: doc.updatedAt ? String(doc.updatedAt) : undefined,
+    featured: Boolean(doc.featured),
   };
 }
-
 
 let cache: Article[] | null = null;
 let cacheTime = 0;
@@ -103,8 +159,10 @@ export async function getAllPosts(): Promise<Article[]> {
     if (db) {
       const docs = await db
         .collection(COLLECTIONS.posts)
-        .find({})
-        .sort({ createdAt: -1 })
+        .find({
+          $or: [{ status: "published" }, { status: { $exists: false } }],
+        })
+        .sort({ publishedAt: -1, createdAt: -1 })
         .toArray();
       posts = docs.map((d) => toArticle(d as unknown as Record<string, unknown>));
     }
@@ -115,9 +173,45 @@ export async function getAllPosts(): Promise<Article[]> {
   // ghép: DB trước, bài tĩnh bổ sung những slug chưa có
   const slugs = new Set(posts.map((p) => p.slug));
   const merged = [...posts, ...articles.filter((a) => !slugs.has(a.slug))];
-  cache = merged;
+
+  // Filter valid published articles
+  const currentTime = Date.now();
+  const publishedOnly = merged.filter((a) => {
+    if (a.status === "draft" || a.status === "archived") return false;
+    if (a.status === "scheduled" && a.publishedAt) {
+      const pubTime = parseArticleDateToTimestamp(a.publishedAt);
+      if (pubTime > currentTime) return false;
+    }
+    return true;
+  });
+
+  // Sort strictly by publishedAt/date DESC (NEVER updatedAt)
+  publishedOnly.sort((a, b) => resolveArticleTimestamp(b) - resolveArticleTimestamp(a));
+
+  cache = publishedOnly;
   cacheTime = now;
-  return merged;
+  return publishedOnly;
+}
+
+export interface GetLatestNewsOptions {
+  limit?: number;
+  category?: string;
+  excludeSlug?: string;
+}
+
+export async function getLatestNews(options: GetLatestNewsOptions = {}): Promise<Article[]> {
+  const { limit = 4, category, excludeSlug } = options;
+  const all = await getAllPosts();
+
+  let filtered = all;
+  if (category && category !== "all") {
+    filtered = filtered.filter((a) => a.category.toLowerCase().includes(category.toLowerCase()));
+  }
+  if (excludeSlug) {
+    filtered = filtered.filter((a) => a.slug !== excludeSlug);
+  }
+
+  return filtered.slice(0, limit);
 }
 
 function normalizeSlug(s: string): string {

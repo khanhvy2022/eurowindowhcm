@@ -15,6 +15,11 @@ export type Article = {
   oldUrl?: string;
   originalSlug?: string;
   aliases?: string[];
+  status?: "published" | "draft" | "scheduled" | "archived";
+  publishedAt?: string;
+  createdAt?: string;
+  updatedAt?: string;
+  featured?: boolean;
 };
 
 const handcraftedArticles: Article[] = [
