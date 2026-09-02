@@ -76,7 +76,7 @@ export default function LanguageSwitcher({ lang = "vi" }: { lang?: "vi" | "en" }
 
   return (
     <div
-      className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 p-1 backdrop-blur-md shadow-sm transition-all"
+      className="inline-flex items-center gap-1 rounded-full border border-white/15 bg-white/[0.04] p-1 shadow-inner backdrop-blur-xl transition-all"
       aria-label="Language selector"
     >
       <Link
@@ -84,34 +84,40 @@ export default function LanguageSwitcher({ lang = "vi" }: { lang?: "vi" | "en" }
         prefetch={true}
         aria-current={isCurrentVi ? "true" : undefined}
         title="Tiếng Việt"
-        className={`group relative flex items-center justify-center rounded-full p-1 transition-all duration-300 ease-out active:scale-95 ${
+        className={`group relative flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[11px] font-bold tracking-wider transition-all duration-300 ease-out active:scale-95 ${
           isCurrentVi
-            ? "border border-[#E2C275] bg-[#E2C275]/20 shadow-[0_0_12px_rgba(226,194,117,0.35)] ring-1 ring-[#E2C275]/40 opacity-100 scale-105"
-            : "border border-transparent opacity-60 hover:opacity-100 hover:scale-105 hover:bg-white/10"
+            ? "border border-[#C9A227]/40 bg-[#C9A227]/15 text-[#C9A227] shadow-[0_2px_10px_rgba(201,162,39,0.2)]"
+            : "border border-transparent text-[#94A3B8] opacity-70 hover:bg-white/10 hover:text-white hover:opacity-100"
         }`}
       >
-        <img
-          src="/flags/vn.svg"
-          alt="Tiếng Việt"
-          className="h-[18px] w-7 rounded-[3px] object-cover shadow-sm transition-transform duration-300 group-hover:scale-105"
-        />
+        <span className="relative flex h-4 w-4 shrink-0 overflow-hidden rounded-full ring-1 ring-white/20">
+          <img
+            src="/flags/vn.svg"
+            alt="Tiếng Việt"
+            className="h-full w-full object-cover"
+          />
+        </span>
+        <span>VI</span>
       </Link>
       <Link
         href={enHref}
         prefetch={true}
         aria-current={isCurrentEn ? "true" : undefined}
         title="English"
-        className={`group relative flex items-center justify-center rounded-full p-1 transition-all duration-300 ease-out active:scale-95 ${
+        className={`group relative flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[11px] font-bold tracking-wider transition-all duration-300 ease-out active:scale-95 ${
           isCurrentEn
-            ? "border border-[#E2C275] bg-[#E2C275]/20 shadow-[0_0_12px_rgba(226,194,117,0.35)] ring-1 ring-[#E2C275]/40 opacity-100 scale-105"
-            : "border border-transparent opacity-60 hover:opacity-100 hover:scale-105 hover:bg-white/10"
+            ? "border border-[#C9A227]/40 bg-[#C9A227]/15 text-[#C9A227] shadow-[0_2px_10px_rgba(201,162,39,0.2)]"
+            : "border border-transparent text-[#94A3B8] opacity-70 hover:bg-white/10 hover:text-white hover:opacity-100"
         }`}
       >
-        <img
-          src="/flags/gb.svg"
-          alt="English"
-          className="h-[18px] w-7 rounded-[3px] object-cover shadow-sm transition-transform duration-300 group-hover:scale-105"
-        />
+        <span className="relative flex h-4 w-4 shrink-0 overflow-hidden rounded-full ring-1 ring-white/20">
+          <img
+            src="/flags/gb.svg"
+            alt="English"
+            className="h-full w-full object-cover"
+          />
+        </span>
+        <span>EN</span>
       </Link>
     </div>
   );
