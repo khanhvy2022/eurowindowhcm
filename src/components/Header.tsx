@@ -11,6 +11,14 @@ type Item = { label: string; href: string; children?: { label: string; href: str
 
 const viItems: Item[] = [
   {
+    label: "Về Eurowindow",
+    href: "/gioi-thieu",
+    children: [
+      { label: "Giới thiệu thương hiệu", href: "/gioi-thieu" },
+      { label: "Tầm nhìn & sứ mệnh", href: "/gioi-thieu#tam-nhin" },
+    ],
+  },
+  {
     label: "Sản phẩm",
     href: "/san-pham",
     children: [
@@ -33,19 +41,19 @@ const viItems: Item[] = [
       { label: "Tin tức dự án", href: "/du-an/tin-du-an" },
     ],
   },
-  {
-    label: "Về Eurowindow",
-    href: "/gioi-thieu",
-    children: [
-      { label: "Giới thiệu thương hiệu", href: "/gioi-thieu" },
-      { label: "Tầm nhìn & sứ mệnh", href: "/gioi-thieu#tam-nhin" },
-    ],
-  },
   { label: "Tin tức", href: "/tin-tuc" },
   { label: "Showroom", href: "/he-thong-showroom" },
 ];
 
 const enItems: Item[] = [
+  {
+    label: "About",
+    href: "/en/about",
+    children: [
+      { label: "Brand Heritage", href: "/en/about" },
+      { label: "Vision & Values", href: "/en/about#vision" },
+    ],
+  },
   {
     label: "Products",
     href: "/en/products",
@@ -67,14 +75,6 @@ const enItems: Item[] = [
       { label: "Government Headquarters", href: "/en/projects/tru-so-co-quan" },
       { label: "Civil & Residential", href: "/en/projects/cong-trinh-dan-dung" },
       { label: "Project News", href: "/en/projects/tin-du-an" },
-    ],
-  },
-  {
-    label: "About",
-    href: "/en/about",
-    children: [
-      { label: "Brand Heritage", href: "/en/about" },
-      { label: "Vision & Values", href: "/en/about#vision" },
     ],
   },
   { label: "News", href: "/en/news" },
