@@ -66,19 +66,19 @@ export default function Footer({ lang = "vi" }: FooterProps) {
           {/* Column 1: Brand Info & Socials (4 cols) */}
           <div className="space-y-6 lg:col-span-4">
             <BrandLogo lang={currentLang} />
-            <p className="text-xs sm:text-sm leading-relaxed text-[#D2D8E3] max-w-sm">
+            <p className="text-sm sm:text-base leading-relaxed text-[#D2D8E3] max-w-sm">
               {t.tagline}
             </p>
 
             <div className="pt-2">
-              <span className="block text-[11px] font-bold uppercase tracking-[0.16em] text-[#C9A227]">
+              <span className="block text-xs font-bold uppercase tracking-[0.16em] text-[#C9A227]">
                 {isEn ? "Hotline 24/7" : "Hotline tư vấn dự án"}
               </span>
               <a
                 href={`tel:${contact.hotline.replace(/\s+/g, "")}`}
-                className="mt-1 inline-flex items-center gap-2 text-xl font-bold text-[#C9A227] transition hover:text-white"
+                className="mt-1 inline-flex items-center gap-2 text-2xl font-bold text-[#C9A227] transition hover:text-white"
               >
-                <Phone className="h-4 w-4" />
+                <Phone className="h-5 w-5" />
                 {contact.hotline}
               </a>
             </div>
@@ -125,12 +125,12 @@ export default function Footer({ lang = "vi" }: FooterProps) {
 
           {/* Column 2: Full Contact Info & Facilities (4 cols) */}
           <div className="space-y-4 lg:col-span-4">
-            <h3 className="text-xs font-bold uppercase tracking-[0.18em] text-[#C9A227]">
+            <h3 className="text-sm font-bold uppercase tracking-[0.18em] text-[#C9A227]">
               {t.contactTitle}
             </h3>
-            <div className="space-y-4 text-xs leading-relaxed text-[#D2D8E3]">
+            <div className="space-y-4 text-sm leading-relaxed text-[#D2D8E3]">
               <div className="flex items-start gap-2.5">
-                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[#C9A227]" />
+                <Phone className="mt-0.5 h-5 w-5 shrink-0 text-[#C9A227]" />
                 <div>
                   <span className="font-semibold text-white">Hotline Miền Nam: </span>
                   <a href={`tel:${contact.hotline.replace(/\s+/g, "")}`} className="hover:text-[#C9A227] transition font-bold text-[#C9A227]">
@@ -140,7 +140,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
               </div>
 
               <div className="flex items-start gap-2.5">
-                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[#C9A227]" />
+                <Mail className="mt-0.5 h-5 w-5 shrink-0 text-[#C9A227]" />
                 <div>
                   <span className="font-semibold text-white">Email: </span>
                   <a href={`mailto:${contact.email}`} className="hover:text-[#C9A227] transition">
@@ -150,7 +150,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
               </div>
 
               <div className="flex items-start gap-2.5 pt-1">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#C9A227]" />
+                <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-[#C9A227]" />
                 <div>
                   <span className="font-bold text-white block">{t.branchSouthLabel}:</span>
                   <span>{t.branchSouthVal}</span>
@@ -158,7 +158,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
               </div>
 
               <div className="flex items-start gap-2.5 pt-1">
-                <Building2 className="mt-0.5 h-4 w-4 shrink-0 text-[#C9A227]" />
+                <Building2 className="mt-0.5 h-5 w-5 shrink-0 text-[#C9A227]" />
                 <div>
                   <span className="font-bold text-white block">{t.headquartersLabel}:</span>
                   <span>{t.headquartersVal}</span>
@@ -169,10 +169,10 @@ export default function Footer({ lang = "vi" }: FooterProps) {
 
           {/* Column 3: Navigation Links (2 cols) */}
           <div className="space-y-4 lg:col-span-2">
-            <h3 className="text-xs font-bold uppercase tracking-[0.18em] text-[#C9A227]">
+            <h3 className="text-sm font-bold uppercase tracking-[0.18em] text-[#C9A227]">
               {t.exploreTitle}
             </h3>
-            <ul className="space-y-3 text-xs text-[#D2D8E3]">
+            <ul className="space-y-3.5 text-sm text-[#D2D8E3]">
               <li>
                 <Link href={aboutHref} className="transition hover:text-[#C9A227]">
                   {t.about}
@@ -208,10 +208,10 @@ export default function Footer({ lang = "vi" }: FooterProps) {
 
           {/* Column 4: Affiliated Platforms (2 cols) */}
           <div className="space-y-4 lg:col-span-2">
-            <h3 className="text-xs font-bold uppercase tracking-[0.18em] text-[#C9A227]">
+            <h3 className="text-sm font-bold uppercase tracking-[0.18em] text-[#C9A227]">
               {t.partnersTitle}
             </h3>
-            <ul className="space-y-3 text-xs text-[#D2D8E3]">
+            <ul className="space-y-3.5 text-sm text-[#D2D8E3]">
               {(isEn
                 ? [
                     { label: "Eurowindow - Leading Door Provider", href: "https://www.euroowindow.com/" },
@@ -229,7 +229,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
                     className="group inline-flex items-center gap-1.5 transition hover:text-[#C9A227]"
                   >
                     <span>{p.label}</span>
-                    <ExternalLink className="h-3 w-3 shrink-0 opacity-60 transition group-hover:opacity-100 group-hover:text-[#C9A227]" />
+                    <ExternalLink className="h-3.5 w-3.5 shrink-0 opacity-60 transition group-hover:opacity-100 group-hover:text-[#C9A227]" />
                   </a>
                 </li>
               ))}
@@ -239,10 +239,10 @@ export default function Footer({ lang = "vi" }: FooterProps) {
       </div>
 
       {/* Sub-footer Copyright */}
-      <div className="border-t border-white/10 bg-[#040a14] px-5 py-6 text-center text-xs text-[#94A3B8]">
+      <div className="border-t border-white/10 bg-[#040a14] px-5 py-6 text-center text-sm text-[#94A3B8]">
         <div className="mx-auto flex max-w-[1360px] flex-col items-center justify-between gap-3 sm:flex-row">
           <p>© {new Date().getFullYear()} Eurowindow HCM. All rights reserved.</p>
-          <p className="text-[11px] text-[#64748B]">
+          <p className="text-xs text-[#64748B]">
             {isEn ? "Pioneering total European architectural door & facade systems in Vietnam" : "Thương hiệu tiên phong giải pháp cửa & vách nhôm kính tiêu chuẩn Châu Âu"}
           </p>
         </div>

@@ -1,24 +1,17 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { Be_Vietnam_Pro, Playfair_Display } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import Script from "next/script";
 import ChatWidget from "@/components/ChatWidget";
 import QuickContactButtons from "@/components/QuickContactButtons";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
 import "./globals.css";
 
-const beVietnamPro = Be_Vietnam_Pro({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext", "vietnamese"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
-  variable: "--font-be-vietnam-pro",
-});
-
-const playfair = Playfair_Display({
-  subsets: ["latin", "vietnamese"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-  display: "swap",
-  variable: "--font-playfair",
+  variable: "--font-space-grotesk",
 });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.eurowindowhcm.com";
@@ -222,7 +215,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
       lang={locale}
       prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#"
       data-scroll-behavior="smooth"
-      className={`${beVietnamPro.variable} ${playfair.variable} h-full antialiased scroll-smooth`}
+      className={`${spaceGrotesk.variable} h-full antialiased scroll-smooth`}
     >
       <head>
         <script
@@ -234,7 +227,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
-      <body className={`${beVietnamPro.className} min-h-full selection:bg-[#E2C275]/30 selection:text-white`}>
+      <body className={`${spaceGrotesk.className} min-h-full selection:bg-[#E2C275]/30 selection:text-white`}>
         {/* Google Analytics GA4 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BBMNYWJ8WN"
