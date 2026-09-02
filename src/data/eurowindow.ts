@@ -106,7 +106,7 @@ export const contact = {
   headquartersPhone: "(84 - 24) 37 47 47 00",
   branchSouthPhone: "(84 - 28) 6278 8124",
   branchCentralPhone: "(84 - 236) 3 582 877",
-  email: "infoew@eurowindow.biz",
+  email: "thangtq2@eurowindow.biz",
   emailSupport: "cskhhn@eurowindow.biz",
   emailSouth: "Showroom.mdc@eurowindow.biz",
   branchSouth: "Eurowindow Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP. Hồ Chí Minh",

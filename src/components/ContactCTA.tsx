@@ -74,7 +74,7 @@ export default function ContactCTA() {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-white">Email &amp; Thời Gian Làm Việc</h4>
-                  <p className="mt-1 text-xs text-[#D2D8E3]">infoew@eurowindow.biz</p>
+                  <p className="mt-1 text-xs text-[#D2D8E3]">thangtq2@eurowindow.biz</p>
                   <p className="mt-1 flex items-center gap-1.5 text-xs text-[#94A3B8]">
                     <Clock className="h-3.5 w-3.5 text-[#E2C275]" />
                     Thứ 2 - Thứ 7: 08:00 - 17:30

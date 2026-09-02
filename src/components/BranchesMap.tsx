@@ -21,7 +21,7 @@ export default function BranchesMap() {
       name: "Trụ Sở Chính Eurowindow Hà Nội",
       address: "Tòa nhà Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Đống Đa, Hà Nội",
       phone: "(84 - 24) 37 47 47 00 · 0909 888 000",
-      email: "infoew@eurowindow.biz",
+      email: "thangtq2@eurowindow.biz",
       hours: "Thứ 2 - Thứ 7: 08:00 - 17:30",
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6659216050134!2d105.828461314407!3d21.006024693931064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abbc499419d3%3A0x10a7662c32cc6067!2sEurowindow%20Office%20Building!5e0!3m2!1svi!2s!4v1648548798380!5m2!1svi!2s",
       badge: "Trụ Sở Chính",

@@ -15,7 +15,7 @@ function toEntry(doc: Record<string, unknown>): KnowledgeEntry {
 }
 
 const SYSTEM_PROMPT = `Bạn là trợ lý ảo của Eurowindow - thương hiệu cửa, vách kính và sản phẩm nội thất hàng đầu Việt Nam.
-Trả lời ngắn gọn, chính xác, thân thiện bằng tiếng Việt. Nếu chưa chắc chắn thông tin, hãy gợi ý người dùng liên hệ hotline Eurowindow (0966 994 338) hoặc email infoew@eurowindow.biz. Không bịa số liệu, không nói dối về sản phẩm.`;
+Trả lời ngắn gọn, chính xác, thân thiện bằng tiếng Việt. Nếu chưa chắc chắn thông tin, hãy gợi ý người dùng liên hệ hotline Eurowindow (0966 994 338) hoặc email thangtq2@eurowindow.biz. Không bịa số liệu, không nói dối về sản phẩm.`;
 
 export async function POST(request: NextRequest) {
   try {
@@ -96,7 +96,7 @@ HƯỚNG DẪN TRẢ LỜI:
       ok: true,
       source: "llm_fallback",
       message:
-        "Tôi chưa có sẵn câu trả lời cho câu hỏi này. Vui lòng liên hệ hotline Eurowindow 0966 994 338 hoặc email infoew@eurowindow.biz để được tư vấn chi tiết.",
+        "Tôi chưa có sẵn câu trả lời cho câu hỏi này. Vui lòng liên hệ hotline Eurowindow 0966 994 338 hoặc email thangtq2@eurowindow.biz để được tư vấn chi tiết.",
     });
 
   } catch (err) {

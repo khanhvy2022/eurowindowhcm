@@ -133,7 +133,7 @@ const localBusinessSchema = {
   description:
     "Nhà phân phối chính hãng cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách kính cao cấp Eurowindow tại TP. Hồ Chí Minh và khu vực miền Nam.",
   telephone: "+84903118888",
-  email: "infoew@eurowindow.biz",
+  email: "thangtq2@eurowindow.biz",
   priceRange: "$$",
   currenciesAccepted: "VND",
   paymentAccepted: "Cash, Credit Card, Bank Transfer",

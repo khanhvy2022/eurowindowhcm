@@ -55,7 +55,7 @@ const contactPageSchema = {
     "@type": "HomeAndConstructionBusiness",
     name: "Eurowindow Miền Nam",
     telephone: "+84966994338",
-    email: "infoew@eurowindow.biz",
+    email: "thangtq2@eurowindow.biz",
     address: {
       "@type": "PostalAddress",
       streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Tân Định",
