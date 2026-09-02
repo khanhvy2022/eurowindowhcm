@@ -1,11 +1,48 @@
-"use client";
-
+import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PageBanner from "@/components/PageBanner";
 import { introImage, introParagraphs } from "@/data/eurowindow";
 import { ArrowRight, Award } from "lucide-react";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Về Eurowindow – 23+ Năm Tiên Phong Cửa & Vách Nhôm Kính",
+  description:
+    "Tìm hiểu lịch sử hình thành, năng lực sản xuất và hành trình 23+ năm khẳng định vị thế Thương hiệu Quốc gia của Eurowindow tại Việt Nam.",
+  alternates: {
+    canonical: "https://www.eurowindowhcm.com/gioi-thieu",
+    languages: {
+      vi: "https://www.eurowindowhcm.com/gioi-thieu",
+      en: "https://www.eurowindowhcm.com/en/about",
+      "x-default": "https://www.eurowindowhcm.com/gioi-thieu",
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    siteName: "Cửa Eurowindow Hồ Chí Minh",
+    title: "Về Eurowindow – 23+ Năm Tiên Phong Cửa & Vách Nhôm Kính",
+    description:
+      "Tìm hiểu lịch sử hình thành, năng lực sản xuất và hành trình 23+ năm khẳng định vị thế Thương hiệu Quốc gia của Eurowindow.",
+    url: "https://www.eurowindowhcm.com/gioi-thieu",
+    images: [
+      {
+        url: "https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp",
+        width: 1200,
+        height: 630,
+        alt: "Giới thiệu Eurowindow",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Về Eurowindow – 23+ Năm Tiên Phong Cửa & Vách Nhôm Kính",
+    description:
+      "Hành trình 23+ năm khẳng định vị thế Thương hiệu Quốc gia của Eurowindow tại Việt Nam.",
+    images: ["https://www.eurowindowhcm.com/eurowindow/cuanhom.jpg.webp"],
+  },
+};
 
 const stats = [
   ["2002", "năm thành lập"],

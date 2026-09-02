@@ -70,6 +70,14 @@ export const metadata: Metadata = {
   },
 
   metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "./",
+    languages: {
+      "vi-VN": "https://www.eurowindowhcm.com",
+      "en-US": "https://www.eurowindowhcm.com/en",
+      "x-default": "https://www.eurowindowhcm.com",
+    },
+  },
   openGraph: {
     type: "website",
     locale: "vi_VN",
