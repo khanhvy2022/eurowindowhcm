@@ -15,7 +15,7 @@ const viItems: Item[] = [
     href: "/gioi-thieu",
     children: [
       { label: "Giới thiệu thương hiệu", href: "/gioi-thieu" },
-      { label: "Tầm nhìn & sứ mệnh", href: "/gioi-thieu#tam-nhin" },
+      { label: "Catalogue", href: "/catalogue" },
     ],
   },
   {
@@ -51,7 +51,7 @@ const enItems: Item[] = [
     href: "/en/about",
     children: [
       { label: "Brand Heritage", href: "/en/about" },
-      { label: "Vision & Values", href: "/en/about#vision" },
+      { label: "Catalogue", href: "/catalogue" },
     ],
   },
   {

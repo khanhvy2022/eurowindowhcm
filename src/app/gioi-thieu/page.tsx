@@ -4,9 +4,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PageBanner from "@/components/PageBanner";
 import { introImage, introParagraphs } from "@/data/eurowindow";
-import { ArrowRight, Award, ChevronDown } from "lucide-react";
+import { ArrowRight, Award } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
 
 const stats = [
   ["2002", "năm thành lập"],
@@ -15,24 +14,6 @@ const stats = [
   ["14", "năm Thương hiệu Quốc gia"],
   ["6+", "hệ sản phẩm chính"],
   ["2", "nhà máy hiện đại"],
-] as const;
-
-const accordions = [
-  {
-    id: "tam-nhin",
-    label: "Tầm nhìn",
-    text: "Tiếp tục khẳng định vị thế Nhà cung cấp giải pháp tổng thể về vật liệu xây dựng xanh hàng đầu Việt Nam.",
-  },
-  {
-    id: "su-menh",
-    label: "Sứ mệnh",
-    text: "Tiên phong mang đến những sản phẩm công nghệ mới, thân thiện với môi trường, tiết kiệm năng lượng. Eurowindow phấn đấu nâng tầm chất lượng cuộc sống cho hàng triệu khách hàng và hiện đại hóa kiến trúc đô thị.\n\nĐồng hành cùng đối tác trên tinh thần cộng hưởng nhằm gia tăng giá trị dài hạn cho cổ đông và người lao động, Eurowindow gắn lợi ích doanh nghiệp với lợi ích chung của xã hội, chung tay cùng cộng đồng thúc đẩy sự phát triển phồn vinh của đất nước.",
-  },
-  {
-    id: "gia-tri-cot-loi",
-    label: "Giá trị cốt lõi",
-    text: "CHẤT LƯỢNG: Sản phẩm và dịch vụ tốt quyết định uy tín Eurowindow.\nCHUYÊN NGHIỆP: Đội ngũ CBNV có trình độ chuyên môn cao, phong cách phục vụ chuyên nghiệp và tận tâm, góp phần tạo nên thành công của thương hiệu Eurowindow.\nHIỆU QUẢ: Trong từng hoạt động để gia tăng lợi ích cho khách hàng và cho Eurowindow.",
-  },
 ] as const;
 
 const services = [
@@ -69,7 +50,6 @@ const projects = [
 ] as const;
 
 export default function AboutPage() {
-  const [open, setOpen] = useState<string | null>("tam-nhin");
   return (
     <div className="min-h-screen bg-[#071523] text-white">
       <Header />
@@ -164,27 +144,33 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="border-t border-white/10 bg-[#102238]/60 py-24">
+        <section className="border-t border-white/10 bg-[#0c1c33]/80 py-20">
           <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-            <h2 className="text-3xl font-extrabold uppercase tracking-tight text-white md:text-4xl">Tầm nhìn – Sứ mệnh – Giá trị cốt lõi</h2>
-            <div className="mt-12 space-y-4">
-              {accordions.map((item) => (
-                <div key={item.id} className="glass-card overflow-hidden transition">
-                  <button
-                    type="button"
-                    aria-expanded={open === item.id}
-                    aria-controls={`panel-${item.id}`}
-                    onClick={() => setOpen(open === item.id ? null : item.id)}
-                    className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left text-base font-extrabold uppercase tracking-wider text-white transition hover:text-[#E2C275]"
-                  >
-                    {item.label}
-                    <ChevronDown className={`h-5 w-5 shrink-0 text-[#E2C275] transition-transform ${open === item.id ? "rotate-180" : ""}`} />
-                  </button>
-                  {open === item.id ? (
-                    <div id={`panel-${item.id}`} className="whitespace-pre-line border-t border-white/10 px-6 py-6 text-sm leading-relaxed text-[#D2D8E3]">{item.text}</div>
-                  ) : null}
+            <div className="relative overflow-hidden rounded-3xl border border-[#C9A227]/30 bg-[#06101f] p-8 sm:p-12 shadow-2xl backdrop-blur-2xl">
+              <div className="grid items-center gap-8 md:grid-cols-12">
+                <div className="space-y-4 md:col-span-8">
+                  <div className="inline-flex items-center gap-2 rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10 px-4 py-1.5">
+                    <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C9A227]">
+                      TÀI LIỆU KỸ THUẬT CHÍNH HÃNG
+                    </span>
+                  </div>
+                  <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+                    Catalogue Eurowindow 2024 Mới Nhất
+                  </h2>
+                  <p className="text-sm sm:text-base leading-relaxed text-[#D2D8E3]">
+                    Khám phá trọn bộ tài liệu kỹ thuật, mặt cắt profile nhôm EA55–EA95i, thông số cách âm cửa uPVC Kömmerling và các hệ sản phẩm kiến trúc cao cấp của Eurowindow.
+                  </p>
                 </div>
-              ))}
+                <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 md:col-span-4 md:justify-end">
+                  <Link
+                    href="/catalogue"
+                    className="btn-gold-luxury px-6 py-3.5 text-center text-xs font-bold uppercase tracking-widest inline-flex items-center justify-center gap-2"
+                  >
+                    <span>Xem &amp; Tải Catalogue</span>
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </section>
