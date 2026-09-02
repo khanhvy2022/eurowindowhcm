@@ -343,11 +343,11 @@ export default function FinalCTA({ lang = "vi" }: FinalCTAProps) {
                     className="btn-gold-luxury w-full py-4 text-xs font-bold uppercase tracking-[0.16em] flex items-center justify-center gap-2 shadow-[0_4px_25px_rgba(201,162,39,0.35)]"
                   >
                     {submitting ? (
-                      "Đang gửi yêu cầu..."
+                      isEn ? "Sending..." : "Đang gửi..."
                     ) : (
                       <>
                         <Send className="h-4 w-4" />
-                        <span>GỬI YÊU CẦU TƯ VẤN &amp; BÁO GIÁ DỰ TOÁN</span>
+                        <span>{isEn ? "SEND INQUIRY" : "Gửi Liên Hệ"}</span>
                       </>
                     )}
                   </button>
