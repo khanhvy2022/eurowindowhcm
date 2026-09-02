@@ -59,15 +59,15 @@ export default function StrategicPartners({ lang = "vi" }: { lang?: "vi" | "en" 
                       setActiveLogo((prev) => (prev === logo ? null : logo));
                     }
                   }}
-                  className="group flex h-24 w-full cursor-pointer items-center justify-center rounded-2xl border border-white/5 bg-[#0c1c33]/40 p-4 transition-all duration-300 hover:border-[#C9A227]/30 hover:bg-[#0c1c33] focus:outline-none select-none"
+                  className="group flex h-24 lg:h-32 w-full cursor-pointer items-center justify-center rounded-2xl border border-white/5 bg-[#0c1c33]/40 p-4 lg:p-5 transition-all duration-300 hover:border-[#C9A227]/30 hover:bg-[#0c1c33] focus:outline-none select-none"
                 >
                   <img
                     src={logo}
                     alt="Thành tích chứng nhận Eurowindow"
-                    className={`max-h-14 w-auto object-contain transition-all duration-500 ${
+                    className={`max-h-14 lg:max-h-[74px] max-w-[85%] w-auto object-contain transition-all duration-500 ${
                       isActive
                         ? "grayscale-0 opacity-100 scale-105"
-                        : "grayscale opacity-50"
+                        : "grayscale opacity-60 hover:opacity-100"
                     } group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105`}
                     loading="lazy"
                   />
