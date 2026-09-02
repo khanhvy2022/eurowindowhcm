@@ -13,7 +13,7 @@ export default function BranchesMap() {
       phone: "(84 - 28) 6278 8124 · 0966 994 338",
       email: "Showroom.mdc@eurowindow.biz",
       hours: "Thứ 2 - Thứ 7: 08:00 - 18:00",
-      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.296541178229!2d106.69752531480084!3d10.78858349231326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3603d7cbfb%3A0x6a2c2777174e929f!2zMzkgTWFjIMSQxKluaCBDaGksIMSQYSBLYW8sIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1650000000000!5m2!1svi!2s",
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3490799981454!2d106.6961703758384!3d10.785258789364115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f37249c69cb%3A0xa546f92e33f90d78!2sCty%20c%E1%BB%95%20ph%E1%BA%A7n%20EUROWINDOW!5e0!3m2!1svi!2s!4v1710000000000!5m2!1svi!2s",
       badge: "Showroom Miền Nam",
     },
     {

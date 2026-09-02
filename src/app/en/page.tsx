@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import ProjectCategories from "@/components/ProjectCategories";
 import NewsSection from "@/components/NewsSection";
 import StrategicPartners from "@/components/StrategicPartners";
+import FinalCTA from "@/components/home/FinalCTA";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -52,6 +53,7 @@ export default function HomeEn() {
         <ProjectCategories lang="en" />
         <NewsSection lang="en" />
         <StrategicPartners lang="en" />
+        <FinalCTA lang="en" />
       </main>
       <Footer lang="en" />
     </div>
