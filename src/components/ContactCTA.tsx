@@ -48,9 +48,9 @@ export default function ContactCTA() {
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-white">Showroom &amp; Văn Phòng Eurowindow HCM</h4>
+                  <h4 className="text-sm font-bold text-white">Eurowindow Miền Nam</h4>
                   <p className="mt-1 text-xs leading-5 text-[#D2D8E3]">
-                    39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP. Hồ Chí Minh
+                    39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP. Hồ Chí Minh
                   </p>
                 </div>
               </div>

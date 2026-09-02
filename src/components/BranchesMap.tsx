@@ -8,8 +8,8 @@ export default function BranchesMap() {
   const branches = [
     {
       id: "hcm",
-      name: "Showroom Eurowindow Mạc Đĩnh Chi (Chi Nhánh Miền Nam)",
-      address: "39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP. Hồ Chí Minh",
+      name: "Eurowindow Miền Nam",
+      address: "39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP. Hồ Chí Minh",
       phone: "(84 - 28) 6278 8124 · 0966 994 338",
       email: "Showroom.mdc@eurowindow.biz",
       hours: "Thứ 2 - Thứ 7: 08:00 - 18:00",

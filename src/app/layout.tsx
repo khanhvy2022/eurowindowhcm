@@ -138,7 +138,7 @@ const localBusinessSchema = {
   paymentAccepted: "Cash, Credit Card, Bank Transfer",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1",
+    streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Tân Định",
     addressLocality: "Thành phố Hồ Chí Minh",
     addressRegion: "Hồ Chí Minh",
     postalCode: "700000",
@@ -275,7 +275,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
             itemType="https://schema.org/PostalAddress"
           >
             <span className="street-address p-street-address" itemProp="streetAddress">
-              39 Bis Mạc Đĩnh Chi, Phường Đa Kao, Quận 1
+              39 Bis Mạc Đĩnh Chi, Phường Tân Định
             </span>,
             <span className="locality p-locality" itemProp="addressLocality">
               Hồ Chí Minh

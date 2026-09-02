@@ -192,7 +192,7 @@ export default function CuaEurowindowPage() {
     telephone: "0966 994 338",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1",
+      streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Tân Định",
       addressLocality: "Thành phố Hồ Chí Minh",
       addressCountry: "VN",
     },
@@ -962,10 +962,10 @@ export default function CuaEurowindowPage() {
             <div className="rounded-xl border border-white/10 bg-[#102238] p-5 space-y-2">
               <div className="flex items-center gap-2 text-[#E2C275] font-bold text-sm">
                 <MapPin className="h-4 w-4" />
-                Showroom &amp; Văn Phòng TP. Hồ Chí Minh
+                Eurowindow Miền Nam
               </div>
               <p className="text-xs text-[#D2D8E3]">
-                Địa chỉ: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP. Hồ Chí Minh.
+                Địa chỉ: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP. Hồ Chí Minh.
               </p>
               <p className="text-xs text-white/70 font-mono">Hotline: 0966 994 338 &bull; Tel: (84 - 28) 6278 8124</p>
             </div>

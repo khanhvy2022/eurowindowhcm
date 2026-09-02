@@ -109,10 +109,10 @@ export const contact = {
   email: "infoew@eurowindow.biz",
   emailSupport: "cskhhn@eurowindow.biz",
   emailSouth: "Showroom.mdc@eurowindow.biz",
-  branchSouth: "Chi Nhánh Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP. Hồ Chí Minh",
+  branchSouth: "Eurowindow Miền Nam: 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP. Hồ Chí Minh",
   factorySouth: "Nhà Máy Sản Xuất Phía Nam: ĐT745, P. Tân Uyên, TP. Hồ Chí Minh",
   headquarters: "Trụ sở chính: Tòa nhà Văn phòng Eurowindow Office Building, Số 02 Tôn Thất Tùng, Kim Liên, Đống Đa, Hà Nội",
-  address: "39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP. Hồ Chí Minh",
+  address: "39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP. Hồ Chí Minh",
 };
 
 export const partnerLinks = [

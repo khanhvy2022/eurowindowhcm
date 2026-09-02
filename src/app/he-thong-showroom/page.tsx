@@ -115,10 +115,10 @@ export default async function ShowroomPage() {
                   <MapPin className="h-6 w-6" />
                 </div>
                 <h3 className="mt-4 text-sm font-bold uppercase tracking-wider text-[#E2C275]">
-                  Chi Nhánh Miền Nam (Showroom Chính)
+                  Eurowindow Miền Nam
                 </h3>
                 <p className="mt-2 text-sm font-semibold leading-relaxed text-white">
-                  39 Bis Mạc Đĩnh Chi, P. Tân Định, Quận 1, TP. Hồ Chí Minh
+                  39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP. Hồ Chí Minh
                 </p>
                 <div className="mt-4 space-y-1.5 text-xs text-[#D2D8E3]">
                   <div className="flex items-center gap-2 text-xs text-[#94A3B8]">

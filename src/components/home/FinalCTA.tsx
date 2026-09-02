@@ -165,7 +165,7 @@ export default function FinalCTA({ lang = "vi" }: FinalCTAProps) {
           <p className="text-sm sm:text-base leading-relaxed text-[#D2D8E3]">
             {isEn
               ? "Visit our flagship showroom or send your project inquiry for direct on-site consultation, CAD design, and certified estimations."
-              : "Trải nghiệm trực tiếp các giải pháp cửa Châu Âu tại Showroom 39 Bis Mạc Đĩnh Chi (P. Tân Định, Quận 1) hoặc gửi thông tin công trình để nhận tư vấn và báo giá chi tiết tận nơi."}
+              : "Trải nghiệm trực tiếp các giải pháp cửa Châu Âu tại Eurowindow Miền Nam (39 Bis Mạc Đĩnh Chi, P. Tân Định, TP. Hồ Chí Minh) hoặc gửi thông tin công trình để nhận tư vấn và báo giá chi tiết tận nơi."}
           </p>
         </div>
 
@@ -376,14 +376,14 @@ export default function FinalCTA({ lang = "vi" }: FinalCTAProps) {
               </div>
 
               <h3 className="font-serif text-xl sm:text-2xl font-bold text-white">
-                Showroom Eurowindow Mạc Đĩnh Chi
+                Eurowindow Miền Nam
               </h3>
 
               <div className="space-y-3 text-xs sm:text-sm text-[#D2D8E3]">
                 <div className="flex items-start gap-3">
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#C9A227]" />
                   <span>
-                    <strong>Địa chỉ:</strong> 39 Bis Mạc Đĩnh Chi, Phường Tân Định, Quận 1, TP. Hồ Chí Minh
+                    <strong>Địa chỉ:</strong> 39 Bis Mạc Đĩnh Chi, Phường Tân Định, TP. Hồ Chí Minh
                   </span>
                 </div>
 
@@ -424,7 +424,7 @@ export default function FinalCTA({ lang = "vi" }: FinalCTAProps) {
             <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-[#06101f] shadow-2xl flex-1 min-h-[320px] sm:min-h-[360px]">
               <iframe
                 src={mapEmbedUrl}
-                title="Bản đồ vị trí Showroom Eurowindow 39 Bis Mạc Đĩnh Chi, P. Tân Định, Quận 1, TP.HCM"
+                title="Bản đồ vị trí Eurowindow Miền Nam - 39 Bis Mạc Đĩnh Chi, P. Tân Định, TP. Hồ Chí Minh"
                 className="w-full h-full min-h-[320px] sm:min-h-[360px] border-0"
                 allowFullScreen
                 loading="lazy"
