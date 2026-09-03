@@ -114,6 +114,8 @@ export default function AboutPage() {
                   <img
                     src={introImage}
                     alt="Eurowindow – nhà cung cấp giải pháp tổng thể về vật liệu xây dựng xanh"
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover transition duration-700 hover:scale-105"
                   />
                 </div>
@@ -175,7 +177,7 @@ export default function AboutPage() {
             </div>
             <div className="glass-card order-1 overflow-hidden p-3 md:order-2 backdrop-blur-2xl">
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-[#102238]">
-                <img src="/eurowindow/about-office.jpg.webp" alt="Tòa nhà văn phòng Eurowindow" className="h-full w-full object-cover transition duration-700 hover:scale-105" />
+                <img src="/eurowindow/about-office.jpg.webp" alt="Tòa nhà văn phòng Eurowindow" loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 hover:scale-105" />
               </div>
             </div>
           </div>
@@ -218,7 +220,7 @@ export default function AboutPage() {
             <div className="mt-14 grid gap-8 md:grid-cols-3">
               {services.map((service) => (
                 <article key={service.title} className="glass-card glass-card-hover group relative min-h-[460px] overflow-hidden p-8">
-                  <img src={service.image} alt={service.title} className="absolute inset-0 h-full w-full object-cover opacity-40 transition duration-700 group-hover:scale-105 group-hover:opacity-55" />
+                  <img src={service.image} alt={service.title} loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover opacity-40 transition duration-700 group-hover:scale-105 group-hover:opacity-55" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#071523] via-[#071523]/70 to-[#071523]/20" />
                   <div className="relative flex h-full flex-col justify-end">
                     <h3 className="text-xl font-extrabold leading-snug tracking-tight text-white transition group-hover:text-[#E2C275]">{service.title}</h3>
@@ -257,7 +259,7 @@ export default function AboutPage() {
               {projects.map((project) => (
                 <article key={project.title} className="glass-card glass-card-hover group flex flex-col overflow-hidden p-5">
                   <div className="relative aspect-[16/11] overflow-hidden rounded-xl bg-[#102238]">
-                    <img src={project.image} alt={project.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                    <img src={project.image} alt={project.title} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                   </div>
                   <div className="flex items-end justify-between gap-4 pt-5">
                     <div>

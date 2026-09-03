@@ -370,6 +370,8 @@ export default function ProjectCategories({ lang = "vi" }: ProjectCategoriesProp
                   <img
                     src={currentVideo.thumbnail}
                     alt={isEn ? currentVideo.titleEn : currentVideo.title}
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
 
@@ -546,6 +548,8 @@ export default function ProjectCategories({ lang = "vi" }: ProjectCategoriesProp
                       <img
                         src={video.thumbnail}
                         alt={isEn ? video.titleEn : video.title}
+                        loading="lazy"
+                        decoding="async"
                         className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />

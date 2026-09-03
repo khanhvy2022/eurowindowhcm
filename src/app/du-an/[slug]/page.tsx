@@ -197,7 +197,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                   {related.map((p) => (
                     <Link key={p.slug} href={`/du-an/${p.slug}`} className="group overflow-hidden bg-[#102238]">
                       <div className="aspect-[1.2] overflow-hidden bg-[#152B45]">
-                        <img src={p.images[0]} alt={p.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                        <img src={p.images[0]} alt={p.title} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                       </div>
                       <div className="p-5">
                         <h4 className="text-xl font-bold tracking-[-0.035em]">{p.title}</h4>

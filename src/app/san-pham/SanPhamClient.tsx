@@ -329,6 +329,8 @@ export default function SanPhamClient() {
                     key={current.id}
                     src={current.image}
                     alt={current.title}
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover transition duration-700 hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#06101f]/75 via-transparent to-transparent" />

@@ -66,7 +66,7 @@ export default async function ArticleDetailPage({ params }: Props) {
             <div className="mx-auto max-w-[900px] px-5 sm:px-8">
               <div className="glass-card p-3 backdrop-blur-2xl">
                 <div className="overflow-hidden rounded-xl bg-[#102238]">
-                  <img src={article.image} alt={article.title} className="aspect-[16/9] w-full object-cover" />
+                  <img src={article.image} alt={article.title} loading="lazy" decoding="async" className="aspect-[16/9] w-full object-cover" />
                 </div>
               </div>
             </div>

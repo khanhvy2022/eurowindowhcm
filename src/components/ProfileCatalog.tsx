@@ -81,6 +81,8 @@ export default function ProfileCatalog() {
             <img
               src={catalogPages[activePage - 1].image}
               alt={catalogPages[activePage - 1].title}
+              loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover transition-opacity duration-500"
               onError={(e) => {
                 // Fallback image if local path is missing
@@ -139,6 +141,8 @@ export default function ProfileCatalog() {
                   <img
                     src={p.image}
                     alt="Thumbnail"
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src =

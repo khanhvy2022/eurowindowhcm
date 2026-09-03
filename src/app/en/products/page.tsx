@@ -44,7 +44,7 @@ export default function ProductsPage() {
                 <Link key={product.slug} href={`/en/products/${product.slug}`} className="glass-card glass-card-hover group overflow-hidden p-5 flex flex-col justify-between">
                   <div>
                     <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-[#102238]">
-                      <img src={product.image} alt={product.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                      <img src={product.image} alt={product.title} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#071523]/80 via-transparent to-transparent" />
                     </div>
                     <div className="pt-5">

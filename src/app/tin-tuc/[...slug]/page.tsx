@@ -197,7 +197,7 @@ export default async function ArticleDetailPage({ params }: Props) {
           <section className="py-12">
             <div className="mx-auto max-w-[900px] px-5 sm:px-8">
               <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#102238] shadow-2xl">
-                <img src={article.image} alt={article.title} className="aspect-[16/9] w-full object-cover" />
+                <img src={article.image} alt={article.title} loading="lazy" decoding="async" className="aspect-[16/9] w-full object-cover" />
               </div>
             </div>
           </section>

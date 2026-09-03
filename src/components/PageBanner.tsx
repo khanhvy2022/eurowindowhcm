@@ -52,6 +52,8 @@ export default function PageBanner({ title, crumb, sub, homeHref = "/", homeLabe
           <img
             src={bgImage}
             alt=""
+            fetchPriority="high"
+            decoding="async"
             className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 scale-105"
             style={{ transform: `translateY(${imageOffset}px)` }}
           />

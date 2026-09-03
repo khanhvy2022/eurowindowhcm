@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { headers } from "next/headers";
 import { Space_Grotesk } from "next/font/google";
 import Script from "next/script";
 import ChatWidget from "@/components/ChatWidget";
@@ -206,18 +205,16 @@ const websiteSchema = {
   },
 };
 
-export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const headersList = await headers();
-  const locale = headersList.get("x-locale") || "vi";
-
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
-      lang={locale}
+      lang="vi"
       prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#"
       data-scroll-behavior="smooth"
       className={`${spaceGrotesk.variable} h-full antialiased scroll-smooth`}
     >
       <head>
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -228,12 +225,12 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
         />
       </head>
       <body className={`${spaceGrotesk.className} min-h-full selection:bg-[#E2C275]/30 selection:text-white`}>
-        {/* Google Analytics GA4 */}
+        {/* Google Analytics GA4 (lazyOnload to prevent blocking initial paint) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BBMNYWJ8WN"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

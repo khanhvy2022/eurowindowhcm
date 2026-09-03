@@ -80,6 +80,8 @@ export default function HeroVideo({
           <img
             src={posterSrc}
             alt="Eurowindow Architectural Glass & Aluminum Solutions"
+            fetchPriority="high"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         ) : (
@@ -89,13 +91,19 @@ export default function HeroVideo({
             muted
             loop
             playsInline
-            preload="auto"
+            preload="metadata"
             poster={posterSrc}
             aria-hidden="true"
             className="h-full w-full object-cover pointer-events-none opacity-60 scale-[1.02] transition-transform duration-1000"
           >
             <source src={videoSrc} type="video/mp4" />
-            <img src={posterSrc} alt="Eurowindow" className="h-full w-full object-cover" />
+            <img
+              src={posterSrc}
+              alt="Eurowindow"
+              fetchPriority="high"
+              decoding="async"
+              className="h-full w-full object-cover"
+            />
           </video>
         )}
       </div>
