@@ -20,7 +20,7 @@ interface HeroVideoProps {
 
 export default function HeroVideo({
   videoSrc = "/videos/hero-video-optimized.mp4",
-  posterSrc = "/videos/hero-poster.jpg",
+  posterSrc = "/videos/hero-poster.webp",
   badge = "THƯƠNG HIỆU QUỐC GIA • 23+ NĂM TIÊN PHONG",
   headline = "Eurowindow Kiến Tạo Không Gian Kiến Trúc Đẳng Cấp",
   subheadline = "Tiên phong cung cấp giải pháp tổng thể về cửa nhôm kính, cửa uPVC, cửa gỗ và vách kính tiêu chuẩn quốc tế cho các công trình biểu tượng và biệt thự hạng sang.",

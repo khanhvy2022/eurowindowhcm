@@ -21,15 +21,14 @@ export default function PageBanner({ title, crumb, sub, homeHref = "/", homeLabe
   const [scrolled, setScrolled] = useState(0);
 
   useEffect(() => {
-    const el = bannerRef.current;
-    if (!el) return;
     let ticking = false;
     const onScroll = () => {
       if (!ticking) {
         requestAnimationFrame(() => {
-          const rect = el.getBoundingClientRect();
-          const offset = Math.max(0, -rect.top);
-          setScrolled(offset);
+          const sy = window.scrollY;
+          if (sy <= 400) {
+            setScrolled(sy);
+          }
           ticking = false;
         });
         ticking = true;
