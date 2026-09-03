@@ -270,10 +270,12 @@ export default function ContactClient() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#94A3B8]">
+                    <label htmlFor="en-contact-product" className="block text-xs font-bold uppercase tracking-wider text-[#94A3B8]">
                       Product of Interest
                     </label>
                     <select
+                      id="en-contact-product"
+                      aria-label="Product of Interest"
                       value={form.product}
                       onChange={(e) => setForm({ ...form, product: e.target.value })}
                       className="mt-2 w-full rounded-xl border border-white/10 bg-[#071523] px-4 py-3 text-sm text-white outline-none transition focus:border-[#E2C275]"

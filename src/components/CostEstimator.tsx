@@ -132,10 +132,12 @@ export default function CostEstimator() {
 
               {/* Package Level */}
               <div>
-                <label className="mb-2 block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">
+                <label htmlFor="cost-estimator-package" className="mb-2 block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">
                   Phân khúc giải pháp thiết kế:
                 </label>
                 <select
+                  id="cost-estimator-package"
+                  aria-label="Phân khúc giải pháp thiết kế"
                   value={packageLevel}
                   onChange={(e) => setPackageLevel(e.target.value)}
                   className="w-full rounded-xl border border-white/15 bg-[#102238] px-4 py-3.5 text-sm font-semibold text-white outline-none backdrop-blur-md transition focus:border-[#E2C275]"

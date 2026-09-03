@@ -255,10 +255,12 @@ export default function FinalCTA({ lang = "vi" }: FinalCTAProps) {
                   {/* 34 Provinces and Post-Merger Wards */}
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <div>
-                      <label className="block text-[11px] font-bold uppercase tracking-wider text-[#D2D8E3] mb-1.5">
+                      <label htmlFor="final-cta-province" className="block text-[11px] font-bold uppercase tracking-wider text-[#D2D8E3] mb-1.5">
                         Tỉnh / Thành phố (34 tỉnh thành) <span className="text-[#C9A227]">*</span>
                       </label>
                       <select
+                        id="final-cta-province"
+                        aria-label="Tỉnh hoặc Thành phố"
                         value={selectedProvinceName}
                         onChange={(e) => handleProvinceChange(e.target.value)}
                         className="w-full rounded-xl border border-white/15 bg-[#06101f] px-4 py-3 text-sm text-white outline-none transition focus:border-[#C9A227] focus:ring-1 focus:ring-[#C9A227]"
@@ -272,10 +274,12 @@ export default function FinalCTA({ lang = "vi" }: FinalCTAProps) {
                     </div>
 
                     <div>
-                      <label className="block text-[11px] font-bold uppercase tracking-wider text-[#D2D8E3] mb-1.5">
+                      <label htmlFor="final-cta-ward" className="block text-[11px] font-bold uppercase tracking-wider text-[#D2D8E3] mb-1.5">
                         Phường / Xã (Sau sáp nhập) <span className="text-[#C9A227]">*</span>
                       </label>
                       <select
+                        id="final-cta-ward"
+                        aria-label="Phường hoặc Xã"
                         value={selectedWard}
                         onChange={(e) => setSelectedWard(e.target.value)}
                         className="w-full rounded-xl border border-white/15 bg-[#06101f] px-4 py-3 text-sm text-white outline-none transition focus:border-[#C9A227] focus:ring-1 focus:ring-[#C9A227]"
@@ -292,10 +296,12 @@ export default function FinalCTA({ lang = "vi" }: FinalCTAProps) {
                   {/* Street and Product */}
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <div>
-                      <label className="block text-[11px] font-bold uppercase tracking-wider text-[#D2D8E3] mb-1.5">
+                      <label htmlFor="final-cta-street" className="block text-[11px] font-bold uppercase tracking-wider text-[#D2D8E3] mb-1.5">
                         Địa chỉ chi tiết (Số nhà, tên đường)
                       </label>
                       <input
+                        id="final-cta-street"
+                        aria-label="Địa chỉ chi tiết"
                         type="text"
                         value={streetAddress}
                         onChange={(e) => setStreetAddress(e.target.value)}
@@ -305,10 +311,12 @@ export default function FinalCTA({ lang = "vi" }: FinalCTAProps) {
                     </div>
 
                     <div>
-                      <label className="block text-[11px] font-bold uppercase tracking-wider text-[#D2D8E3] mb-1.5">
+                      <label htmlFor="final-cta-product" className="block text-[11px] font-bold uppercase tracking-wider text-[#D2D8E3] mb-1.5">
                         Dòng sản phẩm quan tâm
                       </label>
                       <select
+                        id="final-cta-product"
+                        aria-label="Dòng sản phẩm quan tâm"
                         value={selectedProduct}
                         onChange={(e) => setSelectedProduct(e.target.value)}
                         className="w-full rounded-xl border border-white/15 bg-[#06101f] px-4 py-3 text-sm text-white outline-none transition focus:border-[#C9A227] focus:ring-1 focus:ring-[#C9A227]"

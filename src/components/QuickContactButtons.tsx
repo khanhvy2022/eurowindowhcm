@@ -54,8 +54,9 @@ export default function QuickContactButtons() {
             href={zaloUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={isEn ? `Chat via Zalo: ${formattedPhone}` : `Chat Zalo: ${formattedPhone}`}
             title={isEn ? `Chat via Zalo: ${formattedPhone}` : `Chat Zalo: ${formattedPhone}`}
-            className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform duration-200 hover:scale-110 active:scale-95 overflow-hidden"
+            className="relative w-12 h-12 min-w-[48px] min-h-[48px] sm:w-14 sm:h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform duration-200 hover:scale-110 active:scale-95 overflow-hidden"
             style={{ background: "linear-gradient(145deg, #1a8cff 0%, #0052cc 100%)" }}
           >
             <span
@@ -74,8 +75,9 @@ export default function QuickContactButtons() {
 
           <a
             href={`tel:${phoneNumber}`}
+            aria-label={isEn ? `Call Hotline: ${formattedPhone}` : `Gọi Hotline: ${formattedPhone}`}
             title={isEn ? `Call Hotline: ${formattedPhone}` : `Gọi Hotline: ${formattedPhone}`}
-            className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform duration-200 hover:scale-110 active:scale-95"
+            className="relative w-12 h-12 min-w-[48px] min-h-[48px] sm:w-14 sm:h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform duration-200 hover:scale-110 active:scale-95"
             style={{ background: "linear-gradient(145deg, #ff4444 0%, #cc0000 100%)" }}
           >
             <PhoneIcon />

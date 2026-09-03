@@ -239,10 +239,10 @@ export default function Footer({ lang = "vi" }: FooterProps) {
       </div>
 
       {/* Sub-footer Copyright */}
-      <div className="border-t border-white/10 bg-[#040a14] px-5 py-6 text-center text-sm text-[#94A3B8]">
+      <div className="border-t border-white/10 bg-[#040a14] px-5 py-6 text-center text-sm text-[#CBD5E1]">
         <div className="mx-auto flex max-w-[1360px] flex-col items-center justify-between gap-3 sm:flex-row">
           <p>© {new Date().getFullYear()} Eurowindow HCM. All rights reserved.</p>
-          <p className="text-xs text-[#64748B]">
+          <p className="text-xs text-[#94A3B8]">
             {isEn ? "Pioneering total European architectural door & facade systems in Vietnam" : "Thương hiệu tiên phong giải pháp cửa & vách nhôm kính tiêu chuẩn Châu Âu"}
           </p>
         </div>
@@ -253,9 +253,9 @@ export default function Footer({ lang = "vi" }: FooterProps) {
         type="button"
         onClick={scrollToTop}
         aria-label="Back to top"
-        className="fixed bottom-6 right-6 z-40 flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-[#0c1c33]/90 text-[#C9A227] shadow-2xl backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-[#C9A227] hover:bg-[#C9A227] hover:text-[#06101f]"
+        className="fixed bottom-28 right-4 sm:bottom-32 sm:right-6 z-40 flex h-12 w-12 min-h-[48px] min-w-[48px] items-center justify-center rounded-full border border-white/20 bg-[#0c1c33]/90 text-[#C9A227] shadow-2xl backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-[#C9A227] hover:bg-[#C9A227] hover:text-[#06101f]"
       >
-        <ArrowUp className="h-4 w-4" />
+        <ArrowUp className="h-5 w-5" />
       </button>
     </footer>
   );

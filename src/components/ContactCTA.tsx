@@ -169,10 +169,12 @@ export default function ContactCTA() {
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">
+                    <label htmlFor="contact-cta-project-type" className="mb-1.5 block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">
                       Hạng mục sản phẩm
                     </label>
                     <select
+                      id="contact-cta-project-type"
+                      aria-label="Hạng mục sản phẩm"
                       value={formData.projectType}
                       onChange={(e) => setFormData({ ...formData, projectType: e.target.value })}
                       className="w-full rounded-xl border border-white/15 bg-[#102238] px-4 py-3 text-sm text-white outline-none transition focus:border-[#E2C275]"

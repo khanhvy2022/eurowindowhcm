@@ -167,10 +167,12 @@ export default function FengShuiTool() {
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">
+                    <label htmlFor="feng-shui-gender" className="mb-1.5 block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">
                       Giới tính:
                     </label>
                     <select
+                      id="feng-shui-gender"
+                      aria-label="Giới tính"
                       value={gender}
                       onChange={(e) => setGender(e.target.value)}
                       className="w-full rounded-xl border border-white/15 bg-[#102238] px-4 py-3 text-sm font-semibold text-white outline-none backdrop-blur-md transition focus:border-[#E2C275]"
@@ -181,10 +183,12 @@ export default function FengShuiTool() {
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">
+                    <label htmlFor="feng-shui-direction" className="mb-1.5 block text-xs font-bold uppercase tracking-wider text-[#D2D8E3]">
                       Hướng cửa dự kiến:
                     </label>
                     <select
+                      id="feng-shui-direction"
+                      aria-label="Hướng cửa dự kiến"
                       value={direction}
                       onChange={(e) => setDirection(e.target.value)}
                       className="w-full rounded-xl border border-white/15 bg-[#102238] px-4 py-3 text-sm font-semibold text-white outline-none backdrop-blur-md transition focus:border-[#E2C275]"

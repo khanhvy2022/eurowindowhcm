@@ -405,11 +405,13 @@ export default function GeographicSelectorLeadForm() {
 
             {/* Product & Requirement Selection */}
             <div>
-              <label className="mb-1.5 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[#E2C275]">
+              <label htmlFor="geo-requirement-select" className="mb-1.5 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[#E2C275]">
                 <FileText className="h-3.5 w-3.5" />
                 3. Giải pháp cửa cần tư vấn
               </label>
               <select
+                id="geo-requirement-select"
+                aria-label="3. Giải pháp cửa cần tư vấn"
                 value={requirement}
                 onChange={(e) => setRequirement(e.target.value)}
                 className="h-12 w-full rounded-xl border border-white/20 bg-[#102238] px-4 text-sm text-white focus:border-[#E2C275] focus:outline-none"

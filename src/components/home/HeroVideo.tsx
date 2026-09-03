@@ -32,10 +32,14 @@ export default function HeroVideo({
   scrollAriaLabel = "Cuộn xuống khám phá",
 }: HeroVideoProps) {
   const [isReducedMotion, setIsReducedMotion] = useState(false);
+  const [videoError, setVideoError] = useState(false);
+  const [videoMounted, setVideoMounted] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
+    setVideoMounted(true);
+
     // Check reduced motion preference
     const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
     setIsReducedMotion(mediaQuery.matches);
@@ -48,7 +52,7 @@ export default function HeroVideo({
     // Pause video when out of viewport to preserve 100% CPU/GPU performance
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (!videoRef.current) return;
+        if (!videoRef.current || videoError) return;
         if (entry.isIntersecting) {
           videoRef.current.play().catch(() => {});
         } else {
@@ -66,7 +70,7 @@ export default function HeroVideo({
       mediaQuery.removeEventListener("change", handleChange);
       observer.disconnect();
     };
-  }, []);
+  }, [videoError]);
 
   return (
     <section
@@ -76,7 +80,7 @@ export default function HeroVideo({
     >
       {/* 1. Cinematic Architectural Video Background / High-Res Poster Fallback */}
       <div className="absolute inset-0 z-0 h-full w-full overflow-hidden">
-        {isReducedMotion ? (
+        {isReducedMotion || videoError || !videoMounted ? (
           <img
             src={posterSrc}
             alt="Eurowindow Architectural Glass & Aluminum Solutions"
@@ -94,9 +98,10 @@ export default function HeroVideo({
             preload="metadata"
             poster={posterSrc}
             aria-hidden="true"
+            onError={() => setVideoError(true)}
             className="h-full w-full object-cover pointer-events-none opacity-60 scale-[1.02] transition-transform duration-1000"
           >
-            <source src={videoSrc} type="video/mp4" />
+            <source src={videoSrc} type="video/mp4" onError={() => setVideoError(true)} />
             <img
               src={posterSrc}
               alt="Eurowindow"
