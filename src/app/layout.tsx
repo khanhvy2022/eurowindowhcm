@@ -95,8 +95,17 @@ export const metadata: Metadata = {
     description:
       "Nhà phân phối chính hãng Eurowindow tại TP.HCM – cửa nhôm kính, cửa uPVC, kính an toàn. Hotline: 0966 994 338.",
     images: [`${SITE_URL}/eurowindow/cuanhom.jpg.webp`],
-    site: "@eurowindow_hcm",
-    creator: "@eurowindow_hcm",
+    site: "@EurowindowHo",
+    creator: "@EurowindowHo",
+  },
+  verification: {
+    google: "0FTA2xkzXcpAYDDeQ-XJSUUEe9S0vA1sBBjq7jNfPlo",
+    yandex: "08aca8c1b7c7d334",
+    other: {
+      "msvalidate.01": "20AECD452BC31C72DFFDD7A0D4EFD759",
+      "p:domain_verify": "808c7f59f5b55c7a3a28e7f19d5f55f9",
+      "dmca-site-verification": "SGpDM1ZpY1N5Y2R3WXRHMHRHdkFISGI4RlRQa1ZCS0RhMkx3NlFlOXFLYz01",
+    },
   },
   robots: {
     index: true,
@@ -131,11 +140,12 @@ const localBusinessSchema = {
   image: `${SITE_URL}/eurowindow/cuanhom.jpg.webp`,
   description:
     "Nhà phân phối chính hãng cửa nhôm kính, cửa uPVC, cửa gỗ, kính an toàn và vách kính cao cấp Eurowindow tại TP. Hồ Chí Minh và khu vực miền Nam.",
-  telephone: "+84903118888",
+  telephone: "+84966994338",
   email: "thangtq2@eurowindow.biz",
-  priceRange: "$$",
+  priceRange: "$$$",
   currenciesAccepted: "VND",
   paymentAccepted: "Cash, Credit Card, Bank Transfer",
+  hasMap: "https://www.google.com/maps/place/Eurowindow/@10.7851608,106.6965552,17z/data=!3m1!4b1!4m5!3m4!1s0x31752f359420bf6f:0xd21ebe21b390b760!8m2!3d10.7851608!4d106.6987439?hl=vi-VN",
   address: {
     "@type": "PostalAddress",
     streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Tân Định",
@@ -160,24 +170,73 @@ const localBusinessSchema = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "08:00",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "08:30",
       closes: "18:00",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Saturday"],
+      opens: "08:30",
+      closes: "11:30",
     },
   ],
   contactPoint: [
     {
       "@type": "ContactPoint",
-      telephone: "+84903118888",
+      telephone: "+84966994338",
       contactType: "sales",
       areaServed: "VN",
       availableLanguage: ["Vietnamese", "English"],
     },
   ],
   sameAs: [
+    "https://www.facebook.com/EurowindowMN/",
+    "https://www.youtube.com/channel/UCF7zxKNLO071ssSAP1Y4zUA",
+    "https://twitter.com/EurowindowHo",
+    "https://www.instagram.com/thang.tranquyet.961/",
+    "https://www.pinterest.com/quyetthang87dl/pins/",
     "https://www.facebook.com/eurowindow.biz",
     "https://www.youtube.com/@eurowindow",
   ],
+};
+
+const authorPersonSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": `${SITE_URL}/#author`,
+  name: "Eurowindow Ho Chi Minh",
+  jobTitle: "Chuyên viên tư vấn giải pháp cửa & vách nhôm kính Eurowindow",
+  worksFor: {
+    "@type": "Organization",
+    name: "Cửa Eurowindow Hồ Chí Minh",
+    url: SITE_URL,
+  },
+  url: `${SITE_URL}/gioi-thieu`,
+  alumniOf: [
+    {
+      "@type": "EducationalOrganization",
+      name: "Cao Đẳng Giao Thông Vận Tải 3",
+    },
+    {
+      "@type": "EducationalOrganization",
+      name: "RMIT University",
+    },
+  ],
+  sameAs: [
+    "https://www.facebook.com/EurowindowMN/",
+    "https://www.instagram.com/thang.tranquyet.961/",
+    "https://www.youtube.com/channel/UCF7zxKNLO071ssSAP1Y4zUA",
+    "https://www.pinterest.com/quyetthang87dl/pins/",
+    "https://twitter.com/EurowindowHo",
+  ],
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "39 Bis Mạc Đĩnh Chi, Phường Tân Định",
+    addressLocality: "Thành phố Hồ Chí Minh",
+    addressRegion: "Hồ Chí Minh",
+    addressCountry: "VN",
+  },
 };
 
 const websiteSchema = {
@@ -215,9 +274,16 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     >
       <head>
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <meta property="fb:app_id" content="1184893731898959" />
+        <meta property="fb:admins" content="1820683361594975" />
+        <meta property="article:author" content="https://www.facebook.com/EurowindowMN/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(authorPersonSchema) }}
         />
         <script
           type="application/ld+json"
