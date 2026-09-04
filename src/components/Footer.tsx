@@ -3,7 +3,7 @@
 import BrandLogo from "@/components/BrandLogo";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArrowUp, Building2, ExternalLink, Mail, MapPin, Phone } from "lucide-react";
+import { Building2, ExternalLink, Mail, MapPin, Phone } from "lucide-react";
 import { contact, partnerLinks } from "@/data/eurowindow";
 
 type FooterProps = { lang?: "vi" | "en" };
@@ -56,8 +56,6 @@ export default function Footer({ lang = "vi" }: FooterProps) {
   const showroomsHref = "/he-thong-showroom";
   const servicesHref = isEn ? "/en/services" : "/dich-vu";
   const newsHref = isEn ? "/en/news" : "/tin-tuc";
-
-  const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
     <footer id="lien-he" className="border-t border-white/10 bg-[#06101f] text-white">
@@ -247,16 +245,6 @@ export default function Footer({ lang = "vi" }: FooterProps) {
           </p>
         </div>
       </div>
-
-      {/* Back to Top Floating Button */}
-      <button
-        type="button"
-        onClick={scrollToTop}
-        aria-label="Back to top"
-        className="fixed bottom-28 right-4 sm:bottom-32 sm:right-6 z-40 flex h-12 w-12 min-h-[48px] min-w-[48px] items-center justify-center rounded-full border border-white/20 bg-[#0c1c33]/90 text-[#C9A227] shadow-2xl backdrop-blur-xl transition-all duration-300 hover:scale-110 hover:border-[#C9A227] hover:bg-[#C9A227] hover:text-[#06101f]"
-      >
-        <ArrowUp className="h-5 w-5" />
-      </button>
     </footer>
   );
 }

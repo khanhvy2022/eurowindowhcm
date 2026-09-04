@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import { ArrowUp } from "lucide-react";
 
 const PhoneIcon = () => (
   <svg viewBox="0 0 24 24" fill="white" className="w-6 h-6">
@@ -16,11 +17,32 @@ export default function QuickContactButtons() {
   const formattedPhone = "0966 994 338";
   const zaloUrl = `https://zalo.me/${phoneNumber}`;
   const [visible, setVisible] = useState(false);
+  const [showBackToTop, setShowBackToTop] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setVisible(true), 400);
-    return () => clearTimeout(timer);
+
+    let ticking = false;
+    const handleScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          setShowBackToTop(window.scrollY > 300);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <>
@@ -40,11 +62,24 @@ export default function QuickContactButtons() {
       `}</style>
 
       <div
-        aria-label={isEn ? "Quick contact" : "Liên hệ nhanh"}
-        className={`fixed bottom-5 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-center gap-3.5 sm:gap-4 print:hidden select-none pb-[env(safe-area-inset-bottom,0px)] transition-all duration-700 ${
+        aria-label={isEn ? "Quick contact & Navigation" : "Liên hệ nhanh & Điều hướng"}
+        className={`fixed bottom-5 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-center gap-4 print:hidden select-none pb-[env(safe-area-inset-bottom,0px)] transition-all duration-700 ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
         }`}
       >
+        {/* ── BACK TO TOP (Cách Zalo đúng 1rem / 16px) ── */}
+        <button
+          type="button"
+          onClick={scrollToTop}
+          aria-label={isEn ? "Back to top" : "Lên đầu trang"}
+          title={isEn ? "Back to top" : "Cuộn lên đầu trang"}
+          className={`relative w-12 h-12 min-w-[48px] min-h-[48px] sm:w-14 sm:h-14 rounded-full border border-white/20 bg-[#0c1c33]/90 text-[#C9A227] shadow-2xl backdrop-blur-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:border-[#C9A227] hover:bg-[#C9A227] hover:text-[#06101f] active:scale-95 ${
+            showBackToTop ? "opacity-100 scale-100 pointer-events-auto" : "opacity-0 scale-75 pointer-events-none"
+          }`}
+        >
+          <ArrowUp className="w-5 h-5 sm:w-6 sm:h-6" />
+        </button>
+
         {/* ── ZALO ── */}
         <div className="relative flex items-center justify-center">
           <span className="sonar-1 absolute inset-0 rounded-full bg-[#0068ff]/40 pointer-events-none" />
