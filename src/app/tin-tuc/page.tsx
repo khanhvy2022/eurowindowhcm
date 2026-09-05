@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     languages: {
       vi: "https://www.eurowindowhcm.com/tin-tuc",
       en: "https://www.eurowindowhcm.com/en/news",
+      "x-default": "https://www.eurowindowhcm.com/tin-tuc",
     },
   },
   openGraph: {
@@ -23,7 +24,14 @@ export const metadata: Metadata = {
     description:
       "Cập nhật tin tức mới nhất từ Eurowindow: sự kiện nổi bật, chương trình ưu đãi và chia sẻ kiến thức xây dựng.",
     url: "https://www.eurowindowhcm.com/tin-tuc",
-    images: [{ url: "/eurowindow/toa-dam-1.png.webp", width: 1200, height: 630, alt: "Tin tức Eurowindow" }],
+    images: [{ url: "https://www.eurowindowhcm.com/eurowindow/toa-dam-1.png.webp", width: 1200, height: 630, alt: "Tin tức Eurowindow" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tin tức Eurowindow – Sự kiện, Ưu đãi & Kiến thức xây dựng",
+    description:
+      "Cập nhật tin tức mới nhất từ Eurowindow: sự kiện nổi bật, chương trình ưu đãi và chia sẻ kiến thức xây dựng.",
+    images: ["https://www.eurowindowhcm.com/eurowindow/toa-dam-1.png.webp"],
   },
 };
 

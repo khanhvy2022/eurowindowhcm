@@ -63,7 +63,7 @@ export const metadata: Metadata = {
 
   metadataBase: new URL(SITE_URL),
   alternates: {
-    canonical: "./",
+    canonical: "https://www.eurowindowhcm.com",
     languages: {
       "vi-VN": "https://www.eurowindowhcm.com",
       "en-US": "https://www.eurowindowhcm.com/en",

@@ -45,7 +45,7 @@ export async function generateMetadata({
       url: "https://www.eurowindowhcm.com/cua-eurowindow",
       siteName: "Eurowindow HCM",
       locale: "vi_VN",
-      type: "article",
+      type: "website",
       images: [
         {
           url: "https://www.eurowindowhcm.com/uploads/cua-dep-ew/cong-trinh-su-dung-ew-1.jpg",

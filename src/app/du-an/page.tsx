@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     languages: {
       vi: "https://www.eurowindowhcm.com/du-an",
       en: "https://www.eurowindowhcm.com/en/projects",
+      "x-default": "https://www.eurowindowhcm.com/du-an",
     },
   },
   openGraph: {

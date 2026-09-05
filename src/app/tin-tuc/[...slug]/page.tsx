@@ -32,8 +32,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const rawTitle = article.title;
   // Truncate article titles to 55 chars so template "%s | Eurowindow HCM" stays within ~60c
   const title = rawTitle.length > 55 ? rawTitle.substring(0, 52) + "…" : rawTitle;
-  const description = article.excerpt || article.title;
+  const description =
+    article.excerpt && article.excerpt.length > 10
+      ? article.excerpt
+      : `Đọc bài viết ${rawTitle} – tin tức, kiến thức và giải pháp cửa Eurowindow HCM.`;
   const hasEn = EN_NEWS_SLUGS.has(article.slug);
+
+  // Convert dd/MM/yyyy → ISO 8601 (yyyy-MM-dd) for OG publishedTime
+  function toISO(dateStr: string): string | undefined {
+    if (!dateStr) return undefined;
+    const parts = dateStr.split("/");
+    if (parts.length === 3) return `${parts[2]}-${parts[1].padStart(2, "0")}-${parts[0].padStart(2, "0")}`;
+    return dateStr;
+  }
+
+  const ogImage = article.image
+    ? { url: article.image.startsWith("http") ? article.image : `${BASE_URL}${article.image}`, width: 1200, height: 630, alt: rawTitle }
+    : undefined;
 
   return {
     title,
@@ -45,6 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             languages: {
               vi: `${BASE_URL}/tin-tuc/${article.slug}`,
               en: `${BASE_URL}/en/news/${article.slug}`,
+              "x-default": `${BASE_URL}/tin-tuc/${article.slug}`,
             },
           }
         : {}),
@@ -54,15 +70,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       url: canonicalUrl,
       type: "article",
-      publishedTime: article.date,
+      publishedTime: toISO(article.date ?? ""),
       authors: [article.author || "Eurowindow HCM"],
-      images: article.image ? [{ url: article.image }] : undefined,
+      images: ogImage ? [ogImage] : undefined,
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: article.image ? [article.image] : undefined,
+      images: ogImage ? [ogImage.url] : undefined,
     },
   };
 }

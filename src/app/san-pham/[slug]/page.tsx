@@ -79,8 +79,6 @@ export default async function ProductDetailPage({ params }: Props) {
     offers: {
       "@type": "Offer",
       priceCurrency: "VND",
-      price: "1500000",
-      priceValidUntil: "2027-12-31",
       availability: "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
       url: canonicalUrl,
