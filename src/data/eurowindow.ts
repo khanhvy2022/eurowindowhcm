@@ -120,4 +120,5 @@ export const partnerLinks = [
   { label: "Eurowindow - Chi Nhánh Miền Nam", href: "https://www.eurowindowvn.com/" },
   { label: "Công ty CP Eurowindow", href: "https://www.eurowindowdoor.com/" },
   { label: "Cửa Eurowindow Miền Nam", href: "https://www.eurowindow.top/" },
+  { label: "Eurowindow Asia", href: "https://eurowindow.asia/" },
 ];

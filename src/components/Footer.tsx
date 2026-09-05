@@ -216,6 +216,7 @@ export default function Footer({ lang = "vi" }: FooterProps) {
                     { label: "Eurowindow Southern Branch", href: "https://www.eurowindowvn.com/" },
                     { label: "Eurowindow JSC Corporate", href: "https://www.eurowindowdoor.com/" },
                     { label: "Eurowindow Top Doors", href: "https://www.eurowindow.top/" },
+                    { label: "Eurowindow Asia", href: "https://eurowindow.asia/" },
                   ]
                 : partnerLinks
               ).map((p, idx) => (
