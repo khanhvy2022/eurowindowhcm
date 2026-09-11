@@ -145,10 +145,47 @@ export default function CuaEurowindowPage() {
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "VND",
-      lowPrice: "1800000",
-      highPrice: "9500000",
+      lowPrice: "850000",
+      highPrice: "15000000",
       offerCount: "50",
+      priceValidUntil: "2027-12-31",
       availability: "https://schema.org/InStock",
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingRate: {
+          "@type": "MonetaryAmount",
+          value: "0",
+          currency: "VND",
+        },
+        shippingDestination: {
+          "@type": "DefinedRegion",
+          addressCountry: "VN",
+        },
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: {
+            "@type": "QuantitativeValue",
+            minValue: 1,
+            maxValue: 3,
+            unitCode: "DAY",
+          },
+          transitTime: {
+            "@type": "QuantitativeValue",
+            minValue: 1,
+            maxValue: 7,
+            unitCode: "DAY",
+          },
+        },
+      },
+      hasMerchantReturnPolicy: {
+        "@type": "MerchantReturnPolicy",
+        applicableCountry: "VN",
+        returnPolicyCategory: "https://schema.org/MerchantReturnUnlimitedWindow",
+        name: "Chính sách bảo hành xuyên suốt chính hãng Eurowindow",
+        description: "Bảo hành kỹ thuật xuyên suốt quá trình sử dụng, hỗ trợ bảo dưỡng và kiểm tra định kỳ chính hãng trên toàn quốc.",
+        returnMethod: "https://schema.org/ReturnInStore",
+        returnFees: "https://schema.org/FreeReturn",
+      },
     },
   };
 

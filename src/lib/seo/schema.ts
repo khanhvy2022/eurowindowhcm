@@ -59,7 +59,30 @@ export function product(p: ProductPayload): JsonLd {
     ? base("Offer", {
         price: p.offers.price,
         priceCurrency: p.offers.currency ?? "VND",
+        priceValidUntil: "2027-12-31",
         availability: p.offers.availability ?? "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        shippingDetails: {
+          "@type": "OfferShippingDetails",
+          shippingRate: {
+            "@type": "MonetaryAmount",
+            value: "0",
+            currency: "VND",
+          },
+          shippingDestination: {
+            "@type": "DefinedRegion",
+            addressCountry: "VN",
+          },
+        },
+        hasMerchantReturnPolicy: {
+          "@type": "MerchantReturnPolicy",
+          applicableCountry: "VN",
+          returnPolicyCategory: "https://schema.org/MerchantReturnUnlimitedWindow",
+          name: "Chính sách bảo hành xuyên suốt chính hãng Eurowindow",
+          description: "Bảo hành kỹ thuật xuyên suốt quá trình sử dụng, hỗ trợ bảo dưỡng và kiểm tra định kỳ chính hãng trên toàn quốc.",
+          returnMethod: "https://schema.org/ReturnInStore",
+          returnFees: "https://schema.org/FreeReturn",
+        },
       })
     : undefined;
   return base("Product", {

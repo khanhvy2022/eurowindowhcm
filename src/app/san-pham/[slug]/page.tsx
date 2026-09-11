@@ -65,6 +65,16 @@ export default async function ProductDetailPage({ params }: Props) {
   const canonicalUrl = `https://www.eurowindowhcm.com/san-pham/${product.slug}`;
   const imageUrl = `https://www.eurowindowhcm.com${product.image}`;
 
+  const PRODUCT_PRICES: Record<string, string> = {
+    "cua-nhom-vach-kinh": "6000000",
+    "cua-upvc": "6500000",
+    "cua-go": "4500000",
+    "cua-cuon": "12000000",
+    "cua-tu-dong": "15000000",
+    "san-pham-kinh": "850000",
+  };
+  const productPrice = PRODUCT_PRICES[product.slug] || "6000000";
+
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -79,6 +89,8 @@ export default async function ProductDetailPage({ params }: Props) {
     offers: {
       "@type": "Offer",
       priceCurrency: "VND",
+      price: productPrice,
+      priceValidUntil: "2027-12-31",
       availability: "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
       url: canonicalUrl,
@@ -86,6 +98,42 @@ export default async function ProductDetailPage({ params }: Props) {
         "@type": "Organization",
         name: "Cửa Eurowindow Hồ Chí Minh",
         url: "https://www.eurowindowhcm.com",
+      },
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingRate: {
+          "@type": "MonetaryAmount",
+          value: "0",
+          currency: "VND",
+        },
+        shippingDestination: {
+          "@type": "DefinedRegion",
+          addressCountry: "VN",
+        },
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: {
+            "@type": "QuantitativeValue",
+            minValue: 1,
+            maxValue: 3,
+            unitCode: "DAY",
+          },
+          transitTime: {
+            "@type": "QuantitativeValue",
+            minValue: 1,
+            maxValue: 7,
+            unitCode: "DAY",
+          },
+        },
+      },
+      hasMerchantReturnPolicy: {
+        "@type": "MerchantReturnPolicy",
+        applicableCountry: "VN",
+        returnPolicyCategory: "https://schema.org/MerchantReturnUnlimitedWindow",
+        name: "Chính sách bảo hành xuyên suốt chính hãng Eurowindow",
+        description: "Bảo hành kỹ thuật xuyên suốt quá trình sử dụng, hỗ trợ bảo dưỡng và kiểm tra định kỳ chính hãng trên toàn quốc.",
+        returnMethod: "https://schema.org/ReturnInStore",
+        returnFees: "https://schema.org/FreeReturn",
       },
     },
   };
