@@ -60,6 +60,7 @@ export const news = [
   { title: "Tọa đàm \"Xu hướng nguồn nhân lực – Chiến lược phát triển và quản trị trong bối cảnh mới\"", image: "/eurowindow/cua-nhom-kinh-cach-am-1.jpg.webp", href: "/tin-tuc", category: "noi-bo" },
   { title: "EUROWINDOW BỨT PHÁ TRÊN HÀNH TRÌNH TÁI THIẾT: KIẾN TẠO MÔI TRƯỜNG LÀM VIỆC CHUYÊN NGHIỆP", image: "/eurowindow/z7978260236950-59ec572c33f7b933b6e48fae6107511b.jpg", href: "/tin-tuc", category: "noi-bo" },
   { title: "EUROWINDOW TĂNG TỐC TRÊN HÀNH TRÌNH \"90 NGÀY TÁI THIẾT NƠI LÀM VIỆC TỐT NHẤT\"", image: "/eurowindow/toa-dam-1.png.webp", href: "/tin-tuc", category: "noi-bo" },
+  { title: "Thể lệ chương trình khuyến mại “Sắm cửa đón sang – Sẵn sàng rinh xế”", image: "/uploads/khuyen-mai-2026.png", href: "/tin-tuc/the-le-chuong-trinh-khuyen-mai-sam-cua-don-sang-san-sang-rinh-xe", category: "khuyen-mai" },
   { title: "Thể lệ chương trình khuyến mãi: \"Đón hạ sang – Nhận ưu đãi vàng\"", image: "/eurowindow/img-0344.jpeg.webp", href: "/tin-tuc", category: "khuyen-mai" },
   { title: "Thể lệ chương trình khuyến mãi \"Siêu phẩm sang – Ưu đãi vàng\"", image: "/eurowindow/cua-nhom-kinh-cach-am-1.jpg.webp", href: "/tin-tuc", category: "khuyen-mai" },
   { title: "Chương trình khuyến mại đặc biệt dành cho khách hàng mua kính điện Eurowindow", image: "/eurowindow/z7978260236950-59ec572c33f7b933b6e48fae6107511b.jpg", href: "/tin-tuc", category: "khuyen-mai" },

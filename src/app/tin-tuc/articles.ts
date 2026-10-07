@@ -24,6 +24,260 @@ export type Article = {
 
 const handcraftedArticles: Article[] = [
   {
+    slug: "the-le-chuong-trinh-khuyen-mai-sam-cua-don-sang-san-sang-rinh-xe",
+    aliases: [
+      "sam-cua-don-sang-san-sang-rinh-xe",
+      "khuyen-mai-sam-cua-don-sang-san-sang-rinh-xe",
+      "tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-sam-cua-don-sang-san-sang-rinh-xe",
+    ],
+    oldUrl: "https://eurowindow.biz/tin-tuc/tin-khuyen-mai/the-le-chuong-trinh-khuyen-mai-sam-cua-don-sang-san-sang-rinh-xe.html",
+    title: "Thể lệ chương trình khuyến mại “Sắm cửa đón sang – Sẵn sàng rinh xế”",
+    category: "Tin khuyến mãi",
+    date: "30/09/2026",
+    publishedAt: "2026-09-30",
+    featured: true,
+    author: "Eurowindow HCM",
+    tags: [
+      "Khuyến mại Eurowindow",
+      "Sắm cửa đón sang – Sẵn sàng rinh xế",
+      "Sản phẩm Eurowindow",
+      "Mercedes-Benz C200",
+      "Tin khuyến mãi",
+    ],
+    excerpt:
+      "Từ ngày 30/09/2026 đến 30/11/2026, Công ty Cổ phần Eurowindow triển khai chương trình khuyến mại “Sắm cửa đón sang – Sẵn sàng rinh xế” dành cho khách hàng nhà riêng trên toàn quốc. Chương trình mang đến nhiều quyền lợi thiết thực cùng cơ hội sở hữu loạt giải thưởng giá trị, nổi bật là Mercedes-Benz C200 trị giá 1,599 tỷ đồng.",
+    image: "/uploads/khuyen-mai-2026.png",
+    contentHtml: `<p class="lead font-medium text-lg text-slate-200">Từ ngày <strong>30/09/2026 đến 30/11/2026</strong>, Công ty Cổ phần Eurowindow triển khai chương trình khuyến mại <strong>“Sắm cửa đón sang – Sẵn sàng rinh xế”</strong> dành cho khách hàng nhà riêng trên toàn quốc. Chương trình mang đến nhiều quyền lợi thiết thực cùng cơ hội sở hữu loạt giải thưởng giá trị, nổi bật là <strong>Mercedes-Benz C200 trị giá 1,599 tỷ đồng</strong>.</p>
+
+<h2 id="ten-chuong-trinh" class="scroll-mt-24">1. Tên chương trình “SẮM CỬA ĐÓN SANG – SẴN SÀNG RINH XẾ”</h2>
+
+<h2 id="hang-hoa-dich-vu-khuyen-mai" class="scroll-mt-24">2. Hàng hóa, dịch vụ dùng để khuyến mại: <a href="/san-pham">Sản phẩm Eurowindow</a>.</h2>
+
+<h2 id="thoi-gian-khuyen-mai" class="scroll-mt-24">3. Thời gian khuyến mại: Từ ngày 30/09/2026 đến hết ngày 30/11/2026.</h2>
+
+<h2 id="doi-tuong-va-pham-vi-ap-dung" class="scroll-mt-24">4. Đối tượng và phạm vi áp dụng</h2>
+<ul>
+  <li><strong>Đối tượng:</strong> Khách hàng nhà riêng trên toàn quốc ký hợp đồng/phụ lục hợp đồng mua sản phẩm của Công ty Cổ phần Eurowindow.</li>
+  <li><strong>Điều kiện:</strong> Áp dụng với hợp đồng/phụ lục hợp đồng ký trong thời gian khuyến mại từ ngày <strong>30/09/2026 đến hết ngày 30/11/2026</strong> và hoàn thành thủ tục thanh toán đặt cọc tối thiểu <strong>30%</strong> giá trị hợp đồng/phụ lục hợp đồng đến hết ngày <strong>08/12/2026</strong>.</li>
+</ul>
+
+<figure class="my-8 text-center">
+  <img src="/uploads/khuyen-mai-2026.png" alt="Thể lệ chương trình khuyến mại Eurowindow Sắm cửa đón sang – Sẵn sàng rinh xế từ 30/09/2026 đến 30/11/2026" width="7680" height="4320" fetchpriority="high" decoding="async" class="w-full rounded-2xl shadow-xl border border-white/10" />
+  <figcaption class="mt-3 text-sm italic text-slate-400">Chương trình khuyến mại “Sắm cửa đón sang – Sẵn sàng rinh xế” áp dụng từ 30/09/2026 đến 30/11/2026 dành cho khách hàng nhà riêng trên toàn quốc</figcaption>
+</figure>
+
+<h2 id="noi-dung-chuong-trinh-khuyen-mai" class="scroll-mt-24">5. Nội dung chương trình khuyến mại</h2>
+
+<h3 id="tang-may-giat-ket-hop-say-bosch">Tặng máy giặt kết hợp sấy Bosch</h3>
+<ul>
+  <li>Khách hàng ký hợp đồng/phụ lục hợp đồng có giá trị từ <strong>500 triệu đồng trở lên</strong> được nhận <strong>01 máy giặt kết hợp sấy cửa trước Bosch Series 6 trị giá 41.990.000 đồng</strong> hoặc quà tặng tương đương.</li>
+  <li>Quà tặng được trao sau khi khách hàng ký hợp đồng/phụ lục hợp đồng và hoàn thành thủ tục thanh toán đặt cọc theo CTKM.</li>
+  <li>Mỗi khách hàng được nhận 01 máy giặt kết hợp sấy tương ứng với một địa chỉ công trình.</li>
+</ul>
+
+<h3 id="giam-them-2-khi-thanh-toan-som">Giảm thêm 2% khi thanh toán sớm</h3>
+<ul>
+  <li>Khách hàng được <strong>giảm thêm 2%</strong> giá trị hợp đồng/phụ lục hợp đồng sau VAT khi thanh toán <strong>100%</strong> giá trị hợp đồng/phụ lục hợp đồng trong vòng <strong>07 ngày làm việc</strong> kể từ ngày ký hợp đồng/phụ lục hợp đồng.</li>
+  <li>Khách hàng có thể thanh toán nhiều lần, với điều kiện tổng số tiền thanh toán đạt 100% giá trị hợp đồng/phụ lục hợp đồng và hoàn tất trong thời hạn 07 ngày làm việc theo quy định.</li>
+</ul>
+
+<h3 id="co-hoi-quay-so-trung-thuong">Cơ hội quay số trúng thưởng</h3>
+<ul>
+  <li>Khách hàng ký hợp đồng/phụ lục hợp đồng trong thời gian diễn ra chương trình có cơ hội nhận <strong>“Mã dự thưởng”</strong> để tham gia quay số trúng thưởng.</li>
+  <li>Căn cứ vào giá trị khách hàng thanh toán cho Công ty Cổ phần Eurowindow, <strong>mỗi 10.000.000 đồng tương ứng 01 Mã dự thưởng</strong>.</li>
+  <li>Trường hợp số tiền thanh toán có giá trị lẻ từ <strong>5.000.000 đồng trở lên</strong>, khách hàng được nhận thêm 01 Mã dự thưởng.</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+  <li>Khách hàng thanh toán 35.000.000 đồng: nhận 04 Mã dự thưởng.</li>
+  <li>Khách hàng thanh toán 34.999.000 đồng: nhận 03 Mã dự thưởng.</li>
+</ul>
+<p>Khách hàng thanh toán dưới 10.000.000 đồng và số tiền thanh toán sau thời gian đặt cọc, tức sau ngày 08/12/2026, sẽ không được nhận Mã dự thưởng.</p>
+<p>Mã dự thưởng gồm một dãy 08 chữ số ngẫu nhiên, được gửi tới thiết bị di động của khách hàng thông qua SMS Brandname <strong>“Eurowindow”</strong> vào ngày <strong>15/12/2026</strong>. Trường hợp không nhận được tin nhắn, khách hàng vui lòng liên hệ hotline <a href="tel:0909888000"><strong>0909 888 000</strong></a> để được kiểm tra và hỗ trợ.</p>
+
+<h2 id="co-cau-giai-thuong" class="scroll-mt-24">6. Cơ cấu giải thưởng</h2>
+<ul>
+  <li><strong>01 Giải Đặc Biệt:</strong> Xe ô tô Mercedes-Benz C200 Avantgarde, sản xuất năm 2025, màu trắng, trị giá <strong>1.599.000.000 đồng</strong>.</li>
+  <li><strong>01 Giải Nhất:</strong> Xe máy Honda SH 125i phiên bản tiêu chuẩn, sản xuất năm 2026, màu trắng, trị giá <strong>85.212.000 đồng</strong>.</li>
+  <li><strong>02 Giải Nhì:</strong> Điện thoại iPhone 18 Pro Max 1TB, màu đỏ, trị giá <strong>61.490.000 đồng/giải</strong>.</li>
+  <li><strong>03 Giải Ba:</strong> Máy hút bụi khô và ướt Dyson V12s, trị giá <strong>24.990.000 đồng/giải</strong>.</li>
+</ul>
+
+<div class="overflow-x-auto my-6">
+  <table>
+    <thead>
+      <tr>
+        <th>Hạng giải</th>
+        <th>Số lượng</th>
+        <th>Giải thưởng</th>
+        <th>Trị giá (VNĐ)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Giải Đặc Biệt</strong></td>
+        <td>01</td>
+        <td>Xe ô tô Mercedes-Benz C200 Avantgarde (sản xuất năm 2025, màu trắng)</td>
+        <td>1.599.000.000 đồng</td>
+      </tr>
+      <tr>
+        <td><strong>Giải Nhất</strong></td>
+        <td>01</td>
+        <td>Xe máy Honda SH 125i phiên bản tiêu chuẩn (sản xuất năm 2026, màu trắng)</td>
+        <td>85.212.000 đồng</td>
+      </tr>
+      <tr>
+        <td><strong>Giải Nhì</strong></td>
+        <td>02</td>
+        <td>Điện thoại iPhone 18 Pro Max 1TB (màu đỏ)</td>
+        <td>61.490.000 đồng/giải</td>
+      </tr>
+      <tr>
+        <td><strong>Giải Ba</strong></td>
+        <td>03</td>
+        <td>Máy hút bụi khô và ướt Dyson V12s</td>
+        <td>24.990.000 đồng/giải</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="thoi-gian-va-cach-thuc-quay-so" class="scroll-mt-24">7. Thời gian và cách thức quay số trúng thưởng</h2>
+<p><strong>Thời gian dự kiến:</strong> 14h00 ngày 18/12/2026.</p>
+<p><strong>Địa điểm:</strong> Văn phòng Công ty Cổ phần Eurowindow, số 2 Tôn Thất Tùng, Phường Kim Liên, Thành phố Hà Nội.</p>
+<p>Chương trình quay số trúng thưởng được thực hiện trực tiếp thông qua phần mềm quay số ngẫu nhiên. Buổi quay số được tổ chức công khai dưới sự giám sát của đại diện cơ quan quản lý nhà nước, báo chí, khách mời và khách hàng có mặt tại sự kiện.</p>
+<p>Thứ tự quay số được thực hiện từ giải có giá trị thấp nhất đến cao nhất: <strong>Giải Ba – Giải Nhì – Giải Nhất – Giải Đặc Biệt</strong>.</p>
+<p>Kết quả được công bố tại sự kiện và trên website Eurowindow. Khách hàng trúng thưởng đồng thời được thông báo từ số điện thoại <strong>0909 888 000</strong> tới số điện thoại đã đăng ký tại hợp đồng/phụ lục hợp đồng trong vòng <strong>48 giờ làm việc</strong> kể từ thời điểm xác định người trúng thưởng.</p>
+
+<h2 id="thu-tuc-nhan-thuong" class="scroll-mt-24">8. Thủ tục nhận thưởng</h2>
+<p><strong>Địa điểm trao thưởng:</strong> Văn phòng Công ty Cổ phần Eurowindow, số 2 Tôn Thất Tùng, Phường Kim Liên, Thành phố Hà Nội.</p>
+<p>Khách hàng trúng thưởng cần cung cấp đầy đủ hồ sơ gồm:</p>
+<ul>
+  <li>Hợp đồng/phụ lục hợp đồng mua sản phẩm – bản sao;</li>
+  <li>Thanh lý hợp đồng/phụ lục hợp đồng – bản sao, nếu có;</li>
+  <li>Phiếu thu tiền mua sản phẩm có xác nhận của kế toán công nợ Công ty Cổ phần Eurowindow về việc thanh toán đáp ứng điều kiện tham gia chương trình – bản sao;</li>
+  <li>Tin nhắn SMS thông báo Mã dự thưởng từ Brandname “Eurowindow” – bản sao;</li>
+  <li>Thẻ căn cước công dân – bản sao y công chứng;</li>
+  <li>Thông tin mã số thuế thu nhập cá nhân.</li>
+</ul>
+<p><strong>Thời hạn trao thưởng:</strong> Đến hết ngày <strong>14/01/2027</strong>.</p>
+<p>Nếu hết thời hạn trên, người trúng thưởng không cung cấp đầy đủ giấy tờ liên quan để nhận thưởng thì được coi là không có nhu cầu nhận giải. Giá trị giải thưởng không được trao sẽ được Công ty Cổ phần Eurowindow xử lý theo quy định pháp luật hiện hành.</p>
+
+<h2 id="mot-so-quy-dinh-khac" class="scroll-mt-24">9. Một số quy định khác</h2>
+<ul>
+  <li>Chương trình khuyến mại <strong>không áp dụng đồng thời với chính sách ưu đãi khác</strong>.</li>
+  <li>Trong trường hợp bất khả kháng do thiên tai, địch họa, dịch bệnh..., thời gian tổ chức quay số và thời hạn nhận thưởng có thể thay đổi.</li>
+  <li>Toàn bộ cán bộ, công nhân viên Công ty Cổ phần Eurowindow không được tham gia chương trình quay số trúng thưởng.</li>
+  <li>Khách hàng trúng Giải chịu các chi phí phát sinh khi nhận thưởng, bao gồm thuế thu nhập cá nhân không thường xuyên, chi phí đi lại, lưu trú, ăn uống và vận chuyển quà tặng từ trụ sở chính Eurowindow đến địa điểm khách hàng mong muốn.</li>
+  <li>Tất cả quà tặng và giải thưởng quay số <strong>không được quy đổi thành tiền mặt</strong>.</li>
+  <li>Trong trường hợp phát sinh tranh chấp, khiếu nại liên quan đến chương trình, Công ty Cổ phần Eurowindow trực tiếp giải quyết theo quy định của Công ty và các quy định pháp luật có liên quan.</li>
+  <li>Công ty Cổ phần Eurowindow được quyền sử dụng tên và hình ảnh trao thưởng của khách hàng cá nhân hoặc pháp nhân cho hoạt động quảng cáo, truyền thông hình ảnh thương hiệu Eurowindow.</li>
+</ul>
+
+<h2 id="thong-tin-lien-he" class="scroll-mt-24">10. Thông tin liên hệ</h2>
+<p><strong>CÔNG TY CỔ PHẦN EUROWINDOW</strong></p>
+<ul>
+  <li><strong>Trụ sở chính:</strong> Tòa nhà Văn phòng Eurowindow, số 2 Tôn Thất Tùng, phường Kim Liên, TP. Hà Nội<br /><strong>Hotline miền Bắc: <a href="tel:0909888000">0909 888 000</a></strong></li>
+  <li><strong>Chi nhánh miền Trung:</strong> 152 Phan Đăng Lưu, phường Hòa Cường, TP. Đà Nẵng<br /><strong>Hotline miền Trung:</strong> <a href="tel:0906000111">0906 000 111</a></li>
+  <li><strong>Chi nhánh miền Nam:</strong> <a href="/he-thong-showroom">39 Bis Mạc Đĩnh Chi, phường Tân Định, TP. Hồ Chí Minh</a><br /><strong>Hotline miền Nam:</strong> <a href="tel:0903118888">0903 11 8888</a></li>
+</ul>
+<p>Thể lệ CTKM: <a href="https://drive.google.com/file/d/1Alv12ipUXepp9cuw7Rn7ETS5tJh4eZKM/view?usp=sharing" target="_blank" rel="noopener noreferrer">TẠI ĐÂY</a></p>`,
+    sections: [
+      {
+        heading: "1. Tên chương trình “SẮM CỬA ĐÓN SANG – SẴN SÀNG RINH XẾ”",
+        id: "ten-chuong-trinh",
+        body: ["Tên chương trình: “SẮM CỬA ĐÓN SANG – SẴN SÀNG RINH XẾ”."],
+      },
+      {
+        heading: "2. Hàng hóa, dịch vụ dùng để khuyến mại: Sản phẩm Eurowindow",
+        id: "hang-hoa-dich-vu-khuyen-mai",
+        body: ["Hàng hóa, dịch vụ dùng để khuyến mại: [Sản phẩm Eurowindow](/san-pham)."],
+      },
+      {
+        heading: "3. Thời gian khuyến mại: Từ ngày 30/09/2026 đến hết ngày 30/11/2026",
+        id: "thoi-gian-khuyen-mai",
+        body: ["Thời gian khuyến mại: Từ ngày 30/09/2026 đến hết ngày 30/11/2026."],
+      },
+      {
+        heading: "4. Đối tượng và phạm vi áp dụng",
+        id: "doi-tuong-va-pham-vi-ap-dung",
+        body: [
+          "Đối tượng: Khách hàng nhà riêng trên toàn quốc ký hợp đồng/phụ lục hợp đồng mua sản phẩm của Công ty Cổ phần Eurowindow.",
+          "Điều kiện: Áp dụng với hợp đồng/phụ lục hợp đồng ký trong thời gian khuyến mại từ ngày 30/09/2026 đến hết ngày 30/11/2026 và hoàn thành thủ tục thanh toán đặt cọc tối thiểu 30% giá trị hợp đồng/phụ lục hợp đồng đến hết ngày 08/12/2026.",
+        ],
+      },
+      {
+        heading: "5. Nội dung chương trình khuyến mại",
+        id: "noi-dung-chuong-trinh-khuyen-mai",
+        body: [
+          "Tặng máy giặt kết hợp sấy Bosch: Khách hàng ký hợp đồng/phụ lục hợp đồng có giá trị từ 500 triệu đồng trở lên được nhận 01 máy giặt kết hợp sấy cửa trước Bosch Series 6 trị giá 41.990.000 đồng hoặc quà tặng tương đương.",
+          "Giảm thêm 2% khi thanh toán sớm: Khách hàng được giảm thêm 2% giá trị hợp đồng/phụ lục hợp đồng sau VAT khi thanh toán 100% giá trị hợp đồng/phụ lục hợp đồng trong vòng 07 ngày làm việc kể từ ngày ký hợp đồng/phụ lục hợp đồng.",
+          "Cơ hội quay số trúng thưởng: Mỗi 10.000.000 đồng thanh toán tương ứng 01 Mã dự thưởng (giá trị lẻ từ 5.000.000 đồng trở lên được nhận thêm 01 Mã dự thưởng).",
+        ],
+      },
+      {
+        heading: "6. Cơ cấu giải thưởng",
+        id: "co-cau-giai-thuong",
+        body: [
+          "01 Giải Đặc Biệt: Xe ô tô Mercedes-Benz C200 Avantgarde, sản xuất năm 2025, màu trắng, trị giá 1.599.000.000 đồng.",
+          "01 Giải Nhất: Xe máy Honda SH 125i phiên bản tiêu chuẩn, sản xuất năm 2026, màu trắng, trị giá 85.212.000 đồng.",
+          "02 Giải Nhì: Điện thoại iPhone 18 Pro Max 1TB, màu đỏ, trị giá 61.490.000 đồng/giải.",
+          "03 Giải Ba: Máy hút bụi khô và ướt Dyson V12s, trị giá 24.990.000 đồng/giải.",
+        ],
+      },
+      {
+        heading: "7. Thời gian và cách thức quay số trúng thưởng",
+        id: "thoi-gian-va-cach-thuc-quay-so",
+        body: [
+          "Thời gian dự kiến: 14h00 ngày 18/12/2026 tại Văn phòng Công ty Cổ phần Eurowindow, số 2 Tôn Thất Tùng, Phường Kim Liên, Thành phố Hà Nội.",
+        ],
+      },
+      {
+        heading: "8. Thủ tục nhận thưởng",
+        id: "thu-tuc-nhan-thuong",
+        body: [
+          "Địa điểm trao thưởng: Văn phòng Công ty Cổ phần Eurowindow, số 2 Tôn Thất Tùng, Phường Kim Liên, Thành phố Hà Nội. Thời hạn trao thưởng: Đến hết ngày 14/01/2027.",
+        ],
+      },
+      {
+        heading: "9. Một số quy định khác",
+        id: "mot-so-quy-dinh-khac",
+        body: [
+          "Chương trình khuyến mại không áp dụng đồng thời với chính sách ưu đãi khác. Tất cả quà tặng và giải thưởng quay số không được quy đổi thành tiền mặt.",
+        ],
+      },
+      {
+        heading: "10. Thông tin liên hệ",
+        id: "thong-tin-lien-he",
+        body: [
+          "Hotline miền Bắc: 0909 888 000 | Hotline miền Trung: 0906 000 111 | Hotline miền Nam: 0903 11 8888.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Chương trình khuyến mại “Sắm cửa đón sang – Sẵn sàng rinh xế” diễn ra trong thời gian nào?",
+        a: "Chương trình diễn ra từ ngày 30/09/2026 đến hết ngày 30/11/2026 dành cho khách hàng nhà riêng trên toàn quốc ký hợp đồng/phụ lục hợp đồng mua sản phẩm của Công ty Cổ phần Eurowindow và hoàn thành thủ tục thanh toán đặt cọc tối thiểu 30% giá trị hợp đồng/phụ lục hợp đồng đến hết ngày 08/12/2026.",
+      },
+      {
+        q: "Điều kiện nhận quà tặng máy giặt kết hợp sấy Bosch Series 6 và ưu đãi giảm thêm 2% là gì?",
+        a: "Khách hàng ký hợp đồng/phụ lục hợp đồng từ 500 triệu đồng trở lên và hoàn thành đặt cọc theo CTKM được nhận 01 máy giặt kết hợp sấy cửa trước Bosch Series 6 trị giá 41.990.000 đồng (hoặc quà tặng tương đương, 01 máy/địa chỉ công trình). Ngoài ra, khách hàng được giảm thêm 2% giá trị hợp đồng/phụ lục hợp đồng sau VAT khi thanh toán đủ 100% giá trị trong vòng 07 ngày làm việc kể từ ngày ký.",
+      },
+      {
+        q: "Cách tính Mã dự thưởng và thời gian nhận mã quay số như thế nào?",
+        a: "Mỗi 10.000.000 đồng thanh toán tương ứng 01 Mã dự thưởng; phần lẻ từ 5.000.000 đồng trở lên được tính thêm 01 Mã dự thưởng (thanh toán dưới 10.000.000 đồng hoặc sau ngày 08/12/2026 không được nhận mã). Mã dự thưởng gồm 08 chữ số ngẫu nhiên được gửi qua SMS Brandname “Eurowindow” vào ngày 15/12/2026.",
+      },
+      {
+        q: "Cơ cấu giải thưởng chương trình “Sắm cửa đón sang – Sẵn sàng rinh xế” gồm những gì?",
+        a: "Cơ cấu giải thưởng gồm: 01 Giải Đặc Biệt là xe ô tô Mercedes-Benz C200 Avantgarde 2025 màu trắng trị giá 1.599.000.000 đồng; 01 Giải Nhất là xe máy Honda SH 125i 2026 màu trắng trị giá 85.212.000 đồng; 02 Giải Nhì là điện thoại iPhone 18 Pro Max 1TB màu đỏ trị giá 61.490.000 đồng/giải; và 03 Giải Ba là máy hút bụi khô và ướt Dyson V12s trị giá 24.990.000 đồng/giải.",
+      },
+      {
+        q: "Lễ quay số trúng thưởng và thời hạn trao thưởng diễn ra khi nào, ở đâu?",
+        a: "Buổi quay số dự kiến tổ chức lúc 14h00 ngày 18/12/2026 và trao thưởng đến hết ngày 14/01/2027 tại Văn phòng Công ty Cổ phần Eurowindow, số 2 Tôn Thất Tùng, Phường Kim Liên, Thành phố Hà Nội.",
+      },
+    ],
+  },
+  {
     slug: "uu-dai-cua-upvc",
     aliases: ["uu-dai-cua-nhua-upvc", "khuyen-mai-cua-upvc"],
     title: "ƯU ĐÃI CỬA uPVC TIẾT KIỆM NĂNG LƯỢNG – EUROWINDOW HCM",

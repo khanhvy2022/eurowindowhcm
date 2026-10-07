@@ -37,9 +37,9 @@ export const metadata: Metadata = {
 
 
 const promos = [
+  { slug: "the-le-chuong-trinh-khuyen-mai-sam-cua-don-sang-san-sang-rinh-xe", title: "Thể lệ chương trình khuyến mại “Sắm cửa đón sang – Sẵn sàng rinh xế”", date: "30/09/2026", category: "Tin khuyến mãi", image: "/uploads/khuyen-mai-2026.png" },
   { slug: "khuyen-mai-kinh-dien-doi-mau", title: "KHUYẾN MÃI KÍNH ĐIỆN – SỞ HỮU CÔNG NGHỆ ĐỔI MÀU", date: "01/08/2026", category: "Ưu đãi", image: "/eurowindow/san-pham-kinh.jpg.webp" },
   { slug: "uu-dai-cua-upvc", title: "ƯU ĐÃI CỬA uPVC TIẾT KIỆM NĂNG LƯỢNG", date: "07/2026", category: "Ưu đãi", image: "/eurowindow/cuanhua1.jpg.webp" },
-  { slug: "uu-dai-cua-nhom-kinh", title: "ƯU ĐÃI HỆ CỬA NHÔM KÍNH EA55–EA95i", date: "07/2026", category: "Ưu đãi", image: "/eurowindow/ctkm-ea65ea68i-169-at-3x-large.png.webp" },
 ] as const;
 
 const press = [

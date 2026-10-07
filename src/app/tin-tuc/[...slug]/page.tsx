@@ -22,6 +22,14 @@ const EN_NEWS_SLUGS = new Set([
   "nen-chon-cua-gi-cho-mua-he-nang-nong",
 ]);
 
+// Convert dd/MM/yyyy → ISO 8601 (yyyy-MM-dd) for OG publishedTime and JSON-LD
+function toISO(dateStr: string): string | undefined {
+  if (!dateStr) return undefined;
+  const parts = dateStr.split("/");
+  if (parts.length === 3) return `${parts[2]}-${parts[1].padStart(2, "0")}-${parts[0].padStart(2, "0")}`;
+  return dateStr;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const slugStr = Array.isArray(slug) ? slug.join("/") : String(slug);
@@ -37,14 +45,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? article.excerpt
       : `Đọc bài viết ${rawTitle} – tin tức, kiến thức và giải pháp cửa Eurowindow HCM.`;
   const hasEn = EN_NEWS_SLUGS.has(article.slug);
-
-  // Convert dd/MM/yyyy → ISO 8601 (yyyy-MM-dd) for OG publishedTime
-  function toISO(dateStr: string): string | undefined {
-    if (!dateStr) return undefined;
-    const parts = dateStr.split("/");
-    if (parts.length === 3) return `${parts[2]}-${parts[1].padStart(2, "0")}-${parts[0].padStart(2, "0")}`;
-    return dateStr;
-  }
 
   const ogImage = article.image
     ? { url: article.image.startsWith("http") ? article.image : `${BASE_URL}${article.image}`, width: 1200, height: 630, alt: rawTitle }
@@ -130,14 +130,21 @@ export default async function ArticleDetailPage({ params }: Props) {
   const all = await getAllPosts();
   const related = all.filter((a) => a.slug !== article.slug).slice(0, 3);
 
+  const isoDate = toISO(article.date ?? "") || article.date;
+  const absImage = article.image
+    ? article.image.startsWith("http")
+      ? article.image
+      : `${BASE_URL}${article.image}`
+    : undefined;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.excerpt,
-    image: article.image ? [article.image] : undefined,
-    datePublished: article.date,
-    dateModified: article.date,
+    image: absImage ? [absImage] : undefined,
+    datePublished: isoDate,
+    dateModified: isoDate,
     author: {
       "@type": "Organization",
       name: article.author || "Eurowindow HCM",
@@ -182,6 +189,22 @@ export default async function ArticleDetailPage({ params }: Props) {
     ],
   };
 
+  const faqJsonLd =
+    article.faq && article.faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: article.faq.map((item) => ({
+            "@type": "Question",
+            name: item.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.a,
+            },
+          })),
+        }
+      : null;
+
   return (
     <div className="min-h-screen bg-[#071523] text-white">
       <script
@@ -192,6 +215,12 @@ export default async function ArticleDetailPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      ) : null}
       <Header />
       <main>
         <section className="border-b border-white/10 py-16 md:py-20">
@@ -209,7 +238,7 @@ export default async function ArticleDetailPage({ params }: Props) {
           </div>
         </section>
 
-        {article.image && (!article.contentHtml || !/<img/i.test(article.contentHtml.slice(0, 400))) ? (
+        {article.image && (!article.contentHtml || (!/<img/i.test(article.contentHtml.slice(0, 400)) && !article.contentHtml.includes(article.image))) ? (
           <section className="py-12">
             <div className="mx-auto max-w-[900px] px-5 sm:px-8">
               <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#102238] shadow-2xl">
